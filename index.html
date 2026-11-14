@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sai Đâu Sửa Đó — Kho bài học</title>
+<meta name="description" content="Tra cứu lỗi tiếng Anh người Việt hay mắc. Mỗi bài ghi một lỗi, cách nói đúng và ví dụ. Mỗi ngày sửa một lỗi nhỏ.">
+<style>
+:root{--navy:#173F5F;--mint:#DCEFEA;--orange:#F26B38;--ink:#1A202C;--sub:#4A5568;--bg:#F6F8F7;--red-bg:#FDECEA;--red:#C0392B;--line:#E2E8F0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Be Vietnam Pro","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:var(--navy)}
+header{background:var(--navy);color:#fff;padding:34px 20px 28px}
+.wrap{max-width:1020px;margin:0 auto;padding:0 16px}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:58px;height:58px;border-radius:14px;background:#fff;color:var(--navy);font-weight:900;font-size:36px;display:flex;align-items:center;justify-content:center;position:relative;flex:none}
+.logo::after{content:"✓";position:absolute;right:-7px;bottom:-9px;color:var(--orange);font-size:30px}
+header h1{font-size:26px;line-height:1.2}
+header p.slogan{color:var(--mint);font-weight:600;margin-top:4px}
+header p.intro{color:#CBDCE8;margin-top:10px;max-width:640px;font-size:15px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:5px 13px;font-size:13px}
+.toolbar{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:5;padding:12px 0}
+.toolbar .wrap{display:flex;flex-direction:column;gap:10px}
+#search{width:100%;padding:12px 14px;font-size:16px;border:2px solid var(--line);border-radius:12px;outline:none}
+#search:focus{border-color:var(--navy)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font-size:14px;cursor:pointer}
+.chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.viewtoggle{margin-left:auto;display:flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden}
+.viewtoggle button{border:0;background:#fff;padding:6px 14px;font-size:14px;cursor:pointer}
+.viewtoggle button.on{background:var(--navy);color:#fff}
+.howto{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:18px 0}
+.howto h2{font-size:17px;margin-bottom:8px}
+.howto ol{margin-left:20px;display:grid;gap:6px;font-size:15px}
+#count{color:var(--sub);font-size:14px;margin:4px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;padding-bottom:8px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.card h3{font-size:17px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;background:#EDF2F7;color:var(--sub)}
+.tag.topic{background:var(--mint);color:var(--navy)}
+.tag.type-Lỗi{background:var(--red-bg);color:var(--red)}
+.tag.type-Quiz{background:#FEF3C7;color:#92400E}
+.tag.type-Reels{background:#EDE9FE;color:#5B21B6}
+.box{border-radius:10px;padding:10px 12px}
+.box small{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;margin-bottom:2px}
+.box.wrong{background:var(--red-bg);color:var(--red)}
+.box.right{background:var(--mint);color:var(--navy)}
+.box p{font-size:16px;font-weight:600}
+.explain{font-size:15px}
+.explain b{color:var(--navy)}
+.example{font-size:14px;color:var(--sub);background:var(--bg);border-radius:10px;padding:9px 12px;white-space:pre-line}
+.ipa{font-size:13px;color:var(--sub)}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:4px}
+.meta time{font-size:13px;color:var(--sub)}
+.meta a{font-size:14px;font-weight:700;text-decoration:none}
+.meta a:hover{text-decoration:underline}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:15px}
+th,td{border-bottom:1px solid var(--line);padding:11px 12px;text-align:left;vertical-align:top}
+th{background:var(--navy);color:#fff;font-size:13px;letter-spacing:.03em}
+tr:last-child td{border-bottom:0}
+td .wrong{color:var(--red);font-weight:600}
+td .right{color:var(--navy);font-weight:600}
+.tablewrap{overflow-x:auto;border-radius:14px;border:1px solid var(--line);margin-bottom:8px}
+.empty{background:#fff;border:1px dashed var(--line);border-radius:14px;padding:28px;text-align:center;color:var(--sub)}
+footer{background:var(--navy);color:#CBDCE8;margin-top:28px;padding:24px 20px;font-size:14px}
+footer a{color:#fff;font-weight:700}
+@media(max-width:560px){header h1{font-size:22px}.viewtoggle{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">S</div>
+      <div>
+        <h1>Sai Đâu Sửa Đó — Kho bài học</h1>
+        <p class="slogan">Mỗi ngày sửa một lỗi nhỏ.</p>
+      </div>
+    </div>
+    <p class="intro">Tra cứu lỗi tiếng Anh người Việt hay mắc. Mỗi bài ghi một lỗi, cách nói đúng và ví dụ. Bấm vào 1 bài để xem đầy đủ, bấm link để xem bài gốc trên Facebook.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<div class="toolbar">
+  <div class="wrap">
+    <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
+    <div class="chips" id="topicChips"></div>
+    <div class="chips">
+      <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
+      <span class="viewtoggle">
+        <button id="btnCards" class="on" type="button">Thẻ</button>
+        <button id="btnTable" type="button">Bảng</button>
+      </span>
+    </div>
+  </div>
+</div>
+<main class="wrap">
+  <section class="howto">
+    <h2>Bắt đầu từ đâu?</h2>
+    <ol>
+      <li><b>Mới học lại từ đầu:</b> học theo thứ tự Lỗi #001, #002, #003 — những lỗi ai cũng mắc.</li>
+      <li><b>Đi làm, cần dùng ngay:</b> lọc Chủ đề = công sở.</li>
+      <li><b>Hay đọc sai:</b> lọc Chủ đề = phát âm, xem IPA rồi đọc theo.</li>
+    </ol>
+  </section>
+  <p id="count"></p>
+  <div id="cards" class="grid"></div>
+  <div id="tableWrap" class="tablewrap" hidden>
+    <table>
+      <thead><tr><th>Bài</th><th>Câu sai</th><th>Câu đúng</th><th>Giải thích</th><th>Chủ đề</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    Học trên Facebook: <a href="https://www.facebook.com/profile.php?id=61596506009854">Sai Đâu Sửa Đó</a>
+    &nbsp;•&nbsp; Vào Group làm bài tập mỗi ngày: <a href="https://www.facebook.com/groups/4387154551501983">Cộng đồng Sai Đâu Sửa Đó</a>
+  </div>
+</footer>
+<script>
+const LESSONS=[
+{id:"Lỗi #001",type:"Lỗi",topic:"công sở",date:"2026-11-12",wrong:"Can you borrow me your pen?",right:"Can you lend me your pen?",why:"borrow là mượn về mình, lend là cho người khác mượn.",ex:"Can you lend me your pen?",ipa:"",fb:"https://www.facebook.com/61596506009854/posts/122097926157550200"},
+{id:"Mẫu câu #001",type:"Mẫu câu",topic:"công sở",date:"2026-11-12",wrong:"I want to ask leave.",right:"I would like to take a day off tomorrow.",why:"Dùng take a day off, không nói ask leave.",ex:"I would like to take a day off tomorrow.\nCould I take Monday off, please?\nI need to take a day off for a family matter.\nI will finish my work before I leave.",ipa:"",fb:"https://www.facebook.com/61596506009854/posts/122097927609550200"},
+{id:"Quiz #001",type:"Quiz",topic:"công sở",date:"2026-11-12",wrong:"Can you ___ me your pen? (A. borrow / B. lend / C. take)",right:"Can you lend me your pen?",why:"borrow là mượn về mình, lend là cho người khác mượn.",ex:"",ipa:"",fb:"https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854"},
+{id:"Lỗi #002",type:"Lỗi",topic:"giao tiếp",date:"2026-11-12",wrong:"I am boring.",right:"I am bored.",why:"boring tả thứ gây chán, bored tả cảm giác của người.",ex:"The movie is boring.\nI am bored.",ipa:"",fb:"https://www.facebook.com/61596506009854/posts/122097942729550200"},
+{id:"Lỗi #003",type:"Lỗi",topic:"giao tiếp",date:"2026-11-13",wrong:"She said me that she was busy.",right:"She told me that she was busy.",why:"tell đi với người nghe, say đi với nội dung được nói ra.",ex:"She told me that she was busy.",ipa:"",fb:"https://www.facebook.com/61596506009854/posts/122098476867550200"},
+{id:"Mẫu câu #002",type:"Mẫu câu",topic:"giao tiếp",date:"2026-11-13",wrong:"I am come from Vietnam.",right:"I come from Vietnam.",why:"come là động từ nên không đi với am.",ex:"Hi, I am Lan. I work in Da Lat. — Tôi là Lan. Tôi làm việc ở Đà Lạt.\nNice to meet you. — Rất vui được gặp bạn.\nI am from Vietnam. — Tôi đến từ Việt Nam.\nWhat do you do? — Bạn làm nghề gì?",ipa:"",fb:"https://www.facebook.com/61596506009854/posts/122098626711550200"},
+{id:"Quiz #002",type:"Quiz",topic:"giao tiếp",date:"2026-11-13",wrong:"The movie was so ___. I felt ___. (A. boring, bored / B. bored, boring / C. boring, boring)",right:"A. boring, bored — The movie was so boring. I felt bored.",why:"boring tả bộ phim gây chán, bored tả cảm giác của mình.",ex:"",ipa:"",fb:"https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/"},
+{id:"Reel #001",type:"Reels",topic:"công sở",date:"2026-11-13",wrong:"Can you borrow me your pen?",right:"Can you lend me your pen?",why:"borrow là mượn về mình, lend là cho người khác mượn.",ex:"Can you lend me your pen? (Bạn cho tôi mượn cây bút được không?)",ipa:"",fb:"https://www.facebook.com/reel/1521348529887565"},
+{id:"Reel #002",type:"Reels",topic:"giao tiếp",date:"2026-11-13",wrong:"I am boring today.",right:"I am bored today.",why:"bored là mình chán, boring là mình làm người khác chán.",ex:"",ipa:"",fb:"https://www.facebook.com/reel/4646144255666119"},
+{id:"Lỗi #004",type:"Lỗi",topic:"phát âm",date:"2026-11-14",wrong:"Đọc com-for-ta-bồ, 4 âm.",right:"Đọc gần như CUMF-tơ-bồ, 3 âm, âm tơ đọc nhẹ.",why:"Âm giữa đọc rất nhẹ, nên nghe như chỉ có 3 âm.",ex:"This chair is very comfortable. — Cái ghế này rất thoải mái.",ipa:"Oxford, Anh-Mỹ /ˈkʌmftərbl/",fb:"https://www.facebook.com/61596506009854/posts/122099308863550200"},
+{id:"Mẫu câu #003",type:"Mẫu câu",topic:"phát âm",date:"2026-11-14",wrong:"I saw a sheep on the sea.",right:"I saw a ship on the sea.",why:"ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.",ex:"a ship on the sea. — Một con tàu trên biển.\na sheep on the farm. — Một con cừu trên nông trại.\nI saw a ship on the sea. — Tôi thấy một con tàu trên biển.",ipa:"Cambridge — ship /ʃɪp/, sheep /ʃiːp/, live /lɪv/, leave /liːv/, think /θɪŋk/, sink /sɪŋk/",fb:"https://www.facebook.com/61596506009854/posts/122099427615550200"},
+{id:"Quiz #003",type:"Quiz",topic:"phát âm",date:"2026-11-14",wrong:"comfortable có 4 âm (đọc com-for-ta-bồ)",right:"B. 3 âm",why:"comfortable đọc /ˈkʌmftərbl/ (Oxford, Anh-Mỹ), chỉ có 3 âm, âm giữa đọc rất nhẹ.",ex:"",ipa:"Oxford Advanced American Dictionary (Anh-Mỹ): /ˈkʌmftərbl/, 3 âm",fb:"https://www.facebook.com/61596506009854/posts/122099710137550200"}
+];
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+let topic="Tất cả", type="Tất cả", q="", view="cards";
+const TOPICS=["Tất cả","công sở","giao tiếp","phát âm"];
+const TYPES=["Tất cả","Lỗi","Mẫu câu","Quiz","Reels"];
+function chipRow(el,items,cur,fn){
+  el.innerHTML=items.map(v=>`<button type="button" class="chip${v===cur?" on":""}" data-v="${v}">${v}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{fn(b.dataset.v);render();});
+}
+function filtered(){
+  return LESSONS.filter(l=>
+    (topic==="Tất cả"||l.topic===topic)&&
+    (type==="Tất cả"||l.type===type)&&
+    (!q||(l.wrong+" "+l.right+" "+l.why+" "+l.ex+" "+l.id).toLowerCase().includes(q))
+  ).slice().sort((a,b)=>b.date.localeCompare(a.date)||b.id.localeCompare(a.id));
+}
+function card(l){
+  return `<article class="card">
+    <div class="tags"><span class="tag">✎ ${esc(l.id)}</span><span class="tag type-${esc(l.type)}">${esc(l.type)}</span><span class="tag topic">${esc(l.topic)}</span></div>
+    <div class="box wrong"><small>✗ CÂU SAI</small><p>${esc(l.wrong)}</p></div>
+    <div class="box right"><small>✓ CÂU ĐÚNG</small><p>${esc(l.right)}</p></div>
+    <p class="explain"><b>Vì sao:</b> ${esc(l.why)}</p>
+    ${l.ex?`<p class="example">${esc(l.ex)}</p>`:""}
+    ${l.ipa?`<p class="ipa">IPA: ${esc(l.ipa)}</p>`:""}
+    <div class="meta"><time>${l.date.split("-").reverse().join("/")}</time><a href="${l.fb}" target="_blank" rel="noopener">Xem bài gốc →</a></div>
+  </article>`;
+}
+function render(){
+  document.getElementById("stats").innerHTML=
+    `<span class="stat">📚 ${LESSONS.length} bài học</span><span class="stat">🎯 3 chủ đề</span><span class="stat">🗓️ Mới nhất ${LESSONS[LESSONS.length-1].date.split("-").reverse().join("/")}</span>`;
+  chipRow(document.getElementById("topicChips"),TOPICS,topic,v=>topic=v);
+  chipRow(document.getElementById("typeChips"),TYPES,type,v=>type=v);
+  const list=filtered();
+  document.getElementById("count").textContent=list.length?`Đang xem ${list.length} bài`:"Không thấy bài nào khớp — thử từ khác nhé.";
+  document.getElementById("cards").hidden=view!=="cards";
+  document.getElementById("tableWrap").hidden=view!=="table";
+  document.getElementById("btnCards").classList.toggle("on",view==="cards");
+  document.getElementById("btnTable").classList.toggle("on",view==="table");
+  document.getElementById("cards").innerHTML=list.length?list.map(card).join(""):`<div class="empty">Không thấy bài nào khớp — thử từ khác nhé.</div>`;
+  document.getElementById("tbody").innerHTML=list.map(l=>`<tr><td><b>${esc(l.id)}</b><br><span class="tag">${esc(l.type)}</span></td><td><span class="wrong">${esc(l.wrong)}</span></td><td><span class="right">${esc(l.right)}</span></td><td>${esc(l.why)}</td><td><span class="tag topic">${esc(l.topic)}</span></td></tr>`).join("");
+}
+document.getElementById("search").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render();});
+document.getElementById("btnCards").onclick=()=>{view="cards";render();};
+document.getElementById("btnTable").onclick=()=>{view="table";render();};
+render();
+</script>
+</body>
+</html>
