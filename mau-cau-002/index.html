@@ -231,7 +231,7 @@ footer a{color:#fff;font-weight:700}
   <button type="button" class="grade-retry">Làm lại</button>
 </div>
 
-<p class="practice-score">Bạn làm đúng <span class="practice-score-num"></span></p></div>
+<p class="practice-score">Kết quả luyện tập: <span class="practice-score-num"></span></p></div>
 <div class="remember"><b>📌 Nhớ điều này:</b> I come from Vietnam — come là động từ, không đi với am.</div>
     <p style="margin-top:14px;font-size:16px">Xem bài gốc trên Facebook:
       <a href="https://www.facebook.com/61596506009854/posts/122098626711550200" target="_blank" rel="noopener">mở bài đăng →</a></p>
@@ -335,6 +335,8 @@ document.getElementById("btn-done").addEventListener("click",()=>{
   const done=loadJSON(DONE_KEY);
   if(done[SLUG])delete done[SLUG];else done[SLUG]=todayISO();
   saveJSON(DONE_KEY,done);renderDone();
+  const n=Object.keys(done).filter(s=>window.SDSC_LESSONS[s]).length;
+  document.querySelectorAll(".progress-num").forEach(el=>{el.textContent=n+" / "+window.SDSC_TOTAL_LESSONS+" bài";});
 });
 (function(){
   const paths=window.SDSC_PATHS||{};

@@ -234,7 +234,7 @@ footer a{color:#fff;font-weight:700}
   <button type="button" class="grade-retry">Làm lại</button>
 </div>
 
-<p class="practice-score">Bạn làm đúng <span class="practice-score-num"></span></p></div>
+<p class="practice-score">Kết quả luyện tập: <span class="practice-score-num"></span></p></div>
 <div class="remember"><b>📌 Nhớ điều này:</b> ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.</div>
 <div class="dicts"><a href="https://dictionary.cambridge.org/dictionary/english/ship" target="_blank" rel="noopener">📖 Cambridge — ship</a><a href="https://dictionary.cambridge.org/dictionary/english/sheep" target="_blank" rel="noopener">📖 Cambridge — sheep</a><a href="https://dictionary.cambridge.org/dictionary/english/live" target="_blank" rel="noopener">📖 Cambridge — live</a><a href="https://dictionary.cambridge.org/dictionary/english/leave" target="_blank" rel="noopener">📖 Cambridge — leave</a><a href="https://dictionary.cambridge.org/dictionary/english/think" target="_blank" rel="noopener">📖 Cambridge — think</a><a href="https://dictionary.cambridge.org/dictionary/english/sink" target="_blank" rel="noopener">📖 Cambridge — sink</a></div>
     <p style="margin-top:14px;font-size:16px">Xem bài gốc trên Facebook:
@@ -339,6 +339,8 @@ document.getElementById("btn-done").addEventListener("click",()=>{
   const done=loadJSON(DONE_KEY);
   if(done[SLUG])delete done[SLUG];else done[SLUG]=todayISO();
   saveJSON(DONE_KEY,done);renderDone();
+  const n=Object.keys(done).filter(s=>window.SDSC_LESSONS[s]).length;
+  document.querySelectorAll(".progress-num").forEach(el=>{el.textContent=n+" / "+window.SDSC_TOTAL_LESSONS+" bài";});
 });
 (function(){
   const paths=window.SDSC_PATHS||{};
