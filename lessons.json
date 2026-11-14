@@ -1,1 +1,393 @@
-{"lessons":[{"code":"Lỗi #001","date":"2026-11-12","dict_links":[],"examples":[{"en":"Can you lend me your pen?","vi":"Bạn cho tôi mượn cây bút được không?"}],"fb":"https://www.facebook.com/61596506009854/posts/122097926157550200","image_src":"ngay-01/Loi-001-borrow-lend.png","ipa":[],"quiz":null,"right":"Can you lend me your pen?","right_note":"Bạn cho tôi mượn cây bút được không?","slug":"loi-001","title":"borrow và lend","topic":"công sở","type":"Lỗi","why":"borrow là mượn về mình, lend là cho người khác mượn.","wrong":"Can you borrow me your pen?","wrong_note":"Bạn cho tôi mượn cây bút được không?"},{"code":"Mẫu câu #001","date":"2026-11-12","dict_links":[],"examples":[{"en":"I would like to take a day off tomorrow.","vi":"Tôi muốn xin nghỉ một ngày vào ngày mai."},{"en":"Could I take Monday off, please?","vi":"Tôi có thể nghỉ thứ Hai được không?"},{"en":"I need to take a day off for a family matter.","vi":"Tôi cần nghỉ một ngày vì việc gia đình."},{"en":"I will finish my work before I leave.","vi":"Tôi sẽ xong việc trước khi về."}],"fb":"https://www.facebook.com/61596506009854/posts/122097927609550200","image_src":"ngay-01/Mau-cau-001-slide-1.png","ipa":[],"quiz":null,"right":"I would like to take a day off tomorrow.","right_note":"Tôi muốn xin nghỉ một ngày vào ngày mai.","slug":"mau-cau-001","title":"xin nghỉ phép","topic":"công sở","type":"Mẫu câu","why":"Dùng take a day off, không nói ask leave.","wrong":"I want to ask leave.","wrong_note":""},{"code":"Quiz #001","date":"2026-11-12","dict_links":[],"examples":[],"fb":"https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854","image_src":"ngay-01/Quiz-001-borrow-lend.png","ipa":[],"quiz":{"answer":1,"explanation":"borrow là mượn về mình, lend là cho người khác mượn. Câu đúng: Can you lend me your pen?","options":["borrow","lend","take"],"prompt":"Can you ___ me your pen?","question":"Bạn mượn bút của đồng nghiệp, bạn nói thế nào?"},"right":"Can you lend me your pen?","right_note":"Bạn cho tôi mượn cây bút được không?","slug":"quiz-001","title":"borrow hay lend?","topic":"công sở","type":"Quiz","why":"borrow là mượn về mình, lend là cho người khác mượn.","wrong":"Can you ___ me your pen?","wrong_note":""},{"code":"Lỗi #002","date":"2026-11-12","dict_links":[],"examples":[{"en":"The movie is boring.","vi":"Bộ phim chán."},{"en":"I am bored.","vi":"Tôi thấy chán."}],"fb":"https://www.facebook.com/61596506009854/posts/122097942729550200","image_src":"ngay-02/Loi-002-bored-boring.png","ipa":[],"quiz":null,"right":"I am bored.","right_note":"Tôi thấy chán.","slug":"loi-002","title":"bored và boring","topic":"giao tiếp","type":"Lỗi","why":"boring tả thứ gây chán, bored tả cảm giác của người.","wrong":"I am boring.","wrong_note":"Tôi là người nhàm chán."},{"code":"Lỗi #003","date":"2026-11-13","dict_links":[],"examples":[{"en":"She told me that she was busy.","vi":"Cô ấy nói với tôi rằng cô ấy bận."}],"fb":"https://www.facebook.com/61596506009854/posts/122098476867550200","image_src":"ngay-02/Loi-003-say-tell.png","ipa":[],"quiz":null,"right":"She told me that she was busy.","right_note":"Cô ấy nói với tôi rằng cô ấy bận.","slug":"loi-003","title":"say và tell","topic":"giao tiếp","type":"Lỗi","why":"tell đi với người nghe, say đi với nội dung được nói ra.","wrong":"She said me that she was busy.","wrong_note":"Cô ấy nói với tôi rằng cô ấy bận."},{"code":"Mẫu câu #002","date":"2026-11-13","dict_links":[],"examples":[{"en":"Hi, I am Lan. I work in Da Lat.","vi":"Tôi là Lan. Tôi làm việc ở Đà Lạt."},{"en":"Nice to meet you.","vi":"Rất vui được gặp bạn."},{"en":"I am from Vietnam.","vi":"Tôi đến từ Việt Nam."},{"en":"What do you do?","vi":"Bạn làm nghề gì?"}],"fb":"https://www.facebook.com/61596506009854/posts/122098626711550200","image_src":"ngay-02/Mau-cau-002-slide-1.png","ipa":[],"quiz":null,"right":"I come from Vietnam.","right_note":"Tôi đến từ Việt Nam.","slug":"mau-cau-002","title":"giới thiệu bản thân","topic":"giao tiếp","type":"Mẫu câu","why":"come là động từ nên không đi với am.","wrong":"I am come from Vietnam.","wrong_note":""},{"code":"Quiz #002","date":"2026-11-13","dict_links":[],"examples":[],"fb":"https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/","image_src":"ngay-02/Quiz-002-bored-boring.png","ipa":[],"quiz":{"answer":0,"explanation":"boring tả bộ phim gây chán, bored tả cảm giác của mình. Câu đúng: The movie was so boring. I felt bored.","options":["boring, bored","bored, boring","boring, boring"],"prompt":"The movie was so ___. I felt ___.","question":"Phim chán quá, mình cũng chán theo. Câu này điền 2 từ nào mới đúng?"},"right":"The movie was so boring. I felt bored.","right_note":"","slug":"quiz-002","title":"boring hay bored?","topic":"giao tiếp","type":"Quiz","why":"boring tả bộ phim gây chán, bored tả cảm giác của mình.","wrong":"The movie was so ___. I felt ___.","wrong_note":"Phim chán quá, mình cũng chán theo."},{"code":"Reel #001","date":"2026-11-13","dict_links":[],"examples":[{"en":"Can you lend me your pen?","vi":"Bạn cho tôi mượn cây bút được không?"}],"fb":"https://www.facebook.com/reel/1521348529887565","image_src":"reels/frames/reel-001-f1.png","ipa":[],"quiz":null,"right":"Can you lend me your pen?","right_note":"Bạn cho tôi mượn cây bút được không?","slug":"reel-001","title":"borrow và lend","topic":"công sở","type":"Reels","why":"borrow là mượn về mình, lend là cho người khác mượn.","wrong":"Can you borrow me your pen?","wrong_note":"Bạn cho tôi mượn cây bút được không?"},{"code":"Reel #002","date":"2026-11-13","dict_links":[],"examples":[{"en":"I am bored today.","vi":"Hôm nay tôi thấy chán."}],"fb":"https://www.facebook.com/reel/4646144255666119","image_src":"reels/frames/reel-002-f1.png","ipa":[],"quiz":null,"right":"I am bored today.","right_note":"Hôm nay tôi thấy chán.","slug":"reel-002","title":"I am bored","topic":"giao tiếp","type":"Reels","why":"bored là mình chán, boring là mình làm người khác chán.","wrong":"I am boring today.","wrong_note":""},{"code":"Lỗi #004","date":"2026-11-14","dict_links":[{"label":"Cambridge — comfortable","url":"https://dictionary.cambridge.org/dictionary/english/comfortable"},{"label":"Oxford — comfortable","url":"https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"}],"examples":[{"en":"This chair is very comfortable.","vi":"Cái ghế này rất thoải mái."}],"fb":"https://www.facebook.com/61596506009854/posts/122099308863550200","image_src":"ngay-03/Loi-004-comfortable.png","ipa":[{"note":"dạng đầy đủ /ˈkʌmfərt̮əbl/ cũng được Oxford ghi nhận","source":"Oxford, Anh-Mỹ","text":"/ˈkʌmftərbl/"},{"note":"cách ghi khác, cùng cách đọc gọn 3 âm","source":"Cambridge, Anh-Mỹ","text":"/ˈkʌm.fɚ.t̬ə.bəl/"}],"quiz":{"answer":1,"explanation":"comfortable đọc /ˈkʌmftərbl/ (Oxford, Anh-Mỹ), chỉ có 3 âm, âm giữa đọc rất nhẹ.","merged_from":"Quiz #003 — cùng nội dung, gộp vào bài này thay vì đăng trùng","options":["2 âm","3 âm","4 âm"],"prompt":"comfortable có mấy âm?","question":"Từ comfortable có mấy âm?"},"right":"CUMF-tơ-bồ","right_note":"thường đọc 3 âm","slug":"loi-004","title":"comfortable đọc mấy âm?","topic":"phát âm","type":"Lỗi","why":"Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ. Đọc 4 âm vẫn hiểu được, nhưng nghe chưa tự nhiên.","wrong":"com-for-ta-bồ","wrong_note":"đọc tách thành 4 âm"},{"code":"Mẫu câu #003","date":"2026-11-14","dict_links":[{"label":"Cambridge — ship","url":"https://dictionary.cambridge.org/dictionary/english/ship"},{"label":"Cambridge — sheep","url":"https://dictionary.cambridge.org/dictionary/english/sheep"},{"label":"Cambridge — live","url":"https://dictionary.cambridge.org/dictionary/english/live"},{"label":"Cambridge — leave","url":"https://dictionary.cambridge.org/dictionary/english/leave"},{"label":"Cambridge — think","url":"https://dictionary.cambridge.org/dictionary/english/think"},{"label":"Cambridge — sink","url":"https://dictionary.cambridge.org/dictionary/english/sink"}],"examples":[{"en":"a ship on the sea.","vi":"Một con tàu trên biển."},{"en":"a sheep on the farm.","vi":"Một con cừu trên nông trại."},{"en":"I saw a ship on the sea.","vi":"Tôi thấy một con tàu trên biển."}],"fb":"https://www.facebook.com/61596506009854/posts/122099427615550200","image_src":"ngay-03/Mau-cau-003-slide-1.png","ipa":[{"note":"ship âm ngắn, sheep âm dài","source":"Cambridge","text":"ship /ʃɪp/ — sheep /ʃiːp/"},{"note":"live âm ngắn, leave âm dài","source":"Cambridge","text":"live /lɪv/ — leave /liːv/"},{"note":"think âm th, sink âm s","source":"Cambridge","text":"think /θɪŋk/ — sink /sɪŋk/"}],"quiz":null,"right":"I saw a ship on the sea.","right_note":"Tôi thấy một con tàu trên biển.","slug":"mau-cau-003","title":"3 cặp âm dễ nhầm","topic":"phát âm","type":"Mẫu câu","why":"ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.","wrong":"I saw a sheep on the sea.","wrong_note":"Tôi thấy một con cừu trên biển."}],"site":{"base_url":"https://dongdarealest.github.io/sai-dau-sua-do","facebook_group":"https://www.facebook.com/groups/4387154551501983","facebook_page":"https://www.facebook.com/profile.php?id=61596506009854","name":"Sai Đâu Sửa Đó — Kho bài học","slogan":"Mỗi ngày sửa một lỗi nhỏ."}}
+{
+ "lessons": [
+  {
+   "code": "Lỗi #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Can you lend me your pen?",
+     "vi": "Bạn cho tôi mượn cây bút được không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097926157550200",
+   "image_src": "ngay-01/Loi-001-borrow-lend.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "loi-001",
+   "title": "borrow và lend",
+   "topic": "công sở",
+   "type": "Lỗi",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you borrow me your pen?",
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?"
+  },
+  {
+   "code": "Mẫu câu #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I would like to take a day off tomorrow.",
+     "vi": "Tôi muốn xin nghỉ một ngày vào ngày mai."
+    },
+    {
+     "en": "Could I take Monday off, please?",
+     "vi": "Tôi có thể nghỉ thứ Hai được không?"
+    },
+    {
+     "en": "I need to take a day off for a family matter.",
+     "vi": "Tôi cần nghỉ một ngày vì việc gia đình."
+    },
+    {
+     "en": "I will finish my work before I leave.",
+     "vi": "Tôi sẽ xong việc trước khi về."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097927609550200",
+   "image_src": "ngay-01/Mau-cau-001-slide-1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I would like to take a day off tomorrow.",
+   "right_note": "Tôi muốn xin nghỉ một ngày vào ngày mai.",
+   "slug": "mau-cau-001",
+   "title": "xin nghỉ phép",
+   "topic": "công sở",
+   "type": "Mẫu câu",
+   "why": "Dùng take a day off, không nói ask leave.",
+   "wrong": "I want to ask leave.",
+   "wrong_note": ""
+  },
+  {
+   "code": "Quiz #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [],
+   "fb": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854",
+   "image_src": "ngay-01/Quiz-001-borrow-lend.png",
+   "ipa": [],
+   "quiz": {
+    "answer": 1,
+    "explanation": "borrow là mượn về mình, lend là cho người khác mượn. Câu đúng: Can you lend me your pen?",
+    "options": [
+     "borrow",
+     "lend",
+     "take"
+    ],
+    "prompt": "Can you ___ me your pen?",
+    "question": "Bạn mượn bút của đồng nghiệp, bạn nói thế nào?"
+   },
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "quiz-001",
+   "title": "borrow hay lend?",
+   "topic": "công sở",
+   "type": "Quiz",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you ___ me your pen?",
+   "wrong_note": ""
+  },
+  {
+   "code": "Lỗi #002",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The movie is boring.",
+     "vi": "Bộ phim chán."
+    },
+    {
+     "en": "I am bored.",
+     "vi": "Tôi thấy chán."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097942729550200",
+   "image_src": "ngay-02/Loi-002-bored-boring.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I am bored.",
+   "right_note": "Tôi thấy chán.",
+   "slug": "loi-002",
+   "title": "bored và boring",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "boring tả thứ gây chán, bored tả cảm giác của người.",
+   "wrong": "I am boring.",
+   "wrong_note": "Tôi là người nhàm chán."
+  },
+  {
+   "code": "Lỗi #003",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She told me that she was busy.",
+     "vi": "Cô ấy nói với tôi rằng cô ấy bận."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122098476867550200",
+   "image_src": "ngay-02/Loi-003-say-tell.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "She told me that she was busy.",
+   "right_note": "Cô ấy nói với tôi rằng cô ấy bận.",
+   "slug": "loi-003",
+   "title": "say và tell",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "tell đi với người nghe, say đi với nội dung được nói ra.",
+   "wrong": "She said me that she was busy.",
+   "wrong_note": "Cô ấy nói với tôi rằng cô ấy bận."
+  },
+  {
+   "code": "Mẫu câu #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Hi, I am Lan. I work in Da Lat.",
+     "vi": "Tôi là Lan. Tôi làm việc ở Đà Lạt."
+    },
+    {
+     "en": "Nice to meet you.",
+     "vi": "Rất vui được gặp bạn."
+    },
+    {
+     "en": "I am from Vietnam.",
+     "vi": "Tôi đến từ Việt Nam."
+    },
+    {
+     "en": "What do you do?",
+     "vi": "Bạn làm nghề gì?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122098626711550200",
+   "image_src": "ngay-02/Mau-cau-002-slide-1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I come from Vietnam.",
+   "right_note": "Tôi đến từ Việt Nam.",
+   "slug": "mau-cau-002",
+   "title": "giới thiệu bản thân",
+   "topic": "giao tiếp",
+   "type": "Mẫu câu",
+   "why": "come là động từ nên không đi với am.",
+   "wrong": "I am come from Vietnam.",
+   "wrong_note": ""
+  },
+  {
+   "code": "Quiz #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [],
+   "fb": "https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/",
+   "image_src": "ngay-02/Quiz-002-bored-boring.png",
+   "ipa": [],
+   "quiz": {
+    "answer": 0,
+    "explanation": "boring tả bộ phim gây chán, bored tả cảm giác của mình. Câu đúng: The movie was so boring. I felt bored.",
+    "options": [
+     "boring, bored",
+     "bored, boring",
+     "boring, boring"
+    ],
+    "prompt": "The movie was so ___. I felt ___.",
+    "question": "Phim chán quá, mình cũng chán theo. Câu này điền 2 từ nào mới đúng?"
+   },
+   "right": "The movie was so boring. I felt bored.",
+   "right_note": "",
+   "slug": "quiz-002",
+   "title": "boring hay bored?",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "boring tả bộ phim gây chán, bored tả cảm giác của mình.",
+   "wrong": "The movie was so ___. I felt ___.",
+   "wrong_note": "Phim chán quá, mình cũng chán theo."
+  },
+  {
+   "code": "Reel #001",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Can you lend me your pen?",
+     "vi": "Bạn cho tôi mượn cây bút được không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1521348529887565",
+   "image_src": "reels/frames/reel-001-f1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "reel-001",
+   "title": "borrow và lend",
+   "topic": "công sở",
+   "type": "Reels",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you borrow me your pen?",
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?"
+  },
+  {
+   "code": "Reel #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I am bored today.",
+     "vi": "Hôm nay tôi thấy chán."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/4646144255666119",
+   "image_src": "reels/frames/reel-002-f1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I am bored today.",
+   "right_note": "Hôm nay tôi thấy chán.",
+   "slug": "reel-002",
+   "title": "I am bored",
+   "topic": "giao tiếp",
+   "type": "Reels",
+   "why": "bored là mình chán, boring là mình làm người khác chán.",
+   "wrong": "I am boring today.",
+   "wrong_note": ""
+  },
+  {
+   "code": "Lỗi #004",
+   "date": "2026-11-14",
+   "dict_links": [
+    {
+     "label": "Cambridge — comfortable",
+     "url": "https://dictionary.cambridge.org/dictionary/english/comfortable"
+    },
+    {
+     "label": "Oxford — comfortable",
+     "url": "https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This chair is very comfortable.",
+     "vi": "Cái ghế này rất thoải mái."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122099308863550200",
+   "image_src": "ngay-03/Loi-004-comfortable.png",
+   "ipa": [
+    {
+     "note": "dạng đầy đủ /ˈkʌmfərt̮əbl/ cũng được Oxford ghi nhận",
+     "source": "Oxford, Anh-Mỹ",
+     "text": "/ˈkʌmftərbl/"
+    },
+    {
+     "note": "cách ghi khác, cùng cách đọc gọn 3 âm",
+     "source": "Cambridge, Anh-Mỹ",
+     "text": "/ˈkʌm.fɚ.t̬ə.bəl/"
+    }
+   ],
+   "quiz": {
+    "answer": 1,
+    "explanation": "comfortable đọc /ˈkʌmftərbl/ (Oxford, Anh-Mỹ), chỉ có 3 âm, âm giữa đọc rất nhẹ.",
+    "merged_from": "Quiz #003 — cùng nội dung, gộp vào bài này thay vì đăng trùng",
+    "options": [
+     "2 âm",
+     "3 âm",
+     "4 âm"
+    ],
+    "prompt": "comfortable có mấy âm?",
+    "question": "Từ comfortable có mấy âm?"
+   },
+   "right": "CUMF-tơ-bồ",
+   "right_note": "thường đọc 3 âm",
+   "slug": "loi-004",
+   "title": "comfortable đọc mấy âm?",
+   "topic": "phát âm",
+   "type": "Lỗi",
+   "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ. Đọc 4 âm vẫn hiểu được, nhưng nghe chưa tự nhiên.",
+   "wrong": "com-for-ta-bồ",
+   "wrong_note": "đọc tách thành 4 âm"
+  },
+  {
+   "code": "Mẫu câu #003",
+   "date": "2026-11-14",
+   "dict_links": [
+    {
+     "label": "Cambridge — ship",
+     "url": "https://dictionary.cambridge.org/dictionary/english/ship"
+    },
+    {
+     "label": "Cambridge — sheep",
+     "url": "https://dictionary.cambridge.org/dictionary/english/sheep"
+    },
+    {
+     "label": "Cambridge — live",
+     "url": "https://dictionary.cambridge.org/dictionary/english/live"
+    },
+    {
+     "label": "Cambridge — leave",
+     "url": "https://dictionary.cambridge.org/dictionary/english/leave"
+    },
+    {
+     "label": "Cambridge — think",
+     "url": "https://dictionary.cambridge.org/dictionary/english/think"
+    },
+    {
+     "label": "Cambridge — sink",
+     "url": "https://dictionary.cambridge.org/dictionary/english/sink"
+    }
+   ],
+   "examples": [
+    {
+     "en": "a ship on the sea.",
+     "vi": "Một con tàu trên biển."
+    },
+    {
+     "en": "a sheep on the farm.",
+     "vi": "Một con cừu trên nông trại."
+    },
+    {
+     "en": "I saw a ship on the sea.",
+     "vi": "Tôi thấy một con tàu trên biển."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122099427615550200",
+   "image_src": "ngay-03/Mau-cau-003-slide-1.png",
+   "ipa": [
+    {
+     "note": "ship âm ngắn, sheep âm dài",
+     "source": "Cambridge",
+     "text": "ship /ʃɪp/ — sheep /ʃiːp/"
+    },
+    {
+     "note": "live âm ngắn, leave âm dài",
+     "source": "Cambridge",
+     "text": "live /lɪv/ — leave /liːv/"
+    },
+    {
+     "note": "think âm th, sink âm s",
+     "source": "Cambridge",
+     "text": "think /θɪŋk/ — sink /sɪŋk/"
+    }
+   ],
+   "quiz": null,
+   "right": "I saw a ship on the sea.",
+   "right_note": "Tôi thấy một con tàu trên biển.",
+   "slug": "mau-cau-003",
+   "title": "3 cặp âm dễ nhầm",
+   "topic": "phát âm",
+   "type": "Mẫu câu",
+   "why": "ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.",
+   "wrong": "I saw a sheep on the sea.",
+   "wrong_note": "Tôi thấy một con cừu trên biển."
+  }
+ ],
+ "site": {
+  "base_url": "https://dongdarealest.github.io/sai-dau-sua-do",
+  "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+  "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+  "name": "Sai Đâu Sửa Đó — Kho bài học",
+  "slogan": "Mỗi ngày sửa một lỗi nhỏ."
+ }
+}
