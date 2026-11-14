@@ -6,8 +6,12 @@
    "dict_links": [],
    "examples": [
     {
-     "en": "Can you lend me your pen?",
-     "vi": "Bạn cho tôi mượn cây bút được không?"
+     "en": "Can I borrow your pen?",
+     "vi": "Tôi mượn cây bút của bạn được không?"
+    },
+    {
+     "en": "She lent me her laptop yesterday.",
+     "vi": "Hôm qua cô ấy cho tôi mượn laptop."
     }
    ],
    "fb": "https://www.facebook.com/61596506009854/posts/122097926157550200",
@@ -18,7 +22,7 @@
    "right_note": "Bạn cho tôi mượn cây bút được không?",
    "slug": "loi-001",
    "title": "borrow và lend",
-   "topic": "công sở",
+   "topic": "giao tiếp",
    "type": "Lỗi",
    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
    "wrong": "Can you borrow me your pen?",
@@ -32,7 +36,7 @@
       "take"
      ],
      "answer": 1,
-     "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn. Câu đúng: Can you lend me your pen?"
+     "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn."
     },
     {
      "prompt": "I need to ___ a book from the library.",
@@ -54,7 +58,7 @@
      "explanation": "She lent me her bike — cô ấy cho tôi mượn xe."
     }
    ],
-   "remember": "borrow = mượn về mình, lend = cho người khác mượn.",
+   "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
    "reel": {
     "label": "Xem Reel bài này",
     "url": "https://www.facebook.com/reel/1521348529887565"
@@ -114,7 +118,7 @@
       "Could I take Monday off, please?"
      ],
      "answer": 1,
-     "explanation": "Could I take Monday off, please? — lịch sự và tự nhiên."
+     "explanation": "Câu này lịch sự và tự nhiên."
     },
     {
      "prompt": "I need to take a day off ___ a family matter.",
@@ -124,10 +128,10 @@
       "about"
      ],
      "answer": 0,
-     "explanation": "take a day off for a family matter — nghỉ vì việc gia đình."
+     "explanation": "for + lý do — nghỉ vì việc gia đình."
     }
    ],
-   "remember": "Xin nghỉ phép = take a day off, không nói ask leave.",
+   "remember": "Muốn nghỉ phép, nói take a day off — không có ask leave.",
    "reel": null,
    "show_in_ui": true
   },
@@ -135,13 +139,22 @@
    "code": "Quiz #001",
    "date": "2026-11-12",
    "dict_links": [],
-   "examples": [],
+   "examples": [
+    {
+     "en": "Can I borrow your bike?",
+     "vi": "Tôi mượn xe đạp của bạn được không?"
+    },
+    {
+     "en": "He lent me 100,000 VND.",
+     "vi": "Anh ấy cho tôi mượn 100.000 đồng."
+    }
+   ],
    "fb": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854",
    "image_src": "ngay-01/Quiz-001-borrow-lend.png",
    "ipa": [],
    "quiz": {
     "answer": 1,
-    "explanation": "borrow là mượn về mình, lend là cho người khác mượn. Câu đúng: Can you lend me your pen?",
+    "explanation": "Câu đúng: Can you lend me your pen?",
     "options": [
      "borrow",
      "lend",
@@ -179,7 +192,7 @@
      "explanation": "lend = cho mượn. Don't lend me your umbrella — đừng cho tôi mượn ô."
     }
    ],
-   "remember": "borrow = mượn về mình, lend = cho người khác mượn.",
+   "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
    "reel": null,
    "show_in_ui": true
   },
@@ -189,12 +202,12 @@
    "dict_links": [],
    "examples": [
     {
-     "en": "The movie is boring.",
-     "vi": "Bộ phim chán."
+     "en": "The film was boring, so I felt bored.",
+     "vi": "Bộ phim chán quá nên tôi thấy chán."
     },
     {
-     "en": "I am bored.",
-     "vi": "Tôi thấy chán."
+     "en": "Are you bored? Let's go out.",
+     "vi": "Bạn thấy chán à? Mình đi chơi đi."
     }
    ],
    "fb": "https://www.facebook.com/61596506009854/posts/122097942729550200",
@@ -218,7 +231,7 @@
       "boring"
      ],
      "answer": 0,
-     "explanation": "bored tả cảm giác của mình — tôi thấy chán."
+     "explanation": "bored tả cảm giác của mình."
     },
     {
      "prompt": "This book is so ___.",
@@ -239,7 +252,7 @@
      "explanation": "I am bored at home — ở nhà tôi thấy chán."
     }
    ],
-   "remember": "boring tả thứ gây chán, bored tả cảm giác của mình.",
+   "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
    "reel": {
     "label": "Xem Reel bài này",
     "url": "https://www.facebook.com/reel/4646144255666119"
@@ -252,8 +265,12 @@
    "dict_links": [],
    "examples": [
     {
-     "en": "She told me that she was busy.",
-     "vi": "Cô ấy nói với tôi rằng cô ấy bận."
+     "en": "Tell me your name, please.",
+     "vi": "Cho tôi biết tên bạn nhé."
+    },
+    {
+     "en": "Did you say that?",
+     "vi": "Bạn nói vậy à?"
     }
    ],
    "fb": "https://www.facebook.com/61596506009854/posts/122098476867550200",
@@ -298,7 +315,7 @@
      "explanation": "He said that he was tired — said đi với mệnh đề that."
     }
    ],
-   "remember": "tell đi với người nghe, say đi với nội dung được nói ra.",
+   "remember": "Có NGƯỜI nghe → tell. Chỉ NỘI DUNG → say.",
    "reel": null,
    "show_in_ui": true
   },
@@ -317,7 +334,7 @@
     },
     {
      "en": "I am from Vietnam.",
-     "vi": "Tôi đến từ Việt Nam."
+     "vi": "Tôi là người Việt Nam."
     },
     {
      "en": "What do you do?",
@@ -368,7 +385,7 @@
      "explanation": "Nice to meet you — Rất vui được gặp bạn."
     }
    ],
-   "remember": "I come from Vietnam — come là động từ, không đi với am.",
+   "remember": "come là động từ — đứng một mình, không cần am.",
    "reel": null,
    "show_in_ui": true
   },
@@ -376,13 +393,22 @@
    "code": "Quiz #002",
    "date": "2026-11-13",
    "dict_links": [],
-   "examples": [],
+   "examples": [
+    {
+     "en": "The party was boring.",
+     "vi": "Bữa tiệc chán quá."
+    },
+    {
+     "en": "She felt bored during the meeting.",
+     "vi": "Cô ấy thấy chán trong cuộc họp."
+    }
+   ],
    "fb": "https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/",
    "image_src": "ngay-02/Quiz-002-bored-boring.png",
    "ipa": [],
    "quiz": {
     "answer": 0,
-    "explanation": "boring tả bộ phim gây chán, bored tả cảm giác của mình. Câu đúng: The movie was so boring. I felt bored.",
+    "explanation": "Câu đúng: The movie was so boring. I felt bored.",
     "options": [
      "boring, bored",
      "bored, boring",
@@ -420,7 +446,7 @@
      "explanation": "The meeting was so boring — cuộc họp chán quá."
     }
    ],
-   "remember": "boring tả thứ gây chán, bored tả cảm giác của mình.",
+   "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
    "reel": null,
    "show_in_ui": true
   },
@@ -497,6 +523,10 @@
     {
      "en": "This chair is very comfortable.",
      "vi": "Cái ghế này rất thoải mái."
+    },
+    {
+     "en": "My shoes are very comfortable.",
+     "vi": "Đôi giày của tôi rất thoải mái."
     }
    ],
    "fb": "https://www.facebook.com/61596506009854/posts/122099308863550200",
@@ -515,7 +545,7 @@
    ],
    "quiz": {
     "answer": 1,
-    "explanation": "comfortable đọc /ˈkʌmftərbl/ (Oxford, Anh-Mỹ), chỉ có 3 âm, âm giữa đọc rất nhẹ.",
+    "explanation": "3 âm — /ˈkʌmftərbl/ (Oxford, Anh-Mỹ).",
     "merged_from": "Quiz #003 — cùng nội dung, gộp vào bài này thay vì đăng trùng",
     "options": [
      "2 âm",
@@ -659,7 +689,7 @@
      "explanation": "leave my keys at home — để quên chìa khóa ở nhà."
     }
    ],
-   "remember": "ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.",
+   "remember": "Nhớ cặp này: ship (tàu) — sheep (cừu).",
    "reel": null,
    "show_in_ui": true
   }
@@ -683,7 +713,8 @@
      "loi-003",
      "mau-cau-001",
      "mau-cau-002"
-    ]
+    ],
+    "icon": "🌱"
    },
    {
     "slug": "tieng-anh-di-lam",
@@ -695,7 +726,8 @@
      "mau-cau-001",
      "mau-cau-002",
      "quiz-001"
-    ]
+    ],
+    "icon": "💼"
    },
    {
     "slug": "sua-phat-am",
@@ -706,8 +738,10 @@
      "mau-cau-003",
      "loi-002",
      "quiz-002"
-    ]
+    ],
+    "icon": "🗣️"
    }
-  ]
+  ],
+  "ask_url": "https://www.facebook.com/groups/4387154551501983/posts/4390417267842378"
  }
 }
