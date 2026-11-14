@@ -22,7 +22,44 @@
    "type": "Lỗi",
    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
    "wrong": "Can you borrow me your pen?",
-   "wrong_note": "Bạn cho tôi mượn cây bút được không?"
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?",
+   "practice": [
+    {
+     "prompt": "Can you ___ me your pen?",
+     "options": [
+      "borrow",
+      "lend",
+      "take"
+     ],
+     "answer": 1,
+     "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn. Câu đúng: Can you lend me your pen?"
+    },
+    {
+     "prompt": "I need to ___ a book from the library.",
+     "options": [
+      "borrow",
+      "lend",
+      "take"
+     ],
+     "answer": 0,
+     "explanation": "Bạn mượn sách về mình → borrow. I need to borrow a book from the library."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "She borrowed me her bike.",
+      "She lent me her bike."
+     ],
+     "answer": 1,
+     "explanation": "She lent me her bike — cô ấy cho tôi mượn xe."
+    }
+   ],
+   "remember": "borrow = mượn về mình, lend = cho người khác mượn.",
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1521348529887565"
+   },
+   "show_in_ui": true
   },
   {
    "code": "Mẫu câu #001",
@@ -58,7 +95,41 @@
    "type": "Mẫu câu",
    "why": "Dùng take a day off, không nói ask leave.",
    "wrong": "I want to ask leave.",
-   "wrong_note": ""
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "I would like to ___ a day off tomorrow.",
+     "options": [
+      "take",
+      "ask",
+      "make"
+     ],
+     "answer": 0,
+     "explanation": "Xin nghỉ phép = take a day off."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "I want to ask leave tomorrow.",
+      "Could I take Monday off, please?"
+     ],
+     "answer": 1,
+     "explanation": "Could I take Monday off, please? — lịch sự và tự nhiên."
+    },
+    {
+     "prompt": "I need to take a day off ___ a family matter.",
+     "options": [
+      "for",
+      "to",
+      "about"
+     ],
+     "answer": 0,
+     "explanation": "take a day off for a family matter — nghỉ vì việc gia đình."
+    }
+   ],
+   "remember": "Xin nghỉ phép = take a day off, không nói ask leave.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Quiz #001",
@@ -87,7 +158,30 @@
    "type": "Quiz",
    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
    "wrong": "Can you ___ me your pen?",
-   "wrong_note": ""
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "May I ___ your charger for an hour?",
+     "options": [
+      "borrow",
+      "lend"
+     ],
+     "answer": 0,
+     "explanation": "Bạn mượn sạc về mình → borrow. May I borrow your charger?"
+    },
+    {
+     "prompt": "Don't ___ me your umbrella, I have one.",
+     "options": [
+      "lend",
+      "borrow"
+     ],
+     "answer": 0,
+     "explanation": "lend = cho mượn. Don't lend me your umbrella — đừng cho tôi mượn ô."
+    }
+   ],
+   "remember": "borrow = mượn về mình, lend = cho người khác mượn.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Lỗi #002",
@@ -115,7 +209,42 @@
    "type": "Lỗi",
    "why": "boring tả thứ gây chán, bored tả cảm giác của người.",
    "wrong": "I am boring.",
-   "wrong_note": "Tôi là người nhàm chán."
+   "wrong_note": "Tôi là người nhàm chán.",
+   "practice": [
+    {
+     "prompt": "I am ___ today, there is nothing to do.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 0,
+     "explanation": "bored tả cảm giác của mình — tôi thấy chán."
+    },
+    {
+     "prompt": "This book is so ___.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 1,
+     "explanation": "boring tả cuốn sách gây chán."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "I am boring at home.",
+      "I am bored at home."
+     ],
+     "answer": 1,
+     "explanation": "I am bored at home — ở nhà tôi thấy chán."
+    }
+   ],
+   "remember": "boring tả thứ gây chán, bored tả cảm giác của mình.",
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/4646144255666119"
+   },
+   "show_in_ui": true
   },
   {
    "code": "Lỗi #003",
@@ -139,7 +268,39 @@
    "type": "Lỗi",
    "why": "tell đi với người nghe, say đi với nội dung được nói ra.",
    "wrong": "She said me that she was busy.",
-   "wrong_note": "Cô ấy nói với tôi rằng cô ấy bận."
+   "wrong_note": "Cô ấy nói với tôi rằng cô ấy bận.",
+   "practice": [
+    {
+     "prompt": "She ___ me that she was busy.",
+     "options": [
+      "said",
+      "told"
+     ],
+     "answer": 1,
+     "explanation": "tell đi với người nghe — She told me."
+    },
+    {
+     "prompt": "He ___ \"I am tired.\"",
+     "options": [
+      "said",
+      "told"
+     ],
+     "answer": 0,
+     "explanation": "say đi với nội dung được nói ra — He said \"I am tired.\""
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "He told that he was tired.",
+      "He said that he was tired."
+     ],
+     "answer": 1,
+     "explanation": "He said that he was tired — said đi với mệnh đề that."
+    }
+   ],
+   "remember": "tell đi với người nghe, say đi với nội dung được nói ra.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Mẫu câu #002",
@@ -175,7 +336,41 @@
    "type": "Mẫu câu",
    "why": "come là động từ nên không đi với am.",
    "wrong": "I am come from Vietnam.",
-   "wrong_note": ""
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "I ___ from Vietnam.",
+     "options": [
+      "am come",
+      "come",
+      "am coming"
+     ],
+     "answer": 1,
+     "explanation": "come là động từ nên không đi với am — I come from Vietnam."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "What do you do?",
+      "What are you do?"
+     ],
+     "answer": 0,
+     "explanation": "What do you do? — Bạn làm nghề gì?"
+    },
+    {
+     "prompt": "___ to meet you.",
+     "options": [
+      "Nice",
+      "Nicely",
+      "Good"
+     ],
+     "answer": 0,
+     "explanation": "Nice to meet you — Rất vui được gặp bạn."
+    }
+   ],
+   "remember": "I come from Vietnam — come là động từ, không đi với am.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Quiz #002",
@@ -204,7 +399,30 @@
    "type": "Quiz",
    "why": "boring tả bộ phim gây chán, bored tả cảm giác của mình.",
    "wrong": "The movie was so ___. I felt ___.",
-   "wrong_note": "Phim chán quá, mình cũng chán theo."
+   "wrong_note": "Phim chán quá, mình cũng chán theo.",
+   "practice": [
+    {
+     "prompt": "Are you ___?",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 0,
+     "explanation": "Are you bored? — Bạn có thấy chán không?"
+    },
+    {
+     "prompt": "The meeting was so ___.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 1,
+     "explanation": "The meeting was so boring — cuộc họp chán quá."
+    }
+   ],
+   "remember": "boring tả thứ gây chán, bored tả cảm giác của mình.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Reel #001",
@@ -228,7 +446,11 @@
    "type": "Reels",
    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
    "wrong": "Can you borrow me your pen?",
-   "wrong_note": "Bạn cho tôi mượn cây bút được không?"
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
   },
   {
    "code": "Reel #002",
@@ -252,7 +474,11 @@
    "type": "Reels",
    "why": "bored là mình chán, boring là mình làm người khác chán.",
    "wrong": "I am boring today.",
-   "wrong_note": ""
+   "wrong_note": "",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
   },
   {
    "code": "Lỗi #004",
@@ -305,9 +531,32 @@
    "title": "comfortable đọc mấy âm?",
    "topic": "phát âm",
    "type": "Lỗi",
-   "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ. Đọc 4 âm vẫn hiểu được, nhưng nghe chưa tự nhiên.",
+   "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ.",
    "wrong": "com-for-ta-bồ",
-   "wrong_note": "đọc tách thành 4 âm"
+   "wrong_note": "đọc tách thành 4 âm",
+   "practice": [
+    {
+     "prompt": "Chọn cách đọc đúng:",
+     "options": [
+      "CUMF-tơ-bồ (3 âm)",
+      "com-for-ta-bồ (4 âm)"
+     ],
+     "answer": 0,
+     "explanation": "comfortable thường đọc gọn 3 âm: CUMF-tơ-bồ."
+    },
+    {
+     "prompt": "The bed is very ___.",
+     "options": [
+      "comfortable",
+      "comfortably"
+     ],
+     "answer": 0,
+     "explanation": "comfortable là tính từ — The bed is very comfortable."
+    }
+   ],
+   "remember": "comfortable thường đọc gọn 3 âm: CUMF-tơ-bồ.",
+   "reel": null,
+   "show_in_ui": true
   },
   {
    "code": "Mẫu câu #003",
@@ -380,7 +629,39 @@
    "type": "Mẫu câu",
    "why": "ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.",
    "wrong": "I saw a sheep on the sea.",
-   "wrong_note": "Tôi thấy một con cừu trên biển."
+   "wrong_note": "Tôi thấy một con cừu trên biển.",
+   "practice": [
+    {
+     "prompt": "I saw a ___ on the sea.",
+     "options": [
+      "ship",
+      "sheep"
+     ],
+     "answer": 0,
+     "explanation": "ship là tàu — I saw a ship on the sea."
+    },
+    {
+     "prompt": "I saw a ___ on the farm.",
+     "options": [
+      "ship",
+      "sheep"
+     ],
+     "answer": 1,
+     "explanation": "sheep là cừu — I saw a sheep on the farm."
+    },
+    {
+     "prompt": "I ___ my keys at home.",
+     "options": [
+      "live",
+      "leave"
+     ],
+     "answer": 1,
+     "explanation": "leave my keys at home — để quên chìa khóa ở nhà."
+    }
+   ],
+   "remember": "ship là tàu, sheep là cừu — đọc nhầm là đổi nghĩa luôn.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
@@ -388,6 +669,45 @@
   "facebook_group": "https://www.facebook.com/groups/4387154551501983",
   "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
   "name": "Sai Đâu Sửa Đó — Kho bài học",
-  "slogan": "Mỗi ngày sửa một lỗi nhỏ."
+  "slogan": "Mỗi ngày sửa một lỗi nhỏ.",
+  "paths": [
+   {
+    "slug": "hoc-lai-tu-dau",
+    "name": "Học lại từ đầu",
+    "desc": "Từ những lỗi cơ bản nhất, học theo thứ tự, mỗi bài chỉ 3–5 phút.",
+    "order": [
+     "loi-001",
+     "quiz-001",
+     "loi-002",
+     "quiz-002",
+     "loi-003",
+     "mau-cau-001",
+     "mau-cau-002"
+    ]
+   },
+   {
+    "slug": "tieng-anh-di-lam",
+    "name": "Tiếng Anh đi làm",
+    "desc": "Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.",
+    "order": [
+     "loi-001",
+     "loi-003",
+     "mau-cau-001",
+     "mau-cau-002",
+     "quiz-001"
+    ]
+   },
+   {
+    "slug": "sua-phat-am",
+    "name": "Sửa phát âm",
+    "desc": "Những từ người Việt hay đọc sai — nghe, đọc theo, sửa ngay.",
+    "order": [
+     "loi-004",
+     "mau-cau-003",
+     "loi-002",
+     "quiz-002"
+    ]
+   }
+  ]
  }
 }
