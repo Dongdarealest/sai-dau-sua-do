@@ -168,8 +168,8 @@ function render(){
   chipRow(document.getElementById("typeChips"),TYPES,type,v=>type=v);
   const list=filtered();
   document.getElementById("count").textContent=list.length?`Đang xem ${list.length} bài`:"Không thấy bài nào khớp — thử từ khác nhé.";
-  document.getElementById("cards").hidden=view!=="cards";
-  document.getElementById("tableWrap").hidden=view!=="table";
+  document.getElementById("cards").style.display=view==="cards"?"grid":"none";
+  document.getElementById("tableWrap").style.display=view==="table"?"block":"none";
   document.getElementById("btnCards").classList.toggle("on",view==="cards");
   document.getElementById("btnTable").classList.toggle("on",view==="table");
   document.getElementById("cards").innerHTML=list.length?list.map(card).join(""):`<div class="empty">Không thấy bài nào khớp — thử từ khác nhé.</div>`;
