@@ -115,7 +115,7 @@
      "prompt": "Chọn câu đúng:",
      "options": [
       "I want to ask leave tomorrow.",
-      "Could I take Monday off, please?"
+      "Could I take Friday off, please?"
      ],
      "answer": 1,
      "explanation": "Câu này lịch sự và tự nhiên."
@@ -368,11 +368,11 @@
     {
      "prompt": "Chọn câu đúng:",
      "options": [
-      "What do you do?",
+      "What is your job?",
       "What are you do?"
      ],
      "answer": 0,
-     "explanation": "What do you do? — Bạn làm nghề gì?"
+     "explanation": "What is your job? — Bạn làm nghề gì?"
     },
     {
      "prompt": "___ to meet you.",
@@ -566,13 +566,14 @@
    "wrong_note": "đọc tách thành 4 âm",
    "practice": [
     {
-     "prompt": "Chọn cách đọc đúng:",
+     "prompt": "Âm giữa của comfortable đọc thế nào?",
      "options": [
-      "CUMF-tơ-bồ (3 âm)",
-      "com-for-ta-bồ (4 âm)"
+      "đọc rất nhẹ, gần như không nghe",
+      "đọc rõ như âm “phờ”",
+      "đọc thành âm “tờ” rõ"
      ],
      "answer": 0,
-     "explanation": "comfortable thường đọc gọn 3 âm: CUMF-tơ-bồ."
+     "explanation": "Âm giữa đọc rất nhẹ, gần như không nghe — nên nghe như chỉ có 3 âm."
     },
     {
      "prompt": "The bed is very ___.",
@@ -584,7 +585,7 @@
      "explanation": "comfortable là tính từ — The bed is very comfortable."
     }
    ],
-   "remember": "comfortable thường đọc gọn 3 âm: CUMF-tơ-bồ.",
+   "remember": "comfortable thường đọc gọn 3 âm.",
    "reel": null,
    "show_in_ui": true
   },
@@ -619,16 +620,12 @@
    ],
    "examples": [
     {
-     "en": "a ship on the sea.",
-     "vi": "Một con tàu trên biển."
+     "en": "The ship is on the sea.",
+     "vi": "Con tàu đang ở trên biển."
     },
     {
-     "en": "a sheep on the farm.",
-     "vi": "Một con cừu trên nông trại."
-    },
-    {
-     "en": "I saw a ship on the sea.",
-     "vi": "Tôi thấy một con tàu trên biển."
+     "en": "The sheep is on the farm.",
+     "vi": "Con cừu đang ở trên nông trại."
     }
    ],
    "fb": "https://www.facebook.com/61596506009854/posts/122099427615550200",
