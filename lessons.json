@@ -1674,6 +1674,114 @@
    "why": "since đi với mốc thời gian, for đi với khoảng thời gian.",
    "wrong": "I have worked here since 3 years.",
    "wrong_note": ""
+  },
+  {
+   "code": "Meme #001",
+   "compare": [
+    {
+     "a": "My hometown",
+     "b": "In my hometown",
+     "note": "My hometown làm chủ ngữ được, In my hometown chỉ là cụm chỉ nơi chốn."
+    },
+    {
+     "a": "In my hometown, there are many beaches.",
+     "b": "My hometown has many beaches.",
+     "note": "Muốn giữ In my hometown thì dùng there are, muốn dùng has thì chủ ngữ phải là My hometown."
+    }
+   ],
+   "core": "Cụm chỉ nơi chốn như In my hometown không làm chủ ngữ được. Muốn nói quê hương có cái gì thì chủ ngữ phải là My hometown.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "My hometown is famous for its beautiful beaches.",
+     "vi": "Quê tôi nổi tiếng với những bãi biển đẹp."
+    },
+    {
+     "en": "In my hometown, there are many beautiful beaches.",
+     "vi": "Ở quê tôi có nhiều bãi biển đẹp."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100257475550200",
+   "image_src": "ngay-04/Meme-001-in-my-hometown-has.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "My hometown is near the sea.",
+     "wrong": "In my hometown is near the sea."
+    },
+    {
+     "right": "My hometown has a big market.",
+     "wrong": "In my hometown has a big market."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "In my hometown là cụm chỉ nơi chốn, không làm chủ ngữ được, nên chọn My.",
+     "kind": "fill_blank",
+     "options": [
+      "My",
+      "In my"
+     ],
+     "prompt": "___ hometown has many beautiful beaches."
+    },
+    {
+     "answer": 1,
+     "explanation": "My hometown mới làm chủ ngữ được, In my hometown chỉ là cụm chỉ nơi chốn.",
+     "options": [
+      "In my hometown is very beautiful.",
+      "My hometown is very beautiful."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      5,
+      2,
+      4,
+      0,
+      3
+     ],
+     "explanation": "Chủ ngữ là My hometown, động từ has đi sau chủ ngữ.",
+     "kind": "word_order",
+     "options": [
+      "rivers",
+      "My",
+      "has",
+      ".",
+      "many",
+      "hometown"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'My / hometown / has / many / rivers / .'"
+    },
+    {
+     "answer": 0,
+     "explanation": "In my hometown đứng đầu câu để chỉ nơi chốn.",
+     "kind": "fill_blank",
+     "options": [
+      "In",
+      "On"
+     ],
+     "prompt": "___ my hometown, people are very friendly."
+    }
+   ],
+   "problem": "Giới thiệu quê hương, nhiều bạn mở đầu bằng In my hometown rồi gắn luôn động từ has. Cách nói đó làm quê hương thành phông nền, không còn là chủ ngữ nữa.",
+   "quiz": null,
+   "remember": "Muốn nói quê hương có gì, bắt đầu bằng My hometown, đừng bắt đầu bằng In my hometown.",
+   "right": "My hometown has many beautiful beaches.",
+   "right_note": "Quê tôi có nhiều bãi biển đẹp.",
+   "slug": "meme-001",
+   "tip": "Dùng khi giới thiệu quê hương, kể về nơi mình sống.",
+   "title": "In my hometown has",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "In my hometown là cụm chỉ nơi chốn, không làm chủ ngữ được. Chủ ngữ phải là My hometown.",
+   "wrong": "In my hometown has many beautiful beaches.",
+   "wrong_note": "Quê tôi có nhiều bãi biển đẹp.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
