@@ -2,8 +2,8 @@
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
-- **12 bài học** • **3 lộ trình** • **2 Reel** đính kèm trong bài
-- Mỗi bài có thể nằm trong nhiều lộ trình. Tổng số bài học là 12, không tính trùng.
+- **13 bài học** • **3 lộ trình** • **2 Reel** đính kèm trong bài
+- Mỗi bài có thể nằm trong nhiều lộ trình. Tổng số bài học là 13, không tính trùng.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983
 
@@ -27,12 +27,13 @@ Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một 
 - [Mẫu câu #002: giới thiệu bản thân](mau-cau-002/)
 - [Quiz #001: borrow hay lend?](quiz-001/)
 
-### Sửa phát âm (4 bài)
+### Sửa phát âm (5 bài)
 
 - [Lỗi #004: comfortable đọc mấy âm?](loi-004/)
 - [Mẫu câu #003: 3 cặp âm dễ nhầm](mau-cau-003/)
 - [Lỗi #002: bored và boring](loi-002/)
 - [Quiz #002: boring hay bored?](quiz-002/)
+- [Quiz nhanh #001: Chữ nào trong debt là chữ câm?](quiz-nhanh-001/)
 
 ## Cập nhật sau mỗi bài đăng
 
