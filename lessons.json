@@ -2192,6 +2192,101 @@
    "why": "Giới từ in và on đổi theo loại xe, xe nhỏ dùng in, xe lớn dùng on.",
    "wrong": "I am on the car.",
    "wrong_note": "Tôi đang ở trong xe ô tô."
+  },
+  {
+   "code": "Quiz #004",
+   "compare": [
+    {
+     "a": "We have lived in Da Lat since 2020.",
+     "b": "We have lived in Da Lat for 6 years.",
+     "note": "Cùng một ý, since đi với mốc 2020, for đi với khoảng 6 years."
+    },
+    {
+     "a": "She has studied here since Monday.",
+     "b": "She has studied here for a week.",
+     "note": "Monday là mốc thời gian, a week là khoảng thời gian."
+    }
+   ],
+   "core": "Muốn chọn đúng giữa since và for, hãy hỏi: chỗ trống này nói mốc thời gian hay khoảng thời gian? Mốc thì since, khoảng thì for.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "We have known each other since 2019.",
+     "vi": "Chúng tôi quen nhau từ năm 2019."
+    },
+    {
+     "en": "He has studied English for 2 years.",
+     "vi": "Anh ấy học tiếng Anh được 2 năm."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100560955550200",
+   "image_src": "ngay-04/Quiz-004-since-for.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I have worked here since January.",
+     "wrong": "I have worked here for January."
+    },
+    {
+     "right": "They have lived there for 5 years.",
+     "wrong": "They have lived there since 5 years."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "2021 là mốc thời gian nên dùng since.",
+     "options": [
+      "since",
+      "for"
+     ],
+     "prompt": "She has worked here ___ 2021."
+    },
+    {
+     "answer": 1,
+     "explanation": "4 years là khoảng thời gian nên dùng for.",
+     "options": [
+      "since",
+      "for"
+     ],
+     "prompt": "She has worked here ___ 4 years."
+    },
+    {
+     "answer": 1,
+     "explanation": "3 years là khoảng thời gian nên dùng for, không dùng since.",
+     "options": [
+      "I have lived here since 3 years.",
+      "I have lived here for 3 years."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn điền for vào chỗ trống này vì nghĩ since và for đều nói về thời gian. Thật ra hai từ này dùng khác nhau, điền nhầm là sai ngay.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "2020 là mốc thời gian nên dùng since, for chỉ đi với khoảng thời gian.",
+    "options": [
+     "since",
+     "for",
+     "from"
+    ],
+    "prompt": "I have lived here ___ 2020.",
+    "question": "Điền từ nào vào chỗ trống mới đúng?"
+   },
+   "remember": "Mốc thời gian thì since, khoảng thời gian thì for.",
+   "right": "I have lived here since 2020.",
+   "right_note": "",
+   "slug": "quiz-004",
+   "tip": "Nhớ nhanh: since thì sau nó là một mốc, for thì sau nó là một khoảng.",
+   "title": "since hay for?",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "since đi với mốc thời gian, for đi với khoảng thời gian.",
+   "wrong": "I have lived here for 2020.",
+   "wrong_note": "Tôi đã sống ở đây từ năm 2020.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
