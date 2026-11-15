@@ -1888,6 +1888,114 @@
    "why": "debt đọc là det, chữ b câm, chỉ đọc det.",
    "wrong": "Chữ d là chữ câm trong debt.",
    "wrong_note": ""
+  },
+  {
+   "code": "Lỗi nhanh #000",
+   "compare": [
+    {
+     "a": "She break up me.",
+     "b": "She broke up with me.",
+     "note": "Thiếu with thì break up không nối được với người bị chia tay."
+    },
+    {
+     "a": "He break up his girlfriend.",
+     "b": "He broke up with his girlfriend.",
+     "note": "Kể chuyện đã qua thì break thành broke, luôn giữ with sau break up."
+    }
+   ],
+   "core": "break up with luôn đi kèm người bị chia tay, kể chuyện đã qua thì dùng broke.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "They broke up after five years together.",
+     "vi": "Họ chia tay sau năm năm bên nhau."
+    },
+    {
+     "en": "My friend broke up with her boyfriend yesterday.",
+     "vi": "Bạn tôi đã chia tay bạn trai hôm qua."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100377049550200",
+   "image_src": "ngay-04/Meme-000-break-up.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "She broke up with him last month.",
+     "wrong": "She break up him last month."
+    },
+    {
+     "right": "They broke up last week.",
+     "wrong": "They break up last week."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Chuyện đã qua thì dùng broke, quá khứ của break.",
+     "kind": "fill_blank",
+     "options": [
+      "break",
+      "broke"
+     ],
+     "prompt": "She ___ up with me last year."
+    },
+    {
+     "answer": 1,
+     "explanation": "break up with mới nối được với người bị chia tay.",
+     "options": [
+      "She break up me because she is sad.",
+      "She broke up with me because she is sad."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      0,
+      4,
+      5,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: chủ ngữ, broke, up, with, me.",
+     "kind": "word_order",
+     "options": [
+      "up",
+      "She",
+      "broke",
+      ".",
+      "with",
+      "me"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'She / broke / up / with / me / .'"
+    },
+    {
+     "answer": 1,
+     "explanation": "break up đi với with khi nói chia tay ai.",
+     "kind": "fill_blank",
+     "options": [
+      "to",
+      "with"
+     ],
+     "prompt": "He broke ___ with his girlfriend."
+    }
+   ],
+   "problem": "Một bạn trong nhóm viết câu chia tay mà quên mất with, lại dùng break thay cho broke. Câu sai nghe vẫn hiểu, nhưng người nghe thấy lủng củng ngay.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Muốn kể chuyện chia tay thì nhớ with sau break up, và broke khi chuyện đã qua.",
+   "right": "She broke up with me because I am a super handsome boy.",
+   "right_note": "Cô ấy bỏ tôi vì tôi quá đẹp trai.",
+   "show_in_ui": true,
+   "slug": "loi-nhanh-000",
+   "tip": "Dùng khi kể chuyện tình cảm với bạn bè.",
+   "title": "break up with me",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "Chia tay ai thì nói break up with người đó, quá khứ của break là broke.",
+   "wrong": "She break up me because I super so beautiful boy.",
+   "wrong_note": "Cô ấy bỏ tôi vì tôi quá đẹp trai."
   }
  ],
  "site": {
