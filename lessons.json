@@ -1,1473 +1,1588 @@
 {
-  "lessons": [
+ "lessons": [
+  {
+   "code": "Lỗi #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
     {
-      "code": "Lỗi #001",
-      "date": "2026-11-12",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "Can I borrow your pen?",
-          "vi": "Tôi mượn cây bút của bạn được không?"
-        },
-        {
-          "en": "She lent me her laptop yesterday.",
-          "vi": "Hôm qua cô ấy cho tôi mượn laptop."
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122097926157550200",
-      "image_src": "ngay-01/Loi-001-borrow-lend.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "Can you lend me your pen?",
-      "right_note": "Bạn cho tôi mượn cây bút được không?",
-      "slug": "loi-001",
-      "title": "borrow và lend",
-      "topic": "giao tiếp",
-      "type": "Lỗi",
-      "why": "borrow là mượn về mình, lend là cho người khác mượn.",
-      "wrong": "Can you borrow me your pen?",
-      "wrong_note": "Bạn cho tôi mượn cây bút được không?",
-      "practice": [
-        {
-          "prompt": "Can you ___ me your pen?",
-          "options": [
-            "borrow",
-            "lend",
-            "take"
-          ],
-          "answer": 1,
-          "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn."
-        },
-        {
-          "prompt": "I need to ___ a book from the library.",
-          "options": [
-            "borrow",
-            "lend",
-            "take"
-          ],
-          "answer": 0,
-          "explanation": "Bạn mượn sách về mình → borrow. I need to borrow a book from the library."
-        },
-        {
-          "prompt": "Chọn câu đúng:",
-          "options": [
-            "She borrowed me her bike.",
-            "She lent me her bike."
-          ],
-          "answer": 1,
-          "explanation": "She lent me her bike, cô ấy cho tôi mượn xe."
-        },
-        {
-          "answer": 0,
-          "explanation": "Mình là người mượn về nên dùng borrow. Nếu hỏi ngược lại: Could you lend me your jacket?",
-          "kind": "fill_blank",
-          "options": [
-            "borrow",
-            "lend"
-          ],
-          "prompt": "Could I ___ your jacket for the evening?"
-        },
-        {
-          "answer": 0,
-          "explanation": "Người nói muốn mượn ô về mình nên người kia phải lend. 'Borrow me' sai vì borrow không nhận tân ngữ chỉ người được cho mượn.",
-          "kind": "find_error",
-          "options": [
-            "Please lend me your umbrella, it is raining.",
-            "Please borrow your umbrella to me, it is raining.",
-            "Please borrowing me your umbrella, it is raining."
-          ],
-          "prompt": "Tìm lỗi trong câu: 'Please borrow me your umbrella, it is raining.'"
-        },
-        {
-          "answer": 1,
-          "explanation": "Mượn tiền về mình thì borrow from. Lend không đi với from, người cho mượn dùng lend to.",
-          "kind": "distinguish",
-          "options": [
-            "I lent some money from my brother.",
-            "I borrowed some money from my brother."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": 1,
-          "explanation": "Bạn là người cho mượn nên dùng lend me. 'Can you borrow me' sai hướng, còn 'Can I lend your power bank' thiếu tân ngữ chỉ người nhận.",
-          "kind": "translate",
-          "options": [
-            "Can you borrow me your power bank?",
-            "Can you lend me your power bank?",
-            "Can I lend your power bank?"
-          ],
-          "prompt": "Dịch câu: 'Bạn cho mình mượn sạc dự phòng được không?'"
-        }
-      ],
-      "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
-      "reel": {
-        "label": "Xem Reel bài này",
-        "url": "https://www.facebook.com/reel/1521348529887565"
-      },
-      "show_in_ui": true,
-      "problem": "Người Việt hay dịch thẳng 'cho tôi mượn' thành borrow me, vì nghĩ borrow là 'cho mượn'. Thực ra borrow chỉ dùng khi chính mình là người mượn về.",
-      "core": "borrow + vật + from + người: mình mượn về. lend + người + vật, hoặc lend + vật + to + người: mình cho người khác mượn. Nhớ hướng chuyển động: borrow là về phía mình, lend là ra khỏi mình.",
-      "compare": [
-        {
-          "a": "I borrowed some money from my friend.",
-          "b": "My friend lent some money to me.",
-          "note": "Hai câu cùng một sự việc, chỉ đổi góc nhìn: người mượn dùng borrow from, người cho mượn dùng lend to."
-        },
-        {
-          "a": "Could you lend me your dictionary?",
-          "b": "Could I borrow your dictionary?",
-          "note": "Muốn mượn đồ của ai, hỏi bằng lend me hoặc borrow your, đừng nói borrow me."
-        },
-        {
-          "a": "She borrowed my camera and kept it for a week.",
-          "b": "I lent her my camera for a week.",
-          "note": "Borrow kể từ phía người mượn, lend kể từ phía người cho mượn."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "Can you lend me your car?",
-          "wrong": "Can you borrow me your car?"
-        },
-        {
-          "right": "He lent me his notes before the exam.",
-          "wrong": "He borrowed me his notes before the exam."
-        },
-        {
-          "right": "I want to borrow a book from the library.",
-          "wrong": "I want to lend a book from the library."
-        }
-      ]
+     "en": "Can I borrow your pen?",
+     "vi": "Tôi mượn cây bút của bạn được không?"
     },
     {
-      "code": "Mẫu câu #001",
-      "date": "2026-11-12",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "I would like to take tomorrow off, please.",
-          "vi": "Tôi muốn xin nghỉ ngày mai."
-        },
-        {
-          "en": "Could I take Monday off, please?",
-          "vi": "Tôi có thể nghỉ thứ Hai được không?"
-        },
-        {
-          "en": "I need to take a day off for a family matter.",
-          "vi": "Tôi cần nghỉ một ngày vì việc gia đình."
-        },
-        {
-          "en": "I need to take Friday morning off to see the dentist.",
-          "vi": "Tôi cần xin nghỉ buổi sáng thứ Sáu để đi khám răng."
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122097927609550200",
-      "image_src": "ngay-01/Mau-cau-001-slide-1.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "I would like to take a day off tomorrow.",
-      "right_note": "Tôi muốn xin nghỉ một ngày vào ngày mai.",
-      "slug": "mau-cau-001",
-      "title": "xin nghỉ phép",
-      "topic": "công sở",
-      "type": "Mẫu câu",
-      "why": "Dùng take a day off, không nói ask leave.",
-      "wrong": "I want to ask leave.",
-      "wrong_note": "",
-      "practice": [
-        {
-          "prompt": "I would like to ___ a day off tomorrow.",
-          "options": [
-            "take",
-            "ask",
-            "make"
-          ],
-          "answer": 0,
-          "explanation": "Xin nghỉ phép = take a day off."
-        },
-        {
-          "prompt": "Chọn câu đúng:",
-          "options": [
-            "I want to ask leave tomorrow.",
-            "Could I take Friday off, please?"
-          ],
-          "answer": 1,
-          "explanation": "Câu này lịch sự và tự nhiên."
-        },
-        {
-          "prompt": "I need to take a day off ___ a family matter.",
-          "options": [
-            "for",
-            "to",
-            "about"
-          ],
-          "answer": 0,
-          "explanation": "for + lý do, nghỉ vì việc gia đình."
-        },
-        {
-          "answer": 0,
-          "explanation": "Xin nghỉ ngày nào thì take + ngày đó + off. 'Ask leave' không phải cách nói đúng.",
-          "kind": "fill_blank",
-          "options": [
-            "take",
-            "ask",
-            "make"
-          ],
-          "prompt": "I would like to ___ next Friday off."
-        },
-        {
-          "answer": 0,
-          "explanation": "Câu đúng dùng take Monday off. 'Ask leave' thiếu for nên sai; 'take a leave' đổi nghĩa, không dùng cho xin nghỉ một ngày.",
-          "kind": "find_error",
-          "options": [
-            "I would like to take Monday off because my mother is ill.",
-            "I want to ask leave on Monday because my mother is ill.",
-            "I want to take a leave Monday because my mother is ill."
-          ],
-          "prompt": "Sửa câu sai: 'I want to ask leave on Monday because my mother is ill.'"
-        },
-        {
-          "answer": 1,
-          "explanation": "Phương án này vừa lịch sự vừa đúng mẫu take + ngày + off. 'Ask leave' sai, còn 'Give me Friday off' nghe như ra lệnh.",
-          "kind": "distinguish",
-          "options": [
-            "I want to ask leave on Friday.",
-            "Could I take Wednesday off, please?",
-            "Give me Friday off."
-          ],
-          "prompt": "Chọn câu lịch sự và tự nhiên nhất khi xin nghỉ thứ Tư:"
-        },
-        {
-          "answer": 0,
-          "explanation": "Take Wednesday morning off = nghỉ buổi sáng thứ Tư, to see the dentist = để đi khám răng. Hai phương án còn lại sai mẫu câu và sai giới từ.",
-          "kind": "translate",
-          "options": [
-            "I would like to take Wednesday morning off to see the dentist.",
-            "I want to ask leave Wednesday morning to see dentist.",
-            "I would like to take off Wednesday morning for see the dentist."
-          ],
-          "prompt": "Dịch câu: 'Tôi muốn xin nghỉ buổi sáng thứ Tư để đi khám răng.'"
-        }
-      ],
-      "remember": "Muốn nghỉ phép, nói take a day off, không có ask leave.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Nhiều bạn dịch từng chữ 'xin nghỉ' thành ask leave, nhưng người bản xứ không nói như vậy. Trong công sở, xin nghỉ có mẫu câu riêng, ngắn gọn và lịch sự hơn.",
-      "core": "take a day off = nghỉ một ngày. take + thứ/ngày + off: take Monday off, take Friday morning off. Muốn lịch sự, bắt đầu bằng I would like to hoặc Could I. Ngoại lệ: ask for leave chỉ dùng trong văn bản hành chính, và phải có for, không bao giờ nói ask leave.",
-      "compare": [
-        {
-          "a": "I would like to take next Monday off.",
-          "b": "I want to ask leave next Monday.",
-          "note": "Câu đầu tự nhiên và lịch sự, câu sau sai vì ask leave không phải cách nói của người bản xứ."
-        },
-        {
-          "a": "Could I take Thursday afternoon off, please?",
-          "b": "Could I ask leave Thursday afternoon, please?",
-          "note": "Xin nghỉ một buổi cũng dùng take off, không dùng ask leave."
-        },
-        {
-          "a": "I need to take a morning off for a dentist appointment.",
-          "b": "I need to ask leave for a dentist appointment.",
-          "note": "Lý do nghỉ đi sau for, và động từ vẫn là take, thời gian nghỉ có thể là a morning, an afternoon, a week."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "I would like to take a day off next week.",
-          "wrong": "I want to ask leave next week."
-        },
-        {
-          "right": "Could I take tomorrow off, please?",
-          "wrong": "Can I ask a leave tomorrow?"
-        },
-        {
-          "right": "I need to take a day off tomorrow.",
-          "wrong": "I need a day leave for tomorrow."
-        }
-      ]
-    },
-    {
-      "code": "Quiz #001",
-      "date": "2026-11-12",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "Can I borrow your bike?",
-          "vi": "Tôi mượn xe đạp của bạn được không?"
-        },
-        {
-          "en": "He lent me 100,000 VND.",
-          "vi": "Anh ấy cho tôi mượn 100.000 đồng."
-        }
-      ],
-      "fb": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854",
-      "image_src": "ngay-01/Quiz-001-borrow-lend.png",
-      "ipa": [],
-      "quiz": {
-        "answer": 1,
-        "explanation": "Câu đúng: Can you lend me your pen?",
-        "options": [
-          "borrow",
-          "lend",
-          "take"
-        ],
-        "prompt": "Can you ___ me your pen?",
-        "question": "Bạn mượn bút của đồng nghiệp, bạn nói thế nào?"
-      },
-      "right": "Can you lend me your pen?",
-      "right_note": "Bạn cho tôi mượn cây bút được không?",
-      "slug": "quiz-001",
-      "title": "borrow hay lend?",
-      "topic": "công sở",
-      "type": "Quiz",
-      "why": "borrow là mượn về mình, lend là cho người khác mượn.",
-      "wrong": "Can you ___ me your pen?",
-      "wrong_note": "",
-      "practice": [
-        {
-          "prompt": "May I ___ your charger for an hour?",
-          "options": [
-            "borrow",
-            "lend"
-          ],
-          "answer": 0,
-          "explanation": "Bạn mượn sạc về mình → borrow. May I borrow your charger?"
-        },
-        {
-          "prompt": "Can you ___ me 50,000 VND until tomorrow?",
-          "options": [
-            "borrow",
-            "lend"
-          ],
-          "answer": 1,
-          "explanation": "Mượn tiền đến ngày mai nên nhờ người kia cho mượn, dùng lend me."
-        },
-        {
-          "answer": 0,
-          "explanation": "Bạn nhờ người khác cho mượn nên dùng lend me. Nếu tự hỏi: Could I borrow your notes after class?",
-          "kind": "fill_blank",
-          "options": [
-            "lend",
-            "borrow"
-          ],
-          "prompt": "Could you ___ me your notes after class?"
-        },
-        {
-          "answer": 0,
-          "explanation": "Cô ấy là người cho mượn nên dùng lent me. 'Borrow me' sai hướng, 'lent from me' sai giới từ vì lend đi với to, không đi với from.",
-          "kind": "find_error",
-          "options": [
-            "She lent me her umbrella because it was raining.",
-            "She borrowed her umbrella to me because it was raining.",
-            "She lent her umbrella from me because it was raining."
-          ],
-          "prompt": "Sửa câu sai: 'She borrowed me her umbrella because it was raining.'"
-        },
-        {
-          "answer": 1,
-          "explanation": "Anh ấy mượn tiền về mình nên dùng borrowed from. Lent from sai vì lend đi với to, không đi với from.",
-          "kind": "distinguish",
-          "options": [
-            "He lent some money from his friend.",
-            "He borrowed some money from his friend."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "explanation": "Đây là câu hỏi nhờ người khác cho mượn, với lend nhận tân ngữ me rồi tới your camera.",
-          "kind": "word_order",
-          "options": [
-            "Can",
-            "you",
-            "lend",
-            "me",
-            "your",
-            "camera",
-            "?"
-          ],
-          "prompt": "Sắp xếp thành câu đúng: 'me / your / Can / lend / camera / you / ?'"
-        }
-      ],
-      "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Bài quiz này kiểm tra đúng một điểm: ai mượn, ai cho mượn. Nhiều bạn chọn đúng khi làm bài tập, nhưng lúc nói thật vẫn buột miệng borrow me vì dịch từ tiếng Việt.",
-      "core": "Hỏi mượn đồ: Can I borrow your + đồ? Nhờ người khác cho mượn: Can you lend me your + đồ? Borrow không bao giờ đi với tân ngữ chỉ người nhận.",
-      "compare": [
-        {
-          "a": "May I borrow your umbrella for the afternoon?",
-          "b": "Could you lend me your umbrella for the afternoon?",
-          "note": "Hai cách hỏi cùng một việc: borrow hỏi từ phía mình, lend nhờ từ phía người kia."
-        },
-        {
-          "a": "She lent me her headphones yesterday.",
-          "b": "I borrowed her headphones yesterday.",
-          "note": "Cùng một sự việc, đổi chủ ngữ thì đổi động từ: người cho mượn dùng lent, người mượn dùng borrowed."
-        },
-        {
-          "a": "Can you lend me some money?",
-          "b": "Can I borrow some money from you?",
-          "note": "Lend me đi với người nhận, borrow from đi với người cho mượn, đừng trộn hai mẫu này."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "Please lend me your pen for a minute.",
-          "wrong": "Please borrow me your pen for a minute."
-        },
-        {
-          "right": "His brother lent him some money.",
-          "wrong": "He borrowed his brother some money."
-        },
-        {
-          "right": "Can I borrow your bike this weekend?",
-          "wrong": "Can I lend your bike this weekend?"
-        }
-      ]
-    },
-    {
-      "code": "Lỗi #002",
-      "date": "2026-11-12",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "The film was boring, so I felt bored.",
-          "vi": "Bộ phim chán quá nên tôi thấy chán."
-        },
-        {
-          "en": "Are you bored? Let's go out.",
-          "vi": "Bạn thấy chán à? Mình đi chơi đi."
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122097942729550200",
-      "image_src": "ngay-02/Loi-002-bored-boring.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "I am bored.",
-      "right_note": "Tôi thấy chán.",
-      "slug": "loi-002",
-      "title": "bored và boring",
-      "topic": "giao tiếp",
-      "type": "Lỗi",
-      "why": "boring tả thứ gây chán, bored tả cảm giác của người.",
-      "wrong": "I am boring.",
-      "wrong_note": "Tôi là người nhàm chán.",
-      "practice": [
-        {
-          "prompt": "I am ___ today, there is nothing to do.",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "answer": 0,
-          "explanation": "bored tả cảm giác của mình."
-        },
-        {
-          "prompt": "This book is so ___.",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "answer": 1,
-          "explanation": "boring tả cuốn sách gây chán."
-        },
-        {
-          "prompt": "Chọn câu đúng:",
-          "options": [
-            "I am boring at home.",
-            "I am bored at home."
-          ],
-          "answer": 1,
-          "explanation": "I am bored at home, ở nhà tôi thấy chán."
-        },
-        {
-          "answer": 1,
-          "explanation": "Bộ phim tài liệu gây chán nên dùng boring. Nếu nói về mình: I was so bored that I almost fell asleep.",
-          "kind": "fill_blank",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "prompt": "The documentary was so ___ that I almost fell asleep."
-        },
-        {
-          "answer": 0,
-          "explanation": "Chờ lâu khiến mình thấy chán nên dùng bored. 'Boring' ở đây sẽ hiểu là mình làm người khác chán.",
-          "kind": "find_error",
-          "options": [
-            "The long wait made me bored.",
-            "The long wait made me boringly.",
-            "The long wait made I boring."
-          ],
-          "prompt": "Sửa câu sai: 'The long wait made me boring.'"
-        },
-        {
-          "answer": 0,
-          "explanation": "Người thấy hứng thú dùng interested. Interesting chỉ dùng cho vật gây hứng thú, ví dụ This book is interesting.",
-          "kind": "distinguish",
-          "options": [
-            "I am interested in this book.",
-            "I am interesting in this book."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": 0,
-          "explanation": "Bài giảng gây chán nên dùng boring. 'Bored' chỉ dùng cho người, còn 'I am boring' nghĩa là mình làm người khác chán.",
-          "kind": "translate",
-          "options": [
-            "Today's lecture is so boring, I almost fell asleep.",
-            "Today's lecture is so bored, I almost fell asleep.",
-            "Today I am so boring in the lecture, I almost fell asleep."
-          ],
-          "prompt": "Dịch câu: 'Bài giảng hôm nay chán ơi là chán, mình ngồi mà buồn ngủ.'"
-        }
-      ],
-      "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
-      "reel": {
-        "label": "Xem Reel bài này",
-        "url": "https://www.facebook.com/reel/4646144255666119"
-      },
-      "show_in_ui": true,
-      "problem": "Trong tiếng Việt chỉ có một từ 'chán' cho cả người lẫn vật, nên nhiều bạn dùng lẫn bored và boring. Trong tiếng Anh, hai từ này chia việc rõ ràng: một từ tả người, một từ tả thứ gây ra cảm giác đó.",
-      "core": "Tính từ đuôi ed tả cảm giác của người: I am bored, she is tired. Tính từ đuôi ing tả tính chất của vật hoặc việc gây ra cảm giác: the film is boring, the job is tiring. Muốn nói mình thấy sao, dùng ed; muốn nói thứ gì gây ra sao, dùng ing.",
-      "compare": [
-        {
-          "a": "I am bored at the party.",
-          "b": "The party is boring.",
-          "note": "Câu đầu nói cảm giác của mình, câu sau nhận xét bữa tiệc gây chán."
-        },
-        {
-          "a": "She is interested in music.",
-          "b": "Music is interesting to her.",
-          "note": "Cùng quy tắc ed và ing: người thấy hứng thú dùng interested, thứ gây hứng thú dùng interesting."
-        },
-        {
-          "a": "He was excited about the trip.",
-          "b": "The trip was exciting.",
-          "note": "Excited tả người, exciting tả chuyến đi, đừng đảo ngược hai đuôi này."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "I am bored in this class.",
-          "wrong": "I am boring in this class."
-        },
-        {
-          "right": "This lesson is boring.",
-          "wrong": "This lesson is bored."
-        },
-        {
-          "right": "She felt bored after a long day.",
-          "wrong": "She felt boring after a long day."
-        }
-      ]
-    },
-    {
-      "code": "Lỗi #003",
-      "date": "2026-11-13",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "Tell me your name, please.",
-          "vi": "Cho tôi biết tên bạn nhé."
-        },
-        {
-          "en": "Did you say that?",
-          "vi": "Bạn nói vậy à?"
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122098476867550200",
-      "image_src": "ngay-02/Loi-003-say-tell.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "She told me that she was busy.",
-      "right_note": "Cô ấy nói với tôi rằng cô ấy bận.",
-      "slug": "loi-003",
-      "title": "say và tell",
-      "topic": "giao tiếp",
-      "type": "Lỗi",
-      "why": "tell đi với người nghe, say đi với nội dung được nói ra.",
-      "wrong": "She said me that she was busy.",
-      "wrong_note": "Cô ấy nói với tôi rằng cô ấy bận.",
-      "practice": [
-        {
-          "prompt": "She ___ me that she was busy.",
-          "options": [
-            "said",
-            "told"
-          ],
-          "answer": 1,
-          "explanation": "tell đi với người nghe, She told me."
-        },
-        {
-          "prompt": "He ___ \"I am tired.\"",
-          "options": [
-            "said",
-            "told"
-          ],
-          "answer": 0,
-          "explanation": "say đi với nội dung được nói ra, He said \"I am tired.\""
-        },
-        {
-          "prompt": "Chọn câu đúng:",
-          "options": [
-            "He told that he was tired.",
-            "He said that he was tired."
-          ],
-          "answer": 1,
-          "explanation": "He said that he was tired, said đi với mệnh đề that."
-        },
-        {
-          "answer": 1,
-          "explanation": "Tell the truth là cụm cố định: nói sự thật với người nghe. Say the truth nghe không tự nhiên trong câu này.",
-          "kind": "fill_blank",
-          "options": [
-            "say",
-            "tell"
-          ],
-          "prompt": "Please ___ the truth, I need to know."
-        },
-        {
-          "answer": 0,
-          "explanation": "Có người nghe us thì dùng told us. Say không nhận tân ngữ chỉ người trực tiếp, và told to us sai thứ tự.",
-          "kind": "find_error",
-          "options": [
-            "My teacher told us to finish the homework.",
-            "My teacher said us finishing the homework.",
-            "My teacher told to us finish the homework."
-          ],
-          "prompt": "Sửa câu sai: 'My teacher said us to finish the homework.'"
-        },
-        {
-          "answer": 0,
-          "explanation": "Say có thể đi với to + người nghe: said to me. Tell nhận người nghe trực tiếp nên told to me là sai.",
-          "kind": "distinguish",
-          "options": [
-            "He said to me that he was late.",
-            "He told to me that he was late."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "explanation": "Mẫu câu là tell + người nghe + mệnh đề that, và they were late là mệnh đề đi sau that.",
-          "kind": "word_order",
-          "options": [
-            "They",
-            "told",
-            "us",
-            "that",
-            "they",
-            "were",
-            "late",
-            "."
-          ],
-          "prompt": "Sắp xếp thành câu đúng: 'us / They / late / that / told / they / were / .'"
-        }
-      ],
-      "remember": "Có NGƯỜI nghe → tell. Chỉ NỘI DUNG → say.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Tiếng Việt gom cả 'nói' và 'bảo' vào một từ, nên nhiều bạn nói said me theo thói quen. Trong tiếng Anh, say và tell chia nhau rõ ràng: một từ cần người nghe, một từ chỉ cần nội dung.",
-      "core": "tell + người nghe + nội dung: tell me the truth, tell her a story. say + nội dung, không có người nghe trực tiếp: say hello, say that you are busy. Muốn nhắc người nghe sau say, phải thêm to: say it to me. Ngoại lệ hay gặp: tell a lie, tell a joke, tell the time, tell đi với những cụm cố định này.",
-      "compare": [
-        {
-          "a": "She said that she was tired.",
-          "b": "She told me that she was tired.",
-          "note": "Không có người nghe thì dùng said that, có người nghe me thì dùng told me."
-        },
-        {
-          "a": "Please say it to him, not to me.",
-          "b": "Please tell him, not me.",
-          "note": "Say muốn nhắc người nghe phải có to, còn tell nhận người nghe trực tiếp."
-        },
-        {
-          "a": "He told us a funny story.",
-          "b": "He said a funny thing.",
-          "note": "Kể chuyện dùng tell a story, còn say chỉ đi với nội dung chung chung."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "He told me the news yesterday.",
-          "wrong": "He said me the news yesterday."
-        },
-        {
-          "right": "She said that she would come.",
-          "wrong": "She told that she would come."
-        },
-        {
-          "right": "Can you tell me your name again?",
-          "wrong": "Can you say me your name again?"
-        }
-      ]
-    },
-    {
-      "code": "Mẫu câu #002",
-      "date": "2026-11-13",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "Hi, I am Lan. I work in Da Lat.",
-          "vi": "Tôi là Lan. Tôi làm việc ở Đà Lạt."
-        },
-        {
-          "en": "Nice to meet you.",
-          "vi": "Rất vui được gặp bạn."
-        },
-        {
-          "en": "I am from Vietnam.",
-          "vi": "Tôi là người Việt Nam."
-        },
-        {
-          "en": "What do you do?",
-          "vi": "Bạn làm nghề gì?"
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122098626711550200",
-      "image_src": "ngay-02/Mau-cau-002-slide-1.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "I come from Vietnam.",
-      "right_note": "Tôi đến từ Việt Nam.",
-      "slug": "mau-cau-002",
-      "title": "giới thiệu bản thân",
-      "topic": "giao tiếp",
-      "type": "Mẫu câu",
-      "why": "come là động từ nên không đi với am.",
-      "wrong": "I am come from Vietnam.",
-      "wrong_note": "",
-      "practice": [
-        {
-          "prompt": "I ___ from Vietnam.",
-          "options": [
-            "am come",
-            "come",
-            "am coming"
-          ],
-          "answer": 1,
-          "explanation": "come là động từ nên không đi với am, I come from Vietnam."
-        },
-        {
-          "prompt": "Chọn câu đúng:",
-          "options": [
-            "What is your job?",
-            "What are you do?"
-          ],
-          "answer": 0,
-          "explanation": "Hỏi nghề nghiệp dùng is + job, không dùng are + do."
-        },
-        {
-          "prompt": "___ to meet you.",
-          "options": [
-            "Nice",
-            "Nicely",
-            "Good"
-          ],
-          "answer": 0,
-          "explanation": "Nice to meet you, Rất vui được gặp bạn."
-        },
-        {
-          "answer": 1,
-          "explanation": "Come là động từ chính nên đứng một mình. Am come sai, còn am coming là thì tiếp diễn, không dùng để nói quê quán.",
-          "kind": "fill_blank",
-          "options": [
-            "am come",
-            "come",
-            "am coming"
-          ],
-          "prompt": "Hello, my name is Minh. I ___ from Hanoi."
-        },
-        {
-          "answer": 0,
-          "explanation": "Nói nghề nghiệp thì dùng hiện tại đơn, work đứng một mình, không cần am. Am works sai vì đã có am lại thêm s vào động từ.",
-          "kind": "find_error",
-          "options": [
-            "I work in a hotel in Da Lat.",
-            "I am works in a hotel in Da Lat.",
-            "I working in a hotel in Da Lat."
-          ],
-          "prompt": "Sửa câu sai: 'I am work in a hotel in Da Lat.'"
-        },
-        {
-          "answer": 1,
-          "explanation": "Come from đứng một mình, không cần am, thêm am vào trước come là lỗi trộn hai mẫu.",
-          "kind": "distinguish",
-          "options": [
-            "I am come from Hue.",
-            "I come from Hue."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": 0,
-          "explanation": "Giới thiệu tên dùng I am Lan, quê quán dùng I come from Da Lat, nghề dùng I am a tour guide, mỗi ý một mẫu đúng.",
-          "kind": "translate",
-          "options": [
-            "Hello, I am Lan, I come from Da Lat and I am a tour guide.",
-            "Hello, I am Lan, I am come from Da Lat and I am work as a tour guide.",
-            "Hello, I am Lan, I from Da Lat and I work tour guide."
-          ],
-          "prompt": "Dịch câu: 'Chào bạn, mình tên là Lan, mình đến từ Đà Lạt và làm hướng dẫn viên.'"
-        }
-      ],
-      "remember": "come là động từ, đứng một mình, không cần am.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Nhiều bạn dịch 'Tôi đến từ Việt Nam' thành I am come from Vietnam vì nghĩ câu nào cũng cần am. Thực ra am chỉ đi với tính từ hoặc danh từ, còn come đã là động từ chính nên đứng một mình.",
-      "core": "Giới thiệu quê quán có hai cách đều đúng: I am from Vietnam và I come from Vietnam, đừng trộn hai cách thành I am come from. Giới thiệu nghề: I work in Da Lat hoặc I am a tour guide, không nói I am work. Công thức mở đầu: tên + quê + nghề, mỗi ý một câu ngắn.",
-      "compare": [
-        {
-          "a": "I am from Da Lat.",
-          "b": "I come from Da Lat.",
-          "note": "Hai cách đều đúng, chỉ khác động từ: be from hoặc come from, không gộp thành am come."
-        },
-        {
-          "a": "I am a student.",
-          "b": "I study at university.",
-          "note": "Giới thiệu nghề nghiệp: be + danh từ nghề, hoặc động từ chính study/work đứng một mình."
-        },
-        {
-          "a": "I am Vietnamese.",
-          "b": "I live in Da Lat now.",
-          "note": "Nói quốc tịch dùng be + tính từ, nói nơi đang sống dùng live, mỗi động từ một vai trò."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "I come from Hanoi.",
-          "wrong": "I am come from Hanoi."
-        },
-        {
-          "right": "I work as a teacher.",
-          "wrong": "I am work as a teacher."
-        },
-        {
-          "right": "I study English every day.",
-          "wrong": "I am study English every day."
-        }
-      ],
-      "tip": "Nhớ hai mẫu đúng: I am from + nơi, I come from + nơi, chỉ chọn một, không gộp lại."
-    },
-    {
-      "code": "Quiz #002",
-      "date": "2026-11-13",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "The party was boring.",
-          "vi": "Bữa tiệc chán quá."
-        },
-        {
-          "en": "She felt bored during the meeting.",
-          "vi": "Cô ấy thấy chán trong cuộc họp."
-        }
-      ],
-      "fb": "https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/",
-      "image_src": "ngay-02/Quiz-002-bored-boring.png",
-      "ipa": [],
-      "quiz": {
-        "answer": 0,
-        "explanation": "Câu đúng: The movie was so boring. I felt bored.",
-        "options": [
-          "boring, bored",
-          "bored, boring",
-          "boring, boring"
-        ],
-        "prompt": "The movie was so ___. I felt ___.",
-        "question": "Phim chán quá, mình cũng chán theo. Câu này điền 2 từ nào mới đúng?"
-      },
-      "right": "The movie was so boring. I felt bored.",
-      "right_note": "",
-      "slug": "quiz-002",
-      "title": "boring hay bored?",
-      "topic": "giao tiếp",
-      "type": "Quiz",
-      "why": "boring tả bộ phim gây chán, bored tả cảm giác của mình.",
-      "wrong": "The movie was so ___. I felt ___.",
-      "wrong_note": "Phim chán quá, mình cũng chán theo.",
-      "practice": [
-        {
-          "prompt": "Are you ___?",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "answer": 0,
-          "explanation": "Are you bored?, Bạn có thấy chán không?"
-        },
-        {
-          "prompt": "The meeting was so ___.",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "answer": 1,
-          "explanation": "The meeting was so boring, cuộc họp chán quá."
-        },
-        {
-          "answer": 1,
-          "explanation": "Bài nói gây chán nên dùng boring. Nếu nói về người nghe: half the room felt bored.",
-          "kind": "fill_blank",
-          "options": [
-            "bored",
-            "boring"
-          ],
-          "prompt": "The talk was so ___ that half the room fell asleep."
-        },
-        {
-          "answer": 0,
-          "explanation": "Chính mình thấy chán nên dùng bored. Boring ở đây sẽ hiểu là cả nhóm làm người khác chán.",
-          "kind": "find_error",
-          "options": [
-            "We were bored at the concert, so we went home.",
-            "We were boringly at the concert, so we went home.",
-            "We were bore at the concert, so we went home."
-          ],
-          "prompt": "Sửa câu sai: 'We were boring at the concert, so we went home.'"
-        },
-        {
-          "answer": 1,
-          "explanation": "Câu đùa gây chán thì boring, dù mọi người vẫn cười, bored chỉ dùng cho người thấy chán, không dùng cho vật.",
-          "kind": "distinguish",
-          "options": [
-            "The joke was bored, but everyone laughed.",
-            "The joke was boring, but everyone laughed."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": 0,
-          "explanation": "Cuộc họp dài gây chán, còn mọi người là người thấy chán nên felt bored. Boring không dùng cho người, bored không dùng cho vật.",
-          "kind": "translate",
-          "options": [
-            "The meeting was so long, everyone felt bored.",
-            "The meeting was so long, everyone felt boring.",
-            "The meeting was so bored, everyone felt bored."
-          ],
-          "prompt": "Dịch câu: 'Cuộc họp dài quá, ai cũng thấy chán.'"
-        }
-      ],
-      "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Bài quiz này chỉ hỏi một điều: phim gây chán hay mình thấy chán. Nhiều bạn điền đúng một chỗ rồi sai chỗ còn lại, vì hai từ này trong tiếng Việt đều là 'chán'.",
-      "core": "Khi một câu có hai chỗ trống, hãy hỏi từng chỗ: chỗ nào tả vật gây chán thì boring, chỗ nào tả cảm giác của người thì bored. Mẹo: tìm chủ ngữ trước, chủ ngữ là vật thì ing, chủ ngữ là người thì ed.",
-      "compare": [
-        {
-          "a": "The lesson was boring, so the students felt bored.",
-          "b": "The students were bored because the lesson was boring.",
-          "note": "Hai câu cùng một ý, chỉ đổi thứ tự: nguyên nhân boring đi trước, cảm giác bored đi sau, hoặc ngược lại."
-        },
-        {
-          "a": "That trip was exciting, and we felt excited.",
-          "b": "We were excited because the trip was exciting.",
-          "note": "Quy tắc ed và ing áp dụng cho mọi cặp tính từ cảm xúc, không riêng bored/boring."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "The movie was so boring that we left early.",
-          "wrong": "The movie was so bored that we left early."
-        },
-        {
-          "right": "I felt bored during the long meeting.",
-          "wrong": "I felt boring during the long meeting."
-        },
-        {
-          "right": "This game is boring, let's play something else.",
-          "wrong": "This game is bored, let's play something else."
-        }
-      ]
-    },
-    {
-      "code": "Reel #001",
-      "date": "2026-11-13",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "Can you lend me your pen?",
-          "vi": "Bạn cho tôi mượn cây bút được không?"
-        }
-      ],
-      "fb": "https://www.facebook.com/reel/1521348529887565",
-      "image_src": "reels/frames/reel-001-f1.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "Can you lend me your pen?",
-      "right_note": "Bạn cho tôi mượn cây bút được không?",
-      "slug": "reel-001",
-      "title": "borrow và lend",
-      "topic": "công sở",
-      "type": "Reels",
-      "why": "borrow là mượn về mình, lend là cho người khác mượn.",
-      "wrong": "Can you borrow me your pen?",
-      "wrong_note": "Bạn cho tôi mượn cây bút được không?",
-      "practice": [],
-      "remember": "",
-      "reel": null,
-      "show_in_ui": false
-    },
-    {
-      "code": "Reel #002",
-      "date": "2026-11-13",
-      "dict_links": [],
-      "examples": [
-        {
-          "en": "I am bored today.",
-          "vi": "Hôm nay tôi thấy chán."
-        }
-      ],
-      "fb": "https://www.facebook.com/reel/4646144255666119",
-      "image_src": "reels/frames/reel-002-f1.png",
-      "ipa": [],
-      "quiz": null,
-      "right": "I am bored today.",
-      "right_note": "Hôm nay tôi thấy chán.",
-      "slug": "reel-002",
-      "title": "I am bored",
-      "topic": "giao tiếp",
-      "type": "Reels",
-      "why": "bored là mình chán, boring là mình làm người khác chán.",
-      "wrong": "I am boring today.",
-      "wrong_note": "",
-      "practice": [],
-      "remember": "",
-      "reel": null,
-      "show_in_ui": false
-    },
-    {
-      "code": "Lỗi #004",
-      "date": "2026-11-14",
-      "dict_links": [
-        {
-          "label": "Cambridge, comfortable",
-          "url": "https://dictionary.cambridge.org/dictionary/english/comfortable"
-        },
-        {
-          "label": "Oxford, comfortable",
-          "url": "https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"
-        }
-      ],
-      "examples": [
-        {
-          "en": "This chair is very comfortable.",
-          "vi": "Cái ghế này rất thoải mái."
-        },
-        {
-          "en": "My shoes are very comfortable.",
-          "vi": "Đôi giày của tôi rất thoải mái."
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122099308863550200",
-      "image_src": "ngay-03/Loi-004-comfortable.png",
-      "ipa": [
-        {
-          "note": "dạng đầy đủ /ˈkʌmfərt̮əbl/ cũng được Oxford ghi nhận",
-          "source": "Oxford, Anh Mỹ",
-          "text": "/ˈkʌmftərbl/"
-        },
-        {
-          "note": "cách ghi khác, cùng cách đọc gọn 3 âm",
-          "source": "Cambridge, Anh Mỹ",
-          "text": "/ˈkʌm.fɚ.t̬ə.bəl/"
-        }
-      ],
-      "quiz": {
-        "answer": 1,
-        "explanation": "3 âm, /ˈkʌmftərbl/ (Oxford, Anh Mỹ).",
-        "merged_from": "Quiz #003, cùng nội dung, gộp vào bài này thay vì đăng trùng",
-        "options": [
-          "2 âm",
-          "3 âm",
-          "4 âm"
-        ],
-        "prompt": "comfortable có mấy âm?",
-        "question": "Từ comfortable có mấy âm?"
-      },
-      "right": "CUMF tơ bồ",
-      "right_note": "thường đọc 3 âm",
-      "slug": "loi-004",
-      "title": "comfortable đọc mấy âm?",
-      "topic": "phát âm",
-      "type": "Lỗi",
-      "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ.",
-      "wrong": "com for ta bồ",
-      "wrong_note": "đọc tách thành 4 âm",
-      "practice": [
-        {
-          "prompt": "Âm giữa của comfortable đọc thế nào?",
-          "options": [
-            "đọc rất nhẹ, gần như không nghe",
-            "đọc rõ như âm “phờ”",
-            "đọc thành âm “tờ” rõ"
-          ],
-          "answer": 0,
-          "explanation": "Âm giữa đọc rất nhẹ, gần như không nghe, nên nghe như chỉ có 3 âm."
-        },
-        {
-          "prompt": "The bed is very ___.",
-          "options": [
-            "comfortable",
-            "comfortably"
-          ],
-          "answer": 0,
-          "explanation": "comfortable là tính từ, The bed is very comfortable."
-        },
-        {
-          "answer": 0,
-          "explanation": "Tả ghế thì dùng tính từ comfortable sau be. Comfortably là trạng từ, comfort là danh từ, không đứng sau very ở đây.",
-          "kind": "fill_blank",
-          "options": [
-            "comfortable",
-            "comfortably",
-            "comfort"
-          ],
-          "prompt": "This armchair is very ___, I could sit here all day."
-        },
-        {
-          "answer": 0,
-          "explanation": "Tả giày cần tính từ comfortable. Comfort là danh từ, comfortably là trạng từ, cả hai đều sai vị trí này.",
-          "kind": "find_error",
-          "options": [
-            "My new shoes are very comfortable for long walks.",
-            "My new shoes are very comfortably for long walks.",
-            "My new shoes are very comforts for long walks."
-          ],
-          "prompt": "Sửa câu sai: 'My new shoes are very comfort for long walks.'"
-        },
-        {
-          "answer": 0,
-          "explanation": "Sau was cần tính từ comfortable. Comfortablely không phải từ tiếng Anh, trạng từ của comfortable là comfortably, nhưng không dùng để tả chiếc giường.",
-          "kind": "distinguish",
-          "options": [
-            "The hotel bed was comfortable, I slept really well.",
-            "The hotel bed was comfortablely, I slept really well."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": 0,
-          "explanation": "Đi êm chân thì dùng tính từ comfortable. Foot số nhiều là feet, không phải foots; comfortably sai vị trí vì đây là câu tả đồ vật.",
-          "kind": "translate",
-          "options": [
-            "These shoes are so comfortable, I can stand all day without sore feet.",
-            "These shoes are so comfort, I can stand all day without sore foots.",
-            "These shoes are so comfortably, I can stand all day without sore feet."
-          ],
-          "prompt": "Dịch câu: 'Đôi giày này đi rất êm, đứng cả ngày cũng không mỏi chân.'"
-        }
-      ],
-      "remember": "comfortable thường đọc gọn 3 âm.",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Nhìn mặt chữ com fort a ble, nhiều bạn đọc tách thành 4 âm rõ ràng như đánh vần. Nhưng người bản xứ nuốt nhẹ âm giữa, nên nghe gọn hơn nhiều, tập đọc theo chữ cái chính là cái bẫy của từ này.",
-      "core": "Trọng âm rơi vào âm đầu: COMF ter ble. Âm giữa ter đọc rất nhẹ, gần như lướt qua. Giọng Anh Mỹ thường đọc gọn 3 âm; giọng Anh Anh trong từ điển vẫn ghi 4 âm nhưng khi nói nhanh cũng lướt nhẹ âm giữa. Nói chung: đọc nhanh, nhấn âm đầu, đừng đánh vần từng chữ cái.",
-      "compare": [
-        {
-          "a": "This sofa is very comfortable.",
-          "b": "This sofa is very uncomfortable.",
-          "note": "Thêm un vào đầu thành từ trái nghĩa uncomfortable, trọng âm vẫn ở âm đầu, âm giữa vẫn đọc nhẹ."
-        },
-        {
-          "a": "Are these shoes comfortable enough for a long walk?",
-          "b": "Are those shoes comfortable enough to run in?",
-          "note": "Comfortable đi với enough: đủ thoải mái để làm gì, enough đứng sau tính từ."
-        },
-        {
-          "a": "My new bed is comfortable, so I sleep well.",
-          "b": "My new bed is uncomfortable, so I cannot sleep well.",
-          "note": "Comfortable/uncomfortable đều là tính từ, đứng sau be, đừng thêm ly thành trạng từ khi tả đồ vật."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "I say it fast as COMF ter ble.",
-          "wrong": "I read it slowly as com for ta ble."
-        },
-        {
-          "right": "These shoes are very comfortable for walking.",
-          "wrong": "These shoes are very comfortably for walking."
-        },
-        {
-          "right": "This is a comfortable chair.",
-          "wrong": "This is a comfort chair."
-        }
-      ],
-      "tip": "Nhấn COMF thật mạnh rồi lướt nhanh ter ble, như nói một từ có 3 nhịp.",
-      "articulation": "Nhấn mạnh âm đầu COMF: miệng mở vừa, môi thả lỏng, âm /ʌ/ ngắn. Âm /f/ đặt răng trên chạm môi dưới, thổi hơi ra. Âm giữa ter: đầu lưỡi chạm nhẹ nướu răng trên, âm /ə/ rất nhẹ, gần như không mở miệng. Trong giọng Mỹ, âm /t/ giữa nghe gần như một âm /d/ rất nhẹ. Âm cuối ble: môi khép lại cho /b/ rồi đầu lưỡi chạm nướu cho /l/, kết thúc gọn."
-    },
-    {
-      "code": "Mẫu câu #003",
-      "date": "2026-11-14",
-      "dict_links": [
-        {
-          "label": "Cambridge, ship",
-          "url": "https://dictionary.cambridge.org/dictionary/english/ship"
-        },
-        {
-          "label": "Cambridge, sheep",
-          "url": "https://dictionary.cambridge.org/dictionary/english/sheep"
-        },
-        {
-          "label": "Cambridge, live",
-          "url": "https://dictionary.cambridge.org/dictionary/english/live"
-        },
-        {
-          "label": "Cambridge, leave",
-          "url": "https://dictionary.cambridge.org/dictionary/english/leave"
-        },
-        {
-          "label": "Cambridge, think",
-          "url": "https://dictionary.cambridge.org/dictionary/english/think"
-        },
-        {
-          "label": "Cambridge, sink",
-          "url": "https://dictionary.cambridge.org/dictionary/english/sink"
-        }
-      ],
-      "examples": [
-        {
-          "en": "The ship is on the sea.",
-          "vi": "Con tàu đang ở trên biển."
-        },
-        {
-          "en": "The sheep is on the farm.",
-          "vi": "Con cừu đang ở trên nông trại."
-        },
-        {
-          "en": "I live in Da Lat, but I will leave tomorrow.",
-          "vi": "Tôi sống ở Đà Lạt, nhưng ngày mai tôi sẽ rời đi."
-        },
-        {
-          "en": "The dishes are in the sink.",
-          "vi": "Bát đĩa đang ở trong bồn rửa."
-        }
-      ],
-      "fb": "https://www.facebook.com/61596506009854/posts/122099427615550200",
-      "image_src": "ngay-03/Mau-cau-003-slide-1.png",
-      "ipa": [
-        {
-          "note": "ship âm ngắn, sheep âm dài",
-          "source": "Cambridge",
-          "text": "ship /ʃɪp/, sheep /ʃiːp/"
-        },
-        {
-          "note": "live âm ngắn, leave âm dài",
-          "source": "Cambridge",
-          "text": "live /lɪv/, leave /liːv/"
-        },
-        {
-          "note": "think âm th, sink âm s",
-          "source": "Cambridge",
-          "text": "think /θɪŋk/, sink /sɪŋk/"
-        }
-      ],
-      "quiz": null,
-      "right": "I saw a ship on the sea.",
-      "right_note": "Tôi thấy một con tàu trên biển.",
-      "slug": "mau-cau-003",
-      "title": "3 cặp âm dễ nhầm",
-      "topic": "phát âm",
-      "type": "Mẫu câu",
-      "why": "ship là tàu, sheep là cừu, đọc nhầm là đổi nghĩa luôn.",
-      "wrong": "I saw a sheep on the sea.",
-      "wrong_note": "Tôi thấy một con cừu trên biển.",
-      "practice": [
-        {
-          "prompt": "I saw a ___ on the sea.",
-          "options": [
-            "ship",
-            "sheep"
-          ],
-          "answer": 0,
-          "explanation": "ship là tàu, I saw a ship on the sea."
-        },
-        {
-          "prompt": "I saw a ___ on the farm.",
-          "options": [
-            "ship",
-            "sheep"
-          ],
-          "answer": 1,
-          "explanation": "sheep là cừu, I saw a sheep on the farm."
-        },
-        {
-          "prompt": "I ___ my keys at home.",
-          "options": [
-            "live",
-            "leave"
-          ],
-          "answer": 1,
-          "explanation": "leave my keys at home, để quên chìa khóa ở nhà."
-        },
-        {
-          "answer": 0,
-          "explanation": "Nông dân nuôi cừu trên đồi nên dùng sheep. Ships là tàu, không ai nuôi tàu trên đồi.",
-          "kind": "fill_blank",
-          "options": [
-            "sheep",
-            "ships"
-          ],
-          "prompt": "The farmer keeps ten ___ on the hill."
-        },
-        {
-          "answer": 0,
-          "explanation": "Rời khách sạn thì dùng leave, không phải live. Live in the hotel nghĩa là sống trong khách sạn, không hợp ngữ cảnh trả phòng lúc trưa.",
-          "kind": "find_error",
-          "options": [
-            "We will leave the hotel at noon tomorrow.",
-            "We will live in the hotel at noon tomorrow.",
-            "We will leaving the hotel at noon tomorrow."
-          ],
-          "prompt": "Sửa câu sai: 'We will live the hotel at noon tomorrow.'"
-        },
-        {
-          "answer": 0,
-          "explanation": "Think là suy nghĩ, sink ở đây là bồn rửa, câu đúng dùng think làm động từ chính và sink làm danh từ. Đảo hai từ thì câu vô nghĩa.",
-          "kind": "distinguish",
-          "options": [
-            "I think the sink is broken.",
-            "I sink the think is broken."
-          ],
-          "prompt": "Chọn câu đúng:"
-        },
-        {
-          "answer": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-          ],
-          "explanation": "Thứ tự đúng là chủ ngữ, động từ, rồi cụm a big ship near the port, nhớ ship là tàu, không phải sheep là cừu.",
-          "kind": "word_order",
-          "options": [
-            "I",
-            "saw",
-            "a",
-            "big",
-            "ship",
-            "near",
-            "the",
-            "port",
-            "."
-          ],
-          "prompt": "Sắp xếp thành câu đúng: 'a / I / big / near / port / saw / ship / the / .'"
-        }
-      ],
-      "remember": "Nhớ cặp này: ship (tàu), sheep (cừu).",
-      "reel": null,
-      "show_in_ui": true,
-      "problem": "Tiếng Việt không phân biệt nguyên âm ngắn và dài, cũng không có âm /θ/ đầu lưỡi chạm răng, nên ship/sheep, live/leave, think/sink nghe như một. Chỉ cần sai một âm là đổi nghĩa, người nghe hiểu sang chuyện khác.",
-      "core": "Âm /ɪ/ ngắn, thả lỏng: ship, live, think. Âm /iː/ dài, căng môi: sheep, leave, đọc dài gấp đôi và mím môi cười nhẹ. Âm /θ/ trong think: đầu lưỡi đặt giữa hai hàm răng trên và dưới, thổi hơi ra; âm /s/ trong sink: lưỡi ở sau răng, hơi xì qua kẽ răng. Nghe cặp nào cũng hỏi: âm ngắn hay dài, lưỡi ở đâu.",
-      "compare": [
-        {
-          "a": "I live in Da Lat.",
-          "b": "I will leave Da Lat tomorrow.",
-          "note": "Live là sống ở đâu, leave là rời khỏi đâu, cùng vần nhưng nghĩa khác hẳn."
-        },
-        {
-          "a": "Think before you speak.",
-          "b": "The sink is full of water.",
-          "note": "Think bắt đầu bằng /θ/, lưỡi chạm răng; sink bắt đầu bằng /s/, lưỡi sau răng."
-        },
-        {
-          "a": "The sheep are eating grass.",
-          "b": "The ship is leaving the port.",
-          "note": "Sheep âm dài /iː/, ship âm ngắn /ɪ/, chỉ khác độ dài mà đổi hẳn nghĩa."
-        }
-      ],
-      "mistakes": [
-        {
-          "right": "There is a ship in the harbour.",
-          "wrong": "There is a sheep in the harbour."
-        },
-        {
-          "right": "I leave my house at 7 in the morning.",
-          "wrong": "I live my house at 7 in the morning."
-        },
-        {
-          "right": "I think about you every day.",
-          "wrong": "I sink about you every day."
-        }
-      ],
-      "tip": "Mẹo: sheep thì cười dài, môi cười, âm kéo dài; ship thì nói nhanh, gọn một nhịp.",
-      "articulation": "Âm /ɪ/ (ship, live): lưỡi hơi thấp, môi thả lỏng, âm ngắn gọn. Âm /iː/ (sheep, leave): lưỡi nâng cao, môi kéo sang hai bên như cười, giữ âm dài hơn hẳn. Âm /θ/ (think): đầu lưỡi đặt nhẹ giữa răng trên và răng dưới, thổi hơi ra, cổ họng không rung. Âm /s/ (sink): đầu lưỡi ở ngay sau răng trên, hơi xì mạnh qua kẽ răng."
+     "en": "She lent me her laptop yesterday.",
+     "vi": "Hôm qua cô ấy cho tôi mượn laptop."
     }
-  ],
-  "site": {
-    "base_url": "https://dongdarealest.github.io/sai-dau-sua-do",
-    "facebook_group": "https://www.facebook.com/groups/4387154551501983",
-    "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
-    "name": "Kho bài học Sai Đâu Sửa Đó",
-    "slogan": "Mỗi ngày sửa một lỗi nhỏ.",
-    "paths": [
-      {
-        "slug": "hoc-lai-tu-dau",
-        "name": "Học lại từ đầu",
-        "desc": "Từ những lỗi cơ bản nhất, học theo thứ tự, mỗi bài chỉ 3, 5 phút.",
-        "order": [
-          "loi-001",
-          "quiz-001",
-          "loi-002",
-          "quiz-002",
-          "loi-003",
-          "mau-cau-001",
-          "mau-cau-002"
-        ],
-        "icon": "🌱"
-      },
-      {
-        "slug": "tieng-anh-di-lam",
-        "name": "Tiếng Anh đi làm",
-        "desc": "Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.",
-        "order": [
-          "loi-001",
-          "loi-003",
-          "mau-cau-001",
-          "mau-cau-002",
-          "quiz-001"
-        ],
-        "icon": "💼"
-      },
-      {
-        "slug": "sua-phat-am",
-        "name": "Sửa phát âm",
-        "desc": "Những từ người Việt hay đọc sai, nghe, đọc theo, sửa ngay.",
-        "order": [
-          "loi-004",
-          "mau-cau-003",
-          "loi-002",
-          "quiz-002"
-        ],
-        "icon": "🗣️"
-      }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097926157550200",
+   "image_src": "ngay-01/Loi-001-borrow-lend.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "loi-001",
+   "title": "borrow và lend",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you borrow me your pen?",
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?",
+   "practice": [
+    {
+     "prompt": "Can you ___ me your pen?",
+     "options": [
+      "borrow",
+      "lend",
+      "take"
+     ],
+     "answer": 1,
+     "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn."
+    },
+    {
+     "prompt": "I need to ___ a book from the library.",
+     "options": [
+      "borrow",
+      "lend",
+      "take"
+     ],
+     "answer": 0,
+     "explanation": "Bạn mượn sách về mình → borrow. I need to borrow a book from the library."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "She borrowed me her bike.",
+      "She lent me her bike."
+     ],
+     "answer": 1,
+     "explanation": "She lent me her bike, cô ấy cho tôi mượn xe."
+    },
+    {
+     "answer": 0,
+     "explanation": "Mình là người mượn về nên dùng borrow. Nếu hỏi ngược lại: Could you lend me your jacket?",
+     "kind": "fill_blank",
+     "options": [
+      "borrow",
+      "lend"
+     ],
+     "prompt": "Could I ___ your jacket for the evening?"
+    },
+    {
+     "answer": 0,
+     "explanation": "Người nói muốn mượn ô về mình nên người kia phải lend. 'Borrow me' sai vì borrow không nhận tân ngữ chỉ người được cho mượn.",
+     "kind": "find_error",
+     "options": [
+      "Please lend me your umbrella, it is raining.",
+      "Please borrow your umbrella to me, it is raining.",
+      "Please borrowing me your umbrella, it is raining."
+     ],
+     "prompt": "Tìm lỗi trong câu: 'Please borrow me your umbrella, it is raining.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Mượn tiền về mình thì borrow from. Lend không đi với from, người cho mượn dùng lend to.",
+     "kind": "distinguish",
+     "options": [
+      "I lent some money from my brother.",
+      "I borrowed some money from my brother."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Bạn là người cho mượn nên dùng lend me. 'Can you borrow me' sai hướng, còn 'Can I lend your power bank' thiếu tân ngữ chỉ người nhận.",
+     "kind": "translate",
+     "options": [
+      "Can you borrow me your power bank?",
+      "Can you lend me your power bank?",
+      "Can I lend your power bank?"
+     ],
+     "prompt": "Dịch câu: 'Bạn cho mình mượn sạc dự phòng được không?'"
+    }
+   ],
+   "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1521348529887565"
+   },
+   "show_in_ui": true,
+   "problem": "Người Việt hay dịch thẳng 'cho tôi mượn' thành borrow me, vì nghĩ borrow là 'cho mượn'. Thực ra borrow chỉ dùng khi chính mình là người mượn về.",
+   "core": "borrow + vật + from + người: mình mượn về. lend + người + vật, hoặc lend + vật + to + người: mình cho người khác mượn. Nhớ hướng chuyển động: borrow là về phía mình, lend là ra khỏi mình.",
+   "compare": [
+    {
+     "a": "I borrowed some money from my friend.",
+     "b": "My friend lent some money to me.",
+     "note": "Hai câu cùng một sự việc, chỉ đổi góc nhìn: người mượn dùng borrow from, người cho mượn dùng lend to."
+    },
+    {
+     "a": "Could you lend me your dictionary?",
+     "b": "Could I borrow your dictionary?",
+     "note": "Muốn mượn đồ của ai, hỏi bằng lend me hoặc borrow your, đừng nói borrow me."
+    },
+    {
+     "a": "She borrowed my camera and kept it for a week.",
+     "b": "I lent her my camera for a week.",
+     "note": "Borrow kể từ phía người mượn, lend kể từ phía người cho mượn."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "Can you lend me your car?",
+     "wrong": "Can you borrow me your car?"
+    },
+    {
+     "right": "He lent me his notes before the exam.",
+     "wrong": "He borrowed me his notes before the exam."
+    },
+    {
+     "right": "I want to borrow a book from the library.",
+     "wrong": "I want to lend a book from the library."
+    }
+   ]
+  },
+  {
+   "code": "Mẫu câu #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I would like to take tomorrow off, please.",
+     "vi": "Tôi muốn xin nghỉ ngày mai."
+    },
+    {
+     "en": "Could I take Monday off, please?",
+     "vi": "Tôi có thể nghỉ thứ Hai được không?"
+    },
+    {
+     "en": "I need to take a day off for a family matter.",
+     "vi": "Tôi cần nghỉ một ngày vì việc gia đình."
+    },
+    {
+     "en": "I need to take Friday morning off to see the dentist.",
+     "vi": "Tôi cần xin nghỉ buổi sáng thứ Sáu để đi khám răng."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097927609550200",
+   "image_src": "ngay-01/Mau-cau-001-slide-1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I would like to take a day off tomorrow.",
+   "right_note": "Tôi muốn xin nghỉ một ngày vào ngày mai.",
+   "slug": "mau-cau-001",
+   "title": "xin nghỉ phép",
+   "topic": "công sở",
+   "type": "Mẫu câu",
+   "why": "Dùng take a day off, không nói ask leave.",
+   "wrong": "I want to ask leave.",
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "I would like to ___ a day off tomorrow.",
+     "options": [
+      "take",
+      "ask",
+      "make"
+     ],
+     "answer": 0,
+     "explanation": "Xin nghỉ phép = take a day off."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "I want to ask leave tomorrow.",
+      "Could I take Friday off, please?"
+     ],
+     "answer": 1,
+     "explanation": "Câu này lịch sự và tự nhiên."
+    },
+    {
+     "prompt": "I need to take a day off ___ a family matter.",
+     "options": [
+      "for",
+      "to",
+      "about"
+     ],
+     "answer": 0,
+     "explanation": "for + lý do, nghỉ vì việc gia đình."
+    },
+    {
+     "answer": 0,
+     "explanation": "Xin nghỉ ngày nào thì take + ngày đó + off. 'Ask leave' không phải cách nói đúng.",
+     "kind": "fill_blank",
+     "options": [
+      "take",
+      "ask",
+      "make"
+     ],
+     "prompt": "I would like to ___ next Friday off."
+    },
+    {
+     "answer": 0,
+     "explanation": "Câu đúng dùng take Monday off. 'Ask leave' thiếu for nên sai; 'take a leave' đổi nghĩa, không dùng cho xin nghỉ một ngày.",
+     "kind": "find_error",
+     "options": [
+      "I would like to take Monday off because my mother is ill.",
+      "I want to ask leave on Monday because my mother is ill.",
+      "I want to take a leave Monday because my mother is ill."
+     ],
+     "prompt": "Sửa câu sai: 'I want to ask leave on Monday because my mother is ill.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Phương án này vừa lịch sự vừa đúng mẫu take + ngày + off. 'Ask leave' sai, còn 'Give me Friday off' nghe như ra lệnh.",
+     "kind": "distinguish",
+     "options": [
+      "I want to ask leave on Friday.",
+      "Could I take Wednesday off, please?",
+      "Give me Friday off."
+     ],
+     "prompt": "Chọn câu lịch sự và tự nhiên nhất khi xin nghỉ thứ Tư:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Take Wednesday morning off = nghỉ buổi sáng thứ Tư, to see the dentist = để đi khám răng. Hai phương án còn lại sai mẫu câu và sai giới từ.",
+     "kind": "translate",
+     "options": [
+      "I would like to take Wednesday morning off to see the dentist.",
+      "I want to ask leave Wednesday morning to see dentist.",
+      "I would like to take off Wednesday morning for see the dentist."
+     ],
+     "prompt": "Dịch câu: 'Tôi muốn xin nghỉ buổi sáng thứ Tư để đi khám răng.'"
+    }
+   ],
+   "remember": "Muốn nghỉ phép, nói take a day off, không có ask leave.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Nhiều bạn dịch từng chữ 'xin nghỉ' thành ask leave, nhưng người bản xứ không nói như vậy. Trong công sở, xin nghỉ có mẫu câu riêng, ngắn gọn và lịch sự hơn.",
+   "core": "take a day off = nghỉ một ngày. take + thứ/ngày + off: take Monday off, take Friday morning off. Muốn lịch sự, bắt đầu bằng I would like to hoặc Could I. Ngoại lệ: ask for leave chỉ dùng trong văn bản hành chính, và phải có for, không bao giờ nói ask leave.",
+   "compare": [
+    {
+     "a": "I would like to take next Monday off.",
+     "b": "I want to ask leave next Monday.",
+     "note": "Câu đầu tự nhiên và lịch sự, câu sau sai vì ask leave không phải cách nói của người bản xứ."
+    },
+    {
+     "a": "Could I take Thursday afternoon off, please?",
+     "b": "Could I ask leave Thursday afternoon, please?",
+     "note": "Xin nghỉ một buổi cũng dùng take off, không dùng ask leave."
+    },
+    {
+     "a": "I need to take a morning off for a dentist appointment.",
+     "b": "I need to ask leave for a dentist appointment.",
+     "note": "Lý do nghỉ đi sau for, và động từ vẫn là take, thời gian nghỉ có thể là a morning, an afternoon, a week."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I would like to take a day off next week.",
+     "wrong": "I want to ask leave next week."
+    },
+    {
+     "right": "Could I take tomorrow off, please?",
+     "wrong": "Can I ask a leave tomorrow?"
+    },
+    {
+     "right": "I need to take a day off tomorrow.",
+     "wrong": "I need a day leave for tomorrow."
+    }
+   ]
+  },
+  {
+   "code": "Quiz #001",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Can I borrow your bike?",
+     "vi": "Tôi mượn xe đạp của bạn được không?"
+    },
+    {
+     "en": "He lent me 100,000 VND.",
+     "vi": "Anh ấy cho tôi mượn 100.000 đồng."
+    }
+   ],
+   "fb": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854",
+   "image_src": "ngay-01/Quiz-001-borrow-lend.png",
+   "ipa": [],
+   "quiz": {
+    "answer": 1,
+    "explanation": "Câu đúng: Can you lend me your pen?",
+    "options": [
+     "borrow",
+     "lend",
+     "take"
     ],
-    "ask_url": "https://www.facebook.com/groups/4387154551501983/posts/4390417267842378"
+    "prompt": "Can you ___ me your pen?",
+    "question": "Bạn mượn bút của đồng nghiệp, bạn nói thế nào?"
+   },
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "quiz-001",
+   "title": "borrow hay lend?",
+   "topic": "công sở",
+   "type": "Quiz",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you ___ me your pen?",
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "May I ___ your charger for an hour?",
+     "options": [
+      "borrow",
+      "lend"
+     ],
+     "answer": 0,
+     "explanation": "Bạn mượn sạc về mình → borrow. May I borrow your charger?"
+    },
+    {
+     "prompt": "Can you ___ me 50,000 VND until tomorrow?",
+     "options": [
+      "borrow",
+      "lend"
+     ],
+     "answer": 1,
+     "explanation": "Mượn tiền đến ngày mai nên nhờ người kia cho mượn, dùng lend me."
+    },
+    {
+     "answer": 0,
+     "explanation": "Bạn nhờ người khác cho mượn nên dùng lend me. Nếu tự hỏi: Could I borrow your notes after class?",
+     "kind": "fill_blank",
+     "options": [
+      "lend",
+      "borrow"
+     ],
+     "prompt": "Could you ___ me your notes after class?"
+    },
+    {
+     "answer": 0,
+     "explanation": "Cô ấy là người cho mượn nên dùng lent me. 'Borrow me' sai hướng, 'lent from me' sai giới từ vì lend đi với to, không đi với from.",
+     "kind": "find_error",
+     "options": [
+      "She lent me her umbrella because it was raining.",
+      "She borrowed her umbrella to me because it was raining.",
+      "She lent her umbrella from me because it was raining."
+     ],
+     "prompt": "Sửa câu sai: 'She borrowed me her umbrella because it was raining.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Anh ấy mượn tiền về mình nên dùng borrowed from. Lent from sai vì lend đi với to, không đi với from.",
+     "kind": "distinguish",
+     "options": [
+      "He lent some money from his friend.",
+      "He borrowed some money from his friend."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "explanation": "Đây là câu hỏi nhờ người khác cho mượn, với lend nhận tân ngữ me rồi tới your camera.",
+     "kind": "word_order",
+     "options": [
+      "Can",
+      "you",
+      "lend",
+      "me",
+      "your",
+      "camera",
+      "?"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'me / your / Can / lend / camera / you / ?'"
+    }
+   ],
+   "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Bài quiz này kiểm tra đúng một điểm: ai mượn, ai cho mượn. Nhiều bạn chọn đúng khi làm bài tập, nhưng lúc nói thật vẫn buột miệng borrow me vì dịch từ tiếng Việt.",
+   "core": "Hỏi mượn đồ: Can I borrow your + đồ? Nhờ người khác cho mượn: Can you lend me your + đồ? Borrow không bao giờ đi với tân ngữ chỉ người nhận.",
+   "compare": [
+    {
+     "a": "May I borrow your umbrella for the afternoon?",
+     "b": "Could you lend me your umbrella for the afternoon?",
+     "note": "Hai cách hỏi cùng một việc: borrow hỏi từ phía mình, lend nhờ từ phía người kia."
+    },
+    {
+     "a": "She lent me her headphones yesterday.",
+     "b": "I borrowed her headphones yesterday.",
+     "note": "Cùng một sự việc, đổi chủ ngữ thì đổi động từ: người cho mượn dùng lent, người mượn dùng borrowed."
+    },
+    {
+     "a": "Can you lend me some money?",
+     "b": "Can I borrow some money from you?",
+     "note": "Lend me đi với người nhận, borrow from đi với người cho mượn, đừng trộn hai mẫu này."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "Please lend me your pen for a minute.",
+     "wrong": "Please borrow me your pen for a minute."
+    },
+    {
+     "right": "His brother lent him some money.",
+     "wrong": "He borrowed his brother some money."
+    },
+    {
+     "right": "Can I borrow your bike this weekend?",
+     "wrong": "Can I lend your bike this weekend?"
+    }
+   ]
+  },
+  {
+   "code": "Lỗi #002",
+   "date": "2026-11-12",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The film was boring, so I felt bored.",
+     "vi": "Bộ phim chán quá nên tôi thấy chán."
+    },
+    {
+     "en": "Are you bored? Let's go out.",
+     "vi": "Bạn thấy chán à? Mình đi chơi đi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122097942729550200",
+   "image_src": "ngay-02/Loi-002-bored-boring.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I am bored.",
+   "right_note": "Tôi thấy chán.",
+   "slug": "loi-002",
+   "title": "bored và boring",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "boring tả thứ gây chán, bored tả cảm giác của người.",
+   "wrong": "I am boring.",
+   "wrong_note": "Tôi là người nhàm chán.",
+   "practice": [
+    {
+     "prompt": "I am ___ today, there is nothing to do.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 0,
+     "explanation": "bored tả cảm giác của mình."
+    },
+    {
+     "prompt": "This book is so ___.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 1,
+     "explanation": "boring tả cuốn sách gây chán."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "I am boring at home.",
+      "I am bored at home."
+     ],
+     "answer": 1,
+     "explanation": "I am bored at home, ở nhà tôi thấy chán."
+    },
+    {
+     "answer": 1,
+     "explanation": "Bộ phim tài liệu gây chán nên dùng boring. Nếu nói về mình: I was so bored that I almost fell asleep.",
+     "kind": "fill_blank",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "prompt": "The documentary was so ___ that I almost fell asleep."
+    },
+    {
+     "answer": 0,
+     "explanation": "Chờ lâu khiến mình thấy chán nên dùng bored. 'Boring' ở đây sẽ hiểu là mình làm người khác chán.",
+     "kind": "find_error",
+     "options": [
+      "The long wait made me bored.",
+      "The long wait made me boringly.",
+      "The long wait made I boring."
+     ],
+     "prompt": "Sửa câu sai: 'The long wait made me boring.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "Người thấy hứng thú dùng interested. Interesting chỉ dùng cho vật gây hứng thú, ví dụ This book is interesting.",
+     "kind": "distinguish",
+     "options": [
+      "I am interested in this book.",
+      "I am interesting in this book."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Bài giảng gây chán nên dùng boring. 'Bored' chỉ dùng cho người, còn 'I am boring' nghĩa là mình làm người khác chán.",
+     "kind": "translate",
+     "options": [
+      "Today's lecture is so boring, I almost fell asleep.",
+      "Today's lecture is so bored, I almost fell asleep.",
+      "Today I am so boring in the lecture, I almost fell asleep."
+     ],
+     "prompt": "Dịch câu: 'Bài giảng hôm nay chán ơi là chán, mình ngồi mà buồn ngủ.'"
+    }
+   ],
+   "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/4646144255666119"
+   },
+   "show_in_ui": true,
+   "problem": "Trong tiếng Việt chỉ có một từ 'chán' cho cả người lẫn vật, nên nhiều bạn dùng lẫn bored và boring. Trong tiếng Anh, hai từ này chia việc rõ ràng: một từ tả người, một từ tả thứ gây ra cảm giác đó.",
+   "core": "Tính từ đuôi ed tả cảm giác của người: I am bored, she is tired. Tính từ đuôi ing tả tính chất của vật hoặc việc gây ra cảm giác: the film is boring, the job is tiring. Muốn nói mình thấy sao, dùng ed; muốn nói thứ gì gây ra sao, dùng ing.",
+   "compare": [
+    {
+     "a": "I am bored at the party.",
+     "b": "The party is boring.",
+     "note": "Câu đầu nói cảm giác của mình, câu sau nhận xét bữa tiệc gây chán."
+    },
+    {
+     "a": "She is interested in music.",
+     "b": "Music is interesting to her.",
+     "note": "Cùng quy tắc ed và ing: người thấy hứng thú dùng interested, thứ gây hứng thú dùng interesting."
+    },
+    {
+     "a": "He was excited about the trip.",
+     "b": "The trip was exciting.",
+     "note": "Excited tả người, exciting tả chuyến đi, đừng đảo ngược hai đuôi này."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I am bored in this class.",
+     "wrong": "I am boring in this class."
+    },
+    {
+     "right": "This lesson is boring.",
+     "wrong": "This lesson is bored."
+    },
+    {
+     "right": "She felt bored after a long day.",
+     "wrong": "She felt boring after a long day."
+    }
+   ]
+  },
+  {
+   "code": "Lỗi #003",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Tell me your name, please.",
+     "vi": "Cho tôi biết tên bạn nhé."
+    },
+    {
+     "en": "Did you say that?",
+     "vi": "Bạn nói vậy à?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122098476867550200",
+   "image_src": "ngay-02/Loi-003-say-tell.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "She told me that she was busy.",
+   "right_note": "Cô ấy nói với tôi rằng cô ấy bận.",
+   "slug": "loi-003",
+   "title": "say và tell",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "tell đi với người nghe, say đi với nội dung được nói ra.",
+   "wrong": "She said me that she was busy.",
+   "wrong_note": "Cô ấy nói với tôi rằng cô ấy bận.",
+   "practice": [
+    {
+     "prompt": "She ___ me that she was busy.",
+     "options": [
+      "said",
+      "told"
+     ],
+     "answer": 1,
+     "explanation": "tell đi với người nghe, She told me."
+    },
+    {
+     "prompt": "He ___ \"I am tired.\"",
+     "options": [
+      "said",
+      "told"
+     ],
+     "answer": 0,
+     "explanation": "say đi với nội dung được nói ra, He said \"I am tired.\""
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "He told that he was tired.",
+      "He said that he was tired."
+     ],
+     "answer": 1,
+     "explanation": "He said that he was tired, said đi với mệnh đề that."
+    },
+    {
+     "answer": 1,
+     "explanation": "Tell the truth là cụm cố định: nói sự thật với người nghe. Say the truth nghe không tự nhiên trong câu này.",
+     "kind": "fill_blank",
+     "options": [
+      "say",
+      "tell"
+     ],
+     "prompt": "Please ___ the truth, I need to know."
+    },
+    {
+     "answer": 0,
+     "explanation": "Có người nghe us thì dùng told us. Say không nhận tân ngữ chỉ người trực tiếp, và told to us sai thứ tự.",
+     "kind": "find_error",
+     "options": [
+      "My teacher told us to finish the homework.",
+      "My teacher said us finishing the homework.",
+      "My teacher told to us finish the homework."
+     ],
+     "prompt": "Sửa câu sai: 'My teacher said us to finish the homework.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "Say có thể đi với to + người nghe: said to me. Tell nhận người nghe trực tiếp nên told to me là sai.",
+     "kind": "distinguish",
+     "options": [
+      "He said to me that he was late.",
+      "He told to me that he was late."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "explanation": "Mẫu câu là tell + người nghe + mệnh đề that, và they were late là mệnh đề đi sau that.",
+     "kind": "word_order",
+     "options": [
+      "They",
+      "told",
+      "us",
+      "that",
+      "they",
+      "were",
+      "late",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'us / They / late / that / told / they / were / .'"
+    }
+   ],
+   "remember": "Có NGƯỜI nghe → tell. Chỉ NỘI DUNG → say.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Tiếng Việt gom cả 'nói' và 'bảo' vào một từ, nên nhiều bạn nói said me theo thói quen. Trong tiếng Anh, say và tell chia nhau rõ ràng: một từ cần người nghe, một từ chỉ cần nội dung.",
+   "core": "tell + người nghe + nội dung: tell me the truth, tell her a story. say + nội dung, không có người nghe trực tiếp: say hello, say that you are busy. Muốn nhắc người nghe sau say, phải thêm to: say it to me. Ngoại lệ hay gặp: tell a lie, tell a joke, tell the time, tell đi với những cụm cố định này.",
+   "compare": [
+    {
+     "a": "She said that she was tired.",
+     "b": "She told me that she was tired.",
+     "note": "Không có người nghe thì dùng said that, có người nghe me thì dùng told me."
+    },
+    {
+     "a": "Please say it to him, not to me.",
+     "b": "Please tell him, not me.",
+     "note": "Say muốn nhắc người nghe phải có to, còn tell nhận người nghe trực tiếp."
+    },
+    {
+     "a": "He told us a funny story.",
+     "b": "He said a funny thing.",
+     "note": "Kể chuyện dùng tell a story, còn say chỉ đi với nội dung chung chung."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "He told me the news yesterday.",
+     "wrong": "He said me the news yesterday."
+    },
+    {
+     "right": "She said that she would come.",
+     "wrong": "She told that she would come."
+    },
+    {
+     "right": "Can you tell me your name again?",
+     "wrong": "Can you say me your name again?"
+    }
+   ]
+  },
+  {
+   "code": "Mẫu câu #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Hi, I am Lan. I work in Da Lat.",
+     "vi": "Tôi là Lan. Tôi làm việc ở Đà Lạt."
+    },
+    {
+     "en": "Nice to meet you.",
+     "vi": "Rất vui được gặp bạn."
+    },
+    {
+     "en": "I am from Vietnam.",
+     "vi": "Tôi là người Việt Nam."
+    },
+    {
+     "en": "What do you do?",
+     "vi": "Bạn làm nghề gì?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122098626711550200",
+   "image_src": "ngay-02/Mau-cau-002-slide-1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I come from Vietnam.",
+   "right_note": "Tôi đến từ Việt Nam.",
+   "slug": "mau-cau-002",
+   "title": "giới thiệu bản thân",
+   "topic": "giao tiếp",
+   "type": "Mẫu câu",
+   "why": "come là động từ nên không đi với am.",
+   "wrong": "I am come from Vietnam.",
+   "wrong_note": "",
+   "practice": [
+    {
+     "prompt": "I ___ from Vietnam.",
+     "options": [
+      "am come",
+      "come",
+      "am coming"
+     ],
+     "answer": 1,
+     "explanation": "come là động từ nên không đi với am, I come from Vietnam."
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "What is your job?",
+      "What are you do?"
+     ],
+     "answer": 0,
+     "explanation": "Hỏi nghề nghiệp dùng is + job, không dùng are + do."
+    },
+    {
+     "prompt": "___ to meet you.",
+     "options": [
+      "Nice",
+      "Nicely",
+      "Good"
+     ],
+     "answer": 0,
+     "explanation": "Nice to meet you, Rất vui được gặp bạn."
+    },
+    {
+     "answer": 1,
+     "explanation": "Come là động từ chính nên đứng một mình. Am come sai, còn am coming là thì tiếp diễn, không dùng để nói quê quán.",
+     "kind": "fill_blank",
+     "options": [
+      "am come",
+      "come",
+      "am coming"
+     ],
+     "prompt": "Hello, my name is Minh. I ___ from Hanoi."
+    },
+    {
+     "answer": 0,
+     "explanation": "Nói nghề nghiệp thì dùng hiện tại đơn, work đứng một mình, không cần am. Am works sai vì đã có am lại thêm s vào động từ.",
+     "kind": "find_error",
+     "options": [
+      "I work in a hotel in Da Lat.",
+      "I am works in a hotel in Da Lat.",
+      "I working in a hotel in Da Lat."
+     ],
+     "prompt": "Sửa câu sai: 'I am work in a hotel in Da Lat.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Come from đứng một mình, không cần am, thêm am vào trước come là lỗi trộn hai mẫu.",
+     "kind": "distinguish",
+     "options": [
+      "I am come from Hue.",
+      "I come from Hue."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Giới thiệu tên dùng I am Lan, quê quán dùng I come from Da Lat, nghề dùng I am a tour guide, mỗi ý một mẫu đúng.",
+     "kind": "translate",
+     "options": [
+      "Hello, I am Lan, I come from Da Lat and I am a tour guide.",
+      "Hello, I am Lan, I am come from Da Lat and I am work as a tour guide.",
+      "Hello, I am Lan, I from Da Lat and I work tour guide."
+     ],
+     "prompt": "Dịch câu: 'Chào bạn, mình tên là Lan, mình đến từ Đà Lạt và làm hướng dẫn viên.'"
+    }
+   ],
+   "remember": "come là động từ, đứng một mình, không cần am.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Nhiều bạn dịch 'Tôi đến từ Việt Nam' thành I am come from Vietnam vì nghĩ câu nào cũng cần am. Thực ra am chỉ đi với tính từ hoặc danh từ, còn come đã là động từ chính nên đứng một mình.",
+   "core": "Giới thiệu quê quán có hai cách đều đúng: I am from Vietnam và I come from Vietnam, đừng trộn hai cách thành I am come from. Giới thiệu nghề: I work in Da Lat hoặc I am a tour guide, không nói I am work. Công thức mở đầu: tên + quê + nghề, mỗi ý một câu ngắn.",
+   "compare": [
+    {
+     "a": "I am from Da Lat.",
+     "b": "I come from Da Lat.",
+     "note": "Hai cách đều đúng, chỉ khác động từ: be from hoặc come from, không gộp thành am come."
+    },
+    {
+     "a": "I am a student.",
+     "b": "I study at university.",
+     "note": "Giới thiệu nghề nghiệp: be + danh từ nghề, hoặc động từ chính study/work đứng một mình."
+    },
+    {
+     "a": "I am Vietnamese.",
+     "b": "I live in Da Lat now.",
+     "note": "Nói quốc tịch dùng be + tính từ, nói nơi đang sống dùng live, mỗi động từ một vai trò."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I come from Hanoi.",
+     "wrong": "I am come from Hanoi."
+    },
+    {
+     "right": "I work as a teacher.",
+     "wrong": "I am work as a teacher."
+    },
+    {
+     "right": "I study English every day.",
+     "wrong": "I am study English every day."
+    }
+   ],
+   "tip": "Nhớ hai mẫu đúng: I am from + nơi, I come from + nơi, chỉ chọn một, không gộp lại."
+  },
+  {
+   "code": "Quiz #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The party was boring.",
+     "vi": "Bữa tiệc chán quá."
+    },
+    {
+     "en": "She felt bored during the meeting.",
+     "vi": "Cô ấy thấy chán trong cuộc họp."
+    }
+   ],
+   "fb": "https://facebook.com/61596506009854/posts/pfbid02VQkuXkAUqZvZMmT8SU949kc2sR9NyABVJxuFF2rbnG7Dfs66qqLeomihLvS3ce2Xl/",
+   "image_src": "ngay-02/Quiz-002-bored-boring.png",
+   "ipa": [],
+   "quiz": {
+    "answer": 0,
+    "explanation": "Câu đúng: The movie was so boring. I felt bored.",
+    "options": [
+     "boring, bored",
+     "bored, boring",
+     "boring, boring"
+    ],
+    "prompt": "The movie was so ___. I felt ___.",
+    "question": "Phim chán quá, mình cũng chán theo. Câu này điền 2 từ nào mới đúng?"
+   },
+   "right": "The movie was so boring. I felt bored.",
+   "right_note": "",
+   "slug": "quiz-002",
+   "title": "boring hay bored?",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "boring tả bộ phim gây chán, bored tả cảm giác của mình.",
+   "wrong": "The movie was so ___. I felt ___.",
+   "wrong_note": "Phim chán quá, mình cũng chán theo.",
+   "practice": [
+    {
+     "prompt": "Are you ___?",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 0,
+     "explanation": "Are you bored?, Bạn có thấy chán không?"
+    },
+    {
+     "prompt": "The meeting was so ___.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "answer": 1,
+     "explanation": "The meeting was so boring, cuộc họp chán quá."
+    },
+    {
+     "answer": 1,
+     "explanation": "Bài nói gây chán nên dùng boring. Nếu nói về người nghe: half the room felt bored.",
+     "kind": "fill_blank",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "prompt": "The talk was so ___ that half the room fell asleep."
+    },
+    {
+     "answer": 0,
+     "explanation": "Chính mình thấy chán nên dùng bored. Boring ở đây sẽ hiểu là cả nhóm làm người khác chán.",
+     "kind": "find_error",
+     "options": [
+      "We were bored at the concert, so we went home.",
+      "We were boringly at the concert, so we went home.",
+      "We were bore at the concert, so we went home."
+     ],
+     "prompt": "Sửa câu sai: 'We were boring at the concert, so we went home.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu đùa gây chán thì boring, dù mọi người vẫn cười, bored chỉ dùng cho người thấy chán, không dùng cho vật.",
+     "kind": "distinguish",
+     "options": [
+      "The joke was bored, but everyone laughed.",
+      "The joke was boring, but everyone laughed."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Cuộc họp dài gây chán, còn mọi người là người thấy chán nên felt bored. Boring không dùng cho người, bored không dùng cho vật.",
+     "kind": "translate",
+     "options": [
+      "The meeting was so long, everyone felt bored.",
+      "The meeting was so long, everyone felt boring.",
+      "The meeting was so bored, everyone felt bored."
+     ],
+     "prompt": "Dịch câu: 'Cuộc họp dài quá, ai cũng thấy chán.'"
+    }
+   ],
+   "remember": "Thứ GÂY chán → boring. Người THẤY chán → bored.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Bài quiz này chỉ hỏi một điều: phim gây chán hay mình thấy chán. Nhiều bạn điền đúng một chỗ rồi sai chỗ còn lại, vì hai từ này trong tiếng Việt đều là 'chán'.",
+   "core": "Khi một câu có hai chỗ trống, hãy hỏi từng chỗ: chỗ nào tả vật gây chán thì boring, chỗ nào tả cảm giác của người thì bored. Mẹo: tìm chủ ngữ trước, chủ ngữ là vật thì ing, chủ ngữ là người thì ed.",
+   "compare": [
+    {
+     "a": "The lesson was boring, so the students felt bored.",
+     "b": "The students were bored because the lesson was boring.",
+     "note": "Hai câu cùng một ý, chỉ đổi thứ tự: nguyên nhân boring đi trước, cảm giác bored đi sau, hoặc ngược lại."
+    },
+    {
+     "a": "That trip was exciting, and we felt excited.",
+     "b": "We were excited because the trip was exciting.",
+     "note": "Quy tắc ed và ing áp dụng cho mọi cặp tính từ cảm xúc, không riêng bored/boring."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "The movie was so boring that we left early.",
+     "wrong": "The movie was so bored that we left early."
+    },
+    {
+     "right": "I felt bored during the long meeting.",
+     "wrong": "I felt boring during the long meeting."
+    },
+    {
+     "right": "This game is boring, let's play something else.",
+     "wrong": "This game is bored, let's play something else."
+    }
+   ]
+  },
+  {
+   "code": "Reel #001",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Can you lend me your pen?",
+     "vi": "Bạn cho tôi mượn cây bút được không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1521348529887565",
+   "image_src": "reels/frames/reel-001-f1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "Can you lend me your pen?",
+   "right_note": "Bạn cho tôi mượn cây bút được không?",
+   "slug": "reel-001",
+   "title": "borrow và lend",
+   "topic": "công sở",
+   "type": "Reels",
+   "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+   "wrong": "Can you borrow me your pen?",
+   "wrong_note": "Bạn cho tôi mượn cây bút được không?",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
+  },
+  {
+   "code": "Reel #002",
+   "date": "2026-11-13",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I am bored today.",
+     "vi": "Hôm nay tôi thấy chán."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/4646144255666119",
+   "image_src": "reels/frames/reel-002-f1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I am bored today.",
+   "right_note": "Hôm nay tôi thấy chán.",
+   "slug": "reel-002",
+   "title": "I am bored",
+   "topic": "giao tiếp",
+   "type": "Reels",
+   "why": "bored là mình chán, boring là mình làm người khác chán.",
+   "wrong": "I am boring today.",
+   "wrong_note": "",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
+  },
+  {
+   "code": "Lỗi #004",
+   "date": "2026-11-14",
+   "dict_links": [
+    {
+     "label": "Cambridge, comfortable",
+     "url": "https://dictionary.cambridge.org/dictionary/english/comfortable"
+    },
+    {
+     "label": "Oxford, comfortable",
+     "url": "https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This chair is very comfortable.",
+     "vi": "Cái ghế này rất thoải mái."
+    },
+    {
+     "en": "My shoes are very comfortable.",
+     "vi": "Đôi giày của tôi rất thoải mái."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122099308863550200",
+   "image_src": "ngay-03/Loi-004-comfortable.png",
+   "ipa": [
+    {
+     "note": "dạng đầy đủ /ˈkʌmfərt̮əbl/ cũng được Oxford ghi nhận",
+     "source": "Oxford, Anh Mỹ",
+     "text": "/ˈkʌmftərbl/"
+    },
+    {
+     "note": "cách ghi khác, cùng cách đọc gọn 3 âm",
+     "source": "Cambridge, Anh Mỹ",
+     "text": "/ˈkʌm.fɚ.t̬ə.bəl/"
+    }
+   ],
+   "quiz": {
+    "answer": 1,
+    "explanation": "3 âm, /ˈkʌmftərbl/ (Oxford, Anh Mỹ).",
+    "merged_from": "Quiz #003, cùng nội dung, gộp vào bài này thay vì đăng trùng",
+    "options": [
+     "2 âm",
+     "3 âm",
+     "4 âm"
+    ],
+    "prompt": "comfortable có mấy âm?",
+    "question": "Từ comfortable có mấy âm?"
+   },
+   "right": "CUMF tơ bồ",
+   "right_note": "thường đọc 3 âm",
+   "slug": "loi-004",
+   "title": "comfortable đọc mấy âm?",
+   "topic": "phát âm",
+   "type": "Lỗi",
+   "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ.",
+   "wrong": "com for ta bồ",
+   "wrong_note": "đọc tách thành 4 âm",
+   "practice": [
+    {
+     "prompt": "Âm giữa của comfortable đọc thế nào?",
+     "options": [
+      "đọc rất nhẹ, gần như không nghe",
+      "đọc rõ như âm “phờ”",
+      "đọc thành âm “tờ” rõ"
+     ],
+     "answer": 0,
+     "explanation": "Âm giữa đọc rất nhẹ, gần như không nghe, nên nghe như chỉ có 3 âm."
+    },
+    {
+     "prompt": "The bed is very ___.",
+     "options": [
+      "comfortable",
+      "comfortably"
+     ],
+     "answer": 0,
+     "explanation": "comfortable là tính từ, The bed is very comfortable."
+    },
+    {
+     "answer": 0,
+     "explanation": "Tả ghế thì dùng tính từ comfortable sau be. Comfortably là trạng từ, comfort là danh từ, không đứng sau very ở đây.",
+     "kind": "fill_blank",
+     "options": [
+      "comfortable",
+      "comfortably",
+      "comfort"
+     ],
+     "prompt": "This armchair is very ___, I could sit here all day."
+    },
+    {
+     "answer": 0,
+     "explanation": "Tả giày cần tính từ comfortable. Comfort là danh từ, comfortably là trạng từ, cả hai đều sai vị trí này.",
+     "kind": "find_error",
+     "options": [
+      "My new shoes are very comfortable for long walks.",
+      "My new shoes are very comfortably for long walks.",
+      "My new shoes are very comforts for long walks."
+     ],
+     "prompt": "Sửa câu sai: 'My new shoes are very comfort for long walks.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "Sau was cần tính từ comfortable. Comfortablely không phải từ tiếng Anh, trạng từ của comfortable là comfortably, nhưng không dùng để tả chiếc giường.",
+     "kind": "distinguish",
+     "options": [
+      "The hotel bed was comfortable, I slept really well.",
+      "The hotel bed was comfortablely, I slept really well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Đi êm chân thì dùng tính từ comfortable. Foot số nhiều là feet, không phải foots; comfortably sai vị trí vì đây là câu tả đồ vật.",
+     "kind": "translate",
+     "options": [
+      "These shoes are so comfortable, I can stand all day without sore feet.",
+      "These shoes are so comfort, I can stand all day without sore foots.",
+      "These shoes are so comfortably, I can stand all day without sore feet."
+     ],
+     "prompt": "Dịch câu: 'Đôi giày này đi rất êm, đứng cả ngày cũng không mỏi chân.'"
+    }
+   ],
+   "remember": "comfortable thường đọc gọn 3 âm.",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Nhìn mặt chữ com fort a ble, nhiều bạn đọc tách thành 4 âm rõ ràng như đánh vần. Nhưng người bản xứ nuốt nhẹ âm giữa, nên nghe gọn hơn nhiều, tập đọc theo chữ cái chính là cái bẫy của từ này.",
+   "core": "Trọng âm rơi vào âm đầu: COMF ter ble. Âm giữa ter đọc rất nhẹ, gần như lướt qua. Giọng Anh Mỹ thường đọc gọn 3 âm; giọng Anh Anh trong từ điển vẫn ghi 4 âm nhưng khi nói nhanh cũng lướt nhẹ âm giữa. Nói chung: đọc nhanh, nhấn âm đầu, đừng đánh vần từng chữ cái.",
+   "compare": [
+    {
+     "a": "This sofa is very comfortable.",
+     "b": "This sofa is very uncomfortable.",
+     "note": "Thêm un vào đầu thành từ trái nghĩa uncomfortable, trọng âm vẫn ở âm đầu, âm giữa vẫn đọc nhẹ."
+    },
+    {
+     "a": "Are these shoes comfortable enough for a long walk?",
+     "b": "Are those shoes comfortable enough to run in?",
+     "note": "Comfortable đi với enough: đủ thoải mái để làm gì, enough đứng sau tính từ."
+    },
+    {
+     "a": "My new bed is comfortable, so I sleep well.",
+     "b": "My new bed is uncomfortable, so I cannot sleep well.",
+     "note": "Comfortable/uncomfortable đều là tính từ, đứng sau be, đừng thêm ly thành trạng từ khi tả đồ vật."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I say it fast as COMF ter ble.",
+     "wrong": "I read it slowly as com for ta ble."
+    },
+    {
+     "right": "These shoes are very comfortable for walking.",
+     "wrong": "These shoes are very comfortably for walking."
+    },
+    {
+     "right": "This is a comfortable chair.",
+     "wrong": "This is a comfort chair."
+    }
+   ],
+   "tip": "Nhấn COMF thật mạnh rồi lướt nhanh ter ble, như nói một từ có 3 nhịp.",
+   "articulation": "Nhấn mạnh âm đầu COMF: miệng mở vừa, môi thả lỏng, âm /ʌ/ ngắn. Âm /f/ đặt răng trên chạm môi dưới, thổi hơi ra. Âm giữa ter: đầu lưỡi chạm nhẹ nướu răng trên, âm /ə/ rất nhẹ, gần như không mở miệng. Trong giọng Mỹ, âm /t/ giữa nghe gần như một âm /d/ rất nhẹ. Âm cuối ble: môi khép lại cho /b/ rồi đầu lưỡi chạm nướu cho /l/, kết thúc gọn."
+  },
+  {
+   "code": "Mẫu câu #003",
+   "date": "2026-11-14",
+   "dict_links": [
+    {
+     "label": "Cambridge, ship",
+     "url": "https://dictionary.cambridge.org/dictionary/english/ship"
+    },
+    {
+     "label": "Cambridge, sheep",
+     "url": "https://dictionary.cambridge.org/dictionary/english/sheep"
+    },
+    {
+     "label": "Cambridge, live",
+     "url": "https://dictionary.cambridge.org/dictionary/english/live"
+    },
+    {
+     "label": "Cambridge, leave",
+     "url": "https://dictionary.cambridge.org/dictionary/english/leave"
+    },
+    {
+     "label": "Cambridge, think",
+     "url": "https://dictionary.cambridge.org/dictionary/english/think"
+    },
+    {
+     "label": "Cambridge, sink",
+     "url": "https://dictionary.cambridge.org/dictionary/english/sink"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The ship is on the sea.",
+     "vi": "Con tàu đang ở trên biển."
+    },
+    {
+     "en": "The sheep is on the farm.",
+     "vi": "Con cừu đang ở trên nông trại."
+    },
+    {
+     "en": "I live in Da Lat, but I will leave tomorrow.",
+     "vi": "Tôi sống ở Đà Lạt, nhưng ngày mai tôi sẽ rời đi."
+    },
+    {
+     "en": "The dishes are in the sink.",
+     "vi": "Bát đĩa đang ở trong bồn rửa."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122099427615550200",
+   "image_src": "ngay-03/Mau-cau-003-slide-1.png",
+   "ipa": [
+    {
+     "note": "ship âm ngắn, sheep âm dài",
+     "source": "Cambridge",
+     "text": "ship /ʃɪp/, sheep /ʃiːp/"
+    },
+    {
+     "note": "live âm ngắn, leave âm dài",
+     "source": "Cambridge",
+     "text": "live /lɪv/, leave /liːv/"
+    },
+    {
+     "note": "think âm th, sink âm s",
+     "source": "Cambridge",
+     "text": "think /θɪŋk/, sink /sɪŋk/"
+    }
+   ],
+   "quiz": null,
+   "right": "I saw a ship on the sea.",
+   "right_note": "Tôi thấy một con tàu trên biển.",
+   "slug": "mau-cau-003",
+   "title": "3 cặp âm dễ nhầm",
+   "topic": "phát âm",
+   "type": "Mẫu câu",
+   "why": "ship là tàu, sheep là cừu, đọc nhầm là đổi nghĩa luôn.",
+   "wrong": "I saw a sheep on the sea.",
+   "wrong_note": "Tôi thấy một con cừu trên biển.",
+   "practice": [
+    {
+     "prompt": "I saw a ___ on the sea.",
+     "options": [
+      "ship",
+      "sheep"
+     ],
+     "answer": 0,
+     "explanation": "ship là tàu, I saw a ship on the sea."
+    },
+    {
+     "prompt": "I saw a ___ on the farm.",
+     "options": [
+      "ship",
+      "sheep"
+     ],
+     "answer": 1,
+     "explanation": "sheep là cừu, I saw a sheep on the farm."
+    },
+    {
+     "prompt": "I ___ my keys at home.",
+     "options": [
+      "live",
+      "leave"
+     ],
+     "answer": 1,
+     "explanation": "leave my keys at home, để quên chìa khóa ở nhà."
+    },
+    {
+     "answer": 0,
+     "explanation": "Nông dân nuôi cừu trên đồi nên dùng sheep. Ships là tàu, không ai nuôi tàu trên đồi.",
+     "kind": "fill_blank",
+     "options": [
+      "sheep",
+      "ships"
+     ],
+     "prompt": "The farmer keeps ten ___ on the hill."
+    },
+    {
+     "answer": 0,
+     "explanation": "Rời khách sạn thì dùng leave, không phải live. Live in the hotel nghĩa là sống trong khách sạn, không hợp ngữ cảnh trả phòng lúc trưa.",
+     "kind": "find_error",
+     "options": [
+      "We will leave the hotel at noon tomorrow.",
+      "We will live in the hotel at noon tomorrow.",
+      "We will leaving the hotel at noon tomorrow."
+     ],
+     "prompt": "Sửa câu sai: 'We will live the hotel at noon tomorrow.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "Think là suy nghĩ, sink ở đây là bồn rửa, câu đúng dùng think làm động từ chính và sink làm danh từ. Đảo hai từ thì câu vô nghĩa.",
+     "kind": "distinguish",
+     "options": [
+      "I think the sink is broken.",
+      "I sink the think is broken."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "explanation": "Thứ tự đúng là chủ ngữ, động từ, rồi cụm a big ship near the port, nhớ ship là tàu, không phải sheep là cừu.",
+     "kind": "word_order",
+     "options": [
+      "I",
+      "saw",
+      "a",
+      "big",
+      "ship",
+      "near",
+      "the",
+      "port",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'a / I / big / near / port / saw / ship / the / .'"
+    }
+   ],
+   "remember": "Nhớ cặp này: ship (tàu), sheep (cừu).",
+   "reel": null,
+   "show_in_ui": true,
+   "problem": "Tiếng Việt không phân biệt nguyên âm ngắn và dài, cũng không có âm /θ/ đầu lưỡi chạm răng, nên ship/sheep, live/leave, think/sink nghe như một. Chỉ cần sai một âm là đổi nghĩa, người nghe hiểu sang chuyện khác.",
+   "core": "Âm /ɪ/ ngắn, thả lỏng: ship, live, think. Âm /iː/ dài, căng môi: sheep, leave, đọc dài gấp đôi và mím môi cười nhẹ. Âm /θ/ trong think: đầu lưỡi đặt giữa hai hàm răng trên và dưới, thổi hơi ra; âm /s/ trong sink: lưỡi ở sau răng, hơi xì qua kẽ răng. Nghe cặp nào cũng hỏi: âm ngắn hay dài, lưỡi ở đâu.",
+   "compare": [
+    {
+     "a": "I live in Da Lat.",
+     "b": "I will leave Da Lat tomorrow.",
+     "note": "Live là sống ở đâu, leave là rời khỏi đâu, cùng vần nhưng nghĩa khác hẳn."
+    },
+    {
+     "a": "Think before you speak.",
+     "b": "The sink is full of water.",
+     "note": "Think bắt đầu bằng /θ/, lưỡi chạm răng; sink bắt đầu bằng /s/, lưỡi sau răng."
+    },
+    {
+     "a": "The sheep are eating grass.",
+     "b": "The ship is leaving the port.",
+     "note": "Sheep âm dài /iː/, ship âm ngắn /ɪ/, chỉ khác độ dài mà đổi hẳn nghĩa."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "There is a ship in the harbour.",
+     "wrong": "There is a sheep in the harbour."
+    },
+    {
+     "right": "I leave my house at 7 in the morning.",
+     "wrong": "I live my house at 7 in the morning."
+    },
+    {
+     "right": "I think about you every day.",
+     "wrong": "I sink about you every day."
+    }
+   ],
+   "tip": "Mẹo: sheep thì cười dài, môi cười, âm kéo dài; ship thì nói nhanh, gọn một nhịp.",
+   "articulation": "Âm /ɪ/ (ship, live): lưỡi hơi thấp, môi thả lỏng, âm ngắn gọn. Âm /iː/ (sheep, leave): lưỡi nâng cao, môi kéo sang hai bên như cười, giữ âm dài hơn hẳn. Âm /θ/ (think): đầu lưỡi đặt nhẹ giữa răng trên và răng dưới, thổi hơi ra, cổ họng không rung. Âm /s/ (sink): đầu lưỡi ở ngay sau răng trên, hơi xì mạnh qua kẽ răng."
+  },
+  {
+   "code": "Lỗi #005",
+   "compare": [
+    {
+     "a": "a university",
+     "b": "an hour",
+     "note": "university đọc bắt đầu bằng âm y nên dùng a, hour chữ h câm nên dùng an."
+    },
+    {
+     "a": "a book on the table.",
+     "b": "an apple on the table.",
+     "note": "book bắt đầu bằng âm b nên dùng a, apple bắt đầu bằng âm a nên dùng an."
+    }
+   ],
+   "core": "a đứng trước từ bắt đầu bằng âm phụ âm, an đứng trước từ bắt đầu bằng âm nguyên âm. Nghe âm đầu của từ, đừng nhìn chữ cái đầu tiên.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She studies at a university in Da Lat.",
+     "vi": "Cô ấy học ở một trường đại học tại Đà Lạt."
+    },
+    {
+     "en": "I waited for an hour at the station.",
+     "vi": "Tôi đã đợi một tiếng ở nhà ga."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100095397550200",
+   "image_src": "ngay-04/Loi-005-a-university.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "a university in the city.",
+     "wrong": "an university in the city."
+    },
+    {
+     "right": "an honest person.",
+     "wrong": "a honest person."
+    },
+    {
+     "right": "a one way ticket.",
+     "wrong": "an one way ticket."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "university đọc bắt đầu bằng âm y, giống you, nên chọn a.",
+     "kind": "fill_blank",
+     "options": [
+      "a",
+      "an"
+     ],
+     "prompt": "___ university is near my house."
+    },
+    {
+     "answer": 1,
+     "explanation": "hour có chữ h câm, đọc bắt đầu bằng âm o nên chọn an.",
+     "kind": "fill_blank",
+     "options": [
+      "a",
+      "an"
+     ],
+     "prompt": "I waited for ___ hour."
+    },
+    {
+     "answer": 1,
+     "explanation": "university bắt đầu bằng âm y nên đi với a, không đi với an.",
+     "options": [
+      "an university in Da Lat.",
+      "a university in Da Lat."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      6,
+      4,
+      0,
+      2,
+      7,
+      5,
+      3
+     ],
+     "explanation": "a đứng trước university vì âm đầu là y, Da Lat là tên riêng viết hoa.",
+     "kind": "word_order",
+     "options": [
+      "university",
+      "This",
+      "in",
+      ".",
+      "a",
+      "Lat",
+      "is",
+      "Da"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'This / is / a / university / in / Da / Lat / .'"
+    }
+   ],
+   "problem": "Nhiều bạn học thuộc lòng a đi với phụ âm, an đi với nguyên âm. Quy tắc đó nhìn vào chữ cái, mà tiếng Anh chọn a hay an theo âm đầu khi đọc.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Nhìn chữ cái thì nhầm, nghe âm đầu mới đúng: university đọc là y nên dùng a.",
+   "right": "a university.",
+   "right_note": "Một trường đại học.",
+   "show_in_ui": true,
+   "slug": "loi-005",
+   "title": "a university",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "a hay an dựa vào âm đầu, không dựa vào chữ cái. university bắt đầu bằng âm y, giống you, nên dùng a.",
+   "wrong": "an university.",
+   "wrong_note": "Một trường đại học."
   }
+ ],
+ "site": {
+  "base_url": "https://dongdarealest.github.io/sai-dau-sua-do",
+  "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+  "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+  "name": "Kho bài học Sai Đâu Sửa Đó",
+  "slogan": "Mỗi ngày sửa một lỗi nhỏ.",
+  "paths": [
+   {
+    "slug": "hoc-lai-tu-dau",
+    "name": "Học lại từ đầu",
+    "desc": "Từ những lỗi cơ bản nhất, học theo thứ tự, mỗi bài chỉ 3, 5 phút.",
+    "order": [
+     "loi-001",
+     "quiz-001",
+     "loi-002",
+     "quiz-002",
+     "loi-003",
+     "mau-cau-001",
+     "mau-cau-002"
+    ],
+    "icon": "🌱"
+   },
+   {
+    "slug": "tieng-anh-di-lam",
+    "name": "Tiếng Anh đi làm",
+    "desc": "Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.",
+    "order": [
+     "loi-001",
+     "loi-003",
+     "mau-cau-001",
+     "mau-cau-002",
+     "quiz-001"
+    ],
+    "icon": "💼"
+   },
+   {
+    "slug": "sua-phat-am",
+    "name": "Sửa phát âm",
+    "desc": "Những từ người Việt hay đọc sai, nghe, đọc theo, sửa ngay.",
+    "order": [
+     "loi-004",
+     "mau-cau-003",
+     "loi-002",
+     "quiz-002"
+    ],
+    "icon": "🗣️"
+   }
+  ],
+  "ask_url": "https://www.facebook.com/groups/4387154551501983/posts/4390417267842378"
+ }
 }
