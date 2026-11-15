@@ -1996,6 +1996,114 @@
    "why": "Chia tay ai thì nói break up with người đó, quá khứ của break là broke.",
    "wrong": "She break up me because I super so beautiful boy.",
    "wrong_note": "Cô ấy bỏ tôi vì tôi quá đẹp trai."
+  },
+  {
+   "code": "Hội thoại #001",
+   "compare": [
+    {
+     "a": "What do you listen?",
+     "b": "What do you listen to?",
+     "note": "Hỏi nghe cái gì thì listen phải đi với to."
+    },
+    {
+     "a": "I listen the radio every morning.",
+     "b": "I listen to the radio every morning.",
+     "note": "Nghe đài thì nói listen to the radio, không nói listen the radio."
+    }
+   ],
+   "core": "listen luôn đi với to khi nói nghe cái gì, nghe ai, hoặc nghe chương trình nào.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is listening to her favorite song.",
+     "vi": "Cô ấy đang nghe bài hát yêu thích của mình."
+    },
+    {
+     "en": "We listen to music while we work.",
+     "vi": "Chúng tôi nghe nhạc trong lúc làm việc."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100424185550200",
+   "image_src": "ngay-04/Hoi-thoai-001-listen-to-music.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I am listening to a podcast.",
+     "wrong": "I am listening a podcast."
+    },
+    {
+     "right": "What are you listening to now?",
+     "wrong": "What are you listening now?"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Hỏi nghe cái gì thì listen đi với to.",
+     "kind": "fill_blank",
+     "options": [
+      "to",
+      "at"
+     ],
+     "prompt": "What are you listening ___?"
+    },
+    {
+     "answer": 0,
+     "explanation": "Nghe nhạc thì nói listening to music.",
+     "kind": "fill_blank",
+     "options": [
+      "to",
+      "for"
+     ],
+     "prompt": "I am listening ___ music now."
+    },
+    {
+     "answer": 1,
+     "explanation": "Nghe tin tức thì nói listening to the news, không nói listening the news.",
+     "options": [
+      "I am listening the news.",
+      "I am listening to the news."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      5,
+      0,
+      4,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: What, are, you, listening, to, dấu hỏi chấm.",
+     "kind": "word_order",
+     "options": [
+      "listening",
+      "What",
+      "are",
+      "?",
+      "to",
+      "you"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'What / are / you / listening / to / ?'"
+    }
+   ],
+   "problem": "Bạn ngồi nghe nhạc cùng một người bạn mới và muốn hỏi bạn ấy đang nghe gì. Câu hỏi của bạn thiếu mất to ở cuối, nghe vẫn hiểu nhưng thiếu một mảnh.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Muốn hỏi ai đang nghe gì thì nhớ to sau listening, nghe cái gì cũng nói listen to.",
+   "right": "What are you listening to?",
+   "right_note": "Bạn đang nghe gì vậy?",
+   "show_in_ui": true,
+   "slug": "hoi-thoai-001",
+   "tip": "Dùng khi hỏi ai đang nghe nhạc, xem phim, nghe podcast.",
+   "title": "listen to music",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "listen không đi thẳng với tân ngữ, nghe cái gì thì nói listen to.",
+   "wrong": "What are you listening?",
+   "wrong_note": "Bạn đang nghe gì vậy?"
   }
  ],
  "site": {
