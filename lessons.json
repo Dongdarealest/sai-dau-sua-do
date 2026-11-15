@@ -2104,6 +2104,94 @@
    "why": "listen không đi thẳng với tân ngữ, nghe cái gì thì nói listen to.",
    "wrong": "What are you listening?",
    "wrong_note": "Bạn đang nghe gì vậy?"
+  },
+  {
+   "code": "Đố nhanh #001",
+   "compare": [
+    {
+     "a": "She is in the car.",
+     "b": "She is on the bus.",
+     "note": "Xe ô tô con dùng in, xe buýt dùng on."
+    },
+    {
+     "a": "We are on the train.",
+     "b": "We are on the plane.",
+     "note": "Tàu và máy bay đều dùng on, giống xe buýt."
+    }
+   ],
+   "core": "in the car với xe ô tô con, on the bus, on the train, on the plane với phương tiện lớn.",
+   "date": "2026-11-15",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I am waiting in the car.",
+     "vi": "Tôi đang chờ trong xe ô tô."
+    },
+    {
+     "en": "We are on the bus to Da Lat.",
+     "vi": "Chúng tôi đang ở trên xe buýt đi Đà Lạt."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100490017550200",
+   "image_src": "ngay-04/Do-001-on-the-car.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He is in the car now.",
+     "wrong": "He is on the car now."
+    },
+    {
+     "right": "They are on the bus.",
+     "wrong": "They are in the bus."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Ngồi trong xe ô tô thì nói in the car.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "on"
+     ],
+     "prompt": "I am ___ the car."
+    },
+    {
+     "answer": 1,
+     "explanation": "Xe buýt thì dùng on, giống tàu và máy bay.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "on"
+     ],
+     "prompt": "She is ___ the bus now."
+    }
+   ],
+   "problem": "Bạn ngồi trong xe ô tô và muốn nói mình đang ở trong xe, nhưng dùng on the car thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Xe ô tô con thì dùng in, xe buýt, tàu và máy bay thì dùng on.",
+    "options": [
+     "'on' thành 'in'",
+     "'am' thành 'is'",
+     "'car' thành 'cars'"
+    ],
+    "prompt": "Hãy nhìn giới từ trước the car.",
+    "question": "Câu 'I am on the car.' sai ở đâu?"
+   },
+   "reel": null,
+   "remember": "Ngồi xe ô tô thì nói in the car, xe buýt, tàu và máy bay thì dùng on.",
+   "right": "I am in the car.",
+   "right_note": "Tôi đang ở trong xe ô tô.",
+   "show_in_ui": true,
+   "slug": "do-001",
+   "tip": "Nhớ nhanh: xe nhỏ in, xe lớn on.",
+   "title": "on the car",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Giới từ in và on đổi theo loại xe, xe nhỏ dùng in, xe lớn dùng on.",
+   "wrong": "I am on the car.",
+   "wrong_note": "Tôi đang ở trong xe ô tô."
   }
  ],
  "site": {
