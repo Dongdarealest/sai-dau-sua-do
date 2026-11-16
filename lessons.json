@@ -2287,6 +2287,92 @@
    "wrong_note": "Tôi đã sống ở đây từ năm 2020.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #006",
+   "compare": [
+    {
+     "a": "actually",
+     "b": "currently",
+     "note": "actually dùng để đính chính, currently nói thời điểm hiện tại."
+    },
+    {
+     "a": "Actually, I am not ready yet.",
+     "b": "Currently, I am on leave.",
+     "note": "câu đầu đính chính, câu sau nói tình trạng hiện tại."
+    }
+   ],
+   "core": "actually đính chính, currently nói thời điểm hiện tại.",
+   "date": "2026-11-16",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Actually, I do not like coffee.",
+     "vi": "Thật ra tôi không thích cà phê."
+    },
+    {
+     "en": "Currently, she works in Ho Chi Minh City.",
+     "vi": "Hiện tại cô ấy làm việc ở Thành phố Hồ Chí Minh."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122100987219550200",
+   "image_src": "ngay-05/Loi-006-actually.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Currently, I am working in Da Lat now.",
+     "wrong": "Actually, I am working in Da Lat now."
+    },
+    {
+     "right": "Currently, she lives in Hanoi.",
+     "wrong": "Actually, she lives in Hanoi."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Câu này nói nơi làm việc hiện tại nên dùng currently.",
+     "kind": "fill_blank",
+     "options": [
+      "Actually",
+      "Currently"
+     ],
+     "prompt": "___ , I work in Da Lat."
+    },
+    {
+     "answer": 0,
+     "explanation": "Câu này đính chính sở thích nên dùng actually.",
+     "kind": "fill_blank",
+     "options": [
+      "Actually",
+      "Currently"
+     ],
+     "prompt": "___ , I do not like tea."
+    },
+    {
+     "answer": 1,
+     "explanation": "Nói nơi ở hiện tại thì dùng currently.",
+     "options": [
+      "Actually, I live in Da Lat.",
+      "Currently, I live in Da Lat."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn quen dịch actually thành hiện tại rồi dùng khi giới thiệu bản thân hoặc viết email. Trong tiếng Anh, actually dùng để đính chính một ý vừa nói.",
+   "quiz": null,
+   "reel": null,
+   "remember": "actually là thật ra để đính chính, hiện tại thì dùng currently.",
+   "right": "Currently, I am living in Da Lat.",
+   "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
+   "show_in_ui": true,
+   "slug": "loi-006",
+   "title": "actually",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "actually nghĩa là thật ra, dùng để đính chính. Muốn nói hiện tại thì dùng currently.",
+   "wrong": "Actually, I am living in Da Lat.",
+   "wrong_note": "Thật ra, tôi đang sống ở Đà Lạt."
   }
  ],
  "site": {
