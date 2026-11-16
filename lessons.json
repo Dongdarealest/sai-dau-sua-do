@@ -2639,6 +2639,149 @@
    "wrong_note": "Họ cướp tiền.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Mẫu câu #005",
+   "compare": [
+    {
+     "a": "She found a job in Da Lat.",
+     "b": "She has a lot of work this week.",
+     "note": "a job là một chỗ làm cụ thể, a lot of work là nhiều việc phải làm."
+    },
+    {
+     "a": "His salary comes every month.",
+     "b": "Her wage comes every Friday.",
+     "note": "salary trả theo tháng, wage trả theo giờ hoặc theo tuần."
+    },
+    {
+     "a": "They pay a good salary.",
+     "b": "They pay a fair wage.",
+     "note": "salary là lương tháng, wage là lương tính theo giờ làm."
+    }
+   ],
+   "core": "Muốn nói một công việc cụ thể thì dùng a job. Muốn nói khối lượng việc chung chung thì dùng work, không thêm a. Lương trả theo tháng thì dùng salary, lương trả theo giờ thì dùng wage.",
+   "date": "2026-11-16",
+   "dict_links": [
+    {
+     "label": "Cambridge, job",
+     "url": "https://dictionary.cambridge.org/dictionary/english/job"
+    },
+    {
+     "label": "Cambridge, work",
+     "url": "https://dictionary.cambridge.org/dictionary/english/work"
+    },
+    {
+     "label": "Cambridge, salary",
+     "url": "https://dictionary.cambridge.org/dictionary/english/salary"
+    },
+    {
+     "label": "Cambridge, wage",
+     "url": "https://dictionary.cambridge.org/dictionary/english/wage"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have a new job.",
+     "vi": "Tôi có công việc mới."
+    },
+    {
+     "en": "I have a lot of work this week.",
+     "vi": "Tuần này tôi có nhiều việc."
+    },
+    {
+     "en": "My salary is paid every month.",
+     "vi": "Lương tháng của tôi trả hàng tháng."
+    },
+    {
+     "en": "His wage is paid every hour.",
+     "vi": "Lương giờ của anh ấy trả theo giờ."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122101133889550200",
+   "image_src": "ngay-05/Mau-cau-005-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We have a lot of work today.",
+     "wrong": "We have a work today."
+    },
+    {
+     "right": "Her salary arrives on the first.",
+     "wrong": "Her wage arrives on the first."
+    },
+    {
+     "right": "They pay him a wage every week.",
+     "wrong": "They pay him a salary every week."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "work không đếm được nên nói a lot of work.",
+     "options": [
+      "a job",
+      "a lot of work"
+     ],
+     "prompt": "I have ___ today."
+    },
+    {
+     "answer": 0,
+     "explanation": "Trả theo tháng thì chọn salary.",
+     "options": [
+      "salary",
+      "wage"
+     ],
+     "prompt": "My ___ is paid every month."
+    },
+    {
+     "answer": 0,
+     "explanation": "job đếm được nên dùng a new job.",
+     "kind": "distinguish",
+     "options": [
+      "She got a new job.",
+      "She got a new work."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "explanation": "Thứ tự đúng là chủ ngữ, động từ, rồi cụm every week, nhớ wage trả theo giờ hoặc theo tuần.",
+     "kind": "word_order",
+     "options": [
+      "Her",
+      "wage",
+      "is",
+      "paid",
+      "every",
+      "week",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'every / Her / is / paid / wage / week / .'"
+    }
+   ],
+   "problem": "Nhiều bạn nói a work khi muốn kể hôm nay mình bận, hoặc dùng wage khi nói lương tháng, vì dịch thẳng từ tiếng Việt mà không phân biệt bốn từ này.",
+   "quiz": null,
+   "remember": "job đếm được, work không đếm được, salary theo tháng, wage theo giờ.",
+   "right": "I have a lot of work today.",
+   "right_note": "Hôm nay tôi có nhiều việc.",
+   "slug": "mau-cau-005",
+   "tip": "Mẹo: nghe lương tháng thì nghĩ salary, nghe lương giờ thì nghĩ wage.",
+   "title": "job, work, salary, wage",
+   "topic": "từ vựng",
+   "type": "Mẫu câu",
+   "why": "job là một công việc cụ thể và đếm được, work là việc nói chung và không đếm được.",
+   "wrong": "I have a work today.",
+   "wrong_note": "Hôm nay tôi có việc.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
