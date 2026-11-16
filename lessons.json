@@ -2543,6 +2543,102 @@
    "why": "somebody, everybody, everyone, nobody, something, everything, nothing, anything đều là số ít. Chỉ both, many, few là số nhiều nên đi với are.",
    "wrong": "Everybody are happy.",
    "wrong_note": "Nghe quen nhưng sai, everybody là số ít."
+  },
+  {
+   "code": "Từ #001",
+   "compare": [
+    {
+     "a": "rob the bank",
+     "b": "steal the money",
+     "note": "rob đi với nơi bị cướp, steal đi với thứ bị lấy mất."
+    },
+    {
+     "a": "They robbed the shop.",
+     "b": "They stole the phone.",
+     "note": "Cướp cửa hàng thì dùng rob, ăn cắp điện thoại thì dùng steal."
+    }
+   ],
+   "core": "rob nhắm vào người hoặc nơi, steal nhắm vào thứ bị lấy.",
+   "date": "2026-11-16",
+   "dict_links": [
+    {
+     "label": "Cambridge, rob",
+     "url": "https://dictionary.cambridge.org/dictionary/english/rob"
+    },
+    {
+     "label": "Cambridge, steal",
+     "url": "https://dictionary.cambridge.org/dictionary/english/steal"
+    }
+   ],
+   "examples": [
+    {
+     "en": "They stole the money.",
+     "vi": "Họ ăn cắp tiền."
+    },
+    {
+     "en": "Please do not steal my bike.",
+     "vi": "Làm ơn đừng ăn cắp xe đạp của tôi."
+    }
+   ],
+   "fb": "https://www.facebook.com/saidausuado/posts/122101072695550200",
+   "image_src": "ngay-05/Tu-001-rob-steal.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Someone stole my wallet.",
+     "wrong": "Someone robbed my wallet."
+    },
+    {
+     "right": "The gang robbed the store.",
+     "wrong": "The gang stole the store."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Cướp ngân hàng thì dùng rob, vì rob nhắm vào nơi bị cướp.",
+     "kind": "fill_blank",
+     "options": [
+      "robbed",
+      "stole"
+     ],
+     "prompt": "They ___ the bank."
+    },
+    {
+     "answer": 1,
+     "explanation": "Điện thoại là thứ bị lấy mất nên dùng steal, không dùng rob.",
+     "options": [
+      "They robbed my phone.",
+      "They stole my phone."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Túi là thứ bị lấy mất nên dùng steal.",
+     "kind": "fill_blank",
+     "options": [
+      "robbed",
+      "stole"
+     ],
+     "prompt": "The thief ___ my bag."
+    }
+   ],
+   "problem": "Nhiều bạn dùng rob và steal lẫn nhau vì cả hai đều liên quan đến lấy đồ của người khác. Nhưng rob nhắm vào người hoặc nơi bị cướp, steal nhắm vào thứ bị lấy mất.",
+   "quiz": null,
+   "remember": "rob cần người hoặc nơi bị cướp, steal cần thứ bị lấy mất.",
+   "right": "They robbed the bank.",
+   "right_note": "Họ cướp ngân hàng.",
+   "slug": "tu-001",
+   "tip": "Dùng khi kể chuyện đọc tin, kể về vụ cướp hay vụ trộm.",
+   "title": "rob và steal",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "rob là cướp của ai, cướp nơi nào đó. steal là ăn cắp thứ gì đó.",
+   "wrong": "They robbed the money.",
+   "wrong_note": "Họ cướp tiền.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
