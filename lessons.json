@@ -3339,6 +3339,101 @@
    "why": "sau have phải dùng quá khứ phân từ gone, went là quá khứ đơn.",
    "wrong": "I have went there before.",
    "wrong_note": "Tôi đã từng đến đó trước đây."
+  },
+  {
+   "code": "Quiz #005",
+   "compare": [
+    {
+     "a": "Actually, I have never been there.",
+     "b": "Currently, I live near there.",
+     "note": "actually đính chính một ý, currently nói nơi ở hiện tại."
+    },
+    {
+     "a": "She is actually very kind.",
+     "b": "She is currently very busy.",
+     "note": "actually nhấn mạnh sự thật, currently nói trạng thái lúc này."
+    }
+   ],
+   "core": "Hỏi thời điểm hiện tại thì chọn currently. Muốn đính chính thì chọn actually.",
+   "date": "2026-11-16",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Currently, she works in Da Lat.",
+     "vi": "Hiện tại cô ấy làm việc ở Đà Lạt."
+    },
+    {
+     "en": "Actually, I do not like coffee.",
+     "vi": "Thật ra tôi không thích cà phê."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122101520463550200",
+   "image_src": "ngay-05/Quiz-005-actually-currently.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Currently, we live in Da Lat.",
+     "wrong": "Actually, we live in Da Lat."
+    },
+    {
+     "right": "Currently, he works from home.",
+     "wrong": "Actually, he works from home."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Câu này nói nơi làm việc hiện tại nên dùng currently.",
+     "options": [
+      "Actually",
+      "Currently"
+     ],
+     "prompt": "___ , she works in a hotel."
+    },
+    {
+     "answer": 0,
+     "explanation": "Câu này đính chính sở thích nên dùng actually.",
+     "options": [
+      "Actually",
+      "Currently"
+     ],
+     "prompt": "___ , I do not like spicy food."
+    },
+    {
+     "answer": 1,
+     "explanation": "Nói trạng thái bận hôm nay thì dùng currently, actually chỉ dùng để đính chính.",
+     "options": [
+      "Actually, I am busy today.",
+      "Currently, I am busy today."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn muốn nói hiện tại thì nghĩ ngay tới actually vì dịch từ tiếng Việt. Nhưng actually dùng để đính chính, không nói thời điểm hiện tại.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "currently nói thời điểm hiện tại, actually chỉ dùng để đính chính.",
+    "options": [
+     "Actually",
+     "Currently",
+     "Really"
+    ],
+    "prompt": "Chọn từ đúng để nói về thời điểm hiện tại.",
+    "question": "Muốn nói 'hiện tại', dùng từ nào?"
+   },
+   "remember": "hiện tại dùng currently, đính chính dùng actually.",
+   "right": "Currently, I am living in Da Lat.",
+   "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
+   "slug": "quiz-005",
+   "tip": "Nhớ nhanh: hiện tại thì currently, đính chính thì actually.",
+   "title": "actually hay currently?",
+   "topic": "từ vựng",
+   "type": "Quiz",
+   "why": "actually nghĩa là thật ra, dùng để đính chính. Muốn nói hiện tại thì dùng currently.",
+   "wrong": "Actually, I am living in Da Lat.",
+   "wrong_note": "actually nghĩa là thật ra, không phải hiện tại.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
