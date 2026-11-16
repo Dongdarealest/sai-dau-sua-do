@@ -1179,7 +1179,10 @@
     }
    ],
    "remember": "comfortable thường đọc gọn 3 âm.",
-   "reel": null,
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1826045238662458"
+   },
    "show_in_ui": true,
    "problem": "Nhìn mặt chữ com fort a ble, nhiều bạn đọc tách thành 4 âm rõ ràng như đánh vần. Nhưng người bản xứ nuốt nhẹ âm giữa, nên nghe gọn hơn nhiều, tập đọc theo chữ cái chính là cái bẫy của từ này.",
    "core": "Trọng âm rơi vào âm đầu: COMF ter ble. Âm giữa ter đọc rất nhẹ, gần như lướt qua. Giọng Anh Mỹ thường đọc gọn 3 âm; giọng Anh Anh trong từ điển vẫn ghi 4 âm nhưng khi nói nhanh cũng lướt nhẹ âm giữa. Nói chung: đọc nhanh, nhấn âm đầu, đừng đánh vần từng chữ cái.",
@@ -2890,6 +2893,49 @@
    "wrong_note": "Tôi chơi bóng đá mỗi chủ nhật.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Reel #003",
+   "date": "2026-11-16",
+   "dict_links": [
+    {
+     "label": "Oxford, comfortable",
+     "url": "https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"
+    },
+    {
+     "label": "Cambridge, comfortable",
+     "url": "https://dictionary.cambridge.org/dictionary/english/comfortable"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This chair is very comfortable.",
+     "vi": "Cái ghế này rất thoải mái."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1826045238662458",
+   "image_src": "reels/frames/reel-003-f1.png",
+   "ipa": [
+    {
+     "note": "đọc gọn 3 âm",
+     "source": "Oxford, Anh Mỹ",
+     "text": "/ˈkʌmftərbl/"
+    }
+   ],
+   "quiz": null,
+   "right": "comf ta ble",
+   "right_note": "thường đọc 3 âm",
+   "slug": "reel-003",
+   "title": "comfortable đọc mấy âm?",
+   "topic": "phát âm",
+   "type": "Reels",
+   "why": "Nhìn mặt chữ thì tưởng 4 âm, thật ra chỉ có 3 âm, âm giữa đọc rất nhẹ.",
+   "wrong": "com for ta ble",
+   "wrong_note": "đọc tách thành 4 âm",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
   }
  ],
  "site": {
