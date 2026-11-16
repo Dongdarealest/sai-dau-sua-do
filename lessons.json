@@ -2373,6 +2373,91 @@
    "why": "actually nghĩa là thật ra, dùng để đính chính. Muốn nói hiện tại thì dùng currently.",
    "wrong": "Actually, I am living in Da Lat.",
    "wrong_note": "Thật ra, tôi đang sống ở Đà Lạt."
+  },
+  {
+   "code": "Mẹo #001",
+   "compare": [
+    {
+     "a": "very beautiful",
+     "b": "absolutely perfect",
+     "note": "beautiful có mức độ nên dùng very, perfect tuyệt đối nên dùng absolutely."
+    },
+    {
+     "a": "The food is very delicious.",
+     "b": "The food is absolutely perfect.",
+     "note": "món ăn ngon có mức độ, hoàn hảo thì tuyệt đối."
+    }
+   ],
+   "core": "perfect là tính từ tuyệt đối, muốn nhấn thì dùng absolutely.",
+   "date": "2026-11-16",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "This hotel room is absolutely perfect.",
+     "vi": "Phòng khách sạn này thật sự hoàn hảo."
+    },
+    {
+     "en": "The plan for our trip is absolutely perfect.",
+     "vi": "Kế hoạch cho chuyến đi của chúng tôi thật sự hoàn hảo."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122101030545550200",
+   "image_src": "ngay-05/Meo-001-very-perfect.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "The weather today is absolutely perfect.",
+     "wrong": "The weather today is very perfect."
+    },
+    {
+     "right": "Her dress is absolutely perfect.",
+     "wrong": "Her dress is very perfect."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "perfect là tính từ tuyệt đối nên dùng absolutely để nhấn mạnh.",
+     "options": [
+      "The cake is very perfect.",
+      "The cake is absolutely perfect."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "beautiful là tính từ có mức độ nên dùng very.",
+     "kind": "fill_blank",
+     "options": [
+      "very",
+      "absolutely"
+     ],
+     "prompt": "Điền từ còn thiếu: This song is ___ beautiful."
+    },
+    {
+     "answer": 1,
+     "explanation": "Muốn khen tiếng Anh hoàn hảo thì dùng absolutely perfect.",
+     "options": [
+      "My English is very perfect.",
+      "My English is absolutely perfect."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn quen viết very perfect khi muốn khen một thứ gì đó hoàn hảo. Trong tiếng Anh, perfect không có mức độ nên không đi với very.",
+   "quiz": null,
+   "remember": "perfect không có mức độ, muốn nhấn thì dùng absolutely, không dùng very.",
+   "right": "The view is absolutely perfect.",
+   "right_note": "Khung cảnh thật sự hoàn hảo.",
+   "show_in_ui": true,
+   "slug": "meo-001",
+   "title": "very perfect",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "perfect là tính từ tuyệt đối, không có mức độ. Muốn nhấn mạnh thì dùng absolutely.",
+   "wrong": "The view is very perfect.",
+   "wrong_note": "Khung cảnh rất hoàn hảo.",
+   "reel": null
   }
  ],
  "site": {
