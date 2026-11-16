@@ -2936,6 +2936,112 @@
    "remember": "",
    "reel": null,
    "show_in_ui": false
+  },
+  {
+   "code": "Quiz nhanh #002",
+   "compare": [
+    {
+     "a": "knight",
+     "b": "night",
+     "note": "knight và night đọc giống nhau, đều là nait, nhưng nghĩa khác nhau: knight là hiệp sĩ, night là ban đêm."
+    },
+    {
+     "a": "The knight rode a horse.",
+     "b": "The night was very dark.",
+     "note": "Hai từ đọc giống nhau nhưng viết khác nhau, phải nhớ mặt chữ của từng từ."
+    }
+   ],
+   "core": "Khi gặp từ có chữ câm, hãy học thuộc cách đọc của riêng từ đó, đừng đoán theo mặt chữ.",
+   "date": "2026-11-16",
+   "dict_links": [
+    {
+     "label": "Cambridge, knight",
+     "url": "https://dictionary.cambridge.org/dictionary/english/knight"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The knight lived in a big castle.",
+     "vi": "Hiệp sĩ sống trong một lâu đài lớn."
+    },
+    {
+     "en": "The brave knight helped the king.",
+     "vi": "Hiệp sĩ dũng cảm đã giúp nhà vua."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122101266105550200",
+   "image_src": "ngay-05/Quiz-nhanh-002-knight.png",
+   "ipa": [
+    {
+     "note": "Anh và Mỹ đọc giống nhau",
+     "source": "Cambridge, Anh và Mỹ",
+     "text": "/naɪt/"
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "The knight saved the kingdom.",
+     "wrong": "The night saved the kingdom."
+    },
+    {
+     "right": "He wants to be a knight.",
+     "wrong": "He wants to be a night."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "knight có chữ k câm, cat đọc đủ cả 3 chữ.",
+     "options": [
+      "knight",
+      "cat"
+     ],
+     "prompt": "___ is a word with a silent letter."
+    },
+    {
+     "answer": 0,
+     "explanation": "knight có chữ k câm, dog đọc đủ cả 3 chữ.",
+     "options": [
+      "knight",
+      "dog"
+     ],
+     "prompt": "Chọn từ có chữ câm:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Chữ k câm nên knight chỉ đọc là nait.",
+     "options": [
+      "nait",
+      "kờ nai tờ"
+     ],
+     "prompt": "knight đọc như thế nào?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc knight thành kờ nai tờ vì thấy chữ k ở đầu từ. Thật ra chữ k này câm, không phát âm.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Chỉ chữ k câm, chữ n và chữ t đều đọc.",
+    "options": [
+     "Chữ k",
+     "Chữ n",
+     "Chữ t"
+    ],
+    "prompt": "Hãy nhìn 6 chữ cái của knight.",
+    "question": "Trong từ knight, chữ nào không phát âm?"
+   },
+   "remember": "Trong knight, chữ k câm, đọc thành nait.",
+   "right": "Chữ k là chữ câm trong knight.",
+   "right_note": "knight nghĩa là hiệp sĩ.",
+   "slug": "quiz-nhanh-002",
+   "tip": "Gặp từ bắt đầu bằng kn, hãy nhớ chữ k thường câm, như know và knee.",
+   "title": "Chữ nào trong knight là chữ câm?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "knight đọc là nait, chữ k câm, chữ n và chữ t đều đọc.",
+   "wrong": "Chữ n là chữ câm trong knight.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
