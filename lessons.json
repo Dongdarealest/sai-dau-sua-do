@@ -3694,6 +3694,92 @@
    "wrong_note": "Tôi đã xem tivi mỗi tối.",
    "dict_links": [],
    "reel": null
+  },
+  {
+   "code": "Dịch #001",
+   "compare": [
+    {
+     "a": "That boy is really childish.",
+     "b": "That boy is a young buffalo.",
+     "note": "childish tả tính cách, young buffalo dịch từng chữ nên người nghe không hiểu."
+    },
+    {
+     "a": "Do not act so childish.",
+     "b": "Do not act like a baby cow.",
+     "note": "baby cow chỉ con bê, không tả tính cách trẻ trâu."
+    }
+   ],
+   "core": "Dịch theo tính cách người được tả, trẻ con và nghịch ngợm, rồi chọn từ tả tính cách đó.",
+   "date": "2026-11-17",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "He is such an immature kid.",
+     "vi": "Anh ta đúng là một đứa trẻ trâu."
+    },
+    {
+     "en": "Don't be so childish.",
+     "vi": "Đừng trẻ trâu vậy."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102014605550200",
+   "image_src": "ngay-06/Dich-001-tre-trau.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He is so childish at work.",
+     "wrong": "He is so young buffalo at work."
+    },
+    {
+     "right": "Stop being so immature.",
+     "wrong": "Stop being such a baby cow."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "immature kid tả tính cách, young buffalo là con vật.",
+     "options": [
+      "He acts like an immature kid.",
+      "He acts like a young buffalo."
+     ],
+     "prompt": "Dịch câu này: 'Anh ta hành xử như một đứa trẻ trâu.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "childish tả tính cách trẻ con, baby cow chỉ con bê.",
+     "options": [
+      "You are so childish.",
+      "You are so baby cow."
+     ],
+     "prompt": "Chọn câu đúng để nói ai đó trẻ trâu:"
+    }
+   ],
+   "problem": "Nhiều bạn dịch trẻ trâu từng chữ thành con trâu non vì nghĩ nó là con vật. Thật ra đây là cách nói về tính cách của một người.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "young buffalo và baby cow đều dịch từng chữ thành con vật, trong khi trẻ trâu tả tính cách của người.",
+    "options": [
+     "immature kid",
+     "young buffalo",
+     "baby cow"
+    ],
+    "prompt": "Chọn cách dịch đúng nhất cho 'trẻ trâu'.",
+    "question": "How do you say 'Trẻ trâu' in English?"
+   },
+   "reel": null,
+   "remember": "Trẻ trâu = immature kid / childish, tả người, không phải con vật.",
+   "right": "immature kid",
+   "right_note": "cách nói tự nhiên nhất cho trẻ trâu.",
+   "show_in_ui": true,
+   "slug": "dich-001",
+   "tip": "Nhớ nhanh: trẻ trâu tả người, nghĩ tới childish trước.",
+   "title": "Trẻ trâu",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "trẻ trâu tả tính cách trẻ con nghịch ngợm, không phải con vật.",
+   "wrong": "'Trẻ trâu' tiếng Anh là gì?",
+   "wrong_note": ""
   }
  ],
  "site": {
