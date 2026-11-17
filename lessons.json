@@ -3434,6 +3434,93 @@
    "wrong_note": "actually nghĩa là thật ra, không phải hiện tại.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #007",
+   "compare": [
+    {
+     "a": "I am happy today.",
+     "b": "I agree with the decision.",
+     "note": "happy là tính từ nên cần am, agree là động từ nên không cần am."
+    },
+    {
+     "a": "I am thinking about the plan.",
+     "b": "I agree with it.",
+     "note": "thinking có thể đi với am khi đang nghĩ, agree không bao giờ đi với am."
+    }
+   ],
+   "core": "agree là động từ, nói đồng ý thì dùng I agree, không thêm am.",
+   "date": "2026-11-17",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I agree with your idea.",
+     "vi": "Tôi đồng ý với ý của bạn."
+    },
+    {
+     "en": "I think we should start now.",
+     "vi": "Tôi nghĩ chúng ta nên bắt đầu ngay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122101900143550200",
+   "image_src": "ngay-06/Loi-007-i-agree.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I agree with the plan.",
+     "wrong": "I am agree with the plan."
+    },
+    {
+     "right": "I think this is right.",
+     "wrong": "I am think this is right."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Câu này nói đồng ý nên dùng agree, không thêm am.",
+     "kind": "fill_blank",
+     "options": [
+      "agree",
+      "am agree"
+     ],
+     "prompt": "I ___ with you."
+    },
+    {
+     "answer": 0,
+     "explanation": "Chủ ngữ she đi với agrees, thêm s, không thêm am.",
+     "kind": "fill_blank",
+     "options": [
+      "agrees",
+      "is agree"
+     ],
+     "prompt": "She ___ with me."
+    },
+    {
+     "answer": 1,
+     "explanation": "agree là động từ nên không cần am.",
+     "options": [
+      "I am agree with this plan.",
+      "I agree with this plan."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn quen thêm am trước mọi động từ khi nói tiếng Anh. Câu đồng ý với sếp trong buổi họp là lúc lỗi này lộ rõ nhất.",
+   "quiz": null,
+   "remember": "agree là động từ, không thêm am khi nói đồng ý.",
+   "right": "I agree with you.",
+   "right_note": "Tôi đồng ý với bạn.",
+   "show_in_ui": true,
+   "slug": "loi-007",
+   "tip": "Khi muốn đồng ý trong buổi họp, nói I agree rồi nói tiếp ý của mình.",
+   "title": "I agree",
+   "topic": "quiz tổng hợp",
+   "type": "Lỗi",
+   "why": "agree là động từ nên không cần am. Tương tự I think, không nói I am think.",
+   "wrong": "I am agree with you.",
+   "wrong_note": "Tôi đồng ý với bạn (nhưng thừa chữ am).",
+   "reel": null
   }
  ],
  "site": {
