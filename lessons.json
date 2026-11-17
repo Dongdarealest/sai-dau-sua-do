@@ -4315,6 +4315,93 @@
    "wrong_note": "Có ba quyển sách trên bàn.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Quiz #006",
+   "compare": [
+    {
+     "a": "We agree with the plan.",
+     "b": "We are agree with the plan.",
+     "note": "agree là động từ, không cần am."
+    },
+    {
+     "a": "She has worked here since 2021.",
+     "b": "She has worked here for 5 years.",
+     "note": "since đi với mốc thời gian, for đi với khoảng thời gian."
+    }
+   ],
+   "core": "agree là động từ nên không cần am, borrow là mượn về mình, for đi với khoảng thời gian.",
+   "date": "2026-11-17",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I agree with her idea.",
+     "vi": "Tôi đồng ý với ý của cô ấy."
+    },
+    {
+     "en": "Can you lend me your umbrella?",
+     "vi": "Bạn cho tôi mượn cây dù của bạn được không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102334039550200/",
+   "image_src": "ngay-06/Quiz-006-chon-cau-dung.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They agree with us.",
+     "wrong": "They are agree with us."
+    },
+    {
+     "right": "He has worked here for 2 years.",
+     "wrong": "He has worked here since 2 years."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "agree là động từ nên đi một mình, không cần am.",
+     "options": [
+      "am agree",
+      "agree",
+      "agrees"
+     ],
+     "prompt": "I ___ with your opinion."
+    },
+    {
+     "answer": 1,
+     "explanation": "borrow là mượn về mình, lend mới là cho người khác mượn.",
+     "options": [
+      "Can you borrow me your book?",
+      "Can you lend me your book?"
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Nhiều bạn nhìn 3 câu này thấy câu nào cũng quen, nhưng chỉ 1 câu đúng hoàn toàn. Đọc kỹ từng câu rồi chọn nhé.",
+   "quiz": {
+    "answer": 2,
+    "explanation": "A sai vì agree là động từ, không cần am. B sai vì borrow là mượn về mình, phải đổi thành lend. C đúng vì for đi với khoảng thời gian.",
+    "options": [
+     "I am agree with you.",
+     "Can you borrow me your pen?",
+     "I have worked here for 3 years."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "3 câu dưới đây chỉ có 1 câu đúng, bạn chọn câu nào?"
+   },
+   "reel": null,
+   "remember": "agree không cần am, borrow là mượn về mình, for đi với khoảng thời gian.",
+   "right": "I agree with you.",
+   "right_note": "Câu này đúng, không thừa am.",
+   "show_in_ui": true,
+   "slug": "quiz-006",
+   "tip": "Nhớ nhanh: thấy am trước agree thì bỏ am, muốn cho mượn thì dùng lend.",
+   "title": "chọn câu đúng",
+   "topic": "quiz tổng hợp",
+   "type": "Quiz",
+   "why": "3 câu này gộp 3 lỗi trong tuần: thừa am sau agree, nhầm borrow với lend, nhầm for với since.",
+   "wrong": "I am agree with you.",
+   "wrong_note": "Thừa am trước động từ agree."
   }
  ],
  "site": {
