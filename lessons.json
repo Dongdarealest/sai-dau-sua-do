@@ -4117,6 +4117,116 @@
    "wrong_note": "Chào bạn, tôi là học sinh.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Hội thoại #003",
+   "compare": [
+    {
+     "a": "I go to work by foot.",
+     "b": "I go to work on foot.",
+     "note": "Đi bộ đi làm thì nói on foot, không nói by foot."
+    },
+    {
+     "a": "We go to the market by bus.",
+     "b": "We go to the market on foot.",
+     "note": "Đi xe buýt thì nói by bus, đi bộ thì nói on foot."
+    }
+   ],
+   "core": "đi bộ nói on foot, đi phương tiện mới nói by cộng tên phương tiện.",
+   "date": "2026-11-17",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I go to the market on foot.",
+     "vi": "Tôi đi chợ bằng chân."
+    },
+    {
+     "en": "She walks to work on foot.",
+     "vi": "Cô ấy đi bộ đi làm."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102216259550200",
+   "image_src": "ngay-06/Hoi-thoai-003-on-foot.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He walks to school on foot every morning.",
+     "wrong": "He walks to school by foot every morning."
+    },
+    {
+     "right": "They go home on foot after class.",
+     "wrong": "They go home by foot after class."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Đi bộ thì nói on foot.",
+     "kind": "fill_blank",
+     "options": [
+      "on",
+      "by"
+     ],
+     "prompt": "I go to school ___ foot."
+    },
+    {
+     "answer": 0,
+     "explanation": "Đi xe buýt thì nói by bus.",
+     "kind": "fill_blank",
+     "options": [
+      "by",
+      "on"
+     ],
+     "prompt": "We go there ___ bus."
+    },
+    {
+     "answer": 1,
+     "explanation": "Đi bộ thì nói on foot, by chỉ đi với phương tiện.",
+     "options": [
+      "I go to school by foot every morning.",
+      "I go to school on foot every morning."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      0,
+      4,
+      6,
+      2,
+      5,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: I, go, to, school, on, foot, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "go",
+      "I",
+      "on",
+      ".",
+      "to",
+      "foot",
+      "school"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'I / go / to / school / on / foot / .'"
+    }
+   ],
+   "problem": "Bạn kể với bạn mình là bạn đi học bằng chân, nhưng bạn viết by foot. Người nghe tưởng chân là phương tiện giống xe buýt.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Đi bộ nói on foot, đi xe buýt nói by bus, by chỉ đi với phương tiện.",
+   "right": "I go to school on foot.",
+   "right_note": "Tôi đi học bằng chân.",
+   "show_in_ui": true,
+   "slug": "hoi-thoai-003",
+   "tip": "Dùng khi kể cách mình đi học, đi làm, đi chợ.",
+   "title": "on foot",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "đi bộ thì nói on foot, by chỉ đi với phương tiện như by bus.",
+   "wrong": "I go to school by foot.",
+   "wrong_note": "Tôi đi học bằng chân."
   }
  ],
  "site": {
