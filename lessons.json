@@ -3520,7 +3520,10 @@
    "why": "agree là động từ nên không cần am. Tương tự I think, không nói I am think.",
    "wrong": "I am agree with you.",
    "wrong_note": "Tôi đồng ý với bạn (nhưng thừa chữ am).",
-   "reel": null
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1829714364877492"
+   }
   },
   {
    "code": "Mẹo #002",
@@ -3887,6 +3890,34 @@
    "why": "Ngôi thứ ba số ít thì dùng doesn't, vì don't chỉ đi với I, you, we, they.",
    "wrong": "He don't like it.",
    "wrong_note": "Anh ấy không thích cái đó."
+  },
+  {
+   "code": "Reel #004",
+   "date": "2026-11-17",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I agree with you completely.",
+     "vi": "Tôi hoàn toàn đồng ý với bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1829714364877492",
+   "image_src": "reels/frames/reel-004-f1.png",
+   "ipa": [],
+   "quiz": null,
+   "right": "I agree with you.",
+   "right_note": "Tôi đồng ý với bạn.",
+   "slug": "reel-004",
+   "title": "I am agree hay I agree?",
+   "topic": "giao tiếp",
+   "type": "Reels",
+   "why": "agree là động từ, không cần am.",
+   "wrong": "I am agree with you.",
+   "wrong_note": "Tôi đồng ý với bạn (nhưng thừa chữ am).",
+   "practice": [],
+   "remember": "",
+   "reel": null,
+   "show_in_ui": false
   }
  ],
  "site": {
