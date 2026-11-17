@@ -3607,6 +3607,93 @@
    "wrong": "Da Lat is further than Nha Trang.",
    "wrong_note": "Câu này muốn nói Đà Lạt xa hơn, nhưng further không đo khoảng cách.",
    "reel": null
+  },
+  {
+   "code": "Từ #002",
+   "compare": [
+    {
+     "a": "I saw a bird.",
+     "b": "I watched a movie.",
+     "note": "Nhìn thấy chim bay qua là see, xem phim từ đầu đến cuối là watch."
+    },
+    {
+     "a": "Did you see the bus?",
+     "b": "Did you watch the match?",
+     "note": "Thấy xe buýt lướt qua là see, xem trận đấu có chủ ý là watch."
+    }
+   ],
+   "core": "Nhìn thấy tình cờ thì dùng see, xem có chủ ý thì dùng watch.",
+   "date": "2026-11-17",
+   "examples": [
+    {
+     "en": "I saw a bird in the garden.",
+     "vi": "Tôi thấy một con chim trong vườn."
+    },
+    {
+     "en": "We watched the sunset together.",
+     "vi": "Chúng tôi cùng nhau ngắm hoàng hôn."
+    }
+   ],
+   "fb": "https://www.facebook.com/saidausuado/posts/122101970013550200",
+   "image_src": "ngay-06/Tu-002-see-watch.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "She watches cartoons on Saturday.",
+     "wrong": "She sees cartoons on Saturday."
+    },
+    {
+     "right": "I saw your message this morning.",
+     "wrong": "I watched your message this morning."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Xem tivi là việc xem có chủ ý nên dùng watch.",
+     "kind": "fill_blank",
+     "options": [
+      "see",
+      "watch"
+     ],
+     "prompt": "I ___ TV every night."
+    },
+    {
+     "answer": 1,
+     "explanation": "Xem phim có chủ ý nên dùng watched, không dùng saw.",
+     "options": [
+      "I saw a film last night.",
+      "I watched a film last night."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Nhìn thấy mèo tình cờ nên dùng saw.",
+     "kind": "fill_blank",
+     "options": [
+      "saw",
+      "watched"
+     ],
+     "prompt": "She ___ a cat in the yard."
+    }
+   ],
+   "problem": "Nhiều bạn dùng see khi kể chuyện xem phim tối qua, nghe sai sai vì xem phim là việc xem có chủ ý, phải dùng watch chứ không dùng see.",
+   "quiz": null,
+   "remember": "see là nhìn thấy tình cờ, watch là xem có chủ ý.",
+   "right": "I watch TV every night.",
+   "right_note": "Tôi xem tivi mỗi tối.",
+   "show_in_ui": true,
+   "slug": "tu-002",
+   "tip": "Dùng khi kể chuyện xem phim, xem tivi hay nhìn thấy thứ gì đó bất ngờ.",
+   "title": "see và watch",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "see là nhìn thấy tình cờ, không chủ ý. watch là xem có chủ ý, nhìn theo dõi.",
+   "wrong": "I saw TV every night.",
+   "wrong_note": "Tôi đã xem tivi mỗi tối.",
+   "dict_links": [],
+   "reel": null
   }
  ],
  "site": {
