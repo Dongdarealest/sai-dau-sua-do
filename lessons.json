@@ -4402,6 +4402,84 @@
    "why": "3 câu này gộp 3 lỗi trong tuần: thừa am sau agree, nhầm borrow với lend, nhầm for với since.",
    "wrong": "I am agree with you.",
    "wrong_note": "Thừa am trước động từ agree."
+  },
+  {
+   "code": "Lỗi #008",
+   "compare": [
+    {
+     "a": "Teacher Day",
+     "b": "Teachers' Day",
+     "note": "Teachers' Day là ngày của các thầy cô, Teacher Day sai tên ngày lễ."
+    }
+   ],
+   "core": "Tên ngày lễ là Teachers' Day, dạng sở hữu số nhiều.",
+   "date": "2026-11-18",
+   "examples": [
+    {
+     "en": "I sent my teacher a card on Teachers' Day.",
+     "vi": "Tôi đã gửi thiệp cho thầy cô nhân Ngày Nhà giáo."
+    },
+    {
+     "en": "We celebrate Vietnamese Teachers' Day on November 20.",
+     "vi": "Chúng ta kỷ niệm Ngày Nhà giáo Việt Nam vào 20 tháng 11."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102797959550200",
+   "image_src": "ngay-07/Loi-008-teachers-day.png",
+   "mistakes": [
+    {
+     "right": "Happy Teachers' Day!",
+     "wrong": "Happy Teacher Day!"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Tên ngày lễ là Teachers' Day.",
+     "options": [
+      "Happy Teacher Day!",
+      "Happy Teachers' Day!",
+      "Happy Teacher's Day!"
+     ],
+     "prompt": "Chọn câu chúc đúng ngày 20/11."
+    },
+    {
+     "answer": 1,
+     "explanation": "Cần sở hữu số nhiều: Teachers'.",
+     "options": [
+      "Teacher",
+      "Teachers'",
+      "Teachers"
+     ],
+     "prompt": "Điền từ đúng: Happy ___ Day!"
+    },
+    {
+     "answer": 1,
+     "explanation": "Tên đầy đủ là Vietnamese Teachers' Day.",
+     "options": [
+      "Vietnamese Teacher Day",
+      "Vietnamese Teachers' Day",
+      "Vietnam Teachers Day"
+     ],
+     "prompt": "Câu nào viết đúng tên ngày lễ?"
+    }
+   ],
+   "problem": "Nhiều bạn viết thiệp chúc thầy cô ngày 20/11 mà viết sai tên ngày lễ.",
+   "quiz": null,
+   "remember": "Viết thiệp 20/11 thì dùng Teachers' Day.",
+   "right": "Happy Vietnamese Teachers' Day!",
+   "right_note": "",
+   "slug": "loi-008",
+   "title": "Happy Teachers' Day",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "Tên ngày lễ là Teachers' Day, ngày của các thầy cô, không nói Teacher Day.",
+   "wrong": "Happy Teacher Day!",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
