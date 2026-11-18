@@ -4891,6 +4891,34 @@
    "why": "Số nhiều của child là children, không thêm s như danh từ thường.",
    "wrong": "I have 2 childs.",
    "wrong_note": "Tôi có 2 đứa con."
+  },
+  {
+   "code": "Reel #005",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "He said the news.",
+     "vi": "Anh ấy nói tin đó."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1563636662450011",
+   "image_src": "reels/frames/reel-005-f1.png",
+   "ipa": [],
+   "practice": [],
+   "quiz": null,
+   "reel": null,
+   "remember": "",
+   "right": "He told me the news.",
+   "right_note": "Anh ấy kể cho tôi tin đó.",
+   "show_in_ui": false,
+   "slug": "reel-005",
+   "title": "He said me hay He told me?",
+   "topic": "giao tiếp",
+   "type": "Reels",
+   "why": "tell đi với người nghe, say đi với nội dung.",
+   "wrong": "He said me the news.",
+   "wrong_note": "Anh ấy kể cho tôi tin đó (nhưng sai cách dùng say)."
   }
  ],
  "site": {
