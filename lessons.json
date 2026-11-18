@@ -5402,6 +5402,147 @@
    "wrong_note": "Thừa to sau thank.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Tổng hợp #001",
+   "compare": [
+    {
+     "a": "in Da Lat",
+     "b": "at Da Lat",
+     "note": "Thành phố thì dùng in."
+    },
+    {
+     "a": "by bus",
+     "b": "with bus",
+     "note": "Phương tiện thì dùng by."
+    }
+   ],
+   "core": "in đi với thành phố và nước, on đi với mặt phẳng, at đi với địa điểm cụ thể, by đi với phương tiện.",
+   "date": "2026-11-18",
+   "examples": [
+    {
+     "en": "I live in Da Lat.",
+     "vi": "Tôi sống ở Đà Lạt."
+    },
+    {
+     "en": "The book is on the table.",
+     "vi": "Quyển sách ở trên bàn."
+    },
+    {
+     "en": "She is at home.",
+     "vi": "Cô ấy đang ở nhà."
+    },
+    {
+     "en": "We will move in 2026.",
+     "vi": "Chúng tôi sẽ chuyển nhà vào năm 2026."
+    },
+    {
+     "en": "We meet on Monday.",
+     "vi": "Chúng tôi gặp nhau vào thứ Hai."
+    },
+    {
+     "en": "The class starts at 7:00.",
+     "vi": "Lớp học bắt đầu lúc 7 giờ."
+    },
+    {
+     "en": "I have lived here since 2020.",
+     "vi": "Tôi sống ở đây từ năm 2020."
+    },
+    {
+     "en": "I go to work by bus.",
+     "vi": "Tôi đi làm bằng xe buýt."
+    },
+    {
+     "en": "She goes to school by bike.",
+     "vi": "Cô ấy đi học bằng xe đạp."
+    },
+    {
+     "en": "I write with a pen.",
+     "vi": "Tôi viết bằng cây bút."
+    },
+    {
+     "en": "She is married to a teacher.",
+     "vi": "Cô ấy kết hôn với một giáo viên."
+    },
+    {
+     "en": "I am interested in music.",
+     "vi": "Tôi thích âm nhạc."
+    },
+    {
+     "en": "He is afraid of dogs.",
+     "vi": "Anh ấy sợ chó."
+    }
+   ],
+   "image_src": "ngay-07/Tong-hop-001-slide-1.png",
+   "mistakes": [
+    {
+     "right": "at home",
+     "wrong": "in the home"
+    },
+    {
+     "right": "good at English",
+     "wrong": "good in English"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Ở nhà thì nói at home.",
+     "options": [
+      "in",
+      "at",
+      "on"
+     ],
+     "prompt": "Điền giới từ đúng: She is ___ home now."
+    },
+    {
+     "answer": 0,
+     "explanation": "Đi bằng phương tiện thì dùng by.",
+     "options": [
+      "by",
+      "with",
+      "on"
+     ],
+     "prompt": "Điền giới từ đúng: I go to school ___ bike."
+    },
+    {
+     "answer": 1,
+     "explanation": "good luôn đi với at.",
+     "options": [
+      "I am good in English.",
+      "I am good at English."
+     ],
+     "prompt": "Câu nào đúng?"
+    }
+   ],
+   "problem": "Viết email mà nhầm giới từ thì ngại lắm.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "good đi với at, không đi với in hay on.",
+    "options": [
+     "in",
+     "at",
+     "on"
+    ],
+    "prompt": "Chọn giới từ đúng.",
+    "question": "She is good ___ English."
+   },
+   "remember": "in thành phố, on mặt phẳng, at địa điểm, by phương tiện, good at.",
+   "right": "She is good at English.",
+   "right_note": "",
+   "slug": "tong-hop-001",
+   "tip": "Muốn nhớ since và for: since đi với mốc thời gian, for đi với khoảng thời gian.",
+   "title": "Tổng hợp giới từ",
+   "topic": "ngữ pháp",
+   "type": "Mẫu câu",
+   "why": "Giới từ sai thì câu sai nghĩa, dù các từ khác đều đúng.",
+   "wrong": "She is good in English.",
+   "wrong_note": "",
+   "fb": "https://www.facebook.com/61596506009854/posts/122103365571550200/",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
