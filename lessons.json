@@ -4661,6 +4661,129 @@
    "why": "Sau would rather, khi người muốn và người làm là hai người khác nhau thì dùng quá khứ đơn, dù ý nói hiện tại hoặc tương lai.",
    "wrong": "I'd rather you don't arrive late.",
    "wrong_note": "Dùng hiện tại đơn sau would rather khi hai người khác nhau."
+  },
+  {
+   "code": "Mẫu câu #007",
+   "compare": [
+    {
+     "a": "I wish you good luck.",
+     "b": "I wish you have good luck.",
+     "note": "wish đi thẳng với danh từ, have thừa sau wish."
+    },
+    {
+     "a": "She wishes him a happy birthday.",
+     "b": "She wishes him to have a happy birthday.",
+     "note": "cấu trúc chúc vẫn giữ nguyên khi đổi chủ ngữ."
+    }
+   ],
+   "core": "Muốn chúc ai điều gì thì dùng wish rồi tới danh từ, have không đứng sau wish.",
+   "date": "2026-11-18",
+   "dict_links": [
+    {
+     "label": "Cambridge, wish",
+     "url": "https://dictionary.cambridge.org/dictionary/english/wish"
+    },
+    {
+     "label": "Cambridge, health",
+     "url": "https://dictionary.cambridge.org/dictionary/english/health"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Happy Vietnamese Teachers' Day!",
+     "vi": "Chúc mừng Ngày Nhà giáo Việt Nam!"
+    },
+    {
+     "en": "Thank you for teaching me.",
+     "vi": "Cảm ơn thầy cô đã dạy em."
+    },
+    {
+     "en": "I wish you good health and happiness.",
+     "vi": "Chúc thầy cô sức khỏe, hạnh phúc."
+    },
+    {
+     "en": "You are the best teacher ever.",
+     "vi": "Thầy cô là người tuyệt vời nhất."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102931891550200",
+   "image_src": "ngay-07/Mau-cau-007-chuc-thay-co-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I wish you a wonderful day.",
+     "wrong": "I wish you have a wonderful day."
+    },
+    {
+     "right": "We wish our teacher good health.",
+     "wrong": "We wish our teacher to have good health."
+    },
+    {
+     "right": "He wishes you success.",
+     "wrong": "He wishes you to have success."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "wish đi thẳng với danh từ good luck.",
+     "options": [
+      "good",
+      "have good"
+     ],
+     "prompt": "I wish you ___ luck in the exam."
+    },
+    {
+     "answer": 1,
+     "explanation": "wish + danh từ, không thêm have.",
+     "kind": "distinguish",
+     "options": [
+      "I wish you have a nice day.",
+      "I wish you a nice day."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "explanation": "wish rồi tới danh từ, không thêm have.",
+     "kind": "word_order",
+     "options": [
+      "I",
+      "wish",
+      "you",
+      "a",
+      "happy",
+      "Teachers'",
+      "Day",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'you / a / wish / I / Teachers' / happy / Day / .'"
+    }
+   ],
+   "problem": "Nhiều bạn muốn viết thiệp chúc thầy cô mà chỉ biết một câu chúc quen thuộc, hoặc thêm have sau wish vì dịch thẳng từ tiếng Việt.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Muốn chúc thì nói wish rồi tới điều chúc, đừng thêm have.",
+   "right": "I wish you good health.",
+   "right_note": "Em chúc thầy cô sức khỏe.",
+   "show_in_ui": true,
+   "slug": "mau-cau-007",
+   "tip": "Mẹo: khi viết thiệp, chúc xong thì thêm một câu cảm ơn thầy cô đã dạy mình.",
+   "title": "4 câu chúc thầy cô",
+   "topic": "giao tiếp",
+   "type": "Mẫu câu",
+   "why": "wish + người + danh từ, không thêm have.",
+   "wrong": "I wish you have good health.",
+   "wrong_note": "Em chúc thầy cô sức khỏe."
   }
  ],
  "site": {
