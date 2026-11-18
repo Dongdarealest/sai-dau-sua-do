@@ -5233,6 +5233,94 @@
    "why": "nói chung chung về cà phê hay trà thì không dùng the.",
    "wrong": "Do you like the coffee or tea?",
    "wrong_note": "Bạn thích cà phê hay trà?"
+  },
+  {
+   "code": "Đố nhanh #004",
+   "compare": [
+    {
+     "a": "I study English every day.",
+     "b": "I am studying English at the moment.",
+     "note": "Học thường xuyên dùng hiện tại đơn, đang học lúc này dùng hiện tại tiếp diễn."
+    },
+    {
+     "a": "She reads books every night.",
+     "b": "She is reading a book at the moment.",
+     "note": "Thói quen dùng hiện tại đơn, việc đang diễn ra dùng hiện tại tiếp diễn."
+    }
+   ],
+   "core": "am, is, are đi với động từ thêm ing khi nói việc đang diễn ra.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is reading a book now.",
+     "vi": "Cô ấy đang đọc sách."
+    },
+    {
+     "en": "We are learning Vietnamese now.",
+     "vi": "Chúng tôi đang học tiếng Việt."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103196953550200",
+   "image_src": "ngay-07/Do-004-studying.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He is watching TV now.",
+     "wrong": "He is watch TV now."
+    },
+    {
+     "right": "We are cooking dinner now.",
+     "wrong": "We are cook dinner now."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "am đi với động từ thêm ing khi nói việc đang diễn ra.",
+     "kind": "fill_blank",
+     "options": [
+      "study",
+      "studying"
+     ],
+     "prompt": "I am ___ English now."
+    },
+    {
+     "answer": 1,
+     "explanation": "are đi với động từ thêm ing, they are playing.",
+     "kind": "fill_blank",
+     "options": [
+      "play",
+      "playing"
+     ],
+     "prompt": "They are ___ football now."
+    }
+   ],
+   "problem": "Bạn đang học tiếng Anh và muốn nói mình đang học lúc này, nhưng viết I am study vì study nghe quen hơn studying.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "thì hiện tại tiếp diễn cần động từ thêm ing, am study phải đổi thành am studying.",
+    "options": [
+     "'study' thành 'studying'",
+     "'am' thành 'is'",
+     "'now' thành 'today'"
+    ],
+    "prompt": "Hãy nhìn động từ sau am.",
+    "question": "Câu 'I am study English now.' sai ở đâu?"
+   },
+   "remember": "am study là sai, am studying mới đúng, đang làm gì thì động từ thêm ing.",
+   "right": "I am studying English now.",
+   "right_note": "Tôi đang học tiếng Anh.",
+   "slug": "do-004",
+   "tip": "Nhớ nhanh: am, is, are cộng với động từ thêm ing.",
+   "title": "am study",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "thì hiện tại tiếp diễn cần động từ thêm ing, am đi với động từ thêm ing khi nói việc đang diễn ra.",
+   "wrong": "I am study English now.",
+   "wrong_note": "Tôi đang học tiếng Anh.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
