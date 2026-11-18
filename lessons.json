@@ -686,7 +686,10 @@
     }
    ],
    "remember": "Có NGƯỜI nghe → tell. Chỉ NỘI DUNG → say.",
-   "reel": null,
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1563636662450011"
+   },
    "show_in_ui": true,
    "problem": "Tiếng Việt gom cả 'nói' và 'bảo' vào một từ, nên nhiều bạn nói said me theo thói quen. Trong tiếng Anh, say và tell chia nhau rõ ràng: một từ cần người nghe, một từ chỉ cần nội dung.",
    "core": "tell + người nghe + nội dung: tell me the truth, tell her a story. say + nội dung, không có người nghe trực tiếp: say hello, say that you are busy. Muốn nhắc người nghe sau say, phải thêm to: say it to me. Ngoại lệ hay gặp: tell a lie, tell a joke, tell the time, tell đi với những cụm cố định này.",
