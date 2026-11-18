@@ -5027,6 +5027,102 @@
    "why": "big, huge và large đều có nghĩa là lớn, small có nghĩa là nhỏ.",
    "wrong": "big",
    "wrong_note": "big nghĩa là lớn."
+  },
+  {
+   "code": "Lỗi nhanh #003",
+   "compare": [
+    {
+     "a": "My teacher is kind woman.",
+     "b": "My teacher is a kind woman.",
+     "note": "kind woman cũng là danh từ đếm được số ít, cần a."
+    },
+    {
+     "a": "He is doctor.",
+     "b": "He is a doctor.",
+     "note": "doctor là nghề, kể nghề của ai cũng cần a."
+    }
+   ],
+   "core": "Danh từ đếm được số ít luôn cần a hoặc an đứng trước khi nói chung chung.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is a teacher in Da Lat.",
+     "vi": "Cô ấy là giáo viên ở Đà Lạt."
+    },
+    {
+     "en": "He is a teacher too.",
+     "vi": "Anh ấy cũng là giáo viên."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103076431550200",
+   "image_src": "ngay-07/Loi-nhanh-003-she-is-a-teacher.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "My mother is a nurse.",
+     "wrong": "My mother is nurse."
+    },
+    {
+     "right": "Lan is a good teacher.",
+     "wrong": "Lan is good teacher."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "teacher bắt đầu bằng phụ âm t nên dùng a.",
+     "kind": "fill_blank",
+     "options": [
+      "a",
+      "an"
+     ],
+     "prompt": "She is ___ teacher."
+    },
+    {
+     "answer": 1,
+     "explanation": "doctor là danh từ đếm được số ít, cần a đứng trước.",
+     "options": [
+      "He is doctor in Da Lat.",
+      "He is a doctor in Da Lat."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      0,
+      3,
+      4
+     ],
+     "explanation": "Thứ tự: chủ ngữ, is, a, teacher.",
+     "kind": "word_order",
+     "options": [
+      "a",
+      "She",
+      "is",
+      "teacher",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'She / is / a / teacher / .'"
+    }
+   ],
+   "problem": "Kể về cô giáo ngày 20/11, nhiều bạn nói She is teacher vì nghĩ is đã đủ. Thiếu chữ a nhỏ xíu mà câu nghe thiếu hẳn một người.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Kể về nghề của ai thì nhớ thêm a trước tên nghề: a teacher, a doctor.",
+   "right": "She is a teacher.",
+   "right_note": "Cô ấy là giáo viên.",
+   "show_in_ui": true,
+   "slug": "loi-nhanh-003",
+   "tip": "Dùng khi kể về thầy cô, viết thiệp 20/11.",
+   "title": "She is a teacher",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "teacher là danh từ đếm được số ít, cần a đứng trước.",
+   "wrong": "She is teacher.",
+   "wrong_note": "Cô ấy là giáo viên."
   }
  ],
  "site": {
