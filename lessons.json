@@ -5321,6 +5321,87 @@
    "wrong_note": "Tôi đang học tiếng Anh.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Quiz #007",
+   "compare": [
+    {
+     "a": "I thank my teacher.",
+     "b": "I thank to my teacher.",
+     "note": "thank đi thẳng với tân ngữ."
+    }
+   ],
+   "core": "thank + tân ngữ, không có to.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I want to thank my friends for their help.",
+     "vi": "Tôi muốn cảm ơn các bạn của tôi vì sự giúp đỡ của họ."
+    },
+    {
+     "en": "Thank you for teaching me.",
+     "vi": "Cảm ơn thầy cô đã dạy em."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103250221550200",
+   "image_src": "ngay-07/Quiz-007-chuc-thay-co.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I want to thank my parents.",
+     "wrong": "I want to thank to my parents."
+    },
+    {
+     "right": "We thank our teacher.",
+     "wrong": "We thank to our teacher."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "thank đi thẳng với tân ngữ, không có to.",
+     "options": [
+      "to my",
+      "my"
+     ],
+     "prompt": "I want to thank ___ teacher."
+    },
+    {
+     "answer": 1,
+     "explanation": "thank đi thẳng với tân ngữ, không có to.",
+     "options": [
+      "They thank to their teacher.",
+      "They thank their teacher."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Chúc thầy cô mà viết sai thì ngại lắm. Nhiều bạn thêm to sau thank vì dịch từng chữ từ tiếng Việt.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "thank là ngoại động từ, đi thẳng với tân ngữ, thank my teacher, không có to sau thank. thanks có s chỉ dùng khi chủ ngữ số ít ở thì hiện tại đơn, không dùng sau to.",
+    "options": [
+     "I want to thank to my teacher.",
+     "I want to thank my teacher.",
+     "I want to thanks my teacher."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "Chọn câu chúc đúng nào?"
+   },
+   "remember": "thank đi thẳng với tân ngữ, không có to sau thank.",
+   "right": "I want to thank my teacher.",
+   "right_note": "thank đi thẳng với tân ngữ.",
+   "slug": "quiz-007",
+   "tip": "Nhớ nhanh: thấy to sau thank thì bỏ to.",
+   "title": "chọn câu chúc đúng",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "thank là ngoại động từ, đi thẳng với tân ngữ, không có to sau thank.",
+   "wrong": "I want to thank to my teacher.",
+   "wrong_note": "Thừa to sau thank.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
