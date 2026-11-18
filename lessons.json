@@ -4567,6 +4567,100 @@
    "wrong": "There are less people today.",
    "wrong_note": "people đếm được nên phải dùng fewer, không dùng less.",
    "reel": null
+  },
+  {
+   "code": "Câu nào đúng? #001",
+   "compare": [
+    {
+     "a": "I'd rather you didn't arrive late.",
+     "b": "I'd rather you don't arrive late.",
+     "note": "didn't là quá khứ đơn, dùng khi người muốn và người làm khác nhau."
+    },
+    {
+     "a": "I'd rather stay at home.",
+     "b": "I'd rather you stayed at home.",
+     "note": "Chính mình làm thì dùng nguyên mẫu, người khác làm thì dùng quá khứ đơn."
+    }
+   ],
+   "core": "Sau would rather, người khác làm thì dùng quá khứ đơn.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I'd rather you told me the truth.",
+     "vi": "Tôi muốn bạn nói thật với tôi."
+    },
+    {
+     "en": "I'd rather she didn't call me tonight.",
+     "vi": "Tôi muốn tối nay cô ấy đừng gọi cho tôi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102882205550200",
+   "image_src": "ngay-07/Cau-nao-dung-001-would-rather.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I'd rather he came early.",
+     "wrong": "I'd rather he comes early."
+    },
+    {
+     "right": "I'd rather we left now.",
+     "wrong": "I'd rather we leave now."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Sau would rather, người khác làm thì dùng quá khứ đơn.",
+     "options": [
+      "I'd rather you didn't come late.",
+      "I'd rather you don't come late."
+     ],
+     "prompt": "Chọn câu đúng khi bạn muốn bạn mình đừng đến muộn:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Người khác làm nên dùng quá khứ đơn spoke.",
+     "options": [
+      "I'd rather you spoke quietly.",
+      "I'd rather you speak quietly."
+     ],
+     "prompt": "Bạn muốn đồng nghiệp đừng nói to, chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Chính mình làm thì dùng động từ nguyên mẫu stay.",
+     "options": [
+      "stay",
+      "stayed"
+     ],
+     "prompt": "Điền từ đúng: 'I'd rather ___ at home tonight.'"
+    }
+   ],
+   "problem": "Nhiều bạn viết I'd rather you don't arrive late vì nghĩ ý nói tương lai thì dùng hiện tại đơn. Thật ra would rather có quy tắc riêng.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Sau would rather, khi người muốn và người làm là hai người khác nhau thì dùng quá khứ đơn, dù ý nói hiện tại hoặc tương lai. Nguồn: Cambridge Grammar, would rather.",
+    "options": [
+     "I'd rather you didn't arrive late.",
+     "I'd rather you don't arrive late."
+    ],
+    "prompt": "Chọn câu đúng:",
+    "question": "Bạn muốn bạn mình đừng đến muộn, câu nào đúng?"
+   },
+   "reel": null,
+   "remember": "would rather cộng người khác làm thì dùng quá khứ đơn.",
+   "right": "I'd rather you didn't arrive late.",
+   "right_note": "Quá khứ đơn sau would rather khi người muốn và người làm khác nhau.",
+   "show_in_ui": true,
+   "slug": "cau-nao-dung-001",
+   "tip": "Nhớ nhanh: would rather cộng người khác thì lùi thì về quá khứ đơn.",
+   "title": "would rather",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "Sau would rather, khi người muốn và người làm là hai người khác nhau thì dùng quá khứ đơn, dù ý nói hiện tại hoặc tương lai.",
+   "wrong": "I'd rather you don't arrive late.",
+   "wrong_note": "Dùng hiện tại đơn sau would rather khi hai người khác nhau."
   }
  ],
  "site": {
