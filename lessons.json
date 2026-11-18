@@ -4480,6 +4480,93 @@
    "dict_links": [],
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Mẹo #003",
+   "compare": [
+    {
+     "a": "less time",
+     "b": "fewer people",
+     "note": "time không đếm được nên dùng less, people đếm được nên dùng fewer."
+    },
+    {
+     "a": "less money",
+     "b": "fewer coins",
+     "note": "money không đếm được, coins đếm được nên mỗi từ đi với một loại danh từ khác nhau."
+    }
+   ],
+   "core": "Đếm được thì dùng fewer, không đếm được thì dùng less.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I have less sugar in my coffee now.",
+     "vi": "Giờ tôi cho ít đường vào cà phê hơn."
+    },
+    {
+     "en": "She bought fewer books this month.",
+     "vi": "Tháng này cô ấy mua ít sách hơn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102838807550200",
+   "image_src": "ngay-07/Meo-003-less-fewer.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We have less water today.",
+     "wrong": "We have fewer water today."
+    },
+    {
+     "right": "There are fewer chairs in the room.",
+     "wrong": "There are less chairs in the room."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "students đếm được nên dùng fewer.",
+     "kind": "fill_blank",
+     "options": [
+      "less",
+      "fewer"
+     ],
+     "prompt": "Điền từ còn thiếu: There are ___ students in class today."
+    },
+    {
+     "answer": 1,
+     "explanation": "chairs đếm được nên dùng fewer.",
+     "options": [
+      "I need less chairs for the meeting.",
+      "I need fewer chairs for the meeting."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "coffee không đếm được nên dùng less.",
+     "kind": "fill_blank",
+     "options": [
+      "fewer",
+      "less"
+     ],
+     "prompt": "Điền từ còn thiếu: She drinks ___ coffee in the morning now."
+    }
+   ],
+   "problem": "Nhiều bạn viết less trước danh từ đếm được số nhiều như people hay students.",
+   "quiz": null,
+   "remember": "fewer đếm được, less không đếm được.",
+   "right": "There are fewer people today.",
+   "right_note": "Hôm nay ít người hơn.",
+   "show_in_ui": true,
+   "slug": "meo-003",
+   "tip": "Khi viết email so sánh số lượng, kiểm tra xem danh từ đếm được hay không trước khi chọn fewer hay less.",
+   "title": "less và fewer",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "less đi với danh từ không đếm được, fewer đi với danh từ đếm được số nhiều.",
+   "wrong": "There are less people today.",
+   "wrong_note": "people đếm được nên phải dùng fewer, không dùng less.",
+   "reel": null
   }
  ],
  "site": {
