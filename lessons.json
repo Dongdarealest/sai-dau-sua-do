@@ -4784,6 +4784,113 @@
    "why": "wish + người + danh từ, không thêm have.",
    "wrong": "I wish you have good health.",
    "wrong_note": "Em chúc thầy cô sức khỏe."
+  },
+  {
+   "code": "Meme #004",
+   "compare": [
+    {
+     "a": "one child",
+     "b": "two children",
+     "note": "child đổi thành children ở số nhiều."
+    },
+    {
+     "a": "one baby",
+     "b": "two babies",
+     "note": "baby thêm ies, còn child đổi hẳn thành children."
+    }
+   ],
+   "core": "child là danh từ bất quy tắc, số nhiều là children.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "My sister has 2 children.",
+     "vi": "Chị tôi có 2 đứa con."
+    },
+    {
+     "en": "The children are playing in the garden.",
+     "vi": "Bọn trẻ đang chơi trong vườn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122102965137550200",
+   "image_src": "ngay-07/Meme-004-two-children.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I have 1 child.",
+     "wrong": "I have 1 childs."
+    },
+    {
+     "right": "The children are happy.",
+     "wrong": "The childs are happy."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Số nhiều của child là children.",
+     "kind": "fill_blank",
+     "options": [
+      "childs",
+      "children"
+     ],
+     "prompt": "I have 2 ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Số nhiều của child là children, chủ ngữ I đi với have.",
+     "options": [
+      "I have 2 childs.",
+      "My children are at home.",
+      "I has 2 childrens."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      0,
+      3
+     ],
+     "explanation": "Chủ ngữ I đi với have, số nhiều của child là children.",
+     "kind": "word_order",
+     "options": [
+      "children",
+      "I",
+      "have",
+      ".",
+      "2"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'I / have / 2 / children / .'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Số nhiều của child là children.",
+     "kind": "fill_blank",
+     "options": [
+      "childs",
+      "children"
+     ],
+     "prompt": "The ___ are playing."
+    }
+   ],
+   "problem": "Khoe có con mà nói childs thì người nghe thấy sai sai ngay, vì child có số nhiều bất quy tắc.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Số nhiều của child là children, không thêm s.",
+   "right": "I have 2 children.",
+   "right_note": "Tôi có 2 đứa con.",
+   "show_in_ui": true,
+   "slug": "meme-004",
+   "tip": "Dùng khi giới thiệu gia đình, kể về con cái.",
+   "title": "I have 2 childs",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "Số nhiều của child là children, không thêm s như danh từ thường.",
+   "wrong": "I have 2 childs.",
+   "wrong_note": "Tôi có 2 đứa con."
   }
  ],
  "site": {
