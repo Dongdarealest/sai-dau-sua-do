@@ -5123,6 +5123,116 @@
    "why": "teacher là danh từ đếm được số ít, cần a đứng trước.",
    "wrong": "She is teacher.",
    "wrong_note": "Cô ấy là giáo viên."
+  },
+  {
+   "code": "Hội thoại #004",
+   "compare": [
+    {
+     "a": "Do you like the coffee?",
+     "b": "Do you like coffee?",
+     "note": "Hỏi chung chung thì bỏ the, hỏi ly cà phê cụ thể trước mặt mới dùng the."
+    },
+    {
+     "a": "She likes the milk.",
+     "b": "She likes milk.",
+     "note": "Thích sữa nói chung thì không dùng the."
+    }
+   ],
+   "core": "nói chung chung về đồ uống thì bỏ the, chỉ dùng the khi nói về ly cà phê hay ấm trà cụ thể trước mặt.",
+   "date": "2026-11-18",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Would you like coffee or tea?",
+     "vi": "Bạn muốn uống cà phê hay trà?"
+    },
+    {
+     "en": "I drink tea every morning.",
+     "vi": "Tôi uống trà mỗi sáng."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103139629550200",
+   "image_src": "ngay-07/Hoi-thoai-004-coffee-or-tea.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He drinks coffee every day.",
+     "wrong": "He drinks the coffee every day."
+    },
+    {
+     "right": "She loves green tea.",
+     "wrong": "She loves the green tea."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Hỏi chung chung về cà phê thì không dùng the.",
+     "kind": "fill_blank",
+     "options": [
+      "coffee",
+      "the coffee"
+     ],
+     "prompt": "Do you like ___ or tea?"
+    },
+    {
+     "answer": 0,
+     "explanation": "Uống trà nói chung thì không dùng the.",
+     "kind": "fill_blank",
+     "options": [
+      "tea",
+      "the tea"
+     ],
+     "prompt": "She drinks ___ every morning."
+    },
+    {
+     "answer": 1,
+     "explanation": "Thích cà phê nói chung thì không dùng the.",
+     "options": [
+      "I like the coffee very much.",
+      "I like coffee very much."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      0,
+      4,
+      6,
+      3,
+      2,
+      5
+     ],
+     "explanation": "Xếp đúng thứ tự: Do, you, like, coffee, or, tea, dấu hỏi chấm.",
+     "kind": "word_order",
+     "options": [
+      "you",
+      "Do",
+      "tea",
+      "or",
+      "like",
+      "?",
+      "coffee"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'Do / you / like / coffee / or / tea / ?'"
+    }
+   ],
+   "problem": "Bạn mời khách uống trà hay cà phê, bạn hỏi câu đó mà thêm the vào trước coffee. Người nghe vẫn hiểu, nhưng câu nghe thừa một chữ.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Hỏi chung chung về đồ uống thì bỏ the, the chỉ dùng khi nói về thứ cụ thể trước mặt.",
+   "right": "Do you like coffee or tea?",
+   "right_note": "Bạn thích cà phê hay trà?",
+   "show_in_ui": true,
+   "slug": "hoi-thoai-004",
+   "tip": "Dùng khi mời khách uống trà hay cà phê, hỏi sở thích đồ uống.",
+   "title": "coffee or tea",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "nói chung chung về cà phê hay trà thì không dùng the.",
+   "wrong": "Do you like the coffee or tea?",
+   "wrong_note": "Bạn thích cà phê hay trà?"
   }
  ],
  "site": {
