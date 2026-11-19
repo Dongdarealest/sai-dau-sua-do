@@ -4,7 +4,9 @@ An open English lesson library for Vietnamese learners. Fix one small mistake ev
 
 Live site: https://dongdarealest.github.io/sai-dau-sua-do/
 
-Each lesson covers one mistake Vietnamese speakers commonly make: the wrong sentence, the correct sentence, a short explanation in Vietnamese, and practice questions with answers. The library holds 62 lessons, 852 dictionary entries, and 3 learning paths.
+Each lesson covers one mistake Vietnamese speakers commonly make: the wrong sentence, the correct sentence, a short explanation in Vietnamese, and practice questions with answers. The library holds 64 lessons, 852 dictionary entries, and 3 learning paths.
+
+The site is a learning app, not just a list of pages. Four skills (speaking, listening, writing, reading) practise one mistake at a time, with daily tasks, XP and levels, three learning paths, and review after 1, 3, 7, and 30 days.
 
 Community: [Facebook page](https://www.facebook.com/saidausuado) and [study group](https://www.facebook.com/groups/4387154551501983).
 

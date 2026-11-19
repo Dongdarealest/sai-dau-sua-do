@@ -11,10 +11,10 @@ API mở là bộ dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó
 ## Nội dung của bộ dữ liệu
 
 1. Nghĩa tiếng Việt viết cho người Việt, không phải dịch máy từ nghĩa tiếng Anh. 852 từ trong bảng từ điển do Trang soạn và kiểm tra bằng tay, từng nghĩa một.
-2. 62 bài học: 30 bài Lỗi, 17 bài Quiz, 9 bài Mẫu câu, 6 bài Reels. Mỗi bài có cặp câu sai và câu đúng, lý do bằng tiếng Việt và bài tập có giải thích. Tổng cộng 208 câu luyện tập.
+2. 64 bài học: 32 bài Lỗi, 17 bài Quiz, 9 bài Mẫu câu, 6 bài Reels. Mỗi bài có cặp câu sai và câu đúng, lý do bằng tiếng Việt và bài tập có giải thích. Tổng cộng 214 câu luyện tập.
 3. Mọi ví dụ tiếng Anh đều có dịch tiếng Việt ngay bên dưới.
 4. Từ điển hiểu dạng chia của từ. Tra `loves` ra `love`, tra `went` ra nghĩa quá khứ của `go`, tra `don't` ra nghĩa viết tắt.
-5. Dữ liệu nhẹ: danh sách bài học khoảng 37 KB, từ điển đầy đủ khoảng 150 KB. Tải một lần rồi dùng ngoại tuyến được. Không có máy chủ, không cần khóa.
+5. Dữ liệu nhẹ: danh sách bài học khoảng 38 KB, từ điển đầy đủ khoảng 150 KB. Tải một lần rồi dùng ngoại tuyến được. Không có máy chủ, không cần khóa.
 6. Mọi file trả về đều có khối `meta.source` ghi tên Trang, link web, link Facebook, giấy phép và câu ghi công.
 
 ## Nguyên tắc thiết kế
@@ -31,10 +31,10 @@ API mở là bộ dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó
 | Phương thức | Đường dẫn | Nội dung | Kích thước khoảng |
 |---|---|---|---|
 | GET | `/api/v1/meta.json` | Phiên bản, số lượng, nguồn, giấy phép | 1 KB |
-| GET | `/api/v1/lessons.json` | Danh sách gọn 62 bài, lọc phía trình duyệt | 37 KB |
+| GET | `/api/v1/lessons.json` | Danh sách gọn 64 bài, lọc phía trình duyệt | 38 KB |
 | GET | `/api/v1/lessons/{slug}.json` | Chi tiết đầy đủ 1 bài | 2 đến 6 KB mỗi bài |
 | GET | `/api/v1/dictionary.json` | Toàn bộ 852 từ, nghĩa tiếng Việt đã kiểm tra tay | 150 KB |
-| GET | `/api/v1/search-index.json` | Chỉ mục tìm kiếm 56 bài đang hiển thị | 64 KB |
+| GET | `/api/v1/search-index.json` | Chỉ mục tìm kiếm 58 bài đang hiển thị | 66 KB |
 | GET | `/api/v1/paths.json` | 3 lộ trình học | 2 KB |
 | GET | `/api/` | Trang tài liệu cho lập trình viên | Trang HTML |
 
@@ -48,8 +48,8 @@ Mô tả phiên bản và nguồn gốc toàn bộ API. App nên đọc file nà
 {
   "api_version": "1.0.0",
   "api_base": "https://dongdarealest.github.io/sai-dau-sua-do/api/v1/",
-  "total_lessons": 62,
-  "visible_lessons": 56,
+  "total_lessons": 64,
+  "visible_lessons": 58,
   "total_words": 852,
   "words_with_example": 112,
   "learning_paths": 3,
@@ -65,20 +65,20 @@ Mô tả phiên bản và nguồn gốc toàn bộ API. App nên đọc file nà
 }
 ```
 
-Trường `visible_lessons` là số bài đang hiển thị trên web, 56 bài. 6 bài Reels còn lại vẫn có trong API nhưng không hiện trong danh sách chính của web, phân biệt bằng trường `show_in_ui` ở mỗi bài.
+Trường `visible_lessons` là số bài đang hiển thị trên web, 58 bài. 6 bài Reels còn lại vẫn có trong API nhưng không hiện trong danh sách chính của web, phân biệt bằng trường `show_in_ui` ở mỗi bài.
 
 ## lessons.json: danh sách bài học
 
-Trả về danh sách gọn của toàn bộ 62 bài. Mỗi bài chỉ gồm các trường đủ để hiển thị danh sách và thẻ xem trước, không gồm bài tập đầy đủ. Muốn xem bài tập thì gọi đầu dữ liệu chi tiết theo `slug`.
+Trả về danh sách gọn của toàn bộ 64 bài. Mỗi bài chỉ gồm các trường đủ để hiển thị danh sách và thẻ xem trước, không gồm bài tập đầy đủ. Muốn xem bài tập thì gọi đầu dữ liệu chi tiết theo `slug`.
 
-Vì API chạy tĩnh nên không có tham số lọc phía máy chủ. App tải một lần file 37 KB rồi lọc ngay trên máy người dùng theo `type`, `topic` hoặc tìm trong `title`, `wrong`, `right`.
+Vì API chạy tĩnh nên không có tham số lọc phía máy chủ. App tải một lần file 38 KB rồi lọc ngay trên máy người dùng theo `type`, `topic` hoặc tìm trong `title`, `wrong`, `right`.
 
 ```json
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 62,
-    "visible_lessons": 56,
+    "total_lessons": 64,
+    "visible_lessons": 58,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -263,13 +263,13 @@ Không phải bài nào cũng có đủ mọi trường. App phải chịu đư�
 
 | Trường | Có mặt ở | Khi vắng thì hiểu là |
 |---|---|---|
-| `quiz` | 20 trong 62 bài | Bài không có câu đố nhanh, giá trị là null |
-| `reel` | 6 trong 62 bài | Bài không gắn Reel, giá trị là null |
-| `tip` | 45 trong 62 bài | Bài không có mẹo riêng, giá trị là null |
+| `quiz` | 21 trong 64 bài | Bài không có câu đố nhanh, giá trị là null |
+| `reel` | 6 trong 64 bài | Bài không gắn Reel, giá trị là null |
+| `tip` | 47 trong 64 bài | Bài không có mẹo riêng, giá trị là null |
 | `ipa` | Bài phát âm | Mảng rỗng khi bài không dạy phát âm |
 | `dict_links` | Hầu hết là mảng rỗng | Link từ điển ngoài, hiện chưa dùng |
-| `problem`, `core`, `compare`, `mistakes` | 56 trong 62 bài | 6 bài Reels không có các trường này |
-| `practice` | 56 trong 62 bài | 6 bài Reels có mảng rỗng |
+| `problem`, `core`, `compare`, `mistakes` | 58 trong 64 bài | 6 bài Reels không có các trường này |
+| `practice` | 58 trong 64 bài | 6 bài Reels có mảng rỗng |
 
 ### 6 dạng câu luyện tập
 
@@ -380,7 +380,7 @@ Quy tắc này ghi trong trang tài liệu kèm code mẫu, để app ngoài tra
 
 ## search-index.json: chỉ mục tìm kiếm
 
-Dùng lại chỉ mục tìm kiếm sẵn có của web, 56 bài đang hiển thị. Mỗi mục gồm `slug`, `code`, `title`, `wrong`, `right`, `remember`, `why` và `examples` là các chuỗi đã gộp câu tiếng Anh với dịch tiếng Việt. App dùng file này để làm ô tìm kiếm gõ là ra, không cần tự tách dữ liệu.
+Dùng lại chỉ mục tìm kiếm sẵn có của web, 58 bài đang hiển thị. Mỗi mục gồm `slug`, `code`, `title`, `wrong`, `right`, `remember`, `why` và `examples` là các chuỗi đã gộp câu tiếng Anh với dịch tiếng Việt. App dùng file này để làm ô tìm kiếm gõ là ra, không cần tự tách dữ liệu.
 
 ```json
 {
@@ -492,7 +492,7 @@ Trang tài liệu đặt ở `https://dongdarealest.github.io/sai-dau-sua-do/api
 5. 4 app ví dụ có thể xây ngay, mỗi app có dàn ý và đoạn code bắt đầu.
 6. Giấy phép và ghi công: MIT cho code, CC BY 4.0 cho nội dung, câu ghi công bắt buộc.
 7. Đóng góp: link repo, cách báo lỗi dữ liệu, cách đề xuất thêm bài.
-8. File OpenAPI `openapi.yaml` đặt ở `/api/openapi.yaml`, mô tả đủ 7 đầu dữ liệu, để đăng lên APIs.guru và Postman API Network, vì hai kênh này yêu cầu định nghĩa OpenAPI ở một URL ổn định.
+8. File OpenAPI `openapi.yaml` đặt ở `/api/openapi.yaml`, mô tả đủ 6 đầu dữ liệu cùng trang tài liệu, để đăng lên APIs.guru và Postman API Network, vì hai kênh này yêu cầu định nghĩa OpenAPI ở một URL ổn định.
 
 ### Ví dụ gọi API bằng fetch
 
