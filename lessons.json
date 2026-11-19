@@ -6253,6 +6253,178 @@
    "why": "thank đi thẳng với tân ngữ, không có to sau thank.",
    "wrong": "I want to thank to my teacher.",
    "wrong_note": "Em muốn cảm ơn thầy cô của em, nhưng thừa chữ to."
+  },
+  {
+   "slug": "loi-010-test",
+   "code": "Lỗi #TEST",
+   "type": "Lỗi",
+   "topic": "Động từ",
+   "date": "2026-11-19",
+   "title": "Bài kiểm tra tối ưu web",
+   "wrong": "I want to thank to my teacher.",
+   "right": "I want to thank my teacher.",
+   "why": "thank đi thẳng với tân ngữ, không cần to. Đây là bài kiểm tra đo số file đổi khi đăng bài mới.",
+   "fb": "https://www.facebook.com/61596506009854/posts/122103662985550200",
+   "image_src": "ngay-08/Loi-009-thank-to.png",
+   "problem": "Viết thiệp cảm ơn mà thêm to sau thank thì sai.",
+   "core": "thank là ngoại động từ, đi thẳng với tân ngữ.",
+   "compare": [
+    {
+     "a": "I want to thank to her.",
+     "b": "I want to thank her.",
+     "note": "thank không đi với to."
+    }
+   ],
+   "mistakes": [
+    {
+     "wrong": "I want to thank to my friends.",
+     "right": "I want to thank my friends."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I want to thank my parents for their help.",
+     "vi": "Em muốn cảm ơn bố mẹ vì đã giúp đỡ em."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "thank đi thẳng với tân ngữ, không có to.",
+     "options": [
+      "I want to thank to my teacher.",
+      "I want to thank my teacher."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "thank không cần to.",
+     "kind": "fill_blank",
+     "options": [
+      "to my",
+      "my"
+     ],
+     "prompt": "I want to thank ___ teacher."
+    }
+   ],
+   "remember": "thank + người, không có to.",
+   "wrong_note": "",
+   "right_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "quiz": null,
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Quiz nhanh #005",
+   "compare": [
+    {
+     "a": "Wednesday",
+     "b": "Tuesday",
+     "note": "Wednesday và Tuesday đều là ngày trong tuần, nhưng Wednesday đọc gọn hơn vì có chữ câm."
+    },
+    {
+     "a": "I see you on Wednesday.",
+     "b": "I see you on Tuesday.",
+     "note": "Hai câu giống nhau, chỉ khác tên ngày, cách đọc Wednesday vẫn giữ nguyên."
+    }
+   ],
+   "core": "Đọc Wednesday theo âm thật, không đọc theo từng chữ cái.",
+   "date": "2026-11-19",
+   "dict_links": [
+    {
+     "label": "Cambridge, Wednesday",
+     "url": "https://dictionary.cambridge.org/dictionary/english/wednesday"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have English class on Wednesday.",
+     "vi": "Tôi có lớp tiếng Anh vào thứ Tư."
+    },
+    {
+     "en": "The meeting is on Wednesday morning.",
+     "vi": "Cuộc họp diễn ra vào sáng thứ Tư."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103959757550200",
+   "image_src": "ngay-08/Quiz-nhanh-005-wednesday.png",
+   "ipa": [
+    {
+     "note": "Anh và Mỹ đọc giống nhau",
+     "source": "Cambridge, Anh và Mỹ",
+     "text": "/ˈwenz.deɪ/"
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I will meet you on Wednesday.",
+     "wrong": "I will meet you on Wed nes day."
+    },
+    {
+     "right": "See you next Wednesday.",
+     "wrong": "See you next Wed nes dee."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Đọc đúng Wednesday chỉ còn 2 âm.",
+     "options": [
+      "3 âm",
+      "2 âm",
+      "4 âm"
+     ],
+     "prompt": "Wednesday có mấy âm khi đọc đúng?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Ngày trong tuần đi với on, nói on Wednesday.",
+     "options": [
+      "I will see you in Wednesday.",
+      "I will see you on Wednesday.",
+      "I will see you at Wednesday."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Chữ d ở giữa Wednesday không phát âm.",
+     "options": [
+      "Chữ d",
+      "Chữ s",
+      "Chữ y"
+     ],
+     "prompt": "Chữ nào câm trong Wednesday?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc Wednesday thành 3 âm vì nhìn mặt chữ có chữ d và chữ e ở giữa.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "Đáp án đúng là WENZ day, vì âm d đầu tiên gần như không nghe thấy.",
+    "options": [
+     "WED nes day",
+     "WENZ day",
+     "WED nes dee"
+    ],
+    "prompt": "Chọn cách đọc đúng của Wednesday, nghĩa là thứ Tư.",
+    "question": "Wednesday đọc thế nào?"
+   },
+   "remember": "Wednesday đọc là WENZ day, chữ d câm.",
+   "right": "WENZ day.",
+   "right_note": "Wednesday nghĩa là thứ Tư.",
+   "slug": "quiz-nhanh-005",
+   "tip": "Nhớ Wednesday bằng cách nghĩ tới WENZ day, đọc to 3 lần để quen miệng.",
+   "title": "Wednesday đọc thế nào?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "Wednesday có chữ d câm ở giữa, nên đọc gọn thành 2 âm.",
+   "wrong": "WED nes day.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
@@ -6299,7 +6471,8 @@
      "mau-cau-003",
      "loi-002",
      "quiz-002",
-     "quiz-nhanh-001"
+     "quiz-nhanh-001",
+     "quiz-nhanh-005"
     ],
     "icon": "🗣️"
    }
