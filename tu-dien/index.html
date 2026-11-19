@@ -1156,6 +1156,13 @@
       });
     },Promise.resolve());
   }
+  async function fallbackViOnly(word){
+    const gg=glossaryHit(word);
+    if(gg){renderViOnly(word,viSensesFromGlossary(gg),"Trang soạn");return true;}
+    const wk=await fetchWiki(word);
+    if(wk&&wk.length){renderViOnly(word,wk,"Wiktionary tiếng Việt");return true;}
+    return false;
+  }
   function lookup(word){
     word=String(word||"").trim().toLowerCase();
     if(!word)return;
@@ -1165,8 +1172,14 @@
     }
     if(box)box.innerHTML="<p>Đang tra từ <b>"+escapeHtml(word)+"</b>…</p>";
     const g=glossaryHit(word);
-    fetch("https://api.dictionaryapi.dev/api/v2/entries/en/"+encodeURIComponent(word))
-      .then(r=>{if(!r.ok)throw new Error("notfound");return r.json();})
+    const ctrl=new AbortController();
+    const timer=setTimeout(function(){ctrl.abort();},8000);
+    fetch("https://api.dictionaryapi.dev/api/v2/entries/en/"+encodeURIComponent(word),{signal:ctrl.signal})
+      .then(r=>{
+        if(r.status===429||r.status>=500)throw new Error("transient");
+        if(!r.ok)throw new Error("notfound");
+        return r.json();
+      })
       .then(async data=>{
         const entry=Array.isArray(data)?data[0]:null;
         if(!entry||!entry.meanings||!entry.meanings.length)throw new Error("notfound");
@@ -1180,15 +1193,14 @@
       })
       .catch(async err=>{
         if(err&&err.message==="notfound"){
-          const gg=glossaryHit(word);
-          if(gg){renderViOnly(word,viSensesFromGlossary(gg),"Trang soạn");return;}
-          const wk=await fetchWiki(word);
-          if(wk&&wk.length){renderViOnly(word,wk,"Wiktionary tiếng Việt");return;}
+          if(await fallbackViOnly(word))return;
           if(box)box.innerHTML="<p class=\"note warn\">Không tìm thấy từ <b>"+escapeHtml(word)+"</b> trong từ điển. Kiểm tra chính tả rồi thử lại, hoặc thử từ khác.</p>";
         }else{
+          if(await fallbackViOnly(word))return;
           if(box)box.innerHTML="<p class=\"note warn\">Không tải được từ điển lúc này. Kiểm tra mạng rồi thử lại nhé.</p>";
         }
-      });
+      })
+      .finally(function(){clearTimeout(timer);});
   }
   function bindChips(scope){
     (scope||document).querySelectorAll(".dict-chip").forEach(c=>c.addEventListener("click",()=>{

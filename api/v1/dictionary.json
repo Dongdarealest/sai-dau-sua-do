@@ -393,7 +393,8 @@
       ],
       "mistakes": [
         "loi-nhanh-001",
-        "tong-hop-001"
+        "tong-hop-001",
+        "hoi-thoai-005"
       ]
     },
     "august": {
@@ -1973,7 +1974,8 @@
       ],
       "mistakes": [
         "do-004",
-        "tong-hop-001"
+        "tong-hop-001",
+        "hoi-thoai-005"
       ]
     },
     "enough": {
@@ -2693,7 +2695,8 @@
       "mistakes": [
         "mau-cau-007",
         "tong-hop-001",
-        "mau-cau-008"
+        "mau-cau-008",
+        "hoi-thoai-005"
       ]
     },
     "got": {
@@ -4731,7 +4734,9 @@
           "meaning": "không"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "hoi-thoai-005"
+      ]
     },
     "note": {
       "senses": [
@@ -6408,7 +6413,9 @@
           "example_vi": "Tôi nói tiếng Việt."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "hoi-thoai-005"
+      ]
     },
     "special": {
       "senses": [

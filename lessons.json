@@ -6449,6 +6449,116 @@
    "why": "please và kindly cùng nghĩa xin vui lòng, chỉ dùng một từ. C sai vì sau kindly không có to.",
    "wrong": "Please kindly send me the file.",
    "wrong_note": "Làm ơn gửi giúp tôi tập tin."
+  },
+  {
+   "code": "Hội thoại #005",
+   "compare": [
+    {
+     "a": "She is good at swim.",
+     "b": "She is good at swimming.",
+     "note": "sau at dùng swimming, không dùng swim."
+    },
+    {
+     "a": "He is interested in learn English.",
+     "b": "He is interested in learning English.",
+     "note": "sau in cũng dùng động từ thêm ing."
+    }
+   ],
+   "core": "sau giới từ at, động từ luôn thêm ing.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is good at singing.",
+     "vi": "Cô ấy hát rất hay."
+    },
+    {
+     "en": "He is bad at cooking.",
+     "vi": "Anh ấy nấu ăn dở lắm."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104068201550200",
+   "image_src": "ngay-08/Hoi-thoai-005-speaking-english.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are good at cooking.",
+     "wrong": "They are good at cook."
+    },
+    {
+     "right": "We are interested in reading books.",
+     "wrong": "We are interested in read books."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "sau at dùng speaking, không dùng speak.",
+     "kind": "fill_blank",
+     "options": [
+      "speak",
+      "speaking"
+     ],
+     "prompt": "I am not good at ___ English."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau at dùng singing.",
+     "kind": "fill_blank",
+     "options": [
+      "sing",
+      "singing"
+     ],
+     "prompt": "She is good at ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau at dùng playing.",
+     "options": [
+      "He is good at play football.",
+      "He is good at playing football."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      4,
+      5,
+      6,
+      2,
+      0,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: We, are, good, at, playing, football, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "football",
+      "We",
+      "playing",
+      ".",
+      "are",
+      "good",
+      "at"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'We / are / good / at / playing / football / .'"
+    }
+   ],
+   "problem": "Bạn thú nhận mình nói tiếng Anh chưa giỏi, bạn nói câu đó mà dùng speak sau at. Người nghe vẫn hiểu, nhưng câu nghe sai ngay chữ speak.",
+   "quiz": null,
+   "remember": "sau giới từ at, động từ thêm ing: speaking, swimming, cooking.",
+   "right": "I am not good at speaking English.",
+   "right_note": "Tôi nói tiếng Anh chưa giỏi.",
+   "slug": "hoi-thoai-005",
+   "tip": "Dùng khi tự giới thiệu trình độ, kể về điểm yếu của mình.",
+   "title": "Nói tiếng Anh chưa giỏi",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "sau giới từ at phải dùng động từ thêm ing.",
+   "wrong": "I am not good at speak English.",
+   "wrong_note": "Tôi nói tiếng Anh chưa giỏi.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 63,
-    "visible_lessons": 57,
+    "total_lessons": 64,
+    "visible_lessons": 58,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -956,6 +956,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-004/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104000989550200",
       "image": "ngay-08/Quiz-004-please-kindly.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "hoi-thoai-005",
+      "code": "Hội thoại #005",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "Nói tiếng Anh chưa giỏi",
+      "date": "2026-11-19",
+      "wrong": "I am not good at speak English.",
+      "right": "I am not good at speaking English.",
+      "remember": "sau giới từ at, động từ thêm ing: speaking, swimming, cooking.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-005/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104068201550200",
+      "image": "ngay-08/Hoi-thoai-005-speaking-english.png",
       "show_in_ui": true
     }
   ]
