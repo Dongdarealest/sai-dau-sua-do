@@ -5619,7 +5619,10 @@
    "why": "thank đi thẳng với tân ngữ, không có to sau thank.",
    "wrong": "I want to thank to my teacher.",
    "wrong_note": "Em muốn cảm ơn thầy cô của em, nhưng thừa chữ to.",
-   "reel": null
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/4622047454746474"
+   }
   },
   {
    "code": "Mẹo #004",
@@ -6222,6 +6225,34 @@
    "why": "Sau did và didn't phải dùng động từ nguyên mẫu.",
    "wrong": "I didn't went to school yesterday.",
    "wrong_note": "Hôm qua tôi không đi học."
+  },
+  {
+   "code": "Reel #006",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Thank you for teaching me.",
+     "vi": "Cảm ơn thầy cô đã dạy em."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/4622047454746474",
+   "image_src": "reels/frames/reel-006-f1.png",
+   "ipa": [],
+   "practice": [],
+   "quiz": null,
+   "reel": null,
+   "remember": "",
+   "right": "I want to thank my teacher.",
+   "right_note": "Em muốn cảm ơn thầy cô của em.",
+   "show_in_ui": false,
+   "slug": "reel-006",
+   "title": "thank to hay thank?",
+   "topic": "giao tiếp",
+   "type": "Reels",
+   "why": "thank đi thẳng với tân ngữ, không có to sau thank.",
+   "wrong": "I want to thank to my teacher.",
+   "wrong_note": "Em muốn cảm ơn thầy cô của em, nhưng thừa chữ to."
   }
  ],
  "site": {
