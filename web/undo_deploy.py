@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Hoàn tác lần đẩy GitHub Pages gần nhất: đưa nhánh gh-pages về commit trước đó.
+"""Revert the latest GitHub Pages deploy: move the gh-pages branch back to
+the previous commit.
 
-Dùng khi Đông nhắn "hoàn tác". Đọc DEPLOY_LOG.md lấy commit trước (prev),
-PATCH ref main về đó với force=True (lùi ref là non-fast-forward nên
-force=False sẽ bị GitHub trả 422 — xem S-04). Sau khi lùi, ghi thêm một dòng
-vào DEPLOY_LOG.md để lần hoàn tác sau lùi tiếp được nữa.
+Reads DEPLOY_LOG.md for the previous commit (prev), PATCHes the ref with
+force=True (moving a ref to an older commit is a non-fast-forward update,
+so force=False returns 422 from GitHub), then appends a line to
+DEPLOY_LOG.md so the next revert can go one step further.
 
-CHƯA kiểm chứng live trên repo thử hay repo production — chỉ sửa code.
+Not yet verified live on a test repo or on production; code only.
 """
 import datetime
 import os
@@ -71,9 +72,10 @@ def main():
         sys.exit(1)
     print("đã hoàn tác — gh-pages đang ở:", ref["object"]["sha"])
     print("live url:", f"https://{OWNER.lower()}.github.io/{REPO}/")
-    # Ghi thêm dòng vào log để lần hoàn tác sau lùi tiếp (S-04):
-    # dòng mới ghi commit đang live (prev) và commit TRƯỚC NÓ (lấy từ dòng
-    # deploy đã tạo ra prev) — không ghi prev=cur vì đó là đi tiến, không phải lùi.
+    # Append a log line so the next revert can go one step further:
+    # the new line records the commit now live (prev) and the commit before
+    # it (taken from the deploy line that created prev), not prev=cur,
+    # which would move forward instead of back.
     new_prev = find_prev_for(lines, prev)
     stamp = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).strftime("%Y-%m-%d %H:%M")
     line = (f"- {stamp} +07 | {prev} | prev {new_prev} | HOÀN TÁC về {prev[:7]} "

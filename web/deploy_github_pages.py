@@ -1,16 +1,16 @@
 """Deploy the Sai Dau Sua Do lesson library to GitHub Pages.
 
-CẢNH BÁO (15/11/2026): file này KHÔNG có `if __name__ == "__main__"` — toàn bộ
-code deploy chạy ở top-level, nên `import deploy_github_pages` (kể cả chỉ để lấy
-site_files()) sẽ ĐẨY NGAY một commit lên GitHub. Đã xảy ra 1 lần do import nhầm
-trong lúc kiểm tra song song (commit 5003a53 thiếu ảnh, phải hoàn tác). KHÔNG BAO
-GIỜ import file này — chỉ chạy bằng dòng lệnh:
+Warning: this file has no `if __name__ == "__main__"` guard, so the deploy
+code runs at import time. Importing deploy_github_pages, even only to read
+site_files(), pushes a commit to GitHub immediately. An accidental import
+on 15/11/2026 created commit 5003a53 missing 9 images; it was reverted.
+Never import this file. Run it only from the command line:
     python3 deploy_github_pages.py --message "..."
 
-Safe pattern (from push_tubeeq.py + AGENTS.md lesson 16/10/2026):
+Safe pattern:
 - full tree push (index.html + README.md), never a single stray file
-- commit ALWAYS has the real parent (seed commit on a fresh repo,
-  current head on an existing repo) — never parents=[] + force-push
+- every commit has the real parent (seed commit on a fresh repo,
+  current head on an existing repo), never parents=[] + force-push
 - ref update falls back to PATCH with force=False
 """
 import base64
@@ -26,12 +26,12 @@ SRC = os.path.expanduser("~/workspace/sai-dau-sua-do/web")
 OWNER = "Dongdarealest"
 REPO = "sai-dau-sua-do"
 
-# Tách nhánh 19/11/2026: web đã sinh đẩy lên nhánh gh-pages, main chỉ giữ
-# mã nguồn và tài liệu. Không bao giờ dùng nhánh mặc định làm đích đẩy nữa.
+# The generated site deploys to the gh-pages branch; main holds source
+# and documentation. The default branch is never a deploy target.
 TARGET_BRANCH = "gh-pages"
 
-# Seed README — CHỈ dùng cho repo mới hoàn toàn chưa có commit nào (S-05).
-# Mọi lần deploy bình thường đều đọc README.md đã sinh trên đĩa, không dùng hằng này.
+# Seed README, used only for a completely new repo with no commits.
+# Normal deploys read the generated README.md from disk instead.
 SEED_README = """# Sai Đâu Sửa Đó — Kho bài học
 
 Kho tra cứu lỗi tiếng Anh người Việt hay mắc. Mỗi bài ghi một lỗi, cách nói đúng và ví dụ. Mỗi ngày sửa một lỗi nhỏ.
@@ -43,29 +43,28 @@ Kho tra cứu lỗi tiếng Anh người Việt hay mắc. Mỗi bài ghi một 
 
 def site_files():
     """Every file the site serves: homepage, data file, one page per
-    lesson and all artwork. The push ALWAYS carries the full tree
-    (AGENTS.md lesson 16/10/2026: never push a single stray file)."""
+    lesson and all artwork. The push always carries the full tree;
+    never push a single file."""
     src = Path(SRC)
     out = ["index.html", "lessons.json", "README.md"]
     for extra in ["favicon.svg", "sitemap.xml", "robots.txt", "CNAME", ".nojekyll",
                   "LICENSE", "LICENSE-CONTENT.md"]:
         if (src / extra).exists():
             out.append(extra)
-    # File dùng chung (tối ưu A, 19/11): CSS + JS + dữ liệu + chỉ mục tìm kiếm.
+    # Shared files: CSS, JS, data, and the search index.
     for extra in ["styles.css", "app.js", "data.js", "search-index.json"]:
         if (src / extra).exists():
             out.append(extra)
-    # API mở (19/11): toàn bộ file JSON tĩnh dưới api/v1/ + định nghĩa OpenAPI.
-    # Trang tài liệu api/index.html đã nằm trong danh sách qua vòng lặp thư mục
-    # có index.html ở dưới. Không đổi đường dẫn bài học cũ.
+    # Public API: static JSON files under api/v1/ and the OpenAPI definition.
+    # The api/index.html docs page is included by the directory loop below.
     for f in sorted((src / "api" / "v1").glob("*.json")):
         out.append(f"api/v1/{f.name}")
     for f in sorted((src / "api" / "v1" / "lessons").glob("*.json")):
         out.append(f"api/v1/lessons/{f.name}")
     if (src / "api" / "openapi.yaml").exists():
         out.append("api/openapi.yaml")
-    # Giáo trình tặng (16/11/2026): giữ file này trong mọi lần deploy,
-    # nếu không lần deploy cây đầy đủ sẽ xóa nó khỏi repo.
+    # Free study guides: keep these in every deploy, or the full-tree
+    # push removes them from the repo.
     for extra in ["giao-trinh/tieng-anh-doi-thuong.pdf",
                   "giao-trinh/200-tu-vung-doi-song-hang-ngay.pdf"]:
         if (src / extra).exists():

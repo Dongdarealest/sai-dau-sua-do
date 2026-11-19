@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Add one posted lesson to the site and republish it.
 
-Usage (run by the posting crons after a lesson goes live on Facebook):
+Usage:
     python3 update_site.py --lesson /tmp/bai-moi.json [--no-push]
 
 The lesson JSON must have: slug, code, type, topic, date, title,
@@ -11,7 +11,7 @@ dict_links [{label, url}], quiz {question, prompt, options[], answer, explanatio
 
 Flow: validate -> append/replace in lessons.json (the single data file)
 -> regenerate the whole site -> push the full tree to GitHub Pages.
-Never push a single file (AGENTS.md lesson 16/10/2026).
+Never push a single file.
 """
 import argparse
 import datetime

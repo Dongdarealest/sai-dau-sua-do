@@ -1,23 +1,38 @@
-# Sai Đâu Sửa Đó: Kho bài học tiếng Anh mở
+# Sai Đâu Sửa Đó
 
-Kho tra cứu lỗi tiếng Anh người Việt hay mắc. Mỗi bài ghi một lỗi, cách nói đúng, giải thích bằng tiếng Việt và câu luyện tập. Mỗi ngày sửa một lỗi nhỏ.
+An open English lesson library for Vietnamese learners. Fix one small mistake every day.
 
-Web live: https://dongdarealest.github.io/sai-dau-sua-do/
-Trang Facebook: https://www.facebook.com/saidausuado
-Group học: https://www.facebook.com/groups/4387154551501983
+Live site: https://dongdarealest.github.io/sai-dau-sua-do/
 
-## Học trên web
+Each lesson covers one mistake Vietnamese speakers commonly make: the wrong sentence, the correct sentence, a short explanation in Vietnamese, and practice questions with answers. The library holds 62 lessons, 852 dictionary entries, and 3 learning paths.
 
-Trang chủ có bài học hôm nay, lộ trình học và ôn tập theo ngày. Mỗi bài chạy theo từng bước, có quiz chấm ngay, luyện nói và lịch ôn nhắc lại theo khoảng cách thời gian. Từ điển tra nghĩa tiếng Việt hiện đầu tiên, ví dụ nào cũng có dịch tiếng Việt.
+Community: [Facebook page](https://www.facebook.com/saidausuado) and [study group](https://www.facebook.com/groups/4387154551501983).
 
-## API mở cho lập trình viên
+## Open API
 
-Toàn bộ dữ liệu bài học và từ điển mở miễn phí qua API tĩnh, không cần khóa, không mất phí. Tài liệu và ví dụ ở /api/ trên web live. Giấy phép: MIT cho code, CC BY 4.0 cho nội dung, ghi công bắt buộc kèm link về Trang.
+All lesson and dictionary data is available as static JSON. No key, no sign-up, no fee. Documentation: https://dongdarealest.github.io/sai-dau-sua-do/api/
 
-## Đóng góp
+```js
+const BASE = "https://dongdarealest.github.io/sai-dau-sua-do/api/v1/";
+const data = await (await fetch(BASE + "lessons.json")).json();
+console.log(data.lessons.length, "lessons");
+```
 
-Mở issue để báo lỗi dữ liệu hoặc đề xuất bài mới. Xem CONTRIBUTING.md để biết quy tắc nội dung.
+## Run locally
 
-## Giấy phép
+The site is generated from `web/lessons.json` by `web/generate_site.py`:
 
-Code theo MIT, xem LICENSE. Nội dung bài học và từ điển theo CC BY 4.0, xem LICENSE-CONTENT.md. Logo và nhận diện thương hiệu không thuộc giấy phép mở.
+```sh
+cd web
+python3 generate_site.py
+```
+
+Then serve the `web/` directory with any static file server. Internal links use the `/sai-dau-sua-do` base path.
+
+## License
+
+Code: MIT, see LICENSE. Lesson content and dictionary: CC BY 4.0, see LICENSE-CONTENT.md. Reuse requires attribution with a link to the site. The name, logo, and slogan are not covered by the open licenses.
+
+## Contributing
+
+See CONTRIBUTING.md.

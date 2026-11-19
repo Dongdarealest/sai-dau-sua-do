@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Sai Dau Sua Do lesson library from lessons.json (single source).
 
-Giai đoạn 2 — HỌC TRƯỚC, TRA CỨU SAU:
+Generated pages:
   index.html               trang chủ: Học hôm nay, tiến độ, 3 lộ trình,
                            Ôn hôm nay, nút vào Group / gửi câu, tab Học / Tra cứu
   lo-trinh/<slug>/         trang 1 lộ trình (danh sách bài theo thứ tự)

@@ -1,9 +1,12 @@
-# Nhật ký thay đổi
+# Changelog
 
-## 19/11/2026
+## 2026-11-19
 
-Tách repo thành 2 nhánh: main giữ mã nguồn và tài liệu, gh-pages phục vụ web, mọi URL giữ nguyên. Công bố API mở v1: bài học, từ điển 852 từ kèm lỗi hay mắc, lộ trình, tài liệu và giấy phép mở.
+- Split the repository into two branches: `main` holds source code and documentation, `gh-pages` serves the generated site. All URLs unchanged.
+- Published public API v1: lessons, an 852-word dictionary with linked common mistakes, learning paths, documentation, and open licenses.
+- Removed internal working documents from `main`; `docs/` now holds the API specification only.
+- Rewrote public documentation (README, CONTRIBUTING, CHANGELOG) in English, in a neutral technical tone.
 
-## 15/11/2026
+## 2026-11-15
 
-Tối ưu web: tách CSS, JS và dữ liệu dùng chung, build và deploy tăng dần, tìm kiếm nạp lười, đăng 1 bài chỉ đổi khoảng 9 file thay vì 67 file.
+- Performance: split shared CSS, JavaScript, and data into separate files; incremental builds and deploys; lazy-loaded search index. Adding one lesson now changes about 9 files instead of 67.

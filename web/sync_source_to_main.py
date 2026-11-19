@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
-"""Đồng bộ mã nguồn Sai Đâu Sửa Đó lên nhánh main.
+"""Sync the Sai Dau Sua Do source code to the main branch.
 
-Sau lần tách nhánh 19/11/2026, repo có 2 nhánh: main chỉ giữ mã nguồn và
-tài liệu, gh-pages chỉ giữ web đã sinh. Script này đẩy cây nguồn sạch lên
-main, thay toàn bộ cây cũ của main bằng cây nguồn. Không bao giờ chạm
-gh-pages, không bao giờ deploy web.
+Since the branch split on 19/11/2026, the repo has two branches: main holds
+source code and documentation, gh-pages holds the generated site. This
+script pushes the clean source tree to main, replacing the whole previous
+main tree. It never touches gh-pages and never deploys the site.
 
-Quy tắc chạy: chỉ chạy bằng dòng lệnh, không import:
+Run only from the command line, never import:
     python3 sync_source_to_main.py --message "..."
     python3 sync_source_to_main.py --list
 
-Mẫu an toàn (giống deploy_github_pages.py): đọc head main làm commit cha,
-kiểm tra mọi file tồn tại trước khi tạo blob, tái dùng blob trùng SHA với
-cây remote, đẩy cây đầy đủ, không force push, ghi log riêng vào
-web/SOURCE_SYNC_LOG.md để không lẫn với DEPLOY_LOG.md của web.
+Safe pattern (same as deploy_github_pages.py): read the main head as the
+commit parent, check every file exists before creating blobs, reuse blobs
+whose SHA matches the remote tree, push the full tree, no force push, and
+write a separate log to web/SOURCE_SYNC_LOG.md instead of the site
+DEPLOY_LOG.md.
 
-Script từ chối chạy nếu phát hiện một tiến trình deploy_github_pages.py
-hoặc update_site.py đang chạy, để hai lần đẩy không giẫm nhau.
+The script refuses to run while deploy_github_pages.py or update_site.py
+is running, so two pushes never overlap.
 """
 import argparse
 import base64
@@ -48,11 +49,13 @@ def source_files():
     for name in ["LICENSE", "LICENSE-CONTENT.md"]:
         out.append((os.path.join(SRC, name), name))
     # Mã nguồn sinh trang, dữ liệu, tài liệu vận hành (mục 2.1).
+    # Sổ tay vận hành, báo cáo audit và nhật ký đẩy chỉ ở trên máy VM,
+    # không bao giờ lên main: CAP-NHAT-SITE.md, AUDIT-KYTHUAT.md,
+    # AUDIT-NOIDUNG.md, DEPLOY_LOG.md, SOURCE_SYNC_LOG.md.
     for name in ["generate_site.py", "update_site.py", "deploy_github_pages.py",
                  "undo_deploy.py", "sync_source_to_main.py",
                  "lessons.json", "enrichment.json",
-                 "CAP-NHAT-SITE.md", "AUDIT-KYTHUAT.md", "AUDIT-NOIDUNG.md",
-                 "DEPLOY_LOG.md", "SOURCE_SYNC_LOG.md", "favicon.svg"]:
+                 "favicon.svg"]:
         out.append((os.path.join(SRC, name), f"web/{name}"))
     for f in sorted(Path(os.path.join(SRC, "fonts")).glob("*.woff2")):
         out.append((str(f), f"web/fonts/{f.name}"))
