@@ -5620,6 +5620,93 @@
    "wrong": "I want to thank to my teacher.",
    "wrong_note": "Em muốn cảm ơn thầy cô của em, nhưng thừa chữ to.",
    "reel": null
+  },
+  {
+   "code": "Mẹo #004",
+   "compare": [
+    {
+     "a": "Who is your teacher?",
+     "b": "To whom should I send this letter?",
+     "note": "who hỏi chủ ngữ, whom hỏi tân ngữ sau giới từ."
+    },
+    {
+     "a": "The woman who called me is my friend.",
+     "b": "The woman whom I called is my friend.",
+     "note": "who làm chủ ngữ của called, whom làm tân ngữ của called."
+    }
+   ],
+   "core": "Hỏi ai làm gì thì dùng who, hỏi thư gửi cho ai thì dùng whom.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The student whom I helped passed the exam.",
+     "vi": "Học trò tôi giúp đã đỗ kỳ thi."
+    },
+    {
+     "en": "She is the teacher whom everybody loves.",
+     "vi": "Cô ấy là giáo viên mà ai cũng yêu quý."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103707697550200",
+   "image_src": "ngay-08/Meo-004-who-whom.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "The teacher whom we invited came yesterday.",
+     "wrong": "The teacher who we invited came yesterday."
+    },
+    {
+     "right": "To whom did you give the book?",
+     "wrong": "To who did you give the book?"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "whom làm tân ngữ của met, who làm chủ ngữ nên không dùng ở đây.",
+     "kind": "fill_blank",
+     "options": [
+      "who",
+      "whom"
+     ],
+     "prompt": "Điền từ còn thiếu: The woman ___ I met yesterday is my teacher."
+    },
+    {
+     "answer": 1,
+     "explanation": "whom đứng sau giới từ to, who không đứng sau giới từ.",
+     "options": [
+      "To who should I write this letter?",
+      "To whom should I write this letter?"
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "who làm chủ ngữ của is calling nên dùng who.",
+     "kind": "fill_blank",
+     "options": [
+      "Who",
+      "Whom"
+     ],
+     "prompt": "Điền từ còn thiếu: ___ is calling you?"
+    }
+   ],
+   "problem": "Nhiều bạn viết who ở mọi chỗ, kể cả khi đại từ quan hệ làm tân ngữ trong câu.",
+   "quiz": null,
+   "reel": null,
+   "remember": "who làm chủ ngữ, whom làm tân ngữ và đứng sau giới từ.",
+   "right": "The man whom I met is my teacher.",
+   "right_note": "Người đàn ông tôi gặp là thầy tôi.",
+   "show_in_ui": true,
+   "slug": "meo-004",
+   "tip": "Khi phân vân, thử thay bằng he hay him: he được thì dùng who, him được thì dùng whom.",
+   "title": "who và whom",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "who làm chủ ngữ trong câu, whom làm tân ngữ, và whom đứng sau giới từ.",
+   "wrong": "The man who I met is my teacher.",
+   "wrong_note": "who làm chủ ngữ, câu này cần tân ngữ nên dùng whom."
   }
  ],
  "site": {
