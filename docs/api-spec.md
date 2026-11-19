@@ -20,7 +20,7 @@ API mở là bộ dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó
 ## Nguyên tắc thiết kế
 
 1. Tĩnh hoàn toàn. Mọi đầu dữ liệu là file JSON tĩnh do `generate_site.py` sinh ra lúc build, phục vụ qua GitHub Pages. Không có code chạy phía máy chủ, không có cơ sở dữ liệu, không có trạng thái người dùng.
-2. Có phiên bản trong đường dẫn. Mọi đường dẫn đều bắt đầu bằng `/api/v1/`. Phiên bản 1 giữ nguyên sau khi công bố. Thay đổi làm vỡ tương thích chỉ xuất hiện ở phiên bản mới; phiên bản cũ vẫn hoạt động.
+2. Có phiên bản trong đường dẫn. Mọi đường dẫn đều bắt đầu bằng `/api/v1/`. Phiên bản 1 giữ nguyên sau khi công bố. Thay đổi phá vỡ tương thích chỉ xuất hiện ở phiên bản mới; phiên bản cũ vẫn hoạt động.
 3. Ghi công nằm trong dữ liệu. Mọi file trả về đều có khối `meta.source` ghi tên Trang, link web, link Facebook, giấy phép và câu ghi công.
 4. Tiếng Việt là chính. Từ loại, nghĩa, giải thích, ghi chú đều bằng tiếng Việt. Câu tiếng Anh chỉ xuất hiện trong ví dụ và câu luyện tập, luôn kèm dịch tiếng Việt.
 5. Không đổi URL cũ. API chỉ thêm đường dẫn mới dưới `/api/`. Mọi bài học cũ giữ nguyên đường dẫn.
