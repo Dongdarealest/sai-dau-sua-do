@@ -599,24 +599,37 @@ class TestDirectionA(unittest.TestCase):
                             f"{p['slug']}: đoạn văn thiếu câu lỗi")
 
     def test_deploy_includes_skill_files(self):
-        """site_files phải gồm skills.js, reading.js, community-mock.json
-        và 4 trang kỹ năng + Cộng đồng."""
+        """site_files phải gồm skills.js, reading.js
+        và 4 trang kỹ năng + Cộng đồng. Mục Cộng đồng nối API thật
+        nên không còn community-mock.json trong deploy."""
         deploy_src = (ROOT / "deploy_github_pages.py").read_text(encoding="utf-8")
-        for name in ['"skills.js"', '"reading.js"', '"community-mock.json"']:
+        for name in ['"skills.js"', '"reading.js"']:
             self.assertIn(name, deploy_src, f"site_files thiếu {name}")
+        self.assertNotIn("community-mock.json", deploy_src,
+                         "deploy vẫn nhắc community-mock.json đã bỏ")
         for slug in ["luyen-nghe", "luyen-viet", "luyen-doc", "cong-dong"]:
             self.assertTrue((ROOT / slug / "index.html").exists(),
                             f"thiếu trang {slug}")
 
-    def test_community_mock_shape(self):
-        """Mock Cộng đồng đúng hình dạng hợp đồng API."""
-        mock = gen.community_mock_data()
-        self.assertIn("week", mock)
-        self.assertIn("challenge", mock)
-        self.assertEqual(len(mock["leaderboards"]["xp"]), 10)
-        self.assertEqual(len(mock["leaderboards"]["streak"]), 10)
-        self.assertEqual(len(mock["leaderboards"]["speak"]), 10)
-
+    def test_community_no_mock(self):
+        """Mục Cộng đồng không còn mock: COMM_JS gọi API thật,
+        không còn window.SDSC_COMM_MOCK hay mã kích hoạt thử 123456."""
+        self.assertNotIn("SDSC_COMM_MOCK", gen.COMM_JS,
+                         "COMM_JS vẫn nhắc mock")
+        self.assertNotIn("123456", gen.COMM_JS,
+                         "COMM_JS vẫn còn mã kích hoạt thử")
+        self.assertIn("sdsc-community-api.vercel.app", gen.COMM_JS,
+                      "COMM_JS chưa trỏ API thật")
+        self.assertIn("/api/leaderboard", gen.COMM_JS,
+                      "COMM_JS chưa gọi leaderboard thật")
+        self.assertIn("/api/auth/send-code", gen.COMM_JS,
+                      "COMM_JS chưa có luồng đăng kí thật")
+        self.assertIn("/api/cheer", gen.COMM_JS,
+                      "COMM_JS chưa gọi cheer thật")
+        self.assertIn("/api/progress/sync", gen.COMM_JS,
+                      "COMM_JS chưa đồng bộ tiến trình thật")
+        self.assertNotIn("community_mock_data", dir(gen),
+                         "generate_site vẫn còn hàm community_mock_data")
 
 if __name__ == "__main__":
     unittest.main()

@@ -53,9 +53,9 @@ def site_files():
             out.append(extra)
     # Shared files: CSS, JS, data, and the search index.
     # Đợt hướng A: skills.js (dữ liệu 4 trang kỹ năng), reading.js
-    # (đoạn văn đọc), community-mock.json (dữ liệu thử Cộng đồng).
+    # (đoạn văn đọc). Mục Cộng đồng nối API thật nên không còn file mock.
     for extra in ["styles.css", "app.js", "data.js", "search-index.json",
-                  "skills.js", "reading.js", "community-mock.json"]:
+                  "skills.js", "reading.js"]:
         if (src / extra).exists():
             out.append(extra)
     # Public API: static JSON files under api/v1/ and the OpenAPI definition.

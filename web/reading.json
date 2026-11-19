@@ -2533,6 +2533,49 @@
         ],
         "answer": 0
       }
+    },
+    {
+      "code": "Hội thoại #005",
+      "level": 1,
+      "question": {
+        "answer": 0,
+        "options": [
+          "Một nhà hàng nhỏ",
+          "Một quán cà phê",
+          "Một công viên"
+        ],
+        "q": "Người viết gặp bạn ở đâu?"
+      },
+      "sentences": [
+        {
+          "error": false,
+          "text": "I meet my friends at a small restaurant near my house."
+        },
+        {
+          "answer": 1,
+          "error": true,
+          "fix": "They are good at cooking.",
+          "options": [
+            "They are good at cooked.",
+            "They are good at cooking.",
+            "They are good at cooks."
+          ],
+          "text": "They are good at cook.",
+          "why": "sau giới từ at, động từ luôn thêm ing."
+        },
+        {
+          "error": false,
+          "text": "The food is very good and the price is low."
+        },
+        {
+          "error": false,
+          "text": "We come here every Sunday morning."
+        }
+      ],
+      "situation": "Kể chuyện gặp bạn ở nhà hàng",
+      "slug": "hoi-thoai-005",
+      "title": "Nói tiếng Anh chưa giỏi",
+      "topic": "giao tiếp"
     }
   ]
 }

@@ -432,47 +432,152 @@ const tick = () => new Promise(r => setTimeout(r, 0));
     ok(/ôn xong bằng Nghe/.test(doc.querySelector('#listen-done').textContent), 'N106 tổng kết ghi bài đã ôn xong bằng Nghe');
   }
 
-  // ---------- Mục Cộng đồng (đợt hướng A, 19/11, chạy mock) ----------
+  // ---------- Mục Cộng đồng nối API thật (19/11, fetch giả lập) ----------
+  function makeCommFetch() {
+    const calls = [];
+    const boards = {
+      weekly: { board: 'weekly', week: '2026-11-16', entries: [
+        { account_id: 'acc-lan', display_name: 'Lan', level: 5, value: 320, cheers: 12, rank: 1 },
+        { account_id: 'acc-bao', display_name: 'Bảo', level: 4, value: 280, cheers: 9, rank: 2 },
+        { account_id: 'acc-chi', display_name: 'Chi', level: 4, value: 250, cheers: 11, rank: 3 },
+      ], me: null, updated_at: '2026-11-19T00:00:00.000Z' },
+      streak: { board: 'streak', week: '2026-11-16', entries: [
+        { account_id: 'acc-bao', display_name: 'Bảo', level: 4, value: 12, cheers: 8, rank: 1 },
+        { account_id: 'acc-lan', display_name: 'Lan', level: 5, value: 10, cheers: 6, rank: 2 },
+      ], me: null, updated_at: '2026-11-19T00:00:00.000Z' },
+      speaking: { board: 'speaking', week: '2026-11-16', entries: [
+        { account_id: 'acc-chi', display_name: 'Chi', level: 4, value: 95, cheers: 10, rank: 1 },
+        { account_id: 'acc-lan', display_name: 'Lan', level: 5, value: 92, cheers: 7, rank: 2 },
+      ], me: null, updated_at: '2026-11-19T00:00:00.000Z' },
+    };
+    let token = null;
+    const fetchStub = (url, init) => {
+      const method = (init && init.method) || 'GET';
+      let body = null;
+      try { body = init && init.body ? JSON.parse(init.body) : null; } catch (e) {}
+      calls.push({ url, method, body });
+      const u = String(url);
+      const respond = (status, data) => Promise.resolve({
+        ok: status >= 200 && status < 300,
+        status,
+        text: () => Promise.resolve(JSON.stringify(data)),
+      });
+      if (u.includes('/api/leaderboard')) {
+        const board = new URL(u).searchParams.get('board') || 'weekly';
+        const data = JSON.parse(JSON.stringify(boards[board]));
+        if (token) data.me = { rank: 2, value: board === 'weekly' ? 280 : 10 };
+        return respond(200, data);
+      }
+      if (u.includes('/api/stats')) return respond(200, { accounts: 3, active_week: 2 });
+      if (u.includes('/api/auth/send-code')) return respond(200, { ok: true });
+      if (u.includes('/api/auth/verify')) {
+        if (body && body.purpose === 'register') {
+          token = 'tok-test-1234567890';
+          return respond(200, { token, account: { id: 'acc-minh', display_name: 'Minh', level: 1, total_xp: 0, created_at: '2026-11-19' } });
+        }
+        return respond(200, { reset_token: 'reset-test-1234567890', email: body.email });
+      }
+      if (u.includes('/api/auth/login')) {
+        token = 'tok-test-1234567890';
+        return respond(200, { token, account: { id: 'acc-minh', display_name: 'Minh', level: 1, total_xp: 0, created_at: '2026-11-19' } });
+      }
+      if (u.includes('/api/auth/reset-password')) return respond(200, { ok: true });
+      if (u.includes('/api/me')) {
+        if (!token) return respond(401, { ok: false, error: 'Chưa đăng nhập.', code: 'unauthorized' });
+        return respond(200, { account: { id: 'acc-minh', email: 'minh@example.com', display_name: 'Minh', level: 1, total_xp: 0, created_at: '2026-11-19', verified_at: '2026-11-19', hidden: false }, progress: null });
+      }
+      if (u.includes('/api/progress/sync')) {
+        if (!body || !body.token) return respond(401, { ok: false, error: 'Chưa đăng nhập.', code: 'unauthorized' });
+        return respond(200, { progress: body.progress });
+      }
+      if (u.includes('/api/cheer')) {
+        const row = boards[body.board] && boards[body.board].entries.find(r => r.account_id === body.account_id);
+        if (row) row.cheers += 1;
+        return respond(200, { cheers: row ? row.cheers : 1 });
+      }
+      return respond(404, { ok: false, error: 'Không tìm thấy.', code: 'bad_request' });
+    };
+    fetchStub.calls = calls;
+    return fetchStub;
+  }
   {
-    const { dom, jsErrors } = loadPage('cong-dong/index.html');
+    const stub = makeCommFetch();
+    const { dom, jsErrors } = loadPage('cong-dong/index.html', null, w => { w.fetch = stub; });
     const { window } = dom;
     const doc = window.document;
+    await window.__commTest.ready;
+    await tick();
     ok(jsErrors.length === 0, 'N107 cộng đồng không lỗi JS', jsErrors.slice(0, 2));
-    ok(doc.querySelectorAll('#board-xp .comm-row').length === 10, 'N108 bảng Top XP tuần có 10 hàng', doc.querySelectorAll('#board-xp .comm-row').length);
-    ok(doc.querySelectorAll('#board-streak .comm-row').length === 10, 'N109 bảng chuỗi ngày có 10 hàng', doc.querySelectorAll('#board-streak .comm-row').length);
-    ok(doc.querySelectorAll('#board-speak .comm-row').length === 10, 'N110 bảng điểm nói có 10 hàng', doc.querySelectorAll('#board-speak .comm-row').length);
+    const xpRows = doc.querySelectorAll('#board-xp .comm-row');
+    ok(xpRows.length === 3, 'N108 bảng Top XP tuần có 3 hàng từ API thật', xpRows.length);
+    ok(/Lan/.test(xpRows[0].textContent) && /320 XP/.test(xpRows[0].textContent), 'N108b hàng đầu bảng XP là Lan 320 XP', xpRows[0] && xpRows[0].textContent);
+    ok(doc.querySelectorAll('#board-streak .comm-row').length === 2, 'N109 bảng chuỗi ngày có 2 hàng từ API thật', doc.querySelectorAll('#board-streak .comm-row').length);
+    ok(doc.querySelectorAll('#board-speak .comm-row').length === 2, 'N110 bảng điểm nói có 2 hàng từ API thật', doc.querySelectorAll('#board-speak .comm-row').length);
     ok(/Thử thách tuần/.test(doc.querySelector('#comm-challenge').textContent), 'N111 có thử thách tuần');
     ok(/Đăng nhập/.test(doc.querySelector('#comm-auth').textContent), 'N112 chưa đăng nhập thì hiện form đăng nhập');
-    ok(/bản thử/.test(doc.body.textContent), 'N113 trang ghi rõ đang chạy bản thử chưa nối backend thật');
-    // Tim 1 người ở 1 bảng.
-    const heart = doc.querySelector('#board-xp .comm-heart');
-    ok(!!heart, 'N114 mỗi hàng có nút tim');
-    heart.click();
-    const hearts = JSON.parse(window.localStorage.getItem('sdsc-comm-hearts-v1') || '[]');
-    ok(hearts.length === 1, 'N115 bấm tim lưu 1 lượt tim', hearts);
-    const heart2 = doc.querySelector('#board-xp .comm-heart');
-    ok(/♥/.test(heart2.textContent) && !/♡/.test(heart2.textContent), 'N116 sau khi tim thì nút hiện tim đỏ và tăng số', heart2.textContent);
-    heart2.click();
-    const hearts2 = JSON.parse(window.localStorage.getItem('sdsc-comm-hearts-v1') || '[]');
-    ok(hearts2.length === 0, 'N117 bấm lại thì bỏ tim');
-    // Đăng kí + kích hoạt bằng mã thử, rồi đăng nhập.
+    ok(!/bản thử/.test(doc.body.textContent), 'N113 trang không còn chữ bản thử');
+    ok(!/123456/.test(doc.body.textContent), 'N113b trang không còn mã kích hoạt thử 123456');
+    ok(!window.SDSC_COMM_MOCK, 'N113c không còn window.SDSC_COMM_MOCK');
+    ok(/3 người đăng kí/.test(doc.querySelector('#comm-stats').textContent), 'N113d thống kê từ /api/stats', doc.querySelector('#comm-stats').textContent);
+    ok(stub.calls.some(c => c.url.includes('/api/leaderboard?board=weekly')), 'N113e đã gọi GET /api/leaderboard?board=weekly');
+    ok(stub.calls.some(c => c.url.includes('/api/stats')), 'N113f đã gọi GET /api/stats');
+    // Quên mật khẩu: gửi mã rồi đặt mật khẩu mới.
+    doc.querySelector('#comm-forgot-link').click();
+    ok(doc.querySelector('#comm-reset').style.display === 'block', 'N114 quên mật khẩu hiện form đặt lại mật khẩu');
+    doc.querySelector('#comm-reset-email').value = 'minh@example.com';
+    doc.querySelector('#comm-reset-send').click();
+    await tick(); await tick();
+    ok(/Đã gửi mã/.test(doc.querySelector('#comm-reset-msg').textContent), 'N115 gửi mã đặt lại mật khẩu', doc.querySelector('#comm-reset-msg').textContent);
+    doc.querySelector('#comm-reset-code').value = '654321';
+    doc.querySelector('#comm-reset-pass').value = 'matkhau456';
+    doc.querySelector('#comm-reset-btn').click();
+    await tick(); await tick();
+    ok(/Đã đặt mật khẩu mới/.test(doc.querySelector('#comm-reset-msg').textContent), 'N116 đặt mật khẩu mới xong', doc.querySelector('#comm-reset-msg').textContent);
+    ok(stub.calls.some(c => c.url.includes('/api/auth/reset-password') && c.method === 'POST'), 'N116b đã gọi POST /api/auth/reset-password');
+    // Đăng kí + kích hoạt bằng mã gửi qua mail (giả lập), rồi đăng nhập.
     doc.querySelector('#comm-show-register').click();
     doc.querySelector('#comm-reg-email').value = 'minh@example.com';
     doc.querySelector('#comm-reg-name').value = 'Minh';
     doc.querySelector('#comm-reg-pass').value = 'matkhau123';
     doc.querySelector('#comm-register-btn').click();
+    await tick(); await tick();
     ok(doc.querySelector('#comm-activate').style.display === 'block', 'N118 đăng kí xong hiện bước nhập mã kích hoạt');
-    doc.querySelector('#comm-code').value = '123456';
+    ok(stub.calls.some(c => c.url.includes('/api/auth/send-code') && c.method === 'POST' && c.body && c.body.purpose === 'register'), 'N118b đã gọi POST /api/auth/send-code purpose register');
+    doc.querySelector('#comm-code').value = '654321';
     doc.querySelector('#comm-activate-btn').click();
+    for (let i = 0; i < 10; i++) await tick();
     const auth = JSON.parse(window.localStorage.getItem('sdsc-comm-auth-v1') || 'null');
-    ok(auth && auth.email === 'minh@example.com' && auth.name === 'Minh', 'N119 kích hoạt đúng mã thì đăng nhập được', auth);
+    ok(auth && auth.email === 'minh@example.com' && auth.name === 'Minh' && auth.token === 'tok-test-1234567890', 'N119 kích hoạt mã thì đăng nhập được, token đã lưu', auth);
+    ok(!window.localStorage.getItem('sdsc-comm-users-v1'), 'N119b không còn kho người dùng local sdsc-comm-users-v1');
     ok(/Xin chào/.test(doc.querySelector('#comm-auth').textContent), 'N120 sau khi đăng nhập hiện Xin chào');
     ok(/\(bạn\)/.test(doc.querySelector('#board-xp').textContent), 'N121 sau khi đăng nhập bảng có hàng của mình');
+    ok(/Hạng 2/.test(doc.querySelector('#board-xp').textContent), 'N121b hàng của mình hiện hạng từ API thật');
     ok(/Đăng xuất/.test(doc.querySelector('#comm-auth').textContent), 'N122 có nút đăng xuất');
-    // Thẻ Đua top trên trang chủ.
-    const home = loadPage('index.html');
+    ok(stub.calls.some(c => c.url.includes('/api/progress/sync') && c.method === 'POST'), 'N122b đã đồng bộ tiến trình sau khi đăng nhập');
+    // Tim 1 người ở 1 bảng (đã đăng nhập).
+    const heart = doc.querySelector('#board-xp .comm-heart');
+    ok(!!heart, 'N114 mỗi hàng có nút tim');
+    heart.click();
+    await tick(); await tick();
+    const hearts = JSON.parse(window.localStorage.getItem('sdsc-comm-hearts-v1') || '[]');
+    ok(hearts.length === 1, 'N115 bấm tim lưu 1 lượt tim', hearts);
+    ok(stub.calls.some(c => c.url.includes('/api/cheer') && c.method === 'POST' && c.body && c.body.account_id === 'acc-lan' && c.body.board === 'weekly'), 'N115b đã gọi POST /api/cheer cho Lan ở bảng weekly');
+    const heart2 = doc.querySelector('#board-xp .comm-heart');
+    ok(/♥ 13/.test(heart2.textContent), 'N116 sau khi tim thì nút hiện tim đỏ và số tim từ máy chủ', heart2.textContent);
+    heart2.click();
+    await tick();
+    const hearts2 = JSON.parse(window.localStorage.getItem('sdsc-comm-hearts-v1') || '[]');
+    ok(hearts2.length === 1, 'N117 bấm lại thì không tim thêm lần nữa', hearts2);
+    ok(stub.calls.filter(c => c.url.includes('/api/cheer')).length === 1, 'N117b bấm lại không gọi thêm /api/cheer');
+    ok(/đã tặng tim/.test(doc.querySelector('#board-xp').textContent), 'N117c bấm lại hiện thông báo đã tặng tim');
+    // Thẻ Đua top trên trang chủ (dùng fetch giả lập riêng).
+    const stub2 = makeCommFetch();
+    const home = loadPage('index.html', null, w => { w.fetch = stub2; });
     const hdoc = home.dom.window.document;
+    await home.dom.window.__commTest.ready;
+    await tick();
     ok(/Đua top tuần này/.test(hdoc.querySelector('#comm-teaser').textContent), 'N123 trang chủ có thẻ Đua top tuần này');
+    ok(/Lan/.test(hdoc.querySelector('#comm-teaser').textContent) && /320 XP/.test(hdoc.querySelector('#comm-teaser').textContent), 'N123b thẻ Đua top hiện top 1 từ API thật', hdoc.querySelector('#comm-teaser').textContent);
     ok(/Xem bảng đầy đủ/.test(hdoc.querySelector('#comm-teaser').textContent), 'N124 thẻ Đua top có nút xem bảng đầy đủ');
     ok(hdoc.querySelector('#comm-teaser a').getAttribute('href') === '/sai-dau-sua-do/cong-dong/', 'N125 thẻ Đua top link tới trang Cộng đồng');
   }
