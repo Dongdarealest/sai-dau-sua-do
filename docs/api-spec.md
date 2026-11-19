@@ -259,7 +259,7 @@ Ví dụ đầy đủ với bài Lỗi #001, dữ liệu thật, không rút g�
 
 ### Trường nào có thể vắng mặt
 
-Không phải bài nào cũng có đủ mọi trường. App phải chịu được trường vắng, không được vỡ khi gặp giá trị rỗng.
+Không phải bài nào cũng có đủ mọi trường. App phải chịu được trường vắng, không được lỗi khi gặp giá trị rỗng.
 
 | Trường | Có mặt ở | Khi vắng thì hiểu là |
 |---|---|---|
@@ -400,7 +400,7 @@ Dùng lại chỉ mục tìm kiếm sẵn có của web, 56 bài đang hiển th
 
 ## paths.json: lộ trình học
 
-Trả về 3 lộ trình học của Trang, mỗi lộ trình là thứ tự các bài nên học. App dùng file này để gợi ý người học đi theo lộ trình thay vì học lộn xộn.
+Trả về 3 lộ trình học của Trang, mỗi lộ trình là thứ tự các bài nên học. App dùng file này để gợi ý người học đi theo lộ trình thay vì học không theo thứ tự.
 
 ```json
 {
@@ -479,7 +479,7 @@ Dữ liệu API chỉ chứa phần do Trang tự soạn: bài học và bảng 
 
 1. Sản phẩm trả phí chưa bán hoặc đã dừng bán của Trang, ví dụ sổ tay luyện sửa lỗi và bộ 100 mẫu câu bản bán, không nằm trong API và không đưa vào repo công khai. Chỉ nội dung miễn phí đã đăng mới thuộc API.
 2. Không có dữ liệu người dùng trong API. API không thu thập, không lưu, không trả về bất cứ thông tin nào của người học. App tự lo việc lưu tiến độ của người dùng bên phía app.
-3. Logo và nhận diện thương hiệu của Trang không thuộc giấy phép mở, như đã nói ở trên.
+3. Logo và nhận diện thương hiệu của Trang không thuộc giấy phép mở.
 
 ## Trang tài liệu /api/
 
@@ -549,9 +549,9 @@ console.log(lookup("tomorrow"));
 
 ## Phiên bản và tương thích
 
-1. Phiên bản 1 giữ nguyên sau khi công bố. Đã công bố thì không sửa schema làm vỡ app đang chạy. Chỉ thêm trường mới, không đổi tên hay xóa trường cũ.
+1. Phiên bản 1 giữ nguyên sau khi công bố. Đã công bố thì không sửa schema làm hỏng app đang chạy. Chỉ thêm trường mới, không đổi tên hay xóa trường cũ.
 2. Thêm bài mới không đổi phiên bản. Bài mới chỉ thêm vào danh sách, app cũ vẫn chạy, chỉ cần tải lại file là thấy bài mới.
-3. Phiên bản 2 chỉ xuất hiện khi có thay đổi làm vỡ tương thích, ví dụ đổi tên trường hay đổi cấu trúc bài tập. Khi đó phiên bản 1 vẫn giữ nguyên đường dẫn và vẫn hoạt động, trang tài liệu ghi rõ khác biệt giữa 2 phiên bản.
+3. Phiên bản 2 chỉ xuất hiện khi có thay đổi phá vỡ tương thích, ví dụ đổi tên trường hay đổi cấu trúc bài tập. Khi đó phiên bản 1 vẫn giữ nguyên đường dẫn và vẫn hoạt động, trang tài liệu ghi rõ khác biệt giữa 2 phiên bản.
 4. Mỗi file đều có `meta.api_version` để app tự kiểm tra mình đang đọc phiên bản nào.
 
 ## Giới hạn
@@ -560,4 +560,4 @@ console.log(lookup("tomorrow"));
 2. Không có tìm kiếm phía máy chủ. Tìm kiếm chạy ngay trên máy người dùng bằng `search-index.json` hoặc lọc `lessons.json`.
 3. Không có phiên âm trong dữ liệu tĩnh. Phiên âm và âm thanh lấy trực tiếp từ dictionaryapi.dev lúc tra, giống cách web của Trang đang làm.
 4. Không có dịch máy trong dữ liệu tĩnh. Nghĩa dịch máy chỉ xuất hiện lúc tra trên web khi không còn nguồn nào, và luôn ghi rõ là dịch máy chưa kiểm chứng.
-5. Nội dung tăng theo nhịp đăng của Trang. API mới thì ít bài, càng về sau càng nhiều. App nên tải lại file mỗi lần mở để thấy bài mới.
+5. Nội dung tăng theo nhịp đăng của Trang. App nên tải lại file mỗi lần mở để thấy bài mới.
