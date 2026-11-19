@@ -1108,27 +1108,95 @@ if(sortSel)sortSel.addEventListener("change",()=>{fSort=sortSel.value;applyFilte
 })();
 renderChips();syncView();applyFilters();
 </script>
-<script>window.SDSC_COMM_MOCK={"week": 48, "weekStart": "2026-11-23", "challenge": {"id": "tuan-48", "title": "Sửa 5 lỗi về thì trong tuần", "target": 5, "unit": "lỗi", "rewardXp": 100, "badge": "Hoàn thành thử thách tuần"}, "leaderboards": {"xp": [{"name": "Minh", "level": 5, "xp": 320, "hearts": 12, "badge": "Top 1"}, {"name": "An", "level": 4, "xp": 280, "hearts": 9}, {"name": "Linh", "level": 4, "xp": 250, "hearts": 11}, {"name": "Hùng", "level": 3, "xp": 210, "hearts": 5}, {"name": "Thảo", "level": 3, "xp": 190, "hearts": 7}, {"name": "Quân", "level": 3, "xp": 170, "hearts": 3}, {"name": "Ngọc", "level": 2, "xp": 150, "hearts": 6}, {"name": "Dũng", "level": 2, "xp": 120, "hearts": 2}, {"name": "Hà", "level": 2, "xp": 100, "hearts": 4}, {"name": "Phúc", "level": 1, "xp": 80, "hearts": 1}], "streak": [{"name": "An", "level": 4, "days": 12, "hearts": 8}, {"name": "Minh", "level": 5, "days": 10, "hearts": 6}, {"name": "Linh", "level": 4, "days": 9, "hearts": 5}, {"name": "Hùng", "level": 3, "days": 8, "hearts": 3}, {"name": "Thảo", "level": 3, "days": 7, "hearts": 4}, {"name": "Quân", "level": 3, "days": 6, "hearts": 2}, {"name": "Ngọc", "level": 2, "days": 5, "hearts": 3}, {"name": "Dũng", "level": 2, "days": 4, "hearts": 1}, {"name": "Hà", "level": 2, "days": 3, "hearts": 2}, {"name": "Phúc", "level": 1, "days": 2, "hearts": 0}], "speak": [{"name": "Linh", "level": 4, "score": 95, "hearts": 10, "sentence": "Can you lend me your pen?"}, {"name": "Minh", "level": 5, "score": 92, "hearts": 7, "sentence": "I agree with you."}, {"name": "An", "level": 4, "score": 90, "hearts": 5, "sentence": "She is a teacher."}, {"name": "Hùng", "level": 3, "score": 88, "hearts": 4, "sentence": "He is watching TV now."}, {"name": "Thảo", "level": 3, "score": 85, "hearts": 6, "sentence": "I have lived here for 2 years."}, {"name": "Quân", "level": 3, "score": 82, "hearts": 2, "sentence": "What are you listening to now?"}, {"name": "Ngọc", "level": 2, "score": 80, "hearts": 3, "sentence": "I want to learn English."}, {"name": "Dũng", "level": 2, "score": 78, "hearts": 1, "sentence": "This is my friend."}, {"name": "Hà", "level": 2, "score": 75, "hearts": 2, "sentence": "I go to school every day."}, {"name": "Phúc", "level": 1, "score": 70, "hearts": 0, "sentence": "Good morning."}]}};</script>
+
 <script>
 (function(){
-  const mock=window.SDSC_COMM_MOCK||{week:48,weekStart:"2026-11-23",challenge:{id:"tuan-48",title:"Sửa 5 lỗi về thì trong tuần",target:5,unit:"lỗi",rewardXp:100,badge:"Hoàn thành thử thách tuần"},leaderboards:{xp:[],streak:[],speak:[]}};
-  const AUTH_KEY="sdsc-comm-auth-v1";
-  const HEART_KEY="sdsc-comm-hearts-v1";
-  const BADGE_KEY="sdsc-comm-badges-v1";
-  const MOCK_CODE="123456";
-  function loadAuth(){try{const v=JSON.parse(localStorage.getItem(AUTH_KEY)||"null");if(v&&v.email&&v.expires&&new Date(v.expires).getTime()>Date.now())return v;}catch(e){}return null;}
-  function saveAuth(a){try{localStorage.setItem(AUTH_KEY,JSON.stringify(a));}catch(e){}}
-  function loadHearts(){try{const v=JSON.parse(localStorage.getItem(HEART_KEY)||"[]");return Array.isArray(v)?v:[];}catch(e){return [];}}
-  function saveHearts(list){try{localStorage.setItem(HEART_KEY,JSON.stringify(list));}catch(e){}}
-  function loadBadges(){try{const v=JSON.parse(localStorage.getItem(BADGE_KEY)||"[]");return Array.isArray(v)?v:[];}catch(e){return [];}}
-  function saveBadges(list){try{localStorage.setItem(BADGE_KEY,JSON.stringify(list));}catch(e){}}
-  function myWeeklyXp(){
+  var API_BASE="https://sdsc-community-api.vercel.app";
+  var AUTH_KEY="sdsc-comm-auth-v1";
+  var BOARDS_KEY="sdsc-comm-boards-v1";
+  var HEART_KEY="sdsc-comm-hearts-v1";
+  var BADGE_KEY="sdsc-comm-badges-v1";
+  var SYNC_KEY="sdsc-comm-sync-v1";
+  var XPDAY_KEY="sdsc-comm-xpday-v1";
+  var CHALLENGE={title:"Sửa 5 lỗi về thì trong tuần",target:5,unit:"lỗi",rewardXp:100,badge:"Hoàn thành thử thách tuần"};
+  var FALLBACK_WEEK="2026-11-23";
+  var boards={weekly:null,streak:null,speaking:null};
+  var stats=null;
+  var weekMonday=FALLBACK_WEEK;
+  var boardsLoaded=false;
+  var boardsFailed=false;
+  var boardsFromCache=false;
+  var cheerMsg={board:null,text:""};
+  var pendingReg=null;
+  var syncTimer=null;
+  var syncing=false;
+  var readyResolve=null;
+  var ready=new Promise(function(res){readyResolve=res;});
+  function hasFetch(){return typeof fetch==="function";}
+  function commLoad(key,fallback){try{var v=JSON.parse(localStorage.getItem(key)||"null");return (v===null||v===undefined)?fallback:v;}catch(e){return fallback;}}
+  function commSave(key,val){try{localStorage.setItem(key,JSON.stringify(val));}catch(e){}}
+  function loadAuth(){var v=commLoad(AUTH_KEY,null);if(v&&v.token&&v.email&&v.expires&&new Date(v.expires).getTime()>Date.now())return v;return null;}
+  function saveAuth(a){commSave(AUTH_KEY,a);}
+  function clearAuth(){try{localStorage.removeItem(AUTH_KEY);}catch(e){}}
+  function loadHearts(){var v=commLoad(HEART_KEY,[]);return Array.isArray(v)?v:[];}
+  function saveHearts(list){commSave(HEART_KEY,list);}
+  function loadBadges(){var v=commLoad(BADGE_KEY,[]);return Array.isArray(v)?v:[];}
+  function saveBadges(list){commSave(BADGE_KEY,list);}
+  function apiCall(path,opts){
+    opts=opts||{};
+    return new Promise(function(resolve,reject){
+      if(!hasFetch()){var e0=new Error("Không có kết nối mạng, kiểm tra mạng rồi thử lại nhé.");e0.code="network";reject(e0);return;}
+      var headers={};
+      if(opts.headers){Object.keys(opts.headers).forEach(function(k){headers[k]=opts.headers[k];});}
+      if(opts.body!==undefined&&opts.body!==null)headers["Content-Type"]="application/json";
+      var ctrl=null,timer=null;
+      try{
+        if(typeof AbortController!=="undefined"){ctrl=new AbortController();timer=setTimeout(function(){try{ctrl.abort();}catch(e2){}},8000);}
+      }catch(e){}
+      var init={method:opts.method||"GET",headers:headers};
+      if(opts.body!==undefined&&opts.body!==null)init.body=JSON.stringify(opts.body);
+      if(ctrl)init.signal=ctrl.signal;
+      fetch(API_BASE+path,init).then(function(resp){
+        if(timer)clearTimeout(timer);
+        return resp.text().then(function(text){
+          var data=null;
+          try{data=text?JSON.parse(text):null;}catch(e){}
+          if(resp.ok){resolve(data);return;}
+          var err=new Error((data&&data.error)||"Máy chủ chưa trả lời được, thử lại sau nhé.");
+          err.code=(data&&data.code)||"server_error";
+          err.status=resp.status;
+          if(resp.status===401)clearAuth();
+          reject(err);
+        });
+      }).catch(function(){
+        if(timer)clearTimeout(timer);
+        var e2=new Error("Không nối được máy chủ, kiểm tra mạng rồi thử lại nhé.");
+        e2.code="network";
+        reject(e2);
+      });
+    });
+  }
+  function weekNumber(mondayStr){
     try{
-      const p=getProgress();
-      const weekStart=new Date(mock.weekStart+"T00:00:00");
-      let xp=0;
+      var d=new Date(mondayStr+"T00:00:00");
+      var day=(d.getDay()+6)%7;
+      d.setDate(d.getDate()-day+3);
+      var first=new Date(d.getFullYear(),0,4);
+      var fday=(first.getDay()+6)%7;
+      first.setDate(first.getDate()-fday+3);
+      return 1+Math.round((d.getTime()-first.getTime())/86400000/7);
+    }catch(e){return 48;}
+  }
+  function myLevel(){
+    try{var p=getProgress();return xpLevel(p.xpTotal||0);}catch(e){return 1;}
+  }
+  function weeklyXpLocal(){
+    try{
+      var p=getProgress();
+      var weekStart=new Date(weekMonday+"T00:00:00");
+      var xp=0;
       (p.history||[]).forEach(function(h){
-        const d=new Date(h.at||h.date+"T00:00:00");
+        var d=new Date(h.at||h.date+"T00:00:00");
         if(d>=weekStart){
           if(h.action==="done")xp+=20;
           else if(h.action==="review")xp+=10;
@@ -1137,115 +1205,295 @@ renderChips();syncView();applyFilters();
       return xp;
     }catch(e){return 0;}
   }
-  function myStreak(){
-    try{const p=getProgress();return (p.streak&&p.streak.count)||0;}catch(e){return 0;}
-  }
-  function myBestSpeak(){
-    try{const sp=loadSpeaking();return sp.best||0;}catch(e){return 0;}
-  }
-  function myLevel(){
-    try{const p=getProgress();return xpLevel(p.xpTotal||0);}catch(e){return 1;}
-  }
   function challengeProgress(){
-    // Thử thách tuần: sửa 5 lỗi về thì. Đếm bài loại Lỗi đã nhớ trong tuần.
     try{
-      const p=getProgress();
-      const weekStart=new Date(mock.weekStart+"T00:00:00");
-      const doneSlugs=new Set();
+      var p=getProgress();
+      var weekStart=new Date(weekMonday+"T00:00:00");
+      var doneSlugs={};
       (p.history||[]).forEach(function(h){
-        const d=new Date(h.at||h.date+"T00:00:00");
-        if(d>=weekStart&&h.action==="done"&&h.slug)doneSlugs.add(h.slug);
+        var d=new Date(h.at||h.date+"T00:00:00");
+        if(d>=weekStart&&h.action==="done"&&h.slug)doneSlugs[h.slug]=true;
       });
-      let n=0;
-      doneSlugs.forEach(function(slug){
-        const l=(window.SDSC_LESSONS||{})[slug];
+      var n=0;
+      Object.keys(doneSlugs).forEach(function(slug){
+        var l=(window.SDSC_LESSONS||{})[slug];
         if(l&&l.type==="Lỗi")n++;
       });
-      return Math.min(n,mock.challenge.target);
+      return Math.min(n,CHALLENGE.target);
     }catch(e){return 0;}
   }
-  function heartBtn(board,name,count){
-    const hearts=loadHearts();
-    const key=mock.week+":"+board+":"+name;
-    const on=hearts.indexOf(key)>=0;
-    const n=(count||0)+(on?1:0);
-    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-name=\""+escapeHtml(name)+"\">"+(on?"♥ ":"♡ ")+n+"</button>";
+  function dailyEarnedToday(){
+    var today=todayISO();
+    var rec=commLoad(XPDAY_KEY,null);
+    var xp=0;
+    try{xp=getProgress().xpTotal||0;}catch(e){}
+    if(!rec||typeof rec!=="object")rec={date:today,lastXpTotal:xp,earned:0};
+    if(rec.date!==today)rec={date:today,lastXpTotal:rec.lastXpTotal||0,earned:0};
+    var delta=Math.max(0,xp-(rec.lastXpTotal||0));
+    rec.earned=(rec.earned||0)+delta;
+    rec.lastXpTotal=xp;
+    commSave(XPDAY_KEY,rec);
+    return rec.earned;
   }
-  function renderBoard(boardId,title,rows,valueLabel){
-    const box=document.getElementById(boardId);
-    if(!box)return;
-    const auth=loadAuth();
-    const top=rows.slice(0,10);
-    let html="<h3>"+escapeHtml(title)+"</h3>";
-    top.forEach(function(r,i){
-      const medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
-      html+="<div class=\"comm-row\"><span class=\"rank\">"+(i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+medal+" "+escapeHtml(r.name)+" (Cấp "+(r.level||1)+")</span>"+(r.badge?"<span class=\"comm-badge\">"+escapeHtml(r.badge)+"</span>":"")+"</span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(boardId,r.name,(r.hearts||0))+"</div>";
+  function toServerProgress(p){
+    var sp=null;
+    try{sp=loadSpeaking();}catch(e){sp={sessions:0,minutes:0,words:0,best:0,lastDay:""};}
+    var review={};
+    Object.keys(p.review||{}).forEach(function(slug){
+      var r=p.review[slug]||{};
+      review[slug]={interval:r.interval||1,nextDue:r.nextDue||"",ease:r.ease||2.5,reps:r.reps||0};
     });
-    if(auth){
-      const myVal=boardId==="board-xp"?myWeeklyXp():boardId==="board-streak"?myStreak():myBestSpeak();
-      html+="<div class=\"comm-row me\"><span class=\"rank\">•</span><span class=\"name\">"+escapeHtml(auth.name)+" (Cấp "+myLevel()+") (bạn)</span><span class=\"pts\">"+myVal+" "+escapeHtml(valueLabel)+"</span><span>0 ♥</span><span></span></div>";
-    }else{
-      html+="<p class=\"comm-note\">Đăng nhập để thấy hạng của bạn trên bảng này.</p>";
-    }
-    box.innerHTML=html;
-    box.querySelectorAll(".comm-heart").forEach(function(b){
-      b.addEventListener("click",function(){
-        const hearts=loadHearts();
-        const key=mock.week+":"+b.dataset.board+":"+b.dataset.name;
-        const i=hearts.indexOf(key);
-        if(i>=0)hearts.splice(i,1);
-        else hearts.push(key);
-        saveHearts(hearts);
-        renderAll();
+    return {
+      version:1,
+      updatedAt:p.updatedAt||new Date().toISOString(),
+      lessons:p.lessons||{},
+      practice:p.practice||{},
+      streak:p.streak||{count:0,lastDate:"",dates:[]},
+      review:review,
+      history:(p.history||[]).slice(-500),
+      settings:p.settings||{dailyGoal:1,remindReview:true},
+      speaking:{sessions:sp.sessions||0,minutes:sp.minutes||0,words:sp.words||0,best:sp.best||0,lastDay:sp.lastDay||""},
+      xp:{total:p.xpTotal||0,weekly:weeklyXpLocal(),weekKey:weekMonday,dailyEarned:dailyEarnedToday(),dailyDate:todayISO()},
+      completions:[]
+    };
+  }
+  function fromServerProgress(sp){
+    if(!sp||typeof sp!=="object")return;
+    var local=null;
+    try{local=getProgress();}catch(e){local=null;}
+    var oldSkills={};
+    try{
+      Object.keys((local&&local.review)||{}).forEach(function(slug){
+        var r=local.review[slug]||{};
+        if(r.skill||typeof r.skillStep==="number")oldSkills[slug]={skill:r.skill,skillStep:r.skillStep};
       });
+    }catch(e){}
+    updateProgress(function(p){
+      if(sp.lessons)p.lessons=sp.lessons;
+      if(sp.practice)p.practice=sp.practice;
+      if(sp.streak)p.streak=sp.streak;
+      if(sp.review){
+        var merged={};
+        Object.keys(sp.review).forEach(function(slug){
+          var r=sp.review[slug]||{};
+          merged[slug]={interval:r.interval||1,nextDue:r.nextDue||"",ease:r.ease||2.5,reps:r.reps||0};
+          if(oldSkills[slug]){
+            if(oldSkills[slug].skill)merged[slug].skill=oldSkills[slug].skill;
+            if(typeof oldSkills[slug].skillStep==="number")merged[slug].skillStep=oldSkills[slug].skillStep;
+          }
+        });
+        p.review=merged;
+      }
+      if(Array.isArray(sp.history))p.history=sp.history.slice(-500);
+      if(sp.settings)p.settings=sp.settings;
+      if(sp.xp&&typeof sp.xp.total==="number")p.xpTotal=Math.max(p.xpTotal||0,sp.xp.total);
+    });
+    try{
+      var spk=loadSpeaking();
+      var s=sp.speaking||{};
+      var rec=null;
+      try{rec=JSON.parse(localStorage.getItem("sdsc-speaking-v1")||"null")||{};}catch(e){rec={};}
+      rec.sessions=Math.max(spk.sessions||0,s.sessions||0);
+      rec.seconds=Math.max(spk.seconds||0,(s.minutes||0)*60);
+      rec.words=Math.max(spk.words||0,s.words||0);
+      rec.best=Math.max(spk.best||0,s.best||0);
+      rec.lastDay=((spk.lastDay||"")>=(s.lastDay||""))?spk.lastDay:(s.lastDay||"");
+      try{localStorage.setItem("sdsc-speaking-v1",JSON.stringify(rec));}catch(e){}
+    }catch(e){}
+  }
+  function payloadString(){
+    try{return JSON.stringify(toServerProgress(getProgress()));}catch(e){return "";}
+  }
+  function syncNow(){
+    var auth=loadAuth();
+    if(!auth||syncing)return Promise.resolve(false);
+    syncing=true;
+    var payload=null;
+    try{payload=toServerProgress(getProgress());}catch(e){syncing=false;return Promise.resolve(false);}
+    return apiCall("/api/progress/sync",{method:"POST",body:{token:auth.token,progress:payload,updated_at:new Date().toISOString()}}).then(function(res){
+      syncing=false;
+      if(res&&res.progress)fromServerProgress(res.progress);
+      try{commSave(SYNC_KEY,{payload:payloadString(),at:Date.now()});}catch(e){}
+      return true;
+    }).catch(function(e){
+      syncing=false;
+      if(e&&e.status===401){clearAuth();renderAll();}
+      return false;
     });
   }
-  function renderChallenge(){
-    const box=document.getElementById("comm-challenge");
-    if(!box)return;
-    const done=challengeProgress();
-    const target=mock.challenge.target;
-    const pct=Math.round(100*done/target);
-    const badges=loadBadges();
-    const claimed=badges.indexOf(mock.challenge.id)>=0;
-    box.innerHTML="<h3>Thử thách tuần "+mock.week+"</h3><p><b>"+escapeHtml(mock.challenge.title)+"</b></p>"
-      +"<div class=\"comm-progress\"><i style=\"width:"+pct+"%\"></i></div>"
-      +"<p>"+done+" trên "+target+" "+escapeHtml(mock.challenge.unit)+" ("+pct+"%)</p>"
-      +(done>=target
-        ?(claimed?"<p>Đã nhận huy hiệu <b>"+escapeHtml(mock.challenge.badge)+"</b> và +"+mock.challenge.rewardXp+" XP.</p>"
-          :"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-claim\">Nhận huy hiệu + "+mock.challenge.rewardXp+" XP</button></p>")
-        :"<p>Hoàn thành thử thách để nhận huy hiệu <b>"+escapeHtml(mock.challenge.badge)+"</b> và +"+mock.challenge.rewardXp+" XP.</p>");
-    const claim=document.getElementById("comm-claim");
-    if(claim)claim.addEventListener("click",function(){
-      const badges=loadBadges();
-      if(badges.indexOf(mock.challenge.id)<0)badges.push(mock.challenge.id);
-      saveBadges(badges);
-      updateProgress(function(p){awardXp(p,mock.challenge.rewardXp);});
+  function scheduleSync(ms){
+    if(syncTimer)clearTimeout(syncTimer);
+    syncTimer=setTimeout(function(){syncTimer=null;syncNow();},ms||3000);
+  }
+  function maybeSync(){
+    var auth=loadAuth();
+    if(!auth)return;
+    var last=commLoad(SYNC_KEY,null);
+    if(last&&last.at&&Date.now()-last.at<60000)return;
+    var h=payloadString();
+    if(!h)return;
+    if(last&&last.payload===h)return;
+    scheduleSync(2000);
+  }
+  function pullMeAndSync(){
+    var auth=loadAuth();
+    if(!auth)return Promise.resolve(false);
+    return apiCall("/api/me",{headers:{Authorization:"Bearer "+auth.token}}).then(function(res){
+      if(res&&res.progress)fromServerProgress(res.progress);
+      if(res&&res.account&&res.account.display_name){
+        var a=loadAuth();
+        if(a){a.name=res.account.display_name;saveAuth(a);}
+      }
+      return syncNow();
+    }).catch(function(e){
+      if(e&&e.status===401){clearAuth();renderAll();}
+      throw e;
+    });
+  }
+  function saveBoardsCache(){
+    var prev=commLoad(BOARDS_KEY,null)||{};
+    var next={fetchedAt:new Date().toISOString(),week:weekMonday};
+    ["weekly","streak","speaking"].forEach(function(k){next[k]=boards[k]||prev[k]||null;});
+    next.stats=stats||prev.stats||null;
+    commSave(BOARDS_KEY,next);
+  }
+  function loadBoards(){
+    var auth=loadAuth();
+    var headers={};
+    if(auth&&auth.token)headers={Authorization:"Bearer "+auth.token};
+    var cached=commLoad(BOARDS_KEY,null);
+    function get(path){return apiCall(path,{headers:headers});}
+    var settled=[
+      get("/api/leaderboard?board=weekly"),
+      get("/api/leaderboard?board=streak"),
+      get("/api/leaderboard?board=speaking"),
+      get("/api/stats")
+    ].map(function(p){return p.then(function(v){return {ok:true,v:v};},function(e){return {ok:false,e:e};});});
+    return Promise.all(settled).then(function(res){
+      var anyBoardFail=false,fromCache=false;
+      var keys=["weekly","streak","speaking"];
+      for(var i=0;i<3;i++){
+        if(res[i].ok){boards[keys[i]]=res[i].v;}
+        else{
+          anyBoardFail=true;
+          if(cached&&cached[keys[i]]){boards[keys[i]]=cached[keys[i]];fromCache=true;}
+        }
+      }
+      if(res[3].ok){stats=res[3].v;}
+      else if(cached&&cached.stats){stats=cached.stats;fromCache=true;}
+      if(boards.weekly&&boards.weekly.week)weekMonday=boards.weekly.week;
+      else if(cached&&cached.week)weekMonday=cached.week;
+      boardsFailed=anyBoardFail;
+      boardsFromCache=fromCache;
+      boardsLoaded=true;
+      saveBoardsCache();
+      renderAll();
+      if(readyResolve){readyResolve();readyResolve=null;}
+      maybeSync();
+    });
+  }
+  function heartBtn(board,r){
+    var hearts=loadHearts();
+    var key=weekMonday+":"+board+":"+r.account_id;
+    var on=hearts.indexOf(key)>=0;
+    var n=r.cheers||0;
+    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-id=\""+escapeHtml(r.account_id)+"\">"+(on?"♥ ":"♡ ")+n+"</button>";
+  }
+  function onCheer(btn){
+    var auth=loadAuth();
+    var board=btn.dataset.board,id=btn.dataset.id;
+    if(!auth){cheerMsg={board:board,text:"Đăng nhập để tặng tim nhé."};renderAll();return;}
+    var hearts=loadHearts();
+    var key=weekMonday+":"+board+":"+id;
+    if(hearts.indexOf(key)>=0){cheerMsg={board:board,text:"Bạn đã tặng tim cho người này trong tuần rồi."};renderAll();return;}
+    btn.disabled=true;
+    apiCall("/api/cheer",{method:"POST",body:{token:auth.token,account_id:id,board:board}}).then(function(res){
+      hearts.push(key);saveHearts(hearts);
+      var b=boards[board];
+      if(b&&b.entries)b.entries.forEach(function(r){if(r.account_id===id)r.cheers=res.cheers;});
+      saveBoardsCache();
+      cheerMsg={board:null,text:""};
+      renderAll();
+    }).catch(function(e){
+      cheerMsg={board:board,text:e.message||"Không tặng tim được, thử lại sau nhé."};
       renderAll();
     });
   }
-  function renderAuth(){
-    const box=document.getElementById("comm-auth");
+  function renderBoard(boardId,apiBoard,title,valueLabel){
+    var box=document.getElementById(boardId);
     if(!box)return;
-    const auth=loadAuth();
+    var data=boards[apiBoard];
+    var auth=loadAuth();
+    var html="<h3>"+escapeHtml(title)+"</h3>";
+    if(!data){
+      html+=boardsLoaded?"<p class=\"comm-note\">Không tải được bảng này. Kiểm tra mạng rồi tải lại trang nhé.</p>":"<p>Đang tải bảng…</p>";
+      box.innerHTML=html;
+      return;
+    }
+    var rows=data.entries||[];
+    if(!rows.length)html+="<p class=\"comm-note\">Chưa có ai trên bảng này.</p>";
+    rows.slice(0,10).forEach(function(r,i){
+      var medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
+      html+="<div class=\"comm-row\"><span class=\"rank\">"+(r.rank||i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+medal+" "+escapeHtml(r.display_name)+" (Cấp "+(r.level||1)+")</span></span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(apiBoard,r)+"</div>";
+    });
     if(auth){
-      const badges=loadBadges();
+      var me=data.me;
+      if(me){
+        var rankTxt=me.rank?("Hạng "+me.rank):"Chưa xếp hạng";
+        html+="<div class=\"comm-row me\"><span class=\"rank\">•</span><span class=\"name\">"+escapeHtml(auth.name)+" (Cấp "+myLevel()+") (bạn)</span><span class=\"pts\">"+me.value+" "+escapeHtml(valueLabel)+"</span><span>"+escapeHtml(rankTxt)+"</span></div>";
+      }
+    }else{
+      html+="<p class=\"comm-note\">Đăng nhập để thấy hạng của bạn trên bảng này.</p>";
+    }
+    if(cheerMsg.board===apiBoard&&cheerMsg.text)html+="<p class=\"comm-note\">"+escapeHtml(cheerMsg.text)+"</p>";
+    box.innerHTML=html;
+    box.querySelectorAll(".comm-heart").forEach(function(b){
+      b.addEventListener("click",function(){onCheer(b);});
+    });
+  }
+  function renderChallenge(){
+    var box=document.getElementById("comm-challenge");
+    if(!box)return;
+    var done=challengeProgress();
+    var target=CHALLENGE.target;
+    var pct=Math.round(100*done/target);
+    var badges=loadBadges();
+    var cid="tuan-"+weekNumber(weekMonday);
+    var claimed=badges.indexOf(cid)>=0;
+    box.innerHTML="<h3>Thử thách tuần "+weekNumber(weekMonday)+"</h3><p><b>"+escapeHtml(CHALLENGE.title)+"</b></p>"
+      +"<div class=\"comm-progress\"><i style=\"width:"+pct+"%\"></i></div>"
+      +"<p>"+done+" trên "+target+" "+escapeHtml(CHALLENGE.unit)+" ("+pct+"%)</p>"
+      +(done>=target
+        ?(claimed?"<p>Đã nhận huy hiệu <b>"+escapeHtml(CHALLENGE.badge)+"</b> và +"+CHALLENGE.rewardXp+" XP.</p>"
+          :"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-claim\">Nhận huy hiệu + "+CHALLENGE.rewardXp+" XP</button></p>")
+        :"<p>Hoàn thành thử thách để nhận huy hiệu <b>"+escapeHtml(CHALLENGE.badge)+"</b> và +"+CHALLENGE.rewardXp+" XP.</p>");
+    var claim=document.getElementById("comm-claim");
+    if(claim)claim.addEventListener("click",function(){
+      var b=loadBadges();
+      if(b.indexOf(cid)<0)b.push(cid);
+      saveBadges(b);
+      updateProgress(function(p){awardXp(p,CHALLENGE.rewardXp);});
+      scheduleSync(1000);
+      renderAll();
+    });
+  }
+  function renderStats(){
+    var el=document.getElementById("comm-stats");
+    if(!el)return;
+    if(!stats){el.textContent=boardsLoaded?"Chưa tải được thống kê.":"Đang tải thống kê…";return;}
+    el.textContent="Đã có "+stats.accounts+" người đăng kí, "+stats.active_week+" người học trong tuần này.";
+  }
+  function renderAuth(){
+    var box=document.getElementById("comm-auth");
+    if(!box)return;
+    var auth=loadAuth();
+    if(auth){
+      var badges=loadBadges();
       box.innerHTML="<h3>Tài khoản của bạn</h3><p>Xin chào <b>"+escapeHtml(auth.name)+"</b> ("+escapeHtml(auth.email)+"). Cấp "+myLevel()+".</p>"
         +(badges.length?"<p>Huy hiệu: "+badges.map(function(b){return escapeHtml(b);}).join(", ")+"</p>":"<p>Chưa có huy hiệu nào.</p>")
-        +"<p><label><input type=\"checkbox\" id=\"comm-hide-name\""+(auth.hidden?" checked":"")+"> Ẩn tên trên bảng (hiện Người học ẩn danh)</label></p>"
-        +"<p><button type=\"button\" class=\"btn btn-ghost\" id=\"comm-logout\">Đăng xuất</button> <button type=\"button\" class=\"btn btn-ghost\" id=\"comm-delete\">Xóa tài khoản</button></p>";
-      const hide=document.getElementById("comm-hide-name");
-      if(hide)hide.addEventListener("change",function(){
-        const a=loadAuth();if(!a)return;a.hidden=hide.checked;saveAuth(a);renderAll();
-      });
-      const out=document.getElementById("comm-logout");
-      if(out)out.addEventListener("click",function(){try{localStorage.removeItem(AUTH_KEY);}catch(e){}renderAll();});
-      const del=document.getElementById("comm-delete");
-      if(del)del.addEventListener("click",function(){
-        if(!confirm("Xóa tài khoản? Việc này không khôi phục được."))return;
-        try{localStorage.removeItem(AUTH_KEY);localStorage.removeItem(BADGE_KEY);}catch(e){}
-        renderAll();
-      });
+        +"<p><button type=\"button\" class=\"btn btn-ghost\" id=\"comm-logout\">Đăng xuất</button></p>";
+      var out=document.getElementById("comm-logout");
+      if(out)out.addEventListener("click",function(){clearAuth();renderAll();loadBoards();});
       return;
     }
     box.innerHTML="<h3>Đăng nhập để đua top</h3>"
@@ -1257,120 +1505,184 @@ renderChips();syncView();applyFilters();
       +"<div id=\"comm-register\" style=\"display:none\"><h3>Đăng kí</h3><div class=\"comm-form\">"
       +"<label for=\"comm-reg-email\">Email</label><input id=\"comm-reg-email\" type=\"email\" placeholder=\"email của bạn\">"
       +"<label for=\"comm-reg-name\">Tên hiển thị (2 đến 20 ký tự)</label><input id=\"comm-reg-name\" type=\"text\" placeholder=\"tên hiển thị, không cần tên thật\" maxlength=\"20\">"
-      +"<label for=\"comm-reg-pass\">Mật khẩu</label><input id=\"comm-reg-pass\" type=\"password\" placeholder=\"mật khẩu\" autocomplete=\"new-password\">"
+      +"<label for=\"comm-reg-pass\">Mật khẩu (ít nhất 8 ký tự)</label><input id=\"comm-reg-pass\" type=\"password\" placeholder=\"mật khẩu\" autocomplete=\"new-password\">"
       +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-register-btn\">Đăng kí</button></p>"
       +"<p id=\"comm-reg-msg\"></p></div></div>"
       +"<div id=\"comm-activate\" style=\"display:none\"><h3>Kích hoạt tài khoản</h3><p>Nhập mã 6 số đã gửi qua email.</p><div class=\"comm-form\">"
-      +"<label for=\"comm-code\">Mã 6 số</label><input id=\"comm-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"123456\">"
-      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-activate-btn\">Kích hoạt</button></p>"
-      +"<p id=\"comm-activate-msg\"></p><p class=\"comm-note\">Bản thử nghiệm: mã kích hoạt là "+MOCK_CODE+" (chưa nối máy chủ thật nên mã hiện luôn ở đây).</p></div></div>"
+      +"<label for=\"comm-code\">Mã 6 số</label><input id=\"comm-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"••••••\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-activate-btn\">Kích hoạt</button> <button type=\"button\" class=\"btn btn-ghost\" id=\"comm-resend-code\">Gửi lại mã</button></p>"
+      +"<p id=\"comm-activate-msg\"></p><p class=\"comm-note\">Mã có hiệu lực trong 10 phút. Không nhận được mã? Kiểm tra mục thư rác rồi bấm gửi lại.</p></div></div>"
       +"<div id=\"comm-reset\" style=\"display:none\"><h3>Đặt lại mật khẩu</h3><div class=\"comm-form\">"
       +"<label for=\"comm-reset-email\">Email</label><input id=\"comm-reset-email\" type=\"email\" placeholder=\"email đã đăng kí\">"
       +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-reset-send\">Gửi mã</button></p>"
-      +"<label for=\"comm-reset-code\">Mã 6 số</label><input id=\"comm-reset-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"123456\">"
-      +"<label for=\"comm-reset-pass\">Mật khẩu mới</label><input id=\"comm-reset-pass\" type=\"password\" placeholder=\"mật khẩu mới\">"
+      +"<label for=\"comm-reset-code\">Mã 6 số</label><input id=\"comm-reset-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"••••••\">"
+      +"<label for=\"comm-reset-pass\">Mật khẩu mới (ít nhất 8 ký tự)</label><input id=\"comm-reset-pass\" type=\"password\" placeholder=\"mật khẩu mới\">"
       +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-reset-btn\">Đặt mật khẩu mới</button></p>"
-      +"<p id=\"comm-reset-msg\"></p><p class=\"comm-note\">Bản thử nghiệm: mã đặt lại là "+MOCK_CODE+".</p></div></div>";
-    const msg=document.getElementById("comm-auth-msg");
-    const loginBtn=document.getElementById("comm-login");
+      +"<p id=\"comm-reset-msg\"></p><p class=\"comm-note\">Mã có hiệu lực trong 10 phút.</p></div></div>";
+    function setMsg(id,text){var m=document.getElementById(id);if(m)m.textContent=text;}
+    var loginBtn=document.getElementById("comm-login");
     if(loginBtn)loginBtn.addEventListener("click",function(){
-      const email=(document.getElementById("comm-email").value||"").trim();
-      const pass=document.getElementById("comm-pass").value||"";
-      let users={};
-      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
-      const u=users[email];
-      if(!u){if(msg)msg.textContent="Chưa có tài khoản với email này. Đăng kí tài khoản mới nhé.";return;}
-      if(u.pass!==pass){if(msg)msg.textContent="Mật khẩu chưa đúng. Thử lại nhé.";return;}
-      saveAuth({email:email,name:u.name,hidden:!!u.hidden,expires:new Date(Date.now()+30*86400000).toISOString()});
-      renderAll();
+      var email=(document.getElementById("comm-email").value||"").trim().toLowerCase();
+      var pass=document.getElementById("comm-pass").value||"";
+      if(!email||!pass){setMsg("comm-auth-msg","Nhập đủ email và mật khẩu nhé.");return;}
+      loginBtn.disabled=true;
+      setMsg("comm-auth-msg","Đang đăng nhập…");
+      apiCall("/api/auth/login",{method:"POST",body:{email:email,password:pass}}).then(function(res){
+        saveAuth({token:res.token,email:email,name:res.account.display_name,accountId:res.account.id,expires:new Date(Date.now()+30*86400000).toISOString()});
+        loginBtn.disabled=false;
+        renderAll();
+        pullMeAndSync().then(function(){loadBoards();renderAll();},function(){loadBoards();renderAll();});
+      }).catch(function(e){
+        loginBtn.disabled=false;
+        setMsg("comm-auth-msg",e.message||"Đăng nhập chưa được, thử lại nhé.");
+      });
     });
-    const showReg=document.getElementById("comm-show-register");
+    var showReg=document.getElementById("comm-show-register");
     if(showReg)showReg.addEventListener("click",function(){
-      const r=document.getElementById("comm-register");
+      var r=document.getElementById("comm-register");
       if(r)r.style.display="block";
     });
-    const regBtn=document.getElementById("comm-register-btn");
+    var regBtn=document.getElementById("comm-register-btn");
     if(regBtn)regBtn.addEventListener("click",function(){
-      const email=(document.getElementById("comm-reg-email").value||"").trim();
-      const name=(document.getElementById("comm-reg-name").value||"").trim();
-      const pass=document.getElementById("comm-reg-pass").value||"";
-      const m=document.getElementById("comm-reg-msg");
-      if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){if(m)m.textContent="Email chưa đúng định dạng.";return;}
-      if(name.length<2||name.length>20){if(m)m.textContent="Tên hiển thị từ 2 đến 20 ký tự.";return;}
-      if(/@|https?:|www\.|\d{9,}/.test(name)){if(m)m.textContent="Tên hiển thị không được chứa email, số điện thoại hay link.";return;}
-      if(pass.length<6){if(m)m.textContent="Mật khẩu ít nhất 6 ký tự.";return;}
-      let users={};
-      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
-      users[email]={name:name,pass:pass,hidden:false};
-      try{localStorage.setItem("sdsc-comm-users-v1",JSON.stringify(users));}catch(e){}
-      try{localStorage.setItem("sdsc-comm-pending-v1",JSON.stringify({email:email,name:name}));}catch(e){}
-      const act=document.getElementById("comm-activate");
-      if(act)act.style.display="block";
-      if(m)m.textContent="Đã tạo tài khoản. Nhập mã kích hoạt bên dưới nhé.";
+      var email=(document.getElementById("comm-reg-email").value||"").trim().toLowerCase();
+      var name=(document.getElementById("comm-reg-name").value||"").trim();
+      var pass=document.getElementById("comm-reg-pass").value||"";
+      if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setMsg("comm-reg-msg","Email chưa đúng định dạng.");return;}
+      if(name.length<2||name.length>20){setMsg("comm-reg-msg","Tên hiển thị từ 2 đến 20 ký tự.");return;}
+      if(pass.length<8){setMsg("comm-reg-msg","Mật khẩu ít nhất 8 ký tự.");return;}
+      regBtn.disabled=true;
+      setMsg("comm-reg-msg","Đang gửi mã qua email…");
+      apiCall("/api/auth/send-code",{method:"POST",body:{email:email,display_name:name,password:pass,purpose:"register"}}).then(function(){
+        pendingReg={email:email,name:name,pass:pass};
+        regBtn.disabled=false;
+        var act=document.getElementById("comm-activate");
+        if(act)act.style.display="block";
+        setMsg("comm-reg-msg","Đã gửi mã 6 số qua email. Nhập mã bên dưới nhé.");
+      }).catch(function(e){
+        regBtn.disabled=false;
+        setMsg("comm-reg-msg",e.message||"Chưa gửi được mã, thử lại nhé.");
+      });
     });
-    const actBtn=document.getElementById("comm-activate-btn");
+    var actBtn=document.getElementById("comm-activate-btn");
     if(actBtn)actBtn.addEventListener("click",function(){
-      const code=(document.getElementById("comm-code").value||"").trim();
-      const m=document.getElementById("comm-activate-msg");
-      if(code!==MOCK_CODE){if(m)m.textContent="Mã chưa đúng. Thử lại nhé.";return;}
-      let pending=null;
-      try{pending=JSON.parse(localStorage.getItem("sdsc-comm-pending-v1")||"null");}catch(e){}
-      if(!pending){if(m)m.textContent="Không tìm thấy tài khoản chờ kích hoạt.";return;}
-      saveAuth({email:pending.email,name:pending.name,hidden:false,expires:new Date(Date.now()+30*86400000).toISOString()});
-      try{localStorage.removeItem("sdsc-comm-pending-v1");}catch(e){}
-      renderAll();
+      var code=(document.getElementById("comm-code").value||"").trim();
+      if(!/^\d{6}$/.test(code)){setMsg("comm-activate-msg","Mã có 6 số nhé.");return;}
+      if(!pendingReg){setMsg("comm-activate-msg","Không tìm thấy tài khoản chờ kích hoạt. Đăng kí lại nhé.");return;}
+      actBtn.disabled=true;
+      setMsg("comm-activate-msg","Đang kích hoạt…");
+      apiCall("/api/auth/verify",{method:"POST",body:{email:pendingReg.email,code:code,purpose:"register"}}).then(function(res){
+        saveAuth({token:res.token,email:pendingReg.email,name:res.account.display_name,accountId:res.account.id,expires:new Date(Date.now()+30*86400000).toISOString()});
+        pendingReg=null;
+        actBtn.disabled=false;
+        renderAll();
+        pullMeAndSync().then(function(){loadBoards();renderAll();},function(){loadBoards();renderAll();});
+      }).catch(function(e){
+        actBtn.disabled=false;
+        setMsg("comm-activate-msg",e.message||"Kích hoạt chưa được, thử lại nhé.");
+      });
     });
-    const forgot=document.getElementById("comm-forgot-link");
+    var resendBtn=document.getElementById("comm-resend-code");
+    if(resendBtn)resendBtn.addEventListener("click",function(){
+      if(!pendingReg){setMsg("comm-activate-msg","Không tìm thấy tài khoản chờ kích hoạt. Đăng kí lại nhé.");return;}
+      resendBtn.disabled=true;
+      apiCall("/api/auth/send-code",{method:"POST",body:{email:pendingReg.email,display_name:pendingReg.name,password:pendingReg.pass,purpose:"register"}}).then(function(){
+        setMsg("comm-activate-msg","Đã gửi lại mã qua email.");
+        setTimeout(function(){try{resendBtn.disabled=false;}catch(e){}},60000);
+      }).catch(function(e){
+        resendBtn.disabled=false;
+        setMsg("comm-activate-msg",e.message||"Chưa gửi lại được mã, thử lại sau nhé.");
+      });
+    });
+    var forgot=document.getElementById("comm-forgot-link");
     if(forgot)forgot.addEventListener("click",function(e){
       e.preventDefault();
-      const r=document.getElementById("comm-reset");
+      var r=document.getElementById("comm-reset");
       if(r)r.style.display="block";
     });
-    const resetSend=document.getElementById("comm-reset-send");
+    var resetSend=document.getElementById("comm-reset-send");
     if(resetSend)resetSend.addEventListener("click",function(){
-      const m=document.getElementById("comm-reset-msg");
-      if(m)m.textContent="Đã gửi mã qua email (bản thử: mã là "+MOCK_CODE+").";
+      var email=(document.getElementById("comm-reset-email").value||"").trim().toLowerCase();
+      if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setMsg("comm-reset-msg","Email chưa đúng định dạng.");return;}
+      resetSend.disabled=true;
+      setMsg("comm-reset-msg","Đang gửi mã…");
+      apiCall("/api/auth/send-code",{method:"POST",body:{email:email,purpose:"reset"}}).then(function(){
+        resetSend.disabled=false;
+        setMsg("comm-reset-msg","Đã gửi mã qua email. Nhập mã và mật khẩu mới bên dưới nhé.");
+      }).catch(function(e){
+        resetSend.disabled=false;
+        setMsg("comm-reset-msg",e.message||"Chưa gửi được mã, thử lại nhé.");
+      });
     });
-    const resetBtn=document.getElementById("comm-reset-btn");
+    var resetBtn=document.getElementById("comm-reset-btn");
     if(resetBtn)resetBtn.addEventListener("click",function(){
-      const email=(document.getElementById("comm-reset-email").value||"").trim();
-      const code=(document.getElementById("comm-reset-code").value||"").trim();
-      const pass=document.getElementById("comm-reset-pass").value||"";
-      const m=document.getElementById("comm-reset-msg");
-      if(code!==MOCK_CODE){if(m)m.textContent="Mã chưa đúng. Thử lại nhé.";return;}
-      if(pass.length<6){if(m)m.textContent="Mật khẩu mới ít nhất 6 ký tự.";return;}
-      let users={};
-      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
-      if(!users[email]){if(m)m.textContent="Chưa có tài khoản với email này.";return;}
-      users[email].pass=pass;
-      try{localStorage.setItem("sdsc-comm-users-v1",JSON.stringify(users));}catch(e){}
-      if(m)m.textContent="Đã đặt mật khẩu mới. Đăng nhập lại nhé.";
+      var email=(document.getElementById("comm-reset-email").value||"").trim().toLowerCase();
+      var code=(document.getElementById("comm-reset-code").value||"").trim();
+      var pass=document.getElementById("comm-reset-pass").value||"";
+      if(!/^\d{6}$/.test(code)){setMsg("comm-reset-msg","Mã có 6 số nhé.");return;}
+      if(pass.length<8){setMsg("comm-reset-msg","Mật khẩu mới ít nhất 8 ký tự.");return;}
+      resetBtn.disabled=true;
+      setMsg("comm-reset-msg","Đang đặt mật khẩu mới…");
+      apiCall("/api/auth/verify",{method:"POST",body:{email:email,code:code,purpose:"reset"}}).then(function(res){
+        return apiCall("/api/auth/reset-password",{method:"POST",body:{email:email,reset_token:res.reset_token,new_password:pass}});
+      }).then(function(){
+        resetBtn.disabled=false;
+        setMsg("comm-reset-msg","Đã đặt mật khẩu mới. Đăng nhập lại nhé.");
+      }).catch(function(e){
+        resetBtn.disabled=false;
+        setMsg("comm-reset-msg",e.message||"Đặt mật khẩu chưa được, thử lại nhé.");
+      });
     });
   }
   function renderTeaser(){
-    const box=document.getElementById("comm-teaser");
+    var box=document.getElementById("comm-teaser");
     if(!box)return;
-    const auth=loadAuth();
-    const top=(mock.leaderboards.xp||[]).slice(0,3);
-    box.innerHTML="<h3>Đua top tuần này</h3>"
-      +"<p>"+top.map(function(r,i){return (i+1)+". "+escapeHtml(r.name)+" ("+r.value+" XP)";}).join(" • ")+"</p>"
-      +(auth?"<p>Hạng của bạn tuần này: <b>"+myWeeklyXp()+" XP</b>.</p>":"<p>Đăng nhập để đua top và thấy hạng của bạn.</p>")
-      +"<p><a class=\"btn btn-primary\" href=\""+"/sai-dau-sua-do"+"/cong-dong/\">Xem bảng đầy đủ →</a></p>";
+    var auth=loadAuth();
+    var w=boards.weekly;
+    var html="<h3>Đua top tuần này</h3>";
+    if(!w){
+      html+=boardsLoaded?"<p>Chưa tải được bảng tuần này. Vào trang Cộng đồng để xem nhé.</p>":"<p>Đang tải bảng tuần này…</p>";
+    }else if(!(w.entries||[]).length){
+      html+="<p>Chưa có ai đua top tuần này. Đăng nhập và học xong 1 bài để lên bảng nhé.</p>";
+    }else{
+      var top=w.entries.slice(0,3);
+      html+="<p>"+top.map(function(r,i){return (i+1)+". "+escapeHtml(r.display_name)+" ("+r.value+" XP)";}).join(" • ")+"</p>";
+      if(auth&&w.me)html+="<p>Hạng của bạn tuần này: <b>"+w.me.value+" XP</b>"+(w.me.rank?" (hạng "+w.me.rank+")":"")+".</p>";
+      else if(!auth)html+="<p>Đăng nhập để đua top và thấy hạng của bạn.</p>";
+    }
+    html+="<p><a class=\"btn btn-primary\" href=\""+"/sai-dau-sua-do"+"/cong-dong/\">Xem bảng đầy đủ →</a></p>";
+    box.innerHTML=html;
   }
   function renderAll(){
-    renderBoard("board-xp","Top XP tuần (reset 0 giờ Thứ 2)",(mock.leaderboards.xp||[]).map(function(r){return {name:r.name,level:r.level,value:r.xp,hearts:r.hearts,badge:r.badge};}),"XP");
-    renderBoard("board-streak","Chuỗi ngày dài nhất",(mock.leaderboards.streak||[]).map(function(r){return {name:r.name,level:r.level,value:r.days,hearts:r.hearts,badge:r.badge};}),"ngày");
-    renderBoard("board-speak","Điểm nói tốt nhất tuần",(mock.leaderboards.speak||[]).map(function(r){return {name:r.name,level:r.level,value:r.score,hearts:r.hearts,badge:r.badge};}),"điểm");
+    renderBoard("board-xp","weekly","Top XP tuần (reset 0 giờ Thứ 2)","XP");
+    renderBoard("board-streak","streak","Chuỗi ngày dài nhất","ngày");
+    renderBoard("board-speak","speaking","Điểm nói tốt nhất tuần","điểm");
     renderChallenge();
     renderAuth();
     renderTeaser();
-    const note=document.getElementById("comm-offline");
-    if(note)note.style.display="none";
+    renderStats();
+    var note=document.getElementById("comm-offline");
+    if(note){
+      if(boardsFailed){
+        note.style.display="block";
+        note.textContent=boardsFromCache?"Đang hiện bảng đã lưu từ lần trước. Kiểm tra mạng rồi tải lại trang để cập nhật.":"Không tải được bảng xếp hạng. Kiểm tra mạng rồi tải lại trang nhé.";
+      }else{
+        note.style.display="none";
+      }
+    }
   }
+  window.addEventListener("storage",function(e){
+    if(e&&e.key==="sdsc-progress-v1")scheduleSync(5000);
+  });
   renderAll();
+  loadBoards();
   window.__commTest={
-    state:function(){return {auth:loadAuth(),hearts:loadHearts(),badges:loadBadges(),challengeDone:challengeProgress(),weeklyXp:myWeeklyXp()};},
-    renderAll:renderAll
+    state:function(){return {auth:loadAuth(),hearts:loadHearts(),badges:loadBadges(),challengeDone:challengeProgress(),weeklyXp:weeklyXpLocal(),boardsLoaded:boardsLoaded,boardsFailed:boardsFailed,weekMonday:weekMonday,stats:stats};},
+    renderAll:renderAll,
+    ready:ready,
+    loadBoards:loadBoards,
+    syncNow:syncNow,
+    toServerProgress:toServerProgress,
+    fromServerProgress:fromServerProgress
   };
 })();
 </script>
