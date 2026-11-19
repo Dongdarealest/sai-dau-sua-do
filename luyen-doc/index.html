@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var __t=localStorage.getItem("sdsc-theme");if(__t){document.documentElement.dataset.theme=__t;}else if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.dataset.theme="dark";}}catch(e){}</script>
+<title>Luyện đọc | Kho bài học Sai Đâu Sửa Đó</title>
+<meta name="description" content="Luyện đọc tiếng Anh: đọc đoạn văn ngắn và săn lỗi, bấm từ hiện nghĩa, cấp độ đọc tự điều chỉnh theo điểm.">
+<link rel="icon" type="image/svg+xml" href="/sai-dau-sua-do/favicon.svg">
+<link rel="canonical" href="https://dongdarealest.github.io/sai-dau-sua-do/luyen-doc/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Luyện đọc | Kho bài học Sai Đâu Sửa Đó">
+<meta property="og:description" content="Luyện đọc tiếng Anh: đọc đoạn văn ngắn và săn lỗi, bấm từ hiện nghĩa, cấp độ đọc tự điều chỉnh theo điểm.">
+<meta property="og:url" content="https://dongdarealest.github.io/sai-dau-sua-do/luyen-doc/">
+<meta property="og:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<meta property="og:site_name" content="Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luyện đọc | Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:description" content="Luyện đọc tiếng Anh: đọc đoạn văn ngắn và săn lỗi, bấm từ hiện nghĩa, cấp độ đọc tự điều chỉnh theo điểm.">
+<meta name="twitter:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
+<noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
+</head>
+<body class="has-nav">
+
+
+<header class="appbar">
+  <div class="appwrap">
+    <a href="/sai-dau-sua-do/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="/sai-dau-sua-do/">Sai Đâu Sửa Đó</a><small>Mỗi ngày sửa một lỗi nhỏ.</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
+  </div>
+</header>
+<main class="appwrap">
+  <section>
+    <h2>Luyện đọc</h2>
+    <p class="skill-intro">Đọc và săn lỗi. Đoạn văn ngắn 3 đến 5 câu về tình huống đời thường, giấu 1 lỗi đúng kiểu bài vừa học. Bấm vào câu nghi là sai rồi chọn cách sửa. Bấm vào 1 từ để xem nghĩa tiếng Việt ngay.</p>
+  </section>
+  <section id="read-start">
+    <p><button type="button" class="btn btn-primary" id="read-begin">Bắt đầu luyện đọc</button></p>
+    <p class="msub2">Mỗi buổi 3 đoạn, xong 1 đoạn được 20 XP. Cấp độ đọc tự điều chỉnh theo điểm của bạn.</p>
+    <p class="read-level" id="read-level"></p>
+  </section>
+  <section class="skill-card" id="read-card" style="display:none">
+    <p class="skill-round" id="read-progress"></p>
+    <p class="skill-source" id="read-situation"></p>
+    <p class="skill-source" id="read-source"></p>
+    <div class="read-passage" id="read-passage"></div>
+    <div class="read-word-pop" id="read-wordpop"></div>
+    <div id="read-fix"></div>
+    <div id="read-question"></div>
+    <div class="skill-feedback" id="read-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="read-next" style="display:none">Đoạn tiếp theo</button></p>
+  </section>
+  <section class="skill-done" id="read-done" style="display:none"></section>
+  <section>
+    <p id="read-stats"></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Học trên Facebook: <a href="https://www.facebook.com/profile.php?id=61596506009854">Sai Đâu Sửa Đó</a>
+    &nbsp;•&nbsp; Vào Group làm bài tập mỗi ngày: <a href="https://www.facebook.com/groups/4387154551501983">Cộng đồng Sai Đâu Sửa Đó</a>
+  </div>
+</footer>
+
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
+<script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script><script src="/sai-dau-sua-do/reading.js"></script><script>window.SDSC_READ_VI={"a": "một", "about": "về", "actually": "thật ra", "after": "sau", "again": "nữa, lại", "agree": "đồng ý", "all": "tất cả", "alone": "một mình", "already": "rồi", "always": "luôn luôn", "am": "là, ở", "an": "một", "and": "và", "are": "là, ở", "around": "xung quanh", "arrive": "đến nơi", "ask": "hỏi", "asked": "đã hỏi", "at": "tại", "back": "lưng", "bag": "cái túi", "be": "là, ở", "beach": "bãi biển", "beautiful": "đẹp", "because": "vì", "best": "tốt nhất", "big": "lớn", "blue": "xanh dương", "book": "sách", "bored": "chán, buồn chán", "boring": "gây chán", "borrow": "mượn (của ai cái gì)", "bought": "đã mua", "brave": "dũng cảm", "break": "làm vỡ", "breakfast": "bữa sáng", "brother": "anh, em trai", "bus": "xe buýt", "busy": "bận", "by": "bằng, bởi", "cafe": "quán cà phê", "call": "gọi điện", "came": "đã đến", "can": "có thể", "car": "xe hơi", "celebrate": "ăn mừng, kỷ niệm", "city": "thành phố", "class": "lớp học", "clear": "rõ ràng", "coffee": "cà phê", "come": "đến", "day": "ngày", "dear": "thân mến", "did": "đã làm", "didn't": "không (viết tắt của did not)", "dinner": "bữa tối", "don't": "không (viết tắt của do not)", "drive": "lái xe", "early": "sớm", "end": "cuối", "english": "tiếng Anh", "evening": "buổi tối", "every": "mọi", "everyone": "mọi người", "everything": "mọi thứ", "excited": "hào hứng", "family": "gia đình", "farther": "xa hơn (khoảng cách)", "father": "bố", "feel": "cảm thấy", "film": "phim", "finish": "hoàn thành", "finished": "đã hoàn thành", "fish": "cá", "five": "năm", "food": "thức ăn", "foot": "bàn chân", "football": "bóng đá", "for": "trong (khoảng thời gian)", "friday": "thứ sáu", "friend": "bạn", "from": "từ", "full": "đầy", "garden": "vườn", "give": "cho", "go": "đi", "good": "tốt", "had": "đã có", "happen": "xảy ra", "happy": "vui vẻ", "hard": "khó", "has": "có", "have": "có", "he": "anh ấy", "hear": "nghe thấy", "held": "đã cầm, đã giữ", "help": "giúp", "helped": "đã giúp", "her": "của cô ấy", "here": "ở đây", "hi": "chào", "him": "anh ấy, ông ấy", "his": "của anh ấy, của cô ấy", "holiday": "kỳ nghỉ, ngày lễ", "home": "nhà", "hometown": "quê hương", "homework": "bài tập về nhà", "hospital": "bệnh viện", "hot": "nóng", "house": "ngôi nhà", "i": "tôi", "i'd": "tôi sẽ, tôi đã", "idea": "ý tưởng", "in": "trong", "is": "là, ở", "it": "nó, cái đó", "january": "tháng 1", "job": "công việc", "kind": "tốt bụng", "know": "biết", "lake": "hồ", "large": "lớn", "last": "cuối cùng", "late": "muộn", "learn": "học", "learned": "đã học", "leave": "rời đi", "left": "đã rời đi", "less": "ít hơn", "lesson": "bài học", "life": "cuộc sống", "light": "nhẹ", "like": "thích", "liked": "đã thích", "little": "nhỏ, ít", "live": "sống", "lived": "đã sống", "long": "dài", "looked": "đã nhìn", "lot": "nhiều", "love": "yêu", "many": "nhiều", "market": "chợ", "married": "đã kết hôn", "me": "tôi", "meet": "gặp", "meeting": "cuộc họp", "met": "đã gặp", "minute": "phút", "monday": "thứ hai", "money": "tiền", "month": "tháng", "morning": "buổi sáng", "mother": "mẹ", "moved": "đã di chuyển", "movie": "phim", "much": "nhiều", "my": "của tôi", "name": "tên", "near": "gần", "need": "cần", "new": "mới", "news": "tin tức", "next": "tiếp theo", "night": "ban đêm", "no": "không", "noisy": "ồn ào", "not": "không", "note": "ghi chú", "november": "tháng 11", "now": "bây giờ", "nurse": "y tá", "occasion": "dịp", "of": "của", "off": "tắt, rời", "often": "thường xuyên", "old": "cũ, già", "on": "trên", "one": "một", "only": "chỉ", "open": "mở", "our": "của chúng tôi", "out": "ra ngoài", "paid": "đã trả", "parents": "bố mẹ", "park": "công viên", "party": "bữa tiệc", "pen": "cây bút", "people": "mọi người", "perfect": "hoàn hảo", "plan": "kế hoạch", "play": "chơi", "please": "làm ơn", "prefer": "thích hơn", "price": "giá", "quiet": "yên tĩnh", "ran": "đã chạy", "rather": "khá, thà rằng", "read": "đọc", "rest": "phần còn lại", "robbed": "đã cướp", "room": "phòng", "sad": "buồn", "said": "đã nói", "saturday": "thứ bảy", "school": "trường học", "sea": "biển", "see": "nhìn thấy", "send": "gửi", "she": "cô ấy", "sheep": "cừu", "shoes": "giày", "short": "thấp, ngắn", "show": "cho xem", "sick": "ốm", "since": "từ khi", "sing": "hát", "sister": "chị, em gái", "sit": "ngồi", "sky": "bầu trời", "sleep": "ngủ", "small": "nhỏ", "so": "vì vậy, rất", "someone": "ai đó", "soon": "sớm", "south": "phía nam", "special": "đặc biệt", "start": "bắt đầu", "started": "đã bắt đầu", "stay": "ở lại", "story": "câu chuyện", "student": "học sinh, sinh viên", "studied": "đã học", "study": "học", "summer": "mùa hè", "sunday": "chủ nhật", "tea": "trà", "teacher": "giáo viên", "team": "đội", "tennis": "quần vợt", "thank": "cảm ơn", "that": "kia", "the": "mạo từ xác định (thường không dịch riêng)", "their": "của họ", "them": "họ, chúng", "there": "ở đó", "these": "những cái này", "they": "họ", "this": "này", "time": "thời gian", "tired": "mệt", "to": "đến", "today": "hôm nay", "together": "cùng nhau", "told": "đã kể, đã bảo", "tonight": "tối nay", "too": "quá, cũng", "town": "thị trấn", "travel": "du lịch", "trip": "chuyến đi", "two": "hai", "university": "trường đại học", "up": "lên", "us": "chúng tôi", "usually": "thường", "very": "rất", "visit": "thăm", "walk": "đi bộ", "walked": "đã đi bộ", "want": "muốn", "was": "đã là, đã ở", "watch": "xem", "water": "nước", "way": "cách, đường", "we": "chúng tôi", "wear": "mặc", "weather": "thời tiết", "week": "tuần", "weekend": "cuối tuần", "went": "đã đi", "when": "khi nào", "while": "trong khi", "who": "ai", "whole": "toàn bộ", "will": "sẽ", "winter": "mùa đông", "wish": "ước, mong", "with": "với", "wonderful": "tuyệt vời", "word": "từ", "work": "làm việc", "worked": "đã làm việc", "write": "viết", "year": "năm", "yes": "vâng, có", "yesterday": "hôm qua", "you": "bạn", "young": "trẻ", "your": "của bạn"};</script>
+<script>
+(function(){
+  const passages=(window.SDSC_READING&&window.SDSC_READING.passages)||window.SDSC_READING||[];
+  const viMap=window.SDSC_READ_VI||{};
+  const card=document.getElementById("read-card");
+  const levelEl=document.getElementById("read-level");
+  const passageEl=document.getElementById("read-passage");
+  const situationEl=document.getElementById("read-situation");
+  const sourceEl=document.getElementById("read-source");
+  const fixBox=document.getElementById("read-fix");
+  const qBox=document.getElementById("read-question");
+  const feedbackEl=document.getElementById("read-feedback");
+  const nextBtn=document.getElementById("read-next");
+  const doneBox=document.getElementById("read-done");
+  const statsEl=document.getElementById("read-stats");
+  const wordPop=document.getElementById("read-wordpop");
+  const startBox=document.getElementById("read-start");
+  const progressEl=document.getElementById("read-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, cur=null, findAttempts=0, fixAttempts=0, found=false, fixed=false, qDone=false;
+  function getLevel(){
+    try{const p=getProgress();const lv=p.settings&&p.settings.readLevel;return (lv===1||lv===2||lv===3)?lv:1;}catch(e){return 1;}
+  }
+  function setLevel(lv){
+    updateProgress(function(p){if(!p.settings)p.settings={};p.settings.readLevel=Math.max(1,Math.min(3,lv));});
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("reading");
+    statsEl.textContent="Bạn đã luyện đọc "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện đọc "+(sp.streak||0)+" ngày.";
+  }
+  function passagesAtLevel(lv){
+    const list=passages.filter(function(p){return p.level===lv;});
+    if(list.length)return list;
+    return passages.slice();
+  }
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function startSession(){
+    const lv=getLevel();
+    let pool=passagesAtLevel(lv).slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(!pool.length)pool=passages.slice();
+    shuffle(pool);
+    session=pool.slice(0,3);
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    cur=session[idx];
+    if(!cur)return;
+    findAttempts=0;fixAttempts=0;found=false;fixed=false;qDone=false;
+    if(levelEl)levelEl.textContent="Cấp độ đọc: "+getLevel()+" trên 3. Đạt 90 điểm trở lên thì lần sau khó hơn, dưới 70 điểm thì dễ hơn.";
+    if(progressEl)progressEl.textContent="Buổi luyện đọc: đoạn "+(idx+1)+" trên "+session.length+".";
+    if(situationEl)situationEl.textContent="Tình huống: "+(cur.situation||cur.title||"");
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+"/sai-dau-sua-do"+"/bai/"+encodeURIComponent(cur.slug)+"/\">"+escapeHtml(cur.code+" "+cur.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(fixBox)fixBox.innerHTML="";
+    if(qBox)qBox.innerHTML="";
+    if(wordPop)wordPop.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    sessionWords+=cur.sentences.reduce(function(n,s){return n+sdscTokenize(s.text).length;},0);
+    if(passageEl){
+      passageEl.innerHTML=cur.sentences.map(function(s,i){
+        const words=sdscWordTokens(s.text).map(function(t){
+          return "<span class=\"word\" data-w=\""+escapeHtml(t.norm)+"\">"+escapeHtml(t.text)+"</span>";
+        }).join(" ");
+        return "<p class=\"read-sentence\" data-i=\""+i+"\">"+words+" <button type=\"button\" class=\"btn btn-ghost btn-pick-sentence\" data-i=\""+i+"\">Câu này sai</button></p>";
+      }).join("");
+      passageEl.querySelectorAll(".word").forEach(function(w){
+        w.addEventListener("click",function(e){
+          e.stopPropagation();
+          const word=w.dataset.w;
+          const v=viMap[word]||"";
+          if(wordPop){
+            if(v)wordPop.innerHTML="<b>"+escapeHtml(word)+"</b>: "+escapeHtml(v);
+            else wordPop.innerHTML="<b>"+escapeHtml(word)+"</b>: chưa có trong từ điển của Trang. <a href=\"https://dictionary.cambridge.org/dictionary/english/"+encodeURIComponent(word)+"\" target=\"_blank\" rel=\"noopener\">Tra trên Cambridge →</a>";
+          }
+        });
+      });
+      passageEl.querySelectorAll(".btn-pick-sentence").forEach(function(b){
+        b.addEventListener("click",function(){pickSentence(parseInt(b.dataset.i,10));});
+      });
+    }
+  }
+  function pickSentence(i){
+    const s=cur.sentences[i];
+    if(!s)return false;
+    if(found)return false;
+    if(!s.error){
+      findAttempts++;
+      if(feedbackEl)feedbackEl.innerHTML="<p class=\"bad\">Câu này không có lỗi. Đọc kĩ lại nhé, lỗi nằm ở 1 câu khác.</p>";
+      return false;
+    }
+    found=true;
+    if(feedbackEl)feedbackEl.innerHTML="<p class=\"good\">Đúng rồi, lỗi nằm ở câu này.</p>";
+    if(fixBox){
+      fixBox.innerHTML="<h3>Chọn cách sửa đúng:</h3><div class=\"skill-choices\">"
+        +s.options.map(function(o,j){
+          return "<button type=\"button\" class=\"opt\" data-i=\""+j+"\"><span class=\"letter\">"+["A","B","C"][j]+"</span><span>"+escapeHtml(o)+"</span></button>";
+        }).join("")+"</div>";
+      fixBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){pickFix(parseInt(b.dataset.i,10));});
+      });
+    }
+    return true;
+  }
+  function pickFix(j){
+    const s=cur.sentences.find(function(x){return x.error;});
+    if(!s||fixed)return false;
+    if(j!==s.answer){
+      fixAttempts++;
+      if(feedbackEl)feedbackEl.innerHTML="<p class=\"bad\">Chưa đúng. Đọc lại lời giải thích nhé.</p><p>"+escapeHtml(s.why||"")+"</p>";
+      return false;
+    }
+    fixed=true;
+    if(feedbackEl)feedbackEl.innerHTML="<p class=\"good\">Sửa đúng rồi!</p><p>Câu đúng: <b>"+escapeHtml(s.fix)+"</b></p><p>"+escapeHtml(s.why||"")+"</p>";
+    const sentEl=passageEl&&passageEl.querySelector(".read-sentence[data-i=\""+cur.sentences.indexOf(s)+"\"]");
+    if(sentEl){
+      sentEl.querySelectorAll(".word").forEach(function(w){w.classList.add("fixed");});
+    }
+    if(qBox&&cur.question){
+      qBox.innerHTML="<h3>Câu hỏi hiểu bài:</h3><p>"+escapeHtml(cur.question.q)+"</p><div class=\"skill-choices\">"
+        +cur.question.options.map(function(o,k){
+          return "<button type=\"button\" class=\"opt\" data-i=\""+k+"\"><span class=\"letter\">"+["A","B","C"][k]+"</span><span>"+escapeHtml(o)+"</span></button>";
+        }).join("")+"</div>";
+      qBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){pickQ(parseInt(b.dataset.i,10));});
+      });
+    }else{
+      finishRound();
+    }
+    return true;
+  }
+  function pickQ(k){
+    if(qDone)return false;
+    qDone=true;
+    const q=cur.question;
+    const ok=k===q.answer;
+    if(feedbackEl)feedbackEl.innerHTML+=(ok?"<p class=\"good\">Trả lời đúng rồi!</p>":"<p class=\"bad\">Chưa đúng. Đáp án đúng là: "+escapeHtml(q.options[q.answer])+"</p>");
+    finishRound(ok);
+    return ok;
+  }
+  function finishRound(qOk){
+    const findScore=findAttempts===0?50:(findAttempts===1?25:0);
+    const fixScore=fixAttempts===0?30:(fixAttempts===1?15:0);
+    const qScore=qOk===undefined?20:(qOk?20:0);
+    const score=findScore+fixScore+qScore;
+    scores.push(score);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"read",20);});
+    if(feedbackEl)feedbackEl.innerHTML+="<p>Điểm đoạn này: <b>"+score+" điểm</b>"+(xpAwarded?" (nhận +20 XP)":"")+".</p>";
+    if(nextBtn)nextBtn.style.display="";
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("reading",seconds,sessionWords,avg);
+    const lv=getLevel();
+    if(avg>=90&&lv<3)setLevel(lv+1);
+    else if(avg<70&&lv>1)setLevel(lv-1);
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"read");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện đọc</h3><p>Điểm trung bình "+session.length+" đoạn: <b>"+avg+" điểm</b>.</p>"
+        +"<p>Cấp độ đọc lần sau: <b>"+getLevel()+" trên 3</b>.</p>"
+        +(adv?"<p>Bài này đã ôn xong bằng Đọc, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"read-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("read-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("read-begin");
+  if(startBtn)startBtn.addEventListener("click",startSession);
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&passages.some(function(p){return p.slug===l;}))lessonSlug=l;
+  }catch(e){}
+  showStats();
+  if(lessonSlug)startSession();
+  window.__readTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),passage:cur?cur.slug:null,found:found,fixed:fixed};},
+    pickSentence:pickSentence,
+    pickFix:pickFix,
+    pickQ:pickQ,
+    next:function(){if(nextBtn)nextBtn.click();},
+    level:getLevel
+  };
+})();
+</script>
+
+</body>
+</html>

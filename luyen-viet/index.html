@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var __t=localStorage.getItem("sdsc-theme");if(__t){document.documentElement.dataset.theme=__t;}else if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.dataset.theme="dark";}}catch(e){}</script>
+<title>Luyện viết | Kho bài học Sai Đâu Sửa Đó</title>
+<meta name="description" content="Luyện viết tiếng Anh: viết lại câu sai thành câu đúng, dịch từ tiếng Việt sang câu đúng, điền từ còn thiếu. Máy chấm theo từng từ.">
+<link rel="icon" type="image/svg+xml" href="/sai-dau-sua-do/favicon.svg">
+<link rel="canonical" href="https://dongdarealest.github.io/sai-dau-sua-do/luyen-viet/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Luyện viết | Kho bài học Sai Đâu Sửa Đó">
+<meta property="og:description" content="Luyện viết tiếng Anh: viết lại câu sai thành câu đúng, dịch từ tiếng Việt sang câu đúng, điền từ còn thiếu. Máy chấm theo từng từ.">
+<meta property="og:url" content="https://dongdarealest.github.io/sai-dau-sua-do/luyen-viet/">
+<meta property="og:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<meta property="og:site_name" content="Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luyện viết | Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:description" content="Luyện viết tiếng Anh: viết lại câu sai thành câu đúng, dịch từ tiếng Việt sang câu đúng, điền từ còn thiếu. Máy chấm theo từng từ.">
+<meta name="twitter:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
+<noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
+</head>
+<body class="has-nav">
+
+
+<header class="appbar">
+  <div class="appwrap">
+    <a href="/sai-dau-sua-do/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="/sai-dau-sua-do/">Sai Đâu Sửa Đó</a><small>Mỗi ngày sửa một lỗi nhỏ.</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
+  </div>
+</header>
+<main class="appwrap">
+  <section>
+    <h2>Luyện viết</h2>
+    <p class="skill-intro">Viết lại câu sai thành câu đúng. Máy so từng từ, tô màu từ đúng, từ thừa, từ thiếu, từ sai chính tả, rồi hiện lời giải thích vì sao đã có trong bài.</p>
+  </section>
+  <section id="write-start">
+    <div class="skill-modes">
+      <div class="skill-mode"><b>Viết lại câu sai thành câu đúng</b><span>Hiện câu sai, gõ lại thành câu đúng.</span></div>
+      <div class="skill-mode"><b>Dịch từ tiếng Việt sang câu đúng</b><span>Hiện nghĩa tiếng Việt, dịch sang câu tiếng Anh đã học.</span></div>
+      <div class="skill-mode"><b>Điền từ còn thiếu</b><span>Câu đúng bị khuyết 1 từ, điền từ còn thiếu vào chỗ trống.</span></div>
+    </div>
+    <p><button type="button" class="btn btn-primary" id="write-begin">Bắt đầu luyện viết</button></p>
+    <p class="msub2">Mỗi buổi 3 câu, xong được 20 XP.</p>
+  </section>
+  <section class="skill-card" id="write-card" style="display:none">
+    <p class="skill-round" id="write-round">Câu 1 trên 3</p>
+    <div id="write-prompt"></div>
+    <p class="skill-source" id="write-source"></p>
+    <label class="sr-only" for="write-input">Viết câu trả lời</label>
+    <input class="skill-answer" id="write-input" type="text" placeholder="Viết câu trả lời…" autocomplete="off">
+    <p><button type="button" class="btn btn-primary" id="write-check">Kiểm tra</button></p>
+    <div class="skill-feedback" id="write-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="write-next" style="display:none">Câu tiếp theo</button></p>
+    <p class="skill-progress" id="write-progress"></p>
+  </section>
+  <section class="skill-done" id="write-done" style="display:none"></section>
+  <section>
+    <h2>Lỗi tôi hay viết sai</h2>
+    <p class="msub2">Câu nào bạn gõ sai nhiều lần sẽ tự vào đây, lần sau ôn lại đúng câu đó.</p>
+    <div class="write-wrong-list" id="write-wrong"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <p id="write-stats"></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Học trên Facebook: <a href="https://www.facebook.com/profile.php?id=61596506009854">Sai Đâu Sửa Đó</a>
+    &nbsp;•&nbsp; Vào Group làm bài tập mỗi ngày: <a href="https://www.facebook.com/groups/4387154551501983">Cộng đồng Sai Đâu Sửa Đó</a>
+  </div>
+</footer>
+
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
+<script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script><script src="/sai-dau-sua-do/skills.js"></script>
+<script>
+(function(){
+  const skills=window.SDSC_SKILLS||{};
+  const pairs=[];
+  Object.keys(skills).forEach(function(slug){
+    const l=skills[slug];
+    const ms=(l.mistakes||[]).filter(function(m){return m.wrong&&m.right;});
+    if(ms.length){
+      ms.forEach(function(m){pairs.push({wrong:m.wrong,right:m.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});});
+    }else if(l.wrong&&l.right){
+      pairs.push({wrong:l.wrong,right:l.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});
+    }
+  });
+  const WRONG_KEY="sdsc-write-wrong-v1";
+  function loadWrong(){try{const v=loadJSON(WRONG_KEY);return Array.isArray(v)?v:[];}catch(e){return [];}}
+  function saveWrong(list){try{saveJSON(WRONG_KEY,list);}catch(e){}}
+  function noteWrong(pair,ok){
+    const list=loadWrong();
+    const key=pair.slug+"|"+pair.wrong;
+    const i=list.findIndex(function(x){return x.key===key;});
+    if(ok){if(i>=0){list.splice(i,1);saveWrong(list);}}
+    else{
+      if(i>=0)list[i].count=(list[i].count||1)+1;
+      else list.push({key:key,wrong:pair.wrong,right:pair.right,code:pair.code,title:pair.title,slug:pair.slug,count:1});
+      saveWrong(list);
+    }
+  }
+  const modes=["fix","translate","fill"];
+  const MODE_LABEL={fix:"Viết lại câu sai thành câu đúng",translate:"Dịch từ tiếng Việt sang câu đúng",fill:"Điền từ còn thiếu"};
+  const card=document.getElementById("write-card");
+  const roundEl=document.getElementById("write-round");
+  const promptEl=document.getElementById("write-prompt");
+  const sourceEl=document.getElementById("write-source");
+  const inputEl=document.getElementById("write-input");
+  const checkBtn=document.getElementById("write-check");
+  const feedbackEl=document.getElementById("write-feedback");
+  const nextBtn=document.getElementById("write-next");
+  const doneBox=document.getElementById("write-done");
+  const statsEl=document.getElementById("write-stats");
+  const wrongBox=document.getElementById("write-wrong");
+  const startBox=document.getElementById("write-start");
+  const progressEl=document.getElementById("write-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, curPair=null;
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("writing");
+    statsEl.textContent="Bạn đã luyện viết "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện viết "+(sp.streak||0)+" ngày.";
+  }
+  function renderWrongList(){
+    if(!wrongBox)return;
+    const list=loadWrong();
+    if(!list.length){wrongBox.innerHTML="<p>Chưa có câu nào bạn hay viết sai. Luyện vài buổi rồi quay lại nhé.</p>";return;}
+    wrongBox.innerHTML=list.map(function(x){
+      return "<div class=\"miss-row\"><span><b>"+escapeHtml(x.wrong)+"</b> <span class=\"vi\">sai "+x.count+" lần</span></span><button type=\"button\" class=\"btn btn-ghost\" data-slug=\""+escapeHtml(x.slug)+"\" data-wrong=\""+escapeHtml(x.wrong)+"\">Luyện lại</button></div>";
+    }).join("");
+    wrongBox.querySelectorAll("button").forEach(function(b){
+      b.addEventListener("click",function(){
+        const p=pairs.find(function(pp){return pp.slug===b.dataset.slug&&pp.wrong===b.dataset.wrong;});
+        if(p)startSession([p]);
+      });
+    });
+  }
+  function blankWords(sentence){
+    const toks=sdscWordTokens(sentence);
+    const content=toks.filter(function(t){return t.norm.length>2;});
+    if(!content.length)return {display:sentence,answer:""};
+    const pick=content[Math.floor(Math.random()*content.length)];
+    const display=toks.map(function(t){return t.norm===pick.norm?"___":t.text;}).join(" ");
+    return {display:display,answer:pick.text};
+  }
+  function startSession(fixedPairs){
+    let pool=pairs.slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(fixedPairs&&fixedPairs.length)pool=fixedPairs.slice();
+    if(!pool.length)pool=pairs.slice();
+    shuffle(pool);
+    session=[];
+    for(let r=0;r<3;r++){
+      const item={pair:pool[r%pool.length],mode:modes[r%3]};
+      if(item.mode==="translate"&&!item.pair.right_note)item.mode="fix";
+      session.push(item);
+    }
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    const cur=session[idx];
+    if(!cur)return;
+    curPair=cur.pair;
+    if(roundEl)roundEl.textContent="Câu "+(idx+1)+" trên "+session.length+": "+MODE_LABEL[cur.mode];
+    if(progressEl)progressEl.textContent="Buổi luyện viết: "+(idx+1)+" trên "+session.length+" câu.";
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+"/sai-dau-sua-do"+"/bai/"+encodeURIComponent(cur.pair.slug)+"/\">"+escapeHtml(cur.pair.code+" "+cur.pair.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(inputEl){inputEl.value="";inputEl.focus();}
+    if(cur.mode==="fix"){
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(cur.pair.wrong)+"</p><p class=\"skill-vi\">Viết lại câu này thành câu đúng nhé.</p>";
+    }else if(cur.mode==="translate"){
+      const vi=cur.pair.right_note||"";
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(vi)+"</p><p class=\"skill-vi\">Dịch câu trên sang tiếng Anh, viết đúng câu đã học nhé.</p>";
+    }else{
+      const b=blankWords(cur.pair.right);
+      cur.blank=b;
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(b.display)+"</p><p class=\"skill-vi\">Điền từ còn thiếu vào chỗ trống nhé.</p>";
+    }
+  }
+  function check(){
+    const cur=session[idx];
+    if(!cur)return;
+    const typed=inputEl?String(inputEl.value||"").trim():"";
+    if(!typed)return;
+    sessionWords+=sdscTokenize(typed).length;
+    let target=cur.pair.right, pct=0, marks=[], missed=[];
+    if(cur.mode==="fill"){
+      const filled=cur.blank.display.replace("___",typed);
+      const r=sdscAlignWords(target,filled);
+      pct=r.pct;marks=r.marks;missed=r.missed;
+    }else{
+      const r=sdscAlignWords(target,typed);
+      pct=r.pct;marks=r.marks;missed=r.missed;
+    }
+    scores.push(pct);
+    const ok=pct>=90;
+    noteWrong(cur.pair,ok);
+    const d=sdscDiffHtml(typed,target);
+    if(feedbackEl)feedbackEl.innerHTML="<p>Bạn viết: "+d.aHtml+"</p><p>Câu đúng: "+d.bHtml+"</p>"
+      +"<p>Điểm lượt này: <b>"+pct+" điểm</b></p>"
+      +"<div class=\"skill-colored\">"+sdscColoredSentence(target,marks)+"</div>"
+      +(missed.length?"<p>Từ còn thiếu hoặc chưa đúng: "+escapeHtml(missed.join(", "))+"</p>":"<p>Viết đúng hết mọi từ. Tuyệt vời!</p>")
+      +(cur.pair.why?"<p>"+escapeHtml(cur.pair.why)+"</p>":"");
+    if(nextBtn)nextBtn.style.display="";
+    renderWrongList();
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("writing",seconds,sessionWords,avg);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"write",20);});
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"write");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện viết</h3><p>Điểm trung bình "+session.length+" câu: <b>"+avg+" điểm</b>.</p>"
+        +(xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện viết rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Viết, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"write-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("write-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(checkBtn)checkBtn.addEventListener("click",check);
+  if(inputEl)inputEl.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();check();}});
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("write-begin");
+  if(startBtn)startBtn.addEventListener("click",function(){startSession();});
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&skills[l])lessonSlug=l;
+  }catch(e){}
+  showStats();renderWrongList();
+  if(lessonSlug)startSession();
+  window.__writeTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),mode:session[idx]?session[idx].mode:null,pair:session[idx]?session[idx].pair:null};},
+    answer:function(t){if(inputEl)inputEl.value=t;check();},
+    next:function(){if(nextBtn)nextBtn.click();},
+    wrongList:loadWrong
+  };
+})();
+</script>
+
+</body>
+</html>

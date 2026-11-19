@@ -23,36 +23,22 @@
 <link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
 <noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
 </head>
-<body class="">
+<body class="has-nav">
 
 
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div style="display:flex;gap:14px;align-items:center">
-        <div class="logo">S</div>
-        <div>
-          <h1><a href="/sai-dau-sua-do/">Kho bài học Sai Đâu Sửa Đó</a></h1>
-          <p class="slogan">Mỗi ngày sửa một lỗi nhỏ.</p>
-        </div>
-      </div>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
-    </div>
-    <p class="intro">Lộ trình Tiếng Anh đi làm: Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.</p>
-    <div class="stats"><span class="stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> <span class="total-lessons-num">…</span> bài học</span><span class="stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg> 3 lộ trình</span><span class="stat score"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Đã nhớ <span class="progress-num">…</span></span></div>
-    <nav class="sitenav" aria-label="Mục chính">
-      <a href="/sai-dau-sua-do/">Trang chủ</a>
-      <a href="/sai-dau-sua-do/bang-lo-trinh/">Bảng lộ trình</a>
-      <a href="/sai-dau-sua-do/thu-vien-chu-de/">Thư viện chủ đề</a>
-      <a href="/sai-dau-sua-do/tu-dien/">Từ điển</a>
-      <a href="/sai-dau-sua-do/luyen-noi/">Luyện nói</a>
-    </nav>
+<header class="appbar">
+  <div class="appwrap">
+    <a href="/sai-dau-sua-do/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="/sai-dau-sua-do/">Sai Đâu Sửa Đó</a><small>Mỗi ngày sửa một lỗi nhỏ.</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
   </div>
 </header>
 <main class="wrap">
   <p style="margin:16px 0 0"><a class="back" href="/sai-dau-sua-do/">← Tất cả lộ trình</a></p>
   <section>
     <h2>Tiếng Anh đi làm <small>5 bài, mỗi bài 3 đến 5 phút</small></h2>
+    <p>Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.</p>
     <div class="path-list">
 <a class="path-item" data-slug="loi-001" href="/sai-dau-sua-do/loi-001/" onclick="sessionSet('sdsc-path','tieng-anh-di-lam')">
   <span class="n">1</span>
@@ -95,6 +81,7 @@
   </div>
 </footer>
 
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem on" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
 <script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script>
 <script>
 (function(){

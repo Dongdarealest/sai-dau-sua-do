@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var __t=localStorage.getItem("sdsc-theme");if(__t){document.documentElement.dataset.theme=__t;}else if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.dataset.theme="dark";}}catch(e){}</script>
+<title>Luyện nghe | Kho bài học Sai Đâu Sửa Đó</title>
+<meta name="description" content="Luyện nghe tiếng Anh: nghe và bắt lỗi, nghe 1 câu chọn Sai hay Đúng, nghe 2 câu chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng.">
+<link rel="icon" type="image/svg+xml" href="/sai-dau-sua-do/favicon.svg">
+<link rel="canonical" href="https://dongdarealest.github.io/sai-dau-sua-do/luyen-nghe/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Luyện nghe | Kho bài học Sai Đâu Sửa Đó">
+<meta property="og:description" content="Luyện nghe tiếng Anh: nghe và bắt lỗi, nghe 1 câu chọn Sai hay Đúng, nghe 2 câu chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng.">
+<meta property="og:url" content="https://dongdarealest.github.io/sai-dau-sua-do/luyen-nghe/">
+<meta property="og:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<meta property="og:site_name" content="Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luyện nghe | Kho bài học Sai Đâu Sửa Đó">
+<meta name="twitter:description" content="Luyện nghe tiếng Anh: nghe và bắt lỗi, nghe 1 câu chọn Sai hay Đúng, nghe 2 câu chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng.">
+<meta name="twitter:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
+<link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
+<noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
+</head>
+<body class="has-nav">
+
+
+<header class="appbar">
+  <div class="appwrap">
+    <a href="/sai-dau-sua-do/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="/sai-dau-sua-do/">Sai Đâu Sửa Đó</a><small>Mỗi ngày sửa một lỗi nhỏ.</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
+  </div>
+</header>
+<main class="appwrap">
+  <section>
+    <h2>Luyện nghe</h2>
+    <p class="skill-intro">Nghe và bắt lỗi. Nghe 1 câu rồi chọn Sai hay Đúng, nghe 2 câu rồi chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng. Nghe xong hiện cả 2 câu cạnh nhau, từ khác nhau được tô vàng.</p>
+  </section>
+  <section id="listen-start">
+    <div class="skill-modes">
+      <div class="skill-mode"><b>Nghe 1 câu, chọn Sai hay Đúng</b><span>Nghe 1 câu rồi chọn xem câu đó sai hay đúng.</span></div>
+      <div class="skill-mode"><b>Nghe 2 câu, chọn câu nào đúng</b><span>Nghe 2 câu liên tiếp rồi chọn câu đúng trong 2 câu.</span></div>
+      <div class="skill-mode"><b>Nghe câu sai, gõ lại thành câu đúng</b><span>Nghe câu sai rồi gõ lại thành câu đúng, máy chấm theo từng từ.</span></div>
+    </div>
+    <p><button type="button" class="btn btn-primary" id="listen-begin">Bắt đầu luyện nghe</button></p>
+    <p class="msub2">Mỗi buổi 6 câu, xong được 20 XP.</p>
+  </section>
+  <section class="skill-card" id="listen-card" style="display:none">
+    <p class="skill-round" id="listen-round">Câu 1 trên 6</p>
+    <p id="listen-prompt"></p>
+    <div id="listen-play"></div>
+    <div class="skill-choices" id="listen-choices"></div>
+    <div id="listen-type" style="display:none">
+      <label class="sr-only" for="listen-input">Gõ lại thành câu đúng</label>
+      <input class="skill-answer" id="listen-input" type="text" placeholder="Gõ lại thành câu đúng…" autocomplete="off">
+      <p><button type="button" class="btn btn-primary" id="listen-check">Kiểm tra</button></p>
+    </div>
+    <div class="skill-feedback" id="listen-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="listen-next" style="display:none">Câu tiếp theo</button></p>
+    <p class="skill-progress" id="listen-progress"></p>
+  </section>
+  <section class="skill-done" id="listen-done" style="display:none"></section>
+  <section>
+    <p id="listen-stats"></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Học trên Facebook: <a href="https://www.facebook.com/profile.php?id=61596506009854">Sai Đâu Sửa Đó</a>
+    &nbsp;•&nbsp; Vào Group làm bài tập mỗi ngày: <a href="https://www.facebook.com/groups/4387154551501983">Cộng đồng Sai Đâu Sửa Đó</a>
+  </div>
+</footer>
+
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
+<script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script><script src="/sai-dau-sua-do/skills.js"></script>
+<script>
+(function(){
+  const skills=window.SDSC_SKILLS||{};
+  const pairs=[];
+  Object.keys(skills).forEach(function(slug){
+    const l=skills[slug];
+    const ms=(l.mistakes||[]).filter(function(m){return m.wrong&&m.right;});
+    if(ms.length){
+      ms.forEach(function(m){pairs.push({wrong:m.wrong,right:m.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});});
+    }else if(l.wrong&&l.right){
+      pairs.push({wrong:l.wrong,right:l.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});
+    }
+  });
+  const modes=["pick","choose","type"];
+  const MODE_LABEL={pick:"Nghe 1 câu, chọn Sai hay Đúng",choose:"Nghe 2 câu, chọn câu nào đúng",type:"Nghe câu sai, gõ lại thành câu đúng"};
+  const card=document.getElementById("listen-card");
+  const roundEl=document.getElementById("listen-round");
+  const promptEl=document.getElementById("listen-prompt");
+  const playBox=document.getElementById("listen-play");
+  const choiceBox=document.getElementById("listen-choices");
+  const typeBox=document.getElementById("listen-type");
+  const typeInput=document.getElementById("listen-input");
+  const typeBtn=document.getElementById("listen-check");
+  const feedbackEl=document.getElementById("listen-feedback");
+  const nextBtn=document.getElementById("listen-next");
+  const doneBox=document.getElementById("listen-done");
+  const statsEl=document.getElementById("listen-stats");
+  const startBox=document.getElementById("listen-start");
+  const progressEl=document.getElementById("listen-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, played=null;
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("listening");
+    statsEl.textContent="Bạn đã luyện nghe "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện nghe "+(sp.streak||0)+" ngày.";
+  }
+  function pairHtml(p){
+    const d=sdscDiffHtml(p.wrong,p.right);
+    return "<div class=\"skill-pair\"><div class=\"pair\"><b>Câu sai</b><p>"+d.aHtml+"</p></div>"
+      +"<div class=\"pair\"><b>Câu đúng</b><p>"+d.bHtml+"</p></div></div>"
+      +(p.why?"<p>"+escapeHtml(p.why)+"</p>":"");
+  }
+  function startSession(){
+    let pool=pairs.slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(!pool.length)pool=pairs.slice();
+    shuffle(pool);
+    session=[];
+    for(let r=0;r<6;r++){
+      session.push({pair:pool[r%pool.length],mode:modes[r%3]});
+    }
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    const cur=session[idx];
+    if(!cur)return;
+    played=null;
+    if(roundEl)roundEl.textContent="Câu "+(idx+1)+" trên "+session.length+": "+MODE_LABEL[cur.mode];
+    if(progressEl)progressEl.textContent="Buổi luyện nghe: "+(idx+1)+" trên "+session.length+" câu.";
+    if(promptEl)promptEl.innerHTML="Từ bài <a href=\""+"/sai-dau-sua-do"+"/bai/"+encodeURIComponent(cur.pair.slug)+"/\">"+escapeHtml(cur.pair.code+" "+cur.pair.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(typeBox)typeBox.style.display="none";
+    if(choiceBox)choiceBox.innerHTML="";
+    if(playBox)playBox.innerHTML="";
+    sessionWords+=sdscTokenize(cur.pair.right).length;
+    if(cur.mode==="pick"){
+      const isRight=Math.random()<0.5;
+      const spoken=isRight?cur.pair.right:cur.pair.wrong;
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-one\">Nghe câu này</button>";
+      const pb=document.getElementById("listen-play-one");
+      if(pb)pb.addEventListener("click",function(){played=spoken;speak(spoken,pb);});
+      if(choiceBox)choiceBox.innerHTML="<button type=\"button\" class=\"opt\" data-v=\"wrong\"><span class=\"letter\">A</span><span>Câu sai</span></button><button type=\"button\" class=\"opt\" data-v=\"right\"><span class=\"letter\">B</span><span>Câu đúng</span></button>";
+      choiceBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){
+          const ok=(b.dataset.v==="right")===isRight;
+          scores.push(ok?100:0);
+          if(feedbackEl)feedbackEl.innerHTML=(ok?"<p class=\"good\">Đúng rồi!</p>":"<p class=\"bad\">Chưa đúng. Câu vừa nghe là câu "+(isRight?"đúng":"sai")+".</p>")+pairHtml(cur.pair);
+          if(nextBtn)nextBtn.style.display="";
+        });
+      });
+    }else if(cur.mode==="choose"){
+      const order=Math.random()<0.5?[cur.pair.wrong,cur.pair.right]:[cur.pair.right,cur.pair.wrong];
+      const rightIdx=order[0]===cur.pair.right?0:1;
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-1\">Nghe câu 1</button> <button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-2\">Nghe câu 2</button>";
+      const p1=document.getElementById("listen-play-1"), p2=document.getElementById("listen-play-2");
+      if(p1)p1.addEventListener("click",function(){speak(order[0],p1);});
+      if(p2)p2.addEventListener("click",function(){speak(order[1],p2);});
+      if(choiceBox)choiceBox.innerHTML="<button type=\"button\" class=\"opt\" data-v=\"0\"><span class=\"letter\">A</span><span>Câu 1 đúng</span></button><button type=\"button\" class=\"opt\" data-v=\"1\"><span class=\"letter\">B</span><span>Câu 2 đúng</span></button>";
+      choiceBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){
+          const ok=parseInt(b.dataset.v,10)===rightIdx;
+          scores.push(ok?100:0);
+          if(feedbackEl)feedbackEl.innerHTML=(ok?"<p class=\"good\">Đúng rồi! Câu "+(rightIdx+1)+" là câu đúng.</p>":"<p class=\"bad\">Chưa đúng. Câu "+(rightIdx+1)+" mới là câu đúng.</p>")+pairHtml(cur.pair);
+          if(nextBtn)nextBtn.style.display="";
+        });
+      });
+    }else{
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-wrong\">Nghe câu sai</button>";
+      const pb=document.getElementById("listen-play-wrong");
+      if(pb)pb.addEventListener("click",function(){speak(cur.pair.wrong,pb);});
+      if(typeBox)typeBox.style.display="block";
+      if(typeInput)typeInput.value="";
+      if(typeInput)typeInput.focus();
+      const check=function(){
+        const typed=typeInput?String(typeInput.value||"").trim():"";
+        if(!typed)return;
+        const r=sdscAlignWords(cur.pair.right,typed);
+        scores.push(r.pct);
+        const d=sdscDiffHtml(typed,cur.pair.right);
+        if(feedbackEl)feedbackEl.innerHTML="<p>Bạn gõ: "+d.aHtml+"</p><p>Câu đúng: "+d.bHtml+"</p>"
+          +"<p>Điểm lượt này: <b>"+r.pct+" điểm</b></p>"
+          +"<div class=\"skill-colored\">"+sdscColoredSentence(cur.pair.right,r.marks)+"</div>"
+          +(r.missed.length?"<p>Từ còn thiếu hoặc chưa đúng: "+escapeHtml(r.missed.join(", "))+"</p>":"<p>Gõ đúng hết mọi từ. Tuyệt vời!</p>")
+          +(cur.pair.why?"<p>"+escapeHtml(cur.pair.why)+"</p>":"");
+        if(nextBtn)nextBtn.style.display="";
+      };
+      if(typeBtn)typeBtn.onclick=check;
+      if(typeInput)typeInput.onkeydown=function(e){if(e.key==="Enter"){e.preventDefault();check();}};
+    }
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("listening",seconds,sessionWords,avg);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"listen",20);});
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"listen");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện nghe</h3><p>Điểm trung bình "+session.length+" câu: <b>"+avg+" điểm</b>.</p>"
+        +(xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện nghe rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Nghe, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"listen-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("listen-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("listen-begin");
+  if(startBtn)startBtn.addEventListener("click",startSession);
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&skills[l])lessonSlug=l;
+  }catch(e){}
+  showStats();
+  if(lessonSlug)startSession();
+  window.__listenTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),mode:session[idx]?session[idx].mode:null,pair:session[idx]?session[idx].pair:null};},
+    answerPick:function(v){const b=choiceBox&&choiceBox.querySelector(".opt[data-v=\""+v+"\"]");if(b)b.click();},
+    answerChoose:function(v){const b=choiceBox&&choiceBox.querySelector(".opt[data-v=\""+v+"\"]");if(b)b.click();},
+    answerType:function(t){if(typeInput)typeInput.value=t;if(typeBtn)typeBtn.click();},
+    next:function(){if(nextBtn)nextBtn.click();}
+  };
+})();
+</script>
+
+</body>
+</html>

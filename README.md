@@ -1,9 +1,9 @@
-# Kho bài học Sai Đâu Sửa Đó — Content engine học tiếng Anh mở
+# Kho bài học Sai Đâu Sửa Đó: Content engine học tiếng Anh mở
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
 - **57 bài học** hiển thị trên web • **63 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **6 Reel** đính kèm trong bài
-- Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/). Mỗi bài học có thêm chế độ Học từng cụm.
+- Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/), **Luyện nghe** (/luyen-nghe/), **Luyện viết** (/luyen-viet/), **Luyện đọc** (/luyen-doc/), **Cộng đồng** (/cong-dong/). Mỗi bài học có thêm chế độ Học từng cụm.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983
 
@@ -70,12 +70,4 @@ Báo lỗi dữ liệu bằng issue, đề xuất bài mới bằng pull request
 - [Quiz nhanh #001: Chữ nào trong debt là chữ câm?](quiz-nhanh-001/)
 - [Quiz nhanh #005: Wednesday đọc thế nào?](quiz-nhanh-005/)
 
-## Cập nhật sau mỗi bài đăng
-
-Dữ liệu bài học nằm trong 1 tệp duy nhất `lessons.json`. Sau mỗi bài đăng lên Facebook:
-
-1. Viết file JSON của bài mới (đúng schema trong `CAP-NHAT-SITE.md`).
-2. Chạy `python3 update_site.py --lesson /tmp/bai-moi.json`. Script thêm bài,
-   dựng lại toàn bộ trang rồi đẩy lên GitHub Pages.
-
-Trang này chạy bằng GitHub Pages, sinh từ `lessons.json` bằng `generate_site.py`.
+Trang này chạy bằng GitHub Pages, sinh từ `lessons.json`.

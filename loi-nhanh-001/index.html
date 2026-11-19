@@ -26,31 +26,14 @@
 <body class="has-wiz">
 
 
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div style="display:flex;gap:14px;align-items:center">
-        <div class="logo">S</div>
-        <div>
-          <h1><a href="/sai-dau-sua-do/">Kho bài học Sai Đâu Sửa Đó</a></h1>
-          <p class="slogan">Mỗi ngày sửa một lỗi nhỏ.</p>
-        </div>
-      </div>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
-    </div>
-    <p class="intro">Bài Lỗi nhanh #001 • Chủ đề công sở • Đăng ngày 16/11/2026</p>
-    <div class="stats"><span class="stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> <span class="total-lessons-num">…</span> bài học</span><span class="stat score"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Đã nhớ <span class="progress-num">…</span></span></div>
-    <nav class="sitenav" aria-label="Mục chính">
-      <a href="/sai-dau-sua-do/">Trang chủ</a>
-      <a href="/sai-dau-sua-do/bang-lo-trinh/">Bảng lộ trình</a>
-      <a href="/sai-dau-sua-do/thu-vien-chu-de/">Thư viện chủ đề</a>
-      <a href="/sai-dau-sua-do/tu-dien/">Từ điển</a>
-      <a href="/sai-dau-sua-do/luyen-noi/">Luyện nói</a>
-    </nav>
+<header class="topbar">
+  <div class="appwrap">
+    <a class="back" href="/sai-dau-sua-do/" aria-label="Về trang chủ">←</a>
+    <span class="title">Lỗi nhanh #001: in, on, at với giờ họp</span>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
   </div>
 </header>
 <main class="wrap">
-  <p style="margin:16px 0 0"><a class="back" href="/sai-dau-sua-do/">← Tất cả bài học</a></p>
   <div class="wiz-progress"><div class="wiz-bar"><i id="wizFill"></i></div><span id="wizLabel">Bước 1</span></div>
   <section class="lesson">
     <div class="tags" style="margin:6px 0 10px">
@@ -96,6 +79,7 @@
 <p class="practice-score">Kết quả luyện tập: <span class="practice-score-num" data-slug="loi-nhanh-001"></span></p></div></div>
 <div class="wstep" data-action="done" hidden><div class="remember"><b><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> Nhớ điều này:</b> on với ngày, at với giờ, in với tháng và năm.</div><p class="explain"><b>Mẹo:</b> Dùng khi nhắn lịch họp, viết email hẹn giờ.</p><div class="step"><h3><span>Tự đánh giá:</span> bạn nhớ bài này tới đâu?</h3><div class="selfgrade-row"><button type="button" class="selfgrade" data-grade="kho" aria-pressed="false">Khó: chưa nhớ</button><button type="button" class="selfgrade" data-grade="vua" aria-pressed="false">Vừa: nhớ chưa chắc</button><button type="button" class="selfgrade" data-grade="de" aria-pressed="false">Dễ: nhớ ngay</button></div></div><p style="margin-top:16px"><button type="button" class="btn btn-navy btn-block" id="btn-done">Tôi đã nhớ bài này</button></p></div>
 <div class="wstep" hidden><div class="complete"><div class="complete-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><h3>Bạn đã sửa Lỗi nhanh #001!</h3><p class="pair">in, on, at với giờ họp</p><p>Mỗi ngày sửa một lỗi nhỏ. Mai quay lại học tiếp nhé.</p><div id="complete-summary"></div><p class="streak" id="complete-streak"></p><div class="complete-actions"><a class="btn btn-primary" id="btn-next" href="/sai-dau-sua-do/">Bài tiếp theo →</a><button type="button" class="btn btn-navy" id="btn-share"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg> Chia sẻ kết quả</button></div><p class="complete-note">Bấm “Chia sẻ kết quả” để tải ảnh rồi đăng ảnh lên Facebook khoe bạn vừa sửa được lỗi này nhé.</p></div></div>
+    <p class="xphint">★ Xong 7 bước được <b>20 XP</b>, cộng vào Nhiệm vụ hôm nay.</p>
   </section>
   
   <section id="chunk-box" class="chunk-box">
@@ -134,6 +118,7 @@
   </div>
 </footer>
 
+
 <script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script>
 <script>
 const SLUG="loi-nhanh-001";
@@ -163,9 +148,14 @@ function recordSelfGrade(grade){
   if(L&&L.done){
     updateProgress(pp=>{
       const LL=pp.lessons[SLUG];if(!LL)return;
-      LL.selfGrade=grade;LL.lastStudiedAt=todayISO();LL.reviews=(LL.reviews||0)+1;
-      pp.review[SLUG]=srsUpdate(pp.review[SLUG]||srsNew(todayISO()),grade,todayISO());
-      pushHistory(pp,{date:todayISO(),at:new Date().toISOString(),slug:SLUG,action:"review",grade:grade});
+      const today=todayISO();
+      const oldReview=pp.review[SLUG];
+      const wasDue=oldReview&&isValidDateStr(oldReview.nextDue)&&oldReview.nextDue<=today;
+      const wasStudiedToday=LL.lastStudiedAt===today;
+      LL.selfGrade=grade;LL.lastStudiedAt=today;LL.reviews=(LL.reviews||0)+1;
+      pp.review[SLUG]=srsUpdate(pp.review[SLUG]||srsNew(today),grade,today);
+      if(wasDue)countReview(pp,SLUG,wasStudiedToday);
+      pushHistory(pp,{date:today,at:new Date().toISOString(),slug:SLUG,action:"review",grade:grade});
     });
   }else{
     renderSelfGrade();
@@ -196,6 +186,9 @@ function renderCompleteSummary(){
   else if(t.done>0){html+="<p>Không còn câu sai trong bài này. Giỏi quá!</p>";}
   const r=p.review[SLUG];
   if(r&&isValidDateStr(r.nextDue)){html+="<p>Bài này sẽ đến hạn ôn vào ngày <b>"+escapeHtml(fmtDate(r.nextDue))+"</b>. Trang chủ sẽ nhắc bạn.</p>";}
+  if(r&&r.skill){html+="<p>Lần ôn tới luyện bằng <b>"+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+"</b>: <a href=\""+"/sai-dau-sua-do"+"/"+skillPath(r.skill)+"?lesson="+encodeURIComponent(SLUG)+"\">Mở trang "+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+" →</a></p>";}
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  html+="<p>Điểm kinh nghiệm của bạn: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b>.</p>";
   const L=p.lessons[SLUG];
   if(L&&L.selfGrade){html+="<p>Bạn tự đánh giá mức hiểu: <b>"+({kho:"Khó: chưa nhớ",vua:"Vừa: nhớ chưa chắc",de:"Dễ: nhớ ngay"}[L.selfGrade]||L.selfGrade)+"</b>.</p>";}
   box.innerHTML=html;
@@ -206,18 +199,26 @@ function markDone(){
     const today=todayISO();
     const L=p.lessons[SLUG]||{done:false,doneAt:"",lastStudiedAt:"",selfGrade:null,reviews:0};
     const wasDone=!!L.done;
+    const wasStudiedToday=L.lastStudiedAt===today;
+    const firstDoneToday=!L.doneAt||L.doneAt!==today;
+    const oldReview=p.review[SLUG];
+    const wasDue=oldReview&&isValidDateStr(oldReview.nextDue)&&oldReview.nextDue<=today;
     L.done=true;
     if(!L.doneAt)L.doneAt=today;
     L.lastStudiedAt=today;
     if(grade)L.selfGrade=grade;
     p.lessons[SLUG]=L;
-    if(!wasDone){p.review[SLUG]=srsNew(today);}
-    else if(grade){p.review[SLUG]=srsUpdate(p.review[SLUG]||srsNew(today),grade,today);L.reviews=(L.reviews||0)+1;}
+    if(!wasDone){
+      p.review[SLUG]=srsNew(today);
+      p.review[SLUG].skill="listen";p.review[SLUG].skillStep=0;
+      if(firstDoneToday){const d=ensureDaily(p);d.newDone=(d.newDone||0)+1;awardXp(p,20);checkDailyBonus(p);}
+    }
+    else if(grade){p.review[SLUG]=srsUpdate(p.review[SLUG]||srsNew(today),grade,today);L.reviews=(L.reviews||0)+1;if(wasDue)countReview(p,SLUG,wasStudiedToday);}
     updateStreakIn(p,today);
     if(!wasDone||grade){pushHistory(p,{date:today,at:new Date().toISOString(),slug:SLUG,action:wasDone?"self-grade":"done",grade:grade||undefined});}
   });
   __pendingGrade=null;
-  renderDone();renderSelfGrade();renderCompleteStreak();updatePracticeScore();
+  renderDone();renderSelfGrade();renderCompleteStreak();renderCompleteSummary();updatePracticeScore();
 }
 function unmarkDone(){
   updateProgress(p=>{

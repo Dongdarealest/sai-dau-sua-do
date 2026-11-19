@@ -16,7 +16,7 @@ function fmtDate(s){if(!isValidDateStr(s))return s;const p=s.split("-");return p
 function dispDate(s){if(isValidDateStr(s))return fmtDate(s);return String(s||"").replace(/-/g,"/");}
 function addDays(dateStr,n){const d=new Date(dateStr+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function yesterdayISO(){return addDays(todayISO(),-1);}
-function emptyProgress(){return {version:1,updatedAt:new Date().toISOString(),lessons:{},practice:{},streak:{count:0,lastDate:"",dates:[]},review:{},history:[],settings:{dailyGoal:1,remindReview:true}};}
+function emptyProgress(){return {version:1,updatedAt:new Date().toISOString(),lessons:{},practice:{},streak:{count:0,lastDate:"",dates:[]},review:{},history:[],settings:{dailyGoal:1,remindReview:true},xpTotal:0,daily:{date:todayISO(),newDone:0,reviewCount:0,bonusDone:false,skills:{}}};}
 function normalizeProgress(o){
   const p=emptyProgress();
   if(o&&typeof o==="object"){
@@ -26,6 +26,16 @@ function normalizeProgress(o){
     if(Array.isArray(o.history))p.history=o.history.slice(-500);
     if(o.streak&&typeof o.streak==="object"){p.streak.count=(typeof o.streak.count==="number"&&o.streak.count>=0)?o.streak.count:0;p.streak.lastDate=isValidDateStr(o.streak.lastDate)?o.streak.lastDate:"";p.streak.dates=Array.isArray(o.streak.dates)?o.streak.dates.filter(isValidDateStr).slice(-30):[];}
     if(o.settings&&typeof o.settings==="object"){p.settings.dailyGoal=(typeof o.settings.dailyGoal==="number"&&o.settings.dailyGoal>=1)?o.settings.dailyGoal:1;p.settings.remindReview=o.settings.remindReview!==false;}
+    if(typeof o.xpTotal==="number"&&o.xpTotal>=0)p.xpTotal=o.xpTotal;
+    if(o.daily&&typeof o.daily==="object"){
+      const d={date:isValidDateStr(o.daily.date)?o.daily.date:"",newDone:(typeof o.daily.newDone==="number"&&o.daily.newDone>=0)?Math.floor(o.daily.newDone):0,reviewCount:(typeof o.daily.reviewCount==="number"&&o.daily.reviewCount>=0)?Math.floor(o.daily.reviewCount):0,bonusDone:!!o.daily.bonusDone,skills:{}};
+      if(o.daily.skills&&typeof o.daily.skills==="object"){Object.entries(o.daily.skills).forEach(([k,v])=>{if(v===true)d.skills[k]=true;});}
+      p.daily=d;
+    }
+  }
+  if(!(o&&typeof o.xpTotal==="number"&&o.xpTotal>=0)){
+    const doneCount=Object.values(p.lessons||{}).filter(L=>L&&L.done).length;
+    p.xpTotal=doneCount*20;
   }
   const keys=Object.keys(p.practice).sort((a,b)=>String((p.practice[b]||{}).lastAt||"").localeCompare(String((p.practice[a]||{}).lastAt||""))).slice(0,1000);
   const pr={};keys.forEach(k=>{pr[k]=p.practice[k];});p.practice=pr;
@@ -119,6 +129,182 @@ function loadJSON(k){try{const v=storageGet(k);return v?JSON.parse(v)||{}:{};}ca
 function saveJSON(k,v){try{storageSet(k,JSON.stringify(v));}catch(e){}}
 function loadStreak(){const p=getProgress();return {streak:p.streak.count||0,last:p.streak.lastDate||""};}
 function updateStreak(){const p=getProgress();const t=todayISO();updateStreakIn(p,t);saveProgress(p);return loadStreak();}
+/* XP, Nhiệm vụ hôm nay, phiên kỹ năng, vòng một lỗi bốn kỹ năng.
+   XP: 200 XP một cấp, không khóa bài. Người học cũ gieo 20 XP mỗi bài đã nhớ
+   (trong normalizeProgress). Nhiệm vụ hôm nay: học 1 bài mới 20 XP, ôn 2 bài
+   đến hạn 10 XP, luyện nói 1 câu 20 XP, xong cả 3 thưởng thêm 50 XP.
+   Vòng một lỗi bốn kỹ năng: mỗi bài đã nhớ có dạng kỹ năng cho lần ôn tới,
+   xoay theo thứ tự nghe, viết, đọc, nói, lịch ôn 1, 3, 7, 30 ngày. */
+const XP_PER_LEVEL=200;
+const SKILL_ORDER=["listen","write","read","speak"];
+const SKILL_LABEL={listen:"Nghe",write:"Viết",read:"Đọc",speak:"Nói"};
+const SKILL_PATH={listen:"luyen-nghe/",write:"luyen-viet/",read:"luyen-doc/",speak:"luyen-noi/"};
+const SKILL_DUE=[1,3,7,30];
+const MISSIONS=[
+  {id:"new",label:"Học 1 bài mới",xp:20,done:d=>(d.newDone||0)>=1,prog:d=>Math.min(1,(d.newDone||0))},
+  {id:"review",label:"Ôn 2 bài đến hạn",xp:10,done:d=>(d.reviewCount||0)>=2,prog:d=>Math.min(1,(d.reviewCount||0)/2)},
+  {id:"speak",label:"Luyện nói 1 câu",xp:20,done:d=>!!(d.skills&&d.skills.speak),prog:d=>(d.skills&&d.skills.speak)?1:0}
+];
+function emptyDaily(){return {date:todayISO(),newDone:0,reviewCount:0,bonusDone:false,skills:{}};}
+function ensureDaily(p){if(!p.daily||p.daily.date!==todayISO())p.daily=emptyDaily();return p.daily;}
+function dailyToday(p){if(p.daily&&p.daily.date===todayISO())return p.daily;return emptyDaily();}
+function awardXp(p,n){p.xpTotal=Math.max(0,(typeof p.xpTotal==="number"?p.xpTotal:0)+n);return p.xpTotal;}
+function xpLevel(xp){return Math.floor(Math.max(0,xp||0)/XP_PER_LEVEL)+1;}
+function xpInLevel(xp){return Math.max(0,xp||0)%XP_PER_LEVEL;}
+function checkDailyBonus(p){
+  const d=ensureDaily(p);
+  if(d.newDone>=1&&d.reviewCount>=2&&d.skills&&d.skills.speak&&!d.bonusDone){d.bonusDone=true;awardXp(p,50);return true;}
+  return false;
+}
+function missionStatus(p){
+  const d=dailyToday(p);
+  return MISSIONS.map(m=>({id:m.id,label:m.label,xp:m.xp,done:!!m.done(d),prog:m.prog(d)}));
+}
+function countReview(p,slug,wasStudiedToday){
+  const d=ensureDaily(p);
+  const L=p.lessons[slug];
+  if(!L||!L.done)return false;
+  if(wasStudiedToday)return false;
+  L.lastStudiedAt=todayISO();
+  d.reviewCount=(d.reviewCount||0)+1;
+  if(d.reviewCount===2)awardXp(p,10);
+  checkDailyBonus(p);
+  return true;
+}
+function markSkillDone(p,skill,xp){
+  const d=ensureDaily(p);
+  if(d.skills[skill])return false;
+  d.skills[skill]=true;
+  awardXp(p,xp);
+  checkDailyBonus(p);
+  return true;
+}
+function renderStreakPills(){
+  try{const p=getProgress();const n=p.streak.count||0;document.querySelectorAll(".streak-pill").forEach(el=>{el.textContent=n+" ngày";});}catch(e){}
+}
+function loadSkillSession(key){
+  const rec=loadJSON("sdsc-"+key+"-v1");
+  const out={sessions:0,seconds:0,words:0,best:0,lastDay:"",streak:0,lastStreakDay:"",bestByTopic:{},lastBySlug:{}};
+  if(rec&&typeof rec==="object"){
+    if(typeof rec.sessions==="number")out.sessions=rec.sessions;
+    if(typeof rec.seconds==="number")out.seconds=rec.seconds;
+    else if(typeof rec.minutes==="number")out.seconds=Math.round(rec.minutes*60);
+    if(typeof rec.words==="number")out.words=rec.words;
+    if(typeof rec.best==="number")out.best=rec.best;
+    if(typeof rec.lastDay==="string")out.lastDay=rec.lastDay;
+    if(typeof rec.streak==="number")out.streak=rec.streak;
+    if(typeof rec.lastStreakDay==="string")out.lastStreakDay=rec.lastStreakDay;
+    if(rec.bestByTopic&&typeof rec.bestByTopic==="object")out.bestByTopic=rec.bestByTopic;
+    if(rec.lastBySlug&&typeof rec.lastBySlug==="object")out.lastBySlug=rec.lastBySlug;
+  }
+  out.minutes=out.sessions>0?Math.max(1,Math.round(out.seconds/60)):0;
+  return out;
+}
+function recordSkillSession(key,seconds,words,score,extra){
+  const rec=loadSkillSession(key);
+  const today=todayISO();
+  rec.sessions=(rec.sessions||0)+1;
+  rec.seconds=(rec.seconds||0)+Math.max(0,Math.round(seconds||0));
+  rec.words=(rec.words||0)+Math.max(0,Math.round(words||0));
+  if(typeof score==="number")rec.best=Math.max(rec.best||0,score);
+  rec.lastDay=today;
+  if(rec.lastStreakDay===today){}
+  else if(rec.lastStreakDay===addDays(today,-1)){rec.streak=(rec.streak||0)+1;}
+  else{rec.streak=1;}
+  rec.lastStreakDay=today;
+  if(extra&&extra.topic&&typeof score==="number"){rec.bestByTopic[extra.topic]=Math.max(rec.bestByTopic[extra.topic]||0,score);}
+  if(extra&&extra.slug&&typeof score==="number"){rec.lastBySlug[extra.slug]=score;}
+  rec.minutes=rec.sessions>0?Math.max(1,Math.round(rec.seconds/60)):0;
+  saveJSON("sdsc-"+key+"-v1",rec);
+  return rec;
+}
+function loadSpeaking(){return loadSkillSession("speaking");}
+function recordSpeaking(seconds,words,score,topic,slug){
+  const rec=recordSkillSession("speaking",seconds,words,score,{topic:topic,slug:slug});
+  try{if(typeof noteSpeakingSession==="function")noteSpeakingSession(rec);}catch(e){}
+  let xpAwarded=false;
+  updateProgress(p=>{xpAwarded=markSkillDone(p,"speak",20);});
+  return {session:rec,xpAwarded:xpAwarded};
+}
+function skillFor(slug){
+  const p=getProgress();const r=p.review[slug];
+  return (r&&r.skill&&SKILL_ORDER.indexOf(r.skill)>=0)?r.skill:"listen";
+}
+function skillPath(skill){return SKILL_PATH[skill]||SKILL_PATH.speak;}
+function completeSkillReview(slug,skill){
+  const p=getProgress();const today=todayISO();
+  const r=p.review[slug]||srsNew(today);
+  const cur=(r.skill&&SKILL_ORDER.indexOf(r.skill)>=0)?r.skill:"listen";
+  if(cur!==skill)return {advanced:false,skill:cur,nextDue:r.nextDue||null};
+  const step=(typeof r.skillStep==="number"?r.skillStep:0);
+  const nextStep=step+1;
+  r.skillStep=nextStep;
+  r.skill=SKILL_ORDER[nextStep%SKILL_ORDER.length];
+  r.nextDue=addDays(today,SKILL_DUE[Math.min(nextStep%SKILL_ORDER.length,3)]);
+  r.reps=(r.reps||0)+1;
+  p.review[slug]=r;
+  const L=p.lessons[slug];
+  const wasStudiedToday=!!(L&&L.lastStudiedAt===today);
+  if(L){L.reviews=(L.reviews||0)+1;}
+  const counted=countReview(p,slug,wasStudiedToday);
+  pushHistory(p,{date:today,at:new Date().toISOString(),slug:slug,action:"review",skill:skill});
+  saveProgress(p);
+  return {advanced:true,skill:r.skill,nextDue:r.nextDue,counted:counted};
+}
+try{renderStreakPills();}catch(e){}
+/* Căn chỉnh từng từ: so bản nghe được hoặc bản gõ với câu mẫu, theo thứ tự,
+   nhìn trước tối đa 2 từ để nhận từ thừa. Trả về marks (ok/miss theo từng từ
+   của câu mẫu), pct, missed (từ thiếu hoặc sai), extra (từ thừa). */
+function sdscTokenize(s){return String(s||"").toLowerCase().replace(/[^a-z0-9'\s]/g," ").split(/\s+/).filter(Boolean);}
+function sdscAlignWords(target,heard){
+  const t=sdscTokenize(target), h=sdscTokenize(heard);
+  const marks=[];let j=0;const missed=[];const extra=[];let correct=0;
+  for(let i=0;i<t.length;i++){
+    if(j<h.length&&h[j]===t[i]){marks.push("ok");j++;correct++;}
+    else if(j+1<h.length&&h[j+1]===t[i]){extra.push(h[j]);marks.push("ok");j+=2;correct++;}
+    else if(j+2<h.length&&h[j+2]===t[i]){extra.push(h[j]);extra.push(h[j+1]);marks.push("ok");j+=3;correct++;}
+    else{marks.push("miss");missed.push(t[i]);}
+  }
+  for(let k=j;k<h.length;k++)extra.push(h[k]);
+  const pct=t.length?Math.round(100*correct/t.length):0;
+  return {marks:marks,pct:pct,missed:missed,extra:extra,target:t,heard:h};
+}
+function sdscColoredSentence(target,marks){
+  const parts=String(target||"").split(/(\s+)/);
+  let wi=0;let html="";
+  parts.forEach(part=>{
+    if(!/[A-Za-z]/.test(part)){html+=escapeHtml(part);return;}
+    const cls=marks[wi]==="ok"?"w-ok":(marks[wi]==="miss"?"w-miss":"");
+    html+="<span class=\""+cls+"\">"+escapeHtml(part)+"</span>";
+    wi++;
+  });
+  return html;
+}
+/* So sánh 2 câu theo từng từ (LCS), trả HTML 2 câu với từ khác nhau
+   được bọc span.w-diff. Dùng cho trang Nghe (hiện 2 câu cạnh nhau). */
+function sdscWordTokens(s){
+  return String(s||"").split(/\s+/).filter(Boolean).map(function(w){
+    return {text:w,norm:w.toLowerCase().replace(/[^a-z0-9']/g,"")};
+  }).filter(function(t){return t.norm;});
+}
+function sdscDiffHtml(a,b){
+  const ta=sdscWordTokens(a), tb=sdscWordTokens(b);
+  const n=ta.length, m=tb.length;
+  const dp=[];
+  for(let i=0;i<=n;i++){dp.push(new Array(m+1).fill(0));}
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--){dp[i][j]=ta[i].norm===tb[j].norm?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);}
+  const aOut=[], bOut=[];
+  let i=0,j=0;
+  while(i<n&&j<m){
+    if(ta[i].norm===tb[j].norm){aOut.push({t:ta[i].text,same:true});bOut.push({t:tb[j].text,same:true});i++;j++;}
+    else if(dp[i+1][j]>=dp[i][j+1]){aOut.push({t:ta[i].text,same:false});i++;}
+    else{bOut.push({t:tb[j].text,same:false});j++;}
+  }
+  while(i<n){aOut.push({t:ta[i].text,same:false});i++;}
+  while(j<m){bOut.push({t:tb[j].text,same:false});j++;}
+  const wrap=function(parts){return parts.map(function(p){return p.same?escapeHtml(p.t):"<span class=\"w-diff\">"+escapeHtml(p.t)+"</span>";}).join(" ");};
+  return {aHtml:wrap(aOut),bHtml:wrap(bOut)};
+}
 const ICON_MOON='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
 const ICON_SUN='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
 function syncThemeBtn(){try{const b=document.getElementById("theme-toggle");if(b)b.innerHTML=document.documentElement.dataset.theme==="dark"?ICON_SUN:ICON_MOON;}catch(e){}}
@@ -329,6 +515,9 @@ function validateImportFile(text){
     if(typeof v.attempts!=="number"||!Number.isInteger(v.attempts)||v.attempts<1)return {ok:false,error:"Câu luyện '"+k+"': attempts phải là số nguyên ≥ 1."};
   }
   if(data.streak&&typeof data.streak.count!=="undefined"&&(typeof data.streak.count!=="number"||!Number.isInteger(data.streak.count)||data.streak.count<0))return {ok:false,error:"Trường 'streak.count' phải là số nguyên ≥ 0."};
+  if(data.xpTotal!==undefined&&(typeof data.xpTotal!=="number"||data.xpTotal<0))return {ok:false,error:"Trường 'xpTotal' phải là số ≥ 0."};
+  if(data.daily!==undefined&&(!data.daily||typeof data.daily!=="object"||Array.isArray(data.daily)))return {ok:false,error:"Trường 'daily' phải là object."};
+  if(data.daily&&data.daily.date!==undefined&&data.daily.date!==""&&!isValidDateStr(data.daily.date))return {ok:false,error:"Trường 'daily.date' không phải ngày hợp lệ."};
   if(Array.isArray(data.history)){for(const h of data.history){if(!h||typeof h!=="object"||["done","undone","practice","review","self-grade","import","reset","migrate"].indexOf(h.action)<0)return {ok:false,error:"Trường 'history[].action' không hợp lệ: "+JSON.stringify(h&&h.action)+"."};}}
   for(const [slug,v] of Object.entries(data.review||{})){
     const L=(data.lessons||{})[slug];
@@ -360,6 +549,13 @@ function mergeProgress(current,incoming){
   if(incLast>curLast){out.streak.count=incoming.streak.count||out.streak.count;out.streak.lastDate=incLast;}
   else if(out.streak.dates.length){out.streak.lastDate=[...out.streak.dates].sort().pop();}
   out.history=[...(out.history||[]),...((incoming.history||[]))].sort((a,b)=>String(a.at||"").localeCompare(String(b.at||""))).slice(-500);
+  out.xpTotal=Math.max(out.xpTotal||0,incoming.xpTotal||0);
+  const dOut=out.daily||{}, dInc=incoming.daily||{};
+  if(dInc.date&&dInc.date===todayISO()){
+    if(dOut.date===todayISO()){
+      out.daily={date:todayISO(),newDone:Math.max(dOut.newDone||0,dInc.newDone||0),reviewCount:Math.max(dOut.reviewCount||0,dInc.reviewCount||0),bonusDone:!!(dOut.bonusDone||dInc.bonusDone),skills:Object.assign({},dOut.skills||{},dInc.skills||{})};
+    }else{out.daily=JSON.parse(JSON.stringify(dInc));}
+  }
   return out;
 }
 function exportProgress(){
@@ -386,36 +582,9 @@ function importProgressText(text,mode){
   const streakCount=(result.streak&&result.streak.count)||0;
   return {ok:true,message:"Đã nhập: "+doneCount+" bài đã nhớ, "+pracCount+" câu luyện, chuỗi "+streakCount+" ngày (chế độ "+(mode==="overwrite"?"Ghi đè":"Gộp")+")."};
 }
-function loadSpeaking(){
-  try{const v=storageGet("sdsc-speaking-v1");const d=v?JSON.parse(v):null;if(d&&typeof d==="object")return {sessions:d.sessions||0,minutes:d.minutes||0,words:d.words||0,best:d.best||0,lastDay:d.lastDay||""};}catch(e){}
-  return {sessions:0,minutes:0,words:0,best:0,lastDay:""};
-}
 function speakingHoursText(mins){
   mins=Math.round(mins||0);
   if(mins<60)return mins+" phút";
   const h=Math.floor(mins/60);const m=mins%60;
   return h+" giờ"+(m?" "+m+" phút":"");
 }
-function recordSpeaking(minutes,words,score){
-  if(!isFinite(minutes)||minutes<=0)return;
-  const d=loadSpeaking();
-  d.sessions=(d.sessions||0)+1;
-  d.minutes=Math.round(((d.minutes||0)+minutes)*10)/10;
-  d.words=(d.words||0)+(words||0);
-  if(typeof score==="number"&&score>0)d.best=Math.max(d.best||0,Math.round(score));
-  d.lastDay=todayISO();
-  try{storageSet("sdsc-speaking-v1",JSON.stringify(d));}catch(e){}
-  try{noteSpeakingSession(d.minutes);}catch(e){}
-}
-/* Điền tổng số bài vào header (tối ưu B 19/11): tổng số lấy từ data.js
-   lúc chạy, không ghi cứng vào HTML, để thêm bài mới không đổi mọi trang.
-   Trang chủ và trang lộ trình cũng tự cập nhật lại đúng số này sau đó. */
-(function(){
-  try{
-    var total=window.SDSC_TOTAL_LESSONS||0;
-    document.querySelectorAll(".total-lessons-num").forEach(function(el){el.textContent=total;});
-    var p=getProgress();
-    var n=Object.entries(p.lessons||{}).filter(function(le){var l=le[1];return l&&l.done&&window.SDSC_LESSONS[le[0]];}).length;
-    document.querySelectorAll(".progress-num").forEach(function(el){el.textContent=n+" / "+total+" bài";});
-  }catch(e){}
-})();

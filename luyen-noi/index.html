@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>try{var __t=localStorage.getItem("sdsc-theme");if(__t){document.documentElement.dataset.theme=__t;}else if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.dataset.theme="dark";}}catch(e){}</script>
 <title>Luyện nói | Kho bài học Sai Đâu Sửa Đó</title>
-<meta name="description" content="Luyện nói tiếng Anh: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.">
+<meta name="description" content="Luyện nói tiếng Anh: nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.">
 <link rel="icon" type="image/svg+xml" href="/sai-dau-sua-do/favicon.svg">
 <link rel="canonical" href="https://dongdarealest.github.io/sai-dau-sua-do/luyen-noi/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Luyện nói | Kho bài học Sai Đâu Sửa Đó">
-<meta property="og:description" content="Luyện nói tiếng Anh: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.">
+<meta property="og:description" content="Luyện nói tiếng Anh: nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.">
 <meta property="og:url" content="https://dongdarealest.github.io/sai-dau-sua-do/luyen-noi/">
 <meta property="og:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
 <meta property="og:image:width" content="1080">
@@ -18,59 +18,70 @@
 <meta property="og:site_name" content="Kho bài học Sai Đâu Sửa Đó">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Luyện nói | Kho bài học Sai Đâu Sửa Đó">
-<meta name="twitter:description" content="Luyện nói tiếng Anh: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.">
+<meta name="twitter:description" content="Luyện nói tiếng Anh: nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.">
 <meta name="twitter:image" content="https://dongdarealest.github.io/sai-dau-sua-do/images/loi-001.jpg">
 <link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
 <noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
 </head>
-<body class="">
+<body class="has-nav">
 
 
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div style="display:flex;gap:14px;align-items:center">
-        <div class="logo">S</div>
-        <div>
-          <h1><a href="/sai-dau-sua-do/">Kho bài học Sai Đâu Sửa Đó</a></h1>
-          <p class="slogan">Mỗi ngày sửa một lỗi nhỏ.</p>
-        </div>
-      </div>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
-    </div>
-    <p class="intro">Luyện nói: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.</p>
-    <div class="stats"><span class="stat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> <span class="total-lessons-num">…</span> bài học</span><span class="stat score"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Đã nhớ <span class="progress-num">…</span></span></div>
-    <nav class="sitenav" aria-label="Mục chính">
-      <a href="/sai-dau-sua-do/">Trang chủ</a>
-      <a href="/sai-dau-sua-do/bang-lo-trinh/">Bảng lộ trình</a>
-      <a href="/sai-dau-sua-do/thu-vien-chu-de/">Thư viện chủ đề</a>
-      <a href="/sai-dau-sua-do/tu-dien/">Từ điển</a>
-      <a href="/sai-dau-sua-do/luyen-noi/">Luyện nói</a>
-    </nav>
+<header class="appbar">
+  <div class="appwrap">
+    <a href="/sai-dau-sua-do/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="/sai-dau-sua-do/">Sai Đâu Sửa Đó</a><small>Mỗi ngày sửa một lỗi nhỏ.</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
   </div>
 </header>
-<main class="wrap">
-  <p style="margin:16px 0 0"><a class="back" href="/sai-dau-sua-do/">← Tất cả bài học</a></p>
+<main class="appwrap">
   <section>
     <h2>Luyện nói</h2>
-    <p>Chọn 1 câu mẫu, nghe câu mẫu rồi nói lại. Máy nghe và cho biết khớp được bao nhiêu, từ nào chưa rõ.</p>
-    <p class="note">Trang chỉ kiểm tra câu nói có khớp với câu mẫu không, chưa chấm được từng âm như app chuyên luyện phát âm. Muốn chấm từng âm thì cần app chạy ngay trên máy, web này chưa làm được.</p>
+    <p class="speak-intro">Nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.</p>
     <p class="note warn" id="speak-nosupport" style="display:none">Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Mở trang bằng Chrome hoặc Edge trên máy tính hoặc điện thoại Android để luyện nói nhé. Safari và iPhone chưa dùng được tính năng này.</p>
-    <div class="filter-row">
-      <label for="speak-pick">Câu mẫu:</label>
-      <select id="speak-pick"></select>
-    </div>
+  </section>
+  <section>
+    <h2>Câu của hôm nay</h2>
+    <p class="msub2">Câu từ bài hôm nay và 2 bài gần nhất chưa nhớ. Bấm vào 1 câu là vào thẳng lượt 1.</p>
+    <div class="speak-cards" id="speak-today"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <h2>Luyện theo chủ đề</h2>
+    <p class="msub2">Chọn 1 chủ đề rồi chọn câu trong đó để luyện.</p>
+    <div class="speak-topic" id="speak-topics"><p>Đang tải…</p></div>
+    <div id="speak-topic-list" style="display:none"></div>
+  </section>
+  <section>
+    <h2>Từ yếu của bạn</h2>
+    <p class="msub2">Những từ hay sai nhất, mỗi từ kèm 1 câu chứa từ đó. Bấm vào từ là luyện câu đó.</p>
+    <div class="speak-cards" id="speak-weak"><p>Đang tải…</p></div>
+  </section>
+  <section class="speak-card" id="speak-card" style="display:none">
+    <p class="speak-round" id="speak-round">Lượt 1 trên 3</p>
     <p class="speak-target" id="speak-target">Đang tải câu mẫu…</p>
-    <p id="speak-vi"></p>
+    <p class="speak-vi" id="speak-vi"></p>
+    <p class="speak-source" id="speak-source"></p>
     <div class="chunk-actions">
       <button type="button" class="btn btn-navy" id="speak-listen">Nghe câu mẫu</button>
       <button type="button" class="btn btn-primary" id="speak-start">Bắt đầu nói</button>
       <button type="button" class="btn btn-ghost" id="speak-stop" disabled>Dừng</button>
+      <button type="button" class="btn btn-ghost" id="speak-replay" style="display:none">Nghe lại giọng mình</button>
     </div>
     <p id="speak-status">Bấm “Nghe câu mẫu” rồi bấm “Bắt đầu nói” nhé.</p>
     <div class="speak-heard" id="speak-heard"></div>
+    <div class="speak-colored" id="speak-colored"></div>
     <div id="speak-score"></div>
+    <div class="speak-missed" id="speak-missed"></div>
+    <div class="speak-next">
+      <button type="button" class="btn btn-primary" id="speak-next" style="display:none">Lượt tiếp theo</button>
+      <button type="button" class="btn btn-ghost" id="speak-new">Chọn câu khác</button>
+    </div>
+    <div id="speak-done" style="display:none"></div>
+  </section>
+  <section>
     <p id="speak-stats"></p>
+    <p><button type="button" class="btn btn-ghost" id="speak-random">Ngẫu nhiên 1 câu</button></p>
+    <p class="msub2">Máy chấm theo từ, không chấm từng âm.</p>
   </section>
 </main>
 
@@ -81,75 +92,273 @@
   </div>
 </footer>
 
-<script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script><script>window.SDSC_SPEAK=[{"en": "Can you lend me your pen?", "vi": "Bạn cho tôi mượn cây bút được không?", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "Can I borrow your pen?", "vi": "Tôi mượn cây bút của bạn được không?", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "She lent me her laptop yesterday.", "vi": "Hôm qua cô ấy cho tôi mượn laptop.", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "I would like to take a day off tomorrow.", "vi": "Tôi muốn xin nghỉ một ngày vào ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I would like to take tomorrow off, please.", "vi": "Tôi muốn xin nghỉ ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "Could I take Monday off, please?", "vi": "Tôi có thể nghỉ thứ Hai được không?", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I need to take a day off for a family matter.", "vi": "Tôi cần nghỉ một ngày vì việc gia đình.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I need to take Friday morning off to see the dentist.", "vi": "Tôi cần xin nghỉ buổi sáng thứ Sáu để đi khám răng.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "Can I borrow your bike?", "vi": "Tôi mượn xe đạp của bạn được không?", "code": "Quiz #001", "slug": "quiz-001"}, {"en": "He lent me 100,000 VND.", "vi": "Anh ấy cho tôi mượn 100.000 đồng.", "code": "Quiz #001", "slug": "quiz-001"}, {"en": "I am bored.", "vi": "Tôi thấy chán.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "The film was boring, so I felt bored.", "vi": "Bộ phim chán quá nên tôi thấy chán.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "Are you bored?", "vi": "Bạn thấy chán à?", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "Let's go out.", "vi": "Mình đi chơi đi.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "She told me that she was busy.", "vi": "Cô ấy nói với tôi rằng cô ấy bận.", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "Tell me your name, please.", "vi": "Cho tôi biết tên bạn nhé.", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "Did you say that?", "vi": "Bạn nói vậy à?", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "I come from Vietnam.", "vi": "Tôi đến từ Việt Nam.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "Hi, I am Lan.", "vi": "Tôi là Lan.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "I work in Da Lat.", "vi": "Tôi làm việc ở Đà Lạt.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "Nice to meet you.", "vi": "Rất vui được gặp bạn.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "I am from Vietnam.", "vi": "Tôi là người Việt Nam.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "What do you do?", "vi": "Bạn làm nghề gì?", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "The movie was so boring.", "vi": "", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "I felt bored.", "vi": "", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "The party was boring.", "vi": "Bữa tiệc chán quá.", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "She felt bored during the meeting.", "vi": "Cô ấy thấy chán trong cuộc họp.", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "CUMF tơ bồ", "vi": "thường đọc 3 âm", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "This chair is very comfortable.", "vi": "Cái ghế này rất thoải mái.", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "My shoes are very comfortable.", "vi": "Đôi giày của tôi rất thoải mái.", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "I saw a ship on the sea.", "vi": "Tôi thấy một con tàu trên biển.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The ship is on the sea.", "vi": "Con tàu đang ở trên biển.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The sheep is on the farm.", "vi": "Con cừu đang ở trên nông trại.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "I live in Da Lat, but I will leave tomorrow.", "vi": "Tôi sống ở Đà Lạt, nhưng ngày mai tôi sẽ rời đi.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The dishes are in the sink.", "vi": "Bát đĩa đang ở trong bồn rửa.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "a university.", "vi": "Một trường đại học.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "She studies at a university in Da Lat.", "vi": "Cô ấy học ở một trường đại học tại Đà Lạt.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "I waited for an hour at the station.", "vi": "Tôi đã đợi một tiếng ở nhà ga.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "I have worked here for 3 years.", "vi": "Tôi làm ở đây được 3 năm.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "I have worked here since 2022.", "vi": "Tôi làm ở đây từ năm 2022.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "She has lived in Da Lat since last year.", "vi": "Cô ấy sống ở Đà Lạt từ năm ngoái.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "She has lived there for a year.", "vi": "Cô ấy sống ở đó được một năm.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "I have worked here since January.", "vi": "Tôi làm ở đây từ tháng 1.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "My hometown has many beautiful beaches.", "vi": "Quê tôi có nhiều bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "My hometown is famous for its beautiful beaches.", "vi": "Quê tôi nổi tiếng với những bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "In my hometown, there are many beautiful beaches.", "vi": "Ở quê tôi có nhiều bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "Chữ b là chữ câm trong debt.", "vi": "debt nghĩa là món nợ.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "I have a big debt to pay.", "vi": "Tôi có một khoản nợ lớn phải trả.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "She paid off her debt last year.", "vi": "Cô ấy đã trả hết nợ năm ngoái.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "She broke up with me because I am a super handsome boy.", "vi": "Cô ấy bỏ tôi vì tôi quá đẹp trai.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "They broke up after five years together.", "vi": "Họ chia tay sau năm năm bên nhau.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "My friend broke up with her boyfriend yesterday.", "vi": "Bạn tôi đã chia tay bạn trai hôm qua.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "What are you listening to?", "vi": "Bạn đang nghe gì vậy?", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "She is listening to her favorite song.", "vi": "Cô ấy đang nghe bài hát yêu thích của mình.", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "We listen to music while we work.", "vi": "Chúng tôi nghe nhạc trong lúc làm việc.", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "I am in the car.", "vi": "Tôi đang ở trong xe ô tô.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "I am waiting in the car.", "vi": "Tôi đang chờ trong xe ô tô.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "We are on the bus to Da Lat.", "vi": "Chúng tôi đang ở trên xe buýt đi Đà Lạt.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "I have lived here since 2020.", "vi": "", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "We have known each other since 2019.", "vi": "Chúng tôi quen nhau từ năm 2019.", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "He has studied English for 2 years.", "vi": "Anh ấy học tiếng Anh được 2 năm.", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "Currently, I am living in Da Lat.", "vi": "Hiện tại tôi đang sống ở Đà Lạt.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "Actually, I do not like coffee.", "vi": "Thật ra tôi không thích cà phê.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "Currently, she works in Ho Chi Minh City.", "vi": "Hiện tại cô ấy làm việc ở Thành phố Hồ Chí Minh.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "The view is absolutely perfect.", "vi": "Khung cảnh thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "This hotel room is absolutely perfect.", "vi": "Phòng khách sạn này thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "The plan for our trip is absolutely perfect.", "vi": "Kế hoạch cho chuyến đi của chúng tôi thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "Everybody is happy today.", "vi": "Hôm nay mọi người đều vui.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "Someone is waiting for you.", "vi": "Có ai đó đang đợi bạn.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "Nobody is at home now.", "vi": "Bây giờ không có ai ở nhà.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "They robbed the bank.", "vi": "Họ cướp ngân hàng.", "code": "Từ #001", "slug": "tu-001"}, {"en": "They stole the money.", "vi": "Họ ăn cắp tiền.", "code": "Từ #001", "slug": "tu-001"}, {"en": "Please do not steal my bike.", "vi": "Làm ơn đừng ăn cắp xe đạp của tôi.", "code": "Từ #001", "slug": "tu-001"}, {"en": "I have a lot of work today.", "vi": "Hôm nay tôi có nhiều việc.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I have a new job.", "vi": "Tôi có công việc mới.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I have a lot of work this week.", "vi": "Tuần này tôi có nhiều việc.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "My salary is paid every month.", "vi": "Lương tháng của tôi trả hàng tháng.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "His wage is paid every hour.", "vi": "Lương giờ của anh ấy trả theo giờ.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I play football every Sunday.", "vi": "Tôi chơi bóng đá mỗi chủ nhật.", "code": "Meme #002", "slug": "meme-002"}, {"en": "I play tennis every weekend.", "vi": "Tôi chơi quần vợt mỗi cuối tuần.", "code": "Meme #002", "slug": "meme-002"}, {"en": "They play volleyball on Saturday mornings.", "vi": "Họ chơi bóng chuyền vào các buổi sáng thứ Bảy.", "code": "Meme #002", "slug": "meme-002"}, {"en": "Chữ k là chữ câm trong knight.", "vi": "knight nghĩa là hiệp sĩ.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The knight lived in a big castle.", "vi": "Hiệp sĩ sống trong một lâu đài lớn.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The brave knight helped the king.", "vi": "Hiệp sĩ dũng cảm đã giúp nhà vua.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The meeting is on Monday at 9am.", "vi": "Họp vào thứ Hai lúc 9 giờ sáng.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "The meeting is on Tuesday at 10am.", "vi": "Họp vào thứ Ba lúc 10 giờ sáng.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "My birthday is in December.", "vi": "Sinh nhật của tôi vào tháng 12.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "I am waiting for you.", "vi": "Tôi đang chờ bạn.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "I am waiting for my friend at the cafe.", "vi": "Tôi đang chờ bạn tôi ở quán cà phê.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "She is waiting for the bus.", "vi": "Cô ấy đang chờ xe buýt.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "I have gone there before.", "vi": "Tôi đã từng đến đó trước đây.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "She has gone to Da Lat twice.", "vi": "Cô ấy đã đến Đà Lạt hai lần rồi.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "We have seen that movie before.", "vi": "Chúng tôi đã xem bộ phim đó trước đây rồi.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "Currently, she works in Da Lat.", "vi": "Hiện tại cô ấy làm việc ở Đà Lạt.", "code": "Quiz #005", "slug": "quiz-005"}, {"en": "I agree with you.", "vi": "Tôi đồng ý với bạn.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "I agree with your idea.", "vi": "Tôi đồng ý với ý của bạn.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "I think we should start now.", "vi": "Tôi nghĩ chúng ta nên bắt đầu ngay.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "Da Lat is farther than Nha Trang.", "vi": "Đà Lạt xa hơn Nha Trang.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "Da Lat is farther from Ho Chi Minh City than Nha Trang.", "vi": "Đà Lạt xa Thành phố Hồ Chí Minh hơn Nha Trang.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "Please send me further details about the meeting.", "vi": "Vui lòng gửi thêm cho tôi chi tiết về buổi họp.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "I watch TV every night.", "vi": "Tôi xem tivi mỗi tối.", "code": "Từ #002", "slug": "tu-002"}, {"en": "I saw a bird in the garden.", "vi": "Tôi thấy một con chim trong vườn.", "code": "Từ #002", "slug": "tu-002"}, {"en": "We watched the sunset together.", "vi": "Chúng tôi cùng nhau ngắm hoàng hôn.", "code": "Từ #002", "slug": "tu-002"}, {"en": "immature kid", "vi": "cách nói tự nhiên nhất cho trẻ trâu.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "He is such an immature kid.", "vi": "Anh ta đúng là một đứa trẻ trâu.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "Don't be so childish.", "vi": "Đừng trẻ trâu vậy.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "He doesn't like it.", "vi": "Anh ấy không thích cái đó.", "code": "Meme #003", "slug": "meme-003"}, {"en": "Tom doesn't like rainy days.", "vi": "Tom không thích những ngày mưa.", "code": "Meme #003", "slug": "meme-003"}, {"en": "My sister doesn't like durian.", "vi": "Chị tôi không thích sầu riêng.", "code": "Meme #003", "slug": "meme-003"}, {"en": "She can sing.", "vi": "can nghĩa là có thể.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "I can cook dinner tonight.", "vi": "Tối nay tôi có thể nấu bữa tối.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "We can learn English together.", "vi": "Chúng ta có thể học tiếng Anh cùng nhau.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "Hi, I am a student.", "vi": "Chào bạn, tôi là học sinh.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "I am a student at Yersin University.", "vi": "Tôi là sinh viên trường Đại học Yersin.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "She is a student in my class.", "vi": "Cô ấy là học sinh trong lớp tôi.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "I go to school on foot.", "vi": "Tôi đi học bằng chân.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "I go to the market on foot.", "vi": "Tôi đi chợ bằng chân.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "She walks to work on foot.", "vi": "Cô ấy đi bộ đi làm.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "There are three books on the table.", "vi": "Có ba quyển sách trên bàn.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "There are two pens on the desk.", "vi": "Có hai cây bút trên bàn.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "There are many students in the class.", "vi": "Có nhiều học sinh trong lớp.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "I agree with her idea.", "vi": "Tôi đồng ý với ý của cô ấy.", "code": "Quiz #006", "slug": "quiz-006"}, {"en": "Can you lend me your umbrella?", "vi": "Bạn cho tôi mượn cây dù của bạn được không?", "code": "Quiz #006", "slug": "quiz-006"}, {"en": "Happy Vietnamese Teachers' Day!", "vi": "", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "I sent my teacher a card on Teachers' Day.", "vi": "Tôi đã gửi thiệp cho thầy cô nhân Ngày Nhà giáo.", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "We celebrate Vietnamese Teachers' Day on November 20.", "vi": "Chúng ta kỷ niệm Ngày Nhà giáo Việt Nam vào 20 tháng 11.", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "There are fewer people today.", "vi": "Hôm nay ít người hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "I have less sugar in my coffee now.", "vi": "Giờ tôi cho ít đường vào cà phê hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "She bought fewer books this month.", "vi": "Tháng này cô ấy mua ít sách hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "I'd rather you didn't arrive late.", "vi": "Quá khứ đơn sau would rather khi người muốn và người làm khác nhau.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I'd rather you told me the truth.", "vi": "Tôi muốn bạn nói thật với tôi.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I'd rather she didn't call me tonight.", "vi": "Tôi muốn tối nay cô ấy đừng gọi cho tôi.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I wish you good health.", "vi": "Em chúc thầy cô sức khỏe.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "Thank you for teaching me.", "vi": "Cảm ơn thầy cô đã dạy em.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "I wish you good health and happiness.", "vi": "Chúc thầy cô sức khỏe, hạnh phúc.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "You are the best teacher ever.", "vi": "Thầy cô là người tuyệt vời nhất.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "I have 2 children.", "vi": "Tôi có 2 đứa con.", "code": "Meme #004", "slug": "meme-004"}, {"en": "My sister has 2 children.", "vi": "Chị tôi có 2 đứa con.", "code": "Meme #004", "slug": "meme-004"}, {"en": "The children are playing in the garden.", "vi": "Bọn trẻ đang chơi trong vườn.", "code": "Meme #004", "slug": "meme-004"}, {"en": "small", "vi": "small nghĩa là nhỏ.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "I have a big house in Da Lat.", "vi": "Tôi có một ngôi nhà lớn ở Đà Lạt.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "This bag is too small for my books.", "vi": "Chiếc túi này quá nhỏ so với sách của tôi.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "She is a teacher.", "vi": "Cô ấy là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "She is a teacher in Da Lat.", "vi": "Cô ấy là giáo viên ở Đà Lạt.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "He is a teacher too.", "vi": "Anh ấy cũng là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "Do you like coffee or tea?", "vi": "Bạn thích cà phê hay trà?", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "Would you like coffee or tea?", "vi": "Bạn muốn uống cà phê hay trà?", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "I drink tea every morning.", "vi": "Tôi uống trà mỗi sáng.", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "I am studying English now.", "vi": "Tôi đang học tiếng Anh.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "She is reading a book now.", "vi": "Cô ấy đang đọc sách.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "We are learning Vietnamese now.", "vi": "Chúng tôi đang học tiếng Việt.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "I want to thank my teacher.", "vi": "thank đi thẳng với tân ngữ.", "code": "Quiz #007", "slug": "quiz-007"}, {"en": "I want to thank my friends for their help.", "vi": "Tôi muốn cảm ơn các bạn của tôi vì sự giúp đỡ của họ.", "code": "Quiz #007", "slug": "quiz-007"}, {"en": "She is good at English.", "vi": "", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I live in Da Lat.", "vi": "Tôi sống ở Đà Lạt.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "The book is on the table.", "vi": "Quyển sách ở trên bàn.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She is at home.", "vi": "Cô ấy đang ở nhà.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "We will move in 2026.", "vi": "Chúng tôi sẽ chuyển nhà vào năm 2026.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "We meet on Monday.", "vi": "Chúng tôi gặp nhau vào thứ Hai.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "The class starts at 7:00.", "vi": "Lớp học bắt đầu lúc 7 giờ.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I go to work by bus.", "vi": "Tôi đi làm bằng xe buýt.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She goes to school by bike.", "vi": "Cô ấy đi học bằng xe đạp.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I write with a pen.", "vi": "Tôi viết bằng cây bút.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She is married to a teacher.", "vi": "Cô ấy kết hôn với một giáo viên.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I am interested in music.", "vi": "Tôi thích âm nhạc.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "He is afraid of dogs.", "vi": "Anh ấy sợ chó.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I want to thank my parents for their help.", "vi": "Em muốn cảm ơn bố mẹ vì đã giúp đỡ em.", "code": "Lỗi #009", "slug": "loi-009"}, {"en": "The man whom I met is my teacher.", "vi": "Người đàn ông tôi gặp là thầy tôi.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "The student whom I helped passed the exam.", "vi": "Học trò tôi giúp đã đỗ kỳ thi.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "She is the teacher whom everybody loves.", "vi": "Cô ấy là giáo viên mà ai cũng yêu quý.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "I have lived here for 3 years.", "vi": "Tôi đã sống ở đây được 3 năm.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "I have worked in Da Lat since 2024.", "vi": "Tôi làm việc ở Đà Lạt từ năm 2024.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "She has lived here for a long time.", "vi": "Cô ấy đã sống ở đây rất lâu rồi.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "On the occasion of Teachers' Day, I wish you good health.", "vi": "Nhân dịp Ngày Nhà giáo.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "My teacher is very kind.", "vi": "Thầy cô của em rất tốt bụng.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "She helps me learn English.", "vi": "Cô giúp em học tiếng Anh.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "I learned a lot from my teacher.", "vi": "Em học được rất nhiều từ thầy cô.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "He makes every lesson fun.", "vi": "Thầy làm mỗi tiết học đều vui.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "She works every day.", "vi": "Cô ấy làm việc mỗi ngày.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is working now.", "vi": "Cô ấy đang làm việc.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She has worked here for 2 years.", "vi": "Cô ấy làm việc ở đây được 2 năm.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She has been working since 2020.", "vi": "Cô ấy làm việc từ năm 2020.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She worked yesterday.", "vi": "Cô ấy làm việc hôm qua.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She was working at 8:00 last night.", "vi": "Cô ấy đang làm việc lúc 8 giờ tối qua.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She had finished work before 6:00.", "vi": "Cô ấy đã xong việc trước 6 giờ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She had been working all day.", "vi": "Cô ấy đã làm việc cả ngày.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She will work tomorrow.", "vi": "Cô ấy sẽ làm việc ngày mai.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is going to work tomorrow.", "vi": "Cô ấy định làm việc ngày mai.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is working tomorrow morning.", "vi": "Cô ấy làm việc sáng mai, đã sắp xếp rồi.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She will have finished work by 6:00.", "vi": "Cô ấy sẽ xong việc trước 6 giờ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If you heat ice, it melts.", "vi": "Nếu bạn đun nóng đá, nó tan chảy.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If it rains, we will stay home.", "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If I had money, I would travel.", "vi": "Nếu tôi có tiền, tôi sẽ đi du lịch.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If I had studied, I would have passed.", "vi": "Nếu tôi đã học, tôi đã đậu rồi.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "English is spoken here.", "vi": "Ở đây nói tiếng Anh.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house was built in 2020.", "vi": "Ngôi nhà được xây vào năm 2020.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house will be built next year.", "vi": "Ngôi nhà sẽ được xây vào năm sau.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house has been built.", "vi": "Ngôi nhà đã được xây xong.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "Da Lat is colder than Saigon.", "vi": "Đà Lạt lạnh hơn Sài Gòn.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is the tallest student in class.", "vi": "Cô ấy là học sinh cao nhất lớp.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is as tall as her mother.", "vi": "Cô ấy cao bằng mẹ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The more I read, the better I get.", "vi": "Tôi càng đọc nhiều, tôi càng giỏi hơn.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I used to live in Da Lat.", "vi": "Tôi từng sống ở Đà Lạt.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I suggest going early.", "vi": "Tôi gợi ý đi sớm.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I wish I had a bike.", "vi": "Tôi ước gì tôi có một chiếc xe đạp.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The book that I read is interesting.", "vi": "Quyển sách tôi đọc rất hay.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I didn't go to school yesterday.", "vi": "Hôm qua tôi không đi học.", "code": "Meme #005", "slug": "meme-005"}, {"en": "We didn't meet him yesterday.", "vi": "Hôm qua chúng tôi không gặp anh ấy.", "code": "Meme #005", "slug": "meme-005"}, {"en": "They didn't finish the homework last night.", "vi": "Tối qua họ không làm xong bài tập.", "code": "Meme #005", "slug": "meme-005"}, {"en": "WENZ day.", "vi": "Wednesday nghĩa là thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "I have English class on Wednesday.", "vi": "Tôi có lớp tiếng Anh vào thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "The meeting is on Wednesday morning.", "vi": "Cuộc họp diễn ra vào sáng thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "Please send me the file.", "vi": "Làm ơn gửi giúp tôi tập tin.", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}, {"en": "Please send me the report before Friday.", "vi": "Làm ơn gửi giúp tôi bản báo cáo trước thứ Sáu.", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}, {"en": "Could you kindly send the report today?", "vi": "Bạn có thể vui lòng gửi bản báo cáo hôm nay không?", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}];</script>
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem on" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
+<script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script><script>window.SDSC_SPEAKABLE=[{"en": "Can you lend me your pen?", "vi": "Bạn cho tôi mượn cây bút được không?", "code": "Lỗi #001", "slug": "loi-001", "topic": "giao tiếp", "title": "borrow và lend", "words": 6, "level": "Ngắn"}, {"en": "I would like to take a day off tomorrow.", "vi": "Tôi muốn xin nghỉ một ngày vào ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001", "topic": "công sở", "title": "xin nghỉ phép", "words": 9, "level": "Vừa"}, {"en": "Can you lend me your pen?", "vi": "Bạn cho tôi mượn cây bút được không?", "code": "Quiz #001", "slug": "quiz-001", "topic": "công sở", "title": "borrow hay lend?", "words": 6, "level": "Ngắn"}, {"en": "She told me that she was busy.", "vi": "Cô ấy nói với tôi rằng cô ấy bận.", "code": "Lỗi #003", "slug": "loi-003", "topic": "giao tiếp", "title": "say và tell", "words": 7, "level": "Vừa"}, {"en": "I come from Vietnam.", "vi": "Tôi đến từ Việt Nam.", "code": "Mẫu câu #002", "slug": "mau-cau-002", "topic": "giao tiếp", "title": "giới thiệu bản thân", "words": 4, "level": "Ngắn"}, {"en": "The movie was so boring. I felt bored.", "vi": "", "code": "Quiz #002", "slug": "quiz-002", "topic": "giao tiếp", "title": "boring hay bored?", "words": 8, "level": "Vừa"}, {"en": "I saw a ship on the sea.", "vi": "Tôi thấy một con tàu trên biển.", "code": "Mẫu câu #003", "slug": "mau-cau-003", "topic": "phát âm", "title": "3 cặp âm dễ nhầm", "words": 7, "level": "Vừa"}, {"en": "I have worked here for 3 years.", "vi": "Tôi làm ở đây được 3 năm.", "code": "Mẫu câu #004", "slug": "mau-cau-004", "topic": "ngữ pháp", "title": "since và for", "words": 6, "level": "Ngắn"}, {"en": "My hometown has many beautiful beaches.", "vi": "Quê tôi có nhiều bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001", "topic": "giao tiếp", "title": "In my hometown has", "words": 6, "level": "Ngắn"}, {"en": "She broke up with me because I am a super handsome boy.", "vi": "Cô ấy bỏ tôi vì tôi quá đẹp trai.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000", "topic": "giao tiếp", "title": "break up with me", "words": 12, "level": "Vừa"}, {"en": "What are you listening to?", "vi": "Bạn đang nghe gì vậy?", "code": "Hội thoại #001", "slug": "hoi-thoai-001", "topic": "giao tiếp", "title": "listen to music", "words": 5, "level": "Ngắn"}, {"en": "I am in the car.", "vi": "Tôi đang ở trong xe ô tô.", "code": "Đố nhanh #001", "slug": "do-001", "topic": "giao tiếp", "title": "on the car", "words": 5, "level": "Ngắn"}, {"en": "I have lived here since 2020.", "vi": "", "code": "Quiz #004", "slug": "quiz-004", "topic": "ngữ pháp", "title": "since hay for?", "words": 5, "level": "Ngắn"}, {"en": "Currently, I am living in Da Lat.", "vi": "Hiện tại tôi đang sống ở Đà Lạt.", "code": "Lỗi #006", "slug": "loi-006", "topic": "từ vựng", "title": "actually", "words": 7, "level": "Vừa"}, {"en": "The view is absolutely perfect.", "vi": "Khung cảnh thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001", "topic": "ngữ pháp", "title": "very perfect", "words": 5, "level": "Ngắn"}, {"en": "Everybody is happy today.", "vi": "Hôm nay mọi người đều vui.", "code": "Sơ đồ #001", "slug": "so-do-001", "topic": "ngữ pháp", "title": "Đại từ bất định đi với IS hay ARE", "words": 4, "level": "Ngắn"}, {"en": "They robbed the bank.", "vi": "Họ cướp ngân hàng.", "code": "Từ #001", "slug": "tu-001", "topic": "từ vựng", "title": "rob và steal", "words": 4, "level": "Ngắn"}, {"en": "I have a lot of work today.", "vi": "Hôm nay tôi có nhiều việc.", "code": "Mẫu câu #005", "slug": "mau-cau-005", "topic": "từ vựng", "title": "job, work, salary, wage", "words": 7, "level": "Vừa"}, {"en": "I play football every Sunday.", "vi": "Tôi chơi bóng đá mỗi chủ nhật.", "code": "Meme #002", "slug": "meme-002", "topic": "giao tiếp", "title": "play football", "words": 5, "level": "Ngắn"}, {"en": "The meeting is on Monday at 9am.", "vi": "Họp vào thứ Hai lúc 9 giờ sáng.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001", "topic": "công sở", "title": "in, on, at với giờ họp", "words": 7, "level": "Vừa"}, {"en": "I am waiting for you.", "vi": "Tôi đang chờ bạn.", "code": "Hội thoại #002", "slug": "hoi-thoai-002", "topic": "giao tiếp", "title": "waiting for you", "words": 5, "level": "Ngắn"}, {"en": "I have gone there before.", "vi": "Tôi đã từng đến đó trước đây.", "code": "Đố nhanh #002", "slug": "do-002", "topic": "ngữ pháp", "title": "have went", "words": 5, "level": "Ngắn"}, {"en": "Currently, I am living in Da Lat.", "vi": "Hiện tại tôi đang sống ở Đà Lạt.", "code": "Quiz #005", "slug": "quiz-005", "topic": "từ vựng", "title": "actually hay currently?", "words": 7, "level": "Vừa"}, {"en": "I agree with you.", "vi": "Tôi đồng ý với bạn.", "code": "Lỗi #007", "slug": "loi-007", "topic": "quiz tổng hợp", "title": "I agree", "words": 4, "level": "Ngắn"}, {"en": "Da Lat is farther than Nha Trang.", "vi": "Đà Lạt xa hơn Nha Trang.", "code": "Mẹo #002", "slug": "meo-002", "topic": "từ vựng", "title": "farther và further", "words": 7, "level": "Vừa"}, {"en": "I watch TV every night.", "vi": "Tôi xem tivi mỗi tối.", "code": "Từ #002", "slug": "tu-002", "topic": "từ vựng", "title": "see và watch", "words": 5, "level": "Ngắn"}, {"en": "He doesn't like it.", "vi": "Anh ấy không thích cái đó.", "code": "Meme #003", "slug": "meme-003", "topic": "giao tiếp", "title": "He don't like it", "words": 4, "level": "Ngắn"}, {"en": "Hi, I am a student.", "vi": "Chào bạn, tôi là học sinh.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002", "topic": "giao tiếp", "title": "I am a student", "words": 5, "level": "Ngắn"}, {"en": "I go to school on foot.", "vi": "Tôi đi học bằng chân.", "code": "Hội thoại #003", "slug": "hoi-thoai-003", "topic": "giao tiếp", "title": "on foot", "words": 6, "level": "Ngắn"}, {"en": "There are three books on the table.", "vi": "Có ba quyển sách trên bàn.", "code": "Đố nhanh #003", "slug": "do-003", "topic": "ngữ pháp", "title": "there is three books", "words": 7, "level": "Vừa"}, {"en": "I agree with you.", "vi": "Câu này đúng, không thừa am.", "code": "Quiz #006", "slug": "quiz-006", "topic": "quiz tổng hợp", "title": "chọn câu đúng", "words": 4, "level": "Ngắn"}, {"en": "Happy Vietnamese Teachers' Day!", "vi": "", "code": "Lỗi #008", "slug": "loi-008", "topic": "giao tiếp", "title": "Happy Teachers' Day", "words": 4, "level": "Ngắn"}, {"en": "There are fewer people today.", "vi": "Hôm nay ít người hơn.", "code": "Mẹo #003", "slug": "meo-003", "topic": "ngữ pháp", "title": "less và fewer", "words": 5, "level": "Ngắn"}, {"en": "I'd rather you didn't arrive late.", "vi": "Quá khứ đơn sau would rather khi người muốn và người làm khác nhau.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001", "topic": "ngữ pháp", "title": "would rather", "words": 6, "level": "Ngắn"}, {"en": "I wish you good health.", "vi": "Em chúc thầy cô sức khỏe.", "code": "Mẫu câu #007", "slug": "mau-cau-007", "topic": "giao tiếp", "title": "4 câu chúc thầy cô", "words": 5, "level": "Ngắn"}, {"en": "She is a teacher.", "vi": "Cô ấy là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003", "topic": "giao tiếp", "title": "She is a teacher", "words": 4, "level": "Ngắn"}, {"en": "Do you like coffee or tea?", "vi": "Bạn thích cà phê hay trà?", "code": "Hội thoại #004", "slug": "hoi-thoai-004", "topic": "giao tiếp", "title": "coffee or tea", "words": 6, "level": "Ngắn"}, {"en": "I am studying English now.", "vi": "Tôi đang học tiếng Anh.", "code": "Đố nhanh #004", "slug": "do-004", "topic": "ngữ pháp", "title": "am study", "words": 5, "level": "Ngắn"}, {"en": "I want to thank my teacher.", "vi": "thank đi thẳng với tân ngữ.", "code": "Quiz #007", "slug": "quiz-007", "topic": "giao tiếp", "title": "chọn câu chúc đúng", "words": 6, "level": "Ngắn"}, {"en": "She is good at English.", "vi": "", "code": "Tổng hợp #001", "slug": "tong-hop-001", "topic": "ngữ pháp", "title": "Tổng hợp giới từ", "words": 5, "level": "Ngắn"}, {"en": "I want to thank my teacher.", "vi": "Em muốn cảm ơn thầy cô của em.", "code": "Lỗi #009", "slug": "loi-009", "topic": "giao tiếp", "title": "thank to", "words": 6, "level": "Ngắn"}, {"en": "The man whom I met is my teacher.", "vi": "Người đàn ông tôi gặp là thầy tôi.", "code": "Mẹo #004", "slug": "meo-004", "topic": "ngữ pháp", "title": "who và whom", "words": 8, "level": "Vừa"}, {"en": "I have lived here for 3 years.", "vi": "Tôi đã sống ở đây được 3 năm.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001", "topic": "ngữ pháp", "title": "for và since", "words": 6, "level": "Ngắn"}, {"en": "On the occasion of Teachers' Day, I wish you good health.", "vi": "Nhân dịp Ngày Nhà giáo.", "code": "Mẫu câu #008", "slug": "mau-cau-008", "topic": "giao tiếp", "title": "4 câu kể về thầy cô", "words": 11, "level": "Vừa"}, {"en": "She has gone to Da Lat twice.", "vi": "", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi", "topic": "ngữ pháp", "title": "Tổng hợp các thì và cấu trúc hay gặp", "words": 7, "level": "Vừa"}, {"en": "I didn't go to school yesterday.", "vi": "Hôm qua tôi không đi học.", "code": "Meme #005", "slug": "meme-005", "topic": "giao tiếp", "title": "I didn't went to school yesterday", "words": 6, "level": "Ngắn"}, {"en": "Please send me the file.", "vi": "Làm ơn gửi giúp tôi tập tin.", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004", "topic": "công sở", "title": "please kindly", "words": 5, "level": "Ngắn"}];window.SDSC_WEAK=[{"word": "teacher", "meaning": "giáo viên", "slugs": ["loi-008", "loi-nhanh-003", "quiz-007", "loi-009", "meo-004"], "sentence": {"en": "She is a teacher.", "vi": "Cô ấy là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003", "topic": "giao tiếp", "title": "She is a teacher", "words": 4, "level": "Ngắn"}}, {"word": "day", "meaning": "ngày", "slugs": ["mau-cau-001", "loi-008", "mau-cau-008", "quiz-nhanh-005"], "sentence": {"en": "I would like to take a day off tomorrow.", "vi": "Tôi muốn xin nghỉ một ngày vào ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001", "topic": "công sở", "title": "xin nghỉ phép", "words": 9, "level": "Vừa"}}, {"word": "today", "meaning": "hôm nay", "slugs": ["reel-002", "so-do-001", "mau-cau-005", "meo-003"], "sentence": {"en": "Everybody is happy today.", "vi": "Hôm nay mọi người đều vui.", "code": "Sơ đồ #001", "slug": "so-do-001", "topic": "ngữ pháp", "title": "Đại từ bất định đi với IS hay ARE", "words": 4, "level": "Ngắn"}}, {"word": "want", "meaning": "muốn", "slugs": ["mau-cau-001", "quiz-007", "loi-009", "reel-006"], "sentence": {"en": "I want to thank my teacher.", "vi": "thank đi thẳng với tân ngữ.", "code": "Quiz #007", "slug": "quiz-007", "topic": "giao tiếp", "title": "chọn câu chúc đúng", "words": 6, "level": "Ngắn"}}, {"word": "agree", "meaning": "đồng ý", "slugs": ["loi-007", "reel-004", "quiz-006"], "sentence": {"en": "I agree with you.", "vi": "Tôi đồng ý với bạn.", "code": "Lỗi #007", "slug": "loi-007", "topic": "quiz tổng hợp", "title": "I agree", "words": 4, "level": "Ngắn"}}];window.SDSC_SPEAK_VI={"a": "một", "absolutely": "hoàn toàn", "agree": "đồng ý", "am": "là, ở", "are": "là, ở", "arrive": "đến nơi", "at": "tại", "bank": "ngân hàng", "beautiful": "đẹp", "because": "vì", "before": "trước", "bored": "chán, buồn chán", "boring": "gây chán", "boy": "con trai", "broke": "đã làm vỡ", "busy": "bận", "can": "có thể", "car": "xe hơi", "coffee": "cà phê", "come": "đến", "currently": "hiện tại", "day": "ngày", "didn't": "không (viết tắt của did not)", "do": "làm", "doesn't": "không (viết tắt của does not)", "english": "tiếng Anh", "every": "mọi", "everybody": "mọi người", "farther": "xa hơn (khoảng cách)", "felt": "đã cảm thấy", "fewer": "ít hơn (đếm được)", "foot": "bàn chân", "football": "bóng đá", "for": "trong (khoảng thời gian)", "from": "từ", "go": "đi", "gone": "đã đi", "good": "tốt", "handsome": "đẹp trai", "happy": "vui vẻ", "has": "có", "have": "có", "he": "anh ấy", "health": "sức khỏe", "here": "ở đây", "hi": "chào", "hometown": "quê hương", "i": "tôi", "i'd": "tôi sẽ, tôi đã", "in": "trong", "is": "là, ở", "it": "nó, cái đó", "late": "muộn", "lend": "cho mượn", "like": "thích", "lived": "đã sống", "lot": "nhiều", "man": "đàn ông", "many": "nhiều", "me": "tôi", "meeting": "cuộc họp", "met": "đã gặp", "monday": "thứ hai", "movie": "phim", "my": "của tôi", "night": "ban đêm", "now": "bây giờ", "occasion": "dịp", "of": "của", "off": "tắt, rời", "on": "trên", "or": "hoặc", "pen": "cây bút", "people": "mọi người", "perfect": "hoàn hảo", "play": "chơi", "please": "làm ơn", "rather": "khá, thà rằng", "robbed": "đã cướp", "saw": "đã thấy", "school": "trường học", "sea": "biển", "send": "gửi", "she": "cô ấy", "ship": "tàu thủy", "since": "từ khi", "so": "vì vậy, rất", "student": "học sinh, sinh viên", "sunday": "chủ nhật", "super": "tuyệt vời", "table": "cái bàn", "take": "lấy, mang đi", "tea": "trà", "teacher": "giáo viên", "than": "hơn, so với", "thank": "cảm ơn", "that": "kia", "the": "mạo từ xác định (thường không dịch riêng)", "there": "ở đó", "they": "họ", "three": "ba", "to": "đến", "today": "hôm nay", "told": "đã kể, đã bảo", "tomorrow": "ngày mai", "twice": "hai lần", "up": "lên", "vietnam": "Việt Nam", "vietnamese": "thuộc Việt Nam", "view": "khung cảnh", "want": "muốn", "was": "đã là, đã ở", "watch": "xem", "what": "cái gì", "whom": "người mà", "wish": "ước, mong", "with": "với", "work": "làm việc", "worked": "đã làm việc", "would": "sẽ", "yesterday": "hôm qua", "you": "bạn", "your": "của bạn"};window.SDSC_SPEAK=[{"en": "Can you lend me your pen?", "vi": "Bạn cho tôi mượn cây bút được không?", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "Can I borrow your pen?", "vi": "Tôi mượn cây bút của bạn được không?", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "She lent me her laptop yesterday.", "vi": "Hôm qua cô ấy cho tôi mượn laptop.", "code": "Lỗi #001", "slug": "loi-001"}, {"en": "I would like to take a day off tomorrow.", "vi": "Tôi muốn xin nghỉ một ngày vào ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I would like to take tomorrow off, please.", "vi": "Tôi muốn xin nghỉ ngày mai.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "Could I take Monday off, please?", "vi": "Tôi có thể nghỉ thứ Hai được không?", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I need to take a day off for a family matter.", "vi": "Tôi cần nghỉ một ngày vì việc gia đình.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "I need to take Friday morning off to see the dentist.", "vi": "Tôi cần xin nghỉ buổi sáng thứ Sáu để đi khám răng.", "code": "Mẫu câu #001", "slug": "mau-cau-001"}, {"en": "Can I borrow your bike?", "vi": "Tôi mượn xe đạp của bạn được không?", "code": "Quiz #001", "slug": "quiz-001"}, {"en": "He lent me 100,000 VND.", "vi": "Anh ấy cho tôi mượn 100.000 đồng.", "code": "Quiz #001", "slug": "quiz-001"}, {"en": "I am bored.", "vi": "Tôi thấy chán.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "The film was boring, so I felt bored.", "vi": "Bộ phim chán quá nên tôi thấy chán.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "Are you bored?", "vi": "Bạn thấy chán à?", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "Let's go out.", "vi": "Mình đi chơi đi.", "code": "Lỗi #002", "slug": "loi-002"}, {"en": "She told me that she was busy.", "vi": "Cô ấy nói với tôi rằng cô ấy bận.", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "Tell me your name, please.", "vi": "Cho tôi biết tên bạn nhé.", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "Did you say that?", "vi": "Bạn nói vậy à?", "code": "Lỗi #003", "slug": "loi-003"}, {"en": "I come from Vietnam.", "vi": "Tôi đến từ Việt Nam.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "Hi, I am Lan.", "vi": "Tôi là Lan.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "I work in Da Lat.", "vi": "Tôi làm việc ở Đà Lạt.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "Nice to meet you.", "vi": "Rất vui được gặp bạn.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "I am from Vietnam.", "vi": "Tôi là người Việt Nam.", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "What do you do?", "vi": "Bạn làm nghề gì?", "code": "Mẫu câu #002", "slug": "mau-cau-002"}, {"en": "The movie was so boring.", "vi": "", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "I felt bored.", "vi": "", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "The party was boring.", "vi": "Bữa tiệc chán quá.", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "She felt bored during the meeting.", "vi": "Cô ấy thấy chán trong cuộc họp.", "code": "Quiz #002", "slug": "quiz-002"}, {"en": "CUMF tơ bồ", "vi": "thường đọc 3 âm", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "This chair is very comfortable.", "vi": "Cái ghế này rất thoải mái.", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "My shoes are very comfortable.", "vi": "Đôi giày của tôi rất thoải mái.", "code": "Lỗi #004", "slug": "loi-004"}, {"en": "I saw a ship on the sea.", "vi": "Tôi thấy một con tàu trên biển.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The ship is on the sea.", "vi": "Con tàu đang ở trên biển.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The sheep is on the farm.", "vi": "Con cừu đang ở trên nông trại.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "I live in Da Lat, but I will leave tomorrow.", "vi": "Tôi sống ở Đà Lạt, nhưng ngày mai tôi sẽ rời đi.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "The dishes are in the sink.", "vi": "Bát đĩa đang ở trong bồn rửa.", "code": "Mẫu câu #003", "slug": "mau-cau-003"}, {"en": "a university.", "vi": "Một trường đại học.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "She studies at a university in Da Lat.", "vi": "Cô ấy học ở một trường đại học tại Đà Lạt.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "I waited for an hour at the station.", "vi": "Tôi đã đợi một tiếng ở nhà ga.", "code": "Lỗi #005", "slug": "loi-005"}, {"en": "I have worked here for 3 years.", "vi": "Tôi làm ở đây được 3 năm.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "I have worked here since 2022.", "vi": "Tôi làm ở đây từ năm 2022.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "She has lived in Da Lat since last year.", "vi": "Cô ấy sống ở Đà Lạt từ năm ngoái.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "She has lived there for a year.", "vi": "Cô ấy sống ở đó được một năm.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "I have worked here since January.", "vi": "Tôi làm ở đây từ tháng 1.", "code": "Mẫu câu #004", "slug": "mau-cau-004"}, {"en": "My hometown has many beautiful beaches.", "vi": "Quê tôi có nhiều bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "My hometown is famous for its beautiful beaches.", "vi": "Quê tôi nổi tiếng với những bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "In my hometown, there are many beautiful beaches.", "vi": "Ở quê tôi có nhiều bãi biển đẹp.", "code": "Meme #001", "slug": "meme-001"}, {"en": "Chữ b là chữ câm trong debt.", "vi": "debt nghĩa là món nợ.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "I have a big debt to pay.", "vi": "Tôi có một khoản nợ lớn phải trả.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "She paid off her debt last year.", "vi": "Cô ấy đã trả hết nợ năm ngoái.", "code": "Quiz nhanh #001", "slug": "quiz-nhanh-001"}, {"en": "She broke up with me because I am a super handsome boy.", "vi": "Cô ấy bỏ tôi vì tôi quá đẹp trai.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "They broke up after five years together.", "vi": "Họ chia tay sau năm năm bên nhau.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "My friend broke up with her boyfriend yesterday.", "vi": "Bạn tôi đã chia tay bạn trai hôm qua.", "code": "Lỗi nhanh #000", "slug": "loi-nhanh-000"}, {"en": "What are you listening to?", "vi": "Bạn đang nghe gì vậy?", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "She is listening to her favorite song.", "vi": "Cô ấy đang nghe bài hát yêu thích của mình.", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "We listen to music while we work.", "vi": "Chúng tôi nghe nhạc trong lúc làm việc.", "code": "Hội thoại #001", "slug": "hoi-thoai-001"}, {"en": "I am in the car.", "vi": "Tôi đang ở trong xe ô tô.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "I am waiting in the car.", "vi": "Tôi đang chờ trong xe ô tô.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "We are on the bus to Da Lat.", "vi": "Chúng tôi đang ở trên xe buýt đi Đà Lạt.", "code": "Đố nhanh #001", "slug": "do-001"}, {"en": "I have lived here since 2020.", "vi": "", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "We have known each other since 2019.", "vi": "Chúng tôi quen nhau từ năm 2019.", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "He has studied English for 2 years.", "vi": "Anh ấy học tiếng Anh được 2 năm.", "code": "Quiz #004", "slug": "quiz-004"}, {"en": "Currently, I am living in Da Lat.", "vi": "Hiện tại tôi đang sống ở Đà Lạt.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "Actually, I do not like coffee.", "vi": "Thật ra tôi không thích cà phê.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "Currently, she works in Ho Chi Minh City.", "vi": "Hiện tại cô ấy làm việc ở Thành phố Hồ Chí Minh.", "code": "Lỗi #006", "slug": "loi-006"}, {"en": "The view is absolutely perfect.", "vi": "Khung cảnh thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "This hotel room is absolutely perfect.", "vi": "Phòng khách sạn này thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "The plan for our trip is absolutely perfect.", "vi": "Kế hoạch cho chuyến đi của chúng tôi thật sự hoàn hảo.", "code": "Mẹo #001", "slug": "meo-001"}, {"en": "Everybody is happy today.", "vi": "Hôm nay mọi người đều vui.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "Someone is waiting for you.", "vi": "Có ai đó đang đợi bạn.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "Nobody is at home now.", "vi": "Bây giờ không có ai ở nhà.", "code": "Sơ đồ #001", "slug": "so-do-001"}, {"en": "They robbed the bank.", "vi": "Họ cướp ngân hàng.", "code": "Từ #001", "slug": "tu-001"}, {"en": "They stole the money.", "vi": "Họ ăn cắp tiền.", "code": "Từ #001", "slug": "tu-001"}, {"en": "Please do not steal my bike.", "vi": "Làm ơn đừng ăn cắp xe đạp của tôi.", "code": "Từ #001", "slug": "tu-001"}, {"en": "I have a lot of work today.", "vi": "Hôm nay tôi có nhiều việc.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I have a new job.", "vi": "Tôi có công việc mới.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I have a lot of work this week.", "vi": "Tuần này tôi có nhiều việc.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "My salary is paid every month.", "vi": "Lương tháng của tôi trả hàng tháng.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "His wage is paid every hour.", "vi": "Lương giờ của anh ấy trả theo giờ.", "code": "Mẫu câu #005", "slug": "mau-cau-005"}, {"en": "I play football every Sunday.", "vi": "Tôi chơi bóng đá mỗi chủ nhật.", "code": "Meme #002", "slug": "meme-002"}, {"en": "I play tennis every weekend.", "vi": "Tôi chơi quần vợt mỗi cuối tuần.", "code": "Meme #002", "slug": "meme-002"}, {"en": "They play volleyball on Saturday mornings.", "vi": "Họ chơi bóng chuyền vào các buổi sáng thứ Bảy.", "code": "Meme #002", "slug": "meme-002"}, {"en": "Chữ k là chữ câm trong knight.", "vi": "knight nghĩa là hiệp sĩ.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The knight lived in a big castle.", "vi": "Hiệp sĩ sống trong một lâu đài lớn.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The brave knight helped the king.", "vi": "Hiệp sĩ dũng cảm đã giúp nhà vua.", "code": "Quiz nhanh #002", "slug": "quiz-nhanh-002"}, {"en": "The meeting is on Monday at 9am.", "vi": "Họp vào thứ Hai lúc 9 giờ sáng.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "The meeting is on Tuesday at 10am.", "vi": "Họp vào thứ Ba lúc 10 giờ sáng.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "My birthday is in December.", "vi": "Sinh nhật của tôi vào tháng 12.", "code": "Lỗi nhanh #001", "slug": "loi-nhanh-001"}, {"en": "I am waiting for you.", "vi": "Tôi đang chờ bạn.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "I am waiting for my friend at the cafe.", "vi": "Tôi đang chờ bạn tôi ở quán cà phê.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "She is waiting for the bus.", "vi": "Cô ấy đang chờ xe buýt.", "code": "Hội thoại #002", "slug": "hoi-thoai-002"}, {"en": "I have gone there before.", "vi": "Tôi đã từng đến đó trước đây.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "She has gone to Da Lat twice.", "vi": "Cô ấy đã đến Đà Lạt hai lần rồi.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "We have seen that movie before.", "vi": "Chúng tôi đã xem bộ phim đó trước đây rồi.", "code": "Đố nhanh #002", "slug": "do-002"}, {"en": "Currently, she works in Da Lat.", "vi": "Hiện tại cô ấy làm việc ở Đà Lạt.", "code": "Quiz #005", "slug": "quiz-005"}, {"en": "I agree with you.", "vi": "Tôi đồng ý với bạn.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "I agree with your idea.", "vi": "Tôi đồng ý với ý của bạn.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "I think we should start now.", "vi": "Tôi nghĩ chúng ta nên bắt đầu ngay.", "code": "Lỗi #007", "slug": "loi-007"}, {"en": "Da Lat is farther than Nha Trang.", "vi": "Đà Lạt xa hơn Nha Trang.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "Da Lat is farther from Ho Chi Minh City than Nha Trang.", "vi": "Đà Lạt xa Thành phố Hồ Chí Minh hơn Nha Trang.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "Please send me further details about the meeting.", "vi": "Vui lòng gửi thêm cho tôi chi tiết về buổi họp.", "code": "Mẹo #002", "slug": "meo-002"}, {"en": "I watch TV every night.", "vi": "Tôi xem tivi mỗi tối.", "code": "Từ #002", "slug": "tu-002"}, {"en": "I saw a bird in the garden.", "vi": "Tôi thấy một con chim trong vườn.", "code": "Từ #002", "slug": "tu-002"}, {"en": "We watched the sunset together.", "vi": "Chúng tôi cùng nhau ngắm hoàng hôn.", "code": "Từ #002", "slug": "tu-002"}, {"en": "immature kid", "vi": "cách nói tự nhiên nhất cho trẻ trâu.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "He is such an immature kid.", "vi": "Anh ta đúng là một đứa trẻ trâu.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "Don't be so childish.", "vi": "Đừng trẻ trâu vậy.", "code": "Dịch #001", "slug": "dich-001"}, {"en": "He doesn't like it.", "vi": "Anh ấy không thích cái đó.", "code": "Meme #003", "slug": "meme-003"}, {"en": "Tom doesn't like rainy days.", "vi": "Tom không thích những ngày mưa.", "code": "Meme #003", "slug": "meme-003"}, {"en": "My sister doesn't like durian.", "vi": "Chị tôi không thích sầu riêng.", "code": "Meme #003", "slug": "meme-003"}, {"en": "She can sing.", "vi": "can nghĩa là có thể.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "I can cook dinner tonight.", "vi": "Tối nay tôi có thể nấu bữa tối.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "We can learn English together.", "vi": "Chúng ta có thể học tiếng Anh cùng nhau.", "code": "Quiz nhanh #003", "slug": "quiz-nhanh-003"}, {"en": "Hi, I am a student.", "vi": "Chào bạn, tôi là học sinh.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "I am a student at Yersin University.", "vi": "Tôi là sinh viên trường Đại học Yersin.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "She is a student in my class.", "vi": "Cô ấy là học sinh trong lớp tôi.", "code": "Lỗi nhanh #002", "slug": "loi-nhanh-002"}, {"en": "I go to school on foot.", "vi": "Tôi đi học bằng chân.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "I go to the market on foot.", "vi": "Tôi đi chợ bằng chân.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "She walks to work on foot.", "vi": "Cô ấy đi bộ đi làm.", "code": "Hội thoại #003", "slug": "hoi-thoai-003"}, {"en": "There are three books on the table.", "vi": "Có ba quyển sách trên bàn.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "There are two pens on the desk.", "vi": "Có hai cây bút trên bàn.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "There are many students in the class.", "vi": "Có nhiều học sinh trong lớp.", "code": "Đố nhanh #003", "slug": "do-003"}, {"en": "I agree with her idea.", "vi": "Tôi đồng ý với ý của cô ấy.", "code": "Quiz #006", "slug": "quiz-006"}, {"en": "Can you lend me your umbrella?", "vi": "Bạn cho tôi mượn cây dù của bạn được không?", "code": "Quiz #006", "slug": "quiz-006"}, {"en": "Happy Vietnamese Teachers' Day!", "vi": "", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "I sent my teacher a card on Teachers' Day.", "vi": "Tôi đã gửi thiệp cho thầy cô nhân Ngày Nhà giáo.", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "We celebrate Vietnamese Teachers' Day on November 20.", "vi": "Chúng ta kỷ niệm Ngày Nhà giáo Việt Nam vào 20 tháng 11.", "code": "Lỗi #008", "slug": "loi-008"}, {"en": "There are fewer people today.", "vi": "Hôm nay ít người hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "I have less sugar in my coffee now.", "vi": "Giờ tôi cho ít đường vào cà phê hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "She bought fewer books this month.", "vi": "Tháng này cô ấy mua ít sách hơn.", "code": "Mẹo #003", "slug": "meo-003"}, {"en": "I'd rather you didn't arrive late.", "vi": "Quá khứ đơn sau would rather khi người muốn và người làm khác nhau.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I'd rather you told me the truth.", "vi": "Tôi muốn bạn nói thật với tôi.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I'd rather she didn't call me tonight.", "vi": "Tôi muốn tối nay cô ấy đừng gọi cho tôi.", "code": "Câu nào đúng? #001", "slug": "cau-nao-dung-001"}, {"en": "I wish you good health.", "vi": "Em chúc thầy cô sức khỏe.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "Thank you for teaching me.", "vi": "Cảm ơn thầy cô đã dạy em.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "I wish you good health and happiness.", "vi": "Chúc thầy cô sức khỏe, hạnh phúc.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "You are the best teacher ever.", "vi": "Thầy cô là người tuyệt vời nhất.", "code": "Mẫu câu #007", "slug": "mau-cau-007"}, {"en": "I have 2 children.", "vi": "Tôi có 2 đứa con.", "code": "Meme #004", "slug": "meme-004"}, {"en": "My sister has 2 children.", "vi": "Chị tôi có 2 đứa con.", "code": "Meme #004", "slug": "meme-004"}, {"en": "The children are playing in the garden.", "vi": "Bọn trẻ đang chơi trong vườn.", "code": "Meme #004", "slug": "meme-004"}, {"en": "small", "vi": "small nghĩa là nhỏ.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "I have a big house in Da Lat.", "vi": "Tôi có một ngôi nhà lớn ở Đà Lạt.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "This bag is too small for my books.", "vi": "Chiếc túi này quá nhỏ so với sách của tôi.", "code": "Quiz nhanh #004", "slug": "quiz-nhanh-004"}, {"en": "She is a teacher.", "vi": "Cô ấy là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "She is a teacher in Da Lat.", "vi": "Cô ấy là giáo viên ở Đà Lạt.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "He is a teacher too.", "vi": "Anh ấy cũng là giáo viên.", "code": "Lỗi nhanh #003", "slug": "loi-nhanh-003"}, {"en": "Do you like coffee or tea?", "vi": "Bạn thích cà phê hay trà?", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "Would you like coffee or tea?", "vi": "Bạn muốn uống cà phê hay trà?", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "I drink tea every morning.", "vi": "Tôi uống trà mỗi sáng.", "code": "Hội thoại #004", "slug": "hoi-thoai-004"}, {"en": "I am studying English now.", "vi": "Tôi đang học tiếng Anh.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "She is reading a book now.", "vi": "Cô ấy đang đọc sách.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "We are learning Vietnamese now.", "vi": "Chúng tôi đang học tiếng Việt.", "code": "Đố nhanh #004", "slug": "do-004"}, {"en": "I want to thank my teacher.", "vi": "thank đi thẳng với tân ngữ.", "code": "Quiz #007", "slug": "quiz-007"}, {"en": "I want to thank my friends for their help.", "vi": "Tôi muốn cảm ơn các bạn của tôi vì sự giúp đỡ của họ.", "code": "Quiz #007", "slug": "quiz-007"}, {"en": "She is good at English.", "vi": "", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I live in Da Lat.", "vi": "Tôi sống ở Đà Lạt.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "The book is on the table.", "vi": "Quyển sách ở trên bàn.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She is at home.", "vi": "Cô ấy đang ở nhà.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "We will move in 2026.", "vi": "Chúng tôi sẽ chuyển nhà vào năm 2026.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "We meet on Monday.", "vi": "Chúng tôi gặp nhau vào thứ Hai.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "The class starts at 7:00.", "vi": "Lớp học bắt đầu lúc 7 giờ.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I go to work by bus.", "vi": "Tôi đi làm bằng xe buýt.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She goes to school by bike.", "vi": "Cô ấy đi học bằng xe đạp.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I write with a pen.", "vi": "Tôi viết bằng cây bút.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "She is married to a teacher.", "vi": "Cô ấy kết hôn với một giáo viên.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I am interested in music.", "vi": "Tôi thích âm nhạc.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "He is afraid of dogs.", "vi": "Anh ấy sợ chó.", "code": "Tổng hợp #001", "slug": "tong-hop-001"}, {"en": "I want to thank my parents for their help.", "vi": "Em muốn cảm ơn bố mẹ vì đã giúp đỡ em.", "code": "Lỗi #009", "slug": "loi-009"}, {"en": "The man whom I met is my teacher.", "vi": "Người đàn ông tôi gặp là thầy tôi.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "The student whom I helped passed the exam.", "vi": "Học trò tôi giúp đã đỗ kỳ thi.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "She is the teacher whom everybody loves.", "vi": "Cô ấy là giáo viên mà ai cũng yêu quý.", "code": "Mẹo #004", "slug": "meo-004"}, {"en": "I have lived here for 3 years.", "vi": "Tôi đã sống ở đây được 3 năm.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "I have worked in Da Lat since 2024.", "vi": "Tôi làm việc ở Đà Lạt từ năm 2024.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "She has lived here for a long time.", "vi": "Cô ấy đã sống ở đây rất lâu rồi.", "code": "Ngữ pháp B1/B2 #001", "slug": "ngu-phap-b1-b2-001"}, {"en": "On the occasion of Teachers' Day, I wish you good health.", "vi": "Nhân dịp Ngày Nhà giáo.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "My teacher is very kind.", "vi": "Thầy cô của em rất tốt bụng.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "She helps me learn English.", "vi": "Cô giúp em học tiếng Anh.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "I learned a lot from my teacher.", "vi": "Em học được rất nhiều từ thầy cô.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "He makes every lesson fun.", "vi": "Thầy làm mỗi tiết học đều vui.", "code": "Mẫu câu #008", "slug": "mau-cau-008"}, {"en": "She works every day.", "vi": "Cô ấy làm việc mỗi ngày.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is working now.", "vi": "Cô ấy đang làm việc.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She has worked here for 2 years.", "vi": "Cô ấy làm việc ở đây được 2 năm.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She has been working since 2020.", "vi": "Cô ấy làm việc từ năm 2020.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She worked yesterday.", "vi": "Cô ấy làm việc hôm qua.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She was working at 8:00 last night.", "vi": "Cô ấy đang làm việc lúc 8 giờ tối qua.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She had finished work before 6:00.", "vi": "Cô ấy đã xong việc trước 6 giờ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She had been working all day.", "vi": "Cô ấy đã làm việc cả ngày.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She will work tomorrow.", "vi": "Cô ấy sẽ làm việc ngày mai.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is going to work tomorrow.", "vi": "Cô ấy định làm việc ngày mai.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is working tomorrow morning.", "vi": "Cô ấy làm việc sáng mai, đã sắp xếp rồi.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She will have finished work by 6:00.", "vi": "Cô ấy sẽ xong việc trước 6 giờ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If you heat ice, it melts.", "vi": "Nếu bạn đun nóng đá, nó tan chảy.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If it rains, we will stay home.", "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If I had money, I would travel.", "vi": "Nếu tôi có tiền, tôi sẽ đi du lịch.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "If I had studied, I would have passed.", "vi": "Nếu tôi đã học, tôi đã đậu rồi.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "English is spoken here.", "vi": "Ở đây nói tiếng Anh.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house was built in 2020.", "vi": "Ngôi nhà được xây vào năm 2020.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house will be built next year.", "vi": "Ngôi nhà sẽ được xây vào năm sau.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The house has been built.", "vi": "Ngôi nhà đã được xây xong.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "Da Lat is colder than Saigon.", "vi": "Đà Lạt lạnh hơn Sài Gòn.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is the tallest student in class.", "vi": "Cô ấy là học sinh cao nhất lớp.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "She is as tall as her mother.", "vi": "Cô ấy cao bằng mẹ.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The more I read, the better I get.", "vi": "Tôi càng đọc nhiều, tôi càng giỏi hơn.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I used to live in Da Lat.", "vi": "Tôi từng sống ở Đà Lạt.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I suggest going early.", "vi": "Tôi gợi ý đi sớm.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I wish I had a bike.", "vi": "Tôi ước gì tôi có một chiếc xe đạp.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "The book that I read is interesting.", "vi": "Quyển sách tôi đọc rất hay.", "code": "Tổng hợp các thì", "slug": "tong-hop-cac-thi"}, {"en": "I didn't go to school yesterday.", "vi": "Hôm qua tôi không đi học.", "code": "Meme #005", "slug": "meme-005"}, {"en": "We didn't meet him yesterday.", "vi": "Hôm qua chúng tôi không gặp anh ấy.", "code": "Meme #005", "slug": "meme-005"}, {"en": "They didn't finish the homework last night.", "vi": "Tối qua họ không làm xong bài tập.", "code": "Meme #005", "slug": "meme-005"}, {"en": "WENZ day.", "vi": "Wednesday nghĩa là thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "I have English class on Wednesday.", "vi": "Tôi có lớp tiếng Anh vào thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "The meeting is on Wednesday morning.", "vi": "Cuộc họp diễn ra vào sáng thứ Tư.", "code": "Quiz nhanh #005", "slug": "quiz-nhanh-005"}, {"en": "Please send me the file.", "vi": "Làm ơn gửi giúp tôi tập tin.", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}, {"en": "Please send me the report before Friday.", "vi": "Làm ơn gửi giúp tôi bản báo cáo trước thứ Sáu.", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}, {"en": "Could you kindly send the report today?", "vi": "Bạn có thể vui lòng gửi bản báo cáo hôm nay không?", "code": "Lỗi nhanh #004", "slug": "loi-nhanh-004"}];</script>
 <script>
 (function(){
-  const sentences=window.SDSC_SPEAK||[];
-  const sel=document.getElementById("speak-pick");
+  const speakable=window.SDSC_SPEAKABLE||[];
+  const weak=window.SDSC_WEAK||[];
+  const viMap=window.SDSC_SPEAK_VI||{};
+  const TOPIC_LABEL={"giao tiếp":"Giao tiếp","ngữ pháp":"Ngữ pháp","từ vựng":"Từ vựng","công sở":"Công sở","quiz tổng hợp":"Quiz tổng hợp","phát âm":"Phát âm"};
+  const TOPIC_ORDER=["giao tiếp","ngữ pháp","từ vựng","công sở","quiz tổng hợp"];
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  const ERR_TEXT={"no-speech":"Máy không nghe thấy gì. Thử lại nhé.","audio-capture":"Không mở được micro. Thử lại nhé.","not-allowed":"Trình duyệt chưa cho phép dùng micro. Bấm cho phép micro rồi thử lại nhé.","network":"Mất mạng lúc nhận diện giọng nói. Kiểm tra mạng rồi thử lại nhé.","aborted":"Đã dừng nghe.","language-not-supported":"Trình duyệt này chưa hỗ trợ nhận diện tiếng Anh."};
+  const todayBox=document.getElementById("speak-today");
+  const topicsBox=document.getElementById("speak-topics");
+  const topicListBox=document.getElementById("speak-topic-list");
+  const weakBox=document.getElementById("speak-weak");
+  const card=document.getElementById("speak-card");
+  const roundEl=document.getElementById("speak-round");
   const targetEl=document.getElementById("speak-target");
   const viEl=document.getElementById("speak-vi");
+  const sourceEl=document.getElementById("speak-source");
   const listenBtn=document.getElementById("speak-listen");
   const startBtn=document.getElementById("speak-start");
   const stopBtn=document.getElementById("speak-stop");
+  const replayBtn=document.getElementById("speak-replay");
   const statusEl=document.getElementById("speak-status");
   const heardBox=document.getElementById("speak-heard");
+  const coloredBox=document.getElementById("speak-colored");
   const scoreBox=document.getElementById("speak-score");
+  const missedBox=document.getElementById("speak-missed");
+  const nextBtn=document.getElementById("speak-next");
+  const doneBox=document.getElementById("speak-done");
+  const newBtn=document.getElementById("speak-new");
   const statsEl=document.getElementById("speak-stats");
   const noSupport=document.getElementById("speak-nosupport");
-  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-  const ERR_TEXT={"no-speech":"Máy không nghe thấy gì. Thử lại nhé.","audio-capture":"Không mở được micro. Thử lại nhé.","not-allowed":"Trình duyệt chưa cho phép dùng micro. Bấm cho phép micro rồi thử lại nhé.","network":"Mất mạng lúc nhận diện giọng nói. Kiểm tra mạng rồi thử lại nhé.","aborted":"Đã dừng nghe.","language-not-supported":"Trình duyệt này chưa hỗ trợ nhận diện tiếng Anh."};
-  let rec=null, startedAt=null, finalText="", cur=null;
-  function showStats(){
+  const randomBtn=document.getElementById("speak-random");
+  let cur=null, round=1, scores=[], sessionStart=null, sessionWords=0, rec=null, finalText="", mediaRecorder=null, audioChunks=[], audioUrl=null, recordingStream=null;
+  function withPeriod(s){
+    s=String(s||"").trim();
+    if(!s)return s;
+    if(/[.!?]$/.test(s))return s;
+    return s+".";
+  }
+  function speakableBySlug(slug){return speakable.find(function(s){return s.slug===slug;});}
+  function lessonOrder(){
+    const order=[];
+    const path=(window.SDSC_PATHS&&window.SDSC_PATHS["hoc-lai-tu-dau"])||[];
+    path.forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    (window.SDSC_ORDER||[]).forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    Object.keys(window.SDSC_LESSONS||{}).forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    return order;
+  }
+  function sentenceCard(s){
+    const p=getProgress();
+    const done=p.lessons[s.slug]&&p.lessons[s.slug].done;
     const sp=loadSpeaking();
-    if(statsEl)statsEl.textContent="Bạn đã luyện nói "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm.";
+    const last=sp.lastBySlug[s.slug];
+    const lvl=s.level==="Ngắn"?"Ngắn":"Vừa";
+    return "<button type=\"button\" class=\"speak-sentence\" data-slug=\""+escapeHtml(s.slug)+"\">"
+      +"<span class=\"en\">"+escapeHtml(withPeriod(s.en))+"</span>"
+      +"<span class=\"vi\">"+escapeHtml(s.vi||"")+"</span>"
+      +"<span class=\"meta2\"><span class=\"lvl\">"+lvl+"</span><span>"+escapeHtml(s.code+" "+s.title)+"</span>"
+      +(done?"<span class=\"done-mark\">✓ Đã nhớ</span>":"")
+      +"<span>"+(typeof last==="number"?"Điểm lần trước: "+last:"Chưa luyện")+"</span></span></button>";
   }
-  function normWords(s){
-    return String(s||"").toLowerCase().replace(/[^a-z0-9'\s]/g," ").replace(/\s+/g," ").trim().split(" ").filter(Boolean);
+  function bindSentenceCards(box){
+    if(!box)return;
+    box.querySelectorAll(".speak-sentence").forEach(function(btn){
+      btn.addEventListener("click",function(){
+        const s=speakableBySlug(btn.dataset.slug);
+        if(s)startSession(s);
+      });
+    });
   }
-  function scoreIt(target,heard){
-    const t=normWords(target), h=normWords(heard);
-    if(!t.length||!h.length)return {pct:0,missed:t};
-    const hset={};h.forEach(w=>{hset[w]=(hset[w]||0)+1;});
-    let hit=0;const missed=[];
-    t.forEach(w=>{if(hset[w]>0){hset[w]--;hit++;}else missed.push(w);});
-    return {pct:Math.round(100*hit/t.length),missed:missed};
+  function renderToday(){
+    if(!todayBox)return;
+    const p=getProgress();
+    const order=lessonOrder();
+    const picked=[];
+    order.forEach(function(slug){
+      if(picked.length>=3)return;
+      if(p.lessons[slug]&&p.lessons[slug].done)return;
+      const s=speakableBySlug(slug);
+      if(s)picked.push(s);
+    });
+    if(picked.length<3){
+      const newest=Object.keys(window.SDSC_LESSONS||{}).sort(function(a,b){return String((window.SDSC_LESSONS[b]||{}).date||"").localeCompare(String((window.SDSC_LESSONS[a]||{}).date||""));});
+      newest.forEach(function(slug){
+        if(picked.length>=3)return;
+        if(picked.some(function(s){return s.slug===slug;}))return;
+        const s=speakableBySlug(slug);
+        if(s)picked.push(s);
+      });
+    }
+    if(!picked.length){todayBox.innerHTML="<p>Chưa có câu nào để luyện.</p>";return;}
+    todayBox.innerHTML=picked.map(sentenceCard).join("");
+    bindSentenceCards(todayBox);
   }
-  function pick(i){
-    cur=sentences[i]||sentences[0];
+  function renderTopics(){
+    if(!topicsBox)return;
+    const sp=loadSpeaking();
+    topicsBox.innerHTML=TOPIC_ORDER.map(function(t){
+      const n=speakable.filter(function(s){return s.topic===t;}).length;
+      const best=sp.bestByTopic[t];
+      return "<button type=\"button\" class=\"topic-card\" data-topic=\""+escapeHtml(t)+"\">"
+        +"<b>"+escapeHtml(TOPIC_LABEL[t]||t)+"</b>"
+        +"<span class=\"sub\">"+n+" câu</span>"
+        +"<span class=\"sub\">"+(typeof best==="number"?"Điểm tốt nhất: "+best:"Chưa luyện")+"</span></button>";
+    }).join("");
+    topicsBox.querySelectorAll(".topic-card").forEach(function(btn){
+      btn.addEventListener("click",function(){renderTopicList(btn.dataset.topic);});
+    });
+  }
+  function renderTopicList(topic){
+    if(!topicListBox)return;
+    const list=speakable.filter(function(s){return s.topic===topic;});
+    topicListBox.style.display="block";
+    topicListBox.innerHTML="<h3>"+escapeHtml(TOPIC_LABEL[topic]||topic)+" ("+list.length+" câu)</h3>"+(list.length?list.map(sentenceCard).join(""):"<p>Chưa có câu nào ở chủ đề này.</p>");
+    bindSentenceCards(topicListBox);
+    topicListBox.scrollIntoView({block:"nearest"});
+  }
+  function renderWeak(){
+    if(!weakBox)return;
+    if(!weak.length){weakBox.innerHTML="<p>Chưa có từ yếu nào. Luyện vài buổi rồi quay lại nhé.</p>";return;}
+    weakBox.innerHTML=weak.map(function(w){
+      const s=w.sentence;
+      return "<button type=\"button\" class=\"speak-sentence\" data-slug=\""+escapeHtml(s.slug)+"\">"
+        +"<span class=\"en\">"+escapeHtml(w.word)+(w.vi?" <span class=\"vi\">"+escapeHtml(w.vi)+"</span>":"")+"</span>"
+        +"<span class=\"vi\">"+escapeHtml(withPeriod(s.en))+"</span>"
+        +"<span class=\"meta2\"><span>"+escapeHtml(s.code+" "+s.title)+"</span></span></button>";
+    }).join("");
+    bindSentenceCards(weakBox);
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSpeaking();
+    statsEl.textContent="Bạn đã luyện nói "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện nói "+(sp.streak||0)+" ngày.";
+  }
+  function renderRound(){
     if(!cur)return;
-    if(targetEl)targetEl.textContent=cur.en;
+    if(roundEl)roundEl.textContent="Lượt "+round+" trên 3: "+(round===1?"nghe rồi nói lại chậm":round===2?"nói lại tốc độ tự nhiên":"ẩn câu mẫu, nói lại theo trí nhớ");
+    if(targetEl){
+      targetEl.textContent=withPeriod(cur.en);
+      if(round===3){targetEl.classList.add("speak-hidden");targetEl.textContent="Nói lại theo trí nhớ nhé, dịch ở dưới là gợi ý.";}
+      else targetEl.classList.remove("speak-hidden");
+    }
     if(viEl)viEl.textContent=cur.vi||"";
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+"/sai-dau-sua-do"+"/bai/"+encodeURIComponent(cur.slug)+"/\">"+escapeHtml(cur.code+" "+cur.title)+"</a>";
     if(listenBtn)listenBtn.dataset.say=cur.en;
     if(heardBox)heardBox.innerHTML="";
+    if(coloredBox)coloredBox.innerHTML="";
     if(scoreBox)scoreBox.innerHTML="";
+    if(missedBox)missedBox.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(doneBox)doneBox.style.display="none";
+    if(statusEl)statusEl.textContent=round===1?"Nghe câu mẫu rồi bấm Bắt đầu nói nhé.":round===2?"Nói lại lần nữa, tốc độ tự nhiên nhé.":"Lần này không nhìn câu mẫu nữa, nói theo trí nhớ nhé.";
+    if(replayBtn)replayBtn.style.display="none";
   }
-  function paramSentence(){
-    try{
-      const q=new URLSearchParams(location.search);
-      const s=q.get("s");
-      if(!s)return -1;
-      return sentences.findIndex(x=>x.en===s);
-    }catch(e){return -1;}
+  function startSession(s){
+    cur=s;round=1;scores=[];sessionWords=0;sessionStart=Date.now();
+    try{if(audioUrl){URL.revokeObjectURL(audioUrl);audioUrl=null;}}catch(e){}
+    if(card)card.style.display="block";
+    renderRound();
+    if(card)card.scrollIntoView({block:"nearest"});
+    if(startBtn)startBtn.disabled=!SR;
   }
-  if(sel){
-    sel.innerHTML=sentences.map((s,i)=>"<option value=\""+i+"\">"+escapeHtml(s.code+": "+s.en)+"</option>").join("");
-    sel.addEventListener("change",()=>pick(parseInt(sel.value,10)||0));
+  function startRecording(){
+    if(!window.MediaRecorder||!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia)return;
+    navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+      recordingStream=stream;audioChunks=[];
+      try{mediaRecorder=new MediaRecorder(stream);}catch(e){return;}
+      mediaRecorder.ondataavailable=function(e){if(e.data&&e.data.size)audioChunks.push(e.data);};
+      mediaRecorder.onstop=function(){
+        try{if(audioUrl)URL.revokeObjectURL(audioUrl);}catch(e){}
+        try{audioUrl=URL.createObjectURL(new Blob(audioChunks,{type:(mediaRecorder&&mediaRecorder.mimeType)||"audio/webm"}));}catch(e){audioUrl=null;}
+        if(audioUrl&&replayBtn)replayBtn.style.display="";
+      };
+      try{mediaRecorder.start();}catch(e){}
+    }).catch(function(){});
   }
-  if(listenBtn)listenBtn.addEventListener("click",()=>{if(cur)speak(cur.en,listenBtn);});
+  function stopRecording(){
+    try{if(mediaRecorder&&mediaRecorder.state!=="inactive")mediaRecorder.stop();}catch(e){}
+    try{if(recordingStream)recordingStream.getTracks().forEach(function(t){t.stop();});}catch(e){}
+    mediaRecorder=null;recordingStream=null;
+  }
+  function finishRound(heard){
+    const r=sdscAlignWords(cur.en,heard);
+    scores.push(r.pct);
+    sessionWords+=sdscTokenize(heard).length;
+    if(coloredBox)coloredBox.innerHTML=sdscColoredSentence(cur.en,r.marks);
+    if(heardBox)heardBox.innerHTML="Máy nghe được: <b>"+escapeHtml(heard)+"</b>";
+    let band="", cls="mid";
+    if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá!";cls="good";}
+    else if(r.pct>=70){band="Khá lắm, còn vài từ chưa rõ. Nghe lại câu mẫu rồi nói lại nhé.";cls="mid";}
+    else if(r.pct>=50){band="Máy nghe được một nửa. Đọc chậm lại, nhấn rõ từng từ nhé.";cls="mid";}
+    else{band="Máy chưa nghe rõ. Thử lại nhé, nói chậm và gần micro hơn.";cls="low";}
+    if(scoreBox)scoreBox.innerHTML="<p class=\"speak-score "+cls+"\">"+r.pct+" điểm</p><p>"+band+"</p>";
+    if(missedBox){
+      if(r.missed.length){
+        missedBox.innerHTML="<p>Từ chưa đúng:</p>"+r.missed.map(function(w){
+          const v=viMap[String(w).toLowerCase()]||"";
+          return "<div class=\"miss-row\"><span><b>"+escapeHtml(w)+"</b>"+(v?" <span class=\"vi\">"+escapeHtml(v)+"</span>":"")+"</span><button type=\"button\" class=\"btn btn-ghost btn-listen-word\" data-say=\""+escapeHtml(w)+"\">Nghe</button></div>";
+        }).join("");
+        missedBox.querySelectorAll(".btn-listen-word").forEach(function(b){
+          b.addEventListener("click",function(){speak(b.dataset.say,b);});
+        });
+      }else{
+        missedBox.innerHTML="<p>Nói đúng hết mọi từ. Tuyệt vời!</p>";
+      }
+    }
+    if(statusEl)statusEl.textContent=round<3?"Xong lượt "+round+". Bấm Lượt tiếp theo để nói tiếp nhé.":"Xong lượt 3, buổi luyện nói đã xong.";
+    if(round<3){if(nextBtn)nextBtn.style.display="";}
+    else finishSession();
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    const res=recordSpeaking(seconds,sessionWords,avg,cur.topic,cur.slug);
+    let adv=false;
+    try{adv=completeSkillReview(cur.slug,"speak");}catch(e){}
+    showStats();
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện nói</h3><p>Điểm trung bình 3 lượt: <b>"+avg+" điểm</b>.</p>"
+        +(res.xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện nói rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Nói, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"speak-again\">Luyện câu khác</button></p>";
+      const again=document.getElementById("speak-again");
+      if(again)again.addEventListener("click",function(){
+        if(card)card.style.display="none";
+        const t=document.getElementById("speak-today");
+        if(t)t.scrollIntoView({block:"nearest"});
+      });
+    }
+  }
+  if(listenBtn)listenBtn.addEventListener("click",function(){if(cur)speak(cur.en,listenBtn);});
+  if(replayBtn)replayBtn.addEventListener("click",function(){
+    if(!audioUrl)return;
+    try{new Audio(audioUrl).play();}catch(e){}
+  });
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    if(round<3){round++;renderRound();}
+  });
+  if(newBtn)newBtn.addEventListener("click",function(){
+    if(card)card.style.display="none";
+    const t=document.getElementById("speak-today");
+    if(t)t.scrollIntoView({block:"nearest"});
+  });
+  if(randomBtn)randomBtn.addEventListener("click",function(){
+    if(!speakable.length)return;
+    const s=speakable[Math.floor(Math.random()*speakable.length)];
+    startSession(s);
+  });
   if(!SR){
     if(noSupport)noSupport.style.display="block";
     if(startBtn)startBtn.disabled=true;
-    if(statusEl)statusEl.textContent="Trình duyệt này chưa hỗ trợ nhận diện giọng nói.";
+    if(statusEl)statusEl.textContent="Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Dùng Chrome hoặc Edge để luyện nói nhé.";
   }else if(startBtn){
-    startBtn.addEventListener("click",()=>{
+    startBtn.addEventListener("click",function(){
       if(!cur)return;
       try{rec=new SR();}catch(e){if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";return;}
       rec.lang="en-US";rec.interimResults=true;rec.continuous=false;rec.maxAlternatives=1;
-      finalText="";startedAt=Date.now();
+      finalText="";
+      startRecording();
       if(statusEl)statusEl.innerHTML="<span class=\"rec-dot\"></span>Đang nghe… nói câu trên nhé.";
       if(startBtn)startBtn.disabled=true;
       if(stopBtn)stopBtn.disabled=false;
-      rec.onresult=e=>{
+      rec.onresult=function(e){
         let interim="",fin="";
         for(let i=e.resultIndex;i<e.results.length;i++){
           if(e.results[i].isFinal)fin+=e.results[i][0].transcript;
@@ -158,38 +367,48 @@
         if(fin)finalText+=fin;
         if(heardBox)heardBox.textContent="Máy đang nghe: "+(finalText+interim);
       };
-      rec.onerror=e=>{
+      rec.onerror=function(e){
+        stopRecording();
         if(statusEl)statusEl.textContent=ERR_TEXT[(e&&e.error)||""]||"Máy chưa nghe được. Thử lại nhé, nói rõ và gần micro hơn.";
         if(startBtn)startBtn.disabled=false;
         if(stopBtn)stopBtn.disabled=true;
       };
-      rec.onend=()=>{
+      rec.onend=function(){
+        stopRecording();
         if(startBtn)startBtn.disabled=false;
         if(stopBtn)stopBtn.disabled=true;
         const heard=(finalText||"").trim();
         if(!heard){if(statusEl)statusEl.textContent="Máy không nghe thấy gì. Thử lại nhé.";return;}
-        const mins=startedAt?(Date.now()-startedAt)/60000:0;
-        const r=scoreIt(cur.en,heard);
-        const words=normWords(heard).length;
-        recordSpeaking(mins,words,r.pct);
-        showStats();
-        if(heardBox)heardBox.innerHTML="Máy nghe được: <b>"+escapeHtml(heard)+"</b>"+(r.missed.length?"<br>Từ máy chưa nghe rõ: "+escapeHtml(r.missed.join(", ")):"");
-        let band="", cls="mid";
-        if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá!";cls="good";}
-        else if(r.pct>=70){band="Khá lắm, còn vài từ chưa rõ. Nghe lại câu mẫu rồi nói lại nhé.";cls="mid";}
-        else if(r.pct>=50){band="Máy nghe được một nửa. Đọc chậm lại, nhấn rõ từng từ nhé.";cls="mid";}
-        else{band="Máy chưa nghe rõ. Thử lại nhé, nói chậm và gần micro hơn.";cls="low";}
-        if(scoreBox)scoreBox.innerHTML="<p class=\"speak-score "+cls+"\">"+r.pct+" điểm</p><p>"+band+"</p>";
-        if(statusEl)statusEl.textContent="Xong 1 lượt luyện nói.";
+        finishRound(heard);
       };
-      try{rec.start();}catch(e){if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";if(startBtn)startBtn.disabled=false;if(stopBtn)stopBtn.disabled=true;}
+      try{rec.start();}catch(e){stopRecording();if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";if(startBtn)startBtn.disabled=false;if(stopBtn)stopBtn.disabled=true;}
     });
   }
-  if(stopBtn)stopBtn.addEventListener("click",()=>{try{if(rec)rec.stop();}catch(e){}});
-  const pi=paramSentence();
-  if(sel&&pi>=0){sel.value=String(pi);}
-  pick(pi>=0?pi:0);
-  showStats();
+  if(stopBtn)stopBtn.addEventListener("click",function(){try{if(rec)rec.stop();}catch(e){}});
+  renderToday();renderTopics();renderWeak();showStats();
+  try{
+    const q=new URLSearchParams(location.search);
+    const lesson=q.get("lesson");
+    const sParam=q.get("s");
+    if(lesson){
+      const s=speakableBySlug(lesson);
+      if(s)startSession(s);
+      else if(window.SDSC_LESSONS&&window.SDSC_LESSONS[lesson]){
+        const l=window.SDSC_LESSONS[lesson];
+        startSession({en:l.right||"",vi:l.right_note||"",code:l.code||"",slug:lesson,topic:l.topic||"",title:l.title||"",words:sdscTokenize(l.right||"").length,level:"Vừa"});
+      }
+    }else if(sParam){
+      const old=(window.SDSC_SPEAK||[]).find(function(x){return x.en===sParam;});
+      const s=old?{en:old.en,vi:old.vi||"",code:old.code||"",slug:old.slug||"",topic:old.topic||"",title:old.title||"",words:sdscTokenize(old.en).length,level:"Vừa"}:null;
+      if(s)startSession(s);
+    }
+  }catch(e){}
+  window.__speakTest={
+    startSession:startSession,
+    completeRound:function(transcript){if(!cur)return null;finishRound(String(transcript||""));return {round:round,scores:scores.slice()};},
+    state:function(){return {round:round,scores:scores.slice(),sentence:cur?cur.en:null};},
+    speakable:speakable
+  };
 })();
 </script>
 
