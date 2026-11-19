@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://dongdarealest.github.io/sai-dau-sua-do/sitemap.xml

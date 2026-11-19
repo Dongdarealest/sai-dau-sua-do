@@ -1,0 +1,68 @@
+# Nhật ký đẩy trang (mới nhất cuối file)
+
+- 2026-11-15 00:25 +07 | 628087095bd737dc4b0f71a87b173bda2468e0fd | prev b717808dc596a17a258395404d327b802e531a0c | Wizard từng bước + chế độ tối + màn hình hoàn thành và chuỗi ngày học (9 bài, không lặp câu)
+- 2026-11-15 00:32 +07 | 2fcd5b19092ee29603cf4ae93cc61c1764d48cd9 | prev 628087095bd737dc4b0f71a87b173bda2468e0fd | Sửa nền đầu trang và chân trang ở chế độ tối (giữ nền navy đậm, chữ trắng không bị chìm)
+- 2026-11-15 00:34 +07 | b5e86c483364b53534c19680e09d9025d620a4da | prev 2fcd5b19092ee29603cf4ae93cc61c1764d48cd9 | Sửa màu slogan ở chế độ tối — giữ chữ mint sáng trên nền navy đậm
+- 2026-11-15 00:45 +07 | 5003a53401194f244b1652dd404e3d2879312461 | prev b5e86c483364b53534c19680e09d9025d620a4da | Kho bài học — wizard từng bước + chế độ tối + màn hình hoàn thành và chuỗi ngày học (9 bài, không lặp câu)
+- 2026-11-15 00:48 +07 | b5e86c483364b53534c19680e09d9025d620a4da | prev 2fcd5b19092ee29603cf4ae93cc61c1764d48cd9 | HOÀN TÁC về b5e86c4 (lùi từ 5003a53)
+- 2026-11-15 00:49 +07 | bb9f6351afb2bcd7efb117bf0a3ef4ebb275c671 | prev b5e86c483364b53534c19680e09d9025d620a4da | Nâng cấp toàn diện Kho bài học: wizard 7 bước + SRS ôn tập lặp lại + tìm kiếm không dấu + xuất/nhập tiến độ + font tự host (9 bài, 63 câu luyện, không lặp câu)
+- 2026-11-15 00:55 +07 | 8773a9098dcb61db293111818be6d61be3455b8c | prev bb9f6351afb2bcd7efb117bf0a3ef4ebb275c671 | Khong con dau gach ngang trong noi dung hien thi: tieu de dung dau hai cham, ngay ghi dang DD/MM/YYYY, khoang so viet bang chu, ten trang Kho bai hoc Sai Dau Sua Do; chan gach ngang o validate_lessons; quet 0 hit, test 17/17, JS 67/67, jsdom 68/68, 0 cau lap
+- 2026-11-15 07:58 +07 | df406ab1fd9b4ce9c948e4a22d47ea15b89756c6 | prev 8773a9098dcb61db293111818be6d61be3455b8c | Thêm bài Lỗi #005 — a university
+- 2026-11-15 11:32 +07 | 760e688dc99a619c73fe6481a05c76b5bd490609 | prev df406ab1fd9b4ce9c948e4a22d47ea15b89756c6 | Thêm bài Mẫu câu #004 — since và for
+- 2026-11-15 13:01 +07 | cc20ad71bf6bfd6d63ee74a4f9b2724421061a31 | prev 760e688dc99a619c73fe6481a05c76b5bd490609 | Thêm bài Meme #001 — In my hometown has
+- 2026-11-15 15:04 +07 | 27b7473d738cd7e68db1f01ebac479315baaf3d6 | prev cc20ad71bf6bfd6d63ee74a4f9b2724421061a31 | Thêm bài Quiz nhanh #001 — Chữ nào trong debt là chữ câm?
+- 2026-11-15 16:02 +07 | a8efe66074b6949a6858b4ed21297a7cba692d40 | prev 27b7473d738cd7e68db1f01ebac479315baaf3d6 | Thêm bài Lỗi nhanh #000 — break up with me
+- 2026-11-15 17:29 +07 | 12e81e47a17fa65f12d96010681ad0be01246e5f | prev a8efe66074b6949a6858b4ed21297a7cba692d40 | Thêm bài Hội thoại #001 — listen to music
+- 2026-11-15 19:03 +07 | 9f1292040b9d52d6181c6acb49e60c4391502e30 | prev 12e81e47a17fa65f12d96010681ad0be01246e5f | Thêm bài Đố nhanh #001 — on the car
+- 2026-11-15 20:40 +07 | d0003d1958c525d4fa252bdb7af0071272fb2990 | prev 9f1292040b9d52d6181c6acb49e60c4391502e30 | Thêm bài Quiz #004 — since hay for?
+- 2026-11-16 07:10 +07 | 58f4f51a7675e08e590cd890be02edbb18969ef5 | prev d0003d1958c525d4fa252bdb7af0071272fb2990 | Thêm bài Lỗi #006 — actually
+- 2026-11-16 08:38 +07 | 69132496721363fab6e9c93ed76b26610c680f36 | prev 58f4f51a7675e08e590cd890be02edbb18969ef5 | Thêm bài Mẹo #001 — very perfect
+- 2026-11-16 10:00 +07 | 6004b507aa920bf27ac9ea6d2de33be357d264c0 | prev 69132496721363fab6e9c93ed76b26610c680f36 | Thêm bài Sơ đồ #001 — Đại từ bất định đi với IS hay ARE
+- 2026-11-16 10:07 +07 | 4cd0c221a82445e586f779d20046449808f6ddd6 | prev 6004b507aa920bf27ac9ea6d2de33be357d264c0 | Thêm bài Từ #001 — rob và steal
+- 2026-11-16 11:33 +07 | a5ea91a6429f57d8075cdb207ad01e7d5f939c5f | prev 4cd0c221a82445e586f779d20046449808f6ddd6 | Thêm bài Mẫu câu #005 — job, work, salary, wage
+- 2026-11-16 13:02 +07 | d5e89fa274a08a710abbee5c3c9cc37d1f864a99 | prev a5ea91a6429f57d8075cdb207ad01e7d5f939c5f | Thêm bài Meme #002 — play football
+- 2026-11-16 14:13 +07 | 88c7e9849dd1f509dbeb884f540ee4ce9a90437f | prev d5e89fa274a08a710abbee5c3c9cc37d1f864a99 | Thêm bài Reel #003 — comfortable đọc mấy âm?
+- 2026-11-16 15:01 +07 | f897a429699b4ceba48159f1d7e528d92a14af71 | prev 88c7e9849dd1f509dbeb884f540ee4ce9a90437f | Thêm bài Quiz nhanh #002 — Chữ nào trong knight là chữ câm?
+- 2026-11-16 16:03 +07 | e9ed6a6bbb022b17040906ff7493dbf6b35fea16 | prev f897a429699b4ceba48159f1d7e528d92a14af71 | Thêm bài Lỗi nhanh #001 — in, on, at với giờ họp
+- 2026-11-16 17:31 +07 | d19569578e3de34773b4a63d6dab4f9d1aeade23 | prev e9ed6a6bbb022b17040906ff7493dbf6b35fea16 | Thêm bài Hội thoại #002 — waiting for you
+- 2026-11-16 19:04 +07 | 1190286c141af90ec25208d27b1680722675aad1 | prev 640b04269ba43ab3bfd78fad50edfb0adc217e95 | Thêm bài Đố nhanh #002 — have went
+- 2026-11-16 19:27 +07 | 6c5705ba1e9459431716d13fbaf0fa6f49b83def | prev 1190286c141af90ec25208d27b1680722675aad1 | Them list 200 tu vung doi song hang ngay (PDF tang them kem giao trinh)
+- 2026-11-16 20:39 +07 | e5fc9bc6c57963d797493f261335b97a82684a47 | prev 6c5705ba1e9459431716d13fbaf0fa6f49b83def | Thêm bài Quiz #005 — actually hay currently?
+- 2026-11-17 07:08 +07 | 97cfd39f141cdc9ec6a81939d4dbbdac7133c2e3 | prev e5fc9bc6c57963d797493f261335b97a82684a47 | Thêm bài Lỗi #007 — I agree
+- 2026-11-17 08:38 +07 | 3cc3e3a0cc03b2510d53e4ce906284e70e45fb3b | prev 97cfd39f141cdc9ec6a81939d4dbbdac7133c2e3 | Thêm bài Mẹo #002 — farther và further
+- 2026-11-17 10:08 +07 | 21444165c49f9a93f25f79a9b89914251ea11a52 | prev 3cc3e3a0cc03b2510d53e4ce906284e70e45fb3b | Thêm bài Từ #002 — see và watch
+- 2026-11-17 11:36 +07 | a6d16fafb39264893e9b44419f2ab7ae4d0efeab | prev 21444165c49f9a93f25f79a9b89914251ea11a52 | Thêm bài Dịch #001 — Trẻ trâu
+- 2026-11-17 13:03 +07 | 6e8027cab11b3a1f960b8e893c9dbbaf9beaed77 | prev a6d16fafb39264893e9b44419f2ab7ae4d0efeab | Thêm bài Meme #003 — He don't like it
+- 2026-11-17 14:32 +07 | d5320fbd26a15d68af6676a697a46c29e30025a2 | prev 6e8027cab11b3a1f960b8e893c9dbbaf9beaed77 | Thêm bài Reel #004 — I am agree hay I agree?
+- 2026-11-17 15:02 +07 | a8609368fa6d1926140c8f26e9bea8759638d5d2 | prev d5320fbd26a15d68af6676a697a46c29e30025a2 | Thêm bài Quiz nhanh #003 — Câu nào đúng?
+- 2026-11-17 16:30 +07 | 222e543fe3f410a2c7c5fa93008dd9cc1c3f6d14 | prev a8609368fa6d1926140c8f26e9bea8759638d5d2 | Thêm bài Lỗi nhanh #002 — I am a student
+- 2026-11-17 18:04 +07 | 470367bae2e054ff44d8ca719461e579f7bb712e | prev 222e543fe3f410a2c7c5fa93008dd9cc1c3f6d14 | Thêm bài Hội thoại #003 — on foot
+- 2026-11-17 19:03 +07 | af49b83dfe4d968ee5a29820bea386e60eb82343 | prev 470367bae2e054ff44d8ca719461e579f7bb712e | Thêm bài Đố nhanh #003 — there is three books
+- 2026-11-17 20:40 +07 | fdd7d15bdace8c22159283ea5090d1ffe759c335 | prev af49b83dfe4d968ee5a29820bea386e60eb82343 | Thêm bài Quiz #006 — chọn câu đúng
+- 2026-11-18 07:10 +07 | b3051df1fb5649d4578e23ec250ae031bb478210 | prev fdd7d15bdace8c22159283ea5090d1ffe759c335 | Thêm bài Lỗi #008 — Happy Teachers' Day
+- 2026-11-18 08:39 +07 | 4c1a931a72ff229806d02feb5e89d2faea15f523 | prev b3051df1fb5649d4578e23ec250ae031bb478210 | Thêm bài Mẹo #003 — less và fewer
+- 2026-11-18 10:09 +07 | 291f292864f42b48ed669b00223f8013031dc6c1 | prev 4c1a931a72ff229806d02feb5e89d2faea15f523 | Thêm bài Câu nào đúng? #001 — would rather
+- 2026-11-18 11:44 +07 | e7d6775ef454c31e8ba8780bea4340fd67654bda | prev 291f292864f42b48ed669b00223f8013031dc6c1 | Thêm bài Mẫu câu #007 — 4 câu chúc thầy cô
+- 2026-11-18 13:01 +07 | a308facec7f8f8d9adb266ec9de8e0cf4ea3c2e8 | prev e7d6775ef454c31e8ba8780bea4340fd67654bda | Thêm bài Meme #004 — I have 2 childs
+- 2026-11-18 14:06 +07 | 99239f2139f006a9f13aede39102fe45a3043a30 | prev a308facec7f8f8d9adb266ec9de8e0cf4ea3c2e8 | Thêm bài Reel #005 — He said me hay He told me?
+- 2026-11-18 14:09 +07 | b65af1d2f90f5af6098dea72b4c773db0de81af4 | prev 99239f2139f006a9f13aede39102fe45a3043a30 | Cập nhật bài Reel #005 — He said me hay He told me?
+- 2026-11-18 15:05 +07 | 2f9baf822527618b9e2286658c22c5b3ecad526d | prev b65af1d2f90f5af6098dea72b4c773db0de81af4 | Thêm bài Quiz nhanh #004 — Từ nào khác nghĩa?
+- 2026-11-18 16:09 +07 | 5f1a6b9c67fee9313a4b1cb96973dd039363abe3 | prev 2f9baf822527618b9e2286658c22c5b3ecad526d | Thêm bài Lỗi nhanh #003 — She is a teacher
+- 2026-11-18 17:31 +07 | 95a5ff3fa995a0a8562c0d5ecb8c8c2160f2b595 | prev 5f1a6b9c67fee9313a4b1cb96973dd039363abe3 | Thêm bài Hội thoại #004 — coffee or tea
+- 2026-11-18 19:07 +07 | 3bfb2af3ce7fa9c0d202a2f20a855a61e9e52447 | prev 95a5ff3fa995a0a8562c0d5ecb8c8c2160f2b595 | Thêm bài Đố nhanh #004 — am study
+- 2026-11-18 20:35 +07 | 6eea226406329b75ba7efb1d905c142531787030 | prev 3bfb2af3ce7fa9c0d202a2f20a855a61e9e52447 | Thêm bài Quiz #007 — chọn câu chúc đúng
+- 2026-11-18 22:48 +07 | e22d171ce6d954e0bf0851e3185171b98a944372 | prev 6eea226406329b75ba7efb1d905c142531787030 | Thêm bài Tổng hợp #001 — Tổng hợp giới từ
+- 2026-11-19 07:07 +07 | e9aa1ac155b070899c46d96bedd3806842e86c9d | prev e22d171ce6d954e0bf0851e3185171b98a944372 | Thêm bài Lỗi #009 — thank to
+- 2026-11-19 08:38 +07 | 8f0c5f53a827cd482e00af4b452527ff172f5fdf | prev e9aa1ac155b070899c46d96bedd3806842e86c9d | Thêm bài Mẹo #004 — who và whom
+- 2026-11-19 10:08 +07 | 3a2a716247a966d358c1bf854bbd29627bd66d32 | prev 8f0c5f53a827cd482e00af4b452527ff172f5fdf | Thêm bài Ngữ pháp B1/B2 #001 — for và since
+- 2026-11-19 11:33 +07 | cdbd6b411431f241fe98e997ab31b60a090516fc | prev 3a2a716247a966d358c1bf854bbd29627bd66d32 | Thêm bài Mẫu câu #008 — 4 câu kể về thầy cô
+- 2026-11-19 13:09 +07 | a1249b58df5e9ad8aa4b785efbf95fa125add54e | prev cdbd6b411431f241fe98e997ab31b60a090516fc | Nâng cấp kiểu app PeakFour: thêm Từ điển, Bảng lộ trình, Thư viện chủ đề, Luyện nói, Học từng cụm; thêm bài Tổng hợp các thì
+- 2026-11-19 13:17 +07 | c96158e9918b0bf857f918301129eb6a80efd8f2 | prev a1249b58df5e9ad8aa4b785efbf95fa125add54e | Thêm bài Meme #005 — I didn't went to school yesterday
+- 2026-11-19 14:14 +07 | da93e62a64eadd314f41b3831efb407fd475f2aa | prev c96158e9918b0bf857f918301129eb6a80efd8f2 | Thêm bài Reel #006 — thank to hay thank?
+- 2026-11-19 14:43 +07 | 066dff9d159936d50c10ebc96f563a1283fc20dc | prev da93e62a64eadd314f41b3831efb407fd475f2aa | Làm lại trang Từ điển: nghĩa tiếng Việt hiện trước, nhãn từ loại tiếng Việt, phiên âm tối đa 2 dòng
+- 2026-11-19 14:48 +07 | 8b91c71759cce57e518c617cc84f84e938648dfa | prev 066dff9d159936d50c10ebc96f563a1283fc20dc | Sửa nhãn phiên âm từ điển: dòng phiên âm không có âm thanh ghi phiên âm, không gán nhầm giọng
+- 2026-11-19 14:56 +07 | 9690535306a037d874203475f3b7f233112df318 | prev 8b91c71759cce57e518c617cc84f84e938648dfa | Từ điển: bổ sung 33 từ bài học còn thiếu, sửa tách gốc loves/going, thêm dạng rút gọn
+- 2026-11-19 15:06 +07 | bbc22bbda8b8cc2a63001725e934ba1332cf5849 | prev 9690535306a037d874203475f3b7f233112df318 | Thêm bài Quiz nhanh #005 — Wednesday đọc thế nào?
+- 2026-11-19 15:14 +07 | 17cc4ce88cc198b572212d5dab2b9cdab3d8589f | prev bbc22bbda8b8cc2a63001725e934ba1332cf5849 | Tối ưu web: tách CSS/JS/dữ liệu chung, build và deploy tăng dần, tìm kiếm nạp lười
+- 2026-11-19 15:32 +07 | 2a16868fefafa6ef21e6008155d0c7a0a3201ff9 | prev 17cc4ce88cc198b572212d5dab2b9cdab3d8589f | Công bố API mở v1 cho lập trình viên: bài học, từ điển 852 từ kèm lỗi hay mắc, lộ trình, tài liệu và giấy phép mở
+- 2026-11-19 15:36 +07 | 656f8d16ad4a1837b117fe8ae38ea9b2647191f9 | prev 2a16868fefafa6ef21e6008155d0c7a0a3201ff9 | Kiểm chứng tách nhánh: deploy thử lên gh-pages, nội dung không đổi
