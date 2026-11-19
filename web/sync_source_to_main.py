@@ -63,10 +63,10 @@ def source_files():
     for f in sorted(tests_dir.iterdir()):
         if f.is_file() and f.name not in ("__pycache__",):
             out.append((str(f), f"web/tests/{f.name}"))
-    # Tài liệu thiết kế và nghiên cứu đã chọn lọc (mục 2.2).
-    for name in ["api-spec.md", "phan-nghien-cuu.md", "ke-hoach-dung.md",
-                 "20-trang-hoc-tieng-anh.md", "quyet-dinh-duyet.md", "de-xuat.md",
-                 "ke-hoach-tach-nhanh.md"]:
+    # Tài liệu công khai cho lập trình viên ngoài: chỉ đặc tả API.
+    # Mọi tài liệu nội bộ (nghiên cứu, kế hoạch, quyết định thiết kế,
+    # kế hoạch tách nhánh) chỉ ở trên máy VM, không bao giờ lên main.
+    for name in ["api-spec.md"]:
         out.append((os.path.join(WS, "docs", name), f"docs/{name}"))
     return out
 
