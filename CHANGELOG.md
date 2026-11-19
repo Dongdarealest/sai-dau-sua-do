@@ -10,4 +10,5 @@
 - Four skills: speaking v2, listening, writing, and reading, built around one mistake at a time, with review after 1, 3, 7, and 30 days.
 - Dictionary rebuilt: Vietnamese meaning first and largest, with Vietnamese part-of-speech labels.
 - Community backend live: password accounts, email codes, weekly XP, streak, and speaking leaderboards, cheers, and stats at https://sdsc-community-api.vercel.app.
+- Community section connected to the live API: real leaderboards, stats, cheers, accounts, and progress sync on the website.
 - Performance: split shared CSS, JavaScript, and data into separate files; incremental builds and deploys; lazy-loaded search index. Adding one lesson now changes about 9 files instead of 67.
