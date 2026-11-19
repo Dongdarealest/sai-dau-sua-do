@@ -5788,6 +5788,128 @@
    "why": "since là mốc, for là khoảng.",
    "wrong": "I have lived here since 3 years.",
    "wrong_note": "Tôi đã sống ở đây được 3 năm, nhưng since không đi với khoảng thời gian."
+  },
+  {
+   "code": "Mẫu câu #008",
+   "compare": [
+    {
+     "a": "On the occasion of Teachers' Day, we say thank you.",
+     "b": "In the occasion of Teachers' Day, we say thank you.",
+     "note": "cụm cố định dùng on, không dùng in."
+    },
+    {
+     "a": "On the occasion of her birthday, I gave her flowers.",
+     "b": "In the occasion of her birthday, I gave her flowers.",
+     "note": "on the occasion of dùng cho mọi dịp, không chỉ ngày lễ."
+    }
+   ],
+   "core": "Muốn kể cụ thể thì dùng câu có động từ rõ nghĩa, và nói nhân dịp thì dùng cụm on the occasion of.",
+   "date": "2026-11-19",
+   "dict_links": [
+    {
+     "label": "Cambridge, occasion",
+     "url": "https://dictionary.cambridge.org/dictionary/english/occasion"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My teacher is very kind.",
+     "vi": "Thầy cô của em rất tốt bụng."
+    },
+    {
+     "en": "She helps me learn English.",
+     "vi": "Cô giúp em học tiếng Anh."
+    },
+    {
+     "en": "I learned a lot from my teacher.",
+     "vi": "Em học được rất nhiều từ thầy cô."
+    },
+    {
+     "en": "He makes every lesson fun.",
+     "vi": "Thầy làm mỗi tiết học đều vui."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103798033550200",
+   "image_src": "ngay-08/Mau-cau-008-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "On the occasion of the festival, we met our old teacher.",
+     "wrong": "In the occasion of the festival, we met our old teacher."
+    },
+    {
+     "right": "On the occasion of graduation, she thanked her teacher.",
+     "wrong": "In the occasion of graduation, she thanked her teacher."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "cụm cố định là on the occasion of.",
+     "kind": "fill_blank",
+     "options": [
+      "In",
+      "On"
+     ],
+     "prompt": "___ the occasion of Teachers' Day, I wish you good health."
+    },
+    {
+     "answer": 1,
+     "explanation": "nói nhân dịp thì dùng on the occasion of.",
+     "kind": "distinguish",
+     "options": [
+      "In the occasion of the new year, we visit our teacher.",
+      "On the occasion of the new year, we visit our teacher."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      5,
+      0,
+      3,
+      2,
+      4,
+      6,
+      8,
+      7,
+      9,
+      10
+     ],
+     "explanation": "cụm cố định là on the occasion of.",
+     "kind": "word_order",
+     "options": [
+      "occasion",
+      "On",
+      "Teachers'",
+      "of",
+      "Day,",
+      "the",
+      "I",
+      "my",
+      "thank",
+      "teacher",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'occasion / On / Teachers' / of / Day, / the / I / my / thank / teacher / .'"
+    }
+   ],
+   "problem": "Kể về thầy cô bằng tiếng Anh mà chỉ nói một câu chung chung thì người nghe chưa thấy rõ thầy cô của mình thế nào.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Nói nhân dịp thì dùng on the occasion of, không dùng in.",
+   "right": "On the occasion of Teachers' Day, I wish you good health.",
+   "right_note": "Nhân dịp Ngày Nhà giáo.",
+   "show_in_ui": true,
+   "slug": "mau-cau-008",
+   "tip": "Viết thiệp 20/11 thì mở đầu bằng câu nhân dịp, rồi viết câu chúc của mình.",
+   "title": "4 câu kể về thầy cô",
+   "topic": "giao tiếp",
+   "type": "Mẫu câu",
+   "why": "cụm cố định là on the occasion of, không dùng in the occasion of.",
+   "wrong": "In the occasion of Teachers' Day, I wish you good health.",
+   "wrong_note": "Nhân dịp Ngày Nhà giáo."
   }
  ],
  "site": {
