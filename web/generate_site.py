@@ -101,7 +101,7 @@ body{font-family:"Be Vietnam Pro","Inter",system-ui,-apple-system,"Segoe UI",san
 a{color:var(--navy)}
 .wrap{max-width:1020px;margin:0 auto;padding:0 16px}
 main{padding:0 0 8px}
-section{margin:20px 0}
+section{margin:16px 0}
 h2{font-size:22px;margin-bottom:12px}
 h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .btn{display:inline-block;border-radius:14px;padding:16px 24px;min-height:48px;font-size:17px;font-weight:700;text-decoration:none;text-align:center;cursor:pointer;border:2px solid transparent}
@@ -109,9 +109,10 @@ h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .btn-navy{background:var(--navy-btn);color:#fff}
 .btn-ghost{background:var(--card);color:var(--navy);border-color:var(--navy)}
 .btn-block{display:block;width:100%}
+.btn-compact{padding:12px 20px;min-height:48px}
 .btn:active{transform:scale(.98)}
 .review-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
-.review-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-decoration:none;color:var(--ink);display:block}
+.review-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-decoration:none;color:var(--ink);display:block}
 .review-card:hover{border-color:var(--navy)}
 .review-card b{display:block;font-size:16px;margin-bottom:2px}
 .review-card span{font-size:16px;color:var(--sub)}
@@ -221,7 +222,7 @@ td .right{color:var(--navy);font-weight:600}
 .path-item h3{font-size:18px}
 .path-item p{font-size:16px;color:var(--sub)}
 .path-item .go{margin-left:auto;font-weight:700;white-space:nowrap;font-size:16px}
-footer{background:var(--navy-bg);color:#CBDCE8;margin-top:28px;padding:24px 20px;font-size:16px}
+footer{background:var(--navy-bg);color:#CBDCE8;margin-top:20px;padding:16px 20px;font-size:16px}
 footer a{color:#fff;font-weight:700}
 
 .ic{width:1.15em;height:1.15em;flex:none;vertical-align:-0.18em}
@@ -321,37 +322,41 @@ body.has-nav{padding-bottom:96px}
 .appname{flex:1;min-width:0;font-weight:900;font-size:18px;color:var(--navy);line-height:1.2;overflow:hidden}
 .appname a{display:block;color:var(--navy);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .appname small{display:block;font-size:16px;font-weight:400;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:480px){.appname small{display:none}}
 .pills{margin-left:auto;display:flex;gap:8px;flex:none}
 .pill{display:inline-flex;align-items:center;gap:5px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:5px 11px;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
 .pill .ic{width:16px;height:16px}
 @media(max-width:419px){.pill-word{display:none}}
 .appbar .theme-toggle{width:44px;height:44px;border:1.5px solid var(--line);background:var(--card);color:var(--navy)}
 .appbar .theme-toggle .ic{width:22px;height:22px}
-.hero{background:var(--navy-bg);border-radius:24px;padding:16px 20px;margin-top:14px;color:#fff}
+.hero{background:var(--navy-bg);border-radius:24px;padding:14px 16px;margin-top:14px;color:#fff}
 .hero .eyebrow{color:var(--orange);font-weight:900;font-size:16px;letter-spacing:.06em}
-.hero h1{font-size:24px;line-height:1.25;font-weight:900;margin:6px 0 8px;color:#fff}
+.hero h1{font-size:22px;line-height:1.25;font-weight:900;margin:6px 0 8px;color:#fff}
 .hero .wrong{color:#FFB4A8;font-size:16px}
 .hero .wrong s{text-decoration-color:var(--orange);text-decoration-thickness:2px}
 .hero .right{color:#DCEFEA;font-size:16px;font-weight:700;margin-top:2px}
 .btn-hero{padding:12px 20px;min-height:52px}
-.hero .btn{margin-top:12px}
+.hero .btn{margin-top:10px}
 .msub{text-align:center;color:#CBDCE8;font-size:16px;margin-top:8px}
 .msub2{font-size:16px;color:var(--sub);line-height:1.5;margin:6px 0}
 .tiles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
-.tiles .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 10px;text-align:center}
+.tiles .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 8px;text-align:center}
 .tiles .tile .num{font-size:24px;font-weight:900;color:var(--navy);line-height:1.1}
 .tiles .tile .lbl{font-size:16px;color:var(--sub);margin-top:4px}
-.strip{display:block;background:var(--mint);border-radius:14px;padding:12px 14px;font-size:16px;color:var(--navy);margin-top:12px;text-decoration:none}
+.strip{display:block;background:var(--mint);border-radius:14px;padding:10px 14px;font-size:16px;color:var(--navy);margin-top:12px;text-decoration:none}
 .strip b{font-weight:900}
 .strip .go{color:var(--orange);font-weight:900;white-space:nowrap}
-.missions{background:var(--card);border:1.5px solid var(--orange);border-radius:20px;padding:18px 16px;margin-top:14px}
+.strip-row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.stripbar{display:block;height:6px;background:var(--bg);border-radius:999px;overflow:hidden;margin-top:8px}
+.stripbar i{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}
+.missions{background:var(--card);border:1.5px solid var(--orange);border-radius:20px;padding:14px 16px;margin-top:0}
 .missions .mhead{display:flex;align-items:center;gap:8px}
 .missions h2{margin:0;font-size:20px}
 .xppill{margin-left:auto;display:inline-flex;align-items:center;gap:5px;background:var(--amber-bg);border:1.5px solid #F6C453;border-radius:999px;padding:5px 11px;font-size:16px;font-weight:900;color:var(--amber);white-space:nowrap}
 .xpbar{height:8px;background:var(--bar);border-radius:999px;overflow:hidden;margin-top:12px}
 .xpbar i{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}
 .xpmeta{font-size:16px;color:var(--sub);margin-top:6px}
-.mrow{display:flex;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--bar)}
+.mrow{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--bar)}
 .mrow.first{margin-top:8px}
 .mcheck{width:32px;height:32px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px}
 .mcheck.done{background:var(--mint);color:var(--navy)}
@@ -360,11 +365,11 @@ body.has-nav{padding-bottom:96px}
 .mrow h3{font-size:16px}
 .mrow p{font-size:16px;color:var(--sub)}
 .mrow .xp{margin-left:auto;font-size:16px;font-weight:900;color:var(--orange);white-space:nowrap}
-.mreward{font-size:16px;color:var(--sub);margin-top:10px;background:var(--bg);border-radius:12px;padding:10px 12px}
+.mreward{font-size:16px;color:var(--sub);margin-top:8px;background:var(--bg);border-radius:12px;padding:8px 12px}
 .mreward b{color:var(--navy)}
 .rows{display:grid;gap:10px}
-.row{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
-.row .dot{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
+.row .dot{width:36px;height:36px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px}
 .dot.done{background:var(--mint);color:var(--navy)}
 .dot.now{background:var(--orange);color:#fff}
 .dot.next{background:var(--bar);color:var(--sub)}
@@ -379,6 +384,7 @@ body.has-nav{padding-bottom:96px}
 .tool .ic{width:26px;height:26px;color:var(--navy);flex:none}
 .tool b{font-size:16px;display:block}
 .tool span{font-size:16px;color:var(--sub)}
+@media(max-width:560px){.tool span{display:none}.tool{padding:12px}}
 .path{position:relative;margin-top:4px;padding-left:6px}
 .path::before{content:"";position:absolute;left:27px;top:24px;bottom:24px;border-left:2px dashed var(--line)}
 .pnode{display:flex;gap:14px;align-items:flex-start;padding:12px 0;position:relative}
@@ -427,17 +433,17 @@ body.has-nav{padding-bottom:96px}
 .miss-row b{font-size:16px}
 .miss-row span{font-size:16px;color:var(--sub)}
 .speak-next{margin-top:12px}
-.speak-topic{margin:22px 0 0}
+.speak-topic{margin:18px 0 0}
 .speak-topic h2{margin-bottom:4px}
 .speak-topic .sub{font-size:16px;color:var(--sub);margin-bottom:12px}
-.speak-cards{display:grid;gap:10px}
-.topic-card{background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:16px;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
+.speak-cards{display:grid;gap:8px}
+.topic-card{background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:14px;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
 .topic-card:hover{border-color:var(--navy)}
 .topic-card .ic{width:26px;height:26px;color:var(--navy);flex:none}
 .topic-card h3{font-size:18px}
 .topic-card p{font-size:16px;color:var(--sub)}
 .topic-card .best{margin-left:auto;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
-.speak-sentence{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
+.speak-sentence{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
 .speak-sentence:hover{border-color:var(--navy)}
 .speak-sentence .en{font-size:18px;font-weight:700;line-height:1.4}
 .speak-sentence .vi{font-size:16px;color:var(--sub);margin-top:4px}
@@ -483,9 +489,9 @@ body.has-nav{padding-bottom:96px}
 .write-wrong-list{margin:12px 0}
 .write-wrong-list .miss-row{margin-bottom:8px}
 /* Mục Cộng đồng (đợt hướng A, 19/11) */
-.comm-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.comm-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:14px 16px;margin:0}
 .comm-card h3{font-size:19px;margin:0 0 8px}
-.comm-row{display:flex;justify-content:space-between;gap:8px;padding:10px 4px;border-bottom:1px solid var(--line);font-size:17px;align-items:center}
+.comm-row{display:flex;justify-content:space-between;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:17px;align-items:center}
 .comm-row:last-child{border-bottom:0}
 .comm-row.me{background:var(--mint);border-radius:10px;padding:10px}
 .comm-row .rank{font-weight:900;min-width:24px}
@@ -1111,6 +1117,82 @@ function speakingHoursText(mins){
   if(mins<60)return mins+" phút";
   const h=Math.floor(mins/60);const m=mins%60;
   return h+" giờ"+(m?" "+m+" phút":"");
+}
+/* Danh sách và thống kê tiến độ (dùng chung trang chủ và trang Tôi).
+   Trước đây nằm ở khối JS riêng của trang chủ, chuyển về đây để trang
+   Tôi cũng vẽ được mà không nhân đôi code. */
+const SDSC_SITE_ROOT="/sai-dau-sua-do";
+function progressDoneCount(){
+  const p=getProgress();
+  return Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).length;
+}
+function renderDoneList(){
+  const p=getProgress();
+  const box=document.getElementById("done-list");
+  if(!box)return;
+  const items=Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).sort((a,b)=>String(b[1].lastStudiedAt||b[1].doneAt||"").localeCompare(String(a[1].lastStudiedAt||a[1].doneAt||""))).slice(0,10);
+  if(!items.length){box.innerHTML="<p>Chưa có bài nào đã nhớ. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
+  box.innerHTML="<ul>"+items.map(([s,l])=>{const m=window.SDSC_LESSONS[s];return "<li><a href=\""+SDSC_SITE_ROOT+"/"+s+"/\">"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</a>, đã nhớ ngày "+escapeHtml(fmtDate(l.doneAt||l.lastStudiedAt||""))+"</li>";}).join("")+"</ul>";
+}
+function renderRecent(){
+  const p=getProgress();
+  const box=document.getElementById("recent-list");
+  if(!box)return;
+  const evs=(p.history||[]).filter(h=>h&&h.slug&&window.SDSC_LESSONS[h.slug]).slice(-5).reverse();
+  if(!evs.length){box.innerHTML="<p>Chưa có hoạt động nào. Làm thử 1 câu luyện ở bất kỳ bài nào nhé.</p>";return;}
+  const label={done:"Đã nhớ bài",undone:"Bỏ đánh dấu bài",practice:"Luyện câu ở bài",review:"Ôn lại bài","self-grade":"Tự đánh giá bài",import:"Nhập tiến độ",reset:"Đặt lại tiến độ"};
+  box.innerHTML="<ul>"+evs.map(h=>{const m=window.SDSC_LESSONS[h.slug];const extra=h.action==="practice"?(h.correct?", đúng":", chưa đúng"):(h.grade?", mức "+({kho:"Khó",vua:"Vừa",de:"Dễ"}[h.grade]||h.grade):(h.skill?", bằng "+(SKILL_LABEL[h.skill]||h.skill):""));return "<li>"+escapeHtml(label[h.action]||h.action)+" <a href=\""+SDSC_SITE_ROOT+"/"+h.slug+"/\">"+escapeHtml(m.code)+"</a>"+extra+" ("+escapeHtml(fmtDate(h.date||""))+ ")"+"</li>";}).join("")+"</ul>";
+}
+function longestStreak(dates){
+  if(!dates||!dates.length)return 0;
+  const set=new Set(dates.filter(isValidDateStr));
+  let best=0;
+  set.forEach(d=>{
+    if(!set.has(addDays(d,-1))){
+      let n=1,cur=d;
+      while(set.has(addDays(cur,1))){cur=addDays(cur,1);n++;}
+      if(n>best)best=n;
+    }
+  });
+  return best;
+}
+function renderStats(){
+  const p=getProgress();
+  const box=document.getElementById("stats-list");
+  if(!box)return;
+  const done=progressDoneCount();
+  const prac=Object.values(p.practice||{});
+  const acc=prac.length?Math.round(100*prac.filter(v=>v&&v.correct).length/prac.length):0;
+  const reviews=Object.values(p.lessons||{}).reduce((a,l)=>a+(l&&l.reviews||0),0);
+  const lastDates=Object.values(p.lessons||{}).map(l=>l&&(l.lastStudiedAt||l.doneAt||"")).filter(isValidDateStr).sort();
+  const last=lastDates.length?fmtDate(lastDates[lastDates.length-1]):"chưa có";
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  box.innerHTML="<ul><li>Điểm kinh nghiệm: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b></li><li>Bài đã nhớ: <b>"+done+" / "+window.SDSC_TOTAL_LESSONS+"</b></li><li>Tỉ lệ luyện đúng: <b>"+acc+"%</b> ("+prac.filter(v=>v&&v.correct).length+" / "+prac.length+" câu)</li><li>Số lần ôn lại: <b>"+reviews+"</b></li><li>Chuỗi ngày học dài nhất: <b>"+longestStreak(p.streak.dates||[])+" ngày</b> (chuỗi hiện tại: "+(p.streak.count||0)+" ngày)</li><li>Ngày học gần nhất: <b>"+escapeHtml(last)+"</b></li></ul>";
+}
+function renderExportUI(){
+  const msg=document.getElementById("import-msg");
+  const showMsg=(t,ok)=>{if(msg){msg.textContent=t;msg.style.color=ok?"var(--green)":"var(--red)";}};
+  const exp=document.getElementById("btn-export");
+  if(exp&&!exp.dataset.wired){exp.dataset.wired="1";exp.addEventListener("click",()=>{if(exportProgress())showMsg("Đã tải file tiến độ. Cất file này cẩn thận, đổi máy thì nhập lại nhé.",true);else showMsg("Không tạo được file tiến độ, thử lại nhé.",false);});}
+  const file=document.getElementById("import-file");
+  const imp=document.getElementById("btn-import");
+  if(imp&&!imp.dataset.wired){imp.dataset.wired="1";imp.addEventListener("click",()=>{if(file)file.click();});}
+  if(file&&!file.dataset.wired){file.dataset.wired="1";file.addEventListener("change",()=>{
+    const f=file.files&&file.files[0];if(!f)return;
+    if(f.size>1024*1024){showMsg("File quá lớn (hơn 1 MB). Có thể đây không phải file tiến độ.",false);file.value="";return;}
+    const modeEl=document.querySelector('input[name="import-mode"]:checked');
+    const mode=modeEl?modeEl.value:"merge";
+    if(mode==="overwrite"){
+      const p=getProgress();
+      const dc=Object.values(p.lessons||{}).filter(l=>l&&l.done).length;
+      const pc=Object.keys(p.practice||{}).length;
+      if(!confirm("Ghi đè sẽ xóa "+dc+" bài đã nhớ, "+pc+" câu luyện và chuỗi "+(p.streak.count||0)+" ngày hiện tại. Tiếp tục?")){file.value="";return;}
+    }
+    const reader=new FileReader();
+    reader.onload=()=>{const res=importProgressText(String(reader.result||""),mode);if(res.ok){showMsg(res.message,true);if(typeof window.__sdscRenderProgress==="function"){try{window.__sdscRenderProgress();}catch(e){}} if(typeof renderDashboard==="function"){try{renderDashboard();}catch(e){}}}else{showMsg(res.error,false);}file.value="";};
+    reader.onerror=()=>{showMsg("Không đọc được file, thử lại nhé.",false);file.value="";};
+    reader.readAsText(f);
+  });}
 }
 </script>
 """
@@ -2358,6 +2440,10 @@ function renderDashboard(){
     if(!due.length){dg.innerHTML="<p>Hôm nay chưa có bài đến hạn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</p>";}
     else{dg.innerHTML="<div class=\"review-grid\">"+due.slice(0,5).map(x=>{const l=window.SDSC_LESSONS[x.slug];return "<a class=\"review-card\" href=\""+BASE_PATH_PLACEHOLDER+"/"+x.slug+"/\"><b>"+escapeHtml(l.code)+"</b><span>"+escapeHtml(l.title)+"<br>Đến hạn ôn ngày "+escapeHtml(fmtDate(x.nextDue))+"</span></a>";}).join("")+"</div>";}
   }
+  try{renderDoneList();}catch(e){}
+  try{renderRecent();}catch(e){}
+  try{renderStats();}catch(e){}
+  try{renderExportUI();}catch(e){}
 }
 try{renderDashboard();}catch(e){}
 window.addEventListener("storage",e=>{if(e&&e.key==="sdsc-progress-v1"){try{renderDashboard();}catch(err){}}});
@@ -4275,10 +4361,6 @@ window.SDSC_TOTAL_LESSONS = __TOTAL_LESSONS__;
 const SDSC_HOME_BASE=BASE_PATH_PLACEHOLDER;
 /* SDSC_LESSONS và SDSC_PATHS lấy từ data.js (nạp trước khối này). */
 function safeRender(fn){try{fn();}catch(e){}}
-function progressDoneCount(){
-  const p=getProgress();
-  return Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).length;
-}
 function dueCount(){
   const p=getProgress();const today=todayISO();let n=0;
   Object.entries(p.review||{}).forEach(([slug,r])=>{
@@ -4301,7 +4383,9 @@ function renderProgress(){
   setNum("tile-done-num",n+" / "+total);
   setNum("tile-due-num",due+" bài");
   const strip=document.getElementById("strip-text");
-  if(strip)strip.innerHTML="Chuỗi <b>"+streak+" ngày</b> • Đã nhớ <b>"+n+" trên "+total+" bài</b> • <b>"+due+" bài đến hạn ôn</b>";
+  if(strip)strip.innerHTML="Học lại từ đầu • <b>"+n+" trên "+total+" bài</b>";
+  const sbar=document.getElementById("strip-bar");
+  if(sbar)sbar.style.width=(total?Math.round(100*n/total):0)+"%";
   updatePracticeScore();
   renderStreakPills();
 }
@@ -4394,34 +4478,27 @@ function renderContinue(){
   if(!rows.length){box.innerHTML="<p>Chưa có bài nào. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
   box.innerHTML=rows.join("");
 }
-function renderPathPreview(){
-  const box=document.getElementById("path-preview");
+function renderLatest(scored,q){
+  const box=document.getElementById("latest-box");
   if(!box)return;
-  const p=getProgress();
-  const order=(window.SDSC_PATHS["hoc-lai-tu-dau"]||[]).filter(s=>window.SDSC_LESSONS[s]);
-  const done=new Set(Object.entries(p.lessons||{}).filter(([,l])=>l&&l.done).map(([s])=>s));
-  const idx=order.findIndex(s=>!done.has(s));
-  const nodes=[];
-  const push=(slug,cls,label,mark)=>{
-    const l=window.SDSC_LESSONS[slug];if(!l)return;
-    nodes.push("<a class=\"pnode\" href=\""+SDSC_HOME_BASE+"/"+slug+"/\"><span class=\"pdot "+cls+"\">"+mark+"</span><div><h3>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h3><p>"+escapeHtml(label)+"</p></div><span class=\"go\">Học →</span></a>");
-  };
-  if(idx>0)push(order[idx-1],"done","Đã nhớ","✓");
-  if(idx>=0&&order[idx])push(order[idx],"now","Đang học","→");
-  if(idx>=0&&order[idx+1])push(order[idx+1],"next","Tiếp theo","•");
-  if(idx<0&&order.length)push(order[order.length-1],"done","Đã nhớ","✓");
-  box.innerHTML="<div class=\"path\">"+nodes.join("")+"</div><a class=\"pathlink\" href=\""+SDSC_HOME_BASE+"/lo-trinh/hoc-lai-tu-dau/\">Xem toàn bộ lộ trình →</a>";
-}
-function renderMagazine(){
-  const box=document.getElementById("magazine-box");
-  const section=document.getElementById("magazine-section");
-  if(!box)return;
-  const hero=heroLesson();
-  const newest=Object.keys(window.SDSC_LESSONS).sort((a,b)=>String(window.SDSC_LESSONS[b].date||"").localeCompare(String(window.SDSC_LESSONS[a].date||"")))[0];
-  if(!newest||newest===hero){if(section)section.style.display="none";return;}
-  if(section)section.style.display="block";
-  const l=window.SDSC_LESSONS[newest];
-  box.innerHTML="<article class=\"feat\"><img src=\""+SDSC_HOME_BASE+"/images/"+newest+".jpg\" alt=\"Ảnh bài "+escapeHtml(l.code)+"\" loading=\"lazy\" onerror=\"this.style.display='none'\"><div class=\"body\"><span class=\"tag topic\">BÀI MỚI NHẤT • "+escapeHtml(fmtDate(l.date))+"</span><h3><a href=\""+SDSC_HOME_BASE+"/"+newest+"/\">"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</a></h3><p class=\"msub\">"+escapeHtml(l.topic)+"</p><a class=\"go\" href=\""+SDSC_HOME_BASE+"/"+newest+"/\">Học bài này →</a></div></article>";
+  const link=document.getElementById("latest-link");
+  const total=window.SDSC_TOTAL_LESSONS;
+  const rows=(slugs)=>slugs.map(slug=>{
+    const l=window.SDSC_LESSONS[slug];if(!l)return "";
+    return "<a class=\"row\" href=\""+SDSC_HOME_BASE+"/"+slug+"/\"><span class=\"dot now\">→</span><div style=\"flex:1;min-width:0\"><h3>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h3><p>"+escapeHtml(l.topic)+" • "+escapeHtml(l.type)+"</p></div><span class=\"state\">Học</span></a>";
+  }).join("");
+  const setLink=(text,href)=>{if(link){link.textContent=text;link.href=href;}};
+  if(q&&scored&&scored.length){
+    box.innerHTML=rows(scored.slice(0,3).map(x=>x.lesson.slug));
+    setLink("Xem tất cả "+scored.length+" bài cho '"+q+"' →",SDSC_HOME_BASE+"/thu-vien-bai-hoc/?q="+encodeURIComponent(q));
+  }else if(q){
+    box.innerHTML="<p>Không thấy bài nào khớp. Thử từ khác nhé.</p>";
+    setLink("Xem tất cả "+total+" bài →",SDSC_HOME_BASE+"/thu-vien-bai-hoc/");
+  }else{
+    const newest=Object.keys(window.SDSC_LESSONS).sort((a,b)=>String(window.SDSC_LESSONS[b].date||"").localeCompare(String(window.SDSC_LESSONS[a].date||""))).slice(0,3);
+    box.innerHTML=rows(newest);
+    setLink("Xem tất cả "+total+" bài →",SDSC_HOME_BASE+"/thu-vien-bai-hoc/");
+  }
 }
 function renderReview(){
   const p=getProgress();
@@ -4429,6 +4506,7 @@ function renderReview(){
   const grid=document.getElementById("review-grid");
   const empty=document.getElementById("review-empty");
   if(!grid||!empty)return;
+  const sec=document.getElementById("review-section");
   const due=[];
   Object.entries(p.review||{}).forEach(([slug,r])=>{
     if(!r||!window.SDSC_LESSONS[slug])return;
@@ -4442,17 +4520,16 @@ function renderReview(){
   });
   due.sort((a,b)=>b.overdue-a.overdue||a.ease-b.ease);
   const items=due.slice(0,5);
+  const future=Object.entries(p.review||{}).filter(([s,r])=>r&&window.SDSC_LESSONS[s]&&isValidDateStr(r.nextDue)&&r.nextDue>today&&(p.lessons[s]||{}).done).sort((a,b)=>a[1].nextDue.localeCompare(b[1].nextDue));
   if(!items.length){
+    if(!future.length){if(sec)sec.style.display="none";return;}
+    if(sec)sec.style.display="";
     grid.style.display="none";empty.style.display="block";
-    const future=Object.entries(p.review||{}).filter(([s,r])=>r&&window.SDSC_LESSONS[s]&&isValidDateStr(r.nextDue)&&r.nextDue>today&&(p.lessons[s]||{}).done).sort((a,b)=>a[1].nextDue.localeCompare(b[1].nextDue));
-    if(future.length){
-      const l=window.SDSC_LESSONS[future[0][0]];
-      empty.textContent="Hôm nay chưa có bài đến hạn. Bài ôn gần nhất là "+l.code+": "+l.title+", vào ngày "+fmtDate(future[0][1].nextDue)+".";
-    }else{
-      empty.textContent="Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.";
-    }
+    const l=window.SDSC_LESSONS[future[0][0]];
+    empty.textContent="Hôm nay chưa có bài đến hạn. Bài ôn gần nhất là "+l.code+": "+l.title+", vào ngày "+fmtDate(future[0][1].nextDue)+".";
     return;
   }
+  if(sec)sec.style.display="";
   empty.style.display="none";grid.style.display="grid";
   grid.innerHTML=items.map(x=>{
     const l=window.SDSC_LESSONS[x.slug];
@@ -4461,77 +4538,8 @@ function renderReview(){
     return "<a class=\"review-card\" href=\""+url+"\"><b>"+escapeHtml(l.code)+"</b><span>"+escapeHtml(l.title)+"<br>Đến hạn ôn"+(x.overdue>0?" (quá "+x.overdue+" ngày)":" hôm nay")+" • Ôn bằng "+escapeHtml(SKILL_LABEL[sk])+"</span></a>";
   }).join("");
 }
-function renderDoneList(){
-  const p=getProgress();
-  const box=document.getElementById("done-list");
-  if(!box)return;
-  const items=Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).sort((a,b)=>String(b[1].lastStudiedAt||b[1].doneAt||"").localeCompare(String(a[1].lastStudiedAt||a[1].doneAt||""))).slice(0,10);
-  if(!items.length){box.innerHTML="<p>Chưa có bài nào đã nhớ. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
-  box.innerHTML="<ul>"+items.map(([s,l])=>{const m=window.SDSC_LESSONS[s];return "<li><a href=\""+SDSC_HOME_BASE+"/"+s+"/\">"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</a>, đã nhớ ngày "+escapeHtml(fmtDate(l.doneAt||l.lastStudiedAt||""))+"</li>";}).join("")+"</ul>";
-}
-function renderRecent(){
-  const p=getProgress();
-  const box=document.getElementById("recent-list");
-  if(!box)return;
-  const evs=(p.history||[]).filter(h=>h&&h.slug&&window.SDSC_LESSONS[h.slug]).slice(-5).reverse();
-  if(!evs.length){box.innerHTML="<p>Chưa có hoạt động nào. Làm thử 1 câu luyện ở bất kỳ bài nào nhé.</p>";return;}
-  const label={done:"Đã nhớ bài",undone:"Bỏ đánh dấu bài",practice:"Luyện câu ở bài",review:"Ôn lại bài","self-grade":"Tự đánh giá bài",import:"Nhập tiến độ",reset:"Đặt lại tiến độ"};
-  box.innerHTML="<ul>"+evs.map(h=>{const m=window.SDSC_LESSONS[h.slug];const extra=h.action==="practice"?(h.correct?", đúng":", chưa đúng"):(h.grade?", mức "+({kho:"Khó",vua:"Vừa",de:"Dễ"}[h.grade]||h.grade):(h.skill?", bằng "+(SKILL_LABEL[h.skill]||h.skill):""));return "<li>"+escapeHtml(label[h.action]||h.action)+" <a href=\""+SDSC_HOME_BASE+"/"+h.slug+"/\">"+escapeHtml(m.code)+"</a>"+extra+" ("+escapeHtml(fmtDate(h.date||""))+ ")"+"</li>";}).join("")+"</ul>";
-}
-function longestStreak(dates){
-  if(!dates||!dates.length)return 0;
-  const set=new Set(dates.filter(isValidDateStr));
-  let best=0;
-  set.forEach(d=>{
-    if(!set.has(addDays(d,-1))){
-      let n=1,cur=d;
-      while(set.has(addDays(cur,1))){cur=addDays(cur,1);n++;}
-      if(n>best)best=n;
-    }
-  });
-  return best;
-}
-function renderStats(){
-  const p=getProgress();
-  const box=document.getElementById("stats-list");
-  if(!box)return;
-  const done=progressDoneCount();
-  const prac=Object.values(p.practice||{});
-  const acc=prac.length?Math.round(100*prac.filter(v=>v&&v.correct).length/prac.length):0;
-  const reviews=Object.values(p.lessons||{}).reduce((a,l)=>a+(l&&l.reviews||0),0);
-  const lastDates=Object.values(p.lessons||{}).map(l=>l&&(l.lastStudiedAt||l.doneAt||"")).filter(isValidDateStr).sort();
-  const last=lastDates.length?fmtDate(lastDates[lastDates.length-1]):"chưa có";
-  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
-  box.innerHTML="<ul><li>Điểm kinh nghiệm: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b></li><li>Bài đã nhớ: <b>"+done+" / "+window.SDSC_TOTAL_LESSONS+"</b></li><li>Tỉ lệ luyện đúng: <b>"+acc+"%</b> ("+prac.filter(v=>v&&v.correct).length+" / "+prac.length+" câu)</li><li>Số lần ôn lại: <b>"+reviews+"</b></li><li>Chuỗi ngày học dài nhất: <b>"+longestStreak(p.streak.dates||[])+" ngày</b> (chuỗi hiện tại: "+(p.streak.count||0)+" ngày)</li><li>Ngày học gần nhất: <b>"+escapeHtml(last)+"</b></li></ul>";
-}
-function renderExportUI(){
-  const msg=document.getElementById("import-msg");
-  const showMsg=(t,ok)=>{if(msg){msg.textContent=t;msg.style.color=ok?"var(--green)":"var(--red)";}};
-  const exp=document.getElementById("btn-export");
-  if(exp&&!exp.dataset.wired){exp.dataset.wired="1";exp.addEventListener("click",()=>{if(exportProgress())showMsg("Đã tải file tiến độ. Cất file này cẩn thận, đổi máy thì nhập lại nhé.",true);else showMsg("Không tạo được file tiến độ, thử lại nhé.",false);});}
-  const file=document.getElementById("import-file");
-  const imp=document.getElementById("btn-import");
-  if(imp&&!imp.dataset.wired){imp.dataset.wired="1";imp.addEventListener("click",()=>{if(file)file.click();});}
-  if(file&&!file.dataset.wired){file.dataset.wired="1";file.addEventListener("change",()=>{
-    const f=file.files&&file.files[0];if(!f)return;
-    if(f.size>1024*1024){showMsg("File quá lớn (hơn 1 MB). Có thể đây không phải file tiến độ.",false);file.value="";return;}
-    const modeEl=document.querySelector('input[name="import-mode"]:checked');
-    const mode=modeEl?modeEl.value:"merge";
-    if(mode==="overwrite"){
-      const p=getProgress();
-      const dc=Object.values(p.lessons||{}).filter(l=>l&&l.done).length;
-      const pc=Object.keys(p.practice||{}).length;
-      if(!confirm("Ghi đè sẽ xóa "+dc+" bài đã nhớ, "+pc+" câu luyện và chuỗi "+(p.streak.count||0)+" ngày hiện tại. Tiếp tục?")){file.value="";return;}
-    }
-    const reader=new FileReader();
-    reader.onload=()=>{const res=importProgressText(String(reader.result||""),mode);if(res.ok){showMsg(res.message,true);renderAll();}else{showMsg(res.error,false);}file.value="";};
-    reader.onerror=()=>{showMsg("Không đọc được file, thử lại nhé.",false);file.value="";};
-    reader.readAsText(f);
-  });}
-}
 function renderAll(){
-  safeRender(renderProgress);safeRender(renderToday);safeRender(renderMissions);safeRender(renderContinue);safeRender(renderPathPreview);safeRender(renderMagazine);safeRender(renderReview);
-  safeRender(renderDoneList);safeRender(renderRecent);safeRender(renderStats);safeRender(renderExportUI);
+  safeRender(renderProgress);safeRender(renderToday);safeRender(renderMissions);safeRender(renderContinue);safeRender(renderReview);
 }
 window.__sdscRenderProgress=renderAll;
 renderAll();
@@ -4640,6 +4648,7 @@ function applyFilters(){
   if(countEl)countEl.textContent=n?(fQ?("Tìm thấy "+n+" bài cho '"+fQ+"'"):("Đang xem "+n+" bài")):"Không thấy bài nào khớp. Thử từ khác nhé.";
   const emptyEl=document.getElementById("empty");
   if(emptyEl)emptyEl.style.display=n?"none":"block";
+  if(typeof renderLatest==="function"){try{renderLatest(scored,fQ);}catch(e){}}
   syncURL();
 }
 function syncURL(){
@@ -4671,17 +4680,18 @@ function renderChips(){
 }
 let view="cards";
 function syncView(){
-  document.getElementById("cards").style.display=view==="cards"?"grid":"none";
-  document.getElementById("tableWrap").style.display=view==="table"?"block":"none";
-  document.getElementById("btnCards").classList.toggle("on",view==="cards");
-  document.getElementById("btnTable").classList.toggle("on",view==="table");
+  const c=document.getElementById("cards");if(c)c.style.display=view==="cards"?"grid":"none";
+  const t=document.getElementById("tableWrap");if(t)t.style.display=view==="table"?"block":"none";
+  const bc=document.getElementById("btnCards");if(bc)bc.classList.toggle("on",view==="cards");
+  const bt=document.getElementById("btnTable");if(bt)bt.classList.toggle("on",view==="table");
 }
-document.getElementById("search").addEventListener("input",e=>{
+const searchEl=document.getElementById("search");
+if(searchEl)searchEl.addEventListener("input",e=>{
   clearTimeout(debounceTimer);
   debounceTimer=setTimeout(()=>{fQ=e.target.value.trim();applyFilters();},150);
 });
-document.getElementById("btnCards").addEventListener("click",()=>{view="cards";syncView();});
-document.getElementById("btnTable").addEventListener("click",()=>{view="table";syncView();});
+const bc0=document.getElementById("btnCards");if(bc0)bc0.addEventListener("click",()=>{view="cards";syncView();});
+const bt0=document.getElementById("btnTable");if(bt0)bt0.addEventListener("click",()=>{view="table";syncView();});
 const pathSel=document.getElementById("pathFilter");
 if(pathSel)pathSel.addEventListener("change",()=>{fPath=pathSel.value;applyFilters();});
 const statusSel=document.getElementById("statusFilter");
@@ -5140,12 +5150,7 @@ def data_script(visible, paths):
 def render_index(data):
     site = data["site"]
     visible = visible_lessons(data)
-    paths = site["paths"]
-    paths_map = paths_for_lessons(data)
     ask_url = site.get("ask_url") or site["facebook_page"]
-    path_options = "".join(
-        f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in paths
-    )
     body = f"""
 {header_html(site)}
 <main class="appwrap">
@@ -5155,11 +5160,11 @@ def render_index(data):
     <p class="msub">Mở trang bằng trình duyệt có JavaScript để học nhé.</p>
   </section>
   <div class="tiles">
-    <div class="tile"><div class="num" id="tile-streak-num">…</div><div class="lbl">Chuỗi ngày học</div></div>
+    <div class="tile"><div class="num" id="tile-streak-num">…</div><div class="lbl">Chuỗi ngày</div></div>
     <div class="tile"><div class="num" id="tile-done-num">…</div><div class="lbl">Bài đã nhớ</div></div>
     <div class="tile"><div class="num" id="tile-due-num">…</div><div class="lbl">Đến hạn ôn</div></div>
   </div>
-  <a class="strip" href="{BASE_PATH}/bang-lo-trinh/"><span id="strip-text">Đang tải tiến độ…</span> <span class="go">Xem lộ trình →</span></a>
+  <a class="strip" href="{BASE_PATH}/lo-trinh/hoc-lai-tu-dau/"><span class="strip-row"><span id="strip-text">Đang tải tiến độ…</span> <span class="go">→</span></span><span class="stripbar"><i id="strip-bar"></i></span></a>
   <section class="missions" id="missions-box">
     <div class="mhead"><h2>Nhiệm vụ hôm nay</h2></div>
     <p>Đang tải…</p>
@@ -5173,14 +5178,6 @@ def render_index(data):
     <div class="rows" id="continue-box"><p>Đang tải…</p></div>
   </section>
   <section>
-    <h2>Lộ trình của bạn</h2>
-    <div id="path-preview"><p>Đang tải…</p></div>
-  </section>
-  <section id="magazine-section">
-    <h2>Bài mới nhất</h2>
-    <div id="magazine-box"><p>Đang tải…</p></div>
-  </section>
-  <section>
     <h2>Công cụ học</h2>
     <div class="tools">
       <a class="tool" href="{BASE_PATH}/tu-dien/">{ICON["search"]}<div><b>Từ điển</b><span>Nghĩa tiếng Việt lên đầu</span></div></a>
@@ -5191,74 +5188,25 @@ def render_index(data):
       <a class="tool" href="{BASE_PATH}/thu-vien-chu-de/">{ICON["cap"]}<div><b>Thư viện chủ đề</b><span>Mọi bài gom theo chủ đề</span></div></a>
     </div>
   </section>
-  <section>
+  <section id="review-section">
     <h2 id="on-homnay">Ôn hôm nay <small>Những bài đã đến hạn ôn theo lịch riêng của bạn</small></h2>
     <div class="review-grid" id="review-grid"></div>
     <div class="empty" id="review-empty" style="display:none">Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</div>
   </section>
-  <section class="done-list">
-    <h2>Bài đã hoàn thành</h2>
-    <div id="done-list"><p>Đang tải…</p></div>
-  </section>
-  <section class="recent-list">
-    <h2>Hoạt động gần đây</h2>
-    <div id="recent-list"><p>Đang tải…</p></div>
-  </section>
-  <section class="stats-list">
-    <h2>Thống kê quá trình học</h2>
-    <div id="stats-list"><p>Đang tải…</p></div>
-    <p>Luyện tập toàn trang: <span class="practice-site-num"></span></p>
-    <p>{ICON["bookmark"]} Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất.</p>
-    <div class="import-row">
-      <button type="button" class="btn btn-ghost" id="btn-export">Tải dữ liệu tiến độ (.json)</button>
-      <button type="button" class="btn btn-ghost" id="btn-import">Nhập dữ liệu đã lưu</button>
-      <input type="file" id="import-file" accept=".json,application/json" hidden>
-      <label><input type="radio" name="import-mode" value="merge" checked> Gộp (mới hơn thắng)</label>
-      <label><input type="radio" name="import-mode" value="overwrite"> Ghi đè</label>
-      <p id="import-msg"></p>
-    </div>
-  </section>
   <section>
     <div class="cta-row">
-      <a class="btn btn-navy" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group làm bài tập</a>
-      <a class="btn btn-primary" href="{esc(ask_url)}" target="_blank" rel="noopener">{ICON["mail"]} Gửi câu của bạn để được sửa</a>
+      <a class="btn btn-navy btn-compact" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group</a>
+      <a class="btn btn-primary btn-compact" href="{esc(ask_url)}" target="_blank" rel="noopener">{ICON["mail"]} Gửi câu để được sửa</a>
     </div>
   </section>
   <section id="tra-cuu">
     <h2>Tra cứu mọi bài học</h2>
-    <div class="toolbar">
+    <form class="toolbar" action="{BASE_PATH}/thu-vien-bai-hoc/" method="get">
       <label class="sr-only" for="search">Tìm bài học</label>
-      <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
-      <div class="chips" id="topicChips"></div>
-      <div class="chips">
-        <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
-        <span class="viewtoggle">
-          <button id="btnCards" class="on" type="button">Thẻ</button>
-          <button id="btnTable" type="button">Bảng</button>
-        </span>
-      </div>
-      <div class="filter-row">
-        <label for="pathFilter">Lộ trình:</label>
-        <select id="pathFilter"><option value="Tất cả">Tất cả</option>{path_options}</select>
-        <label for="statusFilter">Trạng thái:</label>
-        <select id="statusFilter"><option value="all">Tất cả</option><option value="todo">Chưa học</option><option value="done">Đã nhớ</option><option value="due">Đến hạn ôn</option></select>
-        <label for="sortFilter">Sắp xếp:</label>
-        <select id="sortFilter"><option value="newest">Mới nhất</option><option value="oldest">Cũ nhất</option><option value="az">A đến Z</option></select>
-      </div>
-    </div>
-    <p id="count"></p>
-    <div id="cards" class="grid">
-      {''.join(card_html(l, paths_map.get(l["slug"], [])) for l in visible)}
-    </div>
-    <div id="empty" class="empty" style="display:none">Không thấy bài nào khớp. Thử từ khác nhé.</div>
-    <div id="tableWrap" class="tablewrap" style="display:none">
-      <table>
-        <thead><tr><th>Bài</th><th>Câu sai</th><th>Câu đúng</th><th>Giải thích</th><th>Chủ đề</th></tr></thead>
-        <tbody id="tbody">
-          {''.join(table_row_html(l, paths_map.get(l["slug"], [])) for l in visible)}
-        </tbody>
-      </table>
-    </div>
+      <input id="search" name="q" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable" autocomplete="off">
+    </form>
+    <div class="rows" id="latest-box"><p>Đang tải…</p></div>
+    <a class="pathlink" id="latest-link" href="{BASE_PATH}/thu-vien-bai-hoc/">Xem tất cả bài →</a>
   </section>
 </main>
 {footer_html(site)}
@@ -5347,7 +5295,7 @@ def render_dashboard(data):
   <section>
     <h2>Bảng lộ trình</h2>
     {tiles}
-    <p class="note">Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất. Muốn giữ lại thì về <a href="{BASE_PATH}/">trang chủ</a>, bấm Tải dữ liệu tiến độ (.json) để lưu ra máy.</p>
+    <p class="note">Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất. Muốn giữ lại thì bấm Tải dữ liệu tiến độ (.json) ở cuối trang này để lưu ra máy.</p>
   </section>
   <section>
     <h2>Tiến độ từng lộ trình</h2>
@@ -5365,6 +5313,27 @@ def render_dashboard(data):
     <h2>Cộng đồng</h2>
     <p>Đua top tuần này cùng mọi người học: bảng XP tuần, chuỗi ngày, điểm nói tốt nhất tuần, thử thách tuần.</p>
     <p><a class="btn btn-primary" href="{BASE_PATH}/cong-dong/">Xem bảng Cộng đồng →</a></p>
+  </section>
+  <section class="done-list">
+    <h2>Bài đã hoàn thành</h2>
+    <div id="done-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="recent-list">
+    <h2>Hoạt động gần đây</h2>
+    <div id="recent-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="stats-list">
+    <h2>Thống kê quá trình học</h2>
+    <div id="stats-list"><p>Đang tải…</p></div>
+    <p>Luyện tập toàn trang: <span class="practice-site-num"></span></p>
+    <div class="import-row">
+      <button type="button" class="btn btn-ghost" id="btn-export">Tải dữ liệu tiến độ (.json)</button>
+      <button type="button" class="btn btn-ghost" id="btn-import">Nhập dữ liệu đã lưu</button>
+      <input type="file" id="import-file" accept=".json,application/json" hidden>
+      <label><input type="radio" name="import-mode" value="merge" checked> Gộp (mới hơn thắng)</label>
+      <label><input type="radio" name="import-mode" value="overwrite"> Ghi đè</label>
+      <p id="import-msg"></p>
+    </div>
   </section>
 </main>
 {footer_html(site)}
@@ -5426,6 +5395,70 @@ def render_library(data):
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=LIB_JS,
+        active="",
+    )
+
+
+def render_browse(data):
+    site = data["site"]
+    visible = visible_lessons(data)
+    paths = site["paths"]
+    paths_map = paths_for_lessons(data)
+    ask_url = site.get("ask_url") or site["facebook_page"]
+    path_options = "".join(
+        f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in paths
+    )
+    body = f"""
+{header_html(site)}
+<main class="wrap">
+  <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Trang chủ</a></p>
+  <section id="tra-cuu">
+    <h2>Tra cứu mọi bài học</h2>
+    <div class="toolbar">
+      <label class="sr-only" for="search">Tìm bài học</label>
+      <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
+      <div class="chips" id="topicChips"></div>
+      <div class="chips">
+        <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
+        <span class="viewtoggle">
+          <button id="btnCards" class="on" type="button">Thẻ</button>
+          <button id="btnTable" type="button">Bảng</button>
+        </span>
+      </div>
+      <div class="filter-row">
+        <label for="pathFilter">Lộ trình:</label>
+        <select id="pathFilter"><option value="Tất cả">Tất cả</option>{path_options}</select>
+        <label for="statusFilter">Trạng thái:</label>
+        <select id="statusFilter"><option value="all">Tất cả</option><option value="todo">Chưa học</option><option value="done">Đã nhớ</option><option value="due">Đến hạn ôn</option></select>
+        <label for="sortFilter">Sắp xếp:</label>
+        <select id="sortFilter"><option value="newest">Mới nhất</option><option value="oldest">Cũ nhất</option><option value="az">A đến Z</option></select>
+      </div>
+    </div>
+    <p id="count"></p>
+    <div id="cards" class="grid">
+      {''.join(card_html(l, paths_map.get(l["slug"], [])) for l in visible)}
+    </div>
+    <div id="empty" class="empty" style="display:none">Không thấy bài nào khớp. Thử từ khác nhé.</div>
+    <div id="tableWrap" class="tablewrap" style="display:none">
+      <table>
+        <thead><tr><th>Bài</th><th>Câu sai</th><th>Câu đúng</th><th>Giải thích</th><th>Chủ đề</th></tr></thead>
+        <tbody id="tbody">
+          {''.join(table_row_html(l, paths_map.get(l["slug"], [])) for l in visible)}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+{footer_html(site)}
+"""
+    index_filter_js = INDEX_FILTER_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
+    return page_shell(
+        "Tra cứu mọi bài học | Kho bài học Sai Đâu Sửa Đó",
+        "Tra cứu mọi bài học: tìm theo lỗi mình hay mắc, lọc theo chủ đề, loại bài, lộ trình và trạng thái đã nhớ.",
+        SITE_URL + "/thu-vien-bai-hoc/",
+        SITE_URL + "/images/loi-001.jpg",
+        body,
+        extra_js=index_filter_js,
         active="",
     )
 
@@ -6802,7 +6835,7 @@ def write_sitemap_robots(data):
     urls = [SITE_URL + "/"] + [f"{SITE_URL}/{l['slug']}/" for l in visible]
     urls += [f"{SITE_URL}/lo-trinh/{p['slug']}/" for p in data["site"]["paths"]]
     urls += [SITE_URL + "/tu-dien/", SITE_URL + "/bang-lo-trinh/",
-             SITE_URL + "/thu-vien-chu-de/", SITE_URL + "/luyen-noi/"]
+             SITE_URL + "/thu-vien-chu-de/", SITE_URL + "/thu-vien-bai-hoc/", SITE_URL + "/luyen-noi/"]
     # API mở (19/11): chỉ thêm đường dẫn mới, không đổi đường dẫn cũ.
     urls += [SITE_URL + "/api/", SITE_URL + "/api/v1/meta.json",
              SITE_URL + "/api/v1/lessons.json", SITE_URL + "/api/v1/dictionary.json"]
@@ -6861,7 +6894,7 @@ def main():
             print("gỡ ảnh cũ:", f.name)
 
     # remove stale lesson dirs (e.g. reel-001/ from phase 1)
-    keep_dirs = vis_slugs | {"tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "luyen-noi",
+    keep_dirs = vis_slugs | {"tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "thu-vien-bai-hoc", "luyen-noi",
                              "luyen-nghe", "luyen-viet", "luyen-doc", "cong-dong", "api"}
     for d in list(ROOT.iterdir()):
         if d.is_dir() and (d / "index.html").exists() and d.name not in keep_dirs:
@@ -6900,6 +6933,7 @@ def main():
     for slug, html in (("tu-dien", render_dict(data)),
                        ("bang-lo-trinh", render_dashboard(data)),
                        ("thu-vien-chu-de", render_library(data)),
+                       ("thu-vien-bai-hoc", render_browse(data)),
                        ("luyen-noi", render_speak(data)),
                        ("luyen-nghe", render_listen(data)),
                        ("luyen-viet", render_write(data)),

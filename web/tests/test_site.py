@@ -210,7 +210,7 @@ class TestContent(unittest.TestCase):
 
 class TestNewPages(unittest.TestCase):
     """Trang mới kiểu app PeakFour: từ điển, bảng lộ trình, thư viện chủ đề, luyện nói."""
-    NEW_PAGES = ("tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "luyen-noi")
+    NEW_PAGES = ("tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "thu-vien-bai-hoc", "luyen-noi")
 
     def test_new_pages_exist(self):
         for slug in self.NEW_PAGES:

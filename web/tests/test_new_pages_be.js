@@ -269,8 +269,30 @@ const tick = () => new Promise(r => setTimeout(r, 0));
     const toolHrefs = [...doc.querySelectorAll('.tools .tool')].map(a => a.getAttribute('href'));
     ok(toolHrefs.includes('/sai-dau-sua-do/luyen-nghe/') && toolHrefs.includes('/sai-dau-sua-do/luyen-viet/') && toolHrefs.includes('/sai-dau-sua-do/luyen-doc/'), 'N57 lưới Công cụ có đủ Nghe, Viết, Đọc', toolHrefs);
     ok(!!doc.querySelector('#tra-cuu'), 'N58 mục Tra cứu luôn hiện cuối trang chủ');
-    ok(!!doc.querySelector('#search') && !!doc.querySelector('#count') && !!doc.querySelector('#cards'), 'N59 Tra cứu giữ đủ id tìm kiếm cũ');
-    ok(!!doc.querySelector('.practice-site-num'), 'N60 trang chủ giữ span số câu luyện tập toàn trang');
+    ok(!!doc.querySelector('#search') && !!doc.querySelector('#latest-box') && !!doc.querySelector('#latest-link'), 'N59 Tra cứu gọn trên trang chủ giữ ô tìm kiếm và 3 bài mới nhất');
+  }
+
+  // ---------- Trang thư viện bài học: toàn bộ bộ lọc cũ chuyển sang đây ----------
+  {
+    const { dom, jsErrors } = loadPage('thu-vien-bai-hoc/index.html');
+    const { window } = dom;
+    const doc = window.document;
+    ok(jsErrors.length === 0, 'N59a trang thư viện bài học không lỗi JS', jsErrors.slice(0, 2));
+    const ids = ['#search', '#topicChips', '#typeChips', '#btnCards', '#btnTable', '#pathFilter', '#statusFilter', '#sortFilter', '#count', '#cards', '#empty', '#tableWrap', '#tbody'];
+    ok(ids.every(id => !!doc.querySelector(id)), 'N59b thư viện giữ đủ id tìm kiếm cũ', ids.filter(id => !doc.querySelector(id)));
+    ok(doc.querySelectorAll('#cards .card').length >= 58, 'N59c thư viện hiện đủ thẻ bài', doc.querySelectorAll('#cards .card').length);
+    ok(!!doc.querySelector('a[href="/sai-dau-sua-do/"]'), 'N59d thư viện có link về trang chủ');
+  }
+
+  // ---------- Trang Tôi: mục thống kê và xuất nhập dữ liệu chuyển sang đây ----------
+  {
+    const { dom, jsErrors } = loadPage('bang-lo-trinh/index.html');
+    const { window } = dom;
+    const doc = window.document;
+    ok(jsErrors.length === 0, 'N60a trang Tôi không lỗi JS', jsErrors.slice(0, 2));
+    ok(!!doc.querySelector('.practice-site-num'), 'N60 trang Tôi giữ span số câu luyện tập toàn trang');
+    ok(!!doc.querySelector('#done-list') && !!doc.querySelector('#recent-list') && !!doc.querySelector('#stats-list'), 'N60b trang Tôi có đủ 3 mục đã hoàn thành, hoạt động, thống kê');
+    ok(!!doc.querySelector('#btn-export') && !!doc.querySelector('#btn-import'), 'N60c trang Tôi có nút tải và nhập dữ liệu tiến độ');
   }
 
   // ---------- XP khởi tạo: bài đã nhớ được 20 XP mỗi bài ----------

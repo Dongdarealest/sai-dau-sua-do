@@ -274,9 +274,10 @@ function dumpStorage(win) {
 ok(jsErrors.length === 0, 'Z0 không có lỗi JS khi tải trang (jsdomError/console.error)', jsErrors.slice(0, 3));
 
 (async () => {
-  // E6: lọc "muon" qua ?q= sau khi chỉ mục tìm kiếm nạp xong (nạp lười).
+  // E6: lọc "muon" qua ?q= trên trang thư viện bài học (bộ lọc đã chuyển
+  // sang đây từ trang chủ) sau khi chỉ mục tìm kiếm nạp xong (nạp lười).
   {
-    const domQ = loadPage('index.html', null, '?q=muon');
+    const domQ = loadPage('thu-vien-bai-hoc/index.html', null, '?q=muon');
     await new Promise(r => setTimeout(r, 100));
     const input = domQ.window.document.querySelector('#search');
     if (input) {
