@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="/sai-dau-sua-do/styles.css">
 <noscript><style>.wstep{display:block!important}.wiz-bottom{display:none}#view-tracuu{display:block!important}.wiz-progress{display:none}</style></noscript>
 </head>
-<body class="has-nav">
+<body class="home has-nav">
 
 
 <header class="appbar">
@@ -34,9 +34,9 @@
     <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
   </div>
 </header>
-<main class="appwrap">
+<main class="appwrap home">
   <section class="hero" id="hero-box">
-    <p class="eyebrow">BÀI HÔM NAY</p>
+    <p class="eyebrow">Bài hôm nay</p>
     <h1>Đang tải…</h1>
     <p class="msub">Mở trang bằng trình duyệt có JavaScript để học nhé.</p>
   </section>
@@ -54,11 +54,11 @@
     <h3>Đua top tuần này</h3>
     <p>Đang tải…</p>
   </section>
-  <section>
+  <section class="sec-continue">
     <h2>Học tiếp</h2>
     <div class="rows" id="continue-box"><p>Đang tải…</p></div>
   </section>
-  <section>
+  <section class="sec-tools">
     <h2>Công cụ học</h2>
     <div class="tools">
       <a class="tool" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><div><b>Từ điển</b><span>Nghĩa tiếng Việt lên đầu</span></div></a>
@@ -66,7 +66,7 @@
       <a class="tool" href="/sai-dau-sua-do/luyen-nghe/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg><div><b>Luyện nghe</b><span>Nghe và bắt lỗi</span></div></a>
       <a class="tool" href="/sai-dau-sua-do/luyen-viet/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg><div><b>Luyện viết</b><span>Viết lại câu sai thành đúng</span></div></a>
       <a class="tool" href="/sai-dau-sua-do/luyen-doc/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><div><b>Luyện đọc</b><span>Đọc và săn lỗi</span></div></a>
-      <a class="tool" href="/sai-dau-sua-do/thu-vien-chu-de/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg><div><b>Thư viện chủ đề</b><span>Mọi bài gom theo chủ đề</span></div></a>
+      <a class="tool" href="/sai-dau-sua-do/thu-vien-chu-de/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg><div><b><span class="tool-full">Thư viện chủ đề</span><span class="tool-short">Chủ đề</span></b><span>Mọi bài gom theo chủ đề</span></div></a>
     </div>
   </section>
   <section id="review-section">
@@ -74,7 +74,7 @@
     <div class="review-grid" id="review-grid"></div>
     <div class="empty" id="review-empty" style="display:none">Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</div>
   </section>
-  <section>
+  <section class="sec-cta">
     <div class="cta-row">
       <a class="btn btn-navy btn-compact" href="https://www.facebook.com/groups/4387154551501983" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Vào Group</a>
       <a class="btn btn-primary btn-compact" href="https://www.facebook.com/groups/4387154551501983/posts/4390417267842378" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg> Gửi câu để được sửa</a>
@@ -84,7 +84,7 @@
     <h2>Tra cứu mọi bài học</h2>
     <form class="toolbar" action="/sai-dau-sua-do/thu-vien-bai-hoc/" method="get">
       <label class="sr-only" for="search">Tìm bài học</label>
-      <input id="search" name="q" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable" autocomplete="off">
+      <input id="search" name="q" type="search" placeholder="Tìm lỗi, ví dụ: borrow" autocomplete="off">
     </form>
     <div class="rows" id="latest-box"><p>Đang tải…</p></div>
     <a class="pathlink" id="latest-link" href="/sai-dau-sua-do/thu-vien-bai-hoc/">Xem tất cả bài →</a>
@@ -98,7 +98,7 @@
   </div>
 </footer>
 
-<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem on" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Luyện nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
+<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap"><a class="navitem on" href="/sai-dau-sua-do/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span>Học</span></a><a class="navitem" href="/sai-dau-sua-do/lo-trinh/hoc-lai-tu-dau/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></svg><span>Lộ trình</span></a><a class="navitem" href="/sai-dau-sua-do/tu-dien/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>Từ điển</span></a><a class="navitem" href="/sai-dau-sua-do/luyen-noi/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg><span class="nav-full">Luyện nói</span><span class="nav-short">Nói</span></a><a class="navitem" href="/sai-dau-sua-do/bang-lo-trinh/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Tôi</span></a></div></nav>
 <script src="/sai-dau-sua-do/data.js"></script><script src="/sai-dau-sua-do/app.js"></script>
 <script>
 window.SDSC_TOTAL_LESSONS = 59;
@@ -149,11 +149,11 @@ function renderToday(){
   if(!box)return;
   const next=heroLesson();
   if(!next){
-    box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi</h1><p class=\"msub\">Giỏi quá! Hôm nay ôn lại nhé.</p><a class=\"btn btn-primary btn-hero\" href=\"#on-homnay\">Ôn hôm nay</a>";
+    box.innerHTML="<p class=\"eyebrow\">Bài hôm nay</p><h1>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi</h1><p class=\"msub\">Giỏi quá. Hôm nay ôn lại nhé.</p><a class=\"btn btn-primary btn-hero\" href=\"#on-homnay\">Ôn hôm nay</a>";
     return;
   }
   const l=window.SDSC_LESSONS[next];
-  if(!l){box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Chưa tải được bài tiếp theo</h1><p class=\"msub\">Thử tải lại trang nhé.</p>";return;}
+  if(!l){box.innerHTML="<p class=\"eyebrow\">Bài hôm nay</p><h1>Chưa tải được bài tiếp theo</h1><p class=\"msub\">Thử tải lại trang nhé.</p>";return;}
   const isQuiz=l.type==="Quiz";
   const wrongHtml=isQuiz
     ? "<p class=\"wrong\">"+escapeHtml(l.quiz_q||l.why)+"</p>"
@@ -162,7 +162,7 @@ function renderToday(){
     ? "<p class=\"right\">Làm quiz để xem đáp án</p>"
     : "<p class=\"right\">✓ "+escapeHtml(l.right)+"</p>";
   const meta="3 phút • "+(l.steps||7)+" bước"+(l.has_ipa?" • Có nghe phát âm":"");
-  box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY • "+escapeHtml(l.topic)+"</p>"
+  box.innerHTML="<p class=\"eyebrow\">Bài hôm nay • "+escapeHtml(l.topic)+"</p>"
     +"<h1>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h1>"
     +wrongHtml+rightHtml
     +"<a class=\"btn btn-primary btn-hero\" href=\""+SDSC_HOME_BASE+"/"+next+"/\" onclick=\"sessionSet('sdsc-path','hoc-lai-tu-dau')\">Học ngay</a>"
@@ -737,12 +737,13 @@ renderChips();syncView();applyFilters();
       maybeSync();
     });
   }
+  var HEART_ICON='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.04 3 5.5l7 7Z"/></svg>';
   function heartBtn(board,r){
     var hearts=loadHearts();
     var key=weekMonday+":"+board+":"+r.account_id;
     var on=hearts.indexOf(key)>=0;
     var n=r.cheers||0;
-    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-id=\""+escapeHtml(r.account_id)+"\">"+(on?"♥ ":"♡ ")+n+"</button>";
+    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-id=\""+escapeHtml(r.account_id)+"\">"+HEART_ICON+" "+n+"</button>";
   }
   function onCheer(btn){
     var auth=loadAuth();
@@ -778,8 +779,7 @@ renderChips();syncView();applyFilters();
     var rows=data.entries||[];
     if(!rows.length)html+="<p class=\"comm-note\">Chưa có ai trên bảng này.</p>";
     rows.slice(0,10).forEach(function(r,i){
-      var medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
-      html+="<div class=\"comm-row\"><span class=\"rank\">"+(r.rank||i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+medal+" "+escapeHtml(r.display_name)+" (Cấp "+(r.level||1)+")</span></span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(apiBoard,r)+"</div>";
+      html+="<div class=\"comm-row\"><span class=\"rank"+(i===0?" rank-1":"")+"\">"+(r.rank||i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+escapeHtml(r.display_name)+" (Cấp "+(r.level||1)+")</span></span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(apiBoard,r)+"</div>";
     });
     if(auth){
       var me=data.me;
@@ -825,7 +825,7 @@ renderChips();syncView();applyFilters();
   function renderStats(){
     var el=document.getElementById("comm-stats");
     if(!el)return;
-    if(!stats){el.textContent=boardsLoaded?"Chưa tải được thống kê.":"Đang tải thống kê…";return;}
+    if(!stats){el.textContent=!boardsLoaded?"Đang tải thống kê…":(boardsFailed?"":"Chưa tải được thống kê.");return;}
     el.textContent="Đã có "+stats.accounts+" người đăng kí, "+stats.active_week+" người học trong tuần này.";
   }
   function renderAuth(){
