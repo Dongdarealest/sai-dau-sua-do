@@ -54,6 +54,7 @@ ICON = {
     "bookmark": _svg('<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'),
     "headphones": _svg('<path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>'),
     "pen": _svg('<path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/>'),
+    "heart": _svg('<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.04 3 5.5l7 7Z"/>'),
 }
 
 
@@ -94,8 +95,8 @@ CSS = """
 @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(/sai-dau-sua-do/fonts/inter-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
 @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(/sai-dau-sua-do/fonts/inter-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
 @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(/sai-dau-sua-do/fonts/inter-700-vietnamese.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;}
-:root{--navy:#173F5F;--navy-bg:#173F5F;--navy-btn:#173F5F;--mint:#DCEFEA;--orange:#F26B38;--ink:#1A202C;--sub:#2D3748;--bg:#F6F8F7;--card:#fff;--bar:#EDF2F7;--red-bg:#FDECEA;--red:#C0392B;--line:#E2E8F0;--green:#276749;--green-btn:#276749;--green-bg:#C6F6D5;--amber-bg:#FEFCBF;--amber:#744210}
-[data-theme="dark"]{--navy:#8FC3E8;--navy-btn:#4A90C2;--navy-bg:#0F2A42;--mint:#17382F;--ink:#E8EEF4;--sub:#A9BCD0;--bg:#0E1B2A;--card:#16283F;--bar:#1C2F45;--red-bg:#3D1F1C;--red:#FF9D8A;--line:#2C4258;--green:#7FD8A8;--green-bg:#14332A;--amber-bg:#3A2E12;--amber:#F6C453}
+:root{--navy:#173F5F;--navy-bg:#173F5F;--navy-btn:#173F5F;--mint:#DCEFEA;--orange:#F26B38;--orange-ink:#C7441A;--orange-btn:#C7441A;--orange-deep:#A83414;--ink:#1A202C;--sub:#2D3748;--bg:#F6F8F7;--card:#fff;--bar:#EDF2F7;--red-bg:#FDECEA;--red:#C0392B;--line:#E2E8F0;--green:#276749;--green-btn:#276749;--green-bg:#C6F6D5;--amber-bg:#FEFCBF;--amber:#744210}
+[data-theme="dark"]{--navy:#8FC3E8;--navy-btn:#4A90C2;--navy-bg:#0F2A42;--mint:#17382F;--ink:#E8EEF4;--sub:#A9BCD0;--bg:#0E1B2A;--card:#16283F;--bar:#1C2F45;--red-bg:#3D1F1C;--red:#FF9D8A;--line:#2C4258;--green:#7FD8A8;--green-bg:#14332A;--amber-bg:#3A2E12;--amber:#F6C453;--orange-ink:#FF9A6B;--orange-btn:#C7441A;--orange-deep:#FF9A6B}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"Be Vietnam Pro","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
 a{color:var(--navy)}
@@ -105,7 +106,7 @@ section{margin:16px 0}
 h2{font-size:22px;margin-bottom:12px}
 h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .btn{display:inline-block;border-radius:14px;padding:16px 24px;min-height:48px;font-size:17px;font-weight:700;text-decoration:none;text-align:center;cursor:pointer;border:2px solid transparent}
-.btn-primary{background:var(--orange);color:#fff}
+.btn-primary{background:var(--orange-btn);color:#fff}
 .btn-navy{background:var(--navy-btn);color:#fff}
 .btn-ghost{background:var(--card);color:var(--navy);border-color:var(--navy)}
 .btn-block{display:block;width:100%}
@@ -119,20 +120,20 @@ h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--sub);font-size:16px}
 .cta-row{display:grid;gap:12px;grid-template-columns:1fr 1fr}
 .toolbar{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
-#search{width:100%;padding:13px 15px;font-size:16px;border:2px solid var(--line);border-radius:12px;outline:none;background:var(--card);color:var(--ink)}
+#search{width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--line);border-radius:12px;outline:none;background:var(--card);color:var(--ink)}
 #search:focus{border-color:var(--navy)}
 input::placeholder{color:var(--sub);opacity:1}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .filter-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .filter-row select{padding:12px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-size:16px;min-height:48px}
 .filter-row label{font-size:16px;font-weight:700}
-.wo-chip{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:10px 16px;min-height:48px;font-size:16px;cursor:pointer;margin:4px}
+.wo-chip{border:2px solid var(--line);background:var(--card);border-radius:10px;padding:10px 16px;min-height:48px;font-size:16px;cursor:pointer;margin:4px}
 .wo-chip:disabled{opacity:.45;cursor:default}
 .wo-chip.picked{background:var(--mint);border-color:var(--navy)}
 .wo-picked{min-height:56px;border:2px dashed var(--line);border-radius:12px;padding:8px;margin:10px 0}
 .wo-empty{color:var(--sub);font-size:16px}
 .wo-answer{font-size:16px;font-weight:700;color:var(--navy);margin-top:10px}
-.selfgrade{border:2px solid var(--line);background:var(--card);border-radius:12px;padding:13px 16px;min-height:48px;font-size:16px;cursor:pointer;flex:1}
+.selfgrade{border:2px solid var(--line);background:var(--card);border-radius:12px;padding:12px 16px;min-height:48px;font-size:16px;cursor:pointer;flex:1}
 .selfgrade.on{background:var(--navy-btn);color:#fff;border-color:var(--navy-btn)}
 .selfgrade-row{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
 .done-list ul,.recent-list ul,.stats-list ul{list-style:none;display:grid;gap:8px}
@@ -141,10 +142,10 @@ input::placeholder{color:var(--sub);opacity:1}
 .import-row label{font-size:16px}
 #import-msg{font-size:16px;width:100%}
 .chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.chip{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;min-height:48px;font-size:16px;cursor:pointer;display:inline-flex;align-items:center}
+.chip{border:1.5px solid var(--line);background:var(--card);border-radius:10px;padding:8px 14px;min-height:48px;font-size:16px;cursor:pointer;display:inline-flex;align-items:center}
 .chip.on{background:var(--navy-btn);color:#fff;border-color:var(--navy-btn)}
-.viewtoggle{margin-left:auto;display:flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden}
-.viewtoggle button{border:0;background:var(--card);padding:8px 15px;min-height:48px;font-size:16px;cursor:pointer}
+.viewtoggle{margin-left:auto;display:flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
+.viewtoggle button{border:0;background:var(--card);padding:8px 16px;min-height:48px;font-size:16px;cursor:pointer}
 .viewtoggle button.on{background:var(--navy-btn);color:#fff}
 #count{color:var(--sub);font-size:16px;margin:4px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
@@ -153,16 +154,16 @@ input::placeholder{color:var(--sub);opacity:1}
 .card h3 a{color:var(--ink);text-decoration:none}
 .card h3 a:hover{color:var(--navy);text-decoration:underline}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
-.tag{font-size:16px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--bar);color:var(--sub);white-space:nowrap}
+.tag{font-size:16px;font-weight:700;border-radius:8px;padding:4px 10px;background:var(--bar);color:var(--sub);white-space:nowrap}
 .tag.topic{background:var(--mint);color:var(--navy)}
 .box{border-radius:12px;padding:12px 14px;margin:10px 0}
-.box small{display:block;font-size:16px;font-weight:700;letter-spacing:.04em;margin-bottom:2px}
+.box small{display:block;font-size:16px;font-weight:700;margin-bottom:2px}
 .box.wrong{background:var(--red-bg);color:var(--red)}
 .box.right{background:var(--mint);color:var(--navy)}
 .box p{font-size:17px;font-weight:600}
 .explain{font-size:16px}
 .explain b{color:var(--navy)}
-.example{font-size:16px;color:var(--sub);background:var(--bg);border-radius:12px;padding:11px 13px;white-space:pre-line}
+.example{font-size:16px;color:var(--sub);background:var(--bg);border-radius:12px;padding:12px 12px;white-space:pre-line}
 .ipa{font-size:16px;color:var(--sub)}
 .ipa b{color:var(--navy)}
 .meta{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:4px}
@@ -170,17 +171,17 @@ input::placeholder{color:var(--sub);opacity:1}
 .meta a{font-size:16px;font-weight:700;text-decoration:none;white-space:nowrap}
 .meta a:hover{text-decoration:underline}
 table{width:100%;border-collapse:collapse;background:var(--card);font-size:16px}
-th,td{border-bottom:1px solid var(--line);padding:11px 12px;text-align:left;vertical-align:top}
-th{background:var(--navy-btn);color:#fff;font-size:16px;letter-spacing:.03em}
+th,td{border-bottom:1px solid var(--line);padding:12px 12px;text-align:left;vertical-align:top}
+th{background:var(--navy-btn);color:#fff;font-size:16px}
 tr:last-child td{border-bottom:0}
 td .wrong{color:var(--red);font-weight:600}
 td .right{color:var(--navy);font-weight:600}
 .tablewrap{overflow-x:auto;border-radius:14px;border:1px solid var(--line);margin-bottom:8px;background:var(--card)}
-.listen{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--navy);background:var(--card);color:var(--navy);border-radius:999px;padding:7px 13px;min-height:48px;min-width:48px;justify-content:center;font-size:16px;font-weight:700;cursor:pointer;margin-left:8px;vertical-align:middle}
+.listen{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--navy);background:var(--card);color:var(--navy);border-radius:10px;padding:8px 12px;min-height:48px;min-width:48px;justify-content:center;font-size:16px;font-weight:700;cursor:pointer;margin-left:8px;vertical-align:middle}
 .listen:hover{background:var(--navy-btn);color:#fff}
-.listen.playing{background:var(--orange);border-color:var(--orange);color:#fff}
+.listen.playing{background:var(--orange-btn);border-color:var(--orange-btn);color:#fff}
 .dicts{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
-.dicts a{font-size:16px;font-weight:700;text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:6px 13px;min-height:48px;display:inline-flex;align-items:center;background:var(--card)}
+.dicts a{font-size:16px;font-weight:700;text-decoration:none;border:1.5px solid var(--line);border-radius:10px;padding:6px 12px;min-height:48px;display:inline-flex;align-items:center;background:var(--card)}
 .dicts a:hover{border-color:var(--navy)}
 .ask{font-size:19px;margin:16px 0 4px}
 .origin{margin:24px 0 4px;border-top:2px solid var(--line);padding-top:16px}
@@ -188,17 +189,17 @@ td .right{color:var(--navy);font-weight:600}
 .originimg{max-width:320px;width:100%;border-radius:12px;border:1px solid var(--line);display:block;margin:10px 0}
 .step{margin:18px 0}
 .step h3{font-size:18px;margin-bottom:8px}
-.step h3 span{color:var(--orange)}
+.step h3 span{color:var(--orange-ink)}
 .remember{background:var(--amber-bg);border:2px solid var(--amber);border-radius:14px;padding:16px 18px;margin:18px 0}
 .remember b{color:var(--amber);font-size:17px}
 .grade{background:var(--card);border:2px solid var(--navy);border-radius:14px;padding:18px;margin:14px 0}
 .grade h3{font-size:18px;margin-bottom:4px}
 .grade .q{font-size:17px;font-weight:700;margin:8px 0 12px}
-.grade .prompt{font-size:16px;background:var(--bg);border-radius:10px;padding:11px 13px;margin-bottom:12px}
+.grade .prompt{font-size:16px;background:var(--bg);border-radius:10px;padding:12px 12px;margin-bottom:12px}
 .opts{display:grid;gap:10px}
-.opt{display:flex;gap:10px;align-items:center;text-align:left;border:2px solid var(--line);background:var(--card);border-radius:12px;padding:13px 15px;min-height:48px;font-size:16px;cursor:pointer;width:100%}
+.opt{display:flex;gap:10px;align-items:center;text-align:left;border:2px solid var(--line);background:var(--card);border-radius:12px;padding:12px 16px;min-height:48px;font-size:16px;cursor:pointer;width:100%}
 .opt:hover{border-color:var(--navy)}
-.opt .letter{font-weight:900;background:var(--bg);border-radius:8px;width:30px;height:30px;flex:none;display:flex;align-items:center;justify-content:center}
+.opt .letter{font-weight:700;background:var(--bg);border-radius:8px;width:30px;height:30px;flex:none;display:flex;align-items:center;justify-content:center}
 .opt.correct{border-color:var(--green);background:var(--green-bg)}
 .opt.wrong-pick{border-color:var(--red);background:var(--red-bg)}
 .opt:disabled{cursor:default;opacity:.92}
@@ -206,10 +207,10 @@ td .right{color:var(--navy);font-weight:600}
 .grade-result.good{background:var(--green-bg);color:var(--green)}
 .grade-result.bad{background:var(--red-bg);color:var(--red)}
 .grade-result b{display:block;font-size:17px;margin-bottom:2px}
-.grade-retry{margin-top:10px;border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:8px 16px;min-height:48px;font-size:16px;cursor:pointer}
+.grade-retry{margin-top:10px;border:1.5px solid var(--line);background:var(--card);border-radius:10px;padding:8px 16px;min-height:48px;font-size:16px;cursor:pointer}
 .practice-score{font-size:16px;font-weight:700;color:var(--navy);margin-top:6px}
 .pagenav{display:flex;justify-content:space-between;gap:12px;margin:16px 0 8px}
-.pagenav a{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 15px;text-decoration:none;font-size:16px;flex:1}
+.pagenav a{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 16px;text-decoration:none;font-size:16px;flex:1}
 .pagenav a:hover{border-color:var(--navy)}
 .pagenav .next{text-align:right}
 .pagenav small{display:block;color:var(--sub);font-size:16px}
@@ -217,7 +218,7 @@ td .right{color:var(--navy);font-weight:600}
 .path-list{display:grid;gap:12px}
 .path-item{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;gap:14px;align-items:center;text-decoration:none;color:var(--ink)}
 .path-item:hover{border-color:var(--navy)}
-.path-item .n{font-size:24px;font-weight:900;color:var(--navy);flex:none;width:36px;height:36px;border-radius:50%;background:var(--mint);display:flex;align-items:center;justify-content:center}
+.path-item .n{font-size:24px;font-weight:700;color:var(--navy);flex:none;width:36px;height:36px;border-radius:50%;background:var(--mint);display:flex;align-items:center;justify-content:center}
 .path-item.done .n{background:var(--green-bg);color:var(--green)}
 .path-item h3{font-size:18px}
 .path-item p{font-size:16px;color:var(--sub)}
@@ -230,9 +231,9 @@ footer a{color:#fff;font-weight:700}
 .theme-toggle .ic{width:22px;height:22px}
 .wiz-progress{display:flex;align-items:center;gap:12px;margin:18px 0 4px}
 .wiz-bar{flex:1;height:10px;background:var(--bar);border-radius:999px;overflow:hidden}
-.wiz-bar i{display:block;height:100%;background:var(--orange);width:0%;border-radius:999px;transition:width .35s ease}
+.wiz-bar i{display:block;height:100%;background:var(--orange);width:0%;border-radius:999px;transition:width .35s cubic-bezier(0.22,1,0.36,1)}
 .wiz-progress span{font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
-.wstep{animation:fadein .25s ease}
+.wstep{animation:fadein .25s cubic-bezier(0.22,1,0.36,1)}
 @keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .wiz-bottom{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--card);border-top:1.5px solid var(--line);padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px))}
 .wiz-bottom-inner{display:flex;gap:10px;align-items:center}
@@ -240,12 +241,12 @@ footer a{color:#fff;font-weight:700}
 #wizPrev{flex:0 0 auto}
 #wizNext{flex:1}
 .has-wiz main{padding-bottom:120px}
-.grade-result{animation:pop .25s ease}
-.grade-result.bad{animation:shake .3s ease}
+.grade-result{animation:pop .25s cubic-bezier(0.22,1,0.36,1)}
+.grade-result.bad{animation:shake .3s cubic-bezier(0.22,1,0.36,1)}
 @keyframes pop{from{transform:scale(.97);opacity:.5}to{transform:scale(1);opacity:1}}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
-.opt.correct::after{content:" ✓";color:var(--green);font-weight:900;margin-left:auto}
-.opt.wrong-pick::after{content:" ✗";color:var(--red);font-weight:900;margin-left:auto}
+.opt.correct::after{content:" ✓";color:var(--green);font-weight:700;margin-left:auto}
+.opt.wrong-pick::after{content:" ✗";color:var(--red);font-weight:700;margin-left:auto}
 .grade-result.good b::before{content:"✓ "}
 .grade-result.bad b::before{content:"✗ "}
 .complete{background:var(--card);border:2px solid var(--navy);border-radius:16px;padding:28px 20px;text-align:center;margin:18px 0}
@@ -267,9 +268,9 @@ footer a{color:#fff;font-weight:700}
   .pagenav{flex-direction:column}
   .opening p{font-size:18px}
 }
-.stat-tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
+.stat-tiles{display:grid;gap:12px;grid-auto-flow:column;grid-auto-columns:180px;overflow-x:auto;padding-bottom:4px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
-.tile .num{font-size:32px;font-weight:900;color:var(--navy);line-height:1.2}
+.tile .num{font-size:32px;font-weight:700;color:var(--navy);line-height:1.2}
 .tile .lbl{font-size:16px;color:var(--sub);margin-top:4px}
 .tile .sub2{font-size:16px;margin-top:8px}
 .note{background:var(--mint);border:2px solid var(--navy);border-radius:14px;padding:14px 16px;font-size:16px;margin:14px 0}
@@ -281,11 +282,11 @@ footer a{color:#fff;font-weight:700}
 .chunk-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:center}
 .chunk-actions .btn{flex:1;min-width:140px}
 .dict-search{display:flex;gap:10px;flex-wrap:wrap}
-.dict-search input{flex:1;min-width:200px;padding:13px 15px;font-size:16px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.dict-search input{flex:1;min-width:200px;padding:12px 16px;font-size:16px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
 .dict-search input:focus{border-color:var(--navy);outline:none}
 .dict-pos{font-size:18px;font-weight:700;color:var(--navy);margin:14px 0 6px}
 .dict-def{font-size:16px;margin:6px 0}
-.dict-ex{font-size:16px;color:var(--sub);background:var(--bg);border-radius:10px;padding:9px 12px;margin:4px 0 10px}
+.dict-ex{font-size:16px;color:var(--sub);background:var(--bg);border-radius:10px;padding:8px 12px;margin:4px 0 10px}
 .dict-sec{font-size:18px;font-weight:700;color:var(--navy);margin:18px 0 4px;border-top:1px solid var(--line);padding-top:14px}
 .dict-word{font-size:28px}
 .dict-phon{margin:6px 0;overflow-wrap:anywhere}
@@ -296,9 +297,9 @@ footer a{color:#fff;font-weight:700}
 .dict-tag{font-size:16px;color:var(--sub);margin:8px 0}
 .dict-src{font-size:16px;margin-top:16px}
 .dict-src-small{font-size:16px;color:var(--sub);margin-top:6px}
-.audio-btn{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--navy);background:var(--card);color:var(--navy);border-radius:999px;padding:7px 13px;min-height:48px;font-size:16px;font-weight:700;cursor:pointer;margin:4px 6px 4px 0}
+.audio-btn{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--navy);background:var(--card);color:var(--navy);border-radius:10px;padding:8px 12px;min-height:48px;font-size:16px;font-weight:700;cursor:pointer;margin:4px 6px 4px 0}
 .audio-btn:hover{background:var(--navy-btn);color:#fff}
-.speak-score{font-size:40px;font-weight:900;line-height:1.1}
+.speak-score{font-size:40px;font-weight:700;line-height:1.1}
 .speak-score.good{color:var(--green)}
 .speak-score.mid{color:var(--amber)}
 .speak-score.low{color:var(--red)}
@@ -324,14 +325,14 @@ body.has-nav{padding-bottom:96px}
 .appname small{display:block;font-size:16px;font-weight:400;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:480px){.appname small{display:none}}
 .pills{margin-left:auto;display:flex;gap:8px;flex:none}
-.pill{display:inline-flex;align-items:center;gap:5px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:5px 11px;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:4px;background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:4px 12px;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
 .pill .ic{width:16px;height:16px}
 @media(max-width:419px){.pill-word{display:none}}
 .appbar .theme-toggle{width:44px;height:44px;border:1.5px solid var(--line);background:var(--card);color:var(--navy)}
 .appbar .theme-toggle .ic{width:22px;height:22px}
 .hero{background:var(--navy-bg);border-radius:24px;padding:14px 16px;margin-top:14px;color:#fff}
-.hero .eyebrow{color:var(--orange);font-weight:900;font-size:16px;letter-spacing:.06em}
-.hero h1{font-size:22px;line-height:1.25;font-weight:900;margin:6px 0 8px;color:#fff}
+.hero .eyebrow{color:#DCEFEA;font-weight:700;font-size:16px}
+.hero h1{font-size:22px;line-height:1.25;font-weight:700;margin:6px 0 8px;color:#fff}
 .hero .wrong{color:#FFB4A8;font-size:16px}
 .hero .wrong s{text-decoration-color:var(--orange);text-decoration-thickness:2px}
 .hero .right{color:#DCEFEA;font-size:16px;font-weight:700;margin-top:2px}
@@ -341,37 +342,37 @@ body.has-nav{padding-bottom:96px}
 .msub2{font-size:16px;color:var(--sub);line-height:1.5;margin:6px 0}
 .tiles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
 .tiles .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 8px;text-align:center}
-.tiles .tile .num{font-size:24px;font-weight:900;color:var(--navy);line-height:1.1}
+.tiles .tile .num{font-size:24px;font-weight:700;color:var(--navy);line-height:1.1}
 .tiles .tile .lbl{font-size:16px;color:var(--sub);margin-top:4px}
 .strip{display:block;background:var(--mint);border-radius:14px;padding:10px 14px;font-size:16px;color:var(--navy);margin-top:12px;text-decoration:none}
-.strip b{font-weight:900}
-.strip .go{color:var(--orange);font-weight:900;white-space:nowrap}
+.strip b{font-weight:700}
+.strip .go{color:var(--orange-deep);font-weight:700;white-space:nowrap}
 .strip-row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
 .stripbar{display:block;height:6px;background:var(--bg);border-radius:999px;overflow:hidden;margin-top:8px}
 .stripbar i{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}
 .missions{background:var(--card);border:1.5px solid var(--orange);border-radius:20px;padding:14px 16px;margin-top:0}
 .missions .mhead{display:flex;align-items:center;gap:8px}
 .missions h2{margin:0;font-size:20px}
-.xppill{margin-left:auto;display:inline-flex;align-items:center;gap:5px;background:var(--amber-bg);border:1.5px solid #F6C453;border-radius:999px;padding:5px 11px;font-size:16px;font-weight:900;color:var(--amber);white-space:nowrap}
+.xppill{margin-left:auto;display:inline-flex;align-items:center;gap:4px;background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:4px 12px;font-size:16px;font-weight:700;color:var(--sub);white-space:nowrap}
 .xpbar{height:8px;background:var(--bar);border-radius:999px;overflow:hidden;margin-top:12px}
 .xpbar i{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}
 .xpmeta{font-size:16px;color:var(--sub);margin-top:6px}
 .mrow{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--bar)}
 .mrow.first{margin-top:8px}
-.mcheck{width:32px;height:32px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px}
+.mcheck{width:32px;height:32px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
 .mcheck.done{background:var(--mint);color:var(--navy)}
 .mcheck.half{background:var(--amber-bg);color:var(--amber)}
 .mcheck.todo{background:var(--card);border:2px solid var(--line);color:var(--sub)}
 .mrow h3{font-size:16px}
 .mrow p{font-size:16px;color:var(--sub)}
-.mrow .xp{margin-left:auto;font-size:16px;font-weight:900;color:var(--orange);white-space:nowrap}
+.mrow .xp{margin-left:auto;font-size:16px;font-weight:700;color:var(--orange-ink);white-space:nowrap}
 .mreward{font-size:16px;color:var(--sub);margin-top:8px;background:var(--bg);border-radius:12px;padding:8px 12px}
 .mreward b{color:var(--navy)}
 .rows{display:grid;gap:10px}
 .row{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
-.row .dot{width:36px;height:36px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px}
+.row .dot{width:36px;height:36px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
 .dot.done{background:var(--mint);color:var(--navy)}
-.dot.now{background:var(--orange);color:#fff}
+.dot.now{background:var(--orange-btn);color:#fff}
 .dot.next{background:var(--bar);color:var(--sub)}
 .row h3{font-size:16px}
 .row p{font-size:16px;color:var(--sub)}
@@ -388,24 +389,24 @@ body.has-nav{padding-bottom:96px}
 .path{position:relative;margin-top:4px;padding-left:6px}
 .path::before{content:"";position:absolute;left:27px;top:24px;bottom:24px;border-left:2px dashed var(--line)}
 .pnode{display:flex;gap:14px;align-items:flex-start;padding:12px 0;position:relative}
-.pdot{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px;background:var(--card);border:2px solid var(--line);z-index:1}
+.pdot{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:17px;background:var(--card);border:2px solid var(--line);z-index:1}
 .pdot.done{background:var(--mint);border-color:var(--mint);color:var(--navy)}
-.pdot.now{background:var(--orange);border-color:var(--orange);color:#fff}
+.pdot.now{background:var(--orange-btn);border-color:var(--orange-btn);color:#fff}
 .pnode h3{font-size:16px}
 .pnode p{font-size:16px;color:var(--sub)}
 .pnode .go{margin-left:auto;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
-.pathlink{display:block;text-align:center;font-size:16px;font-weight:700;color:var(--orange);margin-top:6px}
+.pathlink{display:block;text-align:center;font-size:16px;font-weight:700;color:var(--orange-ink);margin-top:6px}
 .bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--card);border-top:1.5px solid var(--line)}
 .bottomnav .appwrap{display:flex}
 .navitem{flex:1 1 0;min-width:0;min-height:56px;text-align:center;padding:8px 2px calc(8px + env(safe-area-inset-bottom,0px));font-size:16px;font-weight:700;color:var(--sub);text-decoration:none;line-height:1.2}
 .navitem .ic{width:22px;height:22px;display:block;margin:0 auto 2px}
-.navitem.on{color:var(--orange)}
+.navitem.on{color:var(--orange-ink)}
 .topbar{position:sticky;top:0;z-index:60;background:var(--card);border-bottom:1.5px solid var(--line)}
 .topbar .appwrap{display:flex;align-items:center;gap:10px;height:56px}
 .topbar .back{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;font-size:20px}
-.topbar .title{flex:1;min-width:0;font-weight:900;font-size:17px;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.xphint{text-align:center;font-size:16px;color:var(--amber);background:var(--amber-bg);border:1.5px solid #F6C453;border-radius:12px;padding:10px 12px;margin-top:14px}
-.xphint b{color:var(--amber)}
+.topbar .title{flex:1;min-width:0;font-weight:700;font-size:17px;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.xphint{text-align:center;font-size:16px;color:var(--sub);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;margin-top:14px}
+.xphint b{color:var(--navy)}
 .feat{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:12px}
 .feat img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
 .feat .body{padding:16px}
@@ -413,7 +414,7 @@ body.has-nav{padding-bottom:96px}
 .feat h3{font-size:20px;margin-bottom:6px}
 .feat h3 a{color:var(--ink);text-decoration:none}
 .feat .msub{text-align:left;color:var(--sub);margin-top:0}
-.feat .go{display:inline-block;margin-top:10px;font-size:16px;font-weight:700;color:var(--orange);text-decoration:none}
+.feat .go{display:inline-block;margin-top:10px;font-size:16px;font-weight:700;color:var(--orange-ink);text-decoration:none}
 /* ---- Luyện nói v2, 19/11: 3 hàng thẻ chọn câu, chấm theo từng từ, 3 lượt mỗi buổi ---- */
 .speak-intro{font-size:16px;margin:10px 0 14px}
 .speak-card{background:var(--card);border:2px solid var(--navy);border-radius:16px;padding:18px 16px;margin-top:14px}
@@ -448,7 +449,7 @@ body.has-nav{padding-bottom:96px}
 .speak-sentence .en{font-size:18px;font-weight:700;line-height:1.4}
 .speak-sentence .vi{font-size:16px;color:var(--sub);margin-top:4px}
 .speak-sentence .meta2{font-size:16px;color:var(--sub);margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.speak-sentence .lvl{background:var(--mint);color:var(--navy);border-radius:999px;padding:2px 10px;font-weight:700}
+.speak-sentence .lvl{background:var(--mint);color:var(--navy);border-radius:8px;padding:2px 10px;font-weight:700}
 .speak-sentence .done-mark{color:var(--green);font-weight:700}
 .speak-sentence .last-score{color:var(--navy);font-weight:700}
 .speak-limit{font-size:16px;color:var(--sub);margin-top:18px}
@@ -461,7 +462,7 @@ body.has-nav{padding-bottom:96px}
 .skill-mode.on{border-color:var(--orange)}
 .skill-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
 .skill-card h3{font-size:19px;margin:0 0 8px}
-.skill-round{font-size:16px;font-weight:800;color:var(--orange);margin:0 0 10px}
+.skill-round{font-size:16px;font-weight:800;color:var(--orange-ink);margin:0 0 10px}
 .skill-sentence{font-size:20px;font-weight:700;line-height:1.5;margin:8px 0}
 .skill-vi{font-size:17px;color:var(--sub);margin:6px 0}
 .skill-source{font-size:16px;color:var(--sub);margin:6px 0}
@@ -494,18 +495,42 @@ body.has-nav{padding-bottom:96px}
 .comm-row{display:flex;justify-content:space-between;gap:8px;padding:8px 4px;border-bottom:1px solid var(--line);font-size:17px;align-items:center}
 .comm-row:last-child{border-bottom:0}
 .comm-row.me{background:var(--mint);border-radius:10px;padding:10px}
-.comm-row .rank{font-weight:900;min-width:24px}
+.comm-row .rank{font-weight:700;min-width:28px;width:28px;height:28px;border-radius:50%;background:var(--mint);color:var(--navy);display:inline-flex;align-items:center;justify-content:center;flex:none;border:1.5px solid var(--line)}
 .comm-row .name{flex:1;min-width:0;overflow:hidden}
 .comm-who{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .comm-row .pts{font-weight:800;white-space:nowrap}
-.comm-badge{display:inline-block;background:var(--orange);color:#fff;border-radius:999px;padding:2px 10px;font-size:16px;font-weight:800;margin-left:6px;white-space:nowrap}
+.comm-badge{display:inline-block;background:var(--orange-btn);color:#fff;border-radius:8px;padding:2px 10px;font-size:16px;font-weight:800;margin-left:6px;white-space:nowrap}
 .comm-progress{height:14px;background:var(--mint);border-radius:999px;overflow:hidden;margin:8px 0}
 .comm-progress i{display:block;height:100%;background:var(--orange)}
 .comm-note{font-size:16px;color:var(--sub)}
 .comm-form label{display:block;font-size:16px;font-weight:700;margin:12px 0 4px}
 .comm-form input{width:100%;font-size:18px;padding:12px;border:2px solid var(--line);border-radius:12px}
-.comm-heart{border:2px solid var(--line);background:#fff;border-radius:999px;padding:6px 10px;font-size:16px;cursor:pointer;flex:none;white-space:nowrap}
+.comm-heart{display:inline-flex;align-items:center;gap:4px;border:2px solid var(--line);background:#fff;border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer;flex:none;white-space:nowrap}
 .comm-heart.on{border-color:var(--red);color:var(--red)}
+/* ---- Unslop 19/11: nhan ngan tren dien thoai, 2 cot trang chu, the cuon ngang ---- */
+body{display:flex;flex-direction:column;min-height:100vh;min-height:100dvh}
+main{flex:1 0 auto;width:100%}
+.navitem .nav-full,.navitem .nav-short{display:block}
+.navitem .nav-short{display:none}
+.tool-short{display:none}
+@media(max-width:419px){
+  .navitem .nav-full{display:none}
+  .navitem .nav-short{display:block}
+  .tool-full{display:none}
+  .tool-short{display:inline}
+}
+@media(max-width:560px){
+  .cta-row .btn-primary{background:transparent;color:var(--navy);border-color:transparent;text-decoration:underline}
+}
+@media(min-width:1024px){
+  .stat-tiles{grid-auto-flow:row;grid-template-columns:repeat(6,1fr);overflow:visible;padding-bottom:0}
+  body.home .appbar .appwrap,body.home .bottomnav .appwrap{max-width:1080px}
+  main.home{max-width:1080px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:0 20px;align-items:start}
+  main.home .hero,main.home .tiles,main.home .strip,main.home .missions,main.home .sec-continue,main.home #review-section,main.home #tra-cuu{grid-column:1}
+  main.home #comm-teaser,main.home .sec-tools,main.home .sec-cta{grid-column:2}
+}
+.comm-row .rank.rank-1{background:var(--navy-btn);border-color:var(--navy-btn);color:#fff}
+.comm-heart.on .ic{fill:currentColor}
 """
 
 
@@ -2139,7 +2164,7 @@ DICT_JS = r"""
   function renderRecent(){
     if(!recentBox)return;
     const r=loadRecent();
-    if(!r.length){recentBox.innerHTML="<p>Từ đã tra gần đây: Chưa tra từ nào. Gõ 1 từ tiếng Anh ở trên nhé.</p>";return;}
+    if(!r.length){recentBox.innerHTML="<p>Chưa tra từ nào. Gõ 1 từ tiếng Anh ở trên nhé.</p>";return;}
     recentBox.innerHTML="<p>Từ đã tra gần đây: "+r.map(w=>"<button type=\"button\" class=\"dict-chip\" data-word=\""+escapeHtml(w)+"\">"+escapeHtml(w)+"</button>").join(" ")+"</p>";
     bindChips(recentBox);
   }
@@ -2414,7 +2439,7 @@ function renderDashboard(){
       const d=order.filter(s=>{const L=p.lessons[s];return L&&L.done;}).length;
       const pct=order.length?Math.round(100*d/order.length):0;
       const next=order.find(s=>{const L=p.lessons[s];return !(L&&L.done);});
-      const nextHtml=next?("<p>Bài tiếp theo: <a href=\""+BASE_PATH_PLACEHOLDER+"/"+next+"/\">"+escapeHtml((window.SDSC_LESSONS[next]||{}).code||"")+" "+escapeHtml((window.SDSC_LESSONS[next]||{}).title||"")+"</a></p>"):("<p>Đã xong lộ trình này rồi. Giỏi quá!</p>");
+      const nextHtml=next?("<p>Bài tiếp theo: <a href=\""+BASE_PATH_PLACEHOLDER+"/"+next+"/\">"+escapeHtml((window.SDSC_LESSONS[next]||{}).code||"")+" "+escapeHtml((window.SDSC_LESSONS[next]||{}).title||"")+"</a></p>"):("<p>Đã xong lộ trình này rồi. Giỏi quá.</p>");
       return "<div class=\"progress\"><h3>"+escapeHtml(pathNames[slug]||slug)+"</h3><div class=\"bar\"><i style=\"width:"+pct+"%\"></i></div><p>"+d+" / "+order.length+" bài đã nhớ ("+pct+"%)</p>"+nextHtml+"</div>";
     }).join("");
   }
@@ -2424,7 +2449,7 @@ function renderDashboard(){
   const nx=document.getElementById("dash-next");
   if(nx){
     if(next){const l=window.SDSC_LESSONS[next];nx.innerHTML="<p><b>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</b><br>"+escapeHtml(l.why)+"</p><a class=\"btn btn-primary btn-block\" href=\""+BASE_PATH_PLACEHOLDER+"/"+next+"/\">Học bài này</a>";}
-    else{nx.innerHTML="<p>Bạn đã học hết "+total+" bài rồi. Giỏi quá! Hôm nay ôn lại nhé.</p><a class=\"btn btn-navy\" href=\""+BASE_PATH_PLACEHOLDER+"/thu-vien-chu-de/\">Ôn trong Thư viện chủ đề</a>";}
+    else{nx.innerHTML="<p>Bạn đã học hết "+total+" bài rồi. Giỏi quá. Hôm nay ôn lại nhé.</p><a class=\"btn btn-navy\" href=\""+BASE_PATH_PLACEHOLDER+"/thu-vien-chu-de/\">Ôn trong Thư viện chủ đề</a>";}
   }
   const today=todayISO();
   const due=[];
@@ -2679,7 +2704,7 @@ SPEAK_JS = r"""
     if(coloredBox)coloredBox.innerHTML=sdscColoredSentence(cur.en,r.marks);
     if(heardBox)heardBox.innerHTML="Máy nghe được: <b>"+escapeHtml(heard)+"</b>";
     let band="", cls="mid";
-    if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá!";cls="good";}
+    if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá.";cls="good";}
     else if(r.pct>=70){band="Khá lắm, còn vài từ chưa rõ. Nghe lại câu mẫu rồi nói lại nhé.";cls="mid";}
     else if(r.pct>=50){band="Máy nghe được một nửa. Đọc chậm lại, nhấn rõ từng từ nhé.";cls="mid";}
     else{band="Máy chưa nghe rõ. Thử lại nhé, nói chậm và gần micro hơn.";cls="low";}
@@ -3665,12 +3690,13 @@ COMM_JS = r"""
       maybeSync();
     });
   }
+  var HEART_ICON='__HEART_SVG__';
   function heartBtn(board,r){
     var hearts=loadHearts();
     var key=weekMonday+":"+board+":"+r.account_id;
     var on=hearts.indexOf(key)>=0;
     var n=r.cheers||0;
-    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-id=\""+escapeHtml(r.account_id)+"\">"+(on?"♥ ":"♡ ")+n+"</button>";
+    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-id=\""+escapeHtml(r.account_id)+"\">"+HEART_ICON+" "+n+"</button>";
   }
   function onCheer(btn){
     var auth=loadAuth();
@@ -3706,8 +3732,7 @@ COMM_JS = r"""
     var rows=data.entries||[];
     if(!rows.length)html+="<p class=\"comm-note\">Chưa có ai trên bảng này.</p>";
     rows.slice(0,10).forEach(function(r,i){
-      var medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
-      html+="<div class=\"comm-row\"><span class=\"rank\">"+(r.rank||i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+medal+" "+escapeHtml(r.display_name)+" (Cấp "+(r.level||1)+")</span></span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(apiBoard,r)+"</div>";
+      html+="<div class=\"comm-row\"><span class=\"rank"+(i===0?" rank-1":"")+"\">"+(r.rank||i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+escapeHtml(r.display_name)+" (Cấp "+(r.level||1)+")</span></span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(apiBoard,r)+"</div>";
     });
     if(auth){
       var me=data.me;
@@ -3753,7 +3778,7 @@ COMM_JS = r"""
   function renderStats(){
     var el=document.getElementById("comm-stats");
     if(!el)return;
-    if(!stats){el.textContent=boardsLoaded?"Chưa tải được thống kê.":"Đang tải thống kê…";return;}
+    if(!stats){el.textContent=!boardsLoaded?"Đang tải thống kê…":(boardsFailed?"":"Chưa tải được thống kê.");return;}
     el.textContent="Đã có "+stats.accounts+" người đăng kí, "+stats.active_week+" người học trong tuần này.";
   }
   function renderAuth(){
@@ -4055,7 +4080,7 @@ def right_box(lesson):
     note = lesson.get("right_note", "")
     note_html = f'<br><span style="font-size:16px;font-weight:400">{esc(note)}</span>' if note else ""
     return (
-        f'<div class="box right"><small>✓ CÂU ĐÚNG</small>'
+        f'<div class="box right"><small>✓ Câu đúng</small>'
         f'<p>{esc(lesson["right"])}{listen_btn(lesson["right"])}{note_html}</p></div>'
     )
 
@@ -4067,7 +4092,7 @@ def wrong_box(lesson):
         note = ""
     note_html = f'<br><span style="font-size:16px;font-weight:400">{esc(note)}</span>' if note else ""
     return (
-        f'<div class="box wrong"><small>✗ CÂU SAI</small>'
+        f'<div class="box wrong"><small>✗ Câu sai</small>'
         f'<p>{esc(lesson["wrong"])}{note_html}</p></div>'
     )
 
@@ -4136,7 +4161,7 @@ def dicts_reel_html(lesson):
 def completion_step(lesson):
     code = lesson["code"]
     if lesson["type"] == "Lỗi":
-        heading = "Bạn đã sửa " + code + "!"
+        heading = "Bạn đã sửa " + code
     elif lesson["type"] == "Quiz":
         heading = "Bạn đã làm xong " + code + "!"
     else:
@@ -4405,11 +4430,11 @@ function renderToday(){
   if(!box)return;
   const next=heroLesson();
   if(!next){
-    box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi</h1><p class=\"msub\">Giỏi quá! Hôm nay ôn lại nhé.</p><a class=\"btn btn-primary btn-hero\" href=\"#on-homnay\">Ôn hôm nay</a>";
+    box.innerHTML="<p class=\"eyebrow\">Bài hôm nay</p><h1>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi</h1><p class=\"msub\">Giỏi quá. Hôm nay ôn lại nhé.</p><a class=\"btn btn-primary btn-hero\" href=\"#on-homnay\">Ôn hôm nay</a>";
     return;
   }
   const l=window.SDSC_LESSONS[next];
-  if(!l){box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Chưa tải được bài tiếp theo</h1><p class=\"msub\">Thử tải lại trang nhé.</p>";return;}
+  if(!l){box.innerHTML="<p class=\"eyebrow\">Bài hôm nay</p><h1>Chưa tải được bài tiếp theo</h1><p class=\"msub\">Thử tải lại trang nhé.</p>";return;}
   const isQuiz=l.type==="Quiz";
   const wrongHtml=isQuiz
     ? "<p class=\"wrong\">"+escapeHtml(l.quiz_q||l.why)+"</p>"
@@ -4418,7 +4443,7 @@ function renderToday(){
     ? "<p class=\"right\">Làm quiz để xem đáp án</p>"
     : "<p class=\"right\">✓ "+escapeHtml(l.right)+"</p>";
   const meta="3 phút • "+(l.steps||7)+" bước"+(l.has_ipa?" • Có nghe phát âm":"");
-  box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY • "+escapeHtml(l.topic)+"</p>"
+  box.innerHTML="<p class=\"eyebrow\">Bài hôm nay • "+escapeHtml(l.topic)+"</p>"
     +"<h1>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h1>"
     +wrongHtml+rightHtml
     +"<a class=\"btn btn-primary btn-hero\" href=\""+SDSC_HOME_BASE+"/"+next+"/\" onclick=\"sessionSet('sdsc-path','hoc-lai-tu-dau')\">Học ngay</a>"
@@ -4777,7 +4802,7 @@ function renderCompleteSummary(){
   });
   let html="<p>Kết quả luyện của bài này: <b>"+t.right+" / "+t.total+" câu đúng</b> ("+t.done+" đã làm).</p>";
   if(wrong.length){html+="<p>Câu còn sai, ôn lại nhé:</p><ul>"+wrong.map(w=>"<li>"+escapeHtml(w)+"</li>").join("")+"</ul>";}
-  else if(t.done>0){html+="<p>Không còn câu sai trong bài này. Giỏi quá!</p>";}
+  else if(t.done>0){html+="<p>Không còn câu sai trong bài này. Giỏi quá.</p>";}
   const r=p.review[SLUG];
   if(r&&isValidDateStr(r.nextDue)){html+="<p>Bài này sẽ đến hạn ôn vào ngày <b>"+escapeHtml(fmtDate(r.nextDue))+"</b>. Trang chủ sẽ nhắc bạn.</p>";}
   if(r&&r.skill){html+="<p>Lần ôn tới luyện bằng <b>"+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+"</b>: <a href=\""+BASE_PATH_PLACEHOLDER+"/"+skillPath(r.skill)+"?lesson="+encodeURIComponent(SLUG)+"\">Mở trang "+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+" →</a></p>";}
@@ -4971,16 +4996,22 @@ BOTTOM_NAV = [
     ("home", "Học", "/", "book"),
     ("path", "Lộ trình", "/lo-trinh/hoc-lai-tu-dau/", "map"),
     ("dict", "Từ điển", "/tu-dien/", "search"),
-    ("speak", "Luyện nói", "/luyen-noi/", "speaker"),
+    ("speak", "Luyện nói", "/luyen-noi/", "speaker", "Nói"),
     ("me", "Tôi", "/bang-lo-trinh/", "user"),
 ]
 
 
 def bottomnav_html(active):
     items = ""
-    for key, label, href, icon in BOTTOM_NAV:
+    for item in BOTTOM_NAV:
+        key, label, href, icon = item[:4]
+        short = item[4] if len(item) > 4 else ""
         on = " on" if key == active else ""
-        items += f'<a class="navitem{on}" href="{BASE_PATH}{href}">{ICON[icon]}<span>{esc(label)}</span></a>'
+        if short:
+            label_html = f'<span class="nav-full">{esc(label)}</span><span class="nav-short">{esc(short)}</span>'
+        else:
+            label_html = f'<span>{esc(label)}</span>'
+        items += f'<a class="navitem{on}" href="{BASE_PATH}{href}">{ICON[icon]}{label_html}</a>'
     return f'<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap">{items}</div></nav>'
 
 
@@ -5036,12 +5067,12 @@ def card_html(lesson, paths_for=None):
         q = lesson["quiz"]
         inner = f"""
     <p class="q" style="font-size:17px;font-weight:700">{esc(q['question'])}</p>
-    <p class="prompt" style="font-size:16px;background:var(--bg);border-radius:10px;padding:11px 13px">{esc(q['prompt'])}</p>
+    <p class="prompt" style="font-size:16px;background:var(--bg);border-radius:10px;padding:12px 12px">{esc(q['prompt'])}</p>
     <p style="font-size:16px;color:var(--sub)">3 lựa chọn A / B / C. Bấm vào bài để làm quiz, trang chấm ngay.</p>"""
     else:
         inner = f"""
-    <div class="box wrong"><small>✗ CÂU SAI</small><p>{esc(lesson['wrong'])}</p></div>
-    <div class="box right"><small>✓ CÂU ĐÚNG</small><p>{esc(lesson['right'])}</p></div>
+    <div class="box wrong"><small>✗ Câu sai</small><p>{esc(lesson['wrong'])}</p></div>
+    <div class="box right"><small>✓ Câu đúng</small><p>{esc(lesson['right'])}</p></div>
     <p class="explain"><b>Vì sao:</b> {esc(lesson['why'])}</p>"""
     search_text = search_text_for(lesson)
     path_attr = ",".join(paths_for or [])
@@ -5153,9 +5184,9 @@ def render_index(data):
     ask_url = site.get("ask_url") or site["facebook_page"]
     body = f"""
 {header_html(site)}
-<main class="appwrap">
+<main class="appwrap home">
   <section class="hero" id="hero-box">
-    <p class="eyebrow">BÀI HÔM NAY</p>
+    <p class="eyebrow">Bài hôm nay</p>
     <h1>Đang tải…</h1>
     <p class="msub">Mở trang bằng trình duyệt có JavaScript để học nhé.</p>
   </section>
@@ -5173,11 +5204,11 @@ def render_index(data):
     <h3>Đua top tuần này</h3>
     <p>Đang tải…</p>
   </section>
-  <section>
+  <section class="sec-continue">
     <h2>Học tiếp</h2>
     <div class="rows" id="continue-box"><p>Đang tải…</p></div>
   </section>
-  <section>
+  <section class="sec-tools">
     <h2>Công cụ học</h2>
     <div class="tools">
       <a class="tool" href="{BASE_PATH}/tu-dien/">{ICON["search"]}<div><b>Từ điển</b><span>Nghĩa tiếng Việt lên đầu</span></div></a>
@@ -5185,7 +5216,7 @@ def render_index(data):
       <a class="tool" href="{BASE_PATH}/luyen-nghe/">{ICON["headphones"]}<div><b>Luyện nghe</b><span>Nghe và bắt lỗi</span></div></a>
       <a class="tool" href="{BASE_PATH}/luyen-viet/">{ICON["pen"]}<div><b>Luyện viết</b><span>Viết lại câu sai thành đúng</span></div></a>
       <a class="tool" href="{BASE_PATH}/luyen-doc/">{ICON["book"]}<div><b>Luyện đọc</b><span>Đọc và săn lỗi</span></div></a>
-      <a class="tool" href="{BASE_PATH}/thu-vien-chu-de/">{ICON["cap"]}<div><b>Thư viện chủ đề</b><span>Mọi bài gom theo chủ đề</span></div></a>
+      <a class="tool" href="{BASE_PATH}/thu-vien-chu-de/">{ICON["cap"]}<div><b><span class="tool-full">Thư viện chủ đề</span><span class="tool-short">Chủ đề</span></b><span>Mọi bài gom theo chủ đề</span></div></a>
     </div>
   </section>
   <section id="review-section">
@@ -5193,7 +5224,7 @@ def render_index(data):
     <div class="review-grid" id="review-grid"></div>
     <div class="empty" id="review-empty" style="display:none">Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</div>
   </section>
-  <section>
+  <section class="sec-cta">
     <div class="cta-row">
       <a class="btn btn-navy btn-compact" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group</a>
       <a class="btn btn-primary btn-compact" href="{esc(ask_url)}" target="_blank" rel="noopener">{ICON["mail"]} Gửi câu để được sửa</a>
@@ -5203,7 +5234,7 @@ def render_index(data):
     <h2>Tra cứu mọi bài học</h2>
     <form class="toolbar" action="{BASE_PATH}/thu-vien-bai-hoc/" method="get">
       <label class="sr-only" for="search">Tìm bài học</label>
-      <input id="search" name="q" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable" autocomplete="off">
+      <input id="search" name="q" type="search" placeholder="Tìm lỗi, ví dụ: borrow" autocomplete="off">
     </form>
     <div class="rows" id="latest-box"><p>Đang tải…</p></div>
     <a class="pathlink" id="latest-link" href="{BASE_PATH}/thu-vien-bai-hoc/">Xem tất cả bài →</a>
@@ -5216,7 +5247,7 @@ def render_index(data):
         .replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
     )
     index_filter_js = INDEX_FILTER_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
-    comm_js = COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
+    comm_js = COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"').replace("__HEART_SVG__", ICON["heart"])
     return page_shell(
         f"{site['name']}: {site['slogan']}",
         "Học tiếng Anh từ lỗi người Việt hay mắc. 3 lộ trình có thứ tự, mỗi bài 3 đến 5 phút, quiz chấm ngay, nhắc ôn lại. Tra cứu mọi lỗi đã sửa.",
@@ -5224,6 +5255,7 @@ def render_index(data):
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=homepage_js + index_filter_js + comm_js,
+        body_class="home",
         active="home",
     )
 
@@ -5416,7 +5448,7 @@ def render_browse(data):
     <h2>Tra cứu mọi bài học</h2>
     <div class="toolbar">
       <label class="sr-only" for="search">Tìm bài học</label>
-      <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
+      <input id="search" type="search" placeholder="Tìm lỗi, ví dụ: borrow">
       <div class="chips" id="topicChips"></div>
       <div class="chips">
         <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
@@ -5552,7 +5584,7 @@ def render_listen(data):
 <main class="appwrap">
   <section>
     <h2>Luyện nghe</h2>
-    <p class="skill-intro">Nghe và bắt lỗi. Nghe 1 câu rồi chọn Sai hay Đúng, nghe 2 câu rồi chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng. Nghe xong hiện cả 2 câu cạnh nhau, từ khác nhau được tô vàng.</p>
+    <p class="skill-intro">Nghe và bắt lỗi: chọn Sai hay Đúng, chọn câu đúng, gõ lại câu sai thành câu đúng.</p>
   </section>
   <section id="listen-start">
     <div class="skill-modes">
@@ -5604,7 +5636,7 @@ def render_write(data):
 <main class="appwrap">
   <section>
     <h2>Luyện viết</h2>
-    <p class="skill-intro">Viết lại câu sai thành câu đúng. Máy so từng từ, tô màu từ đúng, từ thừa, từ thiếu, từ sai chính tả, rồi hiện lời giải thích vì sao đã có trong bài.</p>
+    <p class="skill-intro">Viết lại câu sai thành câu đúng, máy so từng từ rồi giải thích vì sao.</p>
   </section>
   <section id="write-start">
     <div class="skill-modes">
@@ -5730,7 +5762,7 @@ def render_community(data):
         SITE_URL + "/cong-dong/",
         SITE_URL + "/images/loi-001.jpg",
         body,
-        extra_js=COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        extra_js=COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"').replace("__HEART_SVG__", ICON["heart"]),
         active="",
     )
 
@@ -6676,6 +6708,12 @@ def render_api_docs(data):
         "<tr><td><code>/api/openapi.yaml</code></td><td>Định nghĩa OpenAPI cho mọi đầu dữ liệu</td><td>" + _api_kb(len(openapi_s.encode("utf-8"))) + "</td></tr>",
         "<tr><td><code>/api/</code></td><td>Trang tài liệu này</td><td>Trang HTML</td></tr>",
     ])
+    loi001 = next((l for l in data["lessons"] if l["slug"] == "loi-001"), None)
+    loi001_ex = ""
+    if loi001 is not None:
+        det = api_lesson_detail(data, loi001)["lesson"]
+        ex = {k: det[k] for k in ("slug", "code", "title", "wrong", "right", "why") if k in det}
+        loi001_ex = esc(json.dumps(ex, ensure_ascii=False, indent=2))
     body = """
 __HEADER__
 <main class="wrap">
@@ -6711,6 +6749,12 @@ const lesson = detail.lesson;
 const q = lesson.practice[0];
 console.log(q.prompt, q.options, "Đáp án đúng là lựa chọn số", q.answer);
 console.log("Giải thích:", q.explanation);</code></pre>
+  </section>
+  <section>
+    <h2>Ví dụ dữ liệu thật</h2>
+    <p>Chi tiết 1 bài học trả về từ <code>/api/v1/lessons/loi-001.json</code>. Đây là dữ liệu thật trên web, không phải ví dụ bịa:</p>
+    <pre><code>__LOI001_EXAMPLE__</code></pre>
+    <p>Lấy toàn bộ chi tiết rồi chạy 1 câu luyện tập như ở mục trên.</p>
   </section>
   <section>
     <h2>Đầu dữ liệu</h2>
@@ -6807,6 +6851,7 @@ __FOOTER__
     body = body.replace("__TOTAL_WORDS__", str(n_words))
     body = body.replace("__WORDS_WITH_EXAMPLE__", str(n_wex))
     body = body.replace("__ROWS__", rows)
+    body = body.replace("__LOI001_EXAMPLE__", loi001_ex)
     return page_shell(
         "API mở | Kho bài học Sai Đâu Sửa Đó",
         "API mở Kho bài học Sai Đâu Sửa Đó: dữ liệu học tiếng Anh cho lập trình viên, không cần khóa, không mất phí.",

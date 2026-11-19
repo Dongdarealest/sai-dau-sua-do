@@ -6559,6 +6559,104 @@
    "wrong_note": "Tôi nói tiếng Anh chưa giỏi.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #005",
+   "compare": [
+    {
+     "a": "My brother is smarter than me.",
+     "b": "He is more intelligent than me.",
+     "note": "Tính từ ngắn như smart thêm er, tính từ dài như intelligent dùng more."
+    },
+    {
+     "a": "She is taller than her sister.",
+     "b": "This lesson is more difficult than the last one.",
+     "note": "Tính từ ngắn thêm er, tính từ dài dùng more."
+    }
+   ],
+   "core": "Quy tắc: tính từ một âm tiết thêm er, tính từ dài dùng more.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is taller than her sister.",
+     "vi": "Cô ấy cao hơn chị gái của mình."
+    },
+    {
+     "en": "This bag is cheaper than that one.",
+     "vi": "Chiếc túi này rẻ hơn chiếc kia."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104121469550200",
+   "image_src": "ngay-08/Do-005-smarter.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "This phone is newer than mine.",
+     "wrong": "This phone is more new than mine."
+    },
+    {
+     "right": "She is taller than me.",
+     "wrong": "She is more tall than me."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "smart là tính từ ngắn, so sánh hơn thêm er.",
+     "kind": "fill_blank",
+     "options": [
+      "more smart",
+      "smarter"
+     ],
+     "prompt": "He is ___ than me."
+    },
+    {
+     "answer": 1,
+     "explanation": "tall là tính từ ngắn, so sánh hơn thêm er.",
+     "kind": "fill_blank",
+     "options": [
+      "more tall",
+      "taller"
+     ],
+     "prompt": "She is ___ than her sister."
+    },
+    {
+     "answer": 1,
+     "explanation": "cheap là tính từ ngắn, so sánh hơn thêm er.",
+     "kind": "fill_blank",
+     "options": [
+      "more cheap",
+      "cheaper"
+     ],
+     "prompt": "This bag is ___ than that one."
+    }
+   ],
+   "problem": "Bạn muốn khen ai đó thông minh hơn mình, nhưng viết more smart vì nghĩ so sánh hơn thì thêm more.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "so sánh hơn của smart là smarter, vì smart chỉ có một âm tiết.",
+    "options": [
+     "'more smart' thành 'smarter'",
+     "'He' thành 'Him'",
+     "'than me' thành 'than I'"
+    ],
+    "prompt": "Hãy nhìn từ so sánh trong câu.",
+    "question": "Câu 'He is more smart than me.' sai ở đâu?"
+   },
+   "reel": null,
+   "remember": "smart thành smarter, không nói more smart.",
+   "right": "He is smarter than me.",
+   "right_note": "Anh ấy thông minh hơn tôi.",
+   "show_in_ui": true,
+   "slug": "do-005",
+   "tip": "Nhớ nhanh: tính từ ngắn thêm er, tính từ dài dùng more.",
+   "title": "more smart",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "smart là tính từ ngắn, so sánh hơn thêm er, không dùng more.",
+   "wrong": "He is more smart than me.",
+   "wrong_note": "Anh ấy thông minh hơn tôi."
   }
  ],
  "site": {
