@@ -1689,5 +1689,34 @@
     "type": "Lỗi",
     "date": "2026-11-19",
     "paths": []
+  },
+  {
+    "slug": "do-005",
+    "code": "Đố nhanh #005",
+    "title": "more smart",
+    "wrong": "He is more smart than me.",
+    "right": "He is smarter than me.",
+    "remember": "smart thành smarter, không nói more smart.",
+    "why": "smart là tính từ ngắn, so sánh hơn thêm er, không dùng more.",
+    "examples": [
+      "She is taller than her sister. Cô ấy cao hơn chị gái của mình.",
+      "This bag is cheaper than that one. Chiếc túi này rẻ hơn chiếc kia."
+    ],
+    "quiz": [
+      "Câu 'He is more smart than me.' sai ở đâu?",
+      "Hãy nhìn từ so sánh trong câu.",
+      "'more smart' thành 'smarter'",
+      "'He' thành 'Him'",
+      "'than me' thành 'than I'"
+    ],
+    "practice": [
+      "He is ___ than me. more smart smarter",
+      "She is ___ than her sister. more tall taller",
+      "This bag is ___ than that one. more cheap cheaper"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-19",
+    "paths": []
   }
 ]

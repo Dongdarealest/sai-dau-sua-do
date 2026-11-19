@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 64,
-    "visible_lessons": 58,
+    "total_lessons": 65,
+    "visible_lessons": 59,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -971,6 +971,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-005/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104068201550200",
       "image": "ngay-08/Hoi-thoai-005-speaking-english.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-005",
+      "code": "Đố nhanh #005",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "more smart",
+      "date": "2026-11-19",
+      "wrong": "He is more smart than me.",
+      "right": "He is smarter than me.",
+      "remember": "smart thành smarter, không nói more smart.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-005/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104121469550200",
+      "image": "ngay-08/Do-005-smarter.png",
       "show_in_ui": true
     }
   ]

@@ -2944,7 +2944,8 @@
       ],
       "mistakes": [
         "meme-003",
-        "reel-005"
+        "reel-005",
+        "do-005"
       ]
     },
     "head": {
@@ -4426,7 +4427,9 @@
           "meaning": "nhiều hơn, hơn nữa"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-005"
+      ]
     },
     "morning": {
       "senses": [
@@ -6936,7 +6939,8 @@
         }
       ],
       "mistakes": [
-        "meo-002"
+        "meo-002",
+        "do-005"
       ]
     },
     "thank": {
