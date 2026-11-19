@@ -5237,7 +5237,9 @@
           "meaning": "làm ơn"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-nhanh-004"
+      ]
     },
     "point": {
       "senses": [
@@ -5888,7 +5890,9 @@
           "example_vi": "Gửi tin nhắn cho tôi nhé."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-nhanh-004"
+      ]
     },
     "sent": {
       "senses": [

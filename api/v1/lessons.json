@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 62,
-    "visible_lessons": 56,
+    "total_lessons": 63,
+    "visible_lessons": 57,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -941,6 +941,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-005/",
       "fb": "https://www.facebook.com/61596506009854/posts/122103959757550200",
       "image": "ngay-08/Quiz-nhanh-005-wednesday.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "loi-nhanh-004",
+      "code": "Lỗi nhanh #004",
+      "type": "Lỗi",
+      "topic": "công sở",
+      "title": "please kindly",
+      "date": "2026-11-19",
+      "wrong": "Please kindly send me the file.",
+      "right": "Please send me the file.",
+      "remember": "please hoặc kindly, chỉ dùng một từ, sau kindly không có to.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-004/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104000989550200",
+      "image": "ngay-08/Quiz-004-please-kindly.png",
       "show_in_ui": true
     }
   ]

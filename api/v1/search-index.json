@@ -1634,5 +1634,33 @@
     "paths": [
       "sua-phat-am"
     ]
+  },
+  {
+    "slug": "loi-nhanh-004",
+    "code": "Lỗi nhanh #004",
+    "title": "please kindly",
+    "wrong": "Please kindly send me the file.",
+    "right": "Please send me the file.",
+    "remember": "please hoặc kindly, chỉ dùng một từ, sau kindly không có to.",
+    "why": "please và kindly cùng nghĩa xin vui lòng, chỉ dùng một từ. C sai vì sau kindly không có to.",
+    "examples": [
+      "Please send me the report before Friday. Làm ơn gửi giúp tôi bản báo cáo trước thứ Sáu.",
+      "Could you kindly send the report today? Bạn có thể vui lòng gửi bản báo cáo hôm nay không?"
+    ],
+    "quiz": [
+      "Email nào viết đúng?",
+      "Chọn câu đúng trong 3 câu sau:",
+      "Please kindly send me the file.",
+      "Please send me the file.",
+      "Please kindly to send me the file."
+    ],
+    "practice": [
+      "___ send me the file. Please kindly Please",
+      "Chọn câu đúng: Kindly send me the file. Kindly to send me the file."
+    ],
+    "topic": "công sở",
+    "type": "Lỗi",
+    "date": "2026-11-19",
+    "paths": []
   }
 ]
