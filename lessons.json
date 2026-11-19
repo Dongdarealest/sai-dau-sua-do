@@ -6255,69 +6255,6 @@
    "wrong_note": "Em muốn cảm ơn thầy cô của em, nhưng thừa chữ to."
   },
   {
-   "slug": "loi-010-test",
-   "code": "Lỗi #TEST",
-   "type": "Lỗi",
-   "topic": "Động từ",
-   "date": "2026-11-19",
-   "title": "Bài kiểm tra tối ưu web",
-   "wrong": "I want to thank to my teacher.",
-   "right": "I want to thank my teacher.",
-   "why": "thank đi thẳng với tân ngữ, không cần to. Đây là bài kiểm tra đo số file đổi khi đăng bài mới.",
-   "fb": "https://www.facebook.com/61596506009854/posts/122103662985550200",
-   "image_src": "ngay-08/Loi-009-thank-to.png",
-   "problem": "Viết thiệp cảm ơn mà thêm to sau thank thì sai.",
-   "core": "thank là ngoại động từ, đi thẳng với tân ngữ.",
-   "compare": [
-    {
-     "a": "I want to thank to her.",
-     "b": "I want to thank her.",
-     "note": "thank không đi với to."
-    }
-   ],
-   "mistakes": [
-    {
-     "wrong": "I want to thank to my friends.",
-     "right": "I want to thank my friends."
-    }
-   ],
-   "examples": [
-    {
-     "en": "I want to thank my parents for their help.",
-     "vi": "Em muốn cảm ơn bố mẹ vì đã giúp đỡ em."
-    }
-   ],
-   "practice": [
-    {
-     "answer": 1,
-     "explanation": "thank đi thẳng với tân ngữ, không có to.",
-     "options": [
-      "I want to thank to my teacher.",
-      "I want to thank my teacher."
-     ],
-     "prompt": "Chọn câu đúng:"
-    },
-    {
-     "answer": 1,
-     "explanation": "thank không cần to.",
-     "kind": "fill_blank",
-     "options": [
-      "to my",
-      "my"
-     ],
-     "prompt": "I want to thank ___ teacher."
-    }
-   ],
-   "remember": "thank + người, không có to.",
-   "wrong_note": "",
-   "right_note": "",
-   "ipa": [],
-   "dict_links": [],
-   "quiz": null,
-   "reel": null,
-   "show_in_ui": true
-  },
-  {
    "code": "Quiz nhanh #005",
    "compare": [
     {
