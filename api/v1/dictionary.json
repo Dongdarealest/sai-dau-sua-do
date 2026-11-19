@@ -2696,7 +2696,8 @@
         "mau-cau-007",
         "tong-hop-001",
         "mau-cau-008",
-        "hoi-thoai-005"
+        "hoi-thoai-005",
+        "quiz-008"
       ]
     },
     "got": {
@@ -7630,7 +7631,8 @@
         }
       ],
       "mistakes": [
-        "meo-001"
+        "meo-001",
+        "quiz-008"
       ]
     },
     "video": {
@@ -7946,7 +7948,9 @@
           "meaning": "tốt, khỏe"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "quiz-008"
+      ]
     },
     "went": {
       "senses": [

@@ -1718,5 +1718,33 @@
     "type": "Quiz",
     "date": "2026-11-19",
     "paths": []
+  },
+  {
+    "slug": "quiz-008",
+    "code": "Quiz #008",
+    "title": "teaches very well",
+    "wrong": "She teaches very good.",
+    "right": "She teaches very well.",
+    "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+    "why": "Sau động từ cần trạng từ well, không dùng tính từ good. Chủ ngữ she đi với teaches, thêm s.",
+    "examples": [
+      "Our teacher explains the lesson very well. Thầy cô của chúng em giảng bài rất hay.",
+      "She dances very well. Cô ấy nhảy rất giỏi."
+    ],
+    "quiz": [
+      "Chọn câu đúng nào?",
+      "Chọn câu đúng trong 3 câu sau:",
+      "She teaches very good.",
+      "She teaches very well.",
+      "She teach very well."
+    ],
+    "practice": [
+      "She teaches very ___. good well",
+      "Chọn câu đúng: They teach very good. They teach very well."
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-19",
+    "paths": []
   }
 ]

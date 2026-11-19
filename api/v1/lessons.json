@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 65,
-    "visible_lessons": 59,
+    "total_lessons": 66,
+    "visible_lessons": 60,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -986,6 +986,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-005/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104121469550200",
       "image": "ngay-08/Do-005-smarter.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-008",
+      "code": "Quiz #008",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "teaches very well",
+      "date": "2026-11-19",
+      "wrong": "She teaches very good.",
+      "right": "She teaches very well.",
+      "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-008/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104207095550200",
+      "image": "ngay-08/Quiz-008-teaches-well.png",
       "show_in_ui": true
     }
   ]

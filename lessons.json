@@ -6657,6 +6657,87 @@
    "why": "smart là tính từ ngắn, so sánh hơn thêm er, không dùng more.",
    "wrong": "He is more smart than me.",
    "wrong_note": "Anh ấy thông minh hơn tôi."
+  },
+  {
+   "code": "Quiz #008",
+   "compare": [
+    {
+     "a": "My teacher teaches English very well.",
+     "b": "My teacher teaches English very good.",
+     "note": "sau động từ cần trạng từ well, không dùng tính từ good."
+    }
+   ],
+   "core": "sau động từ cần trạng từ well, không dùng tính từ good.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Our teacher explains the lesson very well.",
+     "vi": "Thầy cô của chúng em giảng bài rất hay."
+    },
+    {
+     "en": "She dances very well.",
+     "vi": "Cô ấy nhảy rất giỏi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104207095550200",
+   "image_src": "ngay-08/Quiz-008-teaches-well.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He speaks English very well.",
+     "wrong": "He speaks English very good."
+    },
+    {
+     "right": "She sings very well.",
+     "wrong": "She sings very good."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good.",
+     "options": [
+      "good",
+      "well"
+     ],
+     "prompt": "She teaches very ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ teach cũng cần trạng từ well.",
+     "options": [
+      "They teach very good.",
+      "They teach very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Khen thầy cô dạy giỏi mà nói teaches very good thì sai nhé, dù người nghe vẫn hiểu ý bạn.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good; chủ ngữ she đi với teaches, thêm s.",
+    "options": [
+     "She teaches very good.",
+     "She teaches very well.",
+     "She teach very well."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "Chọn câu đúng nào?"
+   },
+   "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+   "right": "She teaches very well.",
+   "right_note": "Sau động từ cần trạng từ well.",
+   "slug": "quiz-008",
+   "tip": "Nhớ nhanh: sau động từ dạy, nói, hát thì dùng well, không dùng good.",
+   "title": "teaches very well",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Sau động từ cần trạng từ well, không dùng tính từ good. Chủ ngữ she đi với teaches, thêm s.",
+   "wrong": "She teaches very good.",
+   "wrong_note": "Sau động từ teaches lại dùng tính từ good.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

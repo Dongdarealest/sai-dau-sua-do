@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-008",
+    "code": "Quiz #008",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "teaches very well",
+    "date": "2026-11-19",
+    "wrong": "She teaches very good.",
+    "wrong_note": "Sau động từ teaches lại dùng tính từ good.",
+    "right": "She teaches very well.",
+    "right_note": "Sau động từ cần trạng từ well.",
+    "why": "Sau động từ cần trạng từ well, không dùng tính từ good. Chủ ngữ she đi với teaches, thêm s.",
+    "problem": "Khen thầy cô dạy giỏi mà nói teaches very good thì sai nhé, dù người nghe vẫn hiểu ý bạn.",
+    "core": "sau động từ cần trạng từ well, không dùng tính từ good.",
+    "compare": [
+      {
+        "a": "My teacher teaches English very well.",
+        "b": "My teacher teaches English very good.",
+        "note": "sau động từ cần trạng từ well, không dùng tính từ good."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He speaks English very well.",
+        "wrong": "He speaks English very good."
+      },
+      {
+        "right": "She sings very well.",
+        "wrong": "She sings very good."
+      }
+    ],
+    "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+    "examples": [
+      {
+        "en": "Our teacher explains the lesson very well.",
+        "vi": "Thầy cô của chúng em giảng bài rất hay."
+      },
+      {
+        "en": "She dances very well.",
+        "vi": "Cô ấy nhảy rất giỏi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good.",
+        "options": [
+          "good",
+          "well"
+        ],
+        "prompt": "She teaches very ___."
+      },
+      {
+        "answer": 1,
+        "explanation": "sau động từ teach cũng cần trạng từ well.",
+        "options": [
+          "They teach very good.",
+          "They teach very well."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good; chủ ngữ she đi với teaches, thêm s.",
+      "options": [
+        "She teaches very good.",
+        "She teaches very well.",
+        "She teach very well."
+      ],
+      "prompt": "Chọn câu đúng trong 3 câu sau:",
+      "question": "Chọn câu đúng nào?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: sau động từ dạy, nói, hát thì dùng well, không dùng good.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-08/Quiz-008-teaches-well.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122104207095550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-008/",
+    "show_in_ui": true
+  }
+}
