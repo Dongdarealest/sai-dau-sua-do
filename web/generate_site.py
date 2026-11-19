@@ -43,6 +43,7 @@ ICON = {
     "cap": _svg('<path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/>'),
     "case": _svg('<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>'),
     "users": _svg('<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>'),
+    "user": _svg('<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>'),
     "mail": _svg('<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>'),
     "star": _svg('<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>'),
     "share": _svg('<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/>'),
@@ -51,6 +52,8 @@ ICON = {
     "flame": _svg('<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>'),
     "search": _svg('<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>'),
     "bookmark": _svg('<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'),
+    "headphones": _svg('<path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>'),
+    "pen": _svg('<path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/>'),
 }
 
 
@@ -96,18 +99,7 @@ CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"Be Vietnam Pro","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
 a{color:var(--navy)}
-header{background:var(--navy-bg);color:#fff;padding:28px 20px 22px}
 .wrap{max-width:1020px;margin:0 auto;padding:0 16px}
-.brand{display:flex;gap:14px;align-items:center}
-.logo{width:56px;height:56px;border-radius:14px;background:#fff;color:var(--navy-btn);font-weight:900;font-size:34px;display:flex;align-items:center;justify-content:center;position:relative;flex:none}
-.logo::after{content:"✓";position:absolute;right:-7px;bottom:-9px;color:var(--orange);font-size:28px}
-header h1{font-size:25px;line-height:1.25}
-header h1 a{color:#fff;text-decoration:none}
-header p.slogan{color:#DCEFEA;font-weight:600;margin-top:4px;font-size:16px}
-header p.intro{color:#CBDCE8;margin-top:10px;max-width:640px;font-size:16px}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
-.stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:6px 14px;font-size:16px}
-.stat.score{background:var(--orange);border-color:var(--orange);color:#fff;font-weight:700}
 main{padding:0 0 8px}
 section{margin:20px 0}
 h2{font-size:22px;margin-bottom:12px}
@@ -118,21 +110,6 @@ h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .btn-ghost{background:var(--card);color:var(--navy);border-color:var(--navy)}
 .btn-block{display:block;width:100%}
 .btn:active{transform:scale(.98)}
-.today{background:var(--card);border:2px solid var(--navy);border-radius:16px;padding:20px}
-.today h2{margin-bottom:6px}
-.today p{font-size:16px;margin-bottom:12px}
-.progress{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
-.progress .bar{height:16px;background:var(--bar);border-radius:999px;overflow:hidden;margin:10px 0 6px}
-.progress .bar i{display:block;height:100%;background:var(--orange);width:0%;border-radius:999px;transition:width .4s}
-.progress p{font-size:16px}
-.progress p b{color:var(--navy)}
-.paths{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
-.path-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink)}
-.path-card:hover{border-color:var(--navy)}
-.path-card .num{font-size:40px;line-height:1}
-.path-card h3{font-size:20px}
-.path-card p{font-size:16px;color:var(--sub)}
-.path-card .meta{font-size:16px;font-weight:700;color:var(--navy);margin-top:auto}
 .review-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
 .review-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-decoration:none;color:var(--ink);display:block}
 .review-card:hover{border-color:var(--navy)}
@@ -140,10 +117,6 @@ h2 small{font-size:16px;color:var(--sub);font-weight:400}
 .review-card span{font-size:16px;color:var(--sub)}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--sub);font-size:16px}
 .cta-row{display:grid;gap:12px;grid-template-columns:1fr 1fr}
-.tabs{display:flex;gap:8px;margin:20px 0 0}
-.tab{flex:1;border:2px solid var(--line);background:var(--card);border-radius:14px 14px 0 0;border-bottom:0;padding:14px;font-size:17px;font-weight:700;cursor:pointer;color:var(--sub)}
-.tab.on{background:var(--navy-btn);color:#fff;border-color:var(--navy-btn)}
-.tabpanel{background:var(--card);border:2px solid var(--line);border-radius:0 0 16px 16px;padding:18px}
 .toolbar{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
 #search{width:100%;padding:13px 15px;font-size:16px;border:2px solid var(--line);border-radius:12px;outline:none;background:var(--card);color:var(--ink)}
 #search:focus{border-color:var(--navy)}
@@ -252,7 +225,6 @@ footer{background:var(--navy-bg);color:#CBDCE8;margin-top:28px;padding:24px 20px
 footer a{color:#fff;font-weight:700}
 
 .ic{width:1.15em;height:1.15em;flex:none;vertical-align:-0.18em}
-.brand{justify-content:space-between}
 .theme-toggle{flex:none;width:48px;height:48px;border-radius:50%;border:1.5px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .theme-toggle .ic{width:22px;height:22px}
 .wiz-progress{display:flex;align-items:center;gap:12px;margin:18px 0 4px}
@@ -287,17 +259,13 @@ footer a{color:#fff;font-weight:700}
 .streak{font-size:16px}
 @media(max-width:560px){.complete-actions .btn{min-width:0}}
 
-@media(max-width:380px){.wrap{padding:0 12px}.paths{grid-template-columns:1fr}.grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:380px){.wrap{padding:0 12px}.grid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:560px){
-  header h1{font-size:22px}
   .viewtoggle{margin-left:0}
   .cta-row{grid-template-columns:1fr}
   .pagenav{flex-direction:column}
   .opening p{font-size:18px}
 }
-.sitenav{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
-.sitenav a{color:#fff;background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.25);border-radius:999px;padding:9px 16px;min-height:48px;display:inline-flex;align-items:center;font-size:16px;font-weight:700;text-decoration:none}
-.sitenav a:hover{background:rgba(255,255,255,.24)}
 .stat-tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
 .tile .num{font-size:32px;font-weight:900;color:var(--navy);line-height:1.2}
@@ -342,6 +310,196 @@ pre{background:var(--card);border:1px solid var(--line);border-radius:12px;paddi
 pre code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:16px}
 code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:16px}
 blockquote{border-left:4px solid var(--orange);margin:16px 0;padding:8px 16px;background:var(--card);border-radius:0 12px 12px 0;font-size:16px}
+/* ---- Vỏ mới hướng A, 19/11: đầu trang gọn, nút chân trang, nhiệm vụ và XP ---- */
+.appwrap{max-width:480px;margin:0 auto;padding:0 16px}
+@media(min-width:768px){.appwrap{max-width:720px}}
+body.has-nav{padding-bottom:96px}
+.appbar{position:sticky;top:0;z-index:60;background:var(--card);border-bottom:1.5px solid var(--line)}
+.appbar .appwrap{display:flex;align-items:center;gap:10px;height:56px}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--navy-btn);color:#fff;font-weight:900;font-size:22px;display:flex;align-items:center;justify-content:center;position:relative;flex:none}
+.logo::after{content:"✓";position:absolute;right:-4px;bottom:-7px;color:var(--orange);font-size:16px}
+.appname{flex:1;min-width:0;font-weight:900;font-size:18px;color:var(--navy);line-height:1.2;overflow:hidden}
+.appname a{display:block;color:var(--navy);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.appname small{display:block;font-size:16px;font-weight:400;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pills{margin-left:auto;display:flex;gap:8px;flex:none}
+.pill{display:inline-flex;align-items:center;gap:5px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:5px 11px;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
+.pill .ic{width:16px;height:16px}
+@media(max-width:419px){.pill-word{display:none}}
+.appbar .theme-toggle{width:44px;height:44px;border:1.5px solid var(--line);background:var(--card);color:var(--navy)}
+.appbar .theme-toggle .ic{width:22px;height:22px}
+.hero{background:var(--navy-bg);border-radius:24px;padding:16px 20px;margin-top:14px;color:#fff}
+.hero .eyebrow{color:var(--orange);font-weight:900;font-size:16px;letter-spacing:.06em}
+.hero h1{font-size:24px;line-height:1.25;font-weight:900;margin:6px 0 8px;color:#fff}
+.hero .wrong{color:#FFB4A8;font-size:16px}
+.hero .wrong s{text-decoration-color:var(--orange);text-decoration-thickness:2px}
+.hero .right{color:#DCEFEA;font-size:16px;font-weight:700;margin-top:2px}
+.btn-hero{padding:12px 20px;min-height:52px}
+.hero .btn{margin-top:12px}
+.msub{text-align:center;color:#CBDCE8;font-size:16px;margin-top:8px}
+.msub2{font-size:16px;color:var(--sub);line-height:1.5;margin:6px 0}
+.tiles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
+.tiles .tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 10px;text-align:center}
+.tiles .tile .num{font-size:24px;font-weight:900;color:var(--navy);line-height:1.1}
+.tiles .tile .lbl{font-size:16px;color:var(--sub);margin-top:4px}
+.strip{display:block;background:var(--mint);border-radius:14px;padding:12px 14px;font-size:16px;color:var(--navy);margin-top:12px;text-decoration:none}
+.strip b{font-weight:900}
+.strip .go{color:var(--orange);font-weight:900;white-space:nowrap}
+.missions{background:var(--card);border:1.5px solid var(--orange);border-radius:20px;padding:18px 16px;margin-top:14px}
+.missions .mhead{display:flex;align-items:center;gap:8px}
+.missions h2{margin:0;font-size:20px}
+.xppill{margin-left:auto;display:inline-flex;align-items:center;gap:5px;background:var(--amber-bg);border:1.5px solid #F6C453;border-radius:999px;padding:5px 11px;font-size:16px;font-weight:900;color:var(--amber);white-space:nowrap}
+.xpbar{height:8px;background:var(--bar);border-radius:999px;overflow:hidden;margin-top:12px}
+.xpbar i{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}
+.xpmeta{font-size:16px;color:var(--sub);margin-top:6px}
+.mrow{display:flex;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--bar)}
+.mrow.first{margin-top:8px}
+.mcheck{width:32px;height:32px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px}
+.mcheck.done{background:var(--mint);color:var(--navy)}
+.mcheck.half{background:var(--amber-bg);color:var(--amber)}
+.mcheck.todo{background:var(--card);border:2px solid var(--line);color:var(--sub)}
+.mrow h3{font-size:16px}
+.mrow p{font-size:16px;color:var(--sub)}
+.mrow .xp{margin-left:auto;font-size:16px;font-weight:900;color:var(--orange);white-space:nowrap}
+.mreward{font-size:16px;color:var(--sub);margin-top:10px;background:var(--bg);border-radius:12px;padding:10px 12px}
+.mreward b{color:var(--navy)}
+.rows{display:grid;gap:10px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
+.row .dot{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px}
+.dot.done{background:var(--mint);color:var(--navy)}
+.dot.now{background:var(--orange);color:#fff}
+.dot.next{background:var(--bar);color:var(--sub)}
+.row h3{font-size:16px}
+.row p{font-size:16px;color:var(--sub)}
+.row .state{margin-left:auto;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
+.row .state.done{color:var(--green)}
+.bar{height:8px;background:var(--bar);border-radius:999px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--orange);border-radius:999px}
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 14px;display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
+.tool .ic{width:26px;height:26px;color:var(--navy);flex:none}
+.tool b{font-size:16px;display:block}
+.tool span{font-size:16px;color:var(--sub)}
+.path{position:relative;margin-top:4px;padding-left:6px}
+.path::before{content:"";position:absolute;left:27px;top:24px;bottom:24px;border-left:2px dashed var(--line)}
+.pnode{display:flex;gap:14px;align-items:flex-start;padding:12px 0;position:relative}
+.pdot{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:17px;background:var(--card);border:2px solid var(--line);z-index:1}
+.pdot.done{background:var(--mint);border-color:var(--mint);color:var(--navy)}
+.pdot.now{background:var(--orange);border-color:var(--orange);color:#fff}
+.pnode h3{font-size:16px}
+.pnode p{font-size:16px;color:var(--sub)}
+.pnode .go{margin-left:auto;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
+.pathlink{display:block;text-align:center;font-size:16px;font-weight:700;color:var(--orange);margin-top:6px}
+.bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--card);border-top:1.5px solid var(--line)}
+.bottomnav .appwrap{display:flex}
+.navitem{flex:1 1 0;min-width:0;min-height:56px;text-align:center;padding:8px 2px calc(8px + env(safe-area-inset-bottom,0px));font-size:16px;font-weight:700;color:var(--sub);text-decoration:none;line-height:1.2}
+.navitem .ic{width:22px;height:22px;display:block;margin:0 auto 2px}
+.navitem.on{color:var(--orange)}
+.topbar{position:sticky;top:0;z-index:60;background:var(--card);border-bottom:1.5px solid var(--line)}
+.topbar .appwrap{display:flex;align-items:center;gap:10px;height:56px}
+.topbar .back{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;font-size:20px}
+.topbar .title{flex:1;min-width:0;font-weight:900;font-size:17px;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.xphint{text-align:center;font-size:16px;color:var(--amber);background:var(--amber-bg);border:1.5px solid #F6C453;border-radius:12px;padding:10px 12px;margin-top:14px}
+.xphint b{color:var(--amber)}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:12px}
+.feat img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+.feat .body{padding:16px}
+.feat .tag{margin-bottom:8px}
+.feat h3{font-size:20px;margin-bottom:6px}
+.feat h3 a{color:var(--ink);text-decoration:none}
+.feat .msub{text-align:left;color:var(--sub);margin-top:0}
+.feat .go{display:inline-block;margin-top:10px;font-size:16px;font-weight:700;color:var(--orange);text-decoration:none}
+/* ---- Luyện nói v2, 19/11: 3 hàng thẻ chọn câu, chấm theo từng từ, 3 lượt mỗi buổi ---- */
+.speak-intro{font-size:16px;margin:10px 0 14px}
+.speak-card{background:var(--card);border:2px solid var(--navy);border-radius:16px;padding:18px 16px;margin-top:14px}
+.speak-round{font-size:16px;font-weight:700;color:var(--navy)}
+.speak-source{font-size:16px;color:var(--sub);margin-top:12px}
+.speak-source a{font-weight:700}
+.speak-target{font-size:22px;font-weight:700;line-height:1.4;margin:10px 0 6px}
+.speak-vi{font-size:16px;color:var(--sub)}
+.speak-colored{font-size:22px;font-weight:700;line-height:1.6;margin:10px 0 6px}
+.speak-colored .w-ok{color:var(--green)}
+.speak-colored .w-miss{color:var(--red);text-decoration:underline}
+.speak-hidden{font-size:22px;font-weight:700;color:var(--sub);margin:10px 0 6px}
+.speak-heard{font-size:16px;background:var(--bg);border-radius:12px;padding:12px 14px;margin:12px 0}
+.speak-missed{margin:10px 0}
+.speak-missed h3{font-size:18px;margin-bottom:8px}
+.miss-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--bg);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.miss-row b{font-size:16px}
+.miss-row span{font-size:16px;color:var(--sub)}
+.speak-next{margin-top:12px}
+.speak-topic{margin:22px 0 0}
+.speak-topic h2{margin-bottom:4px}
+.speak-topic .sub{font-size:16px;color:var(--sub);margin-bottom:12px}
+.speak-cards{display:grid;gap:10px}
+.topic-card{background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:16px;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
+.topic-card:hover{border-color:var(--navy)}
+.topic-card .ic{width:26px;height:26px;color:var(--navy);flex:none}
+.topic-card h3{font-size:18px}
+.topic-card p{font-size:16px;color:var(--sub)}
+.topic-card .best{margin-left:auto;font-size:16px;font-weight:700;color:var(--navy);white-space:nowrap}
+.speak-sentence{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:left;cursor:pointer;width:100%;color:var(--ink);font-size:16px}
+.speak-sentence:hover{border-color:var(--navy)}
+.speak-sentence .en{font-size:18px;font-weight:700;line-height:1.4}
+.speak-sentence .vi{font-size:16px;color:var(--sub);margin-top:4px}
+.speak-sentence .meta2{font-size:16px;color:var(--sub);margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.speak-sentence .lvl{background:var(--mint);color:var(--navy);border-radius:999px;padding:2px 10px;font-weight:700}
+.speak-sentence .done-mark{color:var(--green);font-weight:700}
+.speak-sentence .last-score{color:var(--navy);font-weight:700}
+.speak-limit{font-size:16px;color:var(--sub);margin-top:18px}
+/* Trang kỹ năng Nghe, Viết, Đọc (đợt hướng A, 19/11) */
+.skill-intro{font-size:17px;line-height:1.5;color:var(--navy)}
+.skill-modes{display:grid;gap:12px;margin:14px 0}
+.skill-mode{text-align:left;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;cursor:pointer}
+.skill-mode b{font-size:18px;display:block;margin-bottom:4px}
+.skill-mode span{font-size:16px;color:var(--sub);line-height:1.4}
+.skill-mode.on{border-color:var(--orange)}
+.skill-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.skill-card h3{font-size:19px;margin:0 0 8px}
+.skill-round{font-size:16px;font-weight:800;color:var(--orange);margin:0 0 10px}
+.skill-sentence{font-size:20px;font-weight:700;line-height:1.5;margin:8px 0}
+.skill-vi{font-size:17px;color:var(--sub);margin:6px 0}
+.skill-source{font-size:16px;color:var(--sub);margin:6px 0}
+.skill-pair{display:grid;gap:10px;margin:12px 0}
+.skill-pair .pair{border:2px solid var(--line);border-radius:12px;padding:12px}
+.skill-pair .pair b{display:block;font-size:16px;margin-bottom:6px}
+.skill-pair .pair p{font-size:18px;line-height:1.5;margin:0}
+.w-diff{background:#FDE68A;border-radius:6px;padding:0 4px;font-weight:800}
+.skill-choices{display:grid;gap:10px;margin:14px 0}
+.skill-choices .opt{width:100%;text-align:left}
+.skill-answer{width:100%;font-size:18px;padding:14px;border:2px solid var(--line);border-radius:12px;background:#fff}
+.skill-feedback{margin:12px 0}
+.skill-feedback .good{color:var(--green);font-weight:800}
+.skill-feedback .bad{color:var(--red);font-weight:800}
+.skill-progress{font-size:16px;color:var(--sub);margin:8px 0}
+.skill-done{background:var(--mint);border-radius:16px;padding:18px;margin:14px 0}
+.skill-done h3{font-size:20px;margin:0 0 8px}
+.read-passage{font-size:18px;line-height:1.8;margin:12px 0}
+.read-passage .word{cursor:pointer;border-radius:6px;padding:0 2px}
+.read-passage .word:hover{background:var(--mint)}
+.read-passage .word.err{color:var(--red);font-weight:800;text-decoration:underline wavy var(--red)}
+.read-passage .word.fixed{color:var(--green);font-weight:800}
+.read-word-pop{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;font-size:17px}
+.read-level{font-size:16px;color:var(--sub)}
+.write-wrong-list{margin:12px 0}
+.write-wrong-list .miss-row{margin-bottom:8px}
+/* Mục Cộng đồng (đợt hướng A, 19/11) */
+.comm-card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.comm-card h3{font-size:19px;margin:0 0 8px}
+.comm-row{display:flex;justify-content:space-between;gap:8px;padding:10px 4px;border-bottom:1px solid var(--line);font-size:17px;align-items:center}
+.comm-row:last-child{border-bottom:0}
+.comm-row.me{background:var(--mint);border-radius:10px;padding:10px}
+.comm-row .rank{font-weight:900;min-width:24px}
+.comm-row .name{flex:1;min-width:0;overflow:hidden}
+.comm-who{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.comm-row .pts{font-weight:800;white-space:nowrap}
+.comm-badge{display:inline-block;background:var(--orange);color:#fff;border-radius:999px;padding:2px 10px;font-size:16px;font-weight:800;margin-left:6px;white-space:nowrap}
+.comm-progress{height:14px;background:var(--mint);border-radius:999px;overflow:hidden;margin:8px 0}
+.comm-progress i{display:block;height:100%;background:var(--orange)}
+.comm-note{font-size:16px;color:var(--sub)}
+.comm-form label{display:block;font-size:16px;font-weight:700;margin:12px 0 4px}
+.comm-form input{width:100%;font-size:18px;padding:12px;border:2px solid var(--line);border-radius:12px}
+.comm-heart{border:2px solid var(--line);background:#fff;border-radius:999px;padding:6px 10px;font-size:16px;cursor:pointer;flex:none;white-space:nowrap}
+.comm-heart.on{border-color:var(--red);color:var(--red)}
 """
 
 
@@ -382,7 +540,7 @@ function fmtDate(s){if(!isValidDateStr(s))return s;const p=s.split("-");return p
 function dispDate(s){if(isValidDateStr(s))return fmtDate(s);return String(s||"").replace(/-/g,"/");}
 function addDays(dateStr,n){const d=new Date(dateStr+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function yesterdayISO(){return addDays(todayISO(),-1);}
-function emptyProgress(){return {version:1,updatedAt:new Date().toISOString(),lessons:{},practice:{},streak:{count:0,lastDate:"",dates:[]},review:{},history:[],settings:{dailyGoal:1,remindReview:true}};}
+function emptyProgress(){return {version:1,updatedAt:new Date().toISOString(),lessons:{},practice:{},streak:{count:0,lastDate:"",dates:[]},review:{},history:[],settings:{dailyGoal:1,remindReview:true},xpTotal:0,daily:{date:todayISO(),newDone:0,reviewCount:0,bonusDone:false,skills:{}}};}
 function normalizeProgress(o){
   const p=emptyProgress();
   if(o&&typeof o==="object"){
@@ -392,6 +550,16 @@ function normalizeProgress(o){
     if(Array.isArray(o.history))p.history=o.history.slice(-500);
     if(o.streak&&typeof o.streak==="object"){p.streak.count=(typeof o.streak.count==="number"&&o.streak.count>=0)?o.streak.count:0;p.streak.lastDate=isValidDateStr(o.streak.lastDate)?o.streak.lastDate:"";p.streak.dates=Array.isArray(o.streak.dates)?o.streak.dates.filter(isValidDateStr).slice(-30):[];}
     if(o.settings&&typeof o.settings==="object"){p.settings.dailyGoal=(typeof o.settings.dailyGoal==="number"&&o.settings.dailyGoal>=1)?o.settings.dailyGoal:1;p.settings.remindReview=o.settings.remindReview!==false;}
+    if(typeof o.xpTotal==="number"&&o.xpTotal>=0)p.xpTotal=o.xpTotal;
+    if(o.daily&&typeof o.daily==="object"){
+      const d={date:isValidDateStr(o.daily.date)?o.daily.date:"",newDone:(typeof o.daily.newDone==="number"&&o.daily.newDone>=0)?Math.floor(o.daily.newDone):0,reviewCount:(typeof o.daily.reviewCount==="number"&&o.daily.reviewCount>=0)?Math.floor(o.daily.reviewCount):0,bonusDone:!!o.daily.bonusDone,skills:{}};
+      if(o.daily.skills&&typeof o.daily.skills==="object"){Object.entries(o.daily.skills).forEach(([k,v])=>{if(v===true)d.skills[k]=true;});}
+      p.daily=d;
+    }
+  }
+  if(!(o&&typeof o.xpTotal==="number"&&o.xpTotal>=0)){
+    const doneCount=Object.values(p.lessons||{}).filter(L=>L&&L.done).length;
+    p.xpTotal=doneCount*20;
   }
   const keys=Object.keys(p.practice).sort((a,b)=>String((p.practice[b]||{}).lastAt||"").localeCompare(String((p.practice[a]||{}).lastAt||""))).slice(0,1000);
   const pr={};keys.forEach(k=>{pr[k]=p.practice[k];});p.practice=pr;
@@ -485,6 +653,182 @@ function loadJSON(k){try{const v=storageGet(k);return v?JSON.parse(v)||{}:{};}ca
 function saveJSON(k,v){try{storageSet(k,JSON.stringify(v));}catch(e){}}
 function loadStreak(){const p=getProgress();return {streak:p.streak.count||0,last:p.streak.lastDate||""};}
 function updateStreak(){const p=getProgress();const t=todayISO();updateStreakIn(p,t);saveProgress(p);return loadStreak();}
+/* XP, Nhiệm vụ hôm nay, phiên kỹ năng, vòng một lỗi bốn kỹ năng.
+   XP: 200 XP một cấp, không khóa bài. Người học cũ gieo 20 XP mỗi bài đã nhớ
+   (trong normalizeProgress). Nhiệm vụ hôm nay: học 1 bài mới 20 XP, ôn 2 bài
+   đến hạn 10 XP, luyện nói 1 câu 20 XP, xong cả 3 thưởng thêm 50 XP.
+   Vòng một lỗi bốn kỹ năng: mỗi bài đã nhớ có dạng kỹ năng cho lần ôn tới,
+   xoay theo thứ tự nghe, viết, đọc, nói, lịch ôn 1, 3, 7, 30 ngày. */
+const XP_PER_LEVEL=200;
+const SKILL_ORDER=["listen","write","read","speak"];
+const SKILL_LABEL={listen:"Nghe",write:"Viết",read:"Đọc",speak:"Nói"};
+const SKILL_PATH={listen:"luyen-nghe/",write:"luyen-viet/",read:"luyen-doc/",speak:"luyen-noi/"};
+const SKILL_DUE=[1,3,7,30];
+const MISSIONS=[
+  {id:"new",label:"Học 1 bài mới",xp:20,done:d=>(d.newDone||0)>=1,prog:d=>Math.min(1,(d.newDone||0))},
+  {id:"review",label:"Ôn 2 bài đến hạn",xp:10,done:d=>(d.reviewCount||0)>=2,prog:d=>Math.min(1,(d.reviewCount||0)/2)},
+  {id:"speak",label:"Luyện nói 1 câu",xp:20,done:d=>!!(d.skills&&d.skills.speak),prog:d=>(d.skills&&d.skills.speak)?1:0}
+];
+function emptyDaily(){return {date:todayISO(),newDone:0,reviewCount:0,bonusDone:false,skills:{}};}
+function ensureDaily(p){if(!p.daily||p.daily.date!==todayISO())p.daily=emptyDaily();return p.daily;}
+function dailyToday(p){if(p.daily&&p.daily.date===todayISO())return p.daily;return emptyDaily();}
+function awardXp(p,n){p.xpTotal=Math.max(0,(typeof p.xpTotal==="number"?p.xpTotal:0)+n);return p.xpTotal;}
+function xpLevel(xp){return Math.floor(Math.max(0,xp||0)/XP_PER_LEVEL)+1;}
+function xpInLevel(xp){return Math.max(0,xp||0)%XP_PER_LEVEL;}
+function checkDailyBonus(p){
+  const d=ensureDaily(p);
+  if(d.newDone>=1&&d.reviewCount>=2&&d.skills&&d.skills.speak&&!d.bonusDone){d.bonusDone=true;awardXp(p,50);return true;}
+  return false;
+}
+function missionStatus(p){
+  const d=dailyToday(p);
+  return MISSIONS.map(m=>({id:m.id,label:m.label,xp:m.xp,done:!!m.done(d),prog:m.prog(d)}));
+}
+function countReview(p,slug,wasStudiedToday){
+  const d=ensureDaily(p);
+  const L=p.lessons[slug];
+  if(!L||!L.done)return false;
+  if(wasStudiedToday)return false;
+  L.lastStudiedAt=todayISO();
+  d.reviewCount=(d.reviewCount||0)+1;
+  if(d.reviewCount===2)awardXp(p,10);
+  checkDailyBonus(p);
+  return true;
+}
+function markSkillDone(p,skill,xp){
+  const d=ensureDaily(p);
+  if(d.skills[skill])return false;
+  d.skills[skill]=true;
+  awardXp(p,xp);
+  checkDailyBonus(p);
+  return true;
+}
+function renderStreakPills(){
+  try{const p=getProgress();const n=p.streak.count||0;document.querySelectorAll(".streak-pill").forEach(el=>{el.textContent=n+" ngày";});}catch(e){}
+}
+function loadSkillSession(key){
+  const rec=loadJSON("sdsc-"+key+"-v1");
+  const out={sessions:0,seconds:0,words:0,best:0,lastDay:"",streak:0,lastStreakDay:"",bestByTopic:{},lastBySlug:{}};
+  if(rec&&typeof rec==="object"){
+    if(typeof rec.sessions==="number")out.sessions=rec.sessions;
+    if(typeof rec.seconds==="number")out.seconds=rec.seconds;
+    else if(typeof rec.minutes==="number")out.seconds=Math.round(rec.minutes*60);
+    if(typeof rec.words==="number")out.words=rec.words;
+    if(typeof rec.best==="number")out.best=rec.best;
+    if(typeof rec.lastDay==="string")out.lastDay=rec.lastDay;
+    if(typeof rec.streak==="number")out.streak=rec.streak;
+    if(typeof rec.lastStreakDay==="string")out.lastStreakDay=rec.lastStreakDay;
+    if(rec.bestByTopic&&typeof rec.bestByTopic==="object")out.bestByTopic=rec.bestByTopic;
+    if(rec.lastBySlug&&typeof rec.lastBySlug==="object")out.lastBySlug=rec.lastBySlug;
+  }
+  out.minutes=out.sessions>0?Math.max(1,Math.round(out.seconds/60)):0;
+  return out;
+}
+function recordSkillSession(key,seconds,words,score,extra){
+  const rec=loadSkillSession(key);
+  const today=todayISO();
+  rec.sessions=(rec.sessions||0)+1;
+  rec.seconds=(rec.seconds||0)+Math.max(0,Math.round(seconds||0));
+  rec.words=(rec.words||0)+Math.max(0,Math.round(words||0));
+  if(typeof score==="number")rec.best=Math.max(rec.best||0,score);
+  rec.lastDay=today;
+  if(rec.lastStreakDay===today){}
+  else if(rec.lastStreakDay===addDays(today,-1)){rec.streak=(rec.streak||0)+1;}
+  else{rec.streak=1;}
+  rec.lastStreakDay=today;
+  if(extra&&extra.topic&&typeof score==="number"){rec.bestByTopic[extra.topic]=Math.max(rec.bestByTopic[extra.topic]||0,score);}
+  if(extra&&extra.slug&&typeof score==="number"){rec.lastBySlug[extra.slug]=score;}
+  rec.minutes=rec.sessions>0?Math.max(1,Math.round(rec.seconds/60)):0;
+  saveJSON("sdsc-"+key+"-v1",rec);
+  return rec;
+}
+function loadSpeaking(){return loadSkillSession("speaking");}
+function recordSpeaking(seconds,words,score,topic,slug){
+  const rec=recordSkillSession("speaking",seconds,words,score,{topic:topic,slug:slug});
+  try{if(typeof noteSpeakingSession==="function")noteSpeakingSession(rec);}catch(e){}
+  let xpAwarded=false;
+  updateProgress(p=>{xpAwarded=markSkillDone(p,"speak",20);});
+  return {session:rec,xpAwarded:xpAwarded};
+}
+function skillFor(slug){
+  const p=getProgress();const r=p.review[slug];
+  return (r&&r.skill&&SKILL_ORDER.indexOf(r.skill)>=0)?r.skill:"listen";
+}
+function skillPath(skill){return SKILL_PATH[skill]||SKILL_PATH.speak;}
+function completeSkillReview(slug,skill){
+  const p=getProgress();const today=todayISO();
+  const r=p.review[slug]||srsNew(today);
+  const cur=(r.skill&&SKILL_ORDER.indexOf(r.skill)>=0)?r.skill:"listen";
+  if(cur!==skill)return {advanced:false,skill:cur,nextDue:r.nextDue||null};
+  const step=(typeof r.skillStep==="number"?r.skillStep:0);
+  const nextStep=step+1;
+  r.skillStep=nextStep;
+  r.skill=SKILL_ORDER[nextStep%SKILL_ORDER.length];
+  r.nextDue=addDays(today,SKILL_DUE[Math.min(nextStep%SKILL_ORDER.length,3)]);
+  r.reps=(r.reps||0)+1;
+  p.review[slug]=r;
+  const L=p.lessons[slug];
+  const wasStudiedToday=!!(L&&L.lastStudiedAt===today);
+  if(L){L.reviews=(L.reviews||0)+1;}
+  const counted=countReview(p,slug,wasStudiedToday);
+  pushHistory(p,{date:today,at:new Date().toISOString(),slug:slug,action:"review",skill:skill});
+  saveProgress(p);
+  return {advanced:true,skill:r.skill,nextDue:r.nextDue,counted:counted};
+}
+try{renderStreakPills();}catch(e){}
+/* Căn chỉnh từng từ: so bản nghe được hoặc bản gõ với câu mẫu, theo thứ tự,
+   nhìn trước tối đa 2 từ để nhận từ thừa. Trả về marks (ok/miss theo từng từ
+   của câu mẫu), pct, missed (từ thiếu hoặc sai), extra (từ thừa). */
+function sdscTokenize(s){return String(s||"").toLowerCase().replace(/[^a-z0-9'\s]/g," ").split(/\s+/).filter(Boolean);}
+function sdscAlignWords(target,heard){
+  const t=sdscTokenize(target), h=sdscTokenize(heard);
+  const marks=[];let j=0;const missed=[];const extra=[];let correct=0;
+  for(let i=0;i<t.length;i++){
+    if(j<h.length&&h[j]===t[i]){marks.push("ok");j++;correct++;}
+    else if(j+1<h.length&&h[j+1]===t[i]){extra.push(h[j]);marks.push("ok");j+=2;correct++;}
+    else if(j+2<h.length&&h[j+2]===t[i]){extra.push(h[j]);extra.push(h[j+1]);marks.push("ok");j+=3;correct++;}
+    else{marks.push("miss");missed.push(t[i]);}
+  }
+  for(let k=j;k<h.length;k++)extra.push(h[k]);
+  const pct=t.length?Math.round(100*correct/t.length):0;
+  return {marks:marks,pct:pct,missed:missed,extra:extra,target:t,heard:h};
+}
+function sdscColoredSentence(target,marks){
+  const parts=String(target||"").split(/(\s+)/);
+  let wi=0;let html="";
+  parts.forEach(part=>{
+    if(!/[A-Za-z]/.test(part)){html+=escapeHtml(part);return;}
+    const cls=marks[wi]==="ok"?"w-ok":(marks[wi]==="miss"?"w-miss":"");
+    html+="<span class=\""+cls+"\">"+escapeHtml(part)+"</span>";
+    wi++;
+  });
+  return html;
+}
+/* So sánh 2 câu theo từng từ (LCS), trả HTML 2 câu với từ khác nhau
+   được bọc span.w-diff. Dùng cho trang Nghe (hiện 2 câu cạnh nhau). */
+function sdscWordTokens(s){
+  return String(s||"").split(/\s+/).filter(Boolean).map(function(w){
+    return {text:w,norm:w.toLowerCase().replace(/[^a-z0-9']/g,"")};
+  }).filter(function(t){return t.norm;});
+}
+function sdscDiffHtml(a,b){
+  const ta=sdscWordTokens(a), tb=sdscWordTokens(b);
+  const n=ta.length, m=tb.length;
+  const dp=[];
+  for(let i=0;i<=n;i++){dp.push(new Array(m+1).fill(0));}
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--){dp[i][j]=ta[i].norm===tb[j].norm?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);}
+  const aOut=[], bOut=[];
+  let i=0,j=0;
+  while(i<n&&j<m){
+    if(ta[i].norm===tb[j].norm){aOut.push({t:ta[i].text,same:true});bOut.push({t:tb[j].text,same:true});i++;j++;}
+    else if(dp[i+1][j]>=dp[i][j+1]){aOut.push({t:ta[i].text,same:false});i++;}
+    else{bOut.push({t:tb[j].text,same:false});j++;}
+  }
+  while(i<n){aOut.push({t:ta[i].text,same:false});i++;}
+  while(j<m){bOut.push({t:tb[j].text,same:false});j++;}
+  const wrap=function(parts){return parts.map(function(p){return p.same?escapeHtml(p.t):"<span class=\"w-diff\">"+escapeHtml(p.t)+"</span>";}).join(" ");};
+  return {aHtml:wrap(aOut),bHtml:wrap(bOut)};
+}
 const ICON_MOON='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
 const ICON_SUN='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
 function syncThemeBtn(){try{const b=document.getElementById("theme-toggle");if(b)b.innerHTML=document.documentElement.dataset.theme==="dark"?ICON_SUN:ICON_MOON;}catch(e){}}
@@ -695,6 +1039,9 @@ function validateImportFile(text){
     if(typeof v.attempts!=="number"||!Number.isInteger(v.attempts)||v.attempts<1)return {ok:false,error:"Câu luyện '"+k+"': attempts phải là số nguyên ≥ 1."};
   }
   if(data.streak&&typeof data.streak.count!=="undefined"&&(typeof data.streak.count!=="number"||!Number.isInteger(data.streak.count)||data.streak.count<0))return {ok:false,error:"Trường 'streak.count' phải là số nguyên ≥ 0."};
+  if(data.xpTotal!==undefined&&(typeof data.xpTotal!=="number"||data.xpTotal<0))return {ok:false,error:"Trường 'xpTotal' phải là số ≥ 0."};
+  if(data.daily!==undefined&&(!data.daily||typeof data.daily!=="object"||Array.isArray(data.daily)))return {ok:false,error:"Trường 'daily' phải là object."};
+  if(data.daily&&data.daily.date!==undefined&&data.daily.date!==""&&!isValidDateStr(data.daily.date))return {ok:false,error:"Trường 'daily.date' không phải ngày hợp lệ."};
   if(Array.isArray(data.history)){for(const h of data.history){if(!h||typeof h!=="object"||["done","undone","practice","review","self-grade","import","reset","migrate"].indexOf(h.action)<0)return {ok:false,error:"Trường 'history[].action' không hợp lệ: "+JSON.stringify(h&&h.action)+"."};}}
   for(const [slug,v] of Object.entries(data.review||{})){
     const L=(data.lessons||{})[slug];
@@ -726,6 +1073,13 @@ function mergeProgress(current,incoming){
   if(incLast>curLast){out.streak.count=incoming.streak.count||out.streak.count;out.streak.lastDate=incLast;}
   else if(out.streak.dates.length){out.streak.lastDate=[...out.streak.dates].sort().pop();}
   out.history=[...(out.history||[]),...((incoming.history||[]))].sort((a,b)=>String(a.at||"").localeCompare(String(b.at||""))).slice(-500);
+  out.xpTotal=Math.max(out.xpTotal||0,incoming.xpTotal||0);
+  const dOut=out.daily||{}, dInc=incoming.daily||{};
+  if(dInc.date&&dInc.date===todayISO()){
+    if(dOut.date===todayISO()){
+      out.daily={date:todayISO(),newDone:Math.max(dOut.newDone||0,dInc.newDone||0),reviewCount:Math.max(dOut.reviewCount||0,dInc.reviewCount||0),bonusDone:!!(dOut.bonusDone||dInc.bonusDone),skills:Object.assign({},dOut.skills||{},dInc.skills||{})};
+    }else{out.daily=JSON.parse(JSON.stringify(dInc));}
+  }
   return out;
 }
 function exportProgress(){
@@ -752,39 +1106,12 @@ function importProgressText(text,mode){
   const streakCount=(result.streak&&result.streak.count)||0;
   return {ok:true,message:"Đã nhập: "+doneCount+" bài đã nhớ, "+pracCount+" câu luyện, chuỗi "+streakCount+" ngày (chế độ "+(mode==="overwrite"?"Ghi đè":"Gộp")+")."};
 }
-function loadSpeaking(){
-  try{const v=storageGet("sdsc-speaking-v1");const d=v?JSON.parse(v):null;if(d&&typeof d==="object")return {sessions:d.sessions||0,minutes:d.minutes||0,words:d.words||0,best:d.best||0,lastDay:d.lastDay||""};}catch(e){}
-  return {sessions:0,minutes:0,words:0,best:0,lastDay:""};
-}
 function speakingHoursText(mins){
   mins=Math.round(mins||0);
   if(mins<60)return mins+" phút";
   const h=Math.floor(mins/60);const m=mins%60;
   return h+" giờ"+(m?" "+m+" phút":"");
 }
-function recordSpeaking(minutes,words,score){
-  if(!isFinite(minutes)||minutes<=0)return;
-  const d=loadSpeaking();
-  d.sessions=(d.sessions||0)+1;
-  d.minutes=Math.round(((d.minutes||0)+minutes)*10)/10;
-  d.words=(d.words||0)+(words||0);
-  if(typeof score==="number"&&score>0)d.best=Math.max(d.best||0,Math.round(score));
-  d.lastDay=todayISO();
-  try{storageSet("sdsc-speaking-v1",JSON.stringify(d));}catch(e){}
-  try{noteSpeakingSession(d.minutes);}catch(e){}
-}
-/* Điền tổng số bài vào header (tối ưu B 19/11): tổng số lấy từ data.js
-   lúc chạy, không ghi cứng vào HTML, để thêm bài mới không đổi mọi trang.
-   Trang chủ và trang lộ trình cũng tự cập nhật lại đúng số này sau đó. */
-(function(){
-  try{
-    var total=window.SDSC_TOTAL_LESSONS||0;
-    document.querySelectorAll(".total-lessons-num").forEach(function(el){el.textContent=total;});
-    var p=getProgress();
-    var n=Object.entries(p.lessons||{}).filter(function(le){var l=le[1];return l&&l.done&&window.SDSC_LESSONS[le[0]];}).length;
-    document.querySelectorAll(".progress-num").forEach(function(el){el.textContent=n+" / "+total+" bài";});
-  }catch(e){}
-})();
 </script>
 """
 
@@ -2067,72 +2394,269 @@ LIB_JS = r"""
 SPEAK_JS = r"""
 <script>
 (function(){
-  const sentences=window.SDSC_SPEAK||[];
-  const sel=document.getElementById("speak-pick");
+  const speakable=window.SDSC_SPEAKABLE||[];
+  const weak=window.SDSC_WEAK||[];
+  const viMap=window.SDSC_SPEAK_VI||{};
+  const TOPIC_LABEL={"giao tiếp":"Giao tiếp","ngữ pháp":"Ngữ pháp","từ vựng":"Từ vựng","công sở":"Công sở","quiz tổng hợp":"Quiz tổng hợp","phát âm":"Phát âm"};
+  const TOPIC_ORDER=["giao tiếp","ngữ pháp","từ vựng","công sở","quiz tổng hợp"];
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  const ERR_TEXT={"no-speech":"Máy không nghe thấy gì. Thử lại nhé.","audio-capture":"Không mở được micro. Thử lại nhé.","not-allowed":"Trình duyệt chưa cho phép dùng micro. Bấm cho phép micro rồi thử lại nhé.","network":"Mất mạng lúc nhận diện giọng nói. Kiểm tra mạng rồi thử lại nhé.","aborted":"Đã dừng nghe.","language-not-supported":"Trình duyệt này chưa hỗ trợ nhận diện tiếng Anh."};
+  const todayBox=document.getElementById("speak-today");
+  const topicsBox=document.getElementById("speak-topics");
+  const topicListBox=document.getElementById("speak-topic-list");
+  const weakBox=document.getElementById("speak-weak");
+  const card=document.getElementById("speak-card");
+  const roundEl=document.getElementById("speak-round");
   const targetEl=document.getElementById("speak-target");
   const viEl=document.getElementById("speak-vi");
+  const sourceEl=document.getElementById("speak-source");
   const listenBtn=document.getElementById("speak-listen");
   const startBtn=document.getElementById("speak-start");
   const stopBtn=document.getElementById("speak-stop");
+  const replayBtn=document.getElementById("speak-replay");
   const statusEl=document.getElementById("speak-status");
   const heardBox=document.getElementById("speak-heard");
+  const coloredBox=document.getElementById("speak-colored");
   const scoreBox=document.getElementById("speak-score");
+  const missedBox=document.getElementById("speak-missed");
+  const nextBtn=document.getElementById("speak-next");
+  const doneBox=document.getElementById("speak-done");
+  const newBtn=document.getElementById("speak-new");
   const statsEl=document.getElementById("speak-stats");
   const noSupport=document.getElementById("speak-nosupport");
-  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-  const ERR_TEXT={"no-speech":"Máy không nghe thấy gì. Thử lại nhé.","audio-capture":"Không mở được micro. Thử lại nhé.","not-allowed":"Trình duyệt chưa cho phép dùng micro. Bấm cho phép micro rồi thử lại nhé.","network":"Mất mạng lúc nhận diện giọng nói. Kiểm tra mạng rồi thử lại nhé.","aborted":"Đã dừng nghe.","language-not-supported":"Trình duyệt này chưa hỗ trợ nhận diện tiếng Anh."};
-  let rec=null, startedAt=null, finalText="", cur=null;
-  function showStats(){
+  const randomBtn=document.getElementById("speak-random");
+  let cur=null, round=1, scores=[], sessionStart=null, sessionWords=0, rec=null, finalText="", mediaRecorder=null, audioChunks=[], audioUrl=null, recordingStream=null;
+  function withPeriod(s){
+    s=String(s||"").trim();
+    if(!s)return s;
+    if(/[.!?]$/.test(s))return s;
+    return s+".";
+  }
+  function speakableBySlug(slug){return speakable.find(function(s){return s.slug===slug;});}
+  function lessonOrder(){
+    const order=[];
+    const path=(window.SDSC_PATHS&&window.SDSC_PATHS["hoc-lai-tu-dau"])||[];
+    path.forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    (window.SDSC_ORDER||[]).forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    Object.keys(window.SDSC_LESSONS||{}).forEach(function(s){if(order.indexOf(s)<0)order.push(s);});
+    return order;
+  }
+  function sentenceCard(s){
+    const p=getProgress();
+    const done=p.lessons[s.slug]&&p.lessons[s.slug].done;
     const sp=loadSpeaking();
-    if(statsEl)statsEl.textContent="Bạn đã luyện nói "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm.";
+    const last=sp.lastBySlug[s.slug];
+    const lvl=s.level==="Ngắn"?"Ngắn":"Vừa";
+    return "<button type=\"button\" class=\"speak-sentence\" data-slug=\""+escapeHtml(s.slug)+"\">"
+      +"<span class=\"en\">"+escapeHtml(withPeriod(s.en))+"</span>"
+      +"<span class=\"vi\">"+escapeHtml(s.vi||"")+"</span>"
+      +"<span class=\"meta2\"><span class=\"lvl\">"+lvl+"</span><span>"+escapeHtml(s.code+" "+s.title)+"</span>"
+      +(done?"<span class=\"done-mark\">✓ Đã nhớ</span>":"")
+      +"<span>"+(typeof last==="number"?"Điểm lần trước: "+last:"Chưa luyện")+"</span></span></button>";
   }
-  function normWords(s){
-    return String(s||"").toLowerCase().replace(/[^a-z0-9'\s]/g," ").replace(/\s+/g," ").trim().split(" ").filter(Boolean);
+  function bindSentenceCards(box){
+    if(!box)return;
+    box.querySelectorAll(".speak-sentence").forEach(function(btn){
+      btn.addEventListener("click",function(){
+        const s=speakableBySlug(btn.dataset.slug);
+        if(s)startSession(s);
+      });
+    });
   }
-  function scoreIt(target,heard){
-    const t=normWords(target), h=normWords(heard);
-    if(!t.length||!h.length)return {pct:0,missed:t};
-    const hset={};h.forEach(w=>{hset[w]=(hset[w]||0)+1;});
-    let hit=0;const missed=[];
-    t.forEach(w=>{if(hset[w]>0){hset[w]--;hit++;}else missed.push(w);});
-    return {pct:Math.round(100*hit/t.length),missed:missed};
+  function renderToday(){
+    if(!todayBox)return;
+    const p=getProgress();
+    const order=lessonOrder();
+    const picked=[];
+    order.forEach(function(slug){
+      if(picked.length>=3)return;
+      if(p.lessons[slug]&&p.lessons[slug].done)return;
+      const s=speakableBySlug(slug);
+      if(s)picked.push(s);
+    });
+    if(picked.length<3){
+      const newest=Object.keys(window.SDSC_LESSONS||{}).sort(function(a,b){return String((window.SDSC_LESSONS[b]||{}).date||"").localeCompare(String((window.SDSC_LESSONS[a]||{}).date||""));});
+      newest.forEach(function(slug){
+        if(picked.length>=3)return;
+        if(picked.some(function(s){return s.slug===slug;}))return;
+        const s=speakableBySlug(slug);
+        if(s)picked.push(s);
+      });
+    }
+    if(!picked.length){todayBox.innerHTML="<p>Chưa có câu nào để luyện.</p>";return;}
+    todayBox.innerHTML=picked.map(sentenceCard).join("");
+    bindSentenceCards(todayBox);
   }
-  function pick(i){
-    cur=sentences[i]||sentences[0];
+  function renderTopics(){
+    if(!topicsBox)return;
+    const sp=loadSpeaking();
+    topicsBox.innerHTML=TOPIC_ORDER.map(function(t){
+      const n=speakable.filter(function(s){return s.topic===t;}).length;
+      const best=sp.bestByTopic[t];
+      return "<button type=\"button\" class=\"topic-card\" data-topic=\""+escapeHtml(t)+"\">"
+        +"<b>"+escapeHtml(TOPIC_LABEL[t]||t)+"</b>"
+        +"<span class=\"sub\">"+n+" câu</span>"
+        +"<span class=\"sub\">"+(typeof best==="number"?"Điểm tốt nhất: "+best:"Chưa luyện")+"</span></button>";
+    }).join("");
+    topicsBox.querySelectorAll(".topic-card").forEach(function(btn){
+      btn.addEventListener("click",function(){renderTopicList(btn.dataset.topic);});
+    });
+  }
+  function renderTopicList(topic){
+    if(!topicListBox)return;
+    const list=speakable.filter(function(s){return s.topic===topic;});
+    topicListBox.style.display="block";
+    topicListBox.innerHTML="<h3>"+escapeHtml(TOPIC_LABEL[topic]||topic)+" ("+list.length+" câu)</h3>"+(list.length?list.map(sentenceCard).join(""):"<p>Chưa có câu nào ở chủ đề này.</p>");
+    bindSentenceCards(topicListBox);
+    topicListBox.scrollIntoView({block:"nearest"});
+  }
+  function renderWeak(){
+    if(!weakBox)return;
+    if(!weak.length){weakBox.innerHTML="<p>Chưa có từ yếu nào. Luyện vài buổi rồi quay lại nhé.</p>";return;}
+    weakBox.innerHTML=weak.map(function(w){
+      const s=w.sentence;
+      return "<button type=\"button\" class=\"speak-sentence\" data-slug=\""+escapeHtml(s.slug)+"\">"
+        +"<span class=\"en\">"+escapeHtml(w.word)+(w.vi?" <span class=\"vi\">"+escapeHtml(w.vi)+"</span>":"")+"</span>"
+        +"<span class=\"vi\">"+escapeHtml(withPeriod(s.en))+"</span>"
+        +"<span class=\"meta2\"><span>"+escapeHtml(s.code+" "+s.title)+"</span></span></button>";
+    }).join("");
+    bindSentenceCards(weakBox);
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSpeaking();
+    statsEl.textContent="Bạn đã luyện nói "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện nói "+(sp.streak||0)+" ngày.";
+  }
+  function renderRound(){
     if(!cur)return;
-    if(targetEl)targetEl.textContent=cur.en;
+    if(roundEl)roundEl.textContent="Lượt "+round+" trên 3: "+(round===1?"nghe rồi nói lại chậm":round===2?"nói lại tốc độ tự nhiên":"ẩn câu mẫu, nói lại theo trí nhớ");
+    if(targetEl){
+      targetEl.textContent=withPeriod(cur.en);
+      if(round===3){targetEl.classList.add("speak-hidden");targetEl.textContent="Nói lại theo trí nhớ nhé, dịch ở dưới là gợi ý.";}
+      else targetEl.classList.remove("speak-hidden");
+    }
     if(viEl)viEl.textContent=cur.vi||"";
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+BASE_PATH_PLACEHOLDER+"/bai/"+encodeURIComponent(cur.slug)+"/\">"+escapeHtml(cur.code+" "+cur.title)+"</a>";
     if(listenBtn)listenBtn.dataset.say=cur.en;
     if(heardBox)heardBox.innerHTML="";
+    if(coloredBox)coloredBox.innerHTML="";
     if(scoreBox)scoreBox.innerHTML="";
+    if(missedBox)missedBox.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(doneBox)doneBox.style.display="none";
+    if(statusEl)statusEl.textContent=round===1?"Nghe câu mẫu rồi bấm Bắt đầu nói nhé.":round===2?"Nói lại lần nữa, tốc độ tự nhiên nhé.":"Lần này không nhìn câu mẫu nữa, nói theo trí nhớ nhé.";
+    if(replayBtn)replayBtn.style.display="none";
   }
-  function paramSentence(){
-    try{
-      const q=new URLSearchParams(location.search);
-      const s=q.get("s");
-      if(!s)return -1;
-      return sentences.findIndex(x=>x.en===s);
-    }catch(e){return -1;}
+  function startSession(s){
+    cur=s;round=1;scores=[];sessionWords=0;sessionStart=Date.now();
+    try{if(audioUrl){URL.revokeObjectURL(audioUrl);audioUrl=null;}}catch(e){}
+    if(card)card.style.display="block";
+    renderRound();
+    if(card)card.scrollIntoView({block:"nearest"});
+    if(startBtn)startBtn.disabled=!SR;
   }
-  if(sel){
-    sel.innerHTML=sentences.map((s,i)=>"<option value=\""+i+"\">"+escapeHtml(s.code+": "+s.en)+"</option>").join("");
-    sel.addEventListener("change",()=>pick(parseInt(sel.value,10)||0));
+  function startRecording(){
+    if(!window.MediaRecorder||!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia)return;
+    navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+      recordingStream=stream;audioChunks=[];
+      try{mediaRecorder=new MediaRecorder(stream);}catch(e){return;}
+      mediaRecorder.ondataavailable=function(e){if(e.data&&e.data.size)audioChunks.push(e.data);};
+      mediaRecorder.onstop=function(){
+        try{if(audioUrl)URL.revokeObjectURL(audioUrl);}catch(e){}
+        try{audioUrl=URL.createObjectURL(new Blob(audioChunks,{type:(mediaRecorder&&mediaRecorder.mimeType)||"audio/webm"}));}catch(e){audioUrl=null;}
+        if(audioUrl&&replayBtn)replayBtn.style.display="";
+      };
+      try{mediaRecorder.start();}catch(e){}
+    }).catch(function(){});
   }
-  if(listenBtn)listenBtn.addEventListener("click",()=>{if(cur)speak(cur.en,listenBtn);});
+  function stopRecording(){
+    try{if(mediaRecorder&&mediaRecorder.state!=="inactive")mediaRecorder.stop();}catch(e){}
+    try{if(recordingStream)recordingStream.getTracks().forEach(function(t){t.stop();});}catch(e){}
+    mediaRecorder=null;recordingStream=null;
+  }
+  function finishRound(heard){
+    const r=sdscAlignWords(cur.en,heard);
+    scores.push(r.pct);
+    sessionWords+=sdscTokenize(heard).length;
+    if(coloredBox)coloredBox.innerHTML=sdscColoredSentence(cur.en,r.marks);
+    if(heardBox)heardBox.innerHTML="Máy nghe được: <b>"+escapeHtml(heard)+"</b>";
+    let band="", cls="mid";
+    if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá!";cls="good";}
+    else if(r.pct>=70){band="Khá lắm, còn vài từ chưa rõ. Nghe lại câu mẫu rồi nói lại nhé.";cls="mid";}
+    else if(r.pct>=50){band="Máy nghe được một nửa. Đọc chậm lại, nhấn rõ từng từ nhé.";cls="mid";}
+    else{band="Máy chưa nghe rõ. Thử lại nhé, nói chậm và gần micro hơn.";cls="low";}
+    if(scoreBox)scoreBox.innerHTML="<p class=\"speak-score "+cls+"\">"+r.pct+" điểm</p><p>"+band+"</p>";
+    if(missedBox){
+      if(r.missed.length){
+        missedBox.innerHTML="<p>Từ chưa đúng:</p>"+r.missed.map(function(w){
+          const v=viMap[String(w).toLowerCase()]||"";
+          return "<div class=\"miss-row\"><span><b>"+escapeHtml(w)+"</b>"+(v?" <span class=\"vi\">"+escapeHtml(v)+"</span>":"")+"</span><button type=\"button\" class=\"btn btn-ghost btn-listen-word\" data-say=\""+escapeHtml(w)+"\">Nghe</button></div>";
+        }).join("");
+        missedBox.querySelectorAll(".btn-listen-word").forEach(function(b){
+          b.addEventListener("click",function(){speak(b.dataset.say,b);});
+        });
+      }else{
+        missedBox.innerHTML="<p>Nói đúng hết mọi từ. Tuyệt vời!</p>";
+      }
+    }
+    if(statusEl)statusEl.textContent=round<3?"Xong lượt "+round+". Bấm Lượt tiếp theo để nói tiếp nhé.":"Xong lượt 3, buổi luyện nói đã xong.";
+    if(round<3){if(nextBtn)nextBtn.style.display="";}
+    else finishSession();
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    const res=recordSpeaking(seconds,sessionWords,avg,cur.topic,cur.slug);
+    let adv=false;
+    try{adv=completeSkillReview(cur.slug,"speak");}catch(e){}
+    showStats();
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện nói</h3><p>Điểm trung bình 3 lượt: <b>"+avg+" điểm</b>.</p>"
+        +(res.xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện nói rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Nói, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"speak-again\">Luyện câu khác</button></p>";
+      const again=document.getElementById("speak-again");
+      if(again)again.addEventListener("click",function(){
+        if(card)card.style.display="none";
+        const t=document.getElementById("speak-today");
+        if(t)t.scrollIntoView({block:"nearest"});
+      });
+    }
+  }
+  if(listenBtn)listenBtn.addEventListener("click",function(){if(cur)speak(cur.en,listenBtn);});
+  if(replayBtn)replayBtn.addEventListener("click",function(){
+    if(!audioUrl)return;
+    try{new Audio(audioUrl).play();}catch(e){}
+  });
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    if(round<3){round++;renderRound();}
+  });
+  if(newBtn)newBtn.addEventListener("click",function(){
+    if(card)card.style.display="none";
+    const t=document.getElementById("speak-today");
+    if(t)t.scrollIntoView({block:"nearest"});
+  });
+  if(randomBtn)randomBtn.addEventListener("click",function(){
+    if(!speakable.length)return;
+    const s=speakable[Math.floor(Math.random()*speakable.length)];
+    startSession(s);
+  });
   if(!SR){
     if(noSupport)noSupport.style.display="block";
     if(startBtn)startBtn.disabled=true;
-    if(statusEl)statusEl.textContent="Trình duyệt này chưa hỗ trợ nhận diện giọng nói.";
+    if(statusEl)statusEl.textContent="Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Dùng Chrome hoặc Edge để luyện nói nhé.";
   }else if(startBtn){
-    startBtn.addEventListener("click",()=>{
+    startBtn.addEventListener("click",function(){
       if(!cur)return;
       try{rec=new SR();}catch(e){if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";return;}
       rec.lang="en-US";rec.interimResults=true;rec.continuous=false;rec.maxAlternatives=1;
-      finalText="";startedAt=Date.now();
+      finalText="";
+      startRecording();
       if(statusEl)statusEl.innerHTML="<span class=\"rec-dot\"></span>Đang nghe… nói câu trên nhé.";
       if(startBtn)startBtn.disabled=true;
       if(stopBtn)stopBtn.disabled=false;
-      rec.onresult=e=>{
+      rec.onresult=function(e){
         let interim="",fin="";
         for(let i=e.resultIndex;i<e.results.length;i++){
           if(e.results[i].isFinal)fin+=e.results[i][0].transcript;
@@ -2141,43 +2665,891 @@ SPEAK_JS = r"""
         if(fin)finalText+=fin;
         if(heardBox)heardBox.textContent="Máy đang nghe: "+(finalText+interim);
       };
-      rec.onerror=e=>{
+      rec.onerror=function(e){
+        stopRecording();
         if(statusEl)statusEl.textContent=ERR_TEXT[(e&&e.error)||""]||"Máy chưa nghe được. Thử lại nhé, nói rõ và gần micro hơn.";
         if(startBtn)startBtn.disabled=false;
         if(stopBtn)stopBtn.disabled=true;
       };
-      rec.onend=()=>{
+      rec.onend=function(){
+        stopRecording();
         if(startBtn)startBtn.disabled=false;
         if(stopBtn)stopBtn.disabled=true;
         const heard=(finalText||"").trim();
         if(!heard){if(statusEl)statusEl.textContent="Máy không nghe thấy gì. Thử lại nhé.";return;}
-        const mins=startedAt?(Date.now()-startedAt)/60000:0;
-        const r=scoreIt(cur.en,heard);
-        const words=normWords(heard).length;
-        recordSpeaking(mins,words,r.pct);
-        showStats();
-        if(heardBox)heardBox.innerHTML="Máy nghe được: <b>"+escapeHtml(heard)+"</b>"+(r.missed.length?"<br>Từ máy chưa nghe rõ: "+escapeHtml(r.missed.join(", ")):"");
-        let band="", cls="mid";
-        if(r.pct>=90){band="Gần như chuẩn rồi. Giỏi quá!";cls="good";}
-        else if(r.pct>=70){band="Khá lắm, còn vài từ chưa rõ. Nghe lại câu mẫu rồi nói lại nhé.";cls="mid";}
-        else if(r.pct>=50){band="Máy nghe được một nửa. Đọc chậm lại, nhấn rõ từng từ nhé.";cls="mid";}
-        else{band="Máy chưa nghe rõ. Thử lại nhé, nói chậm và gần micro hơn.";cls="low";}
-        if(scoreBox)scoreBox.innerHTML="<p class=\"speak-score "+cls+"\">"+r.pct+" điểm</p><p>"+band+"</p>";
-        if(statusEl)statusEl.textContent="Xong 1 lượt luyện nói.";
+        finishRound(heard);
       };
-      try{rec.start();}catch(e){if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";if(startBtn)startBtn.disabled=false;if(stopBtn)stopBtn.disabled=true;}
+      try{rec.start();}catch(e){stopRecording();if(statusEl)statusEl.textContent="Không mở được micro, thử lại nhé.";if(startBtn)startBtn.disabled=false;if(stopBtn)stopBtn.disabled=true;}
     });
   }
-  if(stopBtn)stopBtn.addEventListener("click",()=>{try{if(rec)rec.stop();}catch(e){}});
-  const pi=paramSentence();
-  if(sel&&pi>=0){sel.value=String(pi);}
-  pick(pi>=0?pi:0);
-  showStats();
+  if(stopBtn)stopBtn.addEventListener("click",function(){try{if(rec)rec.stop();}catch(e){}});
+  renderToday();renderTopics();renderWeak();showStats();
+  try{
+    const q=new URLSearchParams(location.search);
+    const lesson=q.get("lesson");
+    const sParam=q.get("s");
+    if(lesson){
+      const s=speakableBySlug(lesson);
+      if(s)startSession(s);
+      else if(window.SDSC_LESSONS&&window.SDSC_LESSONS[lesson]){
+        const l=window.SDSC_LESSONS[lesson];
+        startSession({en:l.right||"",vi:l.right_note||"",code:l.code||"",slug:lesson,topic:l.topic||"",title:l.title||"",words:sdscTokenize(l.right||"").length,level:"Vừa"});
+      }
+    }else if(sParam){
+      const old=(window.SDSC_SPEAK||[]).find(function(x){return x.en===sParam;});
+      const s=old?{en:old.en,vi:old.vi||"",code:old.code||"",slug:old.slug||"",topic:old.topic||"",title:old.title||"",words:sdscTokenize(old.en).length,level:"Vừa"}:null;
+      if(s)startSession(s);
+    }
+  }catch(e){}
+  window.__speakTest={
+    startSession:startSession,
+    completeRound:function(transcript){if(!cur)return null;finishRound(String(transcript||""));return {round:round,scores:scores.slice()};},
+    state:function(){return {round:round,scores:scores.slice(),sentence:cur?cur.en:null};},
+    speakable:speakable
+  };
 })();
 </script>
 """
 
 
+
+LISTEN_JS = r"""
+<script>
+(function(){
+  const skills=window.SDSC_SKILLS||{};
+  const pairs=[];
+  Object.keys(skills).forEach(function(slug){
+    const l=skills[slug];
+    const ms=(l.mistakes||[]).filter(function(m){return m.wrong&&m.right;});
+    if(ms.length){
+      ms.forEach(function(m){pairs.push({wrong:m.wrong,right:m.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});});
+    }else if(l.wrong&&l.right){
+      pairs.push({wrong:l.wrong,right:l.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});
+    }
+  });
+  const modes=["pick","choose","type"];
+  const MODE_LABEL={pick:"Nghe 1 câu, chọn Sai hay Đúng",choose:"Nghe 2 câu, chọn câu nào đúng",type:"Nghe câu sai, gõ lại thành câu đúng"};
+  const card=document.getElementById("listen-card");
+  const roundEl=document.getElementById("listen-round");
+  const promptEl=document.getElementById("listen-prompt");
+  const playBox=document.getElementById("listen-play");
+  const choiceBox=document.getElementById("listen-choices");
+  const typeBox=document.getElementById("listen-type");
+  const typeInput=document.getElementById("listen-input");
+  const typeBtn=document.getElementById("listen-check");
+  const feedbackEl=document.getElementById("listen-feedback");
+  const nextBtn=document.getElementById("listen-next");
+  const doneBox=document.getElementById("listen-done");
+  const statsEl=document.getElementById("listen-stats");
+  const startBox=document.getElementById("listen-start");
+  const progressEl=document.getElementById("listen-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, played=null;
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("listening");
+    statsEl.textContent="Bạn đã luyện nghe "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện nghe "+(sp.streak||0)+" ngày.";
+  }
+  function pairHtml(p){
+    const d=sdscDiffHtml(p.wrong,p.right);
+    return "<div class=\"skill-pair\"><div class=\"pair\"><b>Câu sai</b><p>"+d.aHtml+"</p></div>"
+      +"<div class=\"pair\"><b>Câu đúng</b><p>"+d.bHtml+"</p></div></div>"
+      +(p.why?"<p>"+escapeHtml(p.why)+"</p>":"");
+  }
+  function startSession(){
+    let pool=pairs.slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(!pool.length)pool=pairs.slice();
+    shuffle(pool);
+    session=[];
+    for(let r=0;r<6;r++){
+      session.push({pair:pool[r%pool.length],mode:modes[r%3]});
+    }
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    const cur=session[idx];
+    if(!cur)return;
+    played=null;
+    if(roundEl)roundEl.textContent="Câu "+(idx+1)+" trên "+session.length+": "+MODE_LABEL[cur.mode];
+    if(progressEl)progressEl.textContent="Buổi luyện nghe: "+(idx+1)+" trên "+session.length+" câu.";
+    if(promptEl)promptEl.innerHTML="Từ bài <a href=\""+BASE_PATH_PLACEHOLDER+"/bai/"+encodeURIComponent(cur.pair.slug)+"/\">"+escapeHtml(cur.pair.code+" "+cur.pair.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(typeBox)typeBox.style.display="none";
+    if(choiceBox)choiceBox.innerHTML="";
+    if(playBox)playBox.innerHTML="";
+    sessionWords+=sdscTokenize(cur.pair.right).length;
+    if(cur.mode==="pick"){
+      const isRight=Math.random()<0.5;
+      const spoken=isRight?cur.pair.right:cur.pair.wrong;
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-one\">Nghe câu này</button>";
+      const pb=document.getElementById("listen-play-one");
+      if(pb)pb.addEventListener("click",function(){played=spoken;speak(spoken,pb);});
+      if(choiceBox)choiceBox.innerHTML="<button type=\"button\" class=\"opt\" data-v=\"wrong\"><span class=\"letter\">A</span><span>Câu sai</span></button><button type=\"button\" class=\"opt\" data-v=\"right\"><span class=\"letter\">B</span><span>Câu đúng</span></button>";
+      choiceBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){
+          const ok=(b.dataset.v==="right")===isRight;
+          scores.push(ok?100:0);
+          if(feedbackEl)feedbackEl.innerHTML=(ok?"<p class=\"good\">Đúng rồi!</p>":"<p class=\"bad\">Chưa đúng. Câu vừa nghe là câu "+(isRight?"đúng":"sai")+".</p>")+pairHtml(cur.pair);
+          if(nextBtn)nextBtn.style.display="";
+        });
+      });
+    }else if(cur.mode==="choose"){
+      const order=Math.random()<0.5?[cur.pair.wrong,cur.pair.right]:[cur.pair.right,cur.pair.wrong];
+      const rightIdx=order[0]===cur.pair.right?0:1;
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-1\">Nghe câu 1</button> <button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-2\">Nghe câu 2</button>";
+      const p1=document.getElementById("listen-play-1"), p2=document.getElementById("listen-play-2");
+      if(p1)p1.addEventListener("click",function(){speak(order[0],p1);});
+      if(p2)p2.addEventListener("click",function(){speak(order[1],p2);});
+      if(choiceBox)choiceBox.innerHTML="<button type=\"button\" class=\"opt\" data-v=\"0\"><span class=\"letter\">A</span><span>Câu 1 đúng</span></button><button type=\"button\" class=\"opt\" data-v=\"1\"><span class=\"letter\">B</span><span>Câu 2 đúng</span></button>";
+      choiceBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){
+          const ok=parseInt(b.dataset.v,10)===rightIdx;
+          scores.push(ok?100:0);
+          if(feedbackEl)feedbackEl.innerHTML=(ok?"<p class=\"good\">Đúng rồi! Câu "+(rightIdx+1)+" là câu đúng.</p>":"<p class=\"bad\">Chưa đúng. Câu "+(rightIdx+1)+" mới là câu đúng.</p>")+pairHtml(cur.pair);
+          if(nextBtn)nextBtn.style.display="";
+        });
+      });
+    }else{
+      if(playBox)playBox.innerHTML="<button type=\"button\" class=\"btn btn-navy\" id=\"listen-play-wrong\">Nghe câu sai</button>";
+      const pb=document.getElementById("listen-play-wrong");
+      if(pb)pb.addEventListener("click",function(){speak(cur.pair.wrong,pb);});
+      if(typeBox)typeBox.style.display="block";
+      if(typeInput)typeInput.value="";
+      if(typeInput)typeInput.focus();
+      const check=function(){
+        const typed=typeInput?String(typeInput.value||"").trim():"";
+        if(!typed)return;
+        const r=sdscAlignWords(cur.pair.right,typed);
+        scores.push(r.pct);
+        const d=sdscDiffHtml(typed,cur.pair.right);
+        if(feedbackEl)feedbackEl.innerHTML="<p>Bạn gõ: "+d.aHtml+"</p><p>Câu đúng: "+d.bHtml+"</p>"
+          +"<p>Điểm lượt này: <b>"+r.pct+" điểm</b></p>"
+          +"<div class=\"skill-colored\">"+sdscColoredSentence(cur.pair.right,r.marks)+"</div>"
+          +(r.missed.length?"<p>Từ còn thiếu hoặc chưa đúng: "+escapeHtml(r.missed.join(", "))+"</p>":"<p>Gõ đúng hết mọi từ. Tuyệt vời!</p>")
+          +(cur.pair.why?"<p>"+escapeHtml(cur.pair.why)+"</p>":"");
+        if(nextBtn)nextBtn.style.display="";
+      };
+      if(typeBtn)typeBtn.onclick=check;
+      if(typeInput)typeInput.onkeydown=function(e){if(e.key==="Enter"){e.preventDefault();check();}};
+    }
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("listening",seconds,sessionWords,avg);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"listen",20);});
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"listen");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện nghe</h3><p>Điểm trung bình "+session.length+" câu: <b>"+avg+" điểm</b>.</p>"
+        +(xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện nghe rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Nghe, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"listen-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("listen-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("listen-begin");
+  if(startBtn)startBtn.addEventListener("click",startSession);
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&skills[l])lessonSlug=l;
+  }catch(e){}
+  showStats();
+  if(lessonSlug)startSession();
+  window.__listenTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),mode:session[idx]?session[idx].mode:null,pair:session[idx]?session[idx].pair:null};},
+    answerPick:function(v){const b=choiceBox&&choiceBox.querySelector(".opt[data-v=\""+v+"\"]");if(b)b.click();},
+    answerChoose:function(v){const b=choiceBox&&choiceBox.querySelector(".opt[data-v=\""+v+"\"]");if(b)b.click();},
+    answerType:function(t){if(typeInput)typeInput.value=t;if(typeBtn)typeBtn.click();},
+    next:function(){if(nextBtn)nextBtn.click();}
+  };
+})();
+</script>
+"""
+
+WRITE_JS = r"""
+<script>
+(function(){
+  const skills=window.SDSC_SKILLS||{};
+  const pairs=[];
+  Object.keys(skills).forEach(function(slug){
+    const l=skills[slug];
+    const ms=(l.mistakes||[]).filter(function(m){return m.wrong&&m.right;});
+    if(ms.length){
+      ms.forEach(function(m){pairs.push({wrong:m.wrong,right:m.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});});
+    }else if(l.wrong&&l.right){
+      pairs.push({wrong:l.wrong,right:l.right,code:l.code,title:l.title,slug:slug,topic:l.topic||"",why:l.why||"",right_note:l.right_note||""});
+    }
+  });
+  const WRONG_KEY="sdsc-write-wrong-v1";
+  function loadWrong(){try{const v=loadJSON(WRONG_KEY);return Array.isArray(v)?v:[];}catch(e){return [];}}
+  function saveWrong(list){try{saveJSON(WRONG_KEY,list);}catch(e){}}
+  function noteWrong(pair,ok){
+    const list=loadWrong();
+    const key=pair.slug+"|"+pair.wrong;
+    const i=list.findIndex(function(x){return x.key===key;});
+    if(ok){if(i>=0){list.splice(i,1);saveWrong(list);}}
+    else{
+      if(i>=0)list[i].count=(list[i].count||1)+1;
+      else list.push({key:key,wrong:pair.wrong,right:pair.right,code:pair.code,title:pair.title,slug:pair.slug,count:1});
+      saveWrong(list);
+    }
+  }
+  const modes=["fix","translate","fill"];
+  const MODE_LABEL={fix:"Viết lại câu sai thành câu đúng",translate:"Dịch từ tiếng Việt sang câu đúng",fill:"Điền từ còn thiếu"};
+  const card=document.getElementById("write-card");
+  const roundEl=document.getElementById("write-round");
+  const promptEl=document.getElementById("write-prompt");
+  const sourceEl=document.getElementById("write-source");
+  const inputEl=document.getElementById("write-input");
+  const checkBtn=document.getElementById("write-check");
+  const feedbackEl=document.getElementById("write-feedback");
+  const nextBtn=document.getElementById("write-next");
+  const doneBox=document.getElementById("write-done");
+  const statsEl=document.getElementById("write-stats");
+  const wrongBox=document.getElementById("write-wrong");
+  const startBox=document.getElementById("write-start");
+  const progressEl=document.getElementById("write-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, curPair=null;
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("writing");
+    statsEl.textContent="Bạn đã luyện viết "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện viết "+(sp.streak||0)+" ngày.";
+  }
+  function renderWrongList(){
+    if(!wrongBox)return;
+    const list=loadWrong();
+    if(!list.length){wrongBox.innerHTML="<p>Chưa có câu nào bạn hay viết sai. Luyện vài buổi rồi quay lại nhé.</p>";return;}
+    wrongBox.innerHTML=list.map(function(x){
+      return "<div class=\"miss-row\"><span><b>"+escapeHtml(x.wrong)+"</b> <span class=\"vi\">sai "+x.count+" lần</span></span><button type=\"button\" class=\"btn btn-ghost\" data-slug=\""+escapeHtml(x.slug)+"\" data-wrong=\""+escapeHtml(x.wrong)+"\">Luyện lại</button></div>";
+    }).join("");
+    wrongBox.querySelectorAll("button").forEach(function(b){
+      b.addEventListener("click",function(){
+        const p=pairs.find(function(pp){return pp.slug===b.dataset.slug&&pp.wrong===b.dataset.wrong;});
+        if(p)startSession([p]);
+      });
+    });
+  }
+  function blankWords(sentence){
+    const toks=sdscWordTokens(sentence);
+    const content=toks.filter(function(t){return t.norm.length>2;});
+    if(!content.length)return {display:sentence,answer:""};
+    const pick=content[Math.floor(Math.random()*content.length)];
+    const display=toks.map(function(t){return t.norm===pick.norm?"___":t.text;}).join(" ");
+    return {display:display,answer:pick.text};
+  }
+  function startSession(fixedPairs){
+    let pool=pairs.slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(fixedPairs&&fixedPairs.length)pool=fixedPairs.slice();
+    if(!pool.length)pool=pairs.slice();
+    shuffle(pool);
+    session=[];
+    for(let r=0;r<3;r++){
+      const item={pair:pool[r%pool.length],mode:modes[r%3]};
+      if(item.mode==="translate"&&!item.pair.right_note)item.mode="fix";
+      session.push(item);
+    }
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    const cur=session[idx];
+    if(!cur)return;
+    curPair=cur.pair;
+    if(roundEl)roundEl.textContent="Câu "+(idx+1)+" trên "+session.length+": "+MODE_LABEL[cur.mode];
+    if(progressEl)progressEl.textContent="Buổi luyện viết: "+(idx+1)+" trên "+session.length+" câu.";
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+BASE_PATH_PLACEHOLDER+"/bai/"+encodeURIComponent(cur.pair.slug)+"/\">"+escapeHtml(cur.pair.code+" "+cur.pair.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    if(inputEl){inputEl.value="";inputEl.focus();}
+    if(cur.mode==="fix"){
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(cur.pair.wrong)+"</p><p class=\"skill-vi\">Viết lại câu này thành câu đúng nhé.</p>";
+    }else if(cur.mode==="translate"){
+      const vi=cur.pair.right_note||"";
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(vi)+"</p><p class=\"skill-vi\">Dịch câu trên sang tiếng Anh, viết đúng câu đã học nhé.</p>";
+    }else{
+      const b=blankWords(cur.pair.right);
+      cur.blank=b;
+      if(promptEl)promptEl.innerHTML="<p class=\"skill-sentence\">"+escapeHtml(b.display)+"</p><p class=\"skill-vi\">Điền từ còn thiếu vào chỗ trống nhé.</p>";
+    }
+  }
+  function check(){
+    const cur=session[idx];
+    if(!cur)return;
+    const typed=inputEl?String(inputEl.value||"").trim():"";
+    if(!typed)return;
+    sessionWords+=sdscTokenize(typed).length;
+    let target=cur.pair.right, pct=0, marks=[], missed=[];
+    if(cur.mode==="fill"){
+      const filled=cur.blank.display.replace("___",typed);
+      const r=sdscAlignWords(target,filled);
+      pct=r.pct;marks=r.marks;missed=r.missed;
+    }else{
+      const r=sdscAlignWords(target,typed);
+      pct=r.pct;marks=r.marks;missed=r.missed;
+    }
+    scores.push(pct);
+    const ok=pct>=90;
+    noteWrong(cur.pair,ok);
+    const d=sdscDiffHtml(typed,target);
+    if(feedbackEl)feedbackEl.innerHTML="<p>Bạn viết: "+d.aHtml+"</p><p>Câu đúng: "+d.bHtml+"</p>"
+      +"<p>Điểm lượt này: <b>"+pct+" điểm</b></p>"
+      +"<div class=\"skill-colored\">"+sdscColoredSentence(target,marks)+"</div>"
+      +(missed.length?"<p>Từ còn thiếu hoặc chưa đúng: "+escapeHtml(missed.join(", "))+"</p>":"<p>Viết đúng hết mọi từ. Tuyệt vời!</p>")
+      +(cur.pair.why?"<p>"+escapeHtml(cur.pair.why)+"</p>":"");
+    if(nextBtn)nextBtn.style.display="";
+    renderWrongList();
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("writing",seconds,sessionWords,avg);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"write",20);});
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"write");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện viết</h3><p>Điểm trung bình "+session.length+" câu: <b>"+avg+" điểm</b>.</p>"
+        +(xpAwarded?"<p>Nhận <b>+20 XP</b>, đã cộng vào Nhiệm vụ hôm nay.</p>":"<p>Hôm nay đã nhận 20 XP luyện viết rồi.</p>")
+        +(adv?"<p>Bài này đã ôn xong bằng Viết, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"write-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("write-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(checkBtn)checkBtn.addEventListener("click",check);
+  if(inputEl)inputEl.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();check();}});
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("write-begin");
+  if(startBtn)startBtn.addEventListener("click",function(){startSession();});
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&skills[l])lessonSlug=l;
+  }catch(e){}
+  showStats();renderWrongList();
+  if(lessonSlug)startSession();
+  window.__writeTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),mode:session[idx]?session[idx].mode:null,pair:session[idx]?session[idx].pair:null};},
+    answer:function(t){if(inputEl)inputEl.value=t;check();},
+    next:function(){if(nextBtn)nextBtn.click();},
+    wrongList:loadWrong
+  };
+})();
+</script>
+"""
+
+READ_JS = r"""
+<script>
+(function(){
+  const passages=(window.SDSC_READING&&window.SDSC_READING.passages)||window.SDSC_READING||[];
+  const viMap=window.SDSC_READ_VI||{};
+  const card=document.getElementById("read-card");
+  const levelEl=document.getElementById("read-level");
+  const passageEl=document.getElementById("read-passage");
+  const situationEl=document.getElementById("read-situation");
+  const sourceEl=document.getElementById("read-source");
+  const fixBox=document.getElementById("read-fix");
+  const qBox=document.getElementById("read-question");
+  const feedbackEl=document.getElementById("read-feedback");
+  const nextBtn=document.getElementById("read-next");
+  const doneBox=document.getElementById("read-done");
+  const statsEl=document.getElementById("read-stats");
+  const wordPop=document.getElementById("read-wordpop");
+  const startBox=document.getElementById("read-start");
+  const progressEl=document.getElementById("read-progress");
+  let session=[], idx=0, scores=[], sessionStart=null, sessionWords=0, lessonSlug=null, cur=null, findAttempts=0, fixAttempts=0, found=false, fixed=false, qDone=false;
+  function getLevel(){
+    try{const p=getProgress();const lv=p.settings&&p.settings.readLevel;return (lv===1||lv===2||lv===3)?lv:1;}catch(e){return 1;}
+  }
+  function setLevel(lv){
+    updateProgress(function(p){if(!p.settings)p.settings={};p.settings.readLevel=Math.max(1,Math.min(3,lv));});
+  }
+  function showStats(){
+    if(!statsEl)return;
+    const sp=loadSkillSession("reading");
+    statsEl.textContent="Bạn đã luyện đọc "+(sp.sessions||0)+" buổi, tổng "+speakingHoursText(sp.minutes||0)+", điểm tốt nhất "+(sp.best||0)+" điểm, chuỗi luyện đọc "+(sp.streak||0)+" ngày.";
+  }
+  function passagesAtLevel(lv){
+    const list=passages.filter(function(p){return p.level===lv;});
+    if(list.length)return list;
+    return passages.slice();
+  }
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=a[i];a[i]=a[j];a[j]=t;}
+    return a;
+  }
+  function startSession(){
+    const lv=getLevel();
+    let pool=passagesAtLevel(lv).slice();
+    if(lessonSlug)pool=pool.filter(function(p){return p.slug===lessonSlug;});
+    if(!pool.length)pool=passages.slice();
+    shuffle(pool);
+    session=pool.slice(0,3);
+    idx=0;scores=[];sessionWords=0;sessionStart=Date.now();
+    if(startBox)startBox.style.display="none";
+    if(card)card.style.display="block";
+    if(doneBox)doneBox.style.display="none";
+    renderRound();
+  }
+  function renderRound(){
+    cur=session[idx];
+    if(!cur)return;
+    findAttempts=0;fixAttempts=0;found=false;fixed=false;qDone=false;
+    if(levelEl)levelEl.textContent="Cấp độ đọc: "+getLevel()+" trên 3. Đạt 90 điểm trở lên thì lần sau khó hơn, dưới 70 điểm thì dễ hơn.";
+    if(progressEl)progressEl.textContent="Buổi luyện đọc: đoạn "+(idx+1)+" trên "+session.length+".";
+    if(situationEl)situationEl.textContent="Tình huống: "+(cur.situation||cur.title||"");
+    if(sourceEl)sourceEl.innerHTML="Từ bài <a href=\""+BASE_PATH_PLACEHOLDER+"/bai/"+encodeURIComponent(cur.slug)+"/\">"+escapeHtml(cur.code+" "+cur.title)+"</a>";
+    if(feedbackEl)feedbackEl.innerHTML="";
+    if(fixBox)fixBox.innerHTML="";
+    if(qBox)qBox.innerHTML="";
+    if(wordPop)wordPop.innerHTML="";
+    if(nextBtn)nextBtn.style.display="none";
+    sessionWords+=cur.sentences.reduce(function(n,s){return n+sdscTokenize(s.text).length;},0);
+    if(passageEl){
+      passageEl.innerHTML=cur.sentences.map(function(s,i){
+        const words=sdscWordTokens(s.text).map(function(t){
+          return "<span class=\"word\" data-w=\""+escapeHtml(t.norm)+"\">"+escapeHtml(t.text)+"</span>";
+        }).join(" ");
+        return "<p class=\"read-sentence\" data-i=\""+i+"\">"+words+" <button type=\"button\" class=\"btn btn-ghost btn-pick-sentence\" data-i=\""+i+"\">Câu này sai</button></p>";
+      }).join("");
+      passageEl.querySelectorAll(".word").forEach(function(w){
+        w.addEventListener("click",function(e){
+          e.stopPropagation();
+          const word=w.dataset.w;
+          const v=viMap[word]||"";
+          if(wordPop){
+            if(v)wordPop.innerHTML="<b>"+escapeHtml(word)+"</b>: "+escapeHtml(v);
+            else wordPop.innerHTML="<b>"+escapeHtml(word)+"</b>: chưa có trong từ điển của Trang. <a href=\"https://dictionary.cambridge.org/dictionary/english/"+encodeURIComponent(word)+"\" target=\"_blank\" rel=\"noopener\">Tra trên Cambridge →</a>";
+          }
+        });
+      });
+      passageEl.querySelectorAll(".btn-pick-sentence").forEach(function(b){
+        b.addEventListener("click",function(){pickSentence(parseInt(b.dataset.i,10));});
+      });
+    }
+  }
+  function pickSentence(i){
+    const s=cur.sentences[i];
+    if(!s)return false;
+    if(found)return false;
+    if(!s.error){
+      findAttempts++;
+      if(feedbackEl)feedbackEl.innerHTML="<p class=\"bad\">Câu này không có lỗi. Đọc kĩ lại nhé, lỗi nằm ở 1 câu khác.</p>";
+      return false;
+    }
+    found=true;
+    if(feedbackEl)feedbackEl.innerHTML="<p class=\"good\">Đúng rồi, lỗi nằm ở câu này.</p>";
+    if(fixBox){
+      fixBox.innerHTML="<h3>Chọn cách sửa đúng:</h3><div class=\"skill-choices\">"
+        +s.options.map(function(o,j){
+          return "<button type=\"button\" class=\"opt\" data-i=\""+j+"\"><span class=\"letter\">"+["A","B","C"][j]+"</span><span>"+escapeHtml(o)+"</span></button>";
+        }).join("")+"</div>";
+      fixBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){pickFix(parseInt(b.dataset.i,10));});
+      });
+    }
+    return true;
+  }
+  function pickFix(j){
+    const s=cur.sentences.find(function(x){return x.error;});
+    if(!s||fixed)return false;
+    if(j!==s.answer){
+      fixAttempts++;
+      if(feedbackEl)feedbackEl.innerHTML="<p class=\"bad\">Chưa đúng. Đọc lại lời giải thích nhé.</p><p>"+escapeHtml(s.why||"")+"</p>";
+      return false;
+    }
+    fixed=true;
+    if(feedbackEl)feedbackEl.innerHTML="<p class=\"good\">Sửa đúng rồi!</p><p>Câu đúng: <b>"+escapeHtml(s.fix)+"</b></p><p>"+escapeHtml(s.why||"")+"</p>";
+    const sentEl=passageEl&&passageEl.querySelector(".read-sentence[data-i=\""+cur.sentences.indexOf(s)+"\"]");
+    if(sentEl){
+      sentEl.querySelectorAll(".word").forEach(function(w){w.classList.add("fixed");});
+    }
+    if(qBox&&cur.question){
+      qBox.innerHTML="<h3>Câu hỏi hiểu bài:</h3><p>"+escapeHtml(cur.question.q)+"</p><div class=\"skill-choices\">"
+        +cur.question.options.map(function(o,k){
+          return "<button type=\"button\" class=\"opt\" data-i=\""+k+"\"><span class=\"letter\">"+["A","B","C"][k]+"</span><span>"+escapeHtml(o)+"</span></button>";
+        }).join("")+"</div>";
+      qBox.querySelectorAll(".opt").forEach(function(b){
+        b.addEventListener("click",function(){pickQ(parseInt(b.dataset.i,10));});
+      });
+    }else{
+      finishRound();
+    }
+    return true;
+  }
+  function pickQ(k){
+    if(qDone)return false;
+    qDone=true;
+    const q=cur.question;
+    const ok=k===q.answer;
+    if(feedbackEl)feedbackEl.innerHTML+=(ok?"<p class=\"good\">Trả lời đúng rồi!</p>":"<p class=\"bad\">Chưa đúng. Đáp án đúng là: "+escapeHtml(q.options[q.answer])+"</p>");
+    finishRound(ok);
+    return ok;
+  }
+  function finishRound(qOk){
+    const findScore=findAttempts===0?50:(findAttempts===1?25:0);
+    const fixScore=fixAttempts===0?30:(fixAttempts===1?15:0);
+    const qScore=qOk===undefined?20:(qOk?20:0);
+    const score=findScore+fixScore+qScore;
+    scores.push(score);
+    let xpAwarded=false;
+    updateProgress(function(p){xpAwarded=markSkillDone(p,"read",20);});
+    if(feedbackEl)feedbackEl.innerHTML+="<p>Điểm đoạn này: <b>"+score+" điểm</b>"+(xpAwarded?" (nhận +20 XP)":"")+".</p>";
+    if(nextBtn)nextBtn.style.display="";
+  }
+  function finishSession(){
+    const avg=scores.length?Math.round(scores.reduce(function(a,b){return a+b;},0)/scores.length):0;
+    const seconds=sessionStart?Math.max(60,Math.round((Date.now()-sessionStart)/1000)):60;
+    recordSkillSession("reading",seconds,sessionWords,avg);
+    const lv=getLevel();
+    if(avg>=90&&lv<3)setLevel(lv+1);
+    else if(avg<70&&lv>1)setLevel(lv-1);
+    let adv=false;
+    if(lessonSlug){try{adv=completeSkillReview(lessonSlug,"read");}catch(e){}}
+    showStats();
+    if(card)card.style.display="none";
+    if(doneBox){
+      doneBox.style.display="block";
+      doneBox.innerHTML="<h3>Xong buổi luyện đọc</h3><p>Điểm trung bình "+session.length+" đoạn: <b>"+avg+" điểm</b>.</p>"
+        +"<p>Cấp độ đọc lần sau: <b>"+getLevel()+" trên 3</b>.</p>"
+        +(adv?"<p>Bài này đã ôn xong bằng Đọc, lần ôn tới đổi sang kỹ năng khác.</p>":"")
+        +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"read-again\">Luyện buổi mới</button></p>";
+      const again=document.getElementById("read-again");
+      if(again)again.addEventListener("click",function(){startSession();});
+    }
+  }
+  if(nextBtn)nextBtn.addEventListener("click",function(){
+    idx++;
+    if(idx<session.length)renderRound();
+    else finishSession();
+  });
+  const startBtn=document.getElementById("read-begin");
+  if(startBtn)startBtn.addEventListener("click",startSession);
+  try{
+    const q=new URLSearchParams(location.search);
+    const l=q.get("lesson");
+    if(l&&passages.some(function(p){return p.slug===l;}))lessonSlug=l;
+  }catch(e){}
+  showStats();
+  if(lessonSlug)startSession();
+  window.__readTest={
+    startSession:startSession,
+    state:function(){return {idx:idx,total:session.length,scores:scores.slice(),passage:cur?cur.slug:null,found:found,fixed:fixed};},
+    pickSentence:pickSentence,
+    pickFix:pickFix,
+    pickQ:pickQ,
+    next:function(){if(nextBtn)nextBtn.click();},
+    level:getLevel
+  };
+})();
+</script>
+"""
+
+COMM_JS = r"""
+<script>
+(function(){
+  const mock=window.SDSC_COMM_MOCK||{week:48,weekStart:"2026-11-23",challenge:{id:"tuan-48",title:"Sửa 5 lỗi về thì trong tuần",target:5,unit:"lỗi",rewardXp:100,badge:"Hoàn thành thử thách tuần"},leaderboards:{xp:[],streak:[],speak:[]}};
+  const AUTH_KEY="sdsc-comm-auth-v1";
+  const HEART_KEY="sdsc-comm-hearts-v1";
+  const BADGE_KEY="sdsc-comm-badges-v1";
+  const MOCK_CODE="123456";
+  function loadAuth(){try{const v=JSON.parse(localStorage.getItem(AUTH_KEY)||"null");if(v&&v.email&&v.expires&&new Date(v.expires).getTime()>Date.now())return v;}catch(e){}return null;}
+  function saveAuth(a){try{localStorage.setItem(AUTH_KEY,JSON.stringify(a));}catch(e){}}
+  function loadHearts(){try{const v=JSON.parse(localStorage.getItem(HEART_KEY)||"[]");return Array.isArray(v)?v:[];}catch(e){return [];}}
+  function saveHearts(list){try{localStorage.setItem(HEART_KEY,JSON.stringify(list));}catch(e){}}
+  function loadBadges(){try{const v=JSON.parse(localStorage.getItem(BADGE_KEY)||"[]");return Array.isArray(v)?v:[];}catch(e){return [];}}
+  function saveBadges(list){try{localStorage.setItem(BADGE_KEY,JSON.stringify(list));}catch(e){}}
+  function myWeeklyXp(){
+    try{
+      const p=getProgress();
+      const weekStart=new Date(mock.weekStart+"T00:00:00");
+      let xp=0;
+      (p.history||[]).forEach(function(h){
+        const d=new Date(h.at||h.date+"T00:00:00");
+        if(d>=weekStart){
+          if(h.action==="done")xp+=20;
+          else if(h.action==="review")xp+=10;
+        }
+      });
+      return xp;
+    }catch(e){return 0;}
+  }
+  function myStreak(){
+    try{const p=getProgress();return (p.streak&&p.streak.count)||0;}catch(e){return 0;}
+  }
+  function myBestSpeak(){
+    try{const sp=loadSpeaking();return sp.best||0;}catch(e){return 0;}
+  }
+  function myLevel(){
+    try{const p=getProgress();return xpLevel(p.xpTotal||0);}catch(e){return 1;}
+  }
+  function challengeProgress(){
+    // Thử thách tuần: sửa 5 lỗi về thì. Đếm bài loại Lỗi đã nhớ trong tuần.
+    try{
+      const p=getProgress();
+      const weekStart=new Date(mock.weekStart+"T00:00:00");
+      const doneSlugs=new Set();
+      (p.history||[]).forEach(function(h){
+        const d=new Date(h.at||h.date+"T00:00:00");
+        if(d>=weekStart&&h.action==="done"&&h.slug)doneSlugs.add(h.slug);
+      });
+      let n=0;
+      doneSlugs.forEach(function(slug){
+        const l=(window.SDSC_LESSONS||{})[slug];
+        if(l&&l.type==="Lỗi")n++;
+      });
+      return Math.min(n,mock.challenge.target);
+    }catch(e){return 0;}
+  }
+  function heartBtn(board,name,count){
+    const hearts=loadHearts();
+    const key=mock.week+":"+board+":"+name;
+    const on=hearts.indexOf(key)>=0;
+    const n=(count||0)+(on?1:0);
+    return "<button type=\"button\" class=\"comm-heart"+(on?" on":"")+"\" data-board=\""+escapeHtml(board)+"\" data-name=\""+escapeHtml(name)+"\">"+(on?"♥ ":"♡ ")+n+"</button>";
+  }
+  function renderBoard(boardId,title,rows,valueLabel){
+    const box=document.getElementById(boardId);
+    if(!box)return;
+    const auth=loadAuth();
+    const top=rows.slice(0,10);
+    let html="<h3>"+escapeHtml(title)+"</h3>";
+    top.forEach(function(r,i){
+      const medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
+      html+="<div class=\"comm-row\"><span class=\"rank\">"+(i+1)+"</span><span class=\"name\"><span class=\"comm-who\">"+medal+" "+escapeHtml(r.name)+" (Cấp "+(r.level||1)+")</span>"+(r.badge?"<span class=\"comm-badge\">"+escapeHtml(r.badge)+"</span>":"")+"</span><span class=\"pts\">"+escapeHtml(String(r.value))+" "+escapeHtml(valueLabel)+"</span>"+heartBtn(boardId,r.name,(r.hearts||0))+"</div>";
+    });
+    if(auth){
+      const myVal=boardId==="board-xp"?myWeeklyXp():boardId==="board-streak"?myStreak():myBestSpeak();
+      html+="<div class=\"comm-row me\"><span class=\"rank\">•</span><span class=\"name\">"+escapeHtml(auth.name)+" (Cấp "+myLevel()+") (bạn)</span><span class=\"pts\">"+myVal+" "+escapeHtml(valueLabel)+"</span><span>0 ♥</span><span></span></div>";
+    }else{
+      html+="<p class=\"comm-note\">Đăng nhập để thấy hạng của bạn trên bảng này.</p>";
+    }
+    box.innerHTML=html;
+    box.querySelectorAll(".comm-heart").forEach(function(b){
+      b.addEventListener("click",function(){
+        const hearts=loadHearts();
+        const key=mock.week+":"+b.dataset.board+":"+b.dataset.name;
+        const i=hearts.indexOf(key);
+        if(i>=0)hearts.splice(i,1);
+        else hearts.push(key);
+        saveHearts(hearts);
+        renderAll();
+      });
+    });
+  }
+  function renderChallenge(){
+    const box=document.getElementById("comm-challenge");
+    if(!box)return;
+    const done=challengeProgress();
+    const target=mock.challenge.target;
+    const pct=Math.round(100*done/target);
+    const badges=loadBadges();
+    const claimed=badges.indexOf(mock.challenge.id)>=0;
+    box.innerHTML="<h3>Thử thách tuần "+mock.week+"</h3><p><b>"+escapeHtml(mock.challenge.title)+"</b></p>"
+      +"<div class=\"comm-progress\"><i style=\"width:"+pct+"%\"></i></div>"
+      +"<p>"+done+" trên "+target+" "+escapeHtml(mock.challenge.unit)+" ("+pct+"%)</p>"
+      +(done>=target
+        ?(claimed?"<p>Đã nhận huy hiệu <b>"+escapeHtml(mock.challenge.badge)+"</b> và +"+mock.challenge.rewardXp+" XP.</p>"
+          :"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-claim\">Nhận huy hiệu + "+mock.challenge.rewardXp+" XP</button></p>")
+        :"<p>Hoàn thành thử thách để nhận huy hiệu <b>"+escapeHtml(mock.challenge.badge)+"</b> và +"+mock.challenge.rewardXp+" XP.</p>");
+    const claim=document.getElementById("comm-claim");
+    if(claim)claim.addEventListener("click",function(){
+      const badges=loadBadges();
+      if(badges.indexOf(mock.challenge.id)<0)badges.push(mock.challenge.id);
+      saveBadges(badges);
+      updateProgress(function(p){awardXp(p,mock.challenge.rewardXp);});
+      renderAll();
+    });
+  }
+  function renderAuth(){
+    const box=document.getElementById("comm-auth");
+    if(!box)return;
+    const auth=loadAuth();
+    if(auth){
+      const badges=loadBadges();
+      box.innerHTML="<h3>Tài khoản của bạn</h3><p>Xin chào <b>"+escapeHtml(auth.name)+"</b> ("+escapeHtml(auth.email)+"). Cấp "+myLevel()+".</p>"
+        +(badges.length?"<p>Huy hiệu: "+badges.map(function(b){return escapeHtml(b);}).join(", ")+"</p>":"<p>Chưa có huy hiệu nào.</p>")
+        +"<p><label><input type=\"checkbox\" id=\"comm-hide-name\""+(auth.hidden?" checked":"")+"> Ẩn tên trên bảng (hiện Người học ẩn danh)</label></p>"
+        +"<p><button type=\"button\" class=\"btn btn-ghost\" id=\"comm-logout\">Đăng xuất</button> <button type=\"button\" class=\"btn btn-ghost\" id=\"comm-delete\">Xóa tài khoản</button></p>";
+      const hide=document.getElementById("comm-hide-name");
+      if(hide)hide.addEventListener("change",function(){
+        const a=loadAuth();if(!a)return;a.hidden=hide.checked;saveAuth(a);renderAll();
+      });
+      const out=document.getElementById("comm-logout");
+      if(out)out.addEventListener("click",function(){try{localStorage.removeItem(AUTH_KEY);}catch(e){}renderAll();});
+      const del=document.getElementById("comm-delete");
+      if(del)del.addEventListener("click",function(){
+        if(!confirm("Xóa tài khoản? Việc này không khôi phục được."))return;
+        try{localStorage.removeItem(AUTH_KEY);localStorage.removeItem(BADGE_KEY);}catch(e){}
+        renderAll();
+      });
+      return;
+    }
+    box.innerHTML="<h3>Đăng nhập để đua top</h3>"
+      +"<div class=\"comm-form\"><label for=\"comm-email\">Email</label><input id=\"comm-email\" type=\"email\" placeholder=\"email của bạn\" autocomplete=\"email\">"
+      +"<label for=\"comm-pass\">Mật khẩu</label><input id=\"comm-pass\" type=\"password\" placeholder=\"mật khẩu\" autocomplete=\"current-password\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-login\">Đăng nhập</button> <button type=\"button\" class=\"btn btn-ghost\" id=\"comm-show-register\">Đăng kí tài khoản mới</button></p>"
+      +"<p><a href=\"#\" id=\"comm-forgot-link\">Quên mật khẩu</a></p>"
+      +"<p id=\"comm-auth-msg\"></p></div>"
+      +"<div id=\"comm-register\" style=\"display:none\"><h3>Đăng kí</h3><div class=\"comm-form\">"
+      +"<label for=\"comm-reg-email\">Email</label><input id=\"comm-reg-email\" type=\"email\" placeholder=\"email của bạn\">"
+      +"<label for=\"comm-reg-name\">Tên hiển thị (2 đến 20 ký tự)</label><input id=\"comm-reg-name\" type=\"text\" placeholder=\"tên hiển thị, không cần tên thật\" maxlength=\"20\">"
+      +"<label for=\"comm-reg-pass\">Mật khẩu</label><input id=\"comm-reg-pass\" type=\"password\" placeholder=\"mật khẩu\" autocomplete=\"new-password\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-register-btn\">Đăng kí</button></p>"
+      +"<p id=\"comm-reg-msg\"></p></div></div>"
+      +"<div id=\"comm-activate\" style=\"display:none\"><h3>Kích hoạt tài khoản</h3><p>Nhập mã 6 số đã gửi qua email.</p><div class=\"comm-form\">"
+      +"<label for=\"comm-code\">Mã 6 số</label><input id=\"comm-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"123456\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-activate-btn\">Kích hoạt</button></p>"
+      +"<p id=\"comm-activate-msg\"></p><p class=\"comm-note\">Bản thử nghiệm: mã kích hoạt là "+MOCK_CODE+" (chưa nối máy chủ thật nên mã hiện luôn ở đây).</p></div></div>"
+      +"<div id=\"comm-reset\" style=\"display:none\"><h3>Đặt lại mật khẩu</h3><div class=\"comm-form\">"
+      +"<label for=\"comm-reset-email\">Email</label><input id=\"comm-reset-email\" type=\"email\" placeholder=\"email đã đăng kí\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-reset-send\">Gửi mã</button></p>"
+      +"<label for=\"comm-reset-code\">Mã 6 số</label><input id=\"comm-reset-code\" type=\"text\" inputmode=\"numeric\" maxlength=\"6\" placeholder=\"123456\">"
+      +"<label for=\"comm-reset-pass\">Mật khẩu mới</label><input id=\"comm-reset-pass\" type=\"password\" placeholder=\"mật khẩu mới\">"
+      +"<p><button type=\"button\" class=\"btn btn-primary\" id=\"comm-reset-btn\">Đặt mật khẩu mới</button></p>"
+      +"<p id=\"comm-reset-msg\"></p><p class=\"comm-note\">Bản thử nghiệm: mã đặt lại là "+MOCK_CODE+".</p></div></div>";
+    const msg=document.getElementById("comm-auth-msg");
+    const loginBtn=document.getElementById("comm-login");
+    if(loginBtn)loginBtn.addEventListener("click",function(){
+      const email=(document.getElementById("comm-email").value||"").trim();
+      const pass=document.getElementById("comm-pass").value||"";
+      let users={};
+      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
+      const u=users[email];
+      if(!u){if(msg)msg.textContent="Chưa có tài khoản với email này. Đăng kí tài khoản mới nhé.";return;}
+      if(u.pass!==pass){if(msg)msg.textContent="Mật khẩu chưa đúng. Thử lại nhé.";return;}
+      saveAuth({email:email,name:u.name,hidden:!!u.hidden,expires:new Date(Date.now()+30*86400000).toISOString()});
+      renderAll();
+    });
+    const showReg=document.getElementById("comm-show-register");
+    if(showReg)showReg.addEventListener("click",function(){
+      const r=document.getElementById("comm-register");
+      if(r)r.style.display="block";
+    });
+    const regBtn=document.getElementById("comm-register-btn");
+    if(regBtn)regBtn.addEventListener("click",function(){
+      const email=(document.getElementById("comm-reg-email").value||"").trim();
+      const name=(document.getElementById("comm-reg-name").value||"").trim();
+      const pass=document.getElementById("comm-reg-pass").value||"";
+      const m=document.getElementById("comm-reg-msg");
+      if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){if(m)m.textContent="Email chưa đúng định dạng.";return;}
+      if(name.length<2||name.length>20){if(m)m.textContent="Tên hiển thị từ 2 đến 20 ký tự.";return;}
+      if(/@|https?:|www\.|\d{9,}/.test(name)){if(m)m.textContent="Tên hiển thị không được chứa email, số điện thoại hay link.";return;}
+      if(pass.length<6){if(m)m.textContent="Mật khẩu ít nhất 6 ký tự.";return;}
+      let users={};
+      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
+      users[email]={name:name,pass:pass,hidden:false};
+      try{localStorage.setItem("sdsc-comm-users-v1",JSON.stringify(users));}catch(e){}
+      try{localStorage.setItem("sdsc-comm-pending-v1",JSON.stringify({email:email,name:name}));}catch(e){}
+      const act=document.getElementById("comm-activate");
+      if(act)act.style.display="block";
+      if(m)m.textContent="Đã tạo tài khoản. Nhập mã kích hoạt bên dưới nhé.";
+    });
+    const actBtn=document.getElementById("comm-activate-btn");
+    if(actBtn)actBtn.addEventListener("click",function(){
+      const code=(document.getElementById("comm-code").value||"").trim();
+      const m=document.getElementById("comm-activate-msg");
+      if(code!==MOCK_CODE){if(m)m.textContent="Mã chưa đúng. Thử lại nhé.";return;}
+      let pending=null;
+      try{pending=JSON.parse(localStorage.getItem("sdsc-comm-pending-v1")||"null");}catch(e){}
+      if(!pending){if(m)m.textContent="Không tìm thấy tài khoản chờ kích hoạt.";return;}
+      saveAuth({email:pending.email,name:pending.name,hidden:false,expires:new Date(Date.now()+30*86400000).toISOString()});
+      try{localStorage.removeItem("sdsc-comm-pending-v1");}catch(e){}
+      renderAll();
+    });
+    const forgot=document.getElementById("comm-forgot-link");
+    if(forgot)forgot.addEventListener("click",function(e){
+      e.preventDefault();
+      const r=document.getElementById("comm-reset");
+      if(r)r.style.display="block";
+    });
+    const resetSend=document.getElementById("comm-reset-send");
+    if(resetSend)resetSend.addEventListener("click",function(){
+      const m=document.getElementById("comm-reset-msg");
+      if(m)m.textContent="Đã gửi mã qua email (bản thử: mã là "+MOCK_CODE+").";
+    });
+    const resetBtn=document.getElementById("comm-reset-btn");
+    if(resetBtn)resetBtn.addEventListener("click",function(){
+      const email=(document.getElementById("comm-reset-email").value||"").trim();
+      const code=(document.getElementById("comm-reset-code").value||"").trim();
+      const pass=document.getElementById("comm-reset-pass").value||"";
+      const m=document.getElementById("comm-reset-msg");
+      if(code!==MOCK_CODE){if(m)m.textContent="Mã chưa đúng. Thử lại nhé.";return;}
+      if(pass.length<6){if(m)m.textContent="Mật khẩu mới ít nhất 6 ký tự.";return;}
+      let users={};
+      try{users=JSON.parse(localStorage.getItem("sdsc-comm-users-v1")||"{}");}catch(e){}
+      if(!users[email]){if(m)m.textContent="Chưa có tài khoản với email này.";return;}
+      users[email].pass=pass;
+      try{localStorage.setItem("sdsc-comm-users-v1",JSON.stringify(users));}catch(e){}
+      if(m)m.textContent="Đã đặt mật khẩu mới. Đăng nhập lại nhé.";
+    });
+  }
+  function renderTeaser(){
+    const box=document.getElementById("comm-teaser");
+    if(!box)return;
+    const auth=loadAuth();
+    const top=(mock.leaderboards.xp||[]).slice(0,3);
+    box.innerHTML="<h3>Đua top tuần này</h3>"
+      +"<p>"+top.map(function(r,i){return (i+1)+". "+escapeHtml(r.name)+" ("+r.value+" XP)";}).join(" • ")+"</p>"
+      +(auth?"<p>Hạng của bạn tuần này: <b>"+myWeeklyXp()+" XP</b>.</p>":"<p>Đăng nhập để đua top và thấy hạng của bạn.</p>")
+      +"<p><a class=\"btn btn-primary\" href=\""+BASE_PATH_PLACEHOLDER+"/cong-dong/\">Xem bảng đầy đủ →</a></p>";
+  }
+  function renderAll(){
+    renderBoard("board-xp","Top XP tuần (reset 0 giờ Thứ 2)",(mock.leaderboards.xp||[]).map(function(r){return {name:r.name,level:r.level,value:r.xp,hearts:r.hearts,badge:r.badge};}),"XP");
+    renderBoard("board-streak","Chuỗi ngày dài nhất",(mock.leaderboards.streak||[]).map(function(r){return {name:r.name,level:r.level,value:r.days,hearts:r.hearts,badge:r.badge};}),"ngày");
+    renderBoard("board-speak","Điểm nói tốt nhất tuần",(mock.leaderboards.speak||[]).map(function(r){return {name:r.name,level:r.level,value:r.score,hearts:r.hearts,badge:r.badge};}),"điểm");
+    renderChallenge();
+    renderAuth();
+    renderTeaser();
+    const note=document.getElementById("comm-offline");
+    if(note)note.style.display="none";
+  }
+  renderAll();
+  window.__commTest={
+    state:function(){return {auth:loadAuth(),hearts:loadHearts(),badges:loadBadges(),challengeDone:challengeProgress(),weeklyXp:myWeeklyXp()};},
+    renderAll:renderAll
+  };
+})();
+</script>
+"""
 def grade_block(key, title, question, prompt, options, answer, explanation, retry=True):
     letters = ["A", "B", "C", "D"]
     opts = "".join(
@@ -2532,7 +3904,12 @@ def js_body(block):
     return text.strip() + "\n"
 
 
-def page_shell(title, description, og_url, og_image, body_html, extra_js="", body_class=""):
+def page_shell(title, description, og_url, og_image, body_html, extra_js="", body_class="", active=None):
+    """active: khóa nút chân trang đang xem (home/path/dict/speak/me).
+    active=None thì không có thanh dưới (trang bài). active="" thì có thanh
+    dưới nhưng không tô nút nào (trang không có tab riêng)."""
+    nav = bottomnav_html(active) if active is not None else ""
+    cls = ((body_class + " has-nav") if active is not None else body_class).strip()
     return f"""<!doctype html>
 <html lang="vi">
 <head>
@@ -2558,8 +3935,9 @@ def page_shell(title, description, og_url, og_image, body_html, extra_js="", bod
 <link rel="stylesheet" href="{BASE_PATH}/styles.css">
 {NOSCRIPT_CSS}
 </head>
-<body class="{body_class}">
+<body class="{cls}">
 {body_html}
+{nav}
 {SHARED_SCRIPTS}{extra_js}
 </body>
 </html>
@@ -2570,31 +3948,40 @@ def page_shell(title, description, og_url, og_image, body_html, extra_js="", bod
 HOMEPAGE_JS = r"""
 <script>
 window.SDSC_TOTAL_LESSONS = __TOTAL_LESSONS__;
+const SDSC_HOME_BASE=BASE_PATH_PLACEHOLDER;
 /* SDSC_LESSONS và SDSC_PATHS lấy từ data.js (nạp trước khối này). */
 function safeRender(fn){try{fn();}catch(e){}}
 function progressDoneCount(){
   const p=getProgress();
   return Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).length;
 }
+function dueCount(){
+  const p=getProgress();const today=todayISO();let n=0;
+  Object.entries(p.review||{}).forEach(([slug,r])=>{
+    if(!r||!window.SDSC_LESSONS[slug])return;
+    if(!isValidDateStr(r.nextDue))return;
+    const L=p.lessons[slug];
+    if(!L||!L.done)return;
+    if(r.nextDue<=today)n++;
+  });
+  return n;
+}
 function renderProgress(){
   const p=getProgress();
   const n=progressDoneCount();
   const total=window.SDSC_TOTAL_LESSONS;
-  document.querySelectorAll(".progress-num").forEach(el=>{el.textContent=n+" / "+total+" bài";});
-  const bar=document.getElementById("progress-bar");
-  if(bar)bar.style.width=(total?Math.round(100*n/total):0)+"%";
-  const t=document.getElementById("progress-text");
-  if(t)t.innerHTML="Bạn đã nhớ <b>"+n+" / "+total+" bài</b>"+(n===total?". Xong hết rồi, giỏi quá!":"");
-  const done=Object.fromEntries(Object.entries(p.lessons||{}).filter(([,l])=>l&&l.done).map(([s])=>[s,true]));
-  document.querySelectorAll(".path-card").forEach(card=>{
-    const order=(window.SDSC_PATHS[card.dataset.path]||[]).filter(s=>window.SDSC_LESSONS[s]);
-    const d=order.filter(s=>done[s]).length;
-    const el=card.querySelector(".path-done");
-    if(el)el.textContent=d+" / "+order.length+" bài đã nhớ";
-  });
+  const due=dueCount();
+  const streak=p.streak.count||0;
+  const setNum=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  setNum("tile-streak-num",streak+" ngày");
+  setNum("tile-done-num",n+" / "+total);
+  setNum("tile-due-num",due+" bài");
+  const strip=document.getElementById("strip-text");
+  if(strip)strip.innerHTML="Chuỗi <b>"+streak+" ngày</b> • Đã nhớ <b>"+n+" trên "+total+" bài</b> • <b>"+due+" bài đến hạn ôn</b>";
   updatePracticeScore();
+  renderStreakPills();
 }
-function renderToday(){
+function heroLesson(){
   const p=getProgress();
   const done=new Set(Object.entries(p.lessons||{}).filter(([,l])=>l&&l.done).map(([s])=>s));
   const order=(window.SDSC_PATHS["hoc-lai-tu-dau"]||[]).filter(s=>window.SDSC_LESSONS[s]);
@@ -2603,23 +3990,114 @@ function renderToday(){
     const all=Object.keys(window.SDSC_LESSONS);
     next=all.find(s=>!done.has(s));
   }
-  const box=document.getElementById("today-box");
+  return next||null;
+}
+function renderToday(){
+  const box=document.getElementById("hero-box");
   if(!box)return;
+  const next=heroLesson();
   if(!next){
-    box.innerHTML="<h2>Học hôm nay</h2><p>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi. Giỏi quá! Hôm nay ôn lại nhé.</p><a class=\"btn btn-navy\" href=\"#on-homnay\">Ôn hôm nay</a>";
+    box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Bạn đã học hết "+window.SDSC_TOTAL_LESSONS+" bài rồi</h1><p class=\"msub\">Giỏi quá! Hôm nay ôn lại nhé.</p><a class=\"btn btn-primary btn-hero\" href=\"#on-homnay\">Ôn hôm nay</a>";
     return;
   }
   const l=window.SDSC_LESSONS[next];
-  if(!l){box.innerHTML="<h2>Học hôm nay</h2><p>Chưa tải được bài tiếp theo. Thử tải lại trang nhé.</p>";return;}
-  box.innerHTML="<h2>Học hôm nay</h2><p><b>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</b><br>"+escapeHtml(l.why)+"</p><a class=\"btn btn-primary btn-block\" href=\""+BASE_PATH_PLACEHOLDER+"/"+next+"/\" onclick=\"sessionSet('sdsc-path','hoc-lai-tu-dau')\">Học bài này</a>";
+  if(!l){box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY</p><h1>Chưa tải được bài tiếp theo</h1><p class=\"msub\">Thử tải lại trang nhé.</p>";return;}
+  const isQuiz=l.type==="Quiz";
+  const wrongHtml=isQuiz
+    ? "<p class=\"wrong\">"+escapeHtml(l.quiz_q||l.why)+"</p>"
+    : "<p class=\"wrong\"><s>"+escapeHtml(l.wrong)+"</s></p>";
+  const rightHtml=isQuiz
+    ? "<p class=\"right\">Làm quiz để xem đáp án</p>"
+    : "<p class=\"right\">✓ "+escapeHtml(l.right)+"</p>";
+  const meta="3 phút • "+(l.steps||7)+" bước"+(l.has_ipa?" • Có nghe phát âm":"");
+  box.innerHTML="<p class=\"eyebrow\">BÀI HÔM NAY • "+escapeHtml(l.topic)+"</p>"
+    +"<h1>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h1>"
+    +wrongHtml+rightHtml
+    +"<a class=\"btn btn-primary btn-hero\" href=\""+SDSC_HOME_BASE+"/"+next+"/\" onclick=\"sessionSet('sdsc-path','hoc-lai-tu-dau')\">Học ngay</a>"
+    +"<p class=\"msub\">"+escapeHtml(meta)+"</p>";
 }
-function renderStreak(){
+function renderMissions(){
+  const box=document.getElementById("missions-box");
+  if(!box)return;
   const p=getProgress();
-  const el=document.getElementById("streak-text");
-  if(!el)return;
-  const today=todayISO();
-  const doneToday=Object.values(p.lessons||{}).some(l=>l&&l.done&&(l.lastStudiedAt===today||l.doneAt===today));
-  el.innerHTML="Mục tiêu: 1 bài/ngày • Chuỗi học: <b>"+(p.streak.count||0)+" ngày</b> • Hôm nay: "+(doneToday?"đã học. Giữ chuỗi nhé":"chưa học. Học 1 bài để giữ chuỗi nhé");
+  const d=dailyToday(p);
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  const level=xpLevel(xp);
+  const inLevel=xpInLevel(xp);
+  const ms=missionStatus(p);
+  const allDone=ms.every(m=>m.done);
+  const descs={
+    new:ms[0]&&ms[0].done?"Đã học 1 bài mới hôm nay":"Học 1 bài mới trong lộ trình",
+    review:(d.reviewCount||0)>0?"Đã ôn "+(d.reviewCount||0)+" trên 2 bài":"Ôn bài đã đến hạn ôn",
+    speak:ms[2]&&ms[2].done?"Đã luyện nói 1 câu hôm nay":"Nói 1 câu ở trang Luyện nói"
+  };
+  const rows=ms.map((m,i)=>{
+    const state=m.done?"done":(m.prog>0?"half":"todo");
+    const mark=m.done?"✓":"";
+    return "<div class=\"mrow"+(i===0?" first":"")+"\"><span class=\"mcheck "+state+"\">"+mark+"</span><div><h3>"+escapeHtml(m.label)+"</h3><p>"+escapeHtml(descs[m.id]||"")+"</p></div><span class=\"xp\">+"+m.xp+" XP</span></div>";
+  }).join("");
+  const bonus=allDone?"<p class=\"mreward\"><b>Đã xong cả 3 nhiệm vụ, thưởng thêm 50 XP.</b></p>":"<p class=\"mreward\">Xong cả 3 nhiệm vụ được thưởng thêm 50 XP.</p>";
+  box.innerHTML="<div class=\"mhead\"><h2>Nhiệm vụ hôm nay</h2><span class=\"xppill\">★ "+xp+" XP</span></div>"
+    +"<div class=\"xpbar\"><i style=\"width:"+Math.round(100*inLevel/200)+"%\"></i></div>"
+    +"<p class=\"xpmeta\">Cấp "+level+" • "+inLevel+" trên 200 XP đến Cấp "+(level+1)+"</p>"
+    +rows+bonus;
+}
+function renderContinue(){
+  const box=document.getElementById("continue-box");
+  if(!box)return;
+  const p=getProgress();
+  const order=(window.SDSC_PATHS["hoc-lai-tu-dau"]||[]).filter(s=>window.SDSC_LESSONS[s]);
+  const done=new Set(Object.entries(p.lessons||{}).filter(([,l])=>l&&l.done).map(([s])=>s));
+  const idx=order.findIndex(s=>!done.has(s));
+  const rows=[];
+  if(idx>=0){
+    const slug=order[idx];const l=window.SDSC_LESSONS[slug];
+    const prac=Object.keys(p.practice||{}).filter(k=>k.indexOf(slug+":")===0).length;
+    const total=(window.SDSC_TOTALS||{})[slug]||0;
+    const pct=total?Math.round(100*prac/total):0;
+    const state=prac>0?("Đang học • "+prac+" trên "+total+" câu luyện"):"Đang học • Chưa làm câu luyện nào";
+    rows.push("<a class=\"row\" href=\""+SDSC_HOME_BASE+"/"+slug+"/\"><span class=\"dot now\">→</span><div style=\"flex:1;min-width:0\"><h3>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h3><p>"+escapeHtml(state)+"</p><div class=\"bar\"><i style=\"width:"+pct+"%\"></i></div></div><span class=\"state\">Học</span></a>");
+    if(order[idx+1]){
+      const l2=window.SDSC_LESSONS[order[idx+1]];
+      rows.push("<a class=\"row\" href=\""+SDSC_HOME_BASE+"/"+order[idx+1]+"/\"><span class=\"dot next\">•</span><div style=\"flex:1;min-width:0\"><h3>"+escapeHtml(l2.code)+": "+escapeHtml(l2.title)+"</h3><p>Tiếp theo trong lộ trình</p></div><span class=\"state\">Xem</span></a>");
+    }
+  }
+  const lastDone=Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).sort((a,b)=>String(b[1].lastStudiedAt||b[1].doneAt||"").localeCompare(String(a[1].lastStudiedAt||a[1].doneAt||"")))[0];
+  if(lastDone){
+    const m=window.SDSC_LESSONS[lastDone[0]];
+    rows.push("<a class=\"row\" href=\""+SDSC_HOME_BASE+"/"+lastDone[0]+"/\"><span class=\"dot done\">✓</span><div style=\"flex:1;min-width:0\"><h3>"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</h3><p>Đã nhớ • Ôn lại</p></div><span class=\"state done\">Đã nhớ</span></a>");
+  }
+  if(!rows.length){box.innerHTML="<p>Chưa có bài nào. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
+  box.innerHTML=rows.join("");
+}
+function renderPathPreview(){
+  const box=document.getElementById("path-preview");
+  if(!box)return;
+  const p=getProgress();
+  const order=(window.SDSC_PATHS["hoc-lai-tu-dau"]||[]).filter(s=>window.SDSC_LESSONS[s]);
+  const done=new Set(Object.entries(p.lessons||{}).filter(([,l])=>l&&l.done).map(([s])=>s));
+  const idx=order.findIndex(s=>!done.has(s));
+  const nodes=[];
+  const push=(slug,cls,label,mark)=>{
+    const l=window.SDSC_LESSONS[slug];if(!l)return;
+    nodes.push("<a class=\"pnode\" href=\""+SDSC_HOME_BASE+"/"+slug+"/\"><span class=\"pdot "+cls+"\">"+mark+"</span><div><h3>"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</h3><p>"+escapeHtml(label)+"</p></div><span class=\"go\">Học →</span></a>");
+  };
+  if(idx>0)push(order[idx-1],"done","Đã nhớ","✓");
+  if(idx>=0&&order[idx])push(order[idx],"now","Đang học","→");
+  if(idx>=0&&order[idx+1])push(order[idx+1],"next","Tiếp theo","•");
+  if(idx<0&&order.length)push(order[order.length-1],"done","Đã nhớ","✓");
+  box.innerHTML="<div class=\"path\">"+nodes.join("")+"</div><a class=\"pathlink\" href=\""+SDSC_HOME_BASE+"/lo-trinh/hoc-lai-tu-dau/\">Xem toàn bộ lộ trình →</a>";
+}
+function renderMagazine(){
+  const box=document.getElementById("magazine-box");
+  const section=document.getElementById("magazine-section");
+  if(!box)return;
+  const hero=heroLesson();
+  const newest=Object.keys(window.SDSC_LESSONS).sort((a,b)=>String(window.SDSC_LESSONS[b].date||"").localeCompare(String(window.SDSC_LESSONS[a].date||"")))[0];
+  if(!newest||newest===hero){if(section)section.style.display="none";return;}
+  if(section)section.style.display="block";
+  const l=window.SDSC_LESSONS[newest];
+  box.innerHTML="<article class=\"feat\"><img src=\""+SDSC_HOME_BASE+"/images/"+newest+".jpg\" alt=\"Ảnh bài "+escapeHtml(l.code)+"\" loading=\"lazy\" onerror=\"this.style.display='none'\"><div class=\"body\"><span class=\"tag topic\">BÀI MỚI NHẤT • "+escapeHtml(fmtDate(l.date))+"</span><h3><a href=\""+SDSC_HOME_BASE+"/"+newest+"/\">"+escapeHtml(l.code)+": "+escapeHtml(l.title)+"</a></h3><p class=\"msub\">"+escapeHtml(l.topic)+"</p><a class=\"go\" href=\""+SDSC_HOME_BASE+"/"+newest+"/\">Học bài này →</a></div></article>";
 }
 function renderReview(){
   const p=getProgress();
@@ -2654,7 +4132,9 @@ function renderReview(){
   empty.style.display="none";grid.style.display="grid";
   grid.innerHTML=items.map(x=>{
     const l=window.SDSC_LESSONS[x.slug];
-    return "<a class=\"review-card\" href=\""+BASE_PATH_PLACEHOLDER+"/"+x.slug+"/\"><b>"+escapeHtml(l.code)+"</b><span>"+escapeHtml(l.title)+"<br>Đến hạn ôn"+(x.overdue>0?" (quá "+x.overdue+" ngày)":" hôm nay")+"</span></a>";
+    const sk=skillFor(x.slug);
+    const url=SDSC_HOME_BASE+"/"+skillPath(sk)+"?lesson="+encodeURIComponent(x.slug);
+    return "<a class=\"review-card\" href=\""+url+"\"><b>"+escapeHtml(l.code)+"</b><span>"+escapeHtml(l.title)+"<br>Đến hạn ôn"+(x.overdue>0?" (quá "+x.overdue+" ngày)":" hôm nay")+" • Ôn bằng "+escapeHtml(SKILL_LABEL[sk])+"</span></a>";
   }).join("");
 }
 function renderDoneList(){
@@ -2662,8 +4142,8 @@ function renderDoneList(){
   const box=document.getElementById("done-list");
   if(!box)return;
   const items=Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).sort((a,b)=>String(b[1].lastStudiedAt||b[1].doneAt||"").localeCompare(String(a[1].lastStudiedAt||a[1].doneAt||""))).slice(0,10);
-  if(!items.length){box.innerHTML="<p>Chưa có bài nào đã nhớ. Học bài đầu tiên ở khung “Học hôm nay” nhé.</p>";return;}
-  box.innerHTML="<ul>"+items.map(([s,l])=>{const m=window.SDSC_LESSONS[s];return "<li><a href=\""+BASE_PATH_PLACEHOLDER+"/"+s+"/\">"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</a>, đã nhớ ngày "+escapeHtml(fmtDate(l.doneAt||l.lastStudiedAt||""))+"</li>";}).join("")+"</ul>";
+  if(!items.length){box.innerHTML="<p>Chưa có bài nào đã nhớ. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
+  box.innerHTML="<ul>"+items.map(([s,l])=>{const m=window.SDSC_LESSONS[s];return "<li><a href=\""+SDSC_HOME_BASE+"/"+s+"/\">"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</a>, đã nhớ ngày "+escapeHtml(fmtDate(l.doneAt||l.lastStudiedAt||""))+"</li>";}).join("")+"</ul>";
 }
 function renderRecent(){
   const p=getProgress();
@@ -2672,7 +4152,7 @@ function renderRecent(){
   const evs=(p.history||[]).filter(h=>h&&h.slug&&window.SDSC_LESSONS[h.slug]).slice(-5).reverse();
   if(!evs.length){box.innerHTML="<p>Chưa có hoạt động nào. Làm thử 1 câu luyện ở bất kỳ bài nào nhé.</p>";return;}
   const label={done:"Đã nhớ bài",undone:"Bỏ đánh dấu bài",practice:"Luyện câu ở bài",review:"Ôn lại bài","self-grade":"Tự đánh giá bài",import:"Nhập tiến độ",reset:"Đặt lại tiến độ"};
-  box.innerHTML="<ul>"+evs.map(h=>{const m=window.SDSC_LESSONS[h.slug];const extra=h.action==="practice"?(h.correct?", đúng":", chưa đúng"):(h.grade?", mức "+({kho:"Khó",vua:"Vừa",de:"Dễ"}[h.grade]||h.grade):"");return "<li>"+escapeHtml(label[h.action]||h.action)+" <a href=\""+BASE_PATH_PLACEHOLDER+"/"+h.slug+"/\">"+escapeHtml(m.code)+"</a>"+extra+" ("+escapeHtml(fmtDate(h.date||""))+ ")"+"</li>";}).join("")+"</ul>";
+  box.innerHTML="<ul>"+evs.map(h=>{const m=window.SDSC_LESSONS[h.slug];const extra=h.action==="practice"?(h.correct?", đúng":", chưa đúng"):(h.grade?", mức "+({kho:"Khó",vua:"Vừa",de:"Dễ"}[h.grade]||h.grade):(h.skill?", bằng "+(SKILL_LABEL[h.skill]||h.skill):""));return "<li>"+escapeHtml(label[h.action]||h.action)+" <a href=\""+SDSC_HOME_BASE+"/"+h.slug+"/\">"+escapeHtml(m.code)+"</a>"+extra+" ("+escapeHtml(fmtDate(h.date||""))+ ")"+"</li>";}).join("")+"</ul>";
 }
 function longestStreak(dates){
   if(!dates||!dates.length)return 0;
@@ -2697,7 +4177,8 @@ function renderStats(){
   const reviews=Object.values(p.lessons||{}).reduce((a,l)=>a+(l&&l.reviews||0),0);
   const lastDates=Object.values(p.lessons||{}).map(l=>l&&(l.lastStudiedAt||l.doneAt||"")).filter(isValidDateStr).sort();
   const last=lastDates.length?fmtDate(lastDates[lastDates.length-1]):"chưa có";
-  box.innerHTML="<ul><li>Bài đã nhớ: <b>"+done+" / "+window.SDSC_TOTAL_LESSONS+"</b></li><li>Tỉ lệ luyện đúng: <b>"+acc+"%</b> ("+prac.filter(v=>v&&v.correct).length+" / "+prac.length+" câu)</li><li>Số lần ôn lại: <b>"+reviews+"</b></li><li>Chuỗi ngày học dài nhất: <b>"+longestStreak(p.streak.dates||[])+" ngày</b> (chuỗi hiện tại: "+(p.streak.count||0)+" ngày)</li><li>Ngày học gần nhất: <b>"+escapeHtml(last)+"</b></li></ul>";
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  box.innerHTML="<ul><li>Điểm kinh nghiệm: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b></li><li>Bài đã nhớ: <b>"+done+" / "+window.SDSC_TOTAL_LESSONS+"</b></li><li>Tỉ lệ luyện đúng: <b>"+acc+"%</b> ("+prac.filter(v=>v&&v.correct).length+" / "+prac.length+" câu)</li><li>Số lần ôn lại: <b>"+reviews+"</b></li><li>Chuỗi ngày học dài nhất: <b>"+longestStreak(p.streak.dates||[])+" ngày</b> (chuỗi hiện tại: "+(p.streak.count||0)+" ngày)</li><li>Ngày học gần nhất: <b>"+escapeHtml(last)+"</b></li></ul>";
 }
 function renderExportUI(){
   const msg=document.getElementById("import-msg");
@@ -2725,26 +4206,10 @@ function renderExportUI(){
   });}
 }
 function renderAll(){
-  safeRender(renderProgress);safeRender(renderToday);safeRender(renderReview);safeRender(renderStreak);
+  safeRender(renderProgress);safeRender(renderToday);safeRender(renderMissions);safeRender(renderContinue);safeRender(renderPathPreview);safeRender(renderMagazine);safeRender(renderReview);
   safeRender(renderDoneList);safeRender(renderRecent);safeRender(renderStats);safeRender(renderExportUI);
 }
 window.__sdscRenderProgress=renderAll;
-function showTab(name,push){
-  const th=document.getElementById("tab-hoc"), tt=document.getElementById("tab-tracuu");
-  if(th){th.classList.toggle("on",name==="hoc");th.setAttribute("aria-selected",name==="hoc"?"true":"false");}
-  if(tt){tt.classList.toggle("on",name==="tracuu");tt.setAttribute("aria-selected",name==="tracuu"?"true":"false");}
-  const vh=document.getElementById("view-hoc"), vt=document.getElementById("view-tracuu");
-  if(vh)vh.style.display=name==="hoc"?"block":"none";
-  if(vt)vt.style.display=name==="tracuu"?"block":"none";
-  try{
-    if(push&&history.pushState)history.pushState(null,"",name==="tracuu"?"#tra-cuu":"#");
-    else if(history.replaceState)history.replaceState(null,"",name==="tracuu"?"#tra-cuu":"#");
-  }catch(e){}
-}
-document.getElementById("tab-hoc").addEventListener("click",()=>showTab("hoc",true));
-document.getElementById("tab-tracuu").addEventListener("click",()=>showTab("tracuu",true));
-window.addEventListener("popstate",()=>{showTab(location.hash==="#tra-cuu"?"tracuu":"hoc",false);});
-if(location.hash==="#tra-cuu")showTab("tracuu",false);else showTab("hoc",false);
 renderAll();
 </script>
 """
@@ -2754,7 +4219,7 @@ INDEX_FILTER_JS = r"""
 /* Tìm kiếm + bộ lọc (§2.4): chuẩn hóa không dấu cả hai phía, xếp hạng theo trọng số.
    Chỉ mục tìm kiếm đầy đủ nằm ở search-index.json, CHỈ nạp khi người dùng
    tìm kiếm (19/11). Trước lúc đó dùng chỉ mục gọn dựng từ data.js
-   (mã, tiêu đề, lý do, chủ đề, loại, ngày, lộ trình) — đủ cho chip đếm,
+   (mã, tiêu đề, lý do, chủ đề, loại, ngày, lộ trình), đủ cho chip đếm,
    lọc theo chủ đề/loại/lộ trình/trạng thái và sắp xếp. */
 const SDSC_BASE=BASE_PATH_PLACEHOLDER;
 function sdscMetaIndex(){
@@ -2943,9 +4408,14 @@ function recordSelfGrade(grade){
   if(L&&L.done){
     updateProgress(pp=>{
       const LL=pp.lessons[SLUG];if(!LL)return;
-      LL.selfGrade=grade;LL.lastStudiedAt=todayISO();LL.reviews=(LL.reviews||0)+1;
-      pp.review[SLUG]=srsUpdate(pp.review[SLUG]||srsNew(todayISO()),grade,todayISO());
-      pushHistory(pp,{date:todayISO(),at:new Date().toISOString(),slug:SLUG,action:"review",grade:grade});
+      const today=todayISO();
+      const oldReview=pp.review[SLUG];
+      const wasDue=oldReview&&isValidDateStr(oldReview.nextDue)&&oldReview.nextDue<=today;
+      const wasStudiedToday=LL.lastStudiedAt===today;
+      LL.selfGrade=grade;LL.lastStudiedAt=today;LL.reviews=(LL.reviews||0)+1;
+      pp.review[SLUG]=srsUpdate(pp.review[SLUG]||srsNew(today),grade,today);
+      if(wasDue)countReview(pp,SLUG,wasStudiedToday);
+      pushHistory(pp,{date:today,at:new Date().toISOString(),slug:SLUG,action:"review",grade:grade});
     });
   }else{
     renderSelfGrade();
@@ -2976,6 +4446,9 @@ function renderCompleteSummary(){
   else if(t.done>0){html+="<p>Không còn câu sai trong bài này. Giỏi quá!</p>";}
   const r=p.review[SLUG];
   if(r&&isValidDateStr(r.nextDue)){html+="<p>Bài này sẽ đến hạn ôn vào ngày <b>"+escapeHtml(fmtDate(r.nextDue))+"</b>. Trang chủ sẽ nhắc bạn.</p>";}
+  if(r&&r.skill){html+="<p>Lần ôn tới luyện bằng <b>"+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+"</b>: <a href=\""+BASE_PATH_PLACEHOLDER+"/"+skillPath(r.skill)+"?lesson="+encodeURIComponent(SLUG)+"\">Mở trang "+escapeHtml(SKILL_LABEL[r.skill]||r.skill)+" →</a></p>";}
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  html+="<p>Điểm kinh nghiệm của bạn: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b>.</p>";
   const L=p.lessons[SLUG];
   if(L&&L.selfGrade){html+="<p>Bạn tự đánh giá mức hiểu: <b>"+({kho:"Khó: chưa nhớ",vua:"Vừa: nhớ chưa chắc",de:"Dễ: nhớ ngay"}[L.selfGrade]||L.selfGrade)+"</b>.</p>";}
   box.innerHTML=html;
@@ -2986,18 +4459,26 @@ function markDone(){
     const today=todayISO();
     const L=p.lessons[SLUG]||{done:false,doneAt:"",lastStudiedAt:"",selfGrade:null,reviews:0};
     const wasDone=!!L.done;
+    const wasStudiedToday=L.lastStudiedAt===today;
+    const firstDoneToday=!L.doneAt||L.doneAt!==today;
+    const oldReview=p.review[SLUG];
+    const wasDue=oldReview&&isValidDateStr(oldReview.nextDue)&&oldReview.nextDue<=today;
     L.done=true;
     if(!L.doneAt)L.doneAt=today;
     L.lastStudiedAt=today;
     if(grade)L.selfGrade=grade;
     p.lessons[SLUG]=L;
-    if(!wasDone){p.review[SLUG]=srsNew(today);}
-    else if(grade){p.review[SLUG]=srsUpdate(p.review[SLUG]||srsNew(today),grade,today);L.reviews=(L.reviews||0)+1;}
+    if(!wasDone){
+      p.review[SLUG]=srsNew(today);
+      p.review[SLUG].skill="listen";p.review[SLUG].skillStep=0;
+      if(firstDoneToday){const d=ensureDaily(p);d.newDone=(d.newDone||0)+1;awardXp(p,20);checkDailyBonus(p);}
+    }
+    else if(grade){p.review[SLUG]=srsUpdate(p.review[SLUG]||srsNew(today),grade,today);L.reviews=(L.reviews||0)+1;if(wasDue)countReview(p,SLUG,wasStudiedToday);}
     updateStreakIn(p,today);
     if(!wasDone||grade){pushHistory(p,{date:today,at:new Date().toISOString(),slug:SLUG,action:wasDone?"self-grade":"done",grade:grade||undefined});}
   });
   __pendingGrade=null;
-  renderDone();renderSelfGrade();renderCompleteStreak();updatePracticeScore();
+  renderDone();renderSelfGrade();renderCompleteStreak();renderCompleteSummary();updatePracticeScore();
 }
 function unmarkDone(){
   updateProgress(p=>{
@@ -3136,29 +4617,47 @@ PATH_PAGE_JS = r"""
 </script>
 """
 
-def header_html(site, subtitle, stats_extra):
+def header_html(site):
+    """Đầu trang gọn hướng A: thanh trên 56px, chỉ logo, tên, slogan 1 dòng,
+    pill chuỗi ngày. Không còn khối giới thiệu, thống kê hay menu trên."""
     return f"""
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <div style="display:flex;gap:14px;align-items:center">
-        <div class="logo">S</div>
-        <div>
-          <h1><a href="{BASE_PATH}/">{esc(site['name'])}</a></h1>
-          <p class="slogan">{esc(site['slogan'])}</p>
-        </div>
-      </div>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
-    </div>
-    <p class="intro">{esc(subtitle)}</p>
-    <div class="stats">{stats_extra}</div>
-    <nav class="sitenav" aria-label="Mục chính">
-      <a href="{BASE_PATH}/">Trang chủ</a>
-      <a href="{BASE_PATH}/bang-lo-trinh/">Bảng lộ trình</a>
-      <a href="{BASE_PATH}/thu-vien-chu-de/">Thư viện chủ đề</a>
-      <a href="{BASE_PATH}/tu-dien/">Từ điển</a>
-      <a href="{BASE_PATH}/luyen-noi/">Luyện nói</a>
-    </nav>
+<header class="appbar">
+  <div class="appwrap">
+    <a href="{BASE_PATH}/" aria-label="Trang chủ"><span class="logo">S</span></a>
+    <div class="appname"><a href="{BASE_PATH}/">Sai Đâu Sửa Đó</a><small>{esc(site['slogan'])}</small></div>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Chế độ tối"></button>
+  </div>
+</header>"""
+
+
+# Thanh dưới hướng A: 5 nút cố định, tối thiểu 56px, mục đang xem tô cam.
+# Không thêm nút thứ 6 (mục Cộng đồng vào bằng thẻ trên trang chủ và từ tab Tôi).
+BOTTOM_NAV = [
+    ("home", "Học", "/", "book"),
+    ("path", "Lộ trình", "/lo-trinh/hoc-lai-tu-dau/", "map"),
+    ("dict", "Từ điển", "/tu-dien/", "search"),
+    ("speak", "Luyện nói", "/luyen-noi/", "speaker"),
+    ("me", "Tôi", "/bang-lo-trinh/", "user"),
+]
+
+
+def bottomnav_html(active):
+    items = ""
+    for key, label, href, icon in BOTTOM_NAV:
+        on = " on" if key == active else ""
+        items += f'<a class="navitem{on}" href="{BASE_PATH}{href}">{ICON[icon]}<span>{esc(label)}</span></a>'
+    return f'<nav class="bottomnav" aria-label="Mục chính"><div class="appwrap">{items}</div></nav>'
+
+
+def topbar_html(title, back_href):
+    """Thanh trên trang bài: nút về, mã bài, pill chuỗi ngày. Không bottomnav."""
+    return f"""
+<header class="topbar">
+  <div class="appwrap">
+    <a class="back" href="{esc(back_href)}" aria-label="Về trang chủ">←</a>
+    <span class="title">{esc(title)}</span>
+    <span class="pills"><span class="pill"><span class="pill-word">Chuỗi</span> <span class="streak-pill">0 ngày</span></span></span>
   </div>
 </header>"""
 
@@ -3242,17 +4741,25 @@ def visible_lessons(data):
 
 
 def lessons_js(visible):
-    return {
-        l["slug"]: {
+    """Dữ liệu bài học cho data.js. Thêm wrong/right/steps/has_ipa/quiz_q để
+    trang chủ vẽ được thẻ Bài hôm nay mà không cần nạp thêm file."""
+    out = {}
+    for l in visible:
+        q = l.get("quiz") or {}
+        out[l["slug"]] = {
             "code": l["code"],
             "title": l["title"],
             "why": l["why"],
             "topic": l["topic"],
             "type": l["type"],
             "date": l["date"],
+            "wrong": l.get("wrong", ""),
+            "right": l.get("right", ""),
+            "steps": len(lesson_steps(l)),
+            "has_ipa": bool(l.get("ipa")),
+            "quiz_q": q.get("question", "") if l["type"] == "Quiz" else "",
         }
-        for l in visible
-    }
+    return out
 
 
 def paths_for_lessons(data):
@@ -3306,150 +4813,129 @@ def data_script(visible, paths):
     return data_js_content(visible, paths)
 
 
-def total_lessons_stat():
-    """Tổng số bài học ở header: ghi span rỗng, app.js điền số lúc chạy
-    từ data.js (tối ưu B 19/11) để thêm bài mới không đổi mọi trang."""
-    return '<span class="stat">' + ICON["book"] + ' <span class="total-lessons-num">…</span> bài học</span>'
-
-
-def progress_chip():
-    """Chip Đã nhớ: ghi span rỗng, app.js điền "n / tổng bài" lúc chạy."""
-    return (
-        '<span class="stat score">' + ICON["star"]
-        + ' Đã nhớ <span class="progress-num">…</span></span>'
-    )
-
-
 def render_index(data):
     site = data["site"]
     visible = visible_lessons(data)
     paths = site["paths"]
     paths_map = paths_for_lessons(data)
-    stats = (
-        total_lessons_stat()
-        + '<span class="stat">' + ICON["map"] + f' {len(paths)} lộ trình</span>'
-        + progress_chip()
-    )
     ask_url = site.get("ask_url") or site["facebook_page"]
-    vis_slugs = {l["slug"] for l in visible}
-    path_cards = ""
-    for p in paths:
-        n_in_path = len([s for s in p["order"] if s in vis_slugs])
-        path_cards += (
-            f'<a class="path-card" data-path="{esc(p["slug"])}" href="{BASE_PATH}/lo-trinh/{esc(p["slug"])}/">'
-            f'<span class="num">{ICON[PATH_ICONS.get(p["slug"], "book")]}</span>'
-            f"<h3>{esc(p['name'])}</h3><p>{esc(p['desc'])}</p>"
-            f'<span class="meta"><span class="path-done">0 / {n_in_path} bài đã nhớ</span>'
-            f" • {n_in_path} bài →</span></a>"
-        )
     path_options = "".join(
         f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in paths
     )
     body = f"""
-{header_html(site, "Học trước, tra cứu sau: mỗi bài chỉ 3 đến 5 phút, học xong bấm Đã nhớ để trang nhắc ôn lại.", stats)}
-<main class="wrap">
-  <div class="tabs" role="tablist">
-    <button class="tab on" id="tab-hoc" type="button" role="tab" aria-selected="true">{ICON["book"]} Học</button>
-    <button class="tab" id="tab-tracuu" type="button" role="tab" aria-selected="false">{ICON["search"]} Tra cứu</button>
+{header_html(site)}
+<main class="appwrap">
+  <section class="hero" id="hero-box">
+    <p class="eyebrow">BÀI HÔM NAY</p>
+    <h1>Đang tải…</h1>
+    <p class="msub">Mở trang bằng trình duyệt có JavaScript để học nhé.</p>
+  </section>
+  <div class="tiles">
+    <div class="tile"><div class="num" id="tile-streak-num">…</div><div class="lbl">Chuỗi ngày học</div></div>
+    <div class="tile"><div class="num" id="tile-done-num">…</div><div class="lbl">Bài đã nhớ</div></div>
+    <div class="tile"><div class="num" id="tile-due-num">…</div><div class="lbl">Đến hạn ôn</div></div>
   </div>
-  <div id="view-hoc">
-    <section>
-      <div class="today" id="today-box"><h2>Học hôm nay</h2><p>Đang tải…</p></div>
-    </section>
-    <section>
-      <div class="progress">
-        <h2>Tiến độ của bạn</h2>
-        <div class="bar"><i id="progress-bar"></i></div>
-        <p id="progress-text"></p>
-        <p>Luyện tập toàn trang: <span class="practice-site-num"></span></p>
-        <p id="streak-text"></p>
-        <p>{ICON["bookmark"]} Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất.</p>
-        <div class="import-row">
-          <button type="button" class="btn btn-ghost" id="btn-export">Tải dữ liệu tiến độ (.json)</button>
-          <button type="button" class="btn btn-ghost" id="btn-import">Nhập dữ liệu đã lưu</button>
-          <input type="file" id="import-file" accept=".json,application/json" hidden>
-          <label><input type="radio" name="import-mode" value="merge" checked> Gộp (mới hơn thắng)</label>
-          <label><input type="radio" name="import-mode" value="overwrite"> Ghi đè</label>
-          <p id="import-msg"></p>
-        </div>
+  <a class="strip" href="{BASE_PATH}/bang-lo-trinh/"><span id="strip-text">Đang tải tiến độ…</span> <span class="go">Xem lộ trình →</span></a>
+  <section class="missions" id="missions-box">
+    <div class="mhead"><h2>Nhiệm vụ hôm nay</h2></div>
+    <p>Đang tải…</p>
+  </section>
+  <section class="comm-card" id="comm-teaser">
+    <h3>Đua top tuần này</h3>
+    <p>Đang tải…</p>
+  </section>
+  <section>
+    <h2>Học tiếp</h2>
+    <div class="rows" id="continue-box"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <h2>Lộ trình của bạn</h2>
+    <div id="path-preview"><p>Đang tải…</p></div>
+  </section>
+  <section id="magazine-section">
+    <h2>Bài mới nhất</h2>
+    <div id="magazine-box"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <h2>Công cụ học</h2>
+    <div class="tools">
+      <a class="tool" href="{BASE_PATH}/tu-dien/">{ICON["search"]}<div><b>Từ điển</b><span>Nghĩa tiếng Việt lên đầu</span></div></a>
+      <a class="tool" href="{BASE_PATH}/luyen-noi/">{ICON["speaker"]}<div><b>Luyện nói</b><span>Nói câu mẫu, chấm từng từ</span></div></a>
+      <a class="tool" href="{BASE_PATH}/luyen-nghe/">{ICON["headphones"]}<div><b>Luyện nghe</b><span>Nghe và bắt lỗi</span></div></a>
+      <a class="tool" href="{BASE_PATH}/luyen-viet/">{ICON["pen"]}<div><b>Luyện viết</b><span>Viết lại câu sai thành đúng</span></div></a>
+      <a class="tool" href="{BASE_PATH}/luyen-doc/">{ICON["book"]}<div><b>Luyện đọc</b><span>Đọc và săn lỗi</span></div></a>
+      <a class="tool" href="{BASE_PATH}/thu-vien-chu-de/">{ICON["cap"]}<div><b>Thư viện chủ đề</b><span>Mọi bài gom theo chủ đề</span></div></a>
+    </div>
+  </section>
+  <section>
+    <h2 id="on-homnay">Ôn hôm nay <small>Những bài đã đến hạn ôn theo lịch riêng của bạn</small></h2>
+    <div class="review-grid" id="review-grid"></div>
+    <div class="empty" id="review-empty" style="display:none">Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</div>
+  </section>
+  <section class="done-list">
+    <h2>Bài đã hoàn thành</h2>
+    <div id="done-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="recent-list">
+    <h2>Hoạt động gần đây</h2>
+    <div id="recent-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="stats-list">
+    <h2>Thống kê quá trình học</h2>
+    <div id="stats-list"><p>Đang tải…</p></div>
+    <p>Luyện tập toàn trang: <span class="practice-site-num"></span></p>
+    <p>{ICON["bookmark"]} Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất.</p>
+    <div class="import-row">
+      <button type="button" class="btn btn-ghost" id="btn-export">Tải dữ liệu tiến độ (.json)</button>
+      <button type="button" class="btn btn-ghost" id="btn-import">Nhập dữ liệu đã lưu</button>
+      <input type="file" id="import-file" accept=".json,application/json" hidden>
+      <label><input type="radio" name="import-mode" value="merge" checked> Gộp (mới hơn thắng)</label>
+      <label><input type="radio" name="import-mode" value="overwrite"> Ghi đè</label>
+      <p id="import-msg"></p>
+    </div>
+  </section>
+  <section>
+    <div class="cta-row">
+      <a class="btn btn-navy" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group làm bài tập</a>
+      <a class="btn btn-primary" href="{esc(ask_url)}" target="_blank" rel="noopener">{ICON["mail"]} Gửi câu của bạn để được sửa</a>
+    </div>
+  </section>
+  <section id="tra-cuu">
+    <h2>Tra cứu mọi bài học</h2>
+    <div class="toolbar">
+      <label class="sr-only" for="search">Tìm bài học</label>
+      <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
+      <div class="chips" id="topicChips"></div>
+      <div class="chips">
+        <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
+        <span class="viewtoggle">
+          <button id="btnCards" class="on" type="button">Thẻ</button>
+          <button id="btnTable" type="button">Bảng</button>
+        </span>
       </div>
-    </section>
-    <section>
-      <h2>Chọn lộ trình của bạn</h2>
-      <p style="margin-bottom:12px">Tổng cộng <b>{len(visible)} bài học</b>. Mỗi bài có thể nằm trong nhiều lộ trình, bạn chỉ cần học 1 lần.</p>
-      <div class="paths">{path_cards}</div>
-    </section>
-    <section>
-      <h2>Kỹ năng mới</h2>
-      <p style="margin-bottom:12px">Học như app: tra từ, luyện nói, xem lộ trình và thư viện chủ đề.</p>
-      <div class="paths">
-        <a class="path-card" href="{BASE_PATH}/tu-dien/"><span class="num">{ICON["book"]}</span><h3>Từ điển</h3><p>Tra nghĩa, phiên âm, nghe phát âm giọng Anh và giọng Mỹ.</p><span class="meta">Tra từ →</span></a>
-        <a class="path-card" href="{BASE_PATH}/luyen-noi/"><span class="num">{ICON["speaker"]}</span><h3>Luyện nói</h3><p>Nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.</p><span class="meta">Luyện nói →</span></a>
-        <a class="path-card" href="{BASE_PATH}/bang-lo-trinh/"><span class="num">{ICON["map"]}</span><h3>Bảng lộ trình</h3><p>Tiến độ từng lộ trình, buổi luyện nói, bài tiếp theo.</p><span class="meta">Xem bảng →</span></a>
-        <a class="path-card" href="{BASE_PATH}/thu-vien-chu-de/"><span class="num">{ICON["cap"]}</span><h3>Thư viện chủ đề</h3><p>Mọi bài học gom theo chủ đề, tìm và lọc nhanh.</p><span class="meta">Mở thư viện →</span></a>
-      </div>
-    </section>
-    <section>
-      <h2 id="on-homnay">Ôn hôm nay <small>Những bài đã đến hạn ôn theo lịch riêng của bạn</small></h2>
-      <div class="review-grid" id="review-grid"></div>
-      <div class="empty" id="review-empty" style="display:none">Chưa có bài nào để ôn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</div>
-    </section>
-    <section class="done-list">
-      <h2>Bài đã hoàn thành</h2>
-      <div id="done-list"><p>Đang tải…</p></div>
-    </section>
-    <section class="recent-list">
-      <h2>Hoạt động gần đây</h2>
-      <div id="recent-list"><p>Đang tải…</p></div>
-    </section>
-    <section class="stats-list">
-      <h2>Thống kê quá trình học</h2>
-      <div id="stats-list"><p>Đang tải…</p></div>
-    </section>
-    <section>
-      <div class="cta-row">
-        <a class="btn btn-navy" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group làm bài tập</a>
-        <a class="btn btn-primary" href="{esc(ask_url)}" target="_blank" rel="noopener">{ICON["mail"]} Gửi câu của bạn để được sửa</a>
-      </div>
-    </section>
-  </div>
-  <div id="view-tracuu" style="display:none">
-    <div class="tabpanel">
-      <div class="toolbar">
-        <label class="sr-only" for="search">Tìm bài học</label>
-        <input id="search" type="search" placeholder="Tìm lỗi mình hay mắc… ví dụ: borrow, bored, comfortable">
-        <div class="chips" id="topicChips"></div>
-        <div class="chips">
-          <span id="typeChips" style="display:flex;gap:8px;flex-wrap:wrap"></span>
-          <span class="viewtoggle">
-            <button id="btnCards" class="on" type="button">Thẻ</button>
-            <button id="btnTable" type="button">Bảng</button>
-          </span>
-        </div>
-        <div class="filter-row">
-          <label for="pathFilter">Lộ trình:</label>
-          <select id="pathFilter"><option value="Tất cả">Tất cả</option>{path_options}</select>
-          <label for="statusFilter">Trạng thái:</label>
-          <select id="statusFilter"><option value="all">Tất cả</option><option value="todo">Chưa học</option><option value="done">Đã nhớ</option><option value="due">Đến hạn ôn</option></select>
-          <label for="sortFilter">Sắp xếp:</label>
-          <select id="sortFilter"><option value="newest">Mới nhất</option><option value="oldest">Cũ nhất</option><option value="az">A đến Z</option></select>
-        </div>
-      </div>
-      <p id="count"></p>
-      <div id="cards" class="grid">
-        {''.join(card_html(l, paths_map.get(l["slug"], [])) for l in visible)}
-      </div>
-      <div id="empty" class="empty" style="display:none">Không thấy bài nào khớp. Thử từ khác nhé.</div>
-      <div id="tableWrap" class="tablewrap" style="display:none">
-        <table>
-          <thead><tr><th>Bài</th><th>Câu sai</th><th>Câu đúng</th><th>Giải thích</th><th>Chủ đề</th></tr></thead>
-          <tbody id="tbody">
-            {''.join(table_row_html(l, paths_map.get(l["slug"], [])) for l in visible)}
-          </tbody>
-        </table>
+      <div class="filter-row">
+        <label for="pathFilter">Lộ trình:</label>
+        <select id="pathFilter"><option value="Tất cả">Tất cả</option>{path_options}</select>
+        <label for="statusFilter">Trạng thái:</label>
+        <select id="statusFilter"><option value="all">Tất cả</option><option value="todo">Chưa học</option><option value="done">Đã nhớ</option><option value="due">Đến hạn ôn</option></select>
+        <label for="sortFilter">Sắp xếp:</label>
+        <select id="sortFilter"><option value="newest">Mới nhất</option><option value="oldest">Cũ nhất</option><option value="az">A đến Z</option></select>
       </div>
     </div>
-  </div>
+    <p id="count"></p>
+    <div id="cards" class="grid">
+      {''.join(card_html(l, paths_map.get(l["slug"], [])) for l in visible)}
+    </div>
+    <div id="empty" class="empty" style="display:none">Không thấy bài nào khớp. Thử từ khác nhé.</div>
+    <div id="tableWrap" class="tablewrap" style="display:none">
+      <table>
+        <thead><tr><th>Bài</th><th>Câu sai</th><th>Câu đúng</th><th>Giải thích</th><th>Chủ đề</th></tr></thead>
+        <tbody id="tbody">
+          {''.join(table_row_html(l, paths_map.get(l["slug"], [])) for l in visible)}
+        </tbody>
+      </table>
+    </div>
+  </section>
 </main>
 {footer_html(site)}
 """
@@ -3458,29 +4944,32 @@ def render_index(data):
         .replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
     )
     index_filter_js = INDEX_FILTER_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
+    comm_mock_js = (
+        '<script>window.SDSC_COMM_MOCK='
+        + json.dumps(community_mock_data(), ensure_ascii=False)
+        + ";</script>"
+    )
+    comm_js = COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"')
     return page_shell(
         f"{site['name']}: {site['slogan']}",
         "Học tiếng Anh từ lỗi người Việt hay mắc. 3 lộ trình có thứ tự, mỗi bài 3 đến 5 phút, quiz chấm ngay, nhắc ôn lại. Tra cứu mọi lỗi đã sửa.",
         SITE_URL + "/",
         SITE_URL + "/images/loi-001.jpg",
         body,
-        extra_js=homepage_js + index_filter_js,
+        extra_js=homepage_js + index_filter_js + comm_mock_js + comm_js,
+        active="home",
     )
 
 
 def render_dict(data):
     site = data["site"]
     visible = visible_lessons(data)
-    stats = (
-        total_lessons_stat()
-        + progress_chip()
-    )
     chips = "".join(
         f'<button type="button" class="chip" data-w="{esc(w)}">{esc(w)}</button>'
         for w in dict_chip_words(visible)
     )
     body = f"""
-{header_html(site, "Tra từ điển cho người Việt: nghĩa tiếng Việt hiện trước, kèm phiên âm và nghe phát âm giọng Anh và giọng Mỹ.", stats)}
+{header_html(site)}
 <main class="wrap">
   <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả bài học</a></p>
   <section>
@@ -3511,17 +5000,13 @@ def render_dict(data):
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=DICT_JS,
+        active="dict",
     )
 
 
 def render_dashboard(data):
     site = data["site"]
     visible = visible_lessons(data)
-    stats = (
-        total_lessons_stat()
-        + '<span class="stat">' + ICON["map"] + f' {len(site["paths"])} lộ trình</span>'
-        + progress_chip()
-    )
     path_names = {p["slug"]: p["name"] for p in site["paths"]}
     dash_js = DASH_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"').replace(
         "PATH_NAMES_PLACEHOLDER", json.dumps(path_names, ensure_ascii=False)
@@ -3537,7 +5022,7 @@ def render_dashboard(data):
     </div>
 """
     body = f"""
-{header_html(site, "Tiến độ học của bạn: bài đã nhớ, buổi luyện nói, chuỗi ngày học và bài tiếp theo.", stats)}
+{header_html(site)}
 <main class="wrap">
   <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả bài học</a></p>
   <section>
@@ -3557,6 +5042,11 @@ def render_dashboard(data):
     <h2>Ôn hôm nay</h2>
     <div id="dash-due"><p>Đang tải…</p></div>
   </section>
+  <section>
+    <h2>Cộng đồng</h2>
+    <p>Đua top tuần này cùng mọi người học: bảng XP tuần, chuỗi ngày, điểm nói tốt nhất tuần, thử thách tuần.</p>
+    <p><a class="btn btn-primary" href="{BASE_PATH}/cong-dong/">Xem bảng Cộng đồng →</a></p>
+  </section>
 </main>
 {footer_html(site)}
 """
@@ -3567,6 +5057,7 @@ def render_dashboard(data):
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=dash_js,
+        active="me",
     )
 
 
@@ -3578,11 +5069,6 @@ def render_library(data):
     for l in visible:
         topics.setdefault(l["topic"], []).append(l)
     order = sorted(topics, key=lambda t: (-len(topics[t]), t))
-    stats = (
-        total_lessons_stat()
-        + '<span class="stat">' + ICON["map"] + f' {len(site["paths"])} lộ trình</span>'
-        + progress_chip()
-    )
     chips = '<button type="button" class="chip on" data-topic="Tất cả">Tất cả (' + str(len(visible)) + ')</button>' + "".join(
         f'<button type="button" class="chip" data-topic="{esc(t)}">{esc(t)} ({len(topics[t])})</button>'
         for t in order
@@ -3597,7 +5083,7 @@ def render_library(data):
   </div>
 """
     body = f"""
-{header_html(site, "Mọi bài học gom theo chủ đề: thì, cấu trúc, từ hay nhầm, mẫu câu.", stats)}
+{header_html(site)}
 <main class="wrap">
   <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả bài học</a></p>
   <section>
@@ -3621,64 +5107,347 @@ def render_library(data):
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=LIB_JS,
+        active="",
     )
 
 
 def render_speak(data):
     site = data["site"]
     visible = visible_lessons(data)
-    stats = (
-        total_lessons_stat()
-        + progress_chip()
+    speakable = speakable_sentences(visible)
+    weak = weak_words_data(data, limit=5)
+    speak_vi = speak_vi_map(speakable)
+    speak_data = (
+        '<script>window.SDSC_SPEAKABLE='
+        + json.dumps(speakable, ensure_ascii=False)
+        + ";window.SDSC_WEAK="
+        + json.dumps(weak, ensure_ascii=False)
+        + ";window.SDSC_SPEAK_VI="
+        + json.dumps(speak_vi, ensure_ascii=False)
+        + ";window.SDSC_SPEAK="
+        + json.dumps(speak_sentences(visible), ensure_ascii=False)
+        + ";</script>"
     )
-    speak_data = f'<script>window.SDSC_SPEAK={json.dumps(speak_sentences(visible), ensure_ascii=False)};</script>'
     body = f"""
-{header_html(site, "Luyện nói: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.", stats)}
-<main class="wrap">
-  <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả bài học</a></p>
+{header_html(site)}
+<main class="appwrap">
   <section>
     <h2>Luyện nói</h2>
-    <p>Chọn 1 câu mẫu, nghe câu mẫu rồi nói lại. Máy nghe và cho biết khớp được bao nhiêu, từ nào chưa rõ.</p>
-    <p class="note">Trang chỉ kiểm tra câu nói có khớp với câu mẫu không, chưa chấm được từng âm như app chuyên luyện phát âm. Muốn chấm từng âm thì cần app chạy ngay trên máy, web này chưa làm được.</p>
+    <p class="speak-intro">Nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.</p>
     <p class="note warn" id="speak-nosupport" style="display:none">Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Mở trang bằng Chrome hoặc Edge trên máy tính hoặc điện thoại Android để luyện nói nhé. Safari và iPhone chưa dùng được tính năng này.</p>
-    <div class="filter-row">
-      <label for="speak-pick">Câu mẫu:</label>
-      <select id="speak-pick"></select>
-    </div>
+  </section>
+  <section>
+    <h2>Câu của hôm nay</h2>
+    <p class="msub2">Câu từ bài hôm nay và 2 bài gần nhất chưa nhớ. Bấm vào 1 câu là vào thẳng lượt 1.</p>
+    <div class="speak-cards" id="speak-today"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <h2>Luyện theo chủ đề</h2>
+    <p class="msub2">Chọn 1 chủ đề rồi chọn câu trong đó để luyện.</p>
+    <div class="speak-topic" id="speak-topics"><p>Đang tải…</p></div>
+    <div id="speak-topic-list" style="display:none"></div>
+  </section>
+  <section>
+    <h2>Từ yếu của bạn</h2>
+    <p class="msub2">Những từ hay sai nhất, mỗi từ kèm 1 câu chứa từ đó. Bấm vào từ là luyện câu đó.</p>
+    <div class="speak-cards" id="speak-weak"><p>Đang tải…</p></div>
+  </section>
+  <section class="speak-card" id="speak-card" style="display:none">
+    <p class="speak-round" id="speak-round">Lượt 1 trên 3</p>
     <p class="speak-target" id="speak-target">Đang tải câu mẫu…</p>
-    <p id="speak-vi"></p>
+    <p class="speak-vi" id="speak-vi"></p>
+    <p class="speak-source" id="speak-source"></p>
     <div class="chunk-actions">
       <button type="button" class="btn btn-navy" id="speak-listen">Nghe câu mẫu</button>
       <button type="button" class="btn btn-primary" id="speak-start">Bắt đầu nói</button>
       <button type="button" class="btn btn-ghost" id="speak-stop" disabled>Dừng</button>
+      <button type="button" class="btn btn-ghost" id="speak-replay" style="display:none">Nghe lại giọng mình</button>
     </div>
     <p id="speak-status">Bấm “Nghe câu mẫu” rồi bấm “Bắt đầu nói” nhé.</p>
     <div class="speak-heard" id="speak-heard"></div>
+    <div class="speak-colored" id="speak-colored"></div>
     <div id="speak-score"></div>
+    <div class="speak-missed" id="speak-missed"></div>
+    <div class="speak-next">
+      <button type="button" class="btn btn-primary" id="speak-next" style="display:none">Lượt tiếp theo</button>
+      <button type="button" class="btn btn-ghost" id="speak-new">Chọn câu khác</button>
+    </div>
+    <div id="speak-done" style="display:none"></div>
+  </section>
+  <section>
     <p id="speak-stats"></p>
+    <p><button type="button" class="btn btn-ghost" id="speak-random">Ngẫu nhiên 1 câu</button></p>
+    <p class="msub2">Máy chấm theo từ, không chấm từng âm.</p>
   </section>
 </main>
 {footer_html(site)}
 """
     return page_shell(
         "Luyện nói | Kho bài học Sai Đâu Sửa Đó",
-        "Luyện nói tiếng Anh: nói câu mẫu, máy nghe lại và cho biết khớp được bao nhiêu.",
+        "Luyện nói tiếng Anh: nghe câu mẫu, nói lại, máy tô xanh từ nói đúng, đỏ từ chưa đúng. 3 lượt mỗi buổi, xong được 20 XP.",
         SITE_URL + "/luyen-noi/",
         SITE_URL + "/images/loi-001.jpg",
         body,
-        extra_js=speak_data + SPEAK_JS,
+        extra_js=speak_data + SPEAK_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        active="speak",
     )
 
+def render_listen(data):
+    site = data["site"]
+    visible = visible_lessons(data)
+    body = f"""
+{header_html(site)}
+<main class="appwrap">
+  <section>
+    <h2>Luyện nghe</h2>
+    <p class="skill-intro">Nghe và bắt lỗi. Nghe 1 câu rồi chọn Sai hay Đúng, nghe 2 câu rồi chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng. Nghe xong hiện cả 2 câu cạnh nhau, từ khác nhau được tô vàng.</p>
+  </section>
+  <section id="listen-start">
+    <div class="skill-modes">
+      <div class="skill-mode"><b>Nghe 1 câu, chọn Sai hay Đúng</b><span>Nghe 1 câu rồi chọn xem câu đó sai hay đúng.</span></div>
+      <div class="skill-mode"><b>Nghe 2 câu, chọn câu nào đúng</b><span>Nghe 2 câu liên tiếp rồi chọn câu đúng trong 2 câu.</span></div>
+      <div class="skill-mode"><b>Nghe câu sai, gõ lại thành câu đúng</b><span>Nghe câu sai rồi gõ lại thành câu đúng, máy chấm theo từng từ.</span></div>
+    </div>
+    <p><button type="button" class="btn btn-primary" id="listen-begin">Bắt đầu luyện nghe</button></p>
+    <p class="msub2">Mỗi buổi 6 câu, xong được 20 XP.</p>
+  </section>
+  <section class="skill-card" id="listen-card" style="display:none">
+    <p class="skill-round" id="listen-round">Câu 1 trên 6</p>
+    <p id="listen-prompt"></p>
+    <div id="listen-play"></div>
+    <div class="skill-choices" id="listen-choices"></div>
+    <div id="listen-type" style="display:none">
+      <label class="sr-only" for="listen-input">Gõ lại thành câu đúng</label>
+      <input class="skill-answer" id="listen-input" type="text" placeholder="Gõ lại thành câu đúng…" autocomplete="off">
+      <p><button type="button" class="btn btn-primary" id="listen-check">Kiểm tra</button></p>
+    </div>
+    <div class="skill-feedback" id="listen-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="listen-next" style="display:none">Câu tiếp theo</button></p>
+    <p class="skill-progress" id="listen-progress"></p>
+  </section>
+  <section class="skill-done" id="listen-done" style="display:none"></section>
+  <section>
+    <p id="listen-stats"></p>
+  </section>
+</main>
+{footer_html(site)}
+"""
+    skills_js = '<script src="' + BASE_PATH + '/skills.js"></script>'
+    return page_shell(
+        "Luyện nghe | Kho bài học Sai Đâu Sửa Đó",
+        "Luyện nghe tiếng Anh: nghe và bắt lỗi, nghe 1 câu chọn Sai hay Đúng, nghe 2 câu chọn câu nào đúng, nghe câu sai rồi gõ lại thành câu đúng.",
+        SITE_URL + "/luyen-nghe/",
+        SITE_URL + "/images/loi-001.jpg",
+        body,
+        extra_js=skills_js + LISTEN_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        active="",
+    )
+
+
+def render_write(data):
+    site = data["site"]
+    visible = visible_lessons(data)
+    body = f"""
+{header_html(site)}
+<main class="appwrap">
+  <section>
+    <h2>Luyện viết</h2>
+    <p class="skill-intro">Viết lại câu sai thành câu đúng. Máy so từng từ, tô màu từ đúng, từ thừa, từ thiếu, từ sai chính tả, rồi hiện lời giải thích vì sao đã có trong bài.</p>
+  </section>
+  <section id="write-start">
+    <div class="skill-modes">
+      <div class="skill-mode"><b>Viết lại câu sai thành câu đúng</b><span>Hiện câu sai, gõ lại thành câu đúng.</span></div>
+      <div class="skill-mode"><b>Dịch từ tiếng Việt sang câu đúng</b><span>Hiện nghĩa tiếng Việt, dịch sang câu tiếng Anh đã học.</span></div>
+      <div class="skill-mode"><b>Điền từ còn thiếu</b><span>Câu đúng bị khuyết 1 từ, điền từ còn thiếu vào chỗ trống.</span></div>
+    </div>
+    <p><button type="button" class="btn btn-primary" id="write-begin">Bắt đầu luyện viết</button></p>
+    <p class="msub2">Mỗi buổi 3 câu, xong được 20 XP.</p>
+  </section>
+  <section class="skill-card" id="write-card" style="display:none">
+    <p class="skill-round" id="write-round">Câu 1 trên 3</p>
+    <div id="write-prompt"></div>
+    <p class="skill-source" id="write-source"></p>
+    <label class="sr-only" for="write-input">Viết câu trả lời</label>
+    <input class="skill-answer" id="write-input" type="text" placeholder="Viết câu trả lời…" autocomplete="off">
+    <p><button type="button" class="btn btn-primary" id="write-check">Kiểm tra</button></p>
+    <div class="skill-feedback" id="write-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="write-next" style="display:none">Câu tiếp theo</button></p>
+    <p class="skill-progress" id="write-progress"></p>
+  </section>
+  <section class="skill-done" id="write-done" style="display:none"></section>
+  <section>
+    <h2>Lỗi tôi hay viết sai</h2>
+    <p class="msub2">Câu nào bạn gõ sai nhiều lần sẽ tự vào đây, lần sau ôn lại đúng câu đó.</p>
+    <div class="write-wrong-list" id="write-wrong"><p>Đang tải…</p></div>
+  </section>
+  <section>
+    <p id="write-stats"></p>
+  </section>
+</main>
+{footer_html(site)}
+"""
+    skills_js = '<script src="' + BASE_PATH + '/skills.js"></script>'
+    return page_shell(
+        "Luyện viết | Kho bài học Sai Đâu Sửa Đó",
+        "Luyện viết tiếng Anh: viết lại câu sai thành câu đúng, dịch từ tiếng Việt sang câu đúng, điền từ còn thiếu. Máy chấm theo từng từ.",
+        SITE_URL + "/luyen-viet/",
+        SITE_URL + "/images/loi-001.jpg",
+        body,
+        extra_js=skills_js + WRITE_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        active="",
+    )
+
+
+def render_read(data):
+    site = data["site"]
+    visible = visible_lessons(data)
+    passages = load_reading()
+    read_data = (
+        '<script>window.SDSC_READ_VI='
+        + json.dumps(read_vi_map(passages), ensure_ascii=False)
+        + ";</script>"
+    )
+    body = f"""
+{header_html(site)}
+<main class="appwrap">
+  <section>
+    <h2>Luyện đọc</h2>
+    <p class="skill-intro">Đọc và săn lỗi. Đoạn văn ngắn 3 đến 5 câu về tình huống đời thường, giấu 1 lỗi đúng kiểu bài vừa học. Bấm vào câu nghi là sai rồi chọn cách sửa. Bấm vào 1 từ để xem nghĩa tiếng Việt ngay.</p>
+  </section>
+  <section id="read-start">
+    <p><button type="button" class="btn btn-primary" id="read-begin">Bắt đầu luyện đọc</button></p>
+    <p class="msub2">Mỗi buổi 3 đoạn, xong 1 đoạn được 20 XP. Cấp độ đọc tự điều chỉnh theo điểm của bạn.</p>
+    <p class="read-level" id="read-level"></p>
+  </section>
+  <section class="skill-card" id="read-card" style="display:none">
+    <p class="skill-round" id="read-progress"></p>
+    <p class="skill-source" id="read-situation"></p>
+    <p class="skill-source" id="read-source"></p>
+    <div class="read-passage" id="read-passage"></div>
+    <div class="read-word-pop" id="read-wordpop"></div>
+    <div id="read-fix"></div>
+    <div id="read-question"></div>
+    <div class="skill-feedback" id="read-feedback"></div>
+    <p><button type="button" class="btn btn-primary" id="read-next" style="display:none">Đoạn tiếp theo</button></p>
+  </section>
+  <section class="skill-done" id="read-done" style="display:none"></section>
+  <section>
+    <p id="read-stats"></p>
+  </section>
+</main>
+{footer_html(site)}
+"""
+    reading_js = '<script src="' + BASE_PATH + '/reading.js"></script>'
+    return page_shell(
+        "Luyện đọc | Kho bài học Sai Đâu Sửa Đó",
+        "Luyện đọc tiếng Anh: đọc đoạn văn ngắn và săn lỗi, bấm từ hiện nghĩa, cấp độ đọc tự điều chỉnh theo điểm.",
+        SITE_URL + "/luyen-doc/",
+        SITE_URL + "/images/loi-001.jpg",
+        body,
+        extra_js=reading_js + read_data + READ_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        active="",
+    )
+
+def community_mock_data():
+    """Dữ liệu thử cho mục Cộng đồng (bản mock, chưa nối backend thật).
+    Hình dạng đúng hợp đồng API sẽ đóng băng (§8.1 báo cáo Cộng đồng):
+    tuần, thử thách tuần, 3 bảng xếp hạng. Khi backend xong, thay
+    window.SDSC_COMM_MOCK bằng fetch tới API thật."""
+    return {
+        "week": 48,
+        "weekStart": "2026-11-23",
+        "challenge": {
+            "id": "tuan-48",
+            "title": "Sửa 5 lỗi về thì trong tuần",
+            "target": 5,
+            "unit": "lỗi",
+            "rewardXp": 100,
+            "badge": "Hoàn thành thử thách tuần",
+        },
+        "leaderboards": {
+            "xp": [
+                {"name": "Minh", "level": 5, "xp": 320, "hearts": 12, "badge": "Top 1"},
+                {"name": "An", "level": 4, "xp": 280, "hearts": 9},
+                {"name": "Linh", "level": 4, "xp": 250, "hearts": 11},
+                {"name": "Hùng", "level": 3, "xp": 210, "hearts": 5},
+                {"name": "Thảo", "level": 3, "xp": 190, "hearts": 7},
+                {"name": "Quân", "level": 3, "xp": 170, "hearts": 3},
+                {"name": "Ngọc", "level": 2, "xp": 150, "hearts": 6},
+                {"name": "Dũng", "level": 2, "xp": 120, "hearts": 2},
+                {"name": "Hà", "level": 2, "xp": 100, "hearts": 4},
+                {"name": "Phúc", "level": 1, "xp": 80, "hearts": 1},
+            ],
+            "streak": [
+                {"name": "An", "level": 4, "days": 12, "hearts": 8},
+                {"name": "Minh", "level": 5, "days": 10, "hearts": 6},
+                {"name": "Linh", "level": 4, "days": 9, "hearts": 5},
+                {"name": "Hùng", "level": 3, "days": 8, "hearts": 3},
+                {"name": "Thảo", "level": 3, "days": 7, "hearts": 4},
+                {"name": "Quân", "level": 3, "days": 6, "hearts": 2},
+                {"name": "Ngọc", "level": 2, "days": 5, "hearts": 3},
+                {"name": "Dũng", "level": 2, "days": 4, "hearts": 1},
+                {"name": "Hà", "level": 2, "days": 3, "hearts": 2},
+                {"name": "Phúc", "level": 1, "days": 2, "hearts": 0},
+            ],
+            "speak": [
+                {"name": "Linh", "level": 4, "score": 95, "hearts": 10, "sentence": "Can you lend me your pen?"},
+                {"name": "Minh", "level": 5, "score": 92, "hearts": 7, "sentence": "I agree with you."},
+                {"name": "An", "level": 4, "score": 90, "hearts": 5, "sentence": "She is a teacher."},
+                {"name": "Hùng", "level": 3, "score": 88, "hearts": 4, "sentence": "He is watching TV now."},
+                {"name": "Thảo", "level": 3, "score": 85, "hearts": 6, "sentence": "I have lived here for 2 years."},
+                {"name": "Quân", "level": 3, "score": 82, "hearts": 2, "sentence": "What are you listening to now?"},
+                {"name": "Ngọc", "level": 2, "score": 80, "hearts": 3, "sentence": "I want to learn English."},
+                {"name": "Dũng", "level": 2, "score": 78, "hearts": 1, "sentence": "This is my friend."},
+                {"name": "Hà", "level": 2, "score": 75, "hearts": 2, "sentence": "I go to school every day."},
+                {"name": "Phúc", "level": 1, "score": 70, "hearts": 0, "sentence": "Good morning."},
+            ],
+        },
+    }
+
+
+def render_community(data):
+    site = data["site"]
+    visible = visible_lessons(data)
+    mock = community_mock_data()
+    mock_js = (
+        '<script>window.SDSC_COMM_MOCK='
+        + json.dumps(mock, ensure_ascii=False)
+        + ";</script>"
+    )
+    body = f"""
+{header_html(site)}
+<main class="appwrap">
+  <section>
+    <h2>Cộng đồng</h2>
+    <p class="skill-intro">Đua top tuần này cùng mọi người học. Bảng xếp hạng reset 0 giờ Thứ 2 hàng tuần. Tham gia tự động khi đã đăng nhập, không cần bấm tham gia.</p>
+    <p class="comm-note" id="comm-offline">Bảng chung đang chạy bản thử, chưa nối máy chủ thật. Điểm của bạn vẫn được lưu ở máy, sẽ đồng bộ lại sau.</p>
+  </section>
+  <section class="comm-card" id="comm-challenge"><p>Đang tải thử thách tuần…</p></section>
+  <section class="comm-card" id="board-xp"><p>Đang tải bảng Top XP tuần…</p></section>
+  <section class="comm-card" id="board-streak"><p>Đang tải bảng chuỗi ngày…</p></section>
+  <section class="comm-card" id="board-speak"><p>Đang tải bảng điểm nói…</p></section>
+  <section class="comm-card" id="comm-auth"><p>Đang tải tài khoản…</p></section>
+  <section>
+    <p><a class="btn btn-navy" href="{esc(site['facebook_group'])}" target="_blank" rel="noopener">{ICON["users"]} Vào Group Cộng đồng Sai Đâu Sửa Đó</a></p>
+    <p class="comm-note">Thứ 2 tuần sau, Trang đăng kết quả lên Group: top 3 bảng XP tuần, tên thử thách tuần mới, lời mời vào web. Chỉ đăng tên hiển thị của top 3 người không chọn ẩn tên.</p>
+  </section>
+</main>
+{footer_html(site)}
+"""
+    return page_shell(
+        "Cộng đồng | Kho bài học Sai Đâu Sửa Đó",
+        "Cộng đồng Sai Đâu Sửa Đó: đua top tuần, thử thách tuần, bảng xếp hạng XP, chuỗi ngày và điểm nói.",
+        SITE_URL + "/cong-dong/",
+        SITE_URL + "/images/loi-001.jpg",
+        body,
+        extra_js=mock_js + COMM_JS.replace("BASE_PATH_PLACEHOLDER", f'"{BASE_PATH}"'),
+        active="",
+    )
 
 def render_path(data, path):
     site = data["site"]
     visible = visible_lessons(data)
     by_slug = {l["slug"]: l for l in visible}
-    stats = (
-        total_lessons_stat()
-        + '<span class="stat">' + ICON["map"] + f' {len(site["paths"])} lộ trình</span>'
-        + progress_chip()
-    )
     listed = [by_slug[s] for s in path["order"] if s in by_slug]
     items = ""
     for i, l in enumerate(listed):
@@ -3691,11 +5460,12 @@ def render_path(data, path):
 </a>"""
     og_img = f"{SITE_URL}/images/{listed[0]['slug']}.jpg" if listed else SITE_URL + "/images/loi-001.jpg"
     body = f"""
-{header_html(site, f"Lộ trình {path['name']}: {path['desc']}", stats)}
+{header_html(site)}
 <main class="wrap">
   <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả lộ trình</a></p>
   <section>
     <h2>{esc(path['name'])} <small>{len(listed)} bài, mỗi bài 3 đến 5 phút</small></h2>
+    <p>{esc(path['desc'])}</p>
     <div class="path-list">{items}</div>
   </section>
   <section>
@@ -3714,6 +5484,7 @@ def render_path(data, path):
         og_img,
         body,
         extra_js=PATH_PAGE_JS,
+        active="path",
     )
 
 
@@ -3759,6 +5530,150 @@ def speak_sentences(visible):
     return out
 
 
+SPEAK_STOPWORDS = {
+    "a", "an", "the", "i", "you", "he", "she", "it", "we", "they",
+    "me", "him", "her", "us", "them", "my", "your", "his", "its", "our", "their",
+    "am", "is", "are", "was", "were", "be", "been", "being",
+    "have", "has", "had", "do", "does", "did", "will", "would", "can", "could",
+    "shall", "should", "may", "might", "must",
+    "in", "on", "at", "to", "for", "of", "with", "by", "from", "as",
+    "and", "or", "but", "if", "then", "than", "so", "very", "not", "no", "yes",
+    "this", "that", "these", "those", "there", "here",
+    "what", "when", "where", "who", "whom", "which", "why", "how",
+    "all", "any", "some", "each", "every", "both", "either", "neither",
+    "one", "two",
+}
+
+
+def speakable_sentences(visible):
+    """Câu luyện nói đạt chuẩn: câu right từ 4 từ trở lên, chỉ chứa chữ cái
+    tiếng Anh. Không loại trùng (2 bài có thể chung 1 câu, mỗi bài 1 thẻ)."""
+    out = []
+    for l in visible:
+        right = l.get("right", "")
+        words = re.findall(r"[A-Za-z']+", right)
+        if len(words) < 4:
+            continue
+        alpha = "".join(c for c in right if c.isalpha())
+        if not alpha.isascii():
+            continue
+        out.append({
+            "en": right,
+            "vi": l.get("right_note", ""),
+            "code": l["code"],
+            "slug": l["slug"],
+            "topic": l.get("topic", ""),
+            "title": l.get("title", ""),
+            "words": len(words),
+            "level": "Ngắn" if len(words) <= 6 else "Vừa",
+        })
+    return out
+
+
+def speak_vi_map(sentences):
+    """Nghĩa tiếng Việt cho từng từ trong câu luyện nói, lấy từ bảng nghĩa.
+    Chỉ lấy nghĩa đầu tiên của mỗi từ, để nhúng gọn vào trang Luyện nói."""
+    glossary = parse_vi_glossary()
+    words = set()
+    for s in sentences:
+        for w in re.findall(r"[A-Za-z']+", s["en"]):
+            words.add(w.lower())
+    out = {}
+    for w in sorted(words):
+        senses = glossary.get(w)
+        if senses and senses[0] and len(senses[0]) >= 2 and senses[0][1]:
+            out[w] = senses[0][1]
+    return out
+
+
+def weak_words_data(data, limit=5):
+    """Từ yếu: từ nội dung có gắn nhiều bài học nhất qua trường mistakes.
+    Mỗi từ kèm 1 câu đạt chuẩn chứa từ đó, ưu tiên câu của 1 bài gắn với từ."""
+    visible = visible_lessons(data)
+    speakable = speakable_sentences(visible)
+    by_slug = {s["slug"]: s for s in speakable}
+    mistakes = word_mistake_slugs(data)
+    glossary = parse_vi_glossary()
+    ranked = []
+    for w, slugs in mistakes.items():
+        if not slugs or w.lower() in SPEAK_STOPWORDS:
+            continue
+        ranked.append((w, slugs))
+    ranked.sort(key=lambda kv: (-len(kv[1]), kv[0]))
+    out = []
+    for w, slugs in ranked:
+        if len(out) >= limit:
+            break
+        pat = re.compile(r"\b" + re.escape(w) + r"\b", re.I)
+        sentence = None
+        for slug in slugs:
+            s = by_slug.get(slug)
+            if s and pat.search(s["en"]):
+                sentence = s
+                break
+        if sentence is None:
+            for s in speakable:
+                if pat.search(s["en"]):
+                    sentence = s
+                    break
+        if sentence is None:
+            continue
+        senses = glossary.get(w.lower())
+        meaning = senses[0][1] if senses and senses[0] and len(senses[0]) >= 2 else ""
+        out.append({"word": w, "meaning": meaning, "slugs": slugs, "sentence": sentence})
+    return out
+
+
+def skills_js_content(visible):
+    """Dữ liệu cho 4 trang kỹ năng: câu sai, câu đúng, cặp lỗi, ví dụ,
+    giải thích của từng bài. Chỉ nạp ở trang kỹ năng, không nạp ở trang chủ."""
+    out = {}
+    for l in visible:
+        out[l["slug"]] = {
+            "code": l["code"],
+            "title": l["title"],
+            "topic": l.get("topic", ""),
+            "type": l["type"],
+            "wrong": l.get("wrong", ""),
+            "right": l.get("right", ""),
+            "why": l.get("why", ""),
+            "right_note": l.get("right_note", ""),
+            "mistakes": [{"wrong": m.get("wrong", ""), "right": m.get("right", "")}
+                         for m in l.get("mistakes", [])],
+            "examples": [{"en": e.get("en", ""), "vi": e.get("vi", "")}
+                         for e in l.get("examples", [])],
+        }
+    return "window.SDSC_SKILLS=" + json.dumps(out, ensure_ascii=False) + ";\n"
+
+
+def load_reading():
+    """Đoạn văn đọc (63 đoạn, soạn tay từ dữ liệu bài học). Trả về [] nếu
+    chưa có file, trang Luyện đọc hiện dòng chưa có đoạn văn."""
+    p = ROOT / "reading.json"
+    try:
+        raw = json.loads(p.read_text(encoding="utf-8"))
+        passages = raw.get("passages", []) if isinstance(raw, dict) else []
+        return [x for x in passages if isinstance(x, dict) and x.get("slug")]
+    except Exception as e:
+        print("không đọc được reading.json:", e)
+        return []
+
+
+def reading_js_content(passages):
+    return "window.SDSC_READING=" + json.dumps(passages, ensure_ascii=False) + ";\n"
+
+
+def read_vi_map(passages):
+    """Nghĩa tiếng Việt cho từ trong đoạn văn đọc, lấy từ bảng 852 từ.
+    Tái dùng speak_vi_map bằng cách đưa câu trong đoạn văn vào dạng câu."""
+    sentences = []
+    for p in passages:
+        for s in p.get("sentences", []):
+            if s.get("text"):
+                sentences.append({"en": s["text"]})
+    return speak_vi_map(sentences)
+
+
 def dict_chip_words(visible):
     """Từ phát âm trong các bài học, dùng làm gợi ý tra nhanh."""
     words = []
@@ -3776,10 +5691,7 @@ def render_lesson(data, lesson, prev_lesson, next_lesson):
     url = f"{SITE_URL}/{slug}/"
     img = f"{SITE_URL}/images/{slug}.jpg"
     title = f"{lesson['code']}: {lesson['title']} | Kho bài học Sai Đâu Sửa Đó"
-    stats = (
-        total_lessons_stat()
-        + progress_chip()
-    )
+    n_steps = len(lesson_steps(lesson))
     prev_link = ""
     if prev_lesson:
         prev_link = (
@@ -3823,9 +5735,8 @@ def render_lesson(data, lesson, prev_lesson, next_lesson):
   </section>
 """
     body = f"""
-{header_html(site, f"Bài {lesson['code']} • Chủ đề {lesson['topic']} • Đăng ngày {fmt_date(lesson['date'])}", stats)}
+{topbar_html(f"{lesson['code']}: {lesson['title']}", f"{BASE_PATH}/")}
 <main class="wrap">
-  <p style="margin:16px 0 0"><a class="back" href="{BASE_PATH}/">← Tất cả bài học</a></p>
   <div class="wiz-progress"><div class="wiz-bar"><i id="wizFill"></i></div><span id="wizLabel">Bước 1</span></div>
   <section class="lesson">
     <div class="tags" style="margin:6px 0 10px">
@@ -3834,6 +5745,7 @@ def render_lesson(data, lesson, prev_lesson, next_lesson):
     </div>
     <h2 style="font-size:23px;line-height:1.3">{esc(lesson['code'])}: {esc(lesson['title'])}</h2>
     {lesson_body(lesson)}
+    <p class="xphint">★ Xong {n_steps} bước được <b>20 XP</b>, cộng vào Nhiệm vụ hôm nay.</p>
   </section>
   {chunk_section}
   <section class="origin">
@@ -3868,13 +5780,15 @@ def render_readme(data):
     n_reels = len(data["lessons"]) - len(visible)
     n_words = len(parse_vi_glossary())
     lines = [
-        "# Kho bài học Sai Đâu Sửa Đó — Content engine học tiếng Anh mở",
+        "# Kho bài học Sai Đâu Sửa Đó: Content engine học tiếng Anh mở",
         "",
         "Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.",
         "",
         f"- **{len(visible)} bài học** hiển thị trên web • **{len(data['lessons'])} bài** trong API • **{n_words} từ** trong từ điển • **{len(site['paths'])} lộ trình** • **{n_reels} Reel** đính kèm trong bài",
         "- Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), "
-        "**Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/). "
+        "**Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/), "
+        "**Luyện nghe** (/luyen-nghe/), **Luyện viết** (/luyen-viet/), **Luyện đọc** (/luyen-doc/), "
+        "**Cộng đồng** (/cong-dong/). "
         "Mỗi bài học có thêm chế độ Học từng cụm.",
         f"- Trang Facebook: {site['facebook_page']}",
         f"- Group: {site['facebook_group']}",
@@ -3930,15 +5844,7 @@ def render_readme(data):
                 lines.append(f"- [{l['code']}: {l['title']}]({slug}/)")
         lines.append("")
     lines += [
-        "## Cập nhật sau mỗi bài đăng",
-        "",
-        "Dữ liệu bài học nằm trong 1 tệp duy nhất `lessons.json`. Sau mỗi bài đăng lên Facebook:",
-        "",
-        "1. Viết file JSON của bài mới (đúng schema trong `CAP-NHAT-SITE.md`).",
-        "2. Chạy `python3 update_site.py --lesson /tmp/bai-moi.json`. Script thêm bài,",
-        "   dựng lại toàn bộ trang rồi đẩy lên GitHub Pages.",
-        "",
-        "Trang này chạy bằng GitHub Pages, sinh từ `lessons.json` bằng `generate_site.py`.",
+        "Trang này chạy bằng GitHub Pages, sinh từ `lessons.json`.",
     ]
     return "\n".join(lines) + "\n"
 
@@ -4480,7 +6386,6 @@ def render_api_docs(data):
         "<tr><td><code>/api/openapi.yaml</code></td><td>Định nghĩa OpenAPI cho mọi đầu dữ liệu</td><td>" + _api_kb(len(openapi_s.encode("utf-8"))) + "</td></tr>",
         "<tr><td><code>/api/</code></td><td>Trang tài liệu này</td><td>Trang HTML</td></tr>",
     ])
-    stats = total_lessons_stat() + progress_chip()
     body = """
 __HEADER__
 <main class="wrap">
@@ -4602,10 +6507,7 @@ console.log(lookup("tomorrow"));</code></pre>
 </main>
 __FOOTER__
 """
-    body = body.replace("__HEADER__", header_html(
-        site,
-        "Dữ liệu học tiếng Anh của Trang, mở cho mọi lập trình viên dùng miễn phí, không cần khóa.",
-        stats))
+    body = body.replace("__HEADER__", header_html(site))
     body = body.replace("__FOOTER__", footer_html(site))
     body = body.replace("__BASE_PATH__", BASE_PATH)
     body = body.replace("__SITE_URL__", SITE_URL)
@@ -4622,6 +6524,7 @@ __FOOTER__
         SITE_URL + "/images/loi-001.jpg",
         body,
         extra_js=API_DOCS_JS,
+        active="",
     )
 
 
@@ -4701,7 +6604,8 @@ def main():
             print("gỡ ảnh cũ:", f.name)
 
     # remove stale lesson dirs (e.g. reel-001/ from phase 1)
-    keep_dirs = vis_slugs | {"tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "luyen-noi", "api"}
+    keep_dirs = vis_slugs | {"tu-dien", "bang-lo-trinh", "thu-vien-chu-de", "luyen-noi",
+                             "luyen-nghe", "luyen-viet", "luyen-doc", "cong-dong", "api"}
     for d in list(ROOT.iterdir()):
         if d.is_dir() and (d / "index.html").exists() and d.name not in keep_dirs:
             shutil.rmtree(d)
@@ -4719,6 +6623,10 @@ def main():
     changed += write_if_changed(ROOT / "styles.css", CSS.strip() + "\n")
     changed += write_if_changed(ROOT / "app.js", js_body(SHARED_JS))
     changed += write_if_changed(ROOT / "data.js", data_js_content(visible, site["paths"]))
+    # Dữ liệu cho 4 trang kỹ năng (đợt hướng A): câu sai/câu đúng từng bài
+    # và đoạn văn đọc. Chỉ nạp ở trang kỹ năng, không nạp ở trang chủ.
+    changed += write_if_changed(ROOT / "skills.js", skills_js_content(visible))
+    changed += write_if_changed(ROOT / "reading.js", reading_js_content(load_reading()))
     changed += write_if_changed(
         ROOT / "search-index.json",
         json.dumps(build_search_index(visible, paths_for_lessons(data)), ensure_ascii=False))
@@ -4735,8 +6643,16 @@ def main():
     for slug, html in (("tu-dien", render_dict(data)),
                        ("bang-lo-trinh", render_dashboard(data)),
                        ("thu-vien-chu-de", render_library(data)),
-                       ("luyen-noi", render_speak(data))):
+                       ("luyen-noi", render_speak(data)),
+                       ("luyen-nghe", render_listen(data)),
+                       ("luyen-viet", render_write(data)),
+                       ("luyen-doc", render_read(data)),
+                       ("cong-dong", render_community(data))):
         changed += write_if_changed(ROOT / slug / "index.html", html)
+    # Dữ liệu thử cho mục Cộng đồng (hình dạng đúng hợp đồng API §8.1).
+    changed += write_if_changed(
+        ROOT / "community-mock.json",
+        json.dumps(community_mock_data(), ensure_ascii=False, indent=2) + "\n")
     changed += write_if_changed(ROOT / "README.md", render_readme(data))
     changed += write_if_changed(ROOT / "favicon.svg", FAVICON_SVG)
     # API mở (19/11): file JSON tĩnh dưới api/v1/ + trang tài liệu /api/.
@@ -4772,6 +6688,7 @@ def main():
           f"{total_graded(visible)} câu luyện chấm ngay, "
           f"{len(visible)} trang bài + {len(site['paths'])} trang lộ trình + trang chủ"
           f" + 4 trang mới (từ điển, bảng lộ trình, thư viện chủ đề, luyện nói)"
+          f" + 3 trang kỹ năng (luyện nghe, luyện viết, luyện đọc)"
           f" + API mở ({len(data['lessons'])} file chi tiết bài, từ điển {len(parse_vi_glossary())} từ)"
           f" — đổi {changed} file")
 

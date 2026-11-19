@@ -54,7 +54,7 @@ def source_files():
     # AUDIT-NOIDUNG.md, DEPLOY_LOG.md, SOURCE_SYNC_LOG.md.
     for name in ["generate_site.py", "update_site.py", "deploy_github_pages.py",
                  "undo_deploy.py", "sync_source_to_main.py",
-                 "lessons.json", "enrichment.json",
+                 "lessons.json", "enrichment.json", "reading.json",
                  "favicon.svg"]:
         out.append((os.path.join(SRC, name), f"web/{name}"))
     for f in sorted(Path(os.path.join(SRC, "fonts")).glob("*.woff2")):

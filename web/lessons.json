@@ -6362,6 +6362,93 @@
    "wrong_note": "",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi nhanh #004",
+   "compare": [
+    {
+     "a": "Please kindly help me.",
+     "b": "Please help me.",
+     "note": "kindly và please cùng nghĩa, chỉ dùng một từ."
+    },
+    {
+     "a": "Kindly to wait a moment.",
+     "b": "Kindly wait a moment.",
+     "note": "sau kindly không có to."
+    }
+   ],
+   "core": "please và kindly cùng nghĩa, chỉ dùng một từ, không viết cả hai trong một câu.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Please send me the report before Friday.",
+     "vi": "Làm ơn gửi giúp tôi bản báo cáo trước thứ Sáu."
+    },
+    {
+     "en": "Could you kindly send the report today?",
+     "vi": "Bạn có thể vui lòng gửi bản báo cáo hôm nay không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104000989550200",
+   "image_src": "ngay-08/Quiz-004-please-kindly.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Please send the report today.",
+     "wrong": "Please kindly send the report today."
+    },
+    {
+     "right": "Kindly wait a moment.",
+     "wrong": "Kindly to wait a moment."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "please và kindly cùng nghĩa, chỉ dùng một từ.",
+     "kind": "fill_blank",
+     "options": [
+      "Please kindly",
+      "Please"
+     ],
+     "prompt": "___ send me the file."
+    },
+    {
+     "answer": 0,
+     "explanation": "sau kindly không có to, kindly đi thẳng với động từ.",
+     "options": [
+      "Kindly send me the file.",
+      "Kindly to send me the file."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Viết email xin file, nhiều bạn viết please kindly vì nghĩ thêm kindly cho lịch sự hơn. Nhưng please và kindly cùng nghĩa xin vui lòng, viết cả hai thành thừa một từ.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "please và kindly cùng nghĩa xin vui lòng, chỉ dùng một từ. C sai vì sau kindly không có to.",
+    "options": [
+     "Please kindly send me the file.",
+     "Please send me the file.",
+     "Please kindly to send me the file."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "Email nào viết đúng?"
+   },
+   "reel": null,
+   "remember": "please hoặc kindly, chỉ dùng một từ, sau kindly không có to.",
+   "right": "Please send me the file.",
+   "right_note": "Làm ơn gửi giúp tôi tập tin.",
+   "show_in_ui": true,
+   "slug": "loi-nhanh-004",
+   "tip": "Dùng khi viết email xin tài liệu, nhờ đồng nghiệp gửi file.",
+   "title": "please kindly",
+   "topic": "công sở",
+   "type": "Lỗi",
+   "why": "please và kindly cùng nghĩa xin vui lòng, chỉ dùng một từ. C sai vì sau kindly không có to.",
+   "wrong": "Please kindly send me the file.",
+   "wrong_note": "Làm ơn gửi giúp tôi tập tin."
   }
  ],
  "site": {

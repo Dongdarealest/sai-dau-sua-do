@@ -551,5 +551,72 @@ class TestApi(unittest.TestCase):
             self.assertTrue((ROOT / name).exists(), f"thiếu {name} trên đĩa")
 
 
+class TestDirectionA(unittest.TestCase):
+    """Đợt hướng A (19/11): README sạch, số câu luyện nói khớp kho,
+    đoạn văn đọc đủ, deploy gồm file kỹ năng và Cộng đồng."""
+
+    def test_readme_no_internal_doc_names(self):
+        """README sinh ra không nhắc tên tài liệu nội bộ nào."""
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        for name in ["CAP-NHAT-SITE", "AUDIT", "DEPLOY_LOG", "SOURCE_SYNC_LOG"]:
+            self.assertNotIn(name, readme, f"README lộ {name}")
+        self.assertNotIn("Cập nhật sau mỗi bài đăng", readme)
+
+    def test_no_internal_strings_in_generated_files(self):
+        """Không file nào sinh ra chứa tên tài liệu nội bộ."""
+        for f in list(ROOT.glob("*.html")) + list(ROOT.glob("*.js")) \
+                + list(ROOT.glob("*.css")) + list(ROOT.glob("*.json")):
+            text = f.read_text(encoding="utf-8", errors="ignore")
+            for name in ["CAP-NHAT-SITE", "DEPLOY_LOG", "SOURCE_SYNC_LOG"]:
+                self.assertNotIn(name, text, f"{f.name} lộ {name}")
+
+    def test_speakable_count_matches_lessons(self):
+        """Số câu luyện nói đạt chuẩn tính từ lessons.json thật."""
+        vis = visible()
+        got = gen.speakable_sentences(vis)
+        # Tính độc lập: câu right có ít nhất 4 từ chữ cái, chữ cái đều ASCII.
+        want = 0
+        for l in vis:
+            right = (l.get("right") or "")
+            words = re.findall(r"[A-Za-z']+", right)
+            alpha = "".join(c for c in right if c.isalpha())
+            if len(words) >= 4 and alpha.isascii():
+                want += 1
+        self.assertEqual(len(got), want,
+                         f"speakable {len(got)} khác tính tay {want}")
+        self.assertGreater(len(got), 40, "phải có hơn 40 câu đạt chuẩn")
+
+    def test_reading_json_passages(self):
+        """reading.json có 1 đoạn cho mỗi bài hiển thị, đủ trường."""
+        passages = gen.load_reading()
+        by_slug = {p["slug"]: p for p in passages}
+        for l in visible():
+            self.assertIn(l["slug"], by_slug,
+                          f"thiếu đoạn văn đọc cho {l['slug']}")
+        for p in passages:
+            self.assertIn("sentences", p)
+            self.assertTrue(any(s.get("error") for s in p["sentences"]),
+                            f"{p['slug']}: đoạn văn thiếu câu lỗi")
+
+    def test_deploy_includes_skill_files(self):
+        """site_files phải gồm skills.js, reading.js, community-mock.json
+        và 4 trang kỹ năng + Cộng đồng."""
+        deploy_src = (ROOT / "deploy_github_pages.py").read_text(encoding="utf-8")
+        for name in ['"skills.js"', '"reading.js"', '"community-mock.json"']:
+            self.assertIn(name, deploy_src, f"site_files thiếu {name}")
+        for slug in ["luyen-nghe", "luyen-viet", "luyen-doc", "cong-dong"]:
+            self.assertTrue((ROOT / slug / "index.html").exists(),
+                            f"thiếu trang {slug}")
+
+    def test_community_mock_shape(self):
+        """Mock Cộng đồng đúng hình dạng hợp đồng API."""
+        mock = gen.community_mock_data()
+        self.assertIn("week", mock)
+        self.assertIn("challenge", mock)
+        self.assertEqual(len(mock["leaderboards"]["xp"]), 10)
+        self.assertEqual(len(mock["leaderboards"]["streak"]), 10)
+        self.assertEqual(len(mock["leaderboards"]["speak"]), 10)
+
+
 if __name__ == "__main__":
     unittest.main()
