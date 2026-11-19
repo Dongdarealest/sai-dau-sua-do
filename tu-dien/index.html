@@ -1648,7 +1648,7 @@ function recordSpeaking(minutes,words,score){
     if(out.length<2){
       phs.forEach(p=>{
         if(out.length>=2)return;
-        if(p.text&&!out.some(o=>o.text===p.text))out.push({label:out.length?"giọng Mỹ":"giọng Anh",text:p.text,audio:p.audio||""});
+        if(p.text&&!out.some(o=>o.text===p.text))out.push({label:p.audio?audioLabel(p):"phiên âm",text:p.text,audio:p.audio||""});
       });
     }
     return out.slice(0,2);
