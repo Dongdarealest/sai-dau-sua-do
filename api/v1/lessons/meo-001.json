@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meo-001",
+    "code": "Mẹo #001",
+    "type": "Lỗi",
+    "topic": "ngữ pháp",
+    "title": "very perfect",
+    "date": "2026-11-16",
+    "wrong": "The view is very perfect.",
+    "wrong_note": "Khung cảnh rất hoàn hảo.",
+    "right": "The view is absolutely perfect.",
+    "right_note": "Khung cảnh thật sự hoàn hảo.",
+    "why": "perfect là tính từ tuyệt đối, không có mức độ. Muốn nhấn mạnh thì dùng absolutely.",
+    "problem": "Nhiều bạn quen viết very perfect khi muốn khen một thứ gì đó hoàn hảo. Trong tiếng Anh, perfect không có mức độ nên không đi với very.",
+    "core": "perfect là tính từ tuyệt đối, muốn nhấn thì dùng absolutely.",
+    "compare": [
+      {
+        "a": "very beautiful",
+        "b": "absolutely perfect",
+        "note": "beautiful có mức độ nên dùng very, perfect tuyệt đối nên dùng absolutely."
+      },
+      {
+        "a": "The food is very delicious.",
+        "b": "The food is absolutely perfect.",
+        "note": "món ăn ngon có mức độ, hoàn hảo thì tuyệt đối."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "The weather today is absolutely perfect.",
+        "wrong": "The weather today is very perfect."
+      },
+      {
+        "right": "Her dress is absolutely perfect.",
+        "wrong": "Her dress is very perfect."
+      }
+    ],
+    "remember": "perfect không có mức độ, muốn nhấn thì dùng absolutely, không dùng very.",
+    "examples": [
+      {
+        "en": "This hotel room is absolutely perfect.",
+        "vi": "Phòng khách sạn này thật sự hoàn hảo."
+      },
+      {
+        "en": "The plan for our trip is absolutely perfect.",
+        "vi": "Kế hoạch cho chuyến đi của chúng tôi thật sự hoàn hảo."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "perfect là tính từ tuyệt đối nên dùng absolutely để nhấn mạnh.",
+        "options": [
+          "The cake is very perfect.",
+          "The cake is absolutely perfect."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "beautiful là tính từ có mức độ nên dùng very.",
+        "kind": "fill_blank",
+        "options": [
+          "very",
+          "absolutely"
+        ],
+        "prompt": "Điền từ còn thiếu: This song is ___ beautiful."
+      },
+      {
+        "answer": 1,
+        "explanation": "Muốn khen tiếng Anh hoàn hảo thì dùng absolutely perfect.",
+        "options": [
+          "My English is very perfect.",
+          "My English is absolutely perfect."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-05/Meo-001-very-perfect.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122101030545550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-001/",
+    "show_in_ui": true
+  }
+}

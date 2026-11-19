@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "tong-hop-001",
+    "code": "Tổng hợp #001",
+    "type": "Mẫu câu",
+    "topic": "ngữ pháp",
+    "title": "Tổng hợp giới từ",
+    "date": "2026-11-18",
+    "wrong": "She is good in English.",
+    "wrong_note": "",
+    "right": "She is good at English.",
+    "right_note": "",
+    "why": "Giới từ sai thì câu sai nghĩa, dù các từ khác đều đúng.",
+    "problem": "Viết email mà nhầm giới từ thì ngại lắm.",
+    "core": "in đi với thành phố và nước, on đi với mặt phẳng, at đi với địa điểm cụ thể, by đi với phương tiện.",
+    "compare": [
+      {
+        "a": "in Da Lat",
+        "b": "at Da Lat",
+        "note": "Thành phố thì dùng in."
+      },
+      {
+        "a": "by bus",
+        "b": "with bus",
+        "note": "Phương tiện thì dùng by."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "at home",
+        "wrong": "in the home"
+      },
+      {
+        "right": "good at English",
+        "wrong": "good in English"
+      }
+    ],
+    "remember": "in thành phố, on mặt phẳng, at địa điểm, by phương tiện, good at.",
+    "examples": [
+      {
+        "en": "I live in Da Lat.",
+        "vi": "Tôi sống ở Đà Lạt."
+      },
+      {
+        "en": "The book is on the table.",
+        "vi": "Quyển sách ở trên bàn."
+      },
+      {
+        "en": "She is at home.",
+        "vi": "Cô ấy đang ở nhà."
+      },
+      {
+        "en": "We will move in 2026.",
+        "vi": "Chúng tôi sẽ chuyển nhà vào năm 2026."
+      },
+      {
+        "en": "We meet on Monday.",
+        "vi": "Chúng tôi gặp nhau vào thứ Hai."
+      },
+      {
+        "en": "The class starts at 7:00.",
+        "vi": "Lớp học bắt đầu lúc 7 giờ."
+      },
+      {
+        "en": "I have lived here since 2020.",
+        "vi": "Tôi sống ở đây từ năm 2020."
+      },
+      {
+        "en": "I go to work by bus.",
+        "vi": "Tôi đi làm bằng xe buýt."
+      },
+      {
+        "en": "She goes to school by bike.",
+        "vi": "Cô ấy đi học bằng xe đạp."
+      },
+      {
+        "en": "I write with a pen.",
+        "vi": "Tôi viết bằng cây bút."
+      },
+      {
+        "en": "She is married to a teacher.",
+        "vi": "Cô ấy kết hôn với một giáo viên."
+      },
+      {
+        "en": "I am interested in music.",
+        "vi": "Tôi thích âm nhạc."
+      },
+      {
+        "en": "He is afraid of dogs.",
+        "vi": "Anh ấy sợ chó."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Ở nhà thì nói at home.",
+        "options": [
+          "in",
+          "at",
+          "on"
+        ],
+        "prompt": "Điền giới từ đúng: She is ___ home now."
+      },
+      {
+        "answer": 0,
+        "explanation": "Đi bằng phương tiện thì dùng by.",
+        "options": [
+          "by",
+          "with",
+          "on"
+        ],
+        "prompt": "Điền giới từ đúng: I go to school ___ bike."
+      },
+      {
+        "answer": 1,
+        "explanation": "good luôn đi với at.",
+        "options": [
+          "I am good in English.",
+          "I am good at English."
+        ],
+        "prompt": "Câu nào đúng?"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "good đi với at, không đi với in hay on.",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "prompt": "Chọn giới từ đúng.",
+      "question": "She is good ___ English."
+    },
+    "reel": null,
+    "tip": "Muốn nhớ since và for: since đi với mốc thời gian, for đi với khoảng thời gian.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-07/Tong-hop-001-slide-1.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103365571550200/",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/tong-hop-001/",
+    "show_in_ui": true
+  }
+}

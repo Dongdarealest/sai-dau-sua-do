@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-003",
+    "code": "Quiz nhanh #003",
+    "type": "Quiz",
+    "topic": "ngữ pháp",
+    "title": "Câu nào đúng?",
+    "date": "2026-11-17",
+    "wrong": "She can sings.",
+    "wrong_note": "",
+    "right": "She can sing.",
+    "right_note": "can nghĩa là có thể.",
+    "why": "Sau can phải dùng động từ nguyên mẫu sing, không thêm s, không thêm ing.",
+    "problem": "Nhiều bạn viết She can sings vì quen thêm s cho ngôi thứ ba. Thật ra can đã mang nghĩa có thể, động từ sau nó giữ nguyên mẫu.",
+    "core": "Sau can, could, will, should luôn dùng động từ nguyên mẫu, không thêm s, ed hay ing.",
+    "compare": [
+      {
+        "a": "She can sing.",
+        "b": "She sings every day.",
+        "note": "can cộng động từ nguyên mẫu, còn khi không có can thì sings thêm s theo ngôi thứ ba."
+      },
+      {
+        "a": "I can swim.",
+        "b": "I am swimming now.",
+        "note": "can đi với swim nguyên mẫu, còn am đi với swimming thêm ing."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He can play football.",
+        "wrong": "He can plays football."
+      },
+      {
+        "right": "They can speak English.",
+        "wrong": "They can speaking English."
+      }
+    ],
+    "remember": "Sau can dùng động từ nguyên mẫu, không thêm s hay ing.",
+    "examples": [
+      {
+        "en": "I can cook dinner tonight.",
+        "vi": "Tối nay tôi có thể nấu bữa tối."
+      },
+      {
+        "en": "We can learn English together.",
+        "vi": "Chúng ta có thể học tiếng Anh cùng nhau."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Sau can dùng động từ nguyên mẫu sing.",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "can không thêm s, sau can dùng động từ nguyên mẫu play.",
+        "options": [
+          "can",
+          "cans",
+          "can to"
+        ],
+        "prompt": "He ___ play the guitar."
+      },
+      {
+        "answer": 1,
+        "explanation": "Sau can dùng động từ nguyên mẫu speak, không thêm s hay ing.",
+        "options": [
+          "speaks",
+          "speak",
+          "speaking"
+        ],
+        "prompt": "They can ___ English well."
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "Chỉ B đúng vì can đi với động từ nguyên mẫu. A thêm s là sai, C thêm ing là sai.",
+      "options": [
+        "She can sings.",
+        "She can sing.",
+        "She can singing."
+      ],
+      "prompt": "Cả 3 câu đều có nghĩa: Cô ấy biết hát.",
+      "question": "Câu nào đúng?"
+    },
+    "reel": null,
+    "tip": "Nhớ mẫu can cộng động từ nguyên mẫu, đọc to câu đúng 3 lần để quen miệng.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, can",
+        "url": "https://dictionary.cambridge.org/dictionary/english/can"
+      }
+    ],
+    "image": "ngay-06/Quiz-nhanh-003-can-sing.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122102122563550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-003/",
+    "show_in_ui": true
+  }
+}

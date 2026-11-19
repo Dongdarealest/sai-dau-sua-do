@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-nhanh-001",
+    "code": "Lỗi nhanh #001",
+    "type": "Lỗi",
+    "topic": "công sở",
+    "title": "in, on, at với giờ họp",
+    "date": "2026-11-16",
+    "wrong": "The meeting is in Monday at 9am.",
+    "wrong_note": "Họp vào thứ Hai lúc 9 giờ sáng.",
+    "right": "The meeting is on Monday at 9am.",
+    "right_note": "Họp vào thứ Hai lúc 9 giờ sáng.",
+    "why": "on đi với ngày, at đi với giờ, in đi với tháng và năm.",
+    "problem": "Sếp nhắn họp thứ Hai 9 giờ, nhiều bạn viết in Monday vì nghĩ in dùng cho thời gian chung chung. Nhưng ngày cụ thể trong tuần thì phải dùng on.",
+    "core": "Ngày cụ thể dùng on, giờ cụ thể dùng at, tháng và năm dùng in.",
+    "compare": [
+      {
+        "a": "in Monday",
+        "b": "on Monday",
+        "note": "Ngày trong tuần dùng on, không dùng in."
+      },
+      {
+        "a": "The class starts in 8am.",
+        "b": "The class starts at 8am.",
+        "note": "Giờ cụ thể dùng at, không dùng in."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "We will meet on Friday at 3pm.",
+        "wrong": "We will meet in Friday at 3pm."
+      },
+      {
+        "right": "Her birthday is in May.",
+        "wrong": "Her birthday is on May."
+      }
+    ],
+    "remember": "on với ngày, at với giờ, in với tháng và năm.",
+    "examples": [
+      {
+        "en": "The meeting is on Tuesday at 10am.",
+        "vi": "Họp vào thứ Ba lúc 10 giờ sáng."
+      },
+      {
+        "en": "My birthday is in December.",
+        "vi": "Sinh nhật của tôi vào tháng 12."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Ngày trong tuần dùng on.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "on"
+        ],
+        "prompt": "The meeting is ___ Wednesday at 2pm."
+      },
+      {
+        "answer": 1,
+        "explanation": "Giờ cụ thể dùng at.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "at"
+        ],
+        "prompt": "We will meet ___ 3pm."
+      },
+      {
+        "answer": [
+          1,
+          2,
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "explanation": "Ngày trong tuần dùng on, giờ cụ thể dùng at.",
+        "kind": "word_order",
+        "options": [
+          "on",
+          "We",
+          "meet",
+          "Friday",
+          "at",
+          "3pm",
+          "."
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'We / meet / on / Friday / at / 3pm / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi nhắn lịch họp, viết email hẹn giờ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-05/Loi-nhanh-001-in-on-at.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122101314513550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-001/",
+    "show_in_ui": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "api_version": "1.0.0",
+  "api_base": "https://dongdarealest.github.io/sai-dau-sua-do/api/v1/",
+  "total_lessons": 62,
+  "visible_lessons": 56,
+  "total_words": 852,
+  "words_with_example": 112,
+  "learning_paths": 3,
+  "updated": "2026-11-19",
+  "source": {
+    "name": "Sai Đâu Sửa Đó",
+    "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+    "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+    "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+    "license": "CC BY 4.0",
+    "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "hoi-thoai-002",
+    "code": "Hội thoại #002",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "waiting for you",
+    "date": "2026-11-16",
+    "wrong": "I am waiting you.",
+    "wrong_note": "Tôi đang chờ bạn.",
+    "right": "I am waiting for you.",
+    "right_note": "Tôi đang chờ bạn.",
+    "why": "wait đi với for khi chờ ai đó, không đi thẳng với tân ngữ.",
+    "problem": "Bạn ra quán cà phê trước và nhắn cho bạn mình là bạn đang chờ. Bạn viết câu đó mà thiếu mất for, người nghe vẫn hiểu nhưng thấy câu thiếu một mảnh.",
+    "core": "wait luôn đi với for khi chờ ai đó hoặc chờ cái gì.",
+    "compare": [
+      {
+        "a": "I am waiting the bus.",
+        "b": "I am waiting for the bus.",
+        "note": "Chờ xe buýt thì thêm for sau waiting."
+      },
+      {
+        "a": "She waits her friend every morning.",
+        "b": "She waits for her friend every morning.",
+        "note": "Chờ bạn mỗi sáng thì thêm for sau waits."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They are waiting for the teacher.",
+        "wrong": "They are waiting the teacher."
+      },
+      {
+        "right": "He is waiting for his girlfriend at the cafe.",
+        "wrong": "He is waiting his girlfriend at the cafe."
+      }
+    ],
+    "remember": "Chờ ai thì nhớ for sau wait, wait không đi thẳng với người.",
+    "examples": [
+      {
+        "en": "I am waiting for my friend at the cafe.",
+        "vi": "Tôi đang chờ bạn tôi ở quán cà phê."
+      },
+      {
+        "en": "She is waiting for the bus.",
+        "vi": "Cô ấy đang chờ xe buýt."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Chờ ai thì wait đi với for.",
+        "kind": "fill_blank",
+        "options": [
+          "for",
+          "to"
+        ],
+        "prompt": "I am waiting ___ you."
+      },
+      {
+        "answer": 0,
+        "explanation": "Chờ bạn thì nói waiting for her friend.",
+        "kind": "fill_blank",
+        "options": [
+          "for",
+          "at"
+        ],
+        "prompt": "She is waiting ___ her friend."
+      },
+      {
+        "answer": 1,
+        "explanation": "Câu đúng thêm for sau waiting, câu sai thiếu for.",
+        "options": [
+          "I am waiting you at the cafe.",
+          "I am waiting for you at the cafe."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          4,
+          0,
+          2,
+          5,
+          3
+        ],
+        "explanation": "Xếp đúng thứ tự: I, am, waiting, for, you, dấu chấm.",
+        "kind": "word_order",
+        "options": [
+          "waiting",
+          "I",
+          "for",
+          ".",
+          "am",
+          "you"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'I / am / waiting / for / you / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi nhắn tin chờ bạn, chờ người yêu, chờ đồng nghiệp.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-05/Hoi-thoai-002-waiting-for-you.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122101384653550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-002/",
+    "show_in_ui": true
+  }
+}

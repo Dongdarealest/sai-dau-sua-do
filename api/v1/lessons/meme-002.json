@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-002",
+    "code": "Meme #002",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "play football",
+    "date": "2026-11-16",
+    "wrong": "I play the football every Sunday.",
+    "wrong_note": "Tôi chơi bóng đá mỗi chủ nhật.",
+    "right": "I play football every Sunday.",
+    "right_note": "Tôi chơi bóng đá mỗi chủ nhật.",
+    "why": "Tên môn thể thao đứng một mình sau động từ play, không cần the.",
+    "problem": "Chủ nhật ra sân, nhiều bạn khoe bằng tiếng Anh mà thêm the vào trước tên môn thể thao. Người nghe vẫn hiểu, nhưng câu đó nghe như bạn đang chơi một quả bóng cụ thể nào đó.",
+    "core": "Tên môn thể thao không đi với the.",
+    "compare": [
+      {
+        "a": "I play the basketball every Saturday.",
+        "b": "I play basketball every Saturday.",
+        "note": "Thêm the thì basketball thành một quả bóng cụ thể, bỏ the thì basketball là tên môn thể thao."
+      },
+      {
+        "a": "play the volleyball",
+        "b": "play volleyball",
+        "note": "Môn nào cũng vậy, tên môn thể thao đứng một mình sau play."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He plays tennis every morning.",
+        "wrong": "He plays the tennis every morning."
+      },
+      {
+        "right": "We play badminton on Sundays.",
+        "wrong": "We play the badminton on Sundays."
+      }
+    ],
+    "remember": "Chơi môn nào thì nói play rồi tên môn đó, không thêm the.",
+    "examples": [
+      {
+        "en": "I play tennis every weekend.",
+        "vi": "Tôi chơi quần vợt mỗi cuối tuần."
+      },
+      {
+        "en": "They play volleyball on Saturday mornings.",
+        "vi": "Họ chơi bóng chuyền vào các buổi sáng thứ Bảy."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "football là tên môn thể thao nên đứng một mình, không cần the.",
+        "kind": "fill_blank",
+        "options": [
+          "the football",
+          "football"
+        ],
+        "prompt": "I play ___ every Sunday."
+      },
+      {
+        "answer": 1,
+        "explanation": "badminton là tên môn thể thao, không đi với the.",
+        "options": [
+          "She plays the badminton every day.",
+          "She plays badminton every day."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          2,
+          0,
+          5,
+          4,
+          3
+        ],
+        "explanation": "Xếp đúng thứ tự: chủ ngữ, động từ, tên môn thể thao, thời gian.",
+        "kind": "word_order",
+        "options": [
+          "tennis",
+          "She",
+          "plays",
+          ".",
+          "Sunday",
+          "every"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'She / plays / tennis / every / Sunday / .'"
+      },
+      {
+        "answer": 1,
+        "explanation": "volleyball là tên môn thể thao nên đứng một mình sau play.",
+        "kind": "fill_blank",
+        "options": [
+          "the volleyball",
+          "volleyball"
+        ],
+        "prompt": "They play ___ every weekend."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi kể về sở thích, môn thể thao mình chơi.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-05/Meme-002-play-football.png",
+    "fb": "https://www.facebook.com/saidausuado/posts/pfbid02E7KQbokGGNTvg1NHX6dBqNS5NpfjbtnV4pnSEv9dV2JVzgYvNwGnBvVKDC9YJ6JCl",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-002/",
+    "show_in_ui": true
+  }
+}

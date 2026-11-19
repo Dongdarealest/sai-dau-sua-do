@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "so-do-001",
+    "code": "Sơ đồ #001",
+    "type": "Lỗi",
+    "topic": "ngữ pháp",
+    "title": "Đại từ bất định đi với IS hay ARE",
+    "date": "2026-11-16",
+    "wrong": "Everybody are happy.",
+    "wrong_note": "Nghe quen nhưng sai, everybody là số ít.",
+    "right": "Everybody is happy today.",
+    "right_note": "Hôm nay mọi người đều vui.",
+    "why": "somebody, everybody, everyone, nobody, something, everything, nothing, anything đều là số ít. Chỉ both, many, few là số nhiều nên đi với are.",
+    "problem": "Nhiều bạn hay nói Everybody are happy vì nghĩ everybody là nhiều người. Trong tiếng Anh, everybody và các đại từ bất định khác đều là số ít nên đi với IS.",
+    "core": "Đại từ bất định tận cùng bằng one, body, thing đều là số ít, đi với IS; chỉ both, many, few là số nhiều, đi với ARE.",
+    "compare": [
+      {
+        "a": "Something is different.",
+        "b": "Both are different.",
+        "note": "something là số ít nên đi với is, both là số nhiều nên đi với are."
+      },
+      {
+        "a": "Everything is ready.",
+        "b": "Few are ready.",
+        "note": "everything là số ít nên đi với is, few là số nhiều nên đi với are."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Everyone is here.",
+        "wrong": "Everyone are here."
+      },
+      {
+        "right": "Nothing is impossible.",
+        "wrong": "Nothing are impossible."
+      }
+    ],
+    "remember": "Nhóm IS đều là số ít, nhóm ARE đều là số nhiều.",
+    "examples": [
+      {
+        "en": "Someone is waiting for you.",
+        "vi": "Có ai đó đang đợi bạn."
+      },
+      {
+        "en": "Nobody is at home now.",
+        "vi": "Bây giờ không có ai ở nhà."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "both là số nhiều nên đi với are.",
+        "options": [
+          "Both is happy.",
+          "Both are happy."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "anything là số ít nên đi với is.",
+        "kind": "fill_blank",
+        "options": [
+          "is",
+          "are"
+        ],
+        "prompt": "Điền is hay are: Anything ___ possible."
+      },
+      {
+        "answer": 1,
+        "explanation": "something là số ít nên đi với is.",
+        "options": [
+          "Something are wrong.",
+          "Something is wrong."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-06/So-do-001-dai-tu-bat-dinh.png",
+    "fb": "https://www.facebook.com/saidausuado/posts/122101070583550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/so-do-001/",
+    "show_in_ui": true
+  }
+}

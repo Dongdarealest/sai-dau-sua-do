@@ -266,3 +266,7 @@ footer a{color:#fff;font-weight:700}
 .rec-dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--red);margin-right:8px;vertical-align:middle}
 .lib-group{margin:22px 0}
 .lib-group h3{font-size:20px;margin-bottom:10px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;overflow:auto;font-size:16px;line-height:1.55}
+pre code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:16px}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:16px}
+blockquote{border-left:4px solid var(--orange);margin:16px 0;padding:8px 16px;background:var(--card);border-radius:0 12px 12px 0;font-size:16px}

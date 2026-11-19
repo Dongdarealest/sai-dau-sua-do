@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "paths": [
+    {
+      "slug": "hoc-lai-tu-dau",
+      "name": "Học lại từ đầu",
+      "desc": "Từ những lỗi cơ bản nhất, học theo thứ tự, mỗi bài chỉ 3, 5 phút.",
+      "icon": "🌱",
+      "order": [
+        "loi-001",
+        "quiz-001",
+        "loi-002",
+        "quiz-002",
+        "loi-003",
+        "mau-cau-001",
+        "mau-cau-002"
+      ]
+    },
+    {
+      "slug": "tieng-anh-di-lam",
+      "name": "Tiếng Anh đi làm",
+      "desc": "Lỗi hay gặp ở văn phòng: xin nghỉ, giới thiệu bản thân, nói chuyện với đồng nghiệp.",
+      "icon": "💼",
+      "order": [
+        "loi-001",
+        "loi-003",
+        "mau-cau-001",
+        "mau-cau-002",
+        "quiz-001"
+      ]
+    },
+    {
+      "slug": "sua-phat-am",
+      "name": "Sửa phát âm",
+      "desc": "Những từ người Việt hay đọc sai, nghe, đọc theo, sửa ngay.",
+      "icon": "🗣️",
+      "order": [
+        "loi-004",
+        "mau-cau-003",
+        "loi-002",
+        "quiz-002",
+        "quiz-nhanh-001",
+        "quiz-nhanh-005"
+      ]
+    }
+  ]
+}

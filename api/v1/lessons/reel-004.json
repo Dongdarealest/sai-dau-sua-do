@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "reel-004",
+    "code": "Reel #004",
+    "type": "Reels",
+    "topic": "giao tiếp",
+    "title": "I am agree hay I agree?",
+    "date": "2026-11-17",
+    "wrong": "I am agree with you.",
+    "wrong_note": "Tôi đồng ý với bạn (nhưng thừa chữ am).",
+    "right": "I agree with you.",
+    "right_note": "Tôi đồng ý với bạn.",
+    "why": "agree là động từ, không cần am.",
+    "problem": null,
+    "core": null,
+    "compare": [],
+    "mistakes": [],
+    "remember": "",
+    "examples": [
+      {
+        "en": "I agree with you completely.",
+        "vi": "Tôi hoàn toàn đồng ý với bạn."
+      }
+    ],
+    "practice": [],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "reels/frames/reel-004-f1.png",
+    "fb": "https://www.facebook.com/reel/1829714364877492",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-004/",
+    "show_in_ui": false
+  }
+}

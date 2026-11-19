@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-004",
+    "code": "Quiz nhanh #004",
+    "type": "Quiz",
+    "topic": "từ vựng",
+    "title": "Từ nào khác nghĩa?",
+    "date": "2026-11-18",
+    "wrong": "big",
+    "wrong_note": "big nghĩa là lớn.",
+    "right": "small",
+    "right_note": "small nghĩa là nhỏ.",
+    "why": "big, huge và large đều có nghĩa là lớn, small có nghĩa là nhỏ.",
+    "problem": "Nhiều bạn nhìn 4 từ big, huge, small, large mà chưa biết từ nào khác nghĩa. Thật ra chỉ cần nhớ nghĩa của từng từ là chọn được ngay.",
+    "core": "Khi gặp câu hỏi tìm từ khác nghĩa, hãy dịch nghĩa từng từ rồi nhóm các từ cùng nghĩa lại với nhau.",
+    "compare": [
+      {
+        "a": "big",
+        "b": "huge",
+        "note": "big và huge đều có nghĩa là lớn, huge nhấn mạnh hơn, to hơn nhiều."
+      },
+      {
+        "a": "large",
+        "b": "small",
+        "note": "large nghĩa là lớn, small nghĩa là nhỏ, hai từ này trái nghĩa nhau."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "It is a big deal.",
+        "wrong": "It is a large deal."
+      },
+      {
+        "right": "a large number of people",
+        "wrong": "a big number of people"
+      }
+    ],
+    "remember": "Nhóm từ cùng nghĩa lại, từ nào không cùng nhóm thì đó là đáp án.",
+    "examples": [
+      {
+        "en": "I have a big house in Da Lat.",
+        "vi": "Tôi có một ngôi nhà lớn ở Đà Lạt."
+      },
+      {
+        "en": "This bag is too small for my books.",
+        "vi": "Chiếc túi này quá nhỏ so với sách của tôi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 2,
+        "explanation": "small nghĩa là nhỏ, 3 từ còn lại đều nghĩa là lớn.",
+        "options": [
+          "big",
+          "huge",
+          "small",
+          "large"
+        ],
+        "prompt": "Chọn từ khác nghĩa:"
+      },
+      {
+        "answer": 1,
+        "explanation": "small có nghĩa là nhỏ, big và huge đều có nghĩa là lớn.",
+        "options": [
+          "big",
+          "small",
+          "huge"
+        ],
+        "prompt": "Từ nào có nghĩa là nhỏ?"
+      },
+      {
+        "answer": 1,
+        "explanation": "big trái nghĩa với small, tiny và little đều có nghĩa là nhỏ.",
+        "options": [
+          "tiny",
+          "big",
+          "little"
+        ],
+        "prompt": "Từ nào trái nghĩa với small?"
+      }
+    ],
+    "quiz": {
+      "answer": 2,
+      "explanation": "Chỉ C đúng vì small có nghĩa là nhỏ. A, B và D đều có nghĩa là lớn.",
+      "options": [
+        "big",
+        "huge",
+        "small",
+        "large"
+      ],
+      "prompt": "Trong 4 từ, 3 từ cùng nghĩa, 1 từ khác nghĩa.",
+      "question": "Từ nào KHÁC nghĩa với 3 từ còn lại?"
+    },
+    "reel": null,
+    "tip": "Khi học từ mới, hãy học theo nhóm từ cùng nghĩa, nhớ sẽ lâu hơn học từng từ riêng lẻ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, small",
+        "url": "https://dictionary.cambridge.org/dictionary/english/small"
+      }
+    ],
+    "image": "ngay-07/Quiz-nhanh-004-odd-one-out.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103043263550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-004/",
+    "show_in_ui": true
+  }
+}

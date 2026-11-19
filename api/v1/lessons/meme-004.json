@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-004",
+    "code": "Meme #004",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "I have 2 childs",
+    "date": "2026-11-18",
+    "wrong": "I have 2 childs.",
+    "wrong_note": "Tôi có 2 đứa con.",
+    "right": "I have 2 children.",
+    "right_note": "Tôi có 2 đứa con.",
+    "why": "Số nhiều của child là children, không thêm s như danh từ thường.",
+    "problem": "Khoe có con mà nói childs thì người nghe thấy sai sai ngay, vì child có số nhiều bất quy tắc.",
+    "core": "child là danh từ bất quy tắc, số nhiều là children.",
+    "compare": [
+      {
+        "a": "one child",
+        "b": "two children",
+        "note": "child đổi thành children ở số nhiều."
+      },
+      {
+        "a": "one baby",
+        "b": "two babies",
+        "note": "baby thêm ies, còn child đổi hẳn thành children."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I have 1 child.",
+        "wrong": "I have 1 childs."
+      },
+      {
+        "right": "The children are happy.",
+        "wrong": "The childs are happy."
+      }
+    ],
+    "remember": "Số nhiều của child là children, không thêm s.",
+    "examples": [
+      {
+        "en": "My sister has 2 children.",
+        "vi": "Chị tôi có 2 đứa con."
+      },
+      {
+        "en": "The children are playing in the garden.",
+        "vi": "Bọn trẻ đang chơi trong vườn."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Số nhiều của child là children.",
+        "kind": "fill_blank",
+        "options": [
+          "childs",
+          "children"
+        ],
+        "prompt": "I have 2 ___."
+      },
+      {
+        "answer": 1,
+        "explanation": "Số nhiều của child là children, chủ ngữ I đi với have.",
+        "options": [
+          "I have 2 childs.",
+          "My children are at home.",
+          "I has 2 childrens."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "explanation": "Chủ ngữ I đi với have, số nhiều của child là children.",
+        "kind": "word_order",
+        "options": [
+          "children",
+          "I",
+          "have",
+          ".",
+          "2"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'I / have / 2 / children / .'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Số nhiều của child là children.",
+        "kind": "fill_blank",
+        "options": [
+          "childs",
+          "children"
+        ],
+        "prompt": "The ___ are playing."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi giới thiệu gia đình, kể về con cái.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-07/Meme-004-two-children.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122102965137550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-004/",
+    "show_in_ui": true
+  }
+}

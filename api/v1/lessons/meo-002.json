@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meo-002",
+    "code": "Mẹo #002",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "farther và further",
+    "date": "2026-11-17",
+    "wrong": "Da Lat is further than Nha Trang.",
+    "wrong_note": "Câu này muốn nói Đà Lạt xa hơn, nhưng further không đo khoảng cách.",
+    "right": "Da Lat is farther than Nha Trang.",
+    "right_note": "Đà Lạt xa hơn Nha Trang.",
+    "why": "farther là xa hơn về khoảng cách thật, further là thêm nữa, về ý tưởng hay thông tin.",
+    "problem": "Nhiều bạn dùng further khi muốn nói một nơi xa hơn một nơi khác.",
+    "core": "Muốn nói xa hơn về khoảng cách thì dùng farther, muốn nói thêm thì dùng further.",
+    "compare": [
+      {
+        "a": "farther",
+        "b": "further",
+        "note": "farther dùng cho khoảng cách đo được, further dùng khi bổ sung ý."
+      },
+      {
+        "a": "further information",
+        "b": "a farther place",
+        "note": "further đi với thông tin, farther đi với nơi chốn xa hơn."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "We need further information about the trip.",
+        "wrong": "We need farther information about the trip."
+      },
+      {
+        "right": "My house is farther from school than yours.",
+        "wrong": "My house is further from school than yours."
+      }
+    ],
+    "remember": "farther đo khoảng cách, further nói thêm về ý tưởng.",
+    "examples": [
+      {
+        "en": "Da Lat is farther from Ho Chi Minh City than Nha Trang.",
+        "vi": "Đà Lạt xa Thành phố Hồ Chí Minh hơn Nha Trang."
+      },
+      {
+        "en": "Please send me further details about the meeting.",
+        "vi": "Vui lòng gửi thêm cho tôi chi tiết về buổi họp."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Nói xa hơn về khoảng cách thì dùng farther.",
+        "kind": "fill_blank",
+        "options": [
+          "farther",
+          "further"
+        ],
+        "prompt": "Điền từ còn thiếu: My home is ___ from the station than yours."
+      },
+      {
+        "answer": 1,
+        "explanation": "Muốn nói thêm thông tin thì dùng further, không dùng farther.",
+        "options": [
+          "I need farther details about the plan.",
+          "I need further details about the plan."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "So sánh khoảng cách giữa hai nơi thì dùng farther.",
+        "options": [
+          "This village is further than the next one.",
+          "This village is farther than the next one."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Khi viết email xin thêm thông tin, dùng further details, không dùng farther details.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-06/Meo-002-farther-further.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122101933101550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-002/",
+    "show_in_ui": true
+  }
+}

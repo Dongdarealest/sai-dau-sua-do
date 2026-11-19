@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "mau-cau-003",
+    "code": "Mẫu câu #003",
+    "type": "Mẫu câu",
+    "topic": "phát âm",
+    "title": "3 cặp âm dễ nhầm",
+    "date": "2026-11-14",
+    "wrong": "I saw a sheep on the sea.",
+    "wrong_note": "Tôi thấy một con cừu trên biển.",
+    "right": "I saw a ship on the sea.",
+    "right_note": "Tôi thấy một con tàu trên biển.",
+    "why": "ship là tàu, sheep là cừu, đọc nhầm là đổi nghĩa luôn.",
+    "problem": "Tiếng Việt không phân biệt nguyên âm ngắn và dài, cũng không có âm /θ/ đầu lưỡi chạm răng, nên ship/sheep, live/leave, think/sink nghe như một. Chỉ cần sai một âm là đổi nghĩa, người nghe hiểu sang chuyện khác.",
+    "core": "Âm /ɪ/ ngắn, thả lỏng: ship, live, think. Âm /iː/ dài, căng môi: sheep, leave, đọc dài gấp đôi và mím môi cười nhẹ. Âm /θ/ trong think: đầu lưỡi đặt giữa hai hàm răng trên và dưới, thổi hơi ra; âm /s/ trong sink: lưỡi ở sau răng, hơi xì qua kẽ răng. Nghe cặp nào cũng hỏi: âm ngắn hay dài, lưỡi ở đâu.",
+    "compare": [
+      {
+        "a": "I live in Da Lat.",
+        "b": "I will leave Da Lat tomorrow.",
+        "note": "Live là sống ở đâu, leave là rời khỏi đâu, cùng vần nhưng nghĩa khác hẳn."
+      },
+      {
+        "a": "Think before you speak.",
+        "b": "The sink is full of water.",
+        "note": "Think bắt đầu bằng /θ/, lưỡi chạm răng; sink bắt đầu bằng /s/, lưỡi sau răng."
+      },
+      {
+        "a": "The sheep are eating grass.",
+        "b": "The ship is leaving the port.",
+        "note": "Sheep âm dài /iː/, ship âm ngắn /ɪ/, chỉ khác độ dài mà đổi hẳn nghĩa."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "There is a ship in the harbour.",
+        "wrong": "There is a sheep in the harbour."
+      },
+      {
+        "right": "I leave my house at 7 in the morning.",
+        "wrong": "I live my house at 7 in the morning."
+      },
+      {
+        "right": "I think about you every day.",
+        "wrong": "I sink about you every day."
+      }
+    ],
+    "remember": "Nhớ cặp này: ship (tàu), sheep (cừu).",
+    "examples": [
+      {
+        "en": "The ship is on the sea.",
+        "vi": "Con tàu đang ở trên biển."
+      },
+      {
+        "en": "The sheep is on the farm.",
+        "vi": "Con cừu đang ở trên nông trại."
+      },
+      {
+        "en": "I live in Da Lat, but I will leave tomorrow.",
+        "vi": "Tôi sống ở Đà Lạt, nhưng ngày mai tôi sẽ rời đi."
+      },
+      {
+        "en": "The dishes are in the sink.",
+        "vi": "Bát đĩa đang ở trong bồn rửa."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "I saw a ___ on the sea.",
+        "options": [
+          "ship",
+          "sheep"
+        ],
+        "answer": 0,
+        "explanation": "ship là tàu, I saw a ship on the sea."
+      },
+      {
+        "prompt": "I saw a ___ on the farm.",
+        "options": [
+          "ship",
+          "sheep"
+        ],
+        "answer": 1,
+        "explanation": "sheep là cừu, I saw a sheep on the farm."
+      },
+      {
+        "prompt": "I ___ my keys at home.",
+        "options": [
+          "live",
+          "leave"
+        ],
+        "answer": 1,
+        "explanation": "leave my keys at home, để quên chìa khóa ở nhà."
+      },
+      {
+        "answer": 0,
+        "explanation": "Nông dân nuôi cừu trên đồi nên dùng sheep. Ships là tàu, không ai nuôi tàu trên đồi.",
+        "kind": "fill_blank",
+        "options": [
+          "sheep",
+          "ships"
+        ],
+        "prompt": "The farmer keeps ten ___ on the hill."
+      },
+      {
+        "answer": 0,
+        "explanation": "Rời khách sạn thì dùng leave, không phải live. Live in the hotel nghĩa là sống trong khách sạn, không hợp ngữ cảnh trả phòng lúc trưa.",
+        "kind": "find_error",
+        "options": [
+          "We will leave the hotel at noon tomorrow.",
+          "We will live in the hotel at noon tomorrow.",
+          "We will leaving the hotel at noon tomorrow."
+        ],
+        "prompt": "Sửa câu sai: 'We will live the hotel at noon tomorrow.'"
+      },
+      {
+        "answer": 0,
+        "explanation": "Think là suy nghĩ, sink ở đây là bồn rửa, câu đúng dùng think làm động từ chính và sink làm danh từ. Đảo hai từ thì câu vô nghĩa.",
+        "kind": "distinguish",
+        "options": [
+          "I think the sink is broken.",
+          "I sink the think is broken."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "explanation": "Thứ tự đúng là chủ ngữ, động từ, rồi cụm a big ship near the port, nhớ ship là tàu, không phải sheep là cừu.",
+        "kind": "word_order",
+        "options": [
+          "I",
+          "saw",
+          "a",
+          "big",
+          "ship",
+          "near",
+          "the",
+          "port",
+          "."
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'a / I / big / near / port / saw / ship / the / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Mẹo: sheep thì cười dài, môi cười, âm kéo dài; ship thì nói nhanh, gọn một nhịp.",
+    "articulation": "Âm /ɪ/ (ship, live): lưỡi hơi thấp, môi thả lỏng, âm ngắn gọn. Âm /iː/ (sheep, leave): lưỡi nâng cao, môi kéo sang hai bên như cười, giữ âm dài hơn hẳn. Âm /θ/ (think): đầu lưỡi đặt nhẹ giữa răng trên và răng dưới, thổi hơi ra, cổ họng không rung. Âm /s/ (sink): đầu lưỡi ở ngay sau răng trên, hơi xì mạnh qua kẽ răng.",
+    "ipa": [
+      {
+        "note": "ship âm ngắn, sheep âm dài",
+        "source": "Cambridge",
+        "text": "ship /ʃɪp/, sheep /ʃiːp/"
+      },
+      {
+        "note": "live âm ngắn, leave âm dài",
+        "source": "Cambridge",
+        "text": "live /lɪv/, leave /liːv/"
+      },
+      {
+        "note": "think âm th, sink âm s",
+        "source": "Cambridge",
+        "text": "think /θɪŋk/, sink /sɪŋk/"
+      }
+    ],
+    "dict_links": [
+      {
+        "label": "Cambridge, ship",
+        "url": "https://dictionary.cambridge.org/dictionary/english/ship"
+      },
+      {
+        "label": "Cambridge, sheep",
+        "url": "https://dictionary.cambridge.org/dictionary/english/sheep"
+      },
+      {
+        "label": "Cambridge, live",
+        "url": "https://dictionary.cambridge.org/dictionary/english/live"
+      },
+      {
+        "label": "Cambridge, leave",
+        "url": "https://dictionary.cambridge.org/dictionary/english/leave"
+      },
+      {
+        "label": "Cambridge, think",
+        "url": "https://dictionary.cambridge.org/dictionary/english/think"
+      },
+      {
+        "label": "Cambridge, sink",
+        "url": "https://dictionary.cambridge.org/dictionary/english/sink"
+      }
+    ],
+    "image": "ngay-03/Mau-cau-003-slide-1.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122099427615550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-003/",
+    "show_in_ui": true
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-001",
+    "code": "Quiz #001",
+    "type": "Quiz",
+    "topic": "công sở",
+    "title": "borrow hay lend?",
+    "date": "2026-11-12",
+    "wrong": "Can you ___ me your pen?",
+    "wrong_note": "",
+    "right": "Can you lend me your pen?",
+    "right_note": "Bạn cho tôi mượn cây bút được không?",
+    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+    "problem": "Bài quiz này kiểm tra đúng một điểm: ai mượn, ai cho mượn. Nhiều bạn chọn đúng khi làm bài tập, nhưng lúc nói thật vẫn buột miệng borrow me vì dịch từ tiếng Việt.",
+    "core": "Hỏi mượn đồ: Can I borrow your + đồ? Nhờ người khác cho mượn: Can you lend me your + đồ? Borrow không bao giờ đi với tân ngữ chỉ người nhận.",
+    "compare": [
+      {
+        "a": "May I borrow your umbrella for the afternoon?",
+        "b": "Could you lend me your umbrella for the afternoon?",
+        "note": "Hai cách hỏi cùng một việc: borrow hỏi từ phía mình, lend nhờ từ phía người kia."
+      },
+      {
+        "a": "She lent me her headphones yesterday.",
+        "b": "I borrowed her headphones yesterday.",
+        "note": "Cùng một sự việc, đổi chủ ngữ thì đổi động từ: người cho mượn dùng lent, người mượn dùng borrowed."
+      },
+      {
+        "a": "Can you lend me some money?",
+        "b": "Can I borrow some money from you?",
+        "note": "Lend me đi với người nhận, borrow from đi với người cho mượn, đừng trộn hai mẫu này."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Please lend me your pen for a minute.",
+        "wrong": "Please borrow me your pen for a minute."
+      },
+      {
+        "right": "His brother lent him some money.",
+        "wrong": "He borrowed his brother some money."
+      },
+      {
+        "right": "Can I borrow your bike this weekend?",
+        "wrong": "Can I lend your bike this weekend?"
+      }
+    ],
+    "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
+    "examples": [
+      {
+        "en": "Can I borrow your bike?",
+        "vi": "Tôi mượn xe đạp của bạn được không?"
+      },
+      {
+        "en": "He lent me 100,000 VND.",
+        "vi": "Anh ấy cho tôi mượn 100.000 đồng."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "May I ___ your charger for an hour?",
+        "options": [
+          "borrow",
+          "lend"
+        ],
+        "answer": 0,
+        "explanation": "Bạn mượn sạc về mình → borrow. May I borrow your charger?"
+      },
+      {
+        "prompt": "Can you ___ me 50,000 VND until tomorrow?",
+        "options": [
+          "borrow",
+          "lend"
+        ],
+        "answer": 1,
+        "explanation": "Mượn tiền đến ngày mai nên nhờ người kia cho mượn, dùng lend me."
+      },
+      {
+        "answer": 0,
+        "explanation": "Bạn nhờ người khác cho mượn nên dùng lend me. Nếu tự hỏi: Could I borrow your notes after class?",
+        "kind": "fill_blank",
+        "options": [
+          "lend",
+          "borrow"
+        ],
+        "prompt": "Could you ___ me your notes after class?"
+      },
+      {
+        "answer": 0,
+        "explanation": "Cô ấy là người cho mượn nên dùng lent me. 'Borrow me' sai hướng, 'lent from me' sai giới từ vì lend đi với to, không đi với from.",
+        "kind": "find_error",
+        "options": [
+          "She lent me her umbrella because it was raining.",
+          "She borrowed her umbrella to me because it was raining.",
+          "She lent her umbrella from me because it was raining."
+        ],
+        "prompt": "Sửa câu sai: 'She borrowed me her umbrella because it was raining.'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Anh ấy mượn tiền về mình nên dùng borrowed from. Lent from sai vì lend đi với to, không đi với from.",
+        "kind": "distinguish",
+        "options": [
+          "He lent some money from his friend.",
+          "He borrowed some money from his friend."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "explanation": "Đây là câu hỏi nhờ người khác cho mượn, với lend nhận tân ngữ me rồi tới your camera.",
+        "kind": "word_order",
+        "options": [
+          "Can",
+          "you",
+          "lend",
+          "me",
+          "your",
+          "camera",
+          "?"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'me / your / Can / lend / camera / you / ?'"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "Câu đúng: Can you lend me your pen?",
+      "options": [
+        "borrow",
+        "lend",
+        "take"
+      ],
+      "prompt": "Can you ___ me your pen?",
+      "question": "Bạn mượn bút của đồng nghiệp, bạn nói thế nào?"
+    },
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-01/Quiz-001-borrow-lend.png",
+    "fb": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RgrCHqQwcYZo659s2oAUKtKcTRF2zRcJKcZHKdRqPj6kyGzMULTnKDjWqg8GivsTl&id=61596506009854",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-001/",
+    "show_in_ui": true
+  }
+}

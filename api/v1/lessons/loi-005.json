@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-005",
+    "code": "Lỗi #005",
+    "type": "Lỗi",
+    "topic": "ngữ pháp",
+    "title": "a university",
+    "date": "2026-11-15",
+    "wrong": "an university.",
+    "wrong_note": "Một trường đại học.",
+    "right": "a university.",
+    "right_note": "Một trường đại học.",
+    "why": "a hay an dựa vào âm đầu, không dựa vào chữ cái. university bắt đầu bằng âm y, giống you, nên dùng a.",
+    "problem": "Nhiều bạn học thuộc lòng a đi với phụ âm, an đi với nguyên âm. Quy tắc đó nhìn vào chữ cái, mà tiếng Anh chọn a hay an theo âm đầu khi đọc.",
+    "core": "a đứng trước từ bắt đầu bằng âm phụ âm, an đứng trước từ bắt đầu bằng âm nguyên âm. Nghe âm đầu của từ, đừng nhìn chữ cái đầu tiên.",
+    "compare": [
+      {
+        "a": "a university",
+        "b": "an hour",
+        "note": "university đọc bắt đầu bằng âm y nên dùng a, hour chữ h câm nên dùng an."
+      },
+      {
+        "a": "a book on the table.",
+        "b": "an apple on the table.",
+        "note": "book bắt đầu bằng âm b nên dùng a, apple bắt đầu bằng âm a nên dùng an."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "a university in the city.",
+        "wrong": "an university in the city."
+      },
+      {
+        "right": "an honest person.",
+        "wrong": "a honest person."
+      },
+      {
+        "right": "a one way ticket.",
+        "wrong": "an one way ticket."
+      }
+    ],
+    "remember": "Nhìn chữ cái thì nhầm, nghe âm đầu mới đúng: university đọc là y nên dùng a.",
+    "examples": [
+      {
+        "en": "She studies at a university in Da Lat.",
+        "vi": "Cô ấy học ở một trường đại học tại Đà Lạt."
+      },
+      {
+        "en": "I waited for an hour at the station.",
+        "vi": "Tôi đã đợi một tiếng ở nhà ga."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "university đọc bắt đầu bằng âm y, giống you, nên chọn a.",
+        "kind": "fill_blank",
+        "options": [
+          "a",
+          "an"
+        ],
+        "prompt": "___ university is near my house."
+      },
+      {
+        "answer": 1,
+        "explanation": "hour có chữ h câm, đọc bắt đầu bằng âm o nên chọn an.",
+        "kind": "fill_blank",
+        "options": [
+          "a",
+          "an"
+        ],
+        "prompt": "I waited for ___ hour."
+      },
+      {
+        "answer": 1,
+        "explanation": "university bắt đầu bằng âm y nên đi với a, không đi với an.",
+        "options": [
+          "an university in Da Lat.",
+          "a university in Da Lat."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          6,
+          4,
+          0,
+          2,
+          7,
+          5,
+          3
+        ],
+        "explanation": "a đứng trước university vì âm đầu là y, Da Lat là tên riêng viết hoa.",
+        "kind": "word_order",
+        "options": [
+          "university",
+          "This",
+          "in",
+          ".",
+          "a",
+          "Lat",
+          "is",
+          "Da"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'This / is / a / university / in / Da / Lat / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-04/Loi-005-a-university.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122100095397550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-005/",
+    "show_in_ui": true
+  }
+}

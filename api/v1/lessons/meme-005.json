@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-005",
+    "code": "Meme #005",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "I didn't went to school yesterday",
+    "date": "2026-11-19",
+    "wrong": "I didn't went to school yesterday.",
+    "wrong_note": "Hôm qua tôi không đi học.",
+    "right": "I didn't go to school yesterday.",
+    "right_note": "Hôm qua tôi không đi học.",
+    "why": "Sau did và didn't phải dùng động từ nguyên mẫu.",
+    "problem": "Kể chuyện hôm qua mà thêm went sau didn't thì người nghe thấy thừa ngay.",
+    "core": "Sau did và didn't, động từ về nguyên mẫu.",
+    "compare": [
+      {
+        "a": "She didn't watch TV last night.",
+        "b": "She didn't watched TV last night.",
+        "note": "didn't đi với watch, không đi với watched."
+      },
+      {
+        "a": "Did you go to school yesterday?",
+        "b": "Did you went to school yesterday?",
+        "note": "did cũng đi với động từ nguyên mẫu, giống didn't."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I didn't eat breakfast this morning.",
+        "wrong": "I didn't ate breakfast this morning."
+      },
+      {
+        "right": "He didn't call me yesterday.",
+        "wrong": "He didn't called me yesterday."
+      }
+    ],
+    "remember": "didn't cộng động từ nguyên mẫu, không dùng quá khứ đơn sau didn't.",
+    "examples": [
+      {
+        "en": "We didn't meet him yesterday.",
+        "vi": "Hôm qua chúng tôi không gặp anh ấy."
+      },
+      {
+        "en": "They didn't finish the homework last night.",
+        "vi": "Tối qua họ không làm xong bài tập."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Sau didn't dùng động từ nguyên mẫu go.",
+        "kind": "fill_blank",
+        "options": [
+          "went",
+          "go"
+        ],
+        "prompt": "I didn't ___ to school yesterday."
+      },
+      {
+        "answer": 1,
+        "explanation": "Sau didn't phải dùng động từ nguyên mẫu buy.",
+        "options": [
+          "Lan didn't bought a new book yesterday.",
+          "Lan didn't buy a new book yesterday.",
+          "Lan don't buy a new book yesterday."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          2,
+          4,
+          5,
+          0,
+          3,
+          6
+        ],
+        "explanation": "Chủ ngữ I đi với didn't, rồi mới tới động từ nguyên mẫu go.",
+        "kind": "word_order",
+        "options": [
+          "school",
+          "I",
+          "didn't",
+          "yesterday",
+          "go",
+          "to",
+          "."
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'I / didn't / go / to / school / yesterday / .'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Sau didn't dùng động từ nguyên mẫu call.",
+        "kind": "fill_blank",
+        "options": [
+          "called",
+          "call"
+        ],
+        "prompt": "He didn't ___ me yesterday."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi kể chuyện hôm qua, giải thích vì sao vắng mặt.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-08/Meme-005-didnt-went.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103891873550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-005/",
+    "show_in_ui": true
+  }
+}

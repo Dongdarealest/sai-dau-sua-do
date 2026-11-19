@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "dich-001",
+    "code": "Dịch #001",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "Trẻ trâu",
+    "date": "2026-11-17",
+    "wrong": "'Trẻ trâu' tiếng Anh là gì?",
+    "wrong_note": "",
+    "right": "immature kid",
+    "right_note": "cách nói tự nhiên nhất cho trẻ trâu.",
+    "why": "trẻ trâu tả tính cách trẻ con nghịch ngợm, không phải con vật.",
+    "problem": "Nhiều bạn dịch trẻ trâu từng chữ thành con trâu non vì nghĩ nó là con vật. Thật ra đây là cách nói về tính cách của một người.",
+    "core": "Dịch theo tính cách người được tả, trẻ con và nghịch ngợm, rồi chọn từ tả tính cách đó.",
+    "compare": [
+      {
+        "a": "That boy is really childish.",
+        "b": "That boy is a young buffalo.",
+        "note": "childish tả tính cách, young buffalo dịch từng chữ nên người nghe không hiểu."
+      },
+      {
+        "a": "Do not act so childish.",
+        "b": "Do not act like a baby cow.",
+        "note": "baby cow chỉ con bê, không tả tính cách trẻ trâu."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He is so childish at work.",
+        "wrong": "He is so young buffalo at work."
+      },
+      {
+        "right": "Stop being so immature.",
+        "wrong": "Stop being such a baby cow."
+      }
+    ],
+    "remember": "Trẻ trâu = immature kid / childish, tả người, không phải con vật.",
+    "examples": [
+      {
+        "en": "He is such an immature kid.",
+        "vi": "Anh ta đúng là một đứa trẻ trâu."
+      },
+      {
+        "en": "Don't be so childish.",
+        "vi": "Đừng trẻ trâu vậy."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "immature kid tả tính cách, young buffalo là con vật.",
+        "options": [
+          "He acts like an immature kid.",
+          "He acts like a young buffalo."
+        ],
+        "prompt": "Dịch câu này: 'Anh ta hành xử như một đứa trẻ trâu.'"
+      },
+      {
+        "answer": 0,
+        "explanation": "childish tả tính cách trẻ con, baby cow chỉ con bê.",
+        "options": [
+          "You are so childish.",
+          "You are so baby cow."
+        ],
+        "prompt": "Chọn câu đúng để nói ai đó trẻ trâu:"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "young buffalo và baby cow đều dịch từng chữ thành con vật, trong khi trẻ trâu tả tính cách của người.",
+      "options": [
+        "immature kid",
+        "young buffalo",
+        "baby cow"
+      ],
+      "prompt": "Chọn cách dịch đúng nhất cho 'trẻ trâu'.",
+      "question": "How do you say 'Trẻ trâu' in English?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: trẻ trâu tả người, nghĩ tới childish trước.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-06/Dich-001-tre-trau.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122102014605550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/dich-001/",
+    "show_in_ui": true
+  }
+}

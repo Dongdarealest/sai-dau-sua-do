@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "tu-002",
+    "code": "Từ #002",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "see và watch",
+    "date": "2026-11-17",
+    "wrong": "I saw TV every night.",
+    "wrong_note": "Tôi đã xem tivi mỗi tối.",
+    "right": "I watch TV every night.",
+    "right_note": "Tôi xem tivi mỗi tối.",
+    "why": "see là nhìn thấy tình cờ, không chủ ý. watch là xem có chủ ý, nhìn theo dõi.",
+    "problem": "Nhiều bạn dùng see khi kể chuyện xem phim tối qua, nghe sai sai vì xem phim là việc xem có chủ ý, phải dùng watch chứ không dùng see.",
+    "core": "Nhìn thấy tình cờ thì dùng see, xem có chủ ý thì dùng watch.",
+    "compare": [
+      {
+        "a": "I saw a bird.",
+        "b": "I watched a movie.",
+        "note": "Nhìn thấy chim bay qua là see, xem phim từ đầu đến cuối là watch."
+      },
+      {
+        "a": "Did you see the bus?",
+        "b": "Did you watch the match?",
+        "note": "Thấy xe buýt lướt qua là see, xem trận đấu có chủ ý là watch."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "She watches cartoons on Saturday.",
+        "wrong": "She sees cartoons on Saturday."
+      },
+      {
+        "right": "I saw your message this morning.",
+        "wrong": "I watched your message this morning."
+      }
+    ],
+    "remember": "see là nhìn thấy tình cờ, watch là xem có chủ ý.",
+    "examples": [
+      {
+        "en": "I saw a bird in the garden.",
+        "vi": "Tôi thấy một con chim trong vườn."
+      },
+      {
+        "en": "We watched the sunset together.",
+        "vi": "Chúng tôi cùng nhau ngắm hoàng hôn."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Xem tivi là việc xem có chủ ý nên dùng watch.",
+        "kind": "fill_blank",
+        "options": [
+          "see",
+          "watch"
+        ],
+        "prompt": "I ___ TV every night."
+      },
+      {
+        "answer": 1,
+        "explanation": "Xem phim có chủ ý nên dùng watched, không dùng saw.",
+        "options": [
+          "I saw a film last night.",
+          "I watched a film last night."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Nhìn thấy mèo tình cờ nên dùng saw.",
+        "kind": "fill_blank",
+        "options": [
+          "saw",
+          "watched"
+        ],
+        "prompt": "She ___ a cat in the yard."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi kể chuyện xem phim, xem tivi hay nhìn thấy thứ gì đó bất ngờ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-06/Tu-002-see-watch.png",
+    "fb": "https://www.facebook.com/saidausuado/posts/122101970013550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/tu-002/",
+    "show_in_ui": true
+  }
+}

@@ -1,0 +1,90 @@
+openapi: 3.0.3
+info:
+  title: API mở Kho bài học Sai Đâu Sửa Đó
+  version: 1.0.0
+  description: Dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó, công khai dưới dạng file JSON tĩnh trên GitHub Pages. Không cần đăng ký, không cần khóa, không mất phí. Hiện có 62 bài học, 852 từ trong từ điển và 3 lộ trình học.
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  contact:
+    url: https://www.facebook.com/profile.php?id=61596506009854
+servers:
+  - url: https://dongdarealest.github.io/sai-dau-sua-do
+paths:
+  /api/v1/meta.json:
+    get:
+      summary: Phiên bản, số lượng, nguồn, giấy phép
+      responses:
+        "200":
+          description: Thông tin phiên bản và nguồn gốc toàn bộ API
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/lessons.json:
+    get:
+      summary: Danh sách gọn toàn bộ bài học
+      responses:
+        "200":
+          description: Danh sách gọn 62 bài học, lọc phía trình duyệt
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/lessons/{slug}.json:
+    get:
+      summary: Chi tiết đầy đủ 1 bài học
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema:
+            type: string
+          example: loi-001
+      responses:
+        "200":
+          description: Toàn bộ nội dung 1 bài học, gồm bài tập đầy đủ
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/dictionary.json:
+    get:
+      summary: Toàn bộ từ điển tiếng Việt
+      responses:
+        "200":
+          description: Toàn bộ 852 từ, nghĩa tiếng Việt đã kiểm tra tay
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/v1/search-index.json:
+    get:
+      summary: Chỉ mục tìm kiếm
+      responses:
+        "200":
+          description: Chỉ mục tìm kiếm cho các bài đang hiển thị
+          content:
+            application/json:
+              schema:
+                type: array
+  /api/v1/paths.json:
+    get:
+      summary: Lộ trình học
+      responses:
+        "200":
+          description: "3 lộ trình học của Trang"
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/:
+    get:
+      summary: Trang tài liệu cho lập trình viên
+      responses:
+        "200":
+          description: Trang HTML tài liệu, kèm ví dụ gọi API và bản thử trực tiếp
+          content:
+            text/html:
+              schema:
+                type: string

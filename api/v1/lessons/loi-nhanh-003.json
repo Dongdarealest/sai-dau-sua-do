@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-nhanh-003",
+    "code": "Lỗi nhanh #003",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "She is a teacher",
+    "date": "2026-11-18",
+    "wrong": "She is teacher.",
+    "wrong_note": "Cô ấy là giáo viên.",
+    "right": "She is a teacher.",
+    "right_note": "Cô ấy là giáo viên.",
+    "why": "teacher là danh từ đếm được số ít, cần a đứng trước.",
+    "problem": "Kể về cô giáo ngày 20/11, nhiều bạn nói She is teacher vì nghĩ is đã đủ. Thiếu chữ a nhỏ xíu mà câu nghe thiếu hẳn một người.",
+    "core": "Danh từ đếm được số ít luôn cần a hoặc an đứng trước khi nói chung chung.",
+    "compare": [
+      {
+        "a": "My teacher is kind woman.",
+        "b": "My teacher is a kind woman.",
+        "note": "kind woman cũng là danh từ đếm được số ít, cần a."
+      },
+      {
+        "a": "He is doctor.",
+        "b": "He is a doctor.",
+        "note": "doctor là nghề, kể nghề của ai cũng cần a."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "My mother is a nurse.",
+        "wrong": "My mother is nurse."
+      },
+      {
+        "right": "Lan is a good teacher.",
+        "wrong": "Lan is good teacher."
+      }
+    ],
+    "remember": "Kể về nghề của ai thì nhớ thêm a trước tên nghề: a teacher, a doctor.",
+    "examples": [
+      {
+        "en": "She is a teacher in Da Lat.",
+        "vi": "Cô ấy là giáo viên ở Đà Lạt."
+      },
+      {
+        "en": "He is a teacher too.",
+        "vi": "Anh ấy cũng là giáo viên."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "teacher bắt đầu bằng phụ âm t nên dùng a.",
+        "kind": "fill_blank",
+        "options": [
+          "a",
+          "an"
+        ],
+        "prompt": "She is ___ teacher."
+      },
+      {
+        "answer": 1,
+        "explanation": "doctor là danh từ đếm được số ít, cần a đứng trước.",
+        "options": [
+          "He is doctor in Da Lat.",
+          "He is a doctor in Da Lat."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "explanation": "Thứ tự: chủ ngữ, is, a, teacher.",
+        "kind": "word_order",
+        "options": [
+          "a",
+          "She",
+          "is",
+          "teacher",
+          "."
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'She / is / a / teacher / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi kể về thầy cô, viết thiệp 20/11.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-07/Loi-nhanh-003-she-is-a-teacher.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103076431550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-003/",
+    "show_in_ui": true
+  }
+}

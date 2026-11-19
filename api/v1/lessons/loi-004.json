@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-004",
+    "code": "Lỗi #004",
+    "type": "Lỗi",
+    "topic": "phát âm",
+    "title": "comfortable đọc mấy âm?",
+    "date": "2026-11-14",
+    "wrong": "com for ta bồ",
+    "wrong_note": "đọc tách thành 4 âm",
+    "right": "CUMF tơ bồ",
+    "right_note": "thường đọc 3 âm",
+    "why": "Nhìn mặt chữ, nhiều bạn đọc tách thành 4 âm. Nhưng người bản xứ thường đọc comfortable gọn như 3 âm, âm giữa rất nhẹ.",
+    "problem": "Nhìn mặt chữ com fort a ble, nhiều bạn đọc tách thành 4 âm rõ ràng như đánh vần. Nhưng người bản xứ nuốt nhẹ âm giữa, nên nghe gọn hơn nhiều, tập đọc theo chữ cái chính là cái bẫy của từ này.",
+    "core": "Trọng âm rơi vào âm đầu: COMF ter ble. Âm giữa ter đọc rất nhẹ, gần như lướt qua. Giọng Anh Mỹ thường đọc gọn 3 âm; giọng Anh Anh trong từ điển vẫn ghi 4 âm nhưng khi nói nhanh cũng lướt nhẹ âm giữa. Nói chung: đọc nhanh, nhấn âm đầu, đừng đánh vần từng chữ cái.",
+    "compare": [
+      {
+        "a": "This sofa is very comfortable.",
+        "b": "This sofa is very uncomfortable.",
+        "note": "Thêm un vào đầu thành từ trái nghĩa uncomfortable, trọng âm vẫn ở âm đầu, âm giữa vẫn đọc nhẹ."
+      },
+      {
+        "a": "Are these shoes comfortable enough for a long walk?",
+        "b": "Are those shoes comfortable enough to run in?",
+        "note": "Comfortable đi với enough: đủ thoải mái để làm gì, enough đứng sau tính từ."
+      },
+      {
+        "a": "My new bed is comfortable, so I sleep well.",
+        "b": "My new bed is uncomfortable, so I cannot sleep well.",
+        "note": "Comfortable/uncomfortable đều là tính từ, đứng sau be, đừng thêm ly thành trạng từ khi tả đồ vật."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I say it fast as COMF ter ble.",
+        "wrong": "I read it slowly as com for ta ble."
+      },
+      {
+        "right": "These shoes are very comfortable for walking.",
+        "wrong": "These shoes are very comfortably for walking."
+      },
+      {
+        "right": "This is a comfortable chair.",
+        "wrong": "This is a comfort chair."
+      }
+    ],
+    "remember": "comfortable thường đọc gọn 3 âm.",
+    "examples": [
+      {
+        "en": "This chair is very comfortable.",
+        "vi": "Cái ghế này rất thoải mái."
+      },
+      {
+        "en": "My shoes are very comfortable.",
+        "vi": "Đôi giày của tôi rất thoải mái."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Âm giữa của comfortable đọc thế nào?",
+        "options": [
+          "đọc rất nhẹ, gần như không nghe",
+          "đọc rõ như âm “phờ”",
+          "đọc thành âm “tờ” rõ"
+        ],
+        "answer": 0,
+        "explanation": "Âm giữa đọc rất nhẹ, gần như không nghe, nên nghe như chỉ có 3 âm."
+      },
+      {
+        "prompt": "The bed is very ___.",
+        "options": [
+          "comfortable",
+          "comfortably"
+        ],
+        "answer": 0,
+        "explanation": "comfortable là tính từ, The bed is very comfortable."
+      },
+      {
+        "answer": 0,
+        "explanation": "Tả ghế thì dùng tính từ comfortable sau be. Comfortably là trạng từ, comfort là danh từ, không đứng sau very ở đây.",
+        "kind": "fill_blank",
+        "options": [
+          "comfortable",
+          "comfortably",
+          "comfort"
+        ],
+        "prompt": "This armchair is very ___, I could sit here all day."
+      },
+      {
+        "answer": 0,
+        "explanation": "Tả giày cần tính từ comfortable. Comfort là danh từ, comfortably là trạng từ, cả hai đều sai vị trí này.",
+        "kind": "find_error",
+        "options": [
+          "My new shoes are very comfortable for long walks.",
+          "My new shoes are very comfortably for long walks.",
+          "My new shoes are very comforts for long walks."
+        ],
+        "prompt": "Sửa câu sai: 'My new shoes are very comfort for long walks.'"
+      },
+      {
+        "answer": 0,
+        "explanation": "Sau was cần tính từ comfortable. Comfortablely không phải từ tiếng Anh, trạng từ của comfortable là comfortably, nhưng không dùng để tả chiếc giường.",
+        "kind": "distinguish",
+        "options": [
+          "The hotel bed was comfortable, I slept really well.",
+          "The hotel bed was comfortablely, I slept really well."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Đi êm chân thì dùng tính từ comfortable. Foot số nhiều là feet, không phải foots; comfortably sai vị trí vì đây là câu tả đồ vật.",
+        "kind": "translate",
+        "options": [
+          "These shoes are so comfortable, I can stand all day without sore feet.",
+          "These shoes are so comfort, I can stand all day without sore foots.",
+          "These shoes are so comfortably, I can stand all day without sore feet."
+        ],
+        "prompt": "Dịch câu: 'Đôi giày này đi rất êm, đứng cả ngày cũng không mỏi chân.'"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "3 âm, /ˈkʌmftərbl/ (Oxford, Anh Mỹ).",
+      "merged_from": "Quiz #003, cùng nội dung, gộp vào bài này thay vì đăng trùng",
+      "options": [
+        "2 âm",
+        "3 âm",
+        "4 âm"
+      ],
+      "prompt": "comfortable có mấy âm?",
+      "question": "Từ comfortable có mấy âm?"
+    },
+    "reel": {
+      "label": "Xem Reel bài này",
+      "url": "https://www.facebook.com/reel/1826045238662458"
+    },
+    "tip": "Nhấn COMF thật mạnh rồi lướt nhanh ter ble, như nói một từ có 3 nhịp.",
+    "articulation": "Nhấn mạnh âm đầu COMF: miệng mở vừa, môi thả lỏng, âm /ʌ/ ngắn. Âm /f/ đặt răng trên chạm môi dưới, thổi hơi ra. Âm giữa ter: đầu lưỡi chạm nhẹ nướu răng trên, âm /ə/ rất nhẹ, gần như không mở miệng. Trong giọng Mỹ, âm /t/ giữa nghe gần như một âm /d/ rất nhẹ. Âm cuối ble: môi khép lại cho /b/ rồi đầu lưỡi chạm nướu cho /l/, kết thúc gọn.",
+    "ipa": [
+      {
+        "note": "dạng đầy đủ /ˈkʌmfərt̮əbl/ cũng được Oxford ghi nhận",
+        "source": "Oxford, Anh Mỹ",
+        "text": "/ˈkʌmftərbl/"
+      },
+      {
+        "note": "cách ghi khác, cùng cách đọc gọn 3 âm",
+        "source": "Cambridge, Anh Mỹ",
+        "text": "/ˈkʌm.fɚ.t̬ə.bəl/"
+      }
+    ],
+    "dict_links": [
+      {
+        "label": "Cambridge, comfortable",
+        "url": "https://dictionary.cambridge.org/dictionary/english/comfortable"
+      },
+      {
+        "label": "Oxford, comfortable",
+        "url": "https://www.oxfordlearnersdictionaries.com/us/pronunciation/american_english/comfortable"
+      }
+    ],
+    "image": "ngay-03/Loi-004-comfortable.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122099308863550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-004/",
+    "show_in_ui": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "ngu-phap-b1-b2-001",
+    "code": "Ngữ pháp B1/B2 #001",
+    "type": "Lỗi",
+    "topic": "ngữ pháp",
+    "title": "for và since",
+    "date": "2026-11-19",
+    "wrong": "I have lived here since 3 years.",
+    "wrong_note": "Tôi đã sống ở đây được 3 năm, nhưng since không đi với khoảng thời gian.",
+    "right": "I have lived here for 3 years.",
+    "right_note": "Tôi đã sống ở đây được 3 năm.",
+    "why": "since là mốc, for là khoảng.",
+    "problem": "Mới chuyển đến Đà Lạt được 3 năm mà kể về thời gian sống ở đây, nhiều bạn dùng nhầm since thay cho for.",
+    "core": "since đi với mốc bắt đầu, for đi với khoảng thời gian.",
+    "compare": [
+      {
+        "a": "We have known each other since 2020.",
+        "b": "We have known each other for 6 years.",
+        "note": "since 2020 là mốc, for 6 years là khoảng."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I have studied English since January.",
+        "wrong": "I have studied English for January."
+      },
+      {
+        "right": "They have lived in Da Lat for 2 years.",
+        "wrong": "They have lived in Da Lat since 2 years."
+      }
+    ],
+    "remember": "mốc thì since, khoảng thì for.",
+    "examples": [
+      {
+        "en": "I have worked in Da Lat since 2024.",
+        "vi": "Tôi làm việc ở Đà Lạt từ năm 2024."
+      },
+      {
+        "en": "She has lived here for a long time.",
+        "vi": "Cô ấy đã sống ở đây rất lâu rồi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "3 years là khoảng thời gian nên dùng for.",
+        "options": [
+          "I have lived here since 3 years.",
+          "I have lived here for 3 years."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "5 months là khoảng thời gian nên dùng for.",
+        "kind": "fill_blank",
+        "options": [
+          "since",
+          "for"
+        ],
+        "prompt": "Điền từ còn thiếu: She has worked here ___ 5 months."
+      },
+      {
+        "answer": 0,
+        "explanation": "2019 là mốc bắt đầu nên dùng since.",
+        "options": [
+          "I have known her since 2019.",
+          "I have known her for 2019."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Muốn nói bao lâu thì dùng for, muốn nói từ khi nào thì dùng since.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-08/B1B2-001-for-since.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103754713550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/ngu-phap-b1-b2-001/",
+    "show_in_ui": true
+  }
+}

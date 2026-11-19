@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "tu-001",
+    "code": "Từ #001",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "rob và steal",
+    "date": "2026-11-16",
+    "wrong": "They robbed the money.",
+    "wrong_note": "Họ cướp tiền.",
+    "right": "They robbed the bank.",
+    "right_note": "Họ cướp ngân hàng.",
+    "why": "rob là cướp của ai, cướp nơi nào đó. steal là ăn cắp thứ gì đó.",
+    "problem": "Nhiều bạn dùng rob và steal lẫn nhau vì cả hai đều liên quan đến lấy đồ của người khác. Nhưng rob nhắm vào người hoặc nơi bị cướp, steal nhắm vào thứ bị lấy mất.",
+    "core": "rob nhắm vào người hoặc nơi, steal nhắm vào thứ bị lấy.",
+    "compare": [
+      {
+        "a": "rob the bank",
+        "b": "steal the money",
+        "note": "rob đi với nơi bị cướp, steal đi với thứ bị lấy mất."
+      },
+      {
+        "a": "They robbed the shop.",
+        "b": "They stole the phone.",
+        "note": "Cướp cửa hàng thì dùng rob, ăn cắp điện thoại thì dùng steal."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Someone stole my wallet.",
+        "wrong": "Someone robbed my wallet."
+      },
+      {
+        "right": "The gang robbed the store.",
+        "wrong": "The gang stole the store."
+      }
+    ],
+    "remember": "rob cần người hoặc nơi bị cướp, steal cần thứ bị lấy mất.",
+    "examples": [
+      {
+        "en": "They stole the money.",
+        "vi": "Họ ăn cắp tiền."
+      },
+      {
+        "en": "Please do not steal my bike.",
+        "vi": "Làm ơn đừng ăn cắp xe đạp của tôi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Cướp ngân hàng thì dùng rob, vì rob nhắm vào nơi bị cướp.",
+        "kind": "fill_blank",
+        "options": [
+          "robbed",
+          "stole"
+        ],
+        "prompt": "They ___ the bank."
+      },
+      {
+        "answer": 1,
+        "explanation": "Điện thoại là thứ bị lấy mất nên dùng steal, không dùng rob.",
+        "options": [
+          "They robbed my phone.",
+          "They stole my phone."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Túi là thứ bị lấy mất nên dùng steal.",
+        "kind": "fill_blank",
+        "options": [
+          "robbed",
+          "stole"
+        ],
+        "prompt": "The thief ___ my bag."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi kể chuyện đọc tin, kể về vụ cướp hay vụ trộm.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, rob",
+        "url": "https://dictionary.cambridge.org/dictionary/english/rob"
+      },
+      {
+        "label": "Cambridge, steal",
+        "url": "https://dictionary.cambridge.org/dictionary/english/steal"
+      }
+    ],
+    "image": "ngay-05/Tu-001-rob-steal.png",
+    "fb": "https://www.facebook.com/saidausuado/posts/122101072695550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/tu-001/",
+    "show_in_ui": true
+  }
+}

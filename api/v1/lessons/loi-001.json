@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-001",
+    "code": "Lỗi #001",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "borrow và lend",
+    "date": "2026-11-12",
+    "wrong": "Can you borrow me your pen?",
+    "wrong_note": "Bạn cho tôi mượn cây bút được không?",
+    "right": "Can you lend me your pen?",
+    "right_note": "Bạn cho tôi mượn cây bút được không?",
+    "why": "borrow là mượn về mình, lend là cho người khác mượn.",
+    "problem": "Người Việt hay dịch thẳng 'cho tôi mượn' thành borrow me, vì nghĩ borrow là 'cho mượn'. Thực ra borrow chỉ dùng khi chính mình là người mượn về.",
+    "core": "borrow + vật + from + người: mình mượn về. lend + người + vật, hoặc lend + vật + to + người: mình cho người khác mượn. Nhớ hướng chuyển động: borrow là về phía mình, lend là ra khỏi mình.",
+    "compare": [
+      {
+        "a": "I borrowed some money from my friend.",
+        "b": "My friend lent some money to me.",
+        "note": "Hai câu cùng một sự việc, chỉ đổi góc nhìn: người mượn dùng borrow from, người cho mượn dùng lend to."
+      },
+      {
+        "a": "Could you lend me your dictionary?",
+        "b": "Could I borrow your dictionary?",
+        "note": "Muốn mượn đồ của ai, hỏi bằng lend me hoặc borrow your, đừng nói borrow me."
+      },
+      {
+        "a": "She borrowed my camera and kept it for a week.",
+        "b": "I lent her my camera for a week.",
+        "note": "Borrow kể từ phía người mượn, lend kể từ phía người cho mượn."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Can you lend me your car?",
+        "wrong": "Can you borrow me your car?"
+      },
+      {
+        "right": "He lent me his notes before the exam.",
+        "wrong": "He borrowed me his notes before the exam."
+      },
+      {
+        "right": "I want to borrow a book from the library.",
+        "wrong": "I want to lend a book from the library."
+      }
+    ],
+    "remember": "Mượn VỀ mình → borrow. Cho người KHÁC mượn → lend.",
+    "examples": [
+      {
+        "en": "Can I borrow your pen?",
+        "vi": "Tôi mượn cây bút của bạn được không?"
+      },
+      {
+        "en": "She lent me her laptop yesterday.",
+        "vi": "Hôm qua cô ấy cho tôi mượn laptop."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Can you ___ me your pen?",
+        "options": [
+          "borrow",
+          "lend",
+          "take"
+        ],
+        "answer": 1,
+        "explanation": "Bạn mượn bút của người khác về mình → người kia lend cho bạn."
+      },
+      {
+        "prompt": "I need to ___ a book from the library.",
+        "options": [
+          "borrow",
+          "lend",
+          "take"
+        ],
+        "answer": 0,
+        "explanation": "Bạn mượn sách về mình → borrow. I need to borrow a book from the library."
+      },
+      {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "She borrowed me her bike.",
+          "She lent me her bike."
+        ],
+        "answer": 1,
+        "explanation": "She lent me her bike, cô ấy cho tôi mượn xe."
+      },
+      {
+        "answer": 0,
+        "explanation": "Mình là người mượn về nên dùng borrow. Nếu hỏi ngược lại: Could you lend me your jacket?",
+        "kind": "fill_blank",
+        "options": [
+          "borrow",
+          "lend"
+        ],
+        "prompt": "Could I ___ your jacket for the evening?"
+      },
+      {
+        "answer": 0,
+        "explanation": "Người nói muốn mượn ô về mình nên người kia phải lend. 'Borrow me' sai vì borrow không nhận tân ngữ chỉ người được cho mượn.",
+        "kind": "find_error",
+        "options": [
+          "Please lend me your umbrella, it is raining.",
+          "Please borrow your umbrella to me, it is raining.",
+          "Please borrowing me your umbrella, it is raining."
+        ],
+        "prompt": "Tìm lỗi trong câu: 'Please borrow me your umbrella, it is raining.'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Mượn tiền về mình thì borrow from. Lend không đi với from, người cho mượn dùng lend to.",
+        "kind": "distinguish",
+        "options": [
+          "I lent some money from my brother.",
+          "I borrowed some money from my brother."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Bạn là người cho mượn nên dùng lend me. 'Can you borrow me' sai hướng, còn 'Can I lend your power bank' thiếu tân ngữ chỉ người nhận.",
+        "kind": "translate",
+        "options": [
+          "Can you borrow me your power bank?",
+          "Can you lend me your power bank?",
+          "Can I lend your power bank?"
+        ],
+        "prompt": "Dịch câu: 'Bạn cho mình mượn sạc dự phòng được không?'"
+      }
+    ],
+    "quiz": null,
+    "reel": {
+      "label": "Xem Reel bài này",
+      "url": "https://www.facebook.com/reel/1521348529887565"
+    },
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-01/Loi-001-borrow-lend.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122097926157550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-001/",
+    "show_in_ui": true
+  }
+}

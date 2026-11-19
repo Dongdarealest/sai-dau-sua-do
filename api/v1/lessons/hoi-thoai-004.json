@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "hoi-thoai-004",
+    "code": "Hội thoại #004",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "coffee or tea",
+    "date": "2026-11-18",
+    "wrong": "Do you like the coffee or tea?",
+    "wrong_note": "Bạn thích cà phê hay trà?",
+    "right": "Do you like coffee or tea?",
+    "right_note": "Bạn thích cà phê hay trà?",
+    "why": "nói chung chung về cà phê hay trà thì không dùng the.",
+    "problem": "Bạn mời khách uống trà hay cà phê, bạn hỏi câu đó mà thêm the vào trước coffee. Người nghe vẫn hiểu, nhưng câu nghe thừa một chữ.",
+    "core": "nói chung chung về đồ uống thì bỏ the, chỉ dùng the khi nói về ly cà phê hay ấm trà cụ thể trước mặt.",
+    "compare": [
+      {
+        "a": "Do you like the coffee?",
+        "b": "Do you like coffee?",
+        "note": "Hỏi chung chung thì bỏ the, hỏi ly cà phê cụ thể trước mặt mới dùng the."
+      },
+      {
+        "a": "She likes the milk.",
+        "b": "She likes milk.",
+        "note": "Thích sữa nói chung thì không dùng the."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He drinks coffee every day.",
+        "wrong": "He drinks the coffee every day."
+      },
+      {
+        "right": "She loves green tea.",
+        "wrong": "She loves the green tea."
+      }
+    ],
+    "remember": "Hỏi chung chung về đồ uống thì bỏ the, the chỉ dùng khi nói về thứ cụ thể trước mặt.",
+    "examples": [
+      {
+        "en": "Would you like coffee or tea?",
+        "vi": "Bạn muốn uống cà phê hay trà?"
+      },
+      {
+        "en": "I drink tea every morning.",
+        "vi": "Tôi uống trà mỗi sáng."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Hỏi chung chung về cà phê thì không dùng the.",
+        "kind": "fill_blank",
+        "options": [
+          "coffee",
+          "the coffee"
+        ],
+        "prompt": "Do you like ___ or tea?"
+      },
+      {
+        "answer": 0,
+        "explanation": "Uống trà nói chung thì không dùng the.",
+        "kind": "fill_blank",
+        "options": [
+          "tea",
+          "the tea"
+        ],
+        "prompt": "She drinks ___ every morning."
+      },
+      {
+        "answer": 1,
+        "explanation": "Thích cà phê nói chung thì không dùng the.",
+        "options": [
+          "I like the coffee very much.",
+          "I like coffee very much."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          0,
+          4,
+          6,
+          3,
+          2,
+          5
+        ],
+        "explanation": "Xếp đúng thứ tự: Do, you, like, coffee, or, tea, dấu hỏi chấm.",
+        "kind": "word_order",
+        "options": [
+          "you",
+          "Do",
+          "tea",
+          "or",
+          "like",
+          "?",
+          "coffee"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'Do / you / like / coffee / or / tea / ?'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi mời khách uống trà hay cà phê, hỏi sở thích đồ uống.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-07/Hoi-thoai-004-coffee-or-tea.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122103139629550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-004/",
+    "show_in_ui": true
+  }
+}

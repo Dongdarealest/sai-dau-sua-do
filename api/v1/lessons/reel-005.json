@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "reel-005",
+    "code": "Reel #005",
+    "type": "Reels",
+    "topic": "giao tiếp",
+    "title": "He said me hay He told me?",
+    "date": "2026-11-18",
+    "wrong": "He said me the news.",
+    "wrong_note": "Anh ấy kể cho tôi tin đó (nhưng sai cách dùng say).",
+    "right": "He told me the news.",
+    "right_note": "Anh ấy kể cho tôi tin đó.",
+    "why": "tell đi với người nghe, say đi với nội dung.",
+    "problem": null,
+    "core": null,
+    "compare": [],
+    "mistakes": [],
+    "remember": "",
+    "examples": [
+      {
+        "en": "He said the news.",
+        "vi": "Anh ấy nói tin đó."
+      }
+    ],
+    "practice": [],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "reels/frames/reel-005-f1.png",
+    "fb": "https://www.facebook.com/reel/1563636662450011",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-005/",
+    "show_in_ui": false
+  }
+}
