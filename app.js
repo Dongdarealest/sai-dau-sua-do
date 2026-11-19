@@ -588,3 +588,79 @@ function speakingHoursText(mins){
   const h=Math.floor(mins/60);const m=mins%60;
   return h+" giờ"+(m?" "+m+" phút":"");
 }
+/* Danh sách và thống kê tiến độ (dùng chung trang chủ và trang Tôi).
+   Trước đây nằm ở khối JS riêng của trang chủ, chuyển về đây để trang
+   Tôi cũng vẽ được mà không nhân đôi code. */
+const SDSC_SITE_ROOT="/sai-dau-sua-do";
+function progressDoneCount(){
+  const p=getProgress();
+  return Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).length;
+}
+function renderDoneList(){
+  const p=getProgress();
+  const box=document.getElementById("done-list");
+  if(!box)return;
+  const items=Object.entries(p.lessons||{}).filter(([s,l])=>l&&l.done&&window.SDSC_LESSONS[s]).sort((a,b)=>String(b[1].lastStudiedAt||b[1].doneAt||"").localeCompare(String(a[1].lastStudiedAt||a[1].doneAt||""))).slice(0,10);
+  if(!items.length){box.innerHTML="<p>Chưa có bài nào đã nhớ. Học bài đầu tiên ở khung “Bài hôm nay” nhé.</p>";return;}
+  box.innerHTML="<ul>"+items.map(([s,l])=>{const m=window.SDSC_LESSONS[s];return "<li><a href=\""+SDSC_SITE_ROOT+"/"+s+"/\">"+escapeHtml(m.code)+": "+escapeHtml(m.title)+"</a>, đã nhớ ngày "+escapeHtml(fmtDate(l.doneAt||l.lastStudiedAt||""))+"</li>";}).join("")+"</ul>";
+}
+function renderRecent(){
+  const p=getProgress();
+  const box=document.getElementById("recent-list");
+  if(!box)return;
+  const evs=(p.history||[]).filter(h=>h&&h.slug&&window.SDSC_LESSONS[h.slug]).slice(-5).reverse();
+  if(!evs.length){box.innerHTML="<p>Chưa có hoạt động nào. Làm thử 1 câu luyện ở bất kỳ bài nào nhé.</p>";return;}
+  const label={done:"Đã nhớ bài",undone:"Bỏ đánh dấu bài",practice:"Luyện câu ở bài",review:"Ôn lại bài","self-grade":"Tự đánh giá bài",import:"Nhập tiến độ",reset:"Đặt lại tiến độ"};
+  box.innerHTML="<ul>"+evs.map(h=>{const m=window.SDSC_LESSONS[h.slug];const extra=h.action==="practice"?(h.correct?", đúng":", chưa đúng"):(h.grade?", mức "+({kho:"Khó",vua:"Vừa",de:"Dễ"}[h.grade]||h.grade):(h.skill?", bằng "+(SKILL_LABEL[h.skill]||h.skill):""));return "<li>"+escapeHtml(label[h.action]||h.action)+" <a href=\""+SDSC_SITE_ROOT+"/"+h.slug+"/\">"+escapeHtml(m.code)+"</a>"+extra+" ("+escapeHtml(fmtDate(h.date||""))+ ")"+"</li>";}).join("")+"</ul>";
+}
+function longestStreak(dates){
+  if(!dates||!dates.length)return 0;
+  const set=new Set(dates.filter(isValidDateStr));
+  let best=0;
+  set.forEach(d=>{
+    if(!set.has(addDays(d,-1))){
+      let n=1,cur=d;
+      while(set.has(addDays(cur,1))){cur=addDays(cur,1);n++;}
+      if(n>best)best=n;
+    }
+  });
+  return best;
+}
+function renderStats(){
+  const p=getProgress();
+  const box=document.getElementById("stats-list");
+  if(!box)return;
+  const done=progressDoneCount();
+  const prac=Object.values(p.practice||{});
+  const acc=prac.length?Math.round(100*prac.filter(v=>v&&v.correct).length/prac.length):0;
+  const reviews=Object.values(p.lessons||{}).reduce((a,l)=>a+(l&&l.reviews||0),0);
+  const lastDates=Object.values(p.lessons||{}).map(l=>l&&(l.lastStudiedAt||l.doneAt||"")).filter(isValidDateStr).sort();
+  const last=lastDates.length?fmtDate(lastDates[lastDates.length-1]):"chưa có";
+  const xp=typeof p.xpTotal==="number"?p.xpTotal:0;
+  box.innerHTML="<ul><li>Điểm kinh nghiệm: <b>"+xp+" XP (Cấp "+xpLevel(xp)+")</b></li><li>Bài đã nhớ: <b>"+done+" / "+window.SDSC_TOTAL_LESSONS+"</b></li><li>Tỉ lệ luyện đúng: <b>"+acc+"%</b> ("+prac.filter(v=>v&&v.correct).length+" / "+prac.length+" câu)</li><li>Số lần ôn lại: <b>"+reviews+"</b></li><li>Chuỗi ngày học dài nhất: <b>"+longestStreak(p.streak.dates||[])+" ngày</b> (chuỗi hiện tại: "+(p.streak.count||0)+" ngày)</li><li>Ngày học gần nhất: <b>"+escapeHtml(last)+"</b></li></ul>";
+}
+function renderExportUI(){
+  const msg=document.getElementById("import-msg");
+  const showMsg=(t,ok)=>{if(msg){msg.textContent=t;msg.style.color=ok?"var(--green)":"var(--red)";}};
+  const exp=document.getElementById("btn-export");
+  if(exp&&!exp.dataset.wired){exp.dataset.wired="1";exp.addEventListener("click",()=>{if(exportProgress())showMsg("Đã tải file tiến độ. Cất file này cẩn thận, đổi máy thì nhập lại nhé.",true);else showMsg("Không tạo được file tiến độ, thử lại nhé.",false);});}
+  const file=document.getElementById("import-file");
+  const imp=document.getElementById("btn-import");
+  if(imp&&!imp.dataset.wired){imp.dataset.wired="1";imp.addEventListener("click",()=>{if(file)file.click();});}
+  if(file&&!file.dataset.wired){file.dataset.wired="1";file.addEventListener("change",()=>{
+    const f=file.files&&file.files[0];if(!f)return;
+    if(f.size>1024*1024){showMsg("File quá lớn (hơn 1 MB). Có thể đây không phải file tiến độ.",false);file.value="";return;}
+    const modeEl=document.querySelector('input[name="import-mode"]:checked');
+    const mode=modeEl?modeEl.value:"merge";
+    if(mode==="overwrite"){
+      const p=getProgress();
+      const dc=Object.values(p.lessons||{}).filter(l=>l&&l.done).length;
+      const pc=Object.keys(p.practice||{}).length;
+      if(!confirm("Ghi đè sẽ xóa "+dc+" bài đã nhớ, "+pc+" câu luyện và chuỗi "+(p.streak.count||0)+" ngày hiện tại. Tiếp tục?")){file.value="";return;}
+    }
+    const reader=new FileReader();
+    reader.onload=()=>{const res=importProgressText(String(reader.result||""),mode);if(res.ok){showMsg(res.message,true);if(typeof window.__sdscRenderProgress==="function"){try{window.__sdscRenderProgress();}catch(e){}} if(typeof renderDashboard==="function"){try{renderDashboard();}catch(e){}}}else{showMsg(res.error,false);}file.value="";};
+    reader.onerror=()=>{showMsg("Không đọc được file, thử lại nhé.",false);file.value="";};
+    reader.readAsText(f);
+  });}
+}

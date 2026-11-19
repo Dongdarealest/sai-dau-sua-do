@@ -48,7 +48,7 @@
       <div class="tile"><div class="num" id="dash-best">…</div><div class="lbl">Điểm luyện nói tốt nhất</div></div>
     </div>
 
-    <p class="note">Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất. Muốn giữ lại thì về <a href="/sai-dau-sua-do/">trang chủ</a>, bấm Tải dữ liệu tiến độ (.json) để lưu ra máy.</p>
+    <p class="note">Tiến độ lưu trên trình duyệt này, đổi máy sẽ mất. Muốn giữ lại thì bấm Tải dữ liệu tiến độ (.json) ở cuối trang này để lưu ra máy.</p>
   </section>
   <section>
     <h2>Tiến độ từng lộ trình</h2>
@@ -66,6 +66,27 @@
     <h2>Cộng đồng</h2>
     <p>Đua top tuần này cùng mọi người học: bảng XP tuần, chuỗi ngày, điểm nói tốt nhất tuần, thử thách tuần.</p>
     <p><a class="btn btn-primary" href="/sai-dau-sua-do/cong-dong/">Xem bảng Cộng đồng →</a></p>
+  </section>
+  <section class="done-list">
+    <h2>Bài đã hoàn thành</h2>
+    <div id="done-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="recent-list">
+    <h2>Hoạt động gần đây</h2>
+    <div id="recent-list"><p>Đang tải…</p></div>
+  </section>
+  <section class="stats-list">
+    <h2>Thống kê quá trình học</h2>
+    <div id="stats-list"><p>Đang tải…</p></div>
+    <p>Luyện tập toàn trang: <span class="practice-site-num"></span></p>
+    <div class="import-row">
+      <button type="button" class="btn btn-ghost" id="btn-export">Tải dữ liệu tiến độ (.json)</button>
+      <button type="button" class="btn btn-ghost" id="btn-import">Nhập dữ liệu đã lưu</button>
+      <input type="file" id="import-file" accept=".json,application/json" hidden>
+      <label><input type="radio" name="import-mode" value="merge" checked> Gộp (mới hơn thắng)</label>
+      <label><input type="radio" name="import-mode" value="overwrite"> Ghi đè</label>
+      <p id="import-msg"></p>
+    </div>
   </section>
 </main>
 
@@ -128,6 +149,10 @@ function renderDashboard(){
     if(!due.length){dg.innerHTML="<p>Hôm nay chưa có bài đến hạn. Học xong 1 bài rồi bấm “Tôi đã nhớ bài này” nhé.</p>";}
     else{dg.innerHTML="<div class=\"review-grid\">"+due.slice(0,5).map(x=>{const l=window.SDSC_LESSONS[x.slug];return "<a class=\"review-card\" href=\""+"/sai-dau-sua-do"+"/"+x.slug+"/\"><b>"+escapeHtml(l.code)+"</b><span>"+escapeHtml(l.title)+"<br>Đến hạn ôn ngày "+escapeHtml(fmtDate(x.nextDue))+"</span></a>";}).join("")+"</div>";}
   }
+  try{renderDoneList();}catch(e){}
+  try{renderRecent();}catch(e){}
+  try{renderStats();}catch(e){}
+  try{renderExportUI();}catch(e){}
 }
 try{renderDashboard();}catch(e){}
 window.addEventListener("storage",e=>{if(e&&e.key==="sdsc-progress-v1"){try{renderDashboard();}catch(err){}}});
