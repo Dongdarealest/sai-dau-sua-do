@@ -2,8 +2,9 @@
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
-- **53 bài học** • **3 lộ trình** • **5 Reel** đính kèm trong bài
-- Mỗi bài có thể nằm trong nhiều lộ trình. Tổng số bài học là 53, không tính trùng.
+- **54 bài học** • **3 lộ trình** • **5 Reel** đính kèm trong bài
+- Mỗi bài có thể nằm trong nhiều lộ trình. Tổng số bài học là 54, không tính trùng.
+- Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/). Mỗi bài học có thêm chế độ Học từng cụm.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983
 

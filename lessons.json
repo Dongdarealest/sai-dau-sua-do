@@ -5910,6 +5910,207 @@
    "why": "cụm cố định là on the occasion of, không dùng in the occasion of.",
    "wrong": "In the occasion of Teachers' Day, I wish you good health.",
    "wrong_note": "Nhân dịp Ngày Nhà giáo."
+  },
+  {
+   "code": "Tổng hợp các thì",
+   "compare": [
+    {
+     "a": "They have known each other since 2019.",
+     "b": "They knew each other in 2019.",
+     "note": "have known là hiện tại hoàn thành, knew là quá khứ đơn."
+    },
+    {
+     "a": "I am going to visit Da Lat next week.",
+     "b": "I will visit Da Lat next week.",
+     "note": "be going to nói về kế hoạch đã định, will nói về quyết định mới."
+    }
+   ],
+   "core": "Chọn thì theo thời điểm của việc: đang xảy ra, đã xong, hay sắp tới.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She works every day.",
+     "vi": "Cô ấy làm việc mỗi ngày."
+    },
+    {
+     "en": "She is working now.",
+     "vi": "Cô ấy đang làm việc."
+    },
+    {
+     "en": "She has worked here for 2 years.",
+     "vi": "Cô ấy làm việc ở đây được 2 năm."
+    },
+    {
+     "en": "She has been working since 2020.",
+     "vi": "Cô ấy làm việc từ năm 2020."
+    },
+    {
+     "en": "She worked yesterday.",
+     "vi": "Cô ấy làm việc hôm qua."
+    },
+    {
+     "en": "She was working at 8:00 last night.",
+     "vi": "Cô ấy đang làm việc lúc 8 giờ tối qua."
+    },
+    {
+     "en": "She had finished work before 6:00.",
+     "vi": "Cô ấy đã xong việc trước 6 giờ."
+    },
+    {
+     "en": "She had been working all day.",
+     "vi": "Cô ấy đã làm việc cả ngày."
+    },
+    {
+     "en": "She will work tomorrow.",
+     "vi": "Cô ấy sẽ làm việc ngày mai."
+    },
+    {
+     "en": "She is going to work tomorrow.",
+     "vi": "Cô ấy định làm việc ngày mai."
+    },
+    {
+     "en": "She is working tomorrow morning.",
+     "vi": "Cô ấy làm việc sáng mai, đã sắp xếp rồi."
+    },
+    {
+     "en": "She will have finished work by 6:00.",
+     "vi": "Cô ấy sẽ xong việc trước 6 giờ."
+    },
+    {
+     "en": "If you heat ice, it melts.",
+     "vi": "Nếu bạn đun nóng đá, nó tan chảy."
+    },
+    {
+     "en": "If it rains, we will stay home.",
+     "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà."
+    },
+    {
+     "en": "If I had money, I would travel.",
+     "vi": "Nếu tôi có tiền, tôi sẽ đi du lịch."
+    },
+    {
+     "en": "If I had studied, I would have passed.",
+     "vi": "Nếu tôi đã học, tôi đã đậu rồi."
+    },
+    {
+     "en": "English is spoken here.",
+     "vi": "Ở đây nói tiếng Anh."
+    },
+    {
+     "en": "The house was built in 2020.",
+     "vi": "Ngôi nhà được xây vào năm 2020."
+    },
+    {
+     "en": "The house will be built next year.",
+     "vi": "Ngôi nhà sẽ được xây vào năm sau."
+    },
+    {
+     "en": "The house has been built.",
+     "vi": "Ngôi nhà đã được xây xong."
+    },
+    {
+     "en": "Da Lat is colder than Saigon.",
+     "vi": "Đà Lạt lạnh hơn Sài Gòn."
+    },
+    {
+     "en": "She is the tallest student in class.",
+     "vi": "Cô ấy là học sinh cao nhất lớp."
+    },
+    {
+     "en": "She is as tall as her mother.",
+     "vi": "Cô ấy cao bằng mẹ."
+    },
+    {
+     "en": "The more I read, the better I get.",
+     "vi": "Tôi càng đọc nhiều, tôi càng giỏi hơn."
+    },
+    {
+     "en": "I used to live in Da Lat.",
+     "vi": "Tôi từng sống ở Đà Lạt."
+    },
+    {
+     "en": "I suggest going early.",
+     "vi": "Tôi gợi ý đi sớm."
+    },
+    {
+     "en": "I wish I had a bike.",
+     "vi": "Tôi ước gì tôi có một chiếc xe đạp."
+    },
+    {
+     "en": "The book that I read is interesting.",
+     "vi": "Quyển sách tôi đọc rất hay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122103877557550200/",
+   "image_src": "ngay-08/Tong-hop-cac-thi-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "has gone",
+     "wrong": "has went"
+    },
+    {
+     "right": "I agree with you.",
+     "wrong": "I am agree with you."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Hiện tại hoàn thành: has + V3, go thành gone.",
+     "options": [
+      "went",
+      "gone",
+      "goes"
+     ],
+     "prompt": "Điền dạng đúng: They have ___ to Da Lat twice."
+    },
+    {
+     "answer": 0,
+     "explanation": "Tương lai đơn: will + V, không dùng will + V + ing.",
+     "options": [
+      "I will go home tomorrow.",
+      "I will going home tomorrow."
+     ],
+     "prompt": "Câu nào đúng?"
+    },
+    {
+     "answer": 0,
+     "explanation": "Điều kiện loại 1: If + hiện tại đơn, will + V.",
+     "options": [
+      "will stay",
+      "would stay",
+      "stayed"
+     ],
+     "prompt": "Điền dạng đúng: If it rains, we ___ at home."
+    }
+   ],
+   "problem": "Nhiều bạn viết đúng từ mà sai thì, câu vẫn sai.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "has went sai, thì hiện tại hoàn thành dùng has gone. went đứng một mình cũng đúng nhưng đổi sang quá khứ đơn.",
+    "options": [
+     "has went",
+     "has gone",
+     "went"
+    ],
+    "prompt": "Chọn dạng đúng.",
+    "question": "She has ___ to Da Lat twice."
+   },
+   "remember": "has + V3 là hiện tại hoàn thành, go thành gone, không dùng has went.",
+   "right": "She has gone to Da Lat twice.",
+   "slug": "tong-hop-cac-thi",
+   "tip": "Muốn nhớ nhanh: viết 1 câu của chính mình cho mỗi thì.",
+   "title": "Tổng hợp các thì và cấu trúc hay gặp",
+   "topic": "ngữ pháp",
+   "type": "Mẫu câu",
+   "why": "Mỗi thì nói về một thời điểm khác nhau. Nhầm thì là sai nghĩa cả câu.",
+   "wrong": "She has went to Da Lat twice.",
+   "wrong_note": "",
+   "right_note": "",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
