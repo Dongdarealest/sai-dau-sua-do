@@ -2,7 +2,7 @@
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
-- **64 bài học** hiển thị trên web • **71 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **7 Reel** đính kèm trong bài
+- **65 bài học** hiển thị trên web • **72 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **7 Reel** đính kèm trong bài
 - Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/), **Luyện nghe** (/luyen-nghe/), **Luyện viết** (/luyen-viet/), **Luyện đọc** (/luyen-doc/), **Cộng đồng** (/cong-dong/). Mỗi bài học có thêm chế độ Học từng cụm.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983
@@ -61,7 +61,7 @@ Báo lỗi dữ liệu bằng issue, đề xuất bài mới bằng pull request
 - [Mẫu câu #002: giới thiệu bản thân](mau-cau-002/)
 - [Quiz #001: borrow hay lend?](quiz-001/)
 
-### Sửa phát âm (6 bài)
+### Sửa phát âm (7 bài)
 
 - [Lỗi #004: comfortable đọc mấy âm?](loi-004/)
 - [Mẫu câu #003: 3 cặp âm dễ nhầm](mau-cau-003/)
@@ -69,5 +69,6 @@ Báo lỗi dữ liệu bằng issue, đề xuất bài mới bằng pull request
 - [Quiz #002: boring hay bored?](quiz-002/)
 - [Quiz nhanh #001: Chữ nào trong debt là chữ câm?](quiz-nhanh-001/)
 - [Quiz nhanh #005: Wednesday đọc thế nào?](quiz-nhanh-005/)
+- [Quiz nhanh #006: Chữ nào câm trong receipt?](quiz-nhanh-006/)
 
 Trang này chạy bằng GitHub Pages, sinh từ `lessons.json`.

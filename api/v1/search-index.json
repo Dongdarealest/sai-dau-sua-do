@@ -1852,5 +1852,36 @@
     "type": "Lỗi",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "quiz-nhanh-006",
+    "code": "Quiz nhanh #006",
+    "title": "Chữ nào câm trong receipt?",
+    "wrong": "ri xép.",
+    "right": "ri SIIT.",
+    "remember": "receipt đọc là ri SIIT, chữ p câm.",
+    "why": "receipt có chữ p câm ở giữa, nên chỉ đọc ri SIIT.",
+    "examples": [
+      "Can I have the receipt, please? Cho tôi xin hóa đơn được không?",
+      "I lost the receipt for my shoes. Tôi làm mất hóa đơn mua giày rồi."
+    ],
+    "quiz": [
+      "Chữ nào câm trong receipt?",
+      "Chọn chữ câm trong receipt, nghĩa là hóa đơn.",
+      "Chữ p",
+      "Chữ c",
+      "Chữ t"
+    ],
+    "practice": [
+      "receipt nghĩa là gì? Hóa đơn Thực đơn Danh sách",
+      "Chọn câu đúng: I lost receipt yesterday. I lost the receipt yesterday. I lost a receipt yesterday.",
+      "Đọc receipt thế nào mới đúng? ri SIIT ri xép ri síp"
+    ],
+    "topic": "phát âm",
+    "type": "Quiz",
+    "date": "2026-11-20",
+    "paths": [
+      "sua-phat-am"
+    ]
   }
 ]

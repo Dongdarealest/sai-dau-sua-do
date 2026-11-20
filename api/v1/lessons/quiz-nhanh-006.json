@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-006",
+    "code": "Quiz nhanh #006",
+    "type": "Quiz",
+    "topic": "phát âm",
+    "title": "Chữ nào câm trong receipt?",
+    "date": "2026-11-20",
+    "wrong": "ri xép.",
+    "wrong_note": "Cách đọc sai theo mặt chữ.",
+    "right": "ri SIIT.",
+    "right_note": "receipt nghĩa là hóa đơn.",
+    "why": "receipt có chữ p câm ở giữa, nên chỉ đọc ri SIIT.",
+    "problem": "Nhiều bạn đọc receipt thành ri xép vì nhìn mặt chữ có chữ p.",
+    "core": "Đọc receipt theo âm thật, không đọc theo từng chữ cái.",
+    "compare": [
+      {
+        "a": "receipt",
+        "b": "debt",
+        "note": "receipt và debt đều có chữ câm, receipt câm chữ p còn debt câm chữ b."
+      },
+      {
+        "a": "I need the receipt for my lunch.",
+        "b": "I need the bill for my lunch.",
+        "note": "Hai câu đều dùng khi xin hóa đơn, receipt trang trọng hơn bill."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Please keep the receipt.",
+        "wrong": "Please keep the re ceipt."
+      },
+      {
+        "right": "The receipt is in my bag.",
+        "wrong": "The re ceipt is in my bag."
+      }
+    ],
+    "remember": "receipt đọc là ri SIIT, chữ p câm.",
+    "examples": [
+      {
+        "en": "Can I have the receipt, please?",
+        "vi": "Cho tôi xin hóa đơn được không?"
+      },
+      {
+        "en": "I lost the receipt for my shoes.",
+        "vi": "Tôi làm mất hóa đơn mua giày rồi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "receipt là tờ hóa đơn nhận sau khi mua hàng.",
+        "options": [
+          "Hóa đơn",
+          "Thực đơn",
+          "Danh sách"
+        ],
+        "prompt": "receipt nghĩa là gì?"
+      },
+      {
+        "answer": 1,
+        "explanation": "Câu đúng cần the trước receipt vì đã nhắc tới hóa đơn đó.",
+        "options": [
+          "I lost receipt yesterday.",
+          "I lost the receipt yesterday.",
+          "I lost a receipt yesterday."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Đọc đúng là ri SIIT, chữ p không phát âm.",
+        "options": [
+          "ri SIIT",
+          "ri xép",
+          "ri síp"
+        ],
+        "prompt": "Đọc receipt thế nào mới đúng?"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "Đáp án đúng là chữ p, vì receipt đọc là ri SIIT, chữ c và chữ t đều đọc.",
+      "options": [
+        "Chữ p",
+        "Chữ c",
+        "Chữ t"
+      ],
+      "prompt": "Chọn chữ câm trong receipt, nghĩa là hóa đơn.",
+      "question": "Chữ nào câm trong receipt?"
+    },
+    "reel": null,
+    "tip": "Nhớ receipt bằng cách nghĩ tới ri SIIT, đọc to 3 lần để quen miệng.",
+    "articulation": null,
+    "ipa": [
+      {
+        "note": "Anh và Mỹ đọc giống nhau",
+        "source": "Cambridge, Anh và Mỹ",
+        "text": "/rɪˈsiːt/"
+      }
+    ],
+    "dict_links": [
+      {
+        "label": "Cambridge, receipt",
+        "url": "https://dictionary.cambridge.org/dictionary/english/receipt"
+      }
+    ],
+    "image": "ngay-09/Quiz-nhanh-006-receipt.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122104954353550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-006/",
+    "show_in_ui": true
+  }
+}
