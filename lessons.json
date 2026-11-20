@@ -7531,6 +7531,85 @@
    "wrong_note": "Tôi đang ở trong xe buýt.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Quiz #009",
+   "compare": [
+    {
+     "a": "Happy Teacher Day!",
+     "b": "Happy Teachers' Day!",
+     "note": "Teacher thiếu s, chưa phải ngày của các thầy cô."
+    }
+   ],
+   "core": "Tên ngày lễ: Teachers' Day.",
+   "date": "2026-11-20",
+   "examples": [
+    {
+     "en": "I wish my teacher a happy Teachers' Day.",
+     "vi": "Tôi chúc thầy cô một ngày Nhà giáo vui vẻ."
+    },
+    {
+     "en": "We made a card for Teachers' Day.",
+     "vi": "Chúng tôi làm một tấm thiệp cho ngày Nhà giáo."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105221155550200",
+   "image_src": "ngay-09/Quiz-009-teachers-day.png",
+   "mistakes": [
+    {
+     "right": "Happy Teachers' Day!",
+     "wrong": "Happy Teachers Day!"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Cần số nhiều có sở hữu cách: Teachers'.",
+     "options": [
+      "Teacher",
+      "Teachers'",
+      "Teachers"
+     ],
+     "prompt": "Điền từ đúng: Happy ___ Day!"
+    },
+    {
+     "answer": 1,
+     "explanation": "Thiếu s và dấu nháy nên tên ngày lễ viết sai.",
+     "options": [
+      "Happy Teachers' Day!",
+      "Happy Teacher Day!",
+      "Thank you, my teacher!"
+     ],
+     "prompt": "Câu nào viết sai?"
+    }
+   ],
+   "problem": "Viết thiệp chúc thầy cô ngày 20/11 mà viết sai tên ngày lễ thì ngại lắm.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "A thiếu s và dấu nháy. C thiếu dấu nháy. Chỉ B viết đúng tên ngày lễ.",
+    "options": [
+     "Happy Teacher Day!",
+     "Happy Teachers' Day!",
+     "Happy Teachers Day!"
+    ],
+    "prompt": "Chọn câu viết đúng tên ngày lễ 20/11.",
+    "question": "Câu nào viết đúng tên ngày 20/11?"
+   },
+   "remember": "Tên ngày 20/11 là Teachers' Day, số nhiều có sở hữu cách.",
+   "right": "Happy Teachers' Day!",
+   "right_note": "",
+   "slug": "quiz-009",
+   "tip": "Nhớ dấu nháy sau s: Teachers'.",
+   "title": "Happy Teachers' Day!",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Ngày lễ mang tên các thầy cô, nên dùng số nhiều có sở hữu cách.",
+   "wrong": "Happy Teacher Day!",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

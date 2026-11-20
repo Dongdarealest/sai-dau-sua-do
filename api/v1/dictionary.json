@@ -1482,7 +1482,8 @@
         "mau-cau-001",
         "loi-008",
         "mau-cau-008",
-        "quiz-nhanh-005"
+        "quiz-nhanh-005",
+        "quiz-009"
       ]
     },
     "dead": {
@@ -2886,7 +2887,8 @@
       ],
       "mistakes": [
         "so-do-001",
-        "loi-008"
+        "loi-008",
+        "quiz-009"
       ]
     },
     "hard": {

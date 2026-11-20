@@ -1965,5 +1965,33 @@
     "type": "Quiz",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "quiz-009",
+    "code": "Quiz #009",
+    "title": "Happy Teachers' Day!",
+    "wrong": "Happy Teacher Day!",
+    "right": "Happy Teachers' Day!",
+    "remember": "Tên ngày 20/11 là Teachers' Day, số nhiều có sở hữu cách.",
+    "why": "Ngày lễ mang tên các thầy cô, nên dùng số nhiều có sở hữu cách.",
+    "examples": [
+      "I wish my teacher a happy Teachers' Day. Tôi chúc thầy cô một ngày Nhà giáo vui vẻ.",
+      "We made a card for Teachers' Day. Chúng tôi làm một tấm thiệp cho ngày Nhà giáo."
+    ],
+    "quiz": [
+      "Câu nào viết đúng tên ngày 20/11?",
+      "Chọn câu viết đúng tên ngày lễ 20/11.",
+      "Happy Teacher Day!",
+      "Happy Teachers' Day!",
+      "Happy Teachers Day!"
+    ],
+    "practice": [
+      "Điền từ đúng: Happy ___ Day! Teacher Teachers' Teachers",
+      "Câu nào viết sai? Happy Teachers' Day! Happy Teacher Day! Thank you, my teacher!"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

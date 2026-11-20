@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 75,
-    "visible_lessons": 68,
+    "total_lessons": 76,
+    "visible_lessons": 69,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1136,6 +1136,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-006/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105148411550200",
       "image": "ngay-09/Do-006-on-the-bus.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-009",
+      "code": "Quiz #009",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "Happy Teachers' Day!",
+      "date": "2026-11-20",
+      "wrong": "Happy Teacher Day!",
+      "right": "Happy Teachers' Day!",
+      "remember": "Tên ngày 20/11 là Teachers' Day, số nhiều có sở hữu cách.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-009/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105221155550200",
+      "image": "ngay-09/Quiz-009-teachers-day.png",
       "show_in_ui": true
     }
   ]
