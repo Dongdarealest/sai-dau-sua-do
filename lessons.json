@@ -6738,6 +6738,87 @@
    "wrong_note": "Sau động từ teaches lại dùng tính từ good.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #010",
+   "compare": [
+    {
+     "a": "She speaks English very well.",
+     "b": "She speaks English very good.",
+     "note": "sau động từ speak cũng cần trạng từ well."
+    }
+   ],
+   "core": "well bổ nghĩa cho động từ, good bổ nghĩa cho danh từ.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "My friend plays the piano very well.",
+     "vi": "Bạn của tôi chơi đàn piano rất giỏi."
+    },
+    {
+     "en": "The children read English very well.",
+     "vi": "Các em nhỏ đọc tiếng Anh rất giỏi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104646019550200",
+   "image_src": "ngay-09/Loi-010-teaches-well.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He sings very well.",
+     "wrong": "He sings very good."
+    },
+    {
+     "right": "She explains the lesson very well.",
+     "wrong": "She explains the lesson very good."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "sau động từ teaches cần trạng từ well.",
+     "kind": "fill_blank",
+     "options": [
+      "good",
+      "well"
+     ],
+     "prompt": "She teaches very ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ speak cần trạng từ well, không dùng tính từ good.",
+     "options": [
+      "He speaks English very good.",
+      "He speaks English very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ sing cần trạng từ well.",
+     "options": [
+      "They sing very good.",
+      "They sing very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Hôm nay 20/11, gặp thầy cô mà khen teaches very good thì sai rồi, dù người nghe vẫn hiểu ý bạn.",
+   "quiz": null,
+   "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+   "right": "My teacher teaches English very well.",
+   "right_note": "Thầy cô của em dạy tiếng Anh rất giỏi.",
+   "show_in_ui": true,
+   "slug": "loi-010",
+   "tip": "Khen thầy cô dạy giỏi thì nói teaches very well, viết thiệp 20/11 cũng dùng câu này.",
+   "title": "teaches very well",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "sau động từ cần trạng từ well, không dùng tính từ good.",
+   "wrong": "My teacher teaches English very good.",
+   "wrong_note": "Thầy cô của em dạy tiếng Anh rất giỏi, nhưng dùng sai tính từ good sau động từ.",
+   "reel": null
   }
  ],
  "site": {

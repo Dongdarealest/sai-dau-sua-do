@@ -1746,5 +1746,31 @@
     "type": "Quiz",
     "date": "2026-11-19",
     "paths": []
+  },
+  {
+    "slug": "loi-010",
+    "code": "Lỗi #010",
+    "title": "teaches very well",
+    "wrong": "My teacher teaches English very good.",
+    "right": "My teacher teaches English very well.",
+    "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+    "why": "sau động từ cần trạng từ well, không dùng tính từ good.",
+    "examples": [
+      "My friend plays the piano very well. Bạn của tôi chơi đàn piano rất giỏi.",
+      "The children read English very well. Các em nhỏ đọc tiếng Anh rất giỏi."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "She teaches very ___. good well",
+      "Chọn câu đúng: He speaks English very good. He speaks English very well.",
+      "Chọn câu đúng: They sing very good. They sing very well."
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

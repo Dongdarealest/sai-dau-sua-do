@@ -1975,7 +1975,8 @@
       "mistakes": [
         "do-004",
         "tong-hop-001",
-        "hoi-thoai-005"
+        "hoi-thoai-005",
+        "loi-010"
       ]
     },
     "enough": {
@@ -7632,7 +7633,8 @@
       ],
       "mistakes": [
         "meo-001",
-        "quiz-008"
+        "quiz-008",
+        "loi-010"
       ]
     },
     "video": {
@@ -7949,7 +7951,8 @@
         }
       ],
       "mistakes": [
-        "quiz-008"
+        "quiz-008",
+        "loi-010"
       ]
     },
     "went": {
