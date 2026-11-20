@@ -2367,7 +2367,10 @@
    ],
    "problem": "Nhiều bạn quen dịch actually thành hiện tại rồi dùng khi giới thiệu bản thân hoặc viết email. Trong tiếng Anh, actually dùng để đính chính một ý vừa nói.",
    "quiz": null,
-   "reel": null,
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1157116046852195"
+   },
    "remember": "actually là thật ra để đính chính, hiện tại thì dùng currently.",
    "right": "Currently, I am living in Da Lat.",
    "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
@@ -7098,6 +7101,34 @@
    "wrong_note": "Anh ấy là anh họ của tôi.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "slug": "reel-007",
+   "code": "Reel #007",
+   "type": "Reels",
+   "topic": "từ vựng",
+   "date": "2026-11-20",
+   "title": "actually hay currently?",
+   "wrong": "Actually, I am living in Da Lat.",
+   "wrong_note": "Hiện tại tôi đang sống ở Đà Lạt (nhưng dùng actually là sai).",
+   "right": "Currently, I am living in Da Lat.",
+   "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
+   "why": "actually là thật ra, hiện tại là currently.",
+   "examples": [
+    {
+     "en": "Actually, I do not like coffee.",
+     "vi": "Thật ra tôi không thích cà phê."
+    }
+   ],
+   "ipa": [],
+   "dict_links": [],
+   "quiz": null,
+   "practice": [],
+   "remember": "",
+   "image_src": "reels/frames/reel-007-f1.png",
+   "fb": "https://www.facebook.com/reel/1157116046852195",
+   "reel": null,
+   "show_in_ui": false
   }
  ],
  "site": {

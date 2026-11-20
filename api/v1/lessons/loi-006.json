@@ -89,7 +89,10 @@
       }
     ],
     "quiz": null,
-    "reel": null,
+    "reel": {
+      "label": "Xem Reel bài này",
+      "url": "https://www.facebook.com/reel/1157116046852195"
+    },
     "tip": null,
     "articulation": null,
     "ipa": [],

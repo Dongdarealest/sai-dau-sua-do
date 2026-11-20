@@ -1,7 +1,7 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 70,
+    "total_lessons": 71,
     "visible_lessons": 64,
     "source": {
       "name": "Sai Đâu Sửa Đó",
@@ -1062,6 +1062,21 @@
       "fb": "https://www.facebook.com/61596506009854/posts/122104868607550200",
       "image": "ngay-09/Meme-006-cousin-brother.png",
       "show_in_ui": true
+    },
+    {
+      "slug": "reel-007",
+      "code": "Reel #007",
+      "type": "Reels",
+      "topic": "từ vựng",
+      "title": "actually hay currently?",
+      "date": "2026-11-20",
+      "wrong": "Actually, I am living in Da Lat.",
+      "right": "Currently, I am living in Da Lat.",
+      "remember": "",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-007/",
+      "fb": "https://www.facebook.com/reel/1157116046852195",
+      "image": "reels/frames/reel-007-f1.png",
+      "show_in_ui": false
     }
   ]
 }

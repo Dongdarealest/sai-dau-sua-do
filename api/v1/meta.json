@@ -1,7 +1,7 @@
 {
   "api_version": "1.0.0",
   "api_base": "https://dongdarealest.github.io/sai-dau-sua-do/api/v1/",
-  "total_lessons": 70,
+  "total_lessons": 71,
   "visible_lessons": 64,
   "total_words": 852,
   "words_with_example": 112,

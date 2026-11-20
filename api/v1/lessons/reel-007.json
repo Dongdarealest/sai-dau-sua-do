@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "reel-007",
+    "code": "Reel #007",
+    "type": "Reels",
+    "topic": "từ vựng",
+    "title": "actually hay currently?",
+    "date": "2026-11-20",
+    "wrong": "Actually, I am living in Da Lat.",
+    "wrong_note": "Hiện tại tôi đang sống ở Đà Lạt (nhưng dùng actually là sai).",
+    "right": "Currently, I am living in Da Lat.",
+    "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
+    "why": "actually là thật ra, hiện tại là currently.",
+    "problem": null,
+    "core": null,
+    "compare": [],
+    "mistakes": [],
+    "remember": "",
+    "examples": [
+      {
+        "en": "Actually, I do not like coffee.",
+        "vi": "Thật ra tôi không thích cà phê."
+      }
+    ],
+    "practice": [],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "reels/frames/reel-007-f1.png",
+    "fb": "https://www.facebook.com/reel/1157116046852195",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-007/",
+    "show_in_ui": false
+  }
+}
