@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 68,
-    "visible_lessons": 62,
+    "total_lessons": 69,
+    "visible_lessons": 63,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1031,6 +1031,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-005/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104699353550200",
       "image": "ngay-09/Meo-005-your-youre.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "cau-nao-dung-002",
+      "code": "Câu nào đúng? #002",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "enjoy và động từ thêm ing",
+      "date": "2026-11-20",
+      "wrong": "I enjoy to swim.",
+      "right": "I enjoy swimming.",
+      "remember": "enjoy cộng động từ thêm ing, không đi với to.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-nao-dung-002/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104757805550200/",
+      "image": "ngay-09/Cau-nao-dung-002-enjoy-swimming.png",
       "show_in_ui": true
     }
   ]

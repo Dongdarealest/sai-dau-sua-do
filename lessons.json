@@ -6906,6 +6906,91 @@
    "wrong_note": "Your là của bạn, viết your ở đầu câu này là sai.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Câu nào đúng? #002",
+   "compare": [
+    {
+     "a": "I enjoy swimming.",
+     "b": "I want to swim.",
+     "note": "enjoy đi với động từ thêm ing, want đi với to."
+    },
+    {
+     "a": "She enjoys reading books.",
+     "b": "She wants to read books.",
+     "note": "Cả hai đều nói về sở thích, nhưng enjoy và want đi với dạng động từ khác nhau."
+    }
+   ],
+   "core": "enjoy cộng động từ thêm ing.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "They enjoy playing football on Sundays.",
+     "vi": "Họ thích chơi bóng đá vào chủ nhật."
+    },
+    {
+     "en": "He enjoys cooking dinner for his family.",
+     "vi": "Anh ấy thích nấu bữa tối cho gia đình."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104757805550200/",
+   "image_src": "ngay-09/Cau-nao-dung-002-enjoy-swimming.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We enjoy travelling together.",
+     "wrong": "We enjoy to travel together."
+    },
+    {
+     "right": "She enjoys listening to music.",
+     "wrong": "She enjoys to listen to music."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "enjoy đi với động từ thêm ing.",
+     "options": [
+      "I enjoy reading books.",
+      "I enjoy to read books."
+     ],
+     "prompt": "Bạn thích đọc sách, chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Sau enjoy dùng động từ thêm ing.",
+     "options": [
+      "playing",
+      "to play"
+     ],
+     "prompt": "Điền từ đúng: 'They enjoy ___ football on Sundays.'"
+    }
+   ],
+   "problem": "Nhiều bạn nói I enjoy to swim vì nghĩ enjoy giống want, nhưng enjoy luôn đi với động từ thêm ing.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "enjoy luôn đi với động từ thêm ing, không đi với to. Nguồn: Cambridge Grammar of English, enjoy + gerund.",
+    "options": [
+     "I enjoy to swim.",
+     "I enjoy swimming."
+    ],
+    "prompt": "Chọn câu đúng:",
+    "question": "Cuối tuần rảnh, bạn rủ bạn đi bơi, câu nào đúng?"
+   },
+   "remember": "enjoy cộng động từ thêm ing, không đi với to.",
+   "right": "I enjoy swimming.",
+   "right_note": "Động từ thêm ing sau enjoy.",
+   "slug": "cau-nao-dung-002",
+   "tip": "Nhớ nhanh: enjoy, like và love đều có thể đi với động từ thêm ing.",
+   "title": "enjoy và động từ thêm ing",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "enjoy luôn đi với động từ thêm ing, không đi với to.",
+   "wrong": "I enjoy to swim.",
+   "wrong_note": "Dùng to sau enjoy.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

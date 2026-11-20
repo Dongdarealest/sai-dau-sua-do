@@ -1798,5 +1798,32 @@
     "type": "Lỗi",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "cau-nao-dung-002",
+    "code": "Câu nào đúng? #002",
+    "title": "enjoy và động từ thêm ing",
+    "wrong": "I enjoy to swim.",
+    "right": "I enjoy swimming.",
+    "remember": "enjoy cộng động từ thêm ing, không đi với to.",
+    "why": "enjoy luôn đi với động từ thêm ing, không đi với to.",
+    "examples": [
+      "They enjoy playing football on Sundays. Họ thích chơi bóng đá vào chủ nhật.",
+      "He enjoys cooking dinner for his family. Anh ấy thích nấu bữa tối cho gia đình."
+    ],
+    "quiz": [
+      "Cuối tuần rảnh, bạn rủ bạn đi bơi, câu nào đúng?",
+      "Chọn câu đúng:",
+      "I enjoy to swim.",
+      "I enjoy swimming."
+    ],
+    "practice": [
+      "Bạn thích đọc sách, chọn câu đúng: I enjoy reading books. I enjoy to read books.",
+      "Điền từ đúng: 'They enjoy ___ football on Sundays.' playing to play"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]
