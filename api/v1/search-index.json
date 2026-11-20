@@ -1909,5 +1909,32 @@
     "type": "Lỗi",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "hoi-thoai-006",
+    "code": "Hội thoại #006",
+    "title": "Xin lỗi vì đến muộn",
+    "wrong": "I am sorry, I am late 10 minutes.",
+    "right": "I am sorry, I am 10 minutes late.",
+    "remember": "khoảng thời gian đứng trước late: 10 minutes late, không nói late 10 minutes.",
+    "why": "khoảng thời gian đứng trước late, nói 10 minutes late.",
+    "examples": [
+      "He is 20 minutes late for work. Anh ấy đến muộn 20 phút trong buổi làm việc.",
+      "Sorry, we are 5 minutes late. Xin lỗi, chúng tôi đến muộn 5 phút."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "I am sorry, I am ___ late. 10 minutes minutes 10",
+      "She is ___ late for class. 15 minutes minutes 15",
+      "Chọn câu đúng: I am late 5 minutes. I am 5 minutes late.",
+      "Sắp xếp thành câu đúng: 'I / am / 5 / minutes / late / .' minutes I late . am 5"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

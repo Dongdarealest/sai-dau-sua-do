@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 73,
-    "visible_lessons": 66,
+    "total_lessons": 74,
+    "visible_lessons": 67,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1106,6 +1106,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-005/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105007753550200",
       "image": "ngay-09/Meme-005-open-the-light.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "hoi-thoai-006",
+      "code": "Hội thoại #006",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "Xin lỗi vì đến muộn",
+      "date": "2026-11-20",
+      "wrong": "I am sorry, I am late 10 minutes.",
+      "right": "I am sorry, I am 10 minutes late.",
+      "remember": "khoảng thời gian đứng trước late: 10 minutes late, không nói late 10 minutes.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-006/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105070879550200",
+      "image": "ngay-09/Hoi-thoai-006-10-minutes-late.png",
       "show_in_ui": true
     }
   ]

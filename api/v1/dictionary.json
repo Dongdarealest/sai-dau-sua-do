@@ -3748,7 +3748,8 @@
         }
       ],
       "mistakes": [
-        "cau-nao-dung-001"
+        "cau-nao-dung-001",
+        "hoi-thoai-006"
       ]
     },
     "later": {
@@ -6410,7 +6411,9 @@
           "meaning": "xin lỗi"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "hoi-thoai-006"
+      ]
     },
     "south": {
       "senses": [

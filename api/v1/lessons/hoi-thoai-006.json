@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "hoi-thoai-006",
+    "code": "Hội thoại #006",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "Xin lỗi vì đến muộn",
+    "date": "2026-11-20",
+    "wrong": "I am sorry, I am late 10 minutes.",
+    "wrong_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+    "right": "I am sorry, I am 10 minutes late.",
+    "right_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+    "why": "khoảng thời gian đứng trước late, nói 10 minutes late.",
+    "problem": "Bạn hẹn bạn đi cà phê và đến muộn 10 phút. Bạn nhắn tin xin lỗi mà đặt 10 minutes sau late, người nghe vẫn hiểu nhưng thấy câu sai ngay chỗ đó.",
+    "core": "muốn nói đến muộn bao lâu thì đặt khoảng thời gian trước late.",
+    "compare": [
+      {
+        "a": "I am late 30 minutes.",
+        "b": "I am 30 minutes late.",
+        "note": "khoảng thời gian đứng trước late."
+      },
+      {
+        "a": "She is late 15 minutes.",
+        "b": "She is 15 minutes late.",
+        "note": "nói 15 minutes late khi đến muộn 15 phút."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They are 10 minutes late.",
+        "wrong": "They are late 10 minutes."
+      },
+      {
+        "right": "He is 5 minutes late.",
+        "wrong": "He is late 5 minutes."
+      }
+    ],
+    "remember": "khoảng thời gian đứng trước late: 10 minutes late, không nói late 10 minutes.",
+    "examples": [
+      {
+        "en": "He is 20 minutes late for work.",
+        "vi": "Anh ấy đến muộn 20 phút trong buổi làm việc."
+      },
+      {
+        "en": "Sorry, we are 5 minutes late.",
+        "vi": "Xin lỗi, chúng tôi đến muộn 5 phút."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "khoảng thời gian đứng trước late.",
+        "kind": "fill_blank",
+        "options": [
+          "10 minutes",
+          "minutes 10"
+        ],
+        "prompt": "I am sorry, I am ___ late."
+      },
+      {
+        "answer": 0,
+        "explanation": "15 minutes đứng trước late.",
+        "kind": "fill_blank",
+        "options": [
+          "15 minutes",
+          "minutes 15"
+        ],
+        "prompt": "She is ___ late for class."
+      },
+      {
+        "answer": 1,
+        "explanation": "khoảng thời gian đứng trước late, nói 5 minutes late.",
+        "options": [
+          "I am late 5 minutes.",
+          "I am 5 minutes late."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          4,
+          5,
+          0,
+          2,
+          3
+        ],
+        "explanation": "Xếp đúng thứ tự: I, am, 5, minutes, late, dấu chấm.",
+        "kind": "word_order",
+        "options": [
+          "minutes",
+          "I",
+          "late",
+          ".",
+          "am",
+          "5"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'I / am / 5 / minutes / late / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi nhắn tin xin lỗi vì đến muộn, báo giờ đến.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-09/Hoi-thoai-006-10-minutes-late.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122105070879550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-006/",
+    "show_in_ui": true
+  }
+}

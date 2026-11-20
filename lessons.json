@@ -7325,6 +7325,114 @@
    "wrong_note": "Làm ơn bật đèn lên.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Hội thoại #006",
+   "compare": [
+    {
+     "a": "I am late 30 minutes.",
+     "b": "I am 30 minutes late.",
+     "note": "khoảng thời gian đứng trước late."
+    },
+    {
+     "a": "She is late 15 minutes.",
+     "b": "She is 15 minutes late.",
+     "note": "nói 15 minutes late khi đến muộn 15 phút."
+    }
+   ],
+   "core": "muốn nói đến muộn bao lâu thì đặt khoảng thời gian trước late.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "He is 20 minutes late for work.",
+     "vi": "Anh ấy đến muộn 20 phút trong buổi làm việc."
+    },
+    {
+     "en": "Sorry, we are 5 minutes late.",
+     "vi": "Xin lỗi, chúng tôi đến muộn 5 phút."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105070879550200",
+   "image_src": "ngay-09/Hoi-thoai-006-10-minutes-late.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are 10 minutes late.",
+     "wrong": "They are late 10 minutes."
+    },
+    {
+     "right": "He is 5 minutes late.",
+     "wrong": "He is late 5 minutes."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "khoảng thời gian đứng trước late.",
+     "kind": "fill_blank",
+     "options": [
+      "10 minutes",
+      "minutes 10"
+     ],
+     "prompt": "I am sorry, I am ___ late."
+    },
+    {
+     "answer": 0,
+     "explanation": "15 minutes đứng trước late.",
+     "kind": "fill_blank",
+     "options": [
+      "15 minutes",
+      "minutes 15"
+     ],
+     "prompt": "She is ___ late for class."
+    },
+    {
+     "answer": 1,
+     "explanation": "khoảng thời gian đứng trước late, nói 5 minutes late.",
+     "options": [
+      "I am late 5 minutes.",
+      "I am 5 minutes late."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      4,
+      5,
+      0,
+      2,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: I, am, 5, minutes, late, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "minutes",
+      "I",
+      "late",
+      ".",
+      "am",
+      "5"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'I / am / 5 / minutes / late / .'"
+    }
+   ],
+   "problem": "Bạn hẹn bạn đi cà phê và đến muộn 10 phút. Bạn nhắn tin xin lỗi mà đặt 10 minutes sau late, người nghe vẫn hiểu nhưng thấy câu sai ngay chỗ đó.",
+   "quiz": null,
+   "remember": "khoảng thời gian đứng trước late: 10 minutes late, không nói late 10 minutes.",
+   "right": "I am sorry, I am 10 minutes late.",
+   "right_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+   "slug": "hoi-thoai-006",
+   "tip": "Dùng khi nhắn tin xin lỗi vì đến muộn, báo giờ đến.",
+   "title": "Xin lỗi vì đến muộn",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "khoảng thời gian đứng trước late, nói 10 minutes late.",
+   "wrong": "I am sorry, I am late 10 minutes.",
+   "wrong_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
