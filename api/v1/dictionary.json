@@ -3933,7 +3933,9 @@
           "meaning": "ánh sáng"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-nhanh-005"
+      ]
     },
     "like": {
       "senses": [
@@ -4929,7 +4931,9 @@
           "example_vi": "Mở cửa ra."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-nhanh-005"
+      ]
     },
     "or": {
       "senses": [
@@ -5255,7 +5259,8 @@
         }
       ],
       "mistakes": [
-        "loi-nhanh-004"
+        "loi-nhanh-004",
+        "loi-nhanh-005"
       ]
     },
     "point": {
@@ -7493,7 +7498,9 @@
           "meaning": "rẽ, xoay"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-nhanh-005"
+      ]
     },
     "twice": {
       "senses": [

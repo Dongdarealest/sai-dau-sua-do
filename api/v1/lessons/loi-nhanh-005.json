@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-nhanh-005",
+    "code": "Lỗi nhanh #005",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "open the light",
+    "date": "2026-11-20",
+    "wrong": "Please open the light.",
+    "wrong_note": "Làm ơn bật đèn lên.",
+    "right": "Please turn on the light.",
+    "right_note": "Làm ơn bật đèn lên.",
+    "why": "open là mở, bật đèn thì dùng turn on.",
+    "problem": "Vào phòng tối, bạn nói Please open the light, đèn nghe xong không biết mở cửa nào.",
+    "core": "Bật đèn, bật tivi, bật quạt đều dùng turn on, open chỉ dùng để mở cửa, mở sách, mở hộp.",
+    "compare": [
+      {
+        "a": "Please open the TV.",
+        "b": "Please turn on the TV.",
+        "note": "Bật tivi dùng turn on, open là mở."
+      },
+      {
+        "a": "Please turn on the door.",
+        "b": "Please open the door.",
+        "note": "Mở cửa dùng open, turn on là bật."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Please turn off the light before you leave.",
+        "wrong": "Please close the light before you leave."
+      },
+      {
+        "right": "Can you turn on the fan?",
+        "wrong": "Can you open the fan?"
+      }
+    ],
+    "remember": "Bật đèn, bật tivi, bật quạt dùng turn on, mở cửa, mở sách dùng open.",
+    "examples": [
+      {
+        "en": "Please turn on the light, it is very dark in here.",
+        "vi": "Làm ơn bật đèn lên, trong này tối quá."
+      },
+      {
+        "en": "She turned on the fan because it was hot.",
+        "vi": "Cô ấy bật quạt vì trời nóng."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Bật đèn dùng turn on, không dùng open.",
+        "kind": "fill_blank",
+        "options": [
+          "open",
+          "turn on"
+        ],
+        "prompt": "Please ___ the light, it is dark here."
+      },
+      {
+        "answer": 1,
+        "explanation": "Bật tivi dùng turn on, mở thì dùng open.",
+        "options": [
+          "Please open the TV.",
+          "Please turn on the TV."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Tắt đèn dùng turn off, không dùng close.",
+        "kind": "fill_blank",
+        "options": [
+          "turned off",
+          "closed"
+        ],
+        "prompt": "She ___ the light before going to bed."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi nhờ ai bật đèn, bật tivi, bật quạt.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-09/Meme-005-open-the-light.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122105007753550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-005/",
+    "show_in_ui": true
+  }
+}

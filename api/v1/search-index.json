@@ -1883,5 +1883,31 @@
     "paths": [
       "sua-phat-am"
     ]
+  },
+  {
+    "slug": "loi-nhanh-005",
+    "code": "Lỗi nhanh #005",
+    "title": "open the light",
+    "wrong": "Please open the light.",
+    "right": "Please turn on the light.",
+    "remember": "Bật đèn, bật tivi, bật quạt dùng turn on, mở cửa, mở sách dùng open.",
+    "why": "open là mở, bật đèn thì dùng turn on.",
+    "examples": [
+      "Please turn on the light, it is very dark in here. Làm ơn bật đèn lên, trong này tối quá.",
+      "She turned on the fan because it was hot. Cô ấy bật quạt vì trời nóng."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Please ___ the light, it is dark here. open turn on",
+      "Chọn câu đúng: Please open the TV. Please turn on the TV.",
+      "She ___ the light before going to bed. turned off closed"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

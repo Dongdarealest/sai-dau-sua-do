@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 72,
-    "visible_lessons": 65,
+    "total_lessons": 73,
+    "visible_lessons": 66,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1091,6 +1091,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-006/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104954353550200",
       "image": "ngay-09/Quiz-nhanh-006-receipt.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "loi-nhanh-005",
+      "code": "Lỗi nhanh #005",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "open the light",
+      "date": "2026-11-20",
+      "wrong": "Please open the light.",
+      "right": "Please turn on the light.",
+      "remember": "Bật đèn, bật tivi, bật quạt dùng turn on, mở cửa, mở sách dùng open.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-005/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105007753550200",
+      "image": "ngay-09/Meme-005-open-the-light.png",
       "show_in_ui": true
     }
   ]
