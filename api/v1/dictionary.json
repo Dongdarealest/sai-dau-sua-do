@@ -969,7 +969,9 @@
           "meaning": "xe buýt"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-006"
+      ]
     },
     "busy": {
       "senses": [

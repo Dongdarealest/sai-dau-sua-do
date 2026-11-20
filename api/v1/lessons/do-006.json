@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "do-006",
+    "code": "Đố nhanh #006",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "on the bus",
+    "date": "2026-11-20",
+    "wrong": "I am in the bus.",
+    "wrong_note": "Tôi đang ở trong xe buýt.",
+    "right": "I am on the bus.",
+    "right_note": "Tôi đang ở trong xe buýt.",
+    "why": "Xe buýt, tàu và máy bay thì dùng on, xe ô tô con thì dùng in.",
+    "problem": "Bạn muốn nói mình đang ở trong xe buýt, nhưng viết in the bus thì nghe sai sai.",
+    "core": "Xe buýt, tàu và máy bay dùng on, xe ô tô con dùng in.",
+    "compare": [
+      {
+        "a": "I am in the car.",
+        "b": "I am on the bus.",
+        "note": "Xe ô tô con dùng in, xe buýt dùng on."
+      },
+      {
+        "a": "We are on the train.",
+        "b": "We are on the plane.",
+        "note": "Tàu và máy bay đều dùng on, giống xe buýt."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They are on the bus.",
+        "wrong": "They are in the bus."
+      },
+      {
+        "right": "He is in the car now.",
+        "wrong": "He is on the car now."
+      }
+    ],
+    "remember": "Ngồi xe buýt thì nói on the bus, xe ô tô thì nói in the car.",
+    "examples": [
+      {
+        "en": "I am on the bus to school.",
+        "vi": "Tôi đang ở trên xe buýt đi học."
+      },
+      {
+        "en": "She is waiting in the car.",
+        "vi": "Cô ấy đang chờ trong xe ô tô."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Xe buýt thì dùng on, giống tàu và máy bay.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "on"
+        ],
+        "prompt": "I am ___ the bus."
+      },
+      {
+        "answer": 0,
+        "explanation": "Ngồi trong xe ô tô thì nói in the car.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "on"
+        ],
+        "prompt": "He is ___ the car now."
+      },
+      {
+        "answer": 1,
+        "explanation": "Tàu thì dùng on, giống xe buýt và máy bay.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "on"
+        ],
+        "prompt": "We are ___ the train to Ha Noi."
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "Ngồi xe buýt thì nói on the bus, xe ô tô con mới dùng in.",
+      "options": [
+        "'in the bus' thành 'on the bus'",
+        "'am' thành 'is'",
+        "'bus' thành 'buses'"
+      ],
+      "prompt": "Hãy nhìn giới từ trước the bus.",
+      "question": "Câu 'I am in the bus.' sai ở đâu?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: xe nhỏ in, xe lớn on.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-09/Do-006-on-the-bus.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122105148411550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-006/",
+    "show_in_ui": true
+  }
+}

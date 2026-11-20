@@ -1936,5 +1936,34 @@
     "type": "Lỗi",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "do-006",
+    "code": "Đố nhanh #006",
+    "title": "on the bus",
+    "wrong": "I am in the bus.",
+    "right": "I am on the bus.",
+    "remember": "Ngồi xe buýt thì nói on the bus, xe ô tô thì nói in the car.",
+    "why": "Xe buýt, tàu và máy bay thì dùng on, xe ô tô con thì dùng in.",
+    "examples": [
+      "I am on the bus to school. Tôi đang ở trên xe buýt đi học.",
+      "She is waiting in the car. Cô ấy đang chờ trong xe ô tô."
+    ],
+    "quiz": [
+      "Câu 'I am in the bus.' sai ở đâu?",
+      "Hãy nhìn giới từ trước the bus.",
+      "'in the bus' thành 'on the bus'",
+      "'am' thành 'is'",
+      "'bus' thành 'buses'"
+    ],
+    "practice": [
+      "I am ___ the bus. in on",
+      "He is ___ the car now. in on",
+      "We are ___ the train to Ha Noi. in on"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

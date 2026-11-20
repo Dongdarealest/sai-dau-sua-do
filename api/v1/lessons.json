@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 74,
-    "visible_lessons": 67,
+    "total_lessons": 75,
+    "visible_lessons": 68,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1121,6 +1121,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-006/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105070879550200",
       "image": "ngay-09/Hoi-thoai-006-10-minutes-late.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-006",
+      "code": "Đố nhanh #006",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "on the bus",
+      "date": "2026-11-20",
+      "wrong": "I am in the bus.",
+      "right": "I am on the bus.",
+      "remember": "Ngồi xe buýt thì nói on the bus, xe ô tô thì nói in the car.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-006/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105148411550200",
+      "image": "ngay-09/Do-006-on-the-bus.png",
       "show_in_ui": true
     }
   ]
