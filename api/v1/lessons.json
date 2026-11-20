@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 67,
-    "visible_lessons": 61,
+    "total_lessons": 68,
+    "visible_lessons": 62,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1016,6 +1016,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-010/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104646019550200",
       "image": "ngay-09/Loi-010-teaches-well.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "meo-005",
+      "code": "Mẹo #005",
+      "type": "Lỗi",
+      "topic": "từ vựng",
+      "title": "your và you're",
+      "date": "2026-11-20",
+      "wrong": "Your a great teacher.",
+      "right": "You're a great teacher.",
+      "remember": "Nhớ: your chỉ sở hữu, you're là you are viết tắt.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-005/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104699353550200",
+      "image": "ngay-09/Meo-005-your-youre.png",
       "show_in_ui": true
     }
   ]

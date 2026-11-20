@@ -1772,5 +1772,31 @@
     "type": "Lỗi",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "meo-005",
+    "code": "Mẹo #005",
+    "title": "your và you're",
+    "wrong": "Your a great teacher.",
+    "right": "You're a great teacher.",
+    "remember": "Nhớ: your chỉ sở hữu, you're là you are viết tắt.",
+    "why": "your là của bạn, you're là you are viết tắt.",
+    "examples": [
+      "You're a wonderful teacher. Thầy là một giáo viên tuyệt vời.",
+      "Your students love you very much. Học trò của bạn rất yêu quý bạn."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Điền từ còn thiếu: ___ a great teacher! Your You're",
+      "Chọn câu đúng: Your the best teacher ever. You're the best teacher ever.",
+      "Điền từ còn thiếu: Is this ___ umbrella? your you're"
+    ],
+    "topic": "từ vựng",
+    "type": "Lỗi",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

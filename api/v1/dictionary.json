@@ -2735,7 +2735,9 @@
           "meaning": "tuyệt vời"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meo-005"
+      ]
     },
     "green": {
       "senses": [
@@ -8460,7 +8462,8 @@
       "mistakes": [
         "loi-001",
         "quiz-001",
-        "reel-001"
+        "reel-001",
+        "meo-005"
       ]
     },
     "zero": {

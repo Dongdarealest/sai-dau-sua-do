@@ -6819,6 +6819,93 @@
    "wrong": "My teacher teaches English very good.",
    "wrong_note": "Thầy cô của em dạy tiếng Anh rất giỏi, nhưng dùng sai tính từ good sau động từ.",
    "reel": null
+  },
+  {
+   "code": "Mẹo #005",
+   "compare": [
+    {
+     "a": "Your teacher is kind.",
+     "b": "You're very kind.",
+     "note": "your đứng trước danh từ, you're là you are viết tắt nên đứng trước tính từ."
+    },
+    {
+     "a": "Is this your book?",
+     "b": "You're my best friend.",
+     "note": "your hỏi đồ của ai, you're nói bạn là ai."
+    }
+   ],
+   "core": "Muốn nói bạn là ai thì dùng you're, muốn nói cái gì của bạn thì dùng your.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "You're a wonderful teacher.",
+     "vi": "Thầy là một giáo viên tuyệt vời."
+    },
+    {
+     "en": "Your students love you very much.",
+     "vi": "Học trò của bạn rất yêu quý bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104699353550200",
+   "image_src": "ngay-09/Meo-005-your-youre.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "You're welcome to my class.",
+     "wrong": "Your welcome to my class."
+    },
+    {
+     "right": "Your gift is on the table.",
+     "wrong": "You're gift is on the table."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Câu này muốn nói bạn là một thầy giáo tuyệt vời, cần you're.",
+     "kind": "fill_blank",
+     "options": [
+      "Your",
+      "You're"
+     ],
+     "prompt": "Điền từ còn thiếu: ___ a great teacher!"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu chúc thầy cô cần you're, your chỉ sở hữu nên sai ở đây.",
+     "options": [
+      "Your the best teacher ever.",
+      "You're the best teacher ever."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Umbrella là đồ của ai đó, cần your chỉ sở hữu.",
+     "kind": "fill_blank",
+     "options": [
+      "your",
+      "you're"
+     ],
+     "prompt": "Điền từ còn thiếu: Is this ___ umbrella?"
+    }
+   ],
+   "problem": "Nhiều bạn viết your thay cho you're khi muốn nói bạn là ai đó.",
+   "quiz": null,
+   "remember": "Nhớ: your chỉ sở hữu, you're là you are viết tắt.",
+   "right": "You're a great teacher.",
+   "right_note": "Bạn là một thầy giáo tuyệt vời.",
+   "slug": "meo-005",
+   "tip": "Viết you're thành you are mà câu vẫn đúng thì dùng you're.",
+   "title": "your và you're",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "your là của bạn, you're là you are viết tắt.",
+   "wrong": "Your a great teacher.",
+   "wrong_note": "Your là của bạn, viết your ở đầu câu này là sai.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

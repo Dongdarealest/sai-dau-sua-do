@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meo-005",
+    "code": "Mẹo #005",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "your và you're",
+    "date": "2026-11-20",
+    "wrong": "Your a great teacher.",
+    "wrong_note": "Your là của bạn, viết your ở đầu câu này là sai.",
+    "right": "You're a great teacher.",
+    "right_note": "Bạn là một thầy giáo tuyệt vời.",
+    "why": "your là của bạn, you're là you are viết tắt.",
+    "problem": "Nhiều bạn viết your thay cho you're khi muốn nói bạn là ai đó.",
+    "core": "Muốn nói bạn là ai thì dùng you're, muốn nói cái gì của bạn thì dùng your.",
+    "compare": [
+      {
+        "a": "Your teacher is kind.",
+        "b": "You're very kind.",
+        "note": "your đứng trước danh từ, you're là you are viết tắt nên đứng trước tính từ."
+      },
+      {
+        "a": "Is this your book?",
+        "b": "You're my best friend.",
+        "note": "your hỏi đồ của ai, you're nói bạn là ai."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "You're welcome to my class.",
+        "wrong": "Your welcome to my class."
+      },
+      {
+        "right": "Your gift is on the table.",
+        "wrong": "You're gift is on the table."
+      }
+    ],
+    "remember": "Nhớ: your chỉ sở hữu, you're là you are viết tắt.",
+    "examples": [
+      {
+        "en": "You're a wonderful teacher.",
+        "vi": "Thầy là một giáo viên tuyệt vời."
+      },
+      {
+        "en": "Your students love you very much.",
+        "vi": "Học trò của bạn rất yêu quý bạn."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Câu này muốn nói bạn là một thầy giáo tuyệt vời, cần you're.",
+        "kind": "fill_blank",
+        "options": [
+          "Your",
+          "You're"
+        ],
+        "prompt": "Điền từ còn thiếu: ___ a great teacher!"
+      },
+      {
+        "answer": 1,
+        "explanation": "Câu chúc thầy cô cần you're, your chỉ sở hữu nên sai ở đây.",
+        "options": [
+          "Your the best teacher ever.",
+          "You're the best teacher ever."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Umbrella là đồ của ai đó, cần your chỉ sở hữu.",
+        "kind": "fill_blank",
+        "options": [
+          "your",
+          "you're"
+        ],
+        "prompt": "Điền từ còn thiếu: Is this ___ umbrella?"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Viết you're thành you are mà câu vẫn đúng thì dùng you're.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-09/Meo-005-your-youre.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122104699353550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-005/",
+    "show_in_ui": true
+  }
+}
