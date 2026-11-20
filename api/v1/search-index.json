@@ -1825,5 +1825,32 @@
     "type": "Quiz",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "meme-006",
+    "code": "Meme #006",
+    "title": "cousin brother",
+    "wrong": "He is my cousin brother.",
+    "right": "He is my cousin.",
+    "remember": "cousin đã đủ nghĩa anh em họ, không thêm brother hay sister.",
+    "why": "cousin đã có nghĩa là anh em họ, không cần thêm brother.",
+    "examples": [
+      "My cousin lives in Da Lat. Anh họ của tôi sống ở Đà Lạt.",
+      "I will visit my cousin this weekend. Cuối tuần này tôi sẽ thăm anh họ của tôi."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "He is my ___. cousin brother cousin",
+      "Chọn câu đúng: She is my cousin brother. She is my cousin. She is my brother cousin.",
+      "Sắp xếp thành câu đúng: 'He / is / my / cousin / .' cousin He is . my",
+      "They are my ___. cousin brothers cousins"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-20",
+    "paths": []
   }
 ]

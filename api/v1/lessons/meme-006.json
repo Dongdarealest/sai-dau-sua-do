@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-006",
+    "code": "Meme #006",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "cousin brother",
+    "date": "2026-11-20",
+    "wrong": "He is my cousin brother.",
+    "wrong_note": "Anh ấy là anh họ của tôi.",
+    "right": "He is my cousin.",
+    "right_note": "Anh ấy là anh họ của tôi.",
+    "why": "cousin đã có nghĩa là anh em họ, không cần thêm brother.",
+    "problem": "Giới thiệu anh họ với bạn nước ngoài mà nói cousin brother thì người nghe tưởng nhà bạn có thêm một loại anh em mới.",
+    "core": "Muốn nói rõ anh hay em thì thêm older hoặc younger trước cousin, ví dụ my older cousin.",
+    "compare": [
+      {
+        "a": "my cousin",
+        "b": "my cousin brother",
+        "note": "cousin đã đủ nghĩa, thêm brother là thừa."
+      },
+      {
+        "a": "my older cousin",
+        "b": "my younger cousin",
+        "note": "Muốn nói anh họ hay em họ thì dùng older hoặc younger."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "This is my cousin Anna.",
+        "wrong": "This is my cousin sister Anna."
+      },
+      {
+        "right": "We have many cousins in Da Lat.",
+        "wrong": "We have many cousin brothers in Da Lat."
+      }
+    ],
+    "remember": "cousin đã đủ nghĩa anh em họ, không thêm brother hay sister.",
+    "examples": [
+      {
+        "en": "My cousin lives in Da Lat.",
+        "vi": "Anh họ của tôi sống ở Đà Lạt."
+      },
+      {
+        "en": "I will visit my cousin this weekend.",
+        "vi": "Cuối tuần này tôi sẽ thăm anh họ của tôi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "cousin đã đủ nghĩa anh em họ, không thêm brother.",
+        "kind": "fill_blank",
+        "options": [
+          "cousin brother",
+          "cousin"
+        ],
+        "prompt": "He is my ___."
+      },
+      {
+        "answer": 1,
+        "explanation": "Chỉ cần cousin là đủ, thêm brother là thừa.",
+        "options": [
+          "She is my cousin brother.",
+          "She is my cousin.",
+          "She is my brother cousin."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "explanation": "Xếp đúng thứ tự: chủ ngữ, động từ be, sở hữu, rồi cousin.",
+        "kind": "word_order",
+        "options": [
+          "cousin",
+          "He",
+          "is",
+          ".",
+          "my"
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'He / is / my / cousin / .'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Số nhiều của cousin là cousins, vẫn không thêm brother.",
+        "kind": "fill_blank",
+        "options": [
+          "cousin brothers",
+          "cousins"
+        ],
+        "prompt": "They are my ___."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi giới thiệu người thân, kể về gia đình.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-09/Meme-006-cousin-brother.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122104868607550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-006/",
+    "show_in_ui": true
+  }
+}

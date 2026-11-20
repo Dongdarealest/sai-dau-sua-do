@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 69,
-    "visible_lessons": 63,
+    "total_lessons": 70,
+    "visible_lessons": 64,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1046,6 +1046,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-nao-dung-002/",
       "fb": "https://www.facebook.com/61596506009854/posts/122104757805550200/",
       "image": "ngay-09/Cau-nao-dung-002-enjoy-swimming.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "meme-006",
+      "code": "Meme #006",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "cousin brother",
+      "date": "2026-11-20",
+      "wrong": "He is my cousin brother.",
+      "right": "He is my cousin.",
+      "remember": "cousin đã đủ nghĩa anh em họ, không thêm brother hay sister.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-006/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122104868607550200",
+      "image": "ngay-09/Meme-006-cousin-brother.png",
       "show_in_ui": true
     }
   ]
