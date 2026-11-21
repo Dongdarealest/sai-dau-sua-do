@@ -1993,5 +1993,33 @@
     "type": "Quiz",
     "date": "2026-11-20",
     "paths": []
+  },
+  {
+    "slug": "cau-do-nguoc-001",
+    "code": "Câu đố ngược #001",
+    "title": "when I will arrive",
+    "wrong": "I will call you when I will arrive.",
+    "right": "I will call you when I arrive.",
+    "remember": "Sau when chỉ thời gian: dùng hiện tại đơn, không dùng will.",
+    "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+    "examples": [
+      "Tell me when you get home. Nói với tôi khi bạn về đến nhà.",
+      "I will text you when I get home. Tôi sẽ nhắn cho bạn khi tôi về đến nhà."
+    ],
+    "quiz": [
+      "Câu 'I will call you when I will arrive.' sai ở đâu?",
+      "Chọn chỗ sai:",
+      "'will arrive' → 'arrive' (sau when dùng hiện tại đơn)",
+      "'will call' → 'call'",
+      "'you' → 'yourself'"
+    ],
+    "practice": [
+      "Chọn câu đúng: We will leave when the rain will stop. We will leave when the rain stops.",
+      "Điền dạng đúng: Tell me when you ___ (get) home. will get get"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "cau-do-nguoc-001",
+    "code": "Câu đố ngược #001",
+    "type": "Quiz",
+    "topic": "ngữ pháp",
+    "title": "when I will arrive",
+    "date": "2026-11-21",
+    "wrong": "I will call you when I will arrive.",
+    "wrong_note": "Sau when lại dùng will.",
+    "right": "I will call you when I arrive.",
+    "right_note": "Sau when dùng hiện tại đơn.",
+    "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+    "problem": "Hẹn gọi điện cho bạn mà nói sai mệnh đề when thì nghe lúng túng ngay.",
+    "core": "Mệnh đề thời gian sau when dùng hiện tại đơn.",
+    "compare": [
+      {
+        "a": "She will call me when she arrives.",
+        "b": "She will call me when she will arrive.",
+        "note": "sau when chỉ thời gian, động từ dùng hiện tại đơn."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I will meet you when I come.",
+        "wrong": "I will meet you when I will come."
+      },
+      {
+        "right": "Call me when you arrive.",
+        "wrong": "Call me when you will arrive."
+      }
+    ],
+    "remember": "Sau when chỉ thời gian: dùng hiện tại đơn, không dùng will.",
+    "examples": [
+      {
+        "en": "Tell me when you get home.",
+        "vi": "Nói với tôi khi bạn về đến nhà."
+      },
+      {
+        "en": "I will text you when I get home.",
+        "vi": "Tôi sẽ nhắn cho bạn khi tôi về đến nhà."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "mưa tạnh mới đi, mệnh đề when dùng hiện tại đơn.",
+        "options": [
+          "We will leave when the rain will stop.",
+          "We will leave when the rain stops."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "sau when chỉ thời gian, không dùng will.",
+        "options": [
+          "will get",
+          "get"
+        ],
+        "prompt": "Điền dạng đúng: Tell me when you ___ (get) home."
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "will chỉ đứng ở mệnh đề chính, mệnh đề when dùng hiện tại đơn.",
+      "options": [
+        "'will arrive' → 'arrive' (sau when dùng hiện tại đơn)",
+        "'will call' → 'call'",
+        "'you' → 'yourself'"
+      ],
+      "prompt": "Chọn chỗ sai:",
+      "question": "Câu 'I will call you when I will arrive.' sai ở đâu?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: when + hiện tại đơn, will chỉ ở mệnh đề chính.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-10/Cau-do-nguoc-001-when-i-will-arrive.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122105647401550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-do-nguoc-001/",
+    "show_in_ui": true
+  }
+}

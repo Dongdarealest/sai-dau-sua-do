@@ -351,7 +351,8 @@
         }
       ],
       "mistakes": [
-        "cau-nao-dung-001"
+        "cau-nao-dung-001",
+        "cau-do-nguoc-001"
       ]
     },
     "arrived": {
@@ -1042,7 +1043,9 @@
           "example_vi": "Ngày mai gọi cho tôi nhé."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "cau-do-nguoc-001"
+      ]
     },
     "came": {
       "senses": [
@@ -8027,7 +8030,9 @@
           "meaning": "khi nào"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "cau-do-nguoc-001"
+      ]
     },
     "where": {
       "senses": [
@@ -8152,7 +8157,9 @@
           "meaning": "sẽ"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "cau-do-nguoc-001"
+      ]
     },
     "win": {
       "senses": [

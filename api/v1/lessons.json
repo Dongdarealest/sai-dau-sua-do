@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 76,
-    "visible_lessons": 69,
+    "total_lessons": 77,
+    "visible_lessons": 70,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1151,6 +1151,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-009/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105221155550200",
       "image": "ngay-09/Quiz-009-teachers-day.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "cau-do-nguoc-001",
+      "code": "Câu đố ngược #001",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "when I will arrive",
+      "date": "2026-11-21",
+      "wrong": "I will call you when I will arrive.",
+      "right": "I will call you when I arrive.",
+      "remember": "Sau when chỉ thời gian: dùng hiện tại đơn, không dùng will.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-do-nguoc-001/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105647401550200",
+      "image": "ngay-10/Cau-do-nguoc-001-when-i-will-arrive.png",
       "show_in_ui": true
     }
   ]
