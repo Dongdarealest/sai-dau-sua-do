@@ -7857,6 +7857,138 @@
    "why": "Chuyện giả định, chưa có thật thì mệnh đề if lùi về quá khứ đơn, kết quả dùng would.",
    "wrong": "If I will have money, I will travel.",
    "wrong_note": ""
+  },
+  {
+   "code": "Mẫu câu #006",
+   "compare": [
+    {
+     "a": "She lent me her bike.",
+     "b": "I borrowed her bike.",
+     "note": "lend là cho người khác mượn, borrow là mượn về mình."
+    },
+    {
+     "a": "I am bored at home.",
+     "b": "The film is boring.",
+     "note": "bored tả cảm giác của mình, boring tả thứ gây chán."
+    },
+    {
+     "a": "She has lived here since 2020.",
+     "b": "She has lived here for five years.",
+     "note": "since đi với mốc thời gian, for đi với khoảng thời gian."
+    }
+   ],
+   "core": "Ôn lại bằng cách viết 1 câu mới với mỗi mẫu, không chỉ đọc lại.",
+   "date": "2026-11-21",
+   "dict_links": [
+    {
+     "label": "Cambridge, lend",
+     "url": "https://dictionary.cambridge.org/dictionary/english/lend"
+    },
+    {
+     "label": "Cambridge, borrow",
+     "url": "https://dictionary.cambridge.org/dictionary/english/borrow"
+    },
+    {
+     "label": "Cambridge, bored",
+     "url": "https://dictionary.cambridge.org/dictionary/english/bored"
+    },
+    {
+     "label": "Cambridge, currently",
+     "url": "https://dictionary.cambridge.org/dictionary/english/currently"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can you lend me your pen?",
+     "vi": "Bạn cho tôi mượn cây bút được không?"
+    },
+    {
+     "en": "I am bored today.",
+     "vi": "Hôm nay tôi thấy chán."
+    },
+    {
+     "en": "I have worked here for 3 years.",
+     "vi": "Tôi làm ở đây được 3 năm."
+    },
+    {
+     "en": "Currently, I am living in Da Lat.",
+     "vi": "Hiện tại tôi đang sống ở Đà Lạt."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105838435550200",
+   "image_src": "ngay-06/Mau-cau-006-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Can you lend me your ruler?",
+     "wrong": "Can you borrow me your ruler?"
+    },
+    {
+     "right": "The lesson is boring.",
+     "wrong": "The lesson is bored."
+    },
+    {
+     "right": "I have studied English for two years.",
+     "wrong": "I have studied English since two years."
+    },
+    {
+     "right": "Currently, I am studying English.",
+     "wrong": "Actually, I am studying English."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "muốn nhờ người khác cho mượn thì dùng lend.",
+     "options": [
+      "lend",
+      "borrow"
+     ],
+     "prompt": "Can you ___ me your pen?"
+    },
+    {
+     "answer": 0,
+     "explanation": "đang thấy chán thì dùng bored, không dùng boring.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "prompt": "I am ___ today."
+    },
+    {
+     "answer": 0,
+     "explanation": "khoảng 3 năm thì dùng for, mốc 2020 thì dùng since.",
+     "options": [
+      "for",
+      "since"
+     ],
+     "prompt": "I have worked here ___ 3 years."
+    },
+    {
+     "answer": 0,
+     "explanation": "currently mới mang nghĩa hiện tại, actually mang nghĩa thật ra.",
+     "options": [
+      "Currently",
+      "Actually"
+     ],
+     "prompt": "___ , I am living in Da Lat."
+    }
+   ],
+   "problem": "Một tuần học 4 câu mà không ôn lại thì dễ quên, nhất là các cặp hay nhầm trong tuần này.",
+   "quiz": null,
+   "reel": null,
+   "remember": "lend là cho mượn, bored là thấy chán, for đi với khoảng thời gian, currently là hiện tại.",
+   "right": "She is bored today.",
+   "right_note": "Hôm nay cô ấy thấy chán.",
+   "show_in_ui": true,
+   "slug": "mau-cau-006",
+   "tip": "Mẹo: mỗi tối ôn 1 câu trong 4 câu này, cuối tuần viết lại cả 4 câu không cần nhìn.",
+   "title": "Ôn lại 4 câu trong tuần",
+   "topic": "nhắc lại",
+   "type": "Mẫu câu",
+   "why": "Bốn câu này gom bốn lỗi hay gặp trong tuần: lend và borrow, bored và boring, for và since, actually và currently.",
+   "wrong": "She is boring today.",
+   "wrong_note": "Hôm nay cô ấy thật chán."
   }
  ],
  "site": {

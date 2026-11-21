@@ -2076,5 +2076,34 @@
       "hoc-lai-tu-dau",
       "tieng-anh-di-lam"
     ]
+  },
+  {
+    "slug": "mau-cau-006",
+    "code": "Mẫu câu #006",
+    "title": "Ôn lại 4 câu trong tuần",
+    "wrong": "She is boring today.",
+    "right": "She is bored today.",
+    "remember": "lend là cho mượn, bored là thấy chán, for đi với khoảng thời gian, currently là hiện tại.",
+    "why": "Bốn câu này gom bốn lỗi hay gặp trong tuần: lend và borrow, bored và boring, for và since, actually và currently.",
+    "examples": [
+      "Can you lend me your pen? Bạn cho tôi mượn cây bút được không?",
+      "I am bored today. Hôm nay tôi thấy chán.",
+      "I have worked here for 3 years. Tôi làm ở đây được 3 năm.",
+      "Currently, I am living in Da Lat. Hiện tại tôi đang sống ở Đà Lạt."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Can you ___ me your pen? lend borrow",
+      "I am ___ today. bored boring",
+      "I have worked here ___ 3 years. for since",
+      "___ , I am living in Da Lat. Currently Actually"
+    ],
+    "topic": "nhắc lại",
+    "type": "Mẫu câu",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

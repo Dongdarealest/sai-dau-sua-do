@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 79,
-    "visible_lessons": 72,
+    "total_lessons": 80,
+    "visible_lessons": 73,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1196,6 +1196,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/ngu-phap-b1-b2-002/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105795103550200",
       "image": "ngay-10/B1B2-002-conditional-2.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "mau-cau-006",
+      "code": "Mẫu câu #006",
+      "type": "Mẫu câu",
+      "topic": "nhắc lại",
+      "title": "Ôn lại 4 câu trong tuần",
+      "date": "2026-11-21",
+      "wrong": "She is boring today.",
+      "right": "She is bored today.",
+      "remember": "lend là cho mượn, bored là thấy chán, for đi với khoảng thời gian, currently là hiện tại.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-006/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105838435550200",
+      "image": "ngay-06/Mau-cau-006-slide-1.png",
       "show_in_ui": true
     }
   ]
