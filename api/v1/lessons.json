@@ -1,7 +1,7 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 81,
+    "total_lessons": 82,
     "visible_lessons": 74,
     "source": {
       "name": "Sai Đâu Sửa Đó",
@@ -1227,6 +1227,21 @@
       "fb": "https://www.facebook.com/61596506009854/posts/122105875101550200",
       "image": "ngay-10/Meme-007-dont-understand.png",
       "show_in_ui": true
+    },
+    {
+      "slug": "reel-008",
+      "code": "Reel #008",
+      "type": "Reels",
+      "topic": "ngữ pháp",
+      "title": "when I will arrive",
+      "date": "2026-11-21",
+      "wrong": "I will call you when I will arrive.",
+      "right": "I will call you when I arrive.",
+      "remember": "",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-008/",
+      "fb": "https://www.facebook.com/reel/1579442404211743",
+      "image": "reels/frames/reel-008-f1.png",
+      "show_in_ui": false
     }
   ]
 }

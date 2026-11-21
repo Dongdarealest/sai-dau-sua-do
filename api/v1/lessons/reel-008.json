@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "reel-008",
+    "code": "Reel #008",
+    "type": "Reels",
+    "topic": "ngữ pháp",
+    "title": "when I will arrive",
+    "date": "2026-11-21",
+    "wrong": "I will call you when I will arrive.",
+    "wrong_note": "Sau when lại dùng will.",
+    "right": "I will call you when I arrive.",
+    "right_note": "Sau when dùng hiện tại đơn.",
+    "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+    "problem": null,
+    "core": null,
+    "compare": [],
+    "mistakes": [],
+    "remember": "",
+    "examples": [
+      {
+        "en": "Call me when you arrive.",
+        "vi": "Gọi cho tôi khi bạn đến."
+      }
+    ],
+    "practice": [],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "reels/frames/reel-008-f1.png",
+    "fb": "https://www.facebook.com/reel/1579442404211743",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/reel-008/",
+    "show_in_ui": false
+  }
+}

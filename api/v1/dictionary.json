@@ -352,7 +352,8 @@
       ],
       "mistakes": [
         "cau-nao-dung-001",
-        "cau-do-nguoc-001"
+        "cau-do-nguoc-001",
+        "reel-008"
       ]
     },
     "arrived": {
@@ -1046,7 +1047,8 @@
         }
       ],
       "mistakes": [
-        "cau-do-nguoc-001"
+        "cau-do-nguoc-001",
+        "reel-008"
       ]
     },
     "came": {
@@ -8052,7 +8054,8 @@
         }
       ],
       "mistakes": [
-        "cau-do-nguoc-001"
+        "cau-do-nguoc-001",
+        "reel-008"
       ]
     },
     "where": {
@@ -8180,7 +8183,8 @@
       ],
       "mistakes": [
         "cau-do-nguoc-001",
-        "ngu-phap-b1-b2-002"
+        "ngu-phap-b1-b2-002",
+        "reel-008"
       ]
     },
     "win": {

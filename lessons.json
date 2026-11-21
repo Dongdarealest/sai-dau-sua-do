@@ -7689,7 +7689,10 @@
    "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
    "wrong": "I will call you when I will arrive.",
    "wrong_note": "Sau when lại dùng will.",
-   "reel": null,
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1579442404211743"
+   },
    "show_in_ui": true
   },
   {
@@ -8042,6 +8045,34 @@
    "dict_links": [],
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Reel #008",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Call me when you arrive.",
+     "vi": "Gọi cho tôi khi bạn đến."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1579442404211743",
+   "image_src": "reels/frames/reel-008-f1.png",
+   "ipa": [],
+   "practice": [],
+   "quiz": null,
+   "remember": "",
+   "right": "I will call you when I arrive.",
+   "right_note": "Sau when dùng hiện tại đơn.",
+   "slug": "reel-008",
+   "title": "when I will arrive",
+   "topic": "ngữ pháp",
+   "type": "Reels",
+   "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+   "wrong": "I will call you when I will arrive.",
+   "wrong_note": "Sau when lại dùng will.",
+   "reel": null,
+   "show_in_ui": false
   }
  ],
  "site": {

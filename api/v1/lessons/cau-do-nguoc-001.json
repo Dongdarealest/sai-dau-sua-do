@@ -83,7 +83,10 @@
       "prompt": "Chọn chỗ sai:",
       "question": "Câu 'I will call you when I will arrive.' sai ở đâu?"
     },
-    "reel": null,
+    "reel": {
+      "label": "Xem Reel bài này",
+      "url": "https://www.facebook.com/reel/1579442404211743"
+    },
     "tip": "Nhớ nhanh: when + hiện tại đơn, will chỉ ở mệnh đề chính.",
     "articulation": null,
     "ipa": [],
