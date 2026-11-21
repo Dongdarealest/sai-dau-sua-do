@@ -2130,5 +2130,34 @@
     "type": "Lỗi",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "quiz-nhanh-007",
+    "code": "Quiz nhanh #007",
+    "title": "Chữ nào câm trong island?",
+    "wrong": "Chữ d là chữ câm trong island.",
+    "right": "Chữ s là chữ câm trong island.",
+    "remember": "island đọc là AI lənd, chữ s câm.",
+    "why": "island đọc là AI lənd, chữ s câm, chữ d và chữ n đều đọc.",
+    "examples": [
+      "We spent a week on a small island. Chúng tôi đã ở một tuần trên một hòn đảo nhỏ.",
+      "The island has clean beaches and blue sea. Hòn đảo có bãi biển sạch và biển xanh."
+    ],
+    "quiz": [
+      "Trong island, chữ nào không phát âm?",
+      "Chọn chữ câm trong island, nghĩa là hòn đảo.",
+      "Chữ s",
+      "Chữ d",
+      "Chữ n"
+    ],
+    "practice": [
+      "island nghĩa là gì? Hòn đảo Đất liền Bán đảo",
+      "Chọn câu đúng: I live in a small island. I live on a small island. I live at a small island.",
+      "island đọc như thế nào? AI lənd ÍT lân AI sờ lân"
+    ],
+    "topic": "phát âm",
+    "type": "Quiz",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

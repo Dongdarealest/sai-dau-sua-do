@@ -8073,6 +8073,115 @@
    "wrong_note": "Sau when lại dùng will.",
    "reel": null,
    "show_in_ui": false
+  },
+  {
+   "code": "Quiz nhanh #007",
+   "compare": [
+    {
+     "a": "island",
+     "b": "Iceland",
+     "note": "island là hòn đảo, Iceland là tên một đất nước, hai từ đọc khác nhau."
+    },
+    {
+     "a": "I live on a small island.",
+     "b": "I live in Iceland.",
+     "note": "Ở trên đảo thì dùng on, ở trong một nước thì dùng in."
+    }
+   ],
+   "core": "Đọc island theo âm thật, không đọc theo từng chữ cái.",
+   "date": "2026-11-21",
+   "dict_links": [
+    {
+     "label": "Cambridge, island",
+     "url": "https://dictionary.cambridge.org/dictionary/english/island"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We spent a week on a small island.",
+     "vi": "Chúng tôi đã ở một tuần trên một hòn đảo nhỏ."
+    },
+    {
+     "en": "The island has clean beaches and blue sea.",
+     "vi": "Hòn đảo có bãi biển sạch và biển xanh."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105968155550200",
+   "image_src": "ngay-10/Quiz-nhanh-007-island.png",
+   "ipa": [
+    {
+     "note": "Anh và Mỹ đọc giống nhau",
+     "source": "Cambridge, Anh và Mỹ",
+     "text": "/ˈaɪ.lənd/"
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "The island is very beautiful.",
+     "wrong": "The is land is very beautiful."
+    },
+    {
+     "right": "She lives on a big island.",
+     "wrong": "She lives on a big is land."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Đảo nhỏ giữa biển thì gọi là island.",
+     "options": [
+      "Hòn đảo",
+      "Đất liền",
+      "Bán đảo"
+     ],
+     "prompt": "island nghĩa là gì?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Sống trên đảo thì dùng on, nói on an island.",
+     "options": [
+      "I live in a small island.",
+      "I live on a small island.",
+      "I live at a small island."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Đọc đúng là AI lənd, chữ s không phát âm.",
+     "options": [
+      "AI lənd",
+      "ÍT lân",
+      "AI sờ lân"
+     ],
+     "prompt": "island đọc như thế nào?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc island thành ít lân vì nhìn mặt chữ có chữ s ở giữa.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Chữ s không phát âm, chỉ đọc AI lənd.",
+    "options": [
+     "Chữ s",
+     "Chữ d",
+     "Chữ n"
+    ],
+    "prompt": "Chọn chữ câm trong island, nghĩa là hòn đảo.",
+    "question": "Trong island, chữ nào không phát âm?"
+   },
+   "reel": null,
+   "remember": "island đọc là AI lənd, chữ s câm.",
+   "right": "Chữ s là chữ câm trong island.",
+   "right_note": "island nghĩa là hòn đảo.",
+   "show_in_ui": true,
+   "slug": "quiz-nhanh-007",
+   "tip": "Nhớ island bằng cách nghĩ tới AI lənd, đọc to 3 lần để quen miệng.",
+   "title": "Chữ nào câm trong island?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "island đọc là AI lənd, chữ s câm, chữ d và chữ n đều đọc.",
+   "wrong": "Chữ d là chữ câm trong island.",
+   "wrong_note": ""
   }
  ],
  "site": {

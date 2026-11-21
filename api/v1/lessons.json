@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 82,
-    "visible_lessons": 74,
+    "total_lessons": 83,
+    "visible_lessons": 75,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1242,6 +1242,21 @@
       "fb": "https://www.facebook.com/reel/1579442404211743",
       "image": "reels/frames/reel-008-f1.png",
       "show_in_ui": false
+    },
+    {
+      "slug": "quiz-nhanh-007",
+      "code": "Quiz nhanh #007",
+      "type": "Quiz",
+      "topic": "phát âm",
+      "title": "Chữ nào câm trong island?",
+      "date": "2026-11-21",
+      "wrong": "Chữ d là chữ câm trong island.",
+      "right": "Chữ s là chữ câm trong island.",
+      "remember": "island đọc là AI lənd, chữ s câm.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-007/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105968155550200",
+      "image": "ngay-10/Quiz-nhanh-007-island.png",
+      "show_in_ui": true
     }
   ]
 }
