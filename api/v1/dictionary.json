@@ -230,7 +230,8 @@
         }
       ],
       "mistakes": [
-        "loi-005"
+        "loi-005",
+        "hoi-thoai-007"
       ]
     },
     "and": {
@@ -1993,7 +1994,8 @@
         "do-004",
         "tong-hop-001",
         "hoi-thoai-005",
-        "loi-010"
+        "loi-010",
+        "hoi-thoai-007"
       ]
     },
     "enough": {

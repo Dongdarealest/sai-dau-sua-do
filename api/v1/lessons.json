@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 84,
-    "visible_lessons": 76,
+    "total_lessons": 85,
+    "visible_lessons": 77,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1271,6 +1271,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/dich-002/",
       "fb": "https://www.facebook.com/61596506009854/posts/122106004905550200",
       "image": "ngay-10/Dich-002-da-an-roi.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "hoi-thoai-007",
+      "code": "Hội thoại #007",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "Tôi dạy tiếng Anh",
+      "date": "2026-11-21",
+      "wrong": "I am a teacher in English.",
+      "right": "I am an English teacher.",
+      "remember": "Giáo viên dạy môn nào thì đặt tên môn trước teacher, không nói in English.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-007/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106064245550200/",
+      "image": "ngay-10/Hoi-thoai-007-english-teacher.png",
       "show_in_ui": true
     }
   ]

@@ -2187,5 +2187,32 @@
     "type": "Quiz",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "hoi-thoai-007",
+    "code": "Hội thoại #007",
+    "title": "Tôi dạy tiếng Anh",
+    "wrong": "I am a teacher in English.",
+    "right": "I am an English teacher.",
+    "remember": "Giáo viên dạy môn nào thì đặt tên môn trước teacher, không nói in English.",
+    "why": "giáo viên dạy môn nào thì nói an English teacher, không nói in English.",
+    "examples": [
+      "She is an English teacher at my school. Cô ấy là giáo viên tiếng Anh ở trường tôi.",
+      "My brother wants to be a Math teacher. Anh trai tôi muốn làm giáo viên dạy Toán."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "I am ___ English teacher. an a",
+      "She is a ___ teacher. music in music",
+      "Chọn câu đúng: My friend is a teacher in history. My friend is a history teacher.",
+      "Sắp xếp thành câu đúng: 'She / is / an / English / teacher / .' teacher She is . an English"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

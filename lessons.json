@@ -8269,6 +8269,114 @@
    "wrong": "'Tôi đã ăn rồi, cảm ơn bạn nhé.' tiếng Anh là gì?",
    "wrong_note": "",
    "reel": null
+  },
+  {
+   "code": "Hội thoại #007",
+   "compare": [
+    {
+     "a": "I am a teacher in Math.",
+     "b": "I am a Math teacher.",
+     "note": "Giáo viên dạy Toán thì nói a Math teacher, không nói in Math."
+    },
+    {
+     "a": "She is a teacher in music.",
+     "b": "She is a music teacher.",
+     "note": "Giáo viên dạy nhạc thì nói a music teacher, không nói in music."
+    }
+   ],
+   "core": "Nói giáo viên dạy môn nào thì đặt tên môn trước teacher: an English teacher, a Math teacher.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is an English teacher at my school.",
+     "vi": "Cô ấy là giáo viên tiếng Anh ở trường tôi."
+    },
+    {
+     "en": "My brother wants to be a Math teacher.",
+     "vi": "Anh trai tôi muốn làm giáo viên dạy Toán."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106064245550200/",
+   "image_src": "ngay-10/Hoi-thoai-007-english-teacher.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He is a history teacher.",
+     "wrong": "He is a teacher in history."
+    },
+    {
+     "right": "My sister is a science teacher.",
+     "wrong": "My sister is a teacher in science."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Trước English teacher dùng an vì English bắt đầu bằng nguyên âm.",
+     "kind": "fill_blank",
+     "options": [
+      "an",
+      "a"
+     ],
+     "prompt": "I am ___ English teacher."
+    },
+    {
+     "answer": 0,
+     "explanation": "Giáo viên dạy nhạc thì nói a music teacher.",
+     "kind": "fill_blank",
+     "options": [
+      "music",
+      "in music"
+     ],
+     "prompt": "She is a ___ teacher."
+    },
+    {
+     "answer": 1,
+     "explanation": "Giáo viên dạy môn nào thì đặt tên môn trước teacher.",
+     "options": [
+      "My friend is a teacher in history.",
+      "My friend is a history teacher."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      5,
+      0,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: She, is, an, English, teacher, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "teacher",
+      "She",
+      "is",
+      ".",
+      "an",
+      "English"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'She / is / an / English / teacher / .'"
+    }
+   ],
+   "problem": "Bạn gặp người mới và muốn giới thiệu mình là giáo viên tiếng Anh. Bạn thêm in English sau teacher, người nghe tưởng bạn dạy trong một cuốn sách tiếng Anh.",
+   "quiz": null,
+   "remember": "Giáo viên dạy môn nào thì đặt tên môn trước teacher, không nói in English.",
+   "right": "I am an English teacher.",
+   "right_note": "Tôi là giáo viên tiếng Anh.",
+   "slug": "hoi-thoai-007",
+   "tip": "Dùng khi giới thiệu nghề nghiệp, kể về công việc.",
+   "title": "Tôi dạy tiếng Anh",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "giáo viên dạy môn nào thì nói an English teacher, không nói in English.",
+   "wrong": "I am a teacher in English.",
+   "wrong_note": "Tôi là giáo viên tiếng Anh.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
