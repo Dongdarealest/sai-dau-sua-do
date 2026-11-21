@@ -7778,6 +7778,85 @@
    "why": "Ba từ này phát âm giống nhau nhưng nghĩa khác hẳn, gõ nhanh rất dễ nhầm.",
    "wrong": "Their happy over there.",
    "wrong_note": "Their là của họ, viết their ở đầu câu này là sai."
+  },
+  {
+   "code": "Ngữ pháp B1/B2 #002",
+   "compare": [
+    {
+     "a": "If I had money, I would travel.",
+     "b": "If I have money, I will travel.",
+     "note": "Câu có had và would nói chuyện giả định. Câu có have và will nói chuyện có thật trong tương lai."
+    }
+   ],
+   "core": "Câu điều kiện loại 2: if cộng quá khứ đơn, would cộng nguyên mẫu.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "If I had more time, I would learn to cook.",
+     "vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn."
+    },
+    {
+     "en": "If I lived in Da Lat, I would wake up early every day.",
+     "vi": "Nếu tôi sống ở Đà Lạt, tôi sẽ dậy sớm mỗi ngày."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105795103550200",
+   "image_src": "ngay-10/B1B2-002-conditional-2.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "If I were rich, I would buy a big house.",
+     "wrong": "If I will be rich, I will buy a big house."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Chuyện giả định nên mệnh đề if dùng quá khứ đơn had.",
+     "options": [
+      "have",
+      "had",
+      "will have"
+     ],
+     "prompt": "Điền từ đúng vào chỗ trống: If I ___ money, I would travel."
+    },
+    {
+     "answer": 1,
+     "explanation": "Giả định dùng had ở mệnh đề if và would ở kết quả.",
+     "options": [
+      "If I will have time, I will call you.",
+      "If I had time, I would call you.",
+      "If I have time, I would call you."
+     ],
+     "prompt": "Chọn câu đúng."
+    },
+    {
+     "answer": 1,
+     "explanation": "Kết quả của câu điều kiện loại 2 dùng would cộng nguyên mẫu.",
+     "options": [
+      "will",
+      "would",
+      "am"
+     ],
+     "prompt": "Điền từ đúng vào chỗ trống: If I were you, I ___ study every day."
+    }
+   ],
+   "problem": "Mơ trúng số mà nói câu điều kiện loại 2 bằng will ở cả hai vế thì người nghe vẫn hiểu, nhưng nghe sai sai.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Giả định chưa có thật thì lùi thì ở mệnh đề if và dùng would ở kết quả.",
+   "right": "If I had money, I would travel.",
+   "right_note": "Nếu tôi có tiền, tôi sẽ đi du lịch.",
+   "show_in_ui": true,
+   "slug": "ngu-phap-b1-b2-002",
+   "tip": "Nói về ước mơ, giả định hay cho lời khuyên kiểu nếu là tôi thì dùng câu điều kiện loại 2.",
+   "title": "câu điều kiện loại 2",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "Chuyện giả định, chưa có thật thì mệnh đề if lùi về quá khứ đơn, kết quả dùng would.",
+   "wrong": "If I will have money, I will travel.",
+   "wrong_note": ""
   }
  ],
  "site": {
@@ -7798,7 +7877,8 @@
      "quiz-002",
      "loi-003",
      "mau-cau-001",
-     "mau-cau-002"
+     "mau-cau-002",
+     "ngu-phap-b1-b2-002"
     ],
     "icon": "🌱"
    },
@@ -7811,7 +7891,8 @@
      "loi-003",
      "mau-cau-001",
      "mau-cau-002",
-     "quiz-001"
+     "quiz-001",
+     "ngu-phap-b1-b2-002"
     ],
     "icon": "💼"
    },

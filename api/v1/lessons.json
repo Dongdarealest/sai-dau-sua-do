@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 78,
-    "visible_lessons": 71,
+    "total_lessons": 79,
+    "visible_lessons": 72,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1181,6 +1181,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-006/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105754231550200",
       "image": "ngay-10/Meo-006-there-their-theyre.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "ngu-phap-b1-b2-002",
+      "code": "Ngữ pháp B1/B2 #002",
+      "type": "Lỗi",
+      "topic": "ngữ pháp",
+      "title": "câu điều kiện loại 2",
+      "date": "2026-11-21",
+      "wrong": "If I will have money, I will travel.",
+      "right": "If I had money, I would travel.",
+      "remember": "Giả định chưa có thật thì lùi thì ở mệnh đề if và dùng would ở kết quả.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/ngu-phap-b1-b2-002/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105795103550200",
+      "image": "ngay-10/B1B2-002-conditional-2.png",
       "show_in_ui": true
     }
   ]

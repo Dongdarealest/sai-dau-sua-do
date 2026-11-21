@@ -2047,5 +2047,34 @@
     "type": "Lỗi",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "ngu-phap-b1-b2-002",
+    "code": "Ngữ pháp B1/B2 #002",
+    "title": "câu điều kiện loại 2",
+    "wrong": "If I will have money, I will travel.",
+    "right": "If I had money, I would travel.",
+    "remember": "Giả định chưa có thật thì lùi thì ở mệnh đề if và dùng would ở kết quả.",
+    "why": "Chuyện giả định, chưa có thật thì mệnh đề if lùi về quá khứ đơn, kết quả dùng would.",
+    "examples": [
+      "If I had more time, I would learn to cook. Nếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn.",
+      "If I lived in Da Lat, I would wake up early every day. Nếu tôi sống ở Đà Lạt, tôi sẽ dậy sớm mỗi ngày."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Điền từ đúng vào chỗ trống: If I ___ money, I would travel. have had will have",
+      "Chọn câu đúng. If I will have time, I will call you. If I had time, I would call you. If I have time, I would call you.",
+      "Điền từ đúng vào chỗ trống: If I were you, I ___ study every day. will would am"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Lỗi",
+    "date": "2026-11-21",
+    "paths": [
+      "hoc-lai-tu-dau",
+      "tieng-anh-di-lam"
+    ]
   }
 ]

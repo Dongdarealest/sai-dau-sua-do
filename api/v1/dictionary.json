@@ -2821,7 +2821,9 @@
           "meaning": "đã có"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "ngu-phap-b1-b2-002"
+      ]
     },
     "hair": {
       "senses": [
@@ -3390,7 +3392,9 @@
           "meaning": "nếu"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "ngu-phap-b1-b2-002"
+      ]
     },
     "ill": {
       "senses": [
@@ -4419,7 +4423,8 @@
         }
       ],
       "mistakes": [
-        "tu-001"
+        "tu-001",
+        "ngu-phap-b1-b2-002"
       ]
     },
     "month": {
@@ -7441,7 +7446,9 @@
           "example_vi": "Năm nào tôi cũng du lịch Sa Pa."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "ngu-phap-b1-b2-002"
+      ]
     },
     "tree": {
       "senses": [
@@ -8165,7 +8172,8 @@
         }
       ],
       "mistakes": [
-        "cau-do-nguoc-001"
+        "cau-do-nguoc-001",
+        "ngu-phap-b1-b2-002"
       ]
     },
     "win": {
@@ -8379,7 +8387,8 @@
         }
       ],
       "mistakes": [
-        "mau-cau-001"
+        "mau-cau-001",
+        "ngu-phap-b1-b2-002"
       ]
     },
     "write": {
