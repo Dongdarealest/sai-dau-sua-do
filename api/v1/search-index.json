@@ -2021,5 +2021,31 @@
     "type": "Quiz",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "meo-006",
+    "code": "Mẹo #006",
+    "title": "there, their và they're",
+    "wrong": "Their happy over there.",
+    "right": "They're happy over there with their friends.",
+    "remember": "Viết they're thành they are mà câu vẫn đúng thì dùng they're.",
+    "why": "Ba từ này phát âm giống nhau nhưng nghĩa khác hẳn, gõ nhanh rất dễ nhầm.",
+    "examples": [
+      "Their friends are waiting over there. Bạn của họ đang đợi ở đằng kia.",
+      "They're coming to Da Lat tomorrow. Họ sẽ đến Đà Lạt vào ngày mai."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Điền từ còn thiếu: Put your bag ___. there their",
+      "Chọn câu đúng: Their going to school now. They're going to school now.",
+      "Điền từ còn thiếu: ___ house is very big. There Their"
+    ],
+    "topic": "từ vựng",
+    "type": "Lỗi",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

@@ -7691,6 +7691,93 @@
    "wrong_note": "Sau when lại dùng will.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Mẹo #006",
+   "compare": [
+    {
+     "a": "Put the bag over there.",
+     "b": "This is their bag.",
+     "note": "there chỉ chỗ, their chỉ đồ của họ."
+    },
+    {
+     "a": "They're my friends.",
+     "b": "Their friends are here.",
+     "note": "they're là they are viết tắt, their là của họ."
+    }
+   ],
+   "core": "there là ở đó, their là của họ, they're là they are viết tắt.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Their friends are waiting over there.",
+     "vi": "Bạn của họ đang đợi ở đằng kia."
+    },
+    {
+     "en": "They're coming to Da Lat tomorrow.",
+     "vi": "Họ sẽ đến Đà Lạt vào ngày mai."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105754231550200",
+   "image_src": "ngay-10/Meo-006-there-their-theyre.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They're very happy today.",
+     "wrong": "Their very happy today."
+    },
+    {
+     "right": "Their house is over there.",
+     "wrong": "There house is over there."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Chỗ để túi thì dùng there, their là của họ.",
+     "kind": "fill_blank",
+     "options": [
+      "there",
+      "their"
+     ],
+     "prompt": "Điền từ còn thiếu: Put your bag ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu này cần they're, they are viết tắt, their là của họ.",
+     "options": [
+      "Their going to school now.",
+      "They're going to school now."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Nhà của họ thì dùng their, there là ở đó.",
+     "kind": "fill_blank",
+     "options": [
+      "There",
+      "Their"
+     ],
+     "prompt": "Điền từ còn thiếu: ___ house is very big."
+    }
+   ],
+   "problem": "Nhiều bạn viết nhầm there, their và they're khi gõ nhanh email hoặc tin nhắn.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Viết they're thành they are mà câu vẫn đúng thì dùng they're.",
+   "right": "They're happy over there with their friends.",
+   "right_note": "Họ đang vui vẻ ở đằng kia với bạn của họ.",
+   "show_in_ui": true,
+   "slug": "meo-006",
+   "tip": "Muốn kiểm tra they're, thử viết đầy đủ thành they are rồi đọc lại câu.",
+   "title": "there, their và they're",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "Ba từ này phát âm giống nhau nhưng nghĩa khác hẳn, gõ nhanh rất dễ nhầm.",
+   "wrong": "Their happy over there.",
+   "wrong_note": "Their là của họ, viết their ở đầu câu này là sai."
   }
  ],
  "site": {

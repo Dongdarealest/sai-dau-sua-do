@@ -2891,7 +2891,8 @@
       "mistakes": [
         "so-do-001",
         "loi-008",
-        "quiz-009"
+        "quiz-009",
+        "meo-006"
       ]
     },
     "hard": {
@@ -5014,7 +5015,9 @@
           "meaning": "trên"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meo-006"
+      ]
     },
     "own": {
       "senses": [
@@ -7026,7 +7029,9 @@
           "meaning": "của họ"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meo-006"
+      ]
     },
     "them": {
       "senses": [
@@ -7056,7 +7061,8 @@
       "mistakes": [
         "do-002",
         "do-003",
-        "meo-003"
+        "meo-003",
+        "meo-006"
       ]
     },
     "these": {
@@ -7076,7 +7082,8 @@
         }
       ],
       "mistakes": [
-        "tu-001"
+        "tu-001",
+        "meo-006"
       ]
     },
     "thing": {
@@ -8242,7 +8249,8 @@
         "loi-nhanh-000",
         "loi-007",
         "reel-004",
-        "quiz-006"
+        "quiz-006",
+        "meo-006"
       ]
     },
     "without": {

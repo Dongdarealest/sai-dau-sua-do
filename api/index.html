@@ -41,7 +41,7 @@
     <p>API mở là toàn bộ dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó, công khai dưới dạng file JSON tĩnh trên GitHub Pages. Bất cứ lập trình viên nào cũng dùng được, không cần đăng ký, không cần khóa, không mất phí, không cần máy chủ riêng. Một app flashcard, một chatbot luyện nói, một Zalo mini app hay một app ôn tập theo lịch SRS đều có thể lấy nội dung từ đây và chạy được ngay.</p>
     <ul>
       <li>852 từ trong bảng từ điển do Trang soạn và kiểm tra bằng tay, từng nghĩa một, viết cho người Việt chứ không dịch máy từ nghĩa tiếng Anh.</li>
-      <li>77 bài học, mỗi bài là một cặp câu sai và câu đúng thật, kèm lý do vì sao sai bằng tiếng Việt và bài tập có giải thích.</li>
+      <li>78 bài học, mỗi bài là một cặp câu sai và câu đúng thật, kèm lý do vì sao sai bằng tiếng Việt và bài tập có giải thích.</li>
       <li>Mọi ví dụ tiếng Anh đều có dịch tiếng Việt ngay bên dưới.</li>
       <li>Từ điển hiểu dạng chia của từ. Tra loves ra love, tra went ra nghĩa quá khứ của go, tra don't ra nghĩa viết tắt.</li>
       <li>Mỗi từ trong từ điển kèm tối đa 5 bài học mà từ đó xuất hiện trong cặp câu sai và câu đúng, để tra từ là thấy ngay lỗi người Việt hay mắc với từ đó.</li>
@@ -86,7 +86,7 @@ console.log("Giải thích:", q.explanation);</code></pre>
     <div class="tablewrap"><table>
       <thead><tr><th>Đường dẫn</th><th>Nội dung</th><th>Kích thước</th></tr></thead>
       <tbody>
-<tr><td><code>/api/v1/meta.json</code></td><td>Phiên bản, số lượng, nguồn, giấy phép</td><td>0,6 KB</td></tr><tr><td><code>/api/v1/lessons.json</code></td><td>Danh sách gọn toàn bộ bài học</td><td>45,4 KB</td></tr><tr><td><code>/api/v1/lessons/{slug}.json</code></td><td>Chi tiết đầy đủ 1 bài học</td><td>1,4 KB tới 7,8 KB mỗi bài</td></tr><tr><td><code>/api/v1/dictionary.json</code></td><td>Toàn bộ từ điển tiếng Việt</td><td>151,0 KB</td></tr><tr><td><code>/api/v1/search-index.json</code></td><td>Chỉ mục tìm kiếm</td><td>78,2 KB</td></tr><tr><td><code>/api/v1/paths.json</code></td><td>Lộ trình học</td><td>1,6 KB</td></tr><tr><td><code>/api/openapi.yaml</code></td><td>Định nghĩa OpenAPI cho mọi đầu dữ liệu</td><td>2,8 KB</td></tr><tr><td><code>/api/</code></td><td>Trang tài liệu này</td><td>Trang HTML</td></tr>
+<tr><td><code>/api/v1/meta.json</code></td><td>Phiên bản, số lượng, nguồn, giấy phép</td><td>0,6 KB</td></tr><tr><td><code>/api/v1/lessons.json</code></td><td>Danh sách gọn toàn bộ bài học</td><td>46,0 KB</td></tr><tr><td><code>/api/v1/lessons/{slug}.json</code></td><td>Chi tiết đầy đủ 1 bài học</td><td>1,4 KB tới 7,8 KB mỗi bài</td></tr><tr><td><code>/api/v1/dictionary.json</code></td><td>Toàn bộ từ điển tiếng Việt</td><td>151,1 KB</td></tr><tr><td><code>/api/v1/search-index.json</code></td><td>Chỉ mục tìm kiếm</td><td>79,2 KB</td></tr><tr><td><code>/api/v1/paths.json</code></td><td>Lộ trình học</td><td>1,6 KB</td></tr><tr><td><code>/api/openapi.yaml</code></td><td>Định nghĩa OpenAPI cho mọi đầu dữ liệu</td><td>2,8 KB</td></tr><tr><td><code>/api/</code></td><td>Trang tài liệu này</td><td>Trang HTML</td></tr>
       </tbody>
     </table></div>
     <p>Định nghĩa OpenAPI đầy đủ nằm ở <a href="/sai-dau-sua-do/api/openapi.yaml">openapi.yaml</a>, dùng được cho Postman và APIs.guru.</p>
@@ -161,7 +161,7 @@ console.log(lookup("tomorrow"));</code></pre>
       <li>Không có dịch máy trong dữ liệu tĩnh. Nghĩa dịch máy chỉ xuất hiện lúc tra trên web khi không còn nguồn nào, và luôn ghi rõ là dịch máy chưa kiểm chứng.</li>
       <li>Nội dung tăng theo nhịp đăng của Trang. App nên tải lại file mỗi lần mở để thấy bài mới.</li>
     </ul>
-    <p>Hiện có 77 bài học, 70 bài đang hiển thị trên web, 852 từ trong từ điển, trong đó 112 từ có ví dụ kèm dịch.</p>
+    <p>Hiện có 78 bài học, 71 bài đang hiển thị trên web, 852 từ trong từ điển, trong đó 112 từ có ví dụ kèm dịch.</p>
   </section>
 </main>
 
