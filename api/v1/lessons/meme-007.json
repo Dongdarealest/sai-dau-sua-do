@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-007",
+    "code": "Meme #007",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "I am not understand",
+    "date": "2026-11-21",
+    "wrong": "I am not understand.",
+    "wrong_note": "",
+    "right": "I don't understand.",
+    "right_note": "",
+    "why": "understand là động từ, phủ định dùng don't, không dùng am.",
+    "problem": "Nhiều bạn thêm am trước động từ khi nói mình chưa hiểu.",
+    "core": "Động từ phủ định bằng do hoặc don't, không dùng am.",
+    "compare": [],
+    "mistakes": [],
+    "remember": "Chưa hiểu thì nói I don't understand.",
+    "examples": [
+      {
+        "en": "I don't understand this lesson.",
+        "vi": "Tôi không hiểu bài học này."
+      },
+      {
+        "en": "Sorry, I don't understand what you mean.",
+        "vi": "Xin lỗi, tôi không hiểu ý bạn."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Phủ định của động từ dùng don't, không dùng am.",
+        "options": [
+          "I am not understand the question.",
+          "I don't understand the question."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Sau chủ ngữ I, phủ định của understand dùng don't.",
+        "options": [
+          "am not",
+          "don't"
+        ],
+        "prompt": "Điền từ còn thiếu: I ___ understand."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-10/Meme-007-dont-understand.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122105875101550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-007/",
+    "show_in_ui": true
+  }
+}

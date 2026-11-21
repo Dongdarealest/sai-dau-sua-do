@@ -2105,5 +2105,30 @@
     "type": "Mẫu câu",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "meme-007",
+    "code": "Meme #007",
+    "title": "I am not understand",
+    "wrong": "I am not understand.",
+    "right": "I don't understand.",
+    "remember": "Chưa hiểu thì nói I don't understand.",
+    "why": "understand là động từ, phủ định dùng don't, không dùng am.",
+    "examples": [
+      "I don't understand this lesson. Tôi không hiểu bài học này.",
+      "Sorry, I don't understand what you mean. Xin lỗi, tôi không hiểu ý bạn."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn câu đúng: I am not understand the question. I don't understand the question.",
+      "Điền từ còn thiếu: I ___ understand. am not don't"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

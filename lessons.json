@@ -7989,6 +7989,59 @@
    "why": "Bốn câu này gom bốn lỗi hay gặp trong tuần: lend và borrow, bored và boring, for và since, actually và currently.",
    "wrong": "She is boring today.",
    "wrong_note": "Hôm nay cô ấy thật chán."
+  },
+  {
+   "code": "Meme #007",
+   "core": "Động từ phủ định bằng do hoặc don't, không dùng am.",
+   "date": "2026-11-21",
+   "examples": [
+    {
+     "en": "I don't understand this lesson.",
+     "vi": "Tôi không hiểu bài học này."
+    },
+    {
+     "en": "Sorry, I don't understand what you mean.",
+     "vi": "Xin lỗi, tôi không hiểu ý bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105875101550200",
+   "image_src": "ngay-10/Meme-007-dont-understand.png",
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Phủ định của động từ dùng don't, không dùng am.",
+     "options": [
+      "I am not understand the question.",
+      "I don't understand the question."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Sau chủ ngữ I, phủ định của understand dùng don't.",
+     "options": [
+      "am not",
+      "don't"
+     ],
+     "prompt": "Điền từ còn thiếu: I ___ understand."
+    }
+   ],
+   "problem": "Nhiều bạn thêm am trước động từ khi nói mình chưa hiểu.",
+   "quiz": null,
+   "remember": "Chưa hiểu thì nói I don't understand.",
+   "right": "I don't understand.",
+   "right_note": "",
+   "slug": "meme-007",
+   "title": "I am not understand",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "understand là động từ, phủ định dùng don't, không dùng am.",
+   "wrong": "I am not understand.",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 80,
-    "visible_lessons": 73,
+    "total_lessons": 81,
+    "visible_lessons": 74,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1211,6 +1211,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-006/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105838435550200",
       "image": "ngay-06/Mau-cau-006-slide-1.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "meme-007",
+      "code": "Meme #007",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "I am not understand",
+      "date": "2026-11-21",
+      "wrong": "I am not understand.",
+      "right": "I don't understand.",
+      "remember": "Chưa hiểu thì nói I don't understand.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-007/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122105875101550200",
+      "image": "ngay-10/Meme-007-dont-understand.png",
       "show_in_ui": true
     }
   ]

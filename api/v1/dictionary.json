@@ -1709,7 +1709,8 @@
       ],
       "mistakes": [
         "meme-003",
-        "cau-nao-dung-001"
+        "cau-nao-dung-001",
+        "meme-007"
       ]
     },
     "done": {
@@ -4765,7 +4766,8 @@
         }
       ],
       "mistakes": [
-        "hoi-thoai-005"
+        "hoi-thoai-005",
+        "meme-007"
       ]
     },
     "note": {
@@ -7576,7 +7578,9 @@
           "example_vi": "Tôi hiểu rồi."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meme-007"
+      ]
     },
     "understood": {
       "senses": [
