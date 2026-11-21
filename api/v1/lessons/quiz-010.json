@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-010",
+    "code": "Quiz #010",
+    "type": "Quiz",
+    "topic": "quiz tổng hợp",
+    "title": "3 câu ôn lại tuần này",
+    "date": "2026-11-21",
+    "wrong": "I am agree with your idea.",
+    "wrong_note": "Thừa am trước động từ agree.",
+    "right": "I agree with your idea.",
+    "right_note": "Câu này đúng, không thừa am.",
+    "why": "3 câu này ôn lại 3 lỗi trong tuần: thừa am sau agree, dùng a trước hour, nhầm actually với currently.",
+    "problem": "Một tuần 3 lỗi, ôn lại xem bạn nhớ được mấy câu.",
+    "core": "agree là động từ nên không cần am, hour bắt đầu bằng âm o nên dùng an, actually dùng để đính chính.",
+    "compare": [
+      {
+        "a": "We agree with the plan.",
+        "b": "We are agree with the plan.",
+        "note": "agree là động từ, không cần am."
+      },
+      {
+        "a": "an hour",
+        "b": "a hour",
+        "note": "hour bắt đầu bằng âm o, chữ h câm nên dùng an."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They agree with us.",
+        "wrong": "They are agree with us."
+      },
+      {
+        "right": "an hour ago",
+        "wrong": "a hour ago"
+      }
+    ],
+    "remember": "agree đi một mình, hour dùng an, actually nghĩa là thật ra.",
+    "examples": [
+      {
+        "en": "We agree with the plan.",
+        "vi": "Chúng tôi đồng ý với kế hoạch."
+      },
+      {
+        "en": "She has lived here since 2020.",
+        "vi": "Cô ấy sống ở đây từ năm 2020."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "hour bắt đầu bằng âm o, chữ h câm nên dùng an.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "prompt": "___ hour"
+      },
+      {
+        "answer": 1,
+        "explanation": "actually nghĩa là thật ra, dùng để đính chính.",
+        "options": [
+          "Currently",
+          "Actually",
+          "Finally"
+        ],
+        "prompt": "___ , I do not like coffee."
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "agree là động từ, không cần am.",
+      "options": [
+        "am agree",
+        "agree",
+        "agrees"
+      ],
+      "prompt": "I ___ with your idea.",
+      "question": "Ôn lại 3 lỗi trong tuần, câu 1 nhé."
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: thấy am trước agree thì bỏ am, thấy hour thì dùng an.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-10/Quiz-010-tong-hop-tuan.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122106178065550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-010/",
+    "show_in_ui": true
+  }
+}

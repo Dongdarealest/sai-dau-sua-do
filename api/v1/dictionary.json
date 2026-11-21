@@ -132,7 +132,8 @@
       "mistakes": [
         "loi-007",
         "reel-004",
-        "quiz-006"
+        "quiz-006",
+        "quiz-010"
       ]
     },
     "all": {
@@ -3396,7 +3397,9 @@
           "meaning": "ý tưởng"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "quiz-010"
+      ]
     },
     "if": {
       "senses": [
@@ -8528,7 +8531,8 @@
         "loi-001",
         "quiz-001",
         "reel-001",
-        "meo-005"
+        "meo-005",
+        "quiz-010"
       ]
     },
     "zero": {

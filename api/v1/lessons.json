@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 86,
-    "visible_lessons": 78,
+    "total_lessons": 87,
+    "visible_lessons": 79,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1301,6 +1301,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-007/",
       "fb": "https://www.facebook.com/61596506009854/posts/122106116565550200",
       "image": "ngay-10/Do-007-afraid-of-dogs.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-010",
+      "code": "Quiz #010",
+      "type": "Quiz",
+      "topic": "quiz tổng hợp",
+      "title": "3 câu ôn lại tuần này",
+      "date": "2026-11-21",
+      "wrong": "I am agree with your idea.",
+      "right": "I agree with your idea.",
+      "remember": "agree đi một mình, hour dùng an, actually nghĩa là thật ra.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-010/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106178065550200",
+      "image": "ngay-10/Quiz-010-tong-hop-tuan.png",
       "show_in_ui": true
     }
   ]

@@ -2243,5 +2243,33 @@
     "type": "Quiz",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "quiz-010",
+    "code": "Quiz #010",
+    "title": "3 câu ôn lại tuần này",
+    "wrong": "I am agree with your idea.",
+    "right": "I agree with your idea.",
+    "remember": "agree đi một mình, hour dùng an, actually nghĩa là thật ra.",
+    "why": "3 câu này ôn lại 3 lỗi trong tuần: thừa am sau agree, dùng a trước hour, nhầm actually với currently.",
+    "examples": [
+      "We agree with the plan. Chúng tôi đồng ý với kế hoạch.",
+      "She has lived here since 2020. Cô ấy sống ở đây từ năm 2020."
+    ],
+    "quiz": [
+      "Ôn lại 3 lỗi trong tuần, câu 1 nhé.",
+      "I ___ with your idea.",
+      "am agree",
+      "agree",
+      "agrees"
+    ],
+    "practice": [
+      "___ hour a an the",
+      "___ , I do not like coffee. Currently Actually Finally"
+    ],
+    "topic": "quiz tổng hợp",
+    "type": "Quiz",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]
