@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 85,
-    "visible_lessons": 77,
+    "total_lessons": 86,
+    "visible_lessons": 78,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1286,6 +1286,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/hoi-thoai-007/",
       "fb": "https://www.facebook.com/61596506009854/posts/122106064245550200/",
       "image": "ngay-10/Hoi-thoai-007-english-teacher.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-007",
+      "code": "Đố nhanh #007",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "afraid of dog",
+      "date": "2026-11-21",
+      "wrong": "I am afraid of dog.",
+      "right": "I am afraid of dogs.",
+      "remember": "Sợ một loài nói chung thì dùng danh từ số nhiều: afraid of dogs.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-007/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106116565550200",
+      "image": "ngay-10/Do-007-afraid-of-dogs.png",
       "show_in_ui": true
     }
   ]

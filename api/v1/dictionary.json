@@ -89,7 +89,9 @@
           "meaning": "sợ"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-007"
+      ]
     },
     "after": {
       "senses": [
@@ -1703,7 +1705,9 @@
           "meaning": "chó"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-007"
+      ]
     },
     "don't": {
       "senses": [
@@ -4872,7 +4876,8 @@
       ],
       "mistakes": [
         "mau-cau-005",
-        "mau-cau-008"
+        "mau-cau-008",
+        "do-007"
       ]
     },
     "off": {

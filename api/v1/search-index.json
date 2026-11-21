@@ -2214,5 +2214,34 @@
     "type": "Lỗi",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "do-007",
+    "code": "Đố nhanh #007",
+    "title": "afraid of dog",
+    "wrong": "I am afraid of dog.",
+    "right": "I am afraid of dogs.",
+    "remember": "Sợ một loài nói chung thì dùng danh từ số nhiều: afraid of dogs.",
+    "why": "Nói về loài vật nói chung thì dùng danh từ số nhiều.",
+    "examples": [
+      "She is afraid of cats. Cô ấy sợ mèo.",
+      "My brother is afraid of snakes. Anh trai tôi sợ rắn."
+    ],
+    "quiz": [
+      "Câu 'I am afraid of dog.' sai ở đâu?",
+      "Hãy nhìn danh từ sau afraid of.",
+      "'dog' thành 'dogs'",
+      "'am' thành 'is'",
+      "'afraid' thành 'afraids'"
+    ],
+    "practice": [
+      "I am afraid of ___. dog dogs",
+      "She is afraid of ___. cat cats",
+      "They are afraid of ___. snake snakes"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]

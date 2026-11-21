@@ -8377,6 +8377,104 @@
    "wrong_note": "Tôi là giáo viên tiếng Anh.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #007",
+   "compare": [
+    {
+     "a": "She is afraid of dogs.",
+     "b": "She is afraid of a dog.",
+     "note": "Sợ chó nói chung thì dùng số nhiều, sợ một con chó cụ thể thì dùng a dog."
+    },
+    {
+     "a": "He is afraid of spiders.",
+     "b": "He is afraid of a spider.",
+     "note": "Số nhiều nói chung, a cộng danh từ số ít nói một con cụ thể."
+    }
+   ],
+   "core": "Nói về loài vật nói chung thì dùng danh từ số nhiều.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is afraid of cats.",
+     "vi": "Cô ấy sợ mèo."
+    },
+    {
+     "en": "My brother is afraid of snakes.",
+     "vi": "Anh trai tôi sợ rắn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106116565550200",
+   "image_src": "ngay-10/Do-007-afraid-of-dogs.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We are afraid of dogs.",
+     "wrong": "We are afraid of dog."
+    },
+    {
+     "right": "They are afraid of snakes.",
+     "wrong": "They are afraid of snake."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Sợ chó nói chung thì dùng danh từ số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "dog",
+      "dogs"
+     ],
+     "prompt": "I am afraid of ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Sợ mèo nói chung thì dùng số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "cat",
+      "cats"
+     ],
+     "prompt": "She is afraid of ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Sợ rắn nói chung thì dùng số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "snake",
+      "snakes"
+     ],
+     "prompt": "They are afraid of ___."
+    }
+   ],
+   "problem": "Bạn muốn nói mình sợ chó, nhưng viết I am afraid of dog thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Sợ chó nói chung thì dùng số nhiều, dog thành dogs.",
+    "options": [
+     "'dog' thành 'dogs'",
+     "'am' thành 'is'",
+     "'afraid' thành 'afraids'"
+    ],
+    "prompt": "Hãy nhìn danh từ sau afraid of.",
+    "question": "Câu 'I am afraid of dog.' sai ở đâu?"
+   },
+   "remember": "Sợ một loài nói chung thì dùng danh từ số nhiều: afraid of dogs.",
+   "right": "I am afraid of dogs.",
+   "right_note": "Tôi sợ chó.",
+   "slug": "do-007",
+   "tip": "Nhớ nhanh: sợ chung thì thêm s.",
+   "title": "afraid of dog",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Nói về loài vật nói chung thì dùng danh từ số nhiều.",
+   "wrong": "I am afraid of dog.",
+   "wrong_note": "Tôi sợ chó.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
