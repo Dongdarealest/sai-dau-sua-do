@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 83,
-    "visible_lessons": 75,
+    "total_lessons": 84,
+    "visible_lessons": 76,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1256,6 +1256,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-007/",
       "fb": "https://www.facebook.com/61596506009854/posts/122105968155550200",
       "image": "ngay-10/Quiz-nhanh-007-island.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "dich-002",
+      "code": "Dịch #002",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "Đã ăn rồi",
+      "date": "2026-11-21",
+      "wrong": "'Tôi đã ăn rồi, cảm ơn bạn nhé.' tiếng Anh là gì?",
+      "right": "I have already eaten.",
+      "remember": "Đã ăn rồi = I have already eaten.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/dich-002/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106004905550200",
+      "image": "ngay-10/Dich-002-da-an-roi.png",
       "show_in_ui": true
     }
   ]

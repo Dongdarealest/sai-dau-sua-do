@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "dich-002",
+    "code": "Dịch #002",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "Đã ăn rồi",
+    "date": "2026-11-21",
+    "wrong": "'Tôi đã ăn rồi, cảm ơn bạn nhé.' tiếng Anh là gì?",
+    "wrong_note": "",
+    "right": "I have already eaten.",
+    "right_note": "cách nói tự nhiên nhất khi đã ăn xong.",
+    "why": "đã ăn rồi dùng hiện tại hoàn thành have eaten.",
+    "problem": "Nhiều bạn dịch đã ăn rồi thành I am eat already vì nghĩ already đi với hiện tại đơn. Thật ra việc đã xong trước lúc nói thì dùng hiện tại hoàn thành.",
+    "core": "Đã xong trước lúc nói thì dùng have + quá khứ phân từ, ví dụ have eaten.",
+    "compare": [
+      {
+        "a": "I have eaten already, thanks.",
+        "b": "I eat already, thanks.",
+        "note": "already đứng sau have eaten, không dùng hiện tại đơn cho việc đã xong."
+      },
+      {
+        "a": "We have already had dinner.",
+        "b": "We already eat dinner.",
+        "note": "had dinner là dạng quá khứ phân từ của have, ăn tối rồi thì dùng have had."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I have already finished lunch.",
+        "wrong": "I already finish lunch."
+      },
+      {
+        "right": "She has already eaten.",
+        "wrong": "She is eat already."
+      }
+    ],
+    "remember": "Đã ăn rồi = I have already eaten.",
+    "examples": [
+      {
+        "en": "Thanks, I have eaten already.",
+        "vi": "Cảm ơn bạn, tôi đã ăn rồi."
+      },
+      {
+        "en": "She has already eaten, thank you.",
+        "vi": "Cô ấy đã ăn rồi, cảm ơn bạn."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "đã ăn trưa rồi dùng hiện tại hoàn thành have had.",
+        "kind": "translate",
+        "options": [
+          "I have already had lunch.",
+          "I am eat lunch already."
+        ],
+        "prompt": "Dịch câu này: 'Tôi đã ăn trưa rồi.'"
+      },
+      {
+        "answer": 0,
+        "explanation": "đã ăn rồi dùng have eaten, không dùng hiện tại đơn.",
+        "options": [
+          "Thanks, I have already eaten.",
+          "Thanks, I already eat."
+        ],
+        "prompt": "Chọn câu đúng để từ chối lời mời ăn trưa:"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "đã ăn rồi dùng hiện tại hoàn thành have eaten, không dùng hiện tại đơn hay I am eat.",
+      "options": [
+        "I have already eaten, thank you.",
+        "I am eat already, thank you.",
+        "I already eat, thank you."
+      ],
+      "prompt": "Chọn câu dịch đúng nhất.",
+      "question": "How do you say 'Tôi đã ăn rồi, cảm ơn bạn nhé.' in English?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: đã xong thì have + quá khứ phân từ, ví dụ have eaten.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-10/Dich-002-da-an-roi.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122106004905550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/dich-002/",
+    "show_in_ui": true
+  }
+}

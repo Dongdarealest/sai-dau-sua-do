@@ -2159,5 +2159,33 @@
     "type": "Quiz",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "dich-002",
+    "code": "Dịch #002",
+    "title": "Đã ăn rồi",
+    "wrong": "'Tôi đã ăn rồi, cảm ơn bạn nhé.' tiếng Anh là gì?",
+    "right": "I have already eaten.",
+    "remember": "Đã ăn rồi = I have already eaten.",
+    "why": "đã ăn rồi dùng hiện tại hoàn thành have eaten.",
+    "examples": [
+      "Thanks, I have eaten already. Cảm ơn bạn, tôi đã ăn rồi.",
+      "She has already eaten, thank you. Cô ấy đã ăn rồi, cảm ơn bạn."
+    ],
+    "quiz": [
+      "How do you say 'Tôi đã ăn rồi, cảm ơn bạn nhé.' in English?",
+      "Chọn câu dịch đúng nhất.",
+      "I have already eaten, thank you.",
+      "I am eat already, thank you.",
+      "I already eat, thank you."
+    ],
+    "practice": [
+      "Dịch câu này: 'Tôi đã ăn trưa rồi.' I have already had lunch. I am eat lunch already.",
+      "Chọn câu đúng để từ chối lời mời ăn trưa: Thanks, I have already eaten. Thanks, I already eat."
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-21",
+    "paths": []
   }
 ]
