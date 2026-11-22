@@ -8720,6 +8720,100 @@
    "dict_links": [],
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Câu nào đúng? #003",
+   "compare": [
+    {
+     "a": "The man who helped me is my teacher.",
+     "b": "The car which I bought is new.",
+     "note": "Người thì dùng who, vật thì dùng which."
+    },
+    {
+     "a": "She is the teacher who taught me.",
+     "b": "This is the book which I like.",
+     "note": "who đứng sau người, which đứng sau vật."
+    }
+   ],
+   "core": "who cho người, which cho vật.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The woman who teaches me English is very kind.",
+     "vi": "Cô giáo dạy tôi tiếng Anh rất tốt bụng."
+    },
+    {
+     "en": "The book which I bought yesterday is very interesting.",
+     "vi": "Cuốn sách tôi mua hôm qua rất hay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106776535550200",
+   "image_src": "ngay-11/Cau-nao-dung-003-who-which.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "The girl who sits next to me is my friend.",
+     "wrong": "The girl which sits next to me is my friend."
+    },
+    {
+     "right": "The house which we visited is very old.",
+     "wrong": "The house who we visited is very old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "who dùng cho người.",
+     "options": [
+      "The teacher which helped me is kind.",
+      "The teacher who helped me is kind."
+     ],
+     "prompt": "Bạn giới thiệu cô giáo đã giúp mình, chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "which dùng cho vật, sách là vật.",
+     "options": [
+      "who",
+      "which"
+     ],
+     "prompt": "Điền từ đúng: 'This is the book ___ I like most.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "which dùng cho vật.",
+     "options": [
+      "The car who I bought is red.",
+      "The car which I bought is red."
+     ],
+     "prompt": "Chọn câu đúng khi nói về chiếc xe bạn mới mua:"
+    }
+   ],
+   "problem": "Nhiều bạn dùng which cho người vì nghĩ which và who giống nhau. Thật ra who dùng cho người, which dùng cho vật.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "who dùng cho người, which dùng cho vật. Nguồn: Cambridge Grammar, relative clauses.",
+    "options": [
+     "The man which helped me is my teacher.",
+     "The man who helped me is my teacher."
+    ],
+    "prompt": "Chọn câu đúng:",
+    "question": "Giới thiệu thầy giáo đã giúp mình, câu nào đúng?"
+   },
+   "remember": "who cho người, which cho vật.",
+   "right": "The man who helped me is my teacher.",
+   "right_note": "who dùng cho người.",
+   "slug": "cau-nao-dung-003",
+   "tip": "Nhớ nhanh: who hỏi người, which hỏi vật.",
+   "title": "who và which",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "who dùng cho người, which dùng cho vật.",
+   "wrong": "The man which helped me is my teacher.",
+   "wrong_note": "which dùng cho vật, không dùng cho người.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

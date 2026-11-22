@@ -2325,5 +2325,33 @@
     "type": "Lỗi",
     "date": "2026-11-22",
     "paths": []
+  },
+  {
+    "slug": "cau-nao-dung-003",
+    "code": "Câu nào đúng? #003",
+    "title": "who và which",
+    "wrong": "The man which helped me is my teacher.",
+    "right": "The man who helped me is my teacher.",
+    "remember": "who cho người, which cho vật.",
+    "why": "who dùng cho người, which dùng cho vật.",
+    "examples": [
+      "The woman who teaches me English is very kind. Cô giáo dạy tôi tiếng Anh rất tốt bụng.",
+      "The book which I bought yesterday is very interesting. Cuốn sách tôi mua hôm qua rất hay."
+    ],
+    "quiz": [
+      "Giới thiệu thầy giáo đã giúp mình, câu nào đúng?",
+      "Chọn câu đúng:",
+      "The man which helped me is my teacher.",
+      "The man who helped me is my teacher."
+    ],
+    "practice": [
+      "Bạn giới thiệu cô giáo đã giúp mình, chọn câu đúng: The teacher which helped me is kind. The teacher who helped me is kind.",
+      "Điền từ đúng: 'This is the book ___ I like most.' who which",
+      "Chọn câu đúng khi nói về chiếc xe bạn mới mua: The car who I bought is red. The car which I bought is red."
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]

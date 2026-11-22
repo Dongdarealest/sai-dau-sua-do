@@ -3094,7 +3094,9 @@
           "meaning": "đã giúp"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "cau-nao-dung-003"
+      ]
     },
     "her": {
       "senses": [
@@ -4183,7 +4185,8 @@
         }
       ],
       "mistakes": [
-        "meo-004"
+        "meo-004",
+        "cau-nao-dung-003"
       ]
     },
     "many": {
@@ -8094,7 +8097,9 @@
           "meaning": "cái nào"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "cau-nao-dung-003"
+      ]
     },
     "while": {
       "senses": [
@@ -8124,7 +8129,8 @@
         }
       ],
       "mistakes": [
-        "meo-004"
+        "meo-004",
+        "cau-nao-dung-003"
       ]
     },
     "whole": {

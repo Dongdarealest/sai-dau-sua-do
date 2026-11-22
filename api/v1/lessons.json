@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 89,
-    "visible_lessons": 81,
+    "total_lessons": 90,
+    "visible_lessons": 82,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1346,6 +1346,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-007/",
       "fb": "https://www.facebook.com/saidausuado/posts/pfbid02DhBj3zHYBBgfV6tH2VpJok8ZxhDLX9cMCXgmZmRcvyvRhuvcjdzQj1opiHjVoNxDl",
       "image": "ngay-11/Meo-007-then-than.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "cau-nao-dung-003",
+      "code": "Câu nào đúng? #003",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "who và which",
+      "date": "2026-11-22",
+      "wrong": "The man which helped me is my teacher.",
+      "right": "The man who helped me is my teacher.",
+      "remember": "who cho người, which cho vật.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-nao-dung-003/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106776535550200",
+      "image": "ngay-11/Cau-nao-dung-003-who-which.png",
       "show_in_ui": true
     }
   ]
