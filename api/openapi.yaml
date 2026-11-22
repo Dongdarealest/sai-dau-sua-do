@@ -2,7 +2,7 @@ openapi: 3.0.3
 info:
   title: API mở Kho bài học Sai Đâu Sửa Đó
   version: 1.0.0
-  description: Dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó, công khai dưới dạng file JSON tĩnh trên GitHub Pages. Không cần đăng ký, không cần khóa, không mất phí. Hiện có 91 bài học, 852 từ trong từ điển và 3 lộ trình học.
+  description: Dữ liệu học tiếng Anh của Trang Sai Đâu Sửa Đó, công khai dưới dạng file JSON tĩnh trên GitHub Pages. Không cần đăng ký, không cần khóa, không mất phí. Hiện có 92 bài học, 852 từ trong từ điển và 3 lộ trình học.
   license:
     name: CC BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
@@ -26,7 +26,7 @@ paths:
       summary: Danh sách gọn toàn bộ bài học
       responses:
         "200":
-          description: Danh sách gọn 91 bài học, lọc phía trình duyệt
+          description: Danh sách gọn 92 bài học, lọc phía trình duyệt
           content:
             application/json:
               schema:

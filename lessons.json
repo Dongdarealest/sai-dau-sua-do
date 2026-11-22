@@ -8891,6 +8891,93 @@
    "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
    "wrong": "I have 25 years old.",
    "wrong_note": "Tôi có 25 tuổi."
+  },
+  {
+   "code": "Quiz nhanh #008",
+   "compare": [
+    {
+     "a": "She goes to work by train.",
+     "b": "She goes to work with her sister.",
+     "note": "by đi với phương tiện, with đi với người đi cùng."
+    },
+    {
+     "a": "He travels by plane.",
+     "b": "He writes with a pen.",
+     "note": "by đi với phương tiện, with đi với công cụ."
+    }
+   ],
+   "core": "Đi bằng phương tiện thì dùng by.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She goes to work by bus.",
+     "vi": "Cô ấy đi làm bằng xe buýt."
+    },
+    {
+     "en": "I go to Da Lat by bus.",
+     "vi": "Tôi đi Đà Lạt bằng xe buýt."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122106974415550200",
+   "image_src": "ngay-11/Quiz-nhanh-008-by-bus.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They go to school by bike.",
+     "wrong": "They go to school with bike."
+    },
+    {
+     "right": "We travel by car.",
+     "wrong": "We travel with car."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Đi bằng máy bay thì dùng by.",
+     "options": [
+      "by",
+      "with",
+      "on"
+     ],
+     "prompt": "Điền giới từ đúng: 'They travel ___ plane.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Đi bằng ô tô thì dùng by.",
+     "options": [
+      "I go to work with car.",
+      "I go to work by car."
+     ],
+     "prompt": "Chọn câu đúng khi kể cách đi làm:"
+    }
+   ],
+   "problem": "Nhiều bạn nói with bus khi kể cách đi học, người nghe tưởng bạn đi cùng một chiếc xe buýt. Thật ra giới từ đúng cho phương tiện là by.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Phương tiện đi lại dùng by, không dùng with hay on.",
+    "options": [
+     "by",
+     "with",
+     "on"
+    ],
+    "prompt": "Chọn giới từ đúng cho câu 'I go to school ___ bus.':",
+    "question": "Đi xe buýt thì dùng giới từ nào?"
+   },
+   "remember": "Đi bằng phương tiện thì dùng by, đi cùng ai thì dùng with.",
+   "right": "I go to school by bus.",
+   "right_note": "by đi với phương tiện.",
+   "slug": "quiz-nhanh-008",
+   "tip": "Nhớ nhanh: by bus, by train, by plane.",
+   "title": "đi xe buýt, dùng giới từ nào",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "by đi với phương tiện, with đi với công cụ hoặc người đi cùng.",
+   "wrong": "I go to school with bus.",
+   "wrong_note": "with đi với người đi cùng hoặc công cụ, không đi với phương tiện.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

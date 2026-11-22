@@ -2381,5 +2381,33 @@
     "paths": [
       "tieng-anh-di-lam"
     ]
+  },
+  {
+    "slug": "quiz-nhanh-008",
+    "code": "Quiz nhanh #008",
+    "title": "đi xe buýt, dùng giới từ nào",
+    "wrong": "I go to school with bus.",
+    "right": "I go to school by bus.",
+    "remember": "Đi bằng phương tiện thì dùng by, đi cùng ai thì dùng with.",
+    "why": "by đi với phương tiện, with đi với công cụ hoặc người đi cùng.",
+    "examples": [
+      "She goes to work by bus. Cô ấy đi làm bằng xe buýt.",
+      "I go to Da Lat by bus. Tôi đi Đà Lạt bằng xe buýt."
+    ],
+    "quiz": [
+      "Đi xe buýt thì dùng giới từ nào?",
+      "Chọn giới từ đúng cho câu 'I go to school ___ bus.':",
+      "by",
+      "with",
+      "on"
+    ],
+    "practice": [
+      "Điền giới từ đúng: 'They travel ___ plane.' by with on",
+      "Chọn câu đúng khi kể cách đi làm: I go to work with car. I go to work by car."
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]

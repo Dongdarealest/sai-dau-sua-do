@@ -980,7 +980,8 @@
         }
       ],
       "mistakes": [
-        "do-006"
+        "do-006",
+        "quiz-nhanh-008"
       ]
     },
     "busy": {
@@ -1022,7 +1023,8 @@
         }
       ],
       "mistakes": [
-        "hoi-thoai-003"
+        "hoi-thoai-003",
+        "quiz-nhanh-008"
       ]
     },
     "cafe": {
@@ -2668,7 +2670,8 @@
       ],
       "mistakes": [
         "hoi-thoai-003",
-        "meme-005"
+        "meme-005",
+        "quiz-nhanh-008"
       ]
     },
     "goal": {
@@ -5870,7 +5873,8 @@
       ],
       "mistakes": [
         "hoi-thoai-003",
-        "meme-005"
+        "meme-005",
+        "quiz-nhanh-008"
       ]
     },
     "sea": {

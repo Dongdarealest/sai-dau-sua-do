@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 91,
-    "visible_lessons": 83,
+    "total_lessons": 92,
+    "visible_lessons": 84,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1376,6 +1376,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-nay-ai-cung-tung-noi-sai/",
       "fb": "https://www.facebook.com/61596506009854/posts/122106828729550200/",
       "image": "ngay-11/format-c-ai-cung-tung-noi-sai.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-nhanh-008",
+      "code": "Quiz nhanh #008",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "đi xe buýt, dùng giới từ nào",
+      "date": "2026-11-22",
+      "wrong": "I go to school with bus.",
+      "right": "I go to school by bus.",
+      "remember": "Đi bằng phương tiện thì dùng by, đi cùng ai thì dùng with.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-008/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122106974415550200",
+      "image": "ngay-11/Quiz-nhanh-008-by-bus.png",
       "show_in_ui": true
     }
   ]

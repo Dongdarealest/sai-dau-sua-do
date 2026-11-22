@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-008",
+    "code": "Quiz nhanh #008",
+    "type": "Quiz",
+    "topic": "ngữ pháp",
+    "title": "đi xe buýt, dùng giới từ nào",
+    "date": "2026-11-22",
+    "wrong": "I go to school with bus.",
+    "wrong_note": "with đi với người đi cùng hoặc công cụ, không đi với phương tiện.",
+    "right": "I go to school by bus.",
+    "right_note": "by đi với phương tiện.",
+    "why": "by đi với phương tiện, with đi với công cụ hoặc người đi cùng.",
+    "problem": "Nhiều bạn nói with bus khi kể cách đi học, người nghe tưởng bạn đi cùng một chiếc xe buýt. Thật ra giới từ đúng cho phương tiện là by.",
+    "core": "Đi bằng phương tiện thì dùng by.",
+    "compare": [
+      {
+        "a": "She goes to work by train.",
+        "b": "She goes to work with her sister.",
+        "note": "by đi với phương tiện, with đi với người đi cùng."
+      },
+      {
+        "a": "He travels by plane.",
+        "b": "He writes with a pen.",
+        "note": "by đi với phương tiện, with đi với công cụ."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They go to school by bike.",
+        "wrong": "They go to school with bike."
+      },
+      {
+        "right": "We travel by car.",
+        "wrong": "We travel with car."
+      }
+    ],
+    "remember": "Đi bằng phương tiện thì dùng by, đi cùng ai thì dùng with.",
+    "examples": [
+      {
+        "en": "She goes to work by bus.",
+        "vi": "Cô ấy đi làm bằng xe buýt."
+      },
+      {
+        "en": "I go to Da Lat by bus.",
+        "vi": "Tôi đi Đà Lạt bằng xe buýt."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Đi bằng máy bay thì dùng by.",
+        "options": [
+          "by",
+          "with",
+          "on"
+        ],
+        "prompt": "Điền giới từ đúng: 'They travel ___ plane.'"
+      },
+      {
+        "answer": 1,
+        "explanation": "Đi bằng ô tô thì dùng by.",
+        "options": [
+          "I go to work with car.",
+          "I go to work by car."
+        ],
+        "prompt": "Chọn câu đúng khi kể cách đi làm:"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "Phương tiện đi lại dùng by, không dùng with hay on.",
+      "options": [
+        "by",
+        "with",
+        "on"
+      ],
+      "prompt": "Chọn giới từ đúng cho câu 'I go to school ___ bus.':",
+      "question": "Đi xe buýt thì dùng giới từ nào?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: by bus, by train, by plane.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/Quiz-nhanh-008-by-bus.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122106974415550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-008/",
+    "show_in_ui": true
+  }
+}
