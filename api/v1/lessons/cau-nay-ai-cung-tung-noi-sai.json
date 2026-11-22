@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "cau-nay-ai-cung-tung-noi-sai",
+    "code": "Lỗi #011",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "25 years old",
+    "date": "2026-11-22",
+    "wrong": "I have 25 years old.",
+    "wrong_note": "Tôi có 25 tuổi.",
+    "right": "I am 25 years old.",
+    "right_note": "Tôi 25 tuổi.",
+    "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+    "problem": "Đi làm, gặp người nước ngoài hỏi tuổi, nhiều bạn trả lời bằng have rồi thêm số tuổi.",
+    "core": "Hỏi và nói tuổi thì dùng be.",
+    "compare": [
+      {
+        "a": "He has 30 years old.",
+        "b": "He is 30 years old.",
+        "note": "have chỉ dùng cho sở hữu, be dùng cho tuổi."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They are 40 years old.",
+        "wrong": "They have 40 years old."
+      }
+    ],
+    "remember": "Nói tuổi thì dùng be, không dùng have.",
+    "examples": [
+      {
+        "en": "She is 30 years old.",
+        "vi": "Cô ấy 30 tuổi."
+      },
+      {
+        "en": "My brother is 18 years old.",
+        "vi": "Em trai tôi 18 tuổi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Tuổi dùng be, không dùng have.",
+        "options": [
+          "She has 22 years old.",
+          "She is 22 years old."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Điền be, không điền have.",
+        "kind": "fill_blank",
+        "options": [
+          "have",
+          "am"
+        ],
+        "prompt": "I ___ 25 years old."
+      },
+      {
+        "answer": 1,
+        "explanation": "We đi với are khi nói tuổi.",
+        "options": [
+          "We have 18 years old.",
+          "We are 18 years old."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Hỏi tuổi người khác thì hỏi How old are you?",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/format-c-ai-cung-tung-noi-sai.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122106828729550200/",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-nay-ai-cung-tung-noi-sai/",
+    "show_in_ui": true
+  }
+}

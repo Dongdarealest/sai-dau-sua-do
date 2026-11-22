@@ -8814,6 +8814,83 @@
    "wrong_note": "which dùng cho vật, không dùng cho người.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #011",
+   "compare": [
+    {
+     "a": "He has 30 years old.",
+     "b": "He is 30 years old.",
+     "note": "have chỉ dùng cho sở hữu, be dùng cho tuổi."
+    }
+   ],
+   "core": "Hỏi và nói tuổi thì dùng be.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is 30 years old.",
+     "vi": "Cô ấy 30 tuổi."
+    },
+    {
+     "en": "My brother is 18 years old.",
+     "vi": "Em trai tôi 18 tuổi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106828729550200/",
+   "image_src": "ngay-11/format-c-ai-cung-tung-noi-sai.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are 40 years old.",
+     "wrong": "They have 40 years old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Tuổi dùng be, không dùng have.",
+     "options": [
+      "She has 22 years old.",
+      "She is 22 years old."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Điền be, không điền have.",
+     "kind": "fill_blank",
+     "options": [
+      "have",
+      "am"
+     ],
+     "prompt": "I ___ 25 years old."
+    },
+    {
+     "answer": 1,
+     "explanation": "We đi với are khi nói tuổi.",
+     "options": [
+      "We have 18 years old.",
+      "We are 18 years old."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Đi làm, gặp người nước ngoài hỏi tuổi, nhiều bạn trả lời bằng have rồi thêm số tuổi.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Nói tuổi thì dùng be, không dùng have.",
+   "right": "I am 25 years old.",
+   "right_note": "Tôi 25 tuổi.",
+   "show_in_ui": true,
+   "slug": "cau-nay-ai-cung-tung-noi-sai",
+   "tip": "Hỏi tuổi người khác thì hỏi How old are you?",
+   "title": "25 years old",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+   "wrong": "I have 25 years old.",
+   "wrong_note": "Tôi có 25 tuổi."
   }
  ],
  "site": {
@@ -8849,7 +8926,8 @@
      "mau-cau-001",
      "mau-cau-002",
      "quiz-001",
-     "ngu-phap-b1-b2-002"
+     "ngu-phap-b1-b2-002",
+     "cau-nay-ai-cung-tung-noi-sai"
     ],
     "icon": "💼"
    },
