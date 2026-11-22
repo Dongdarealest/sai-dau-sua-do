@@ -2299,5 +2299,31 @@
     "type": "Quiz",
     "date": "2026-11-22",
     "paths": []
+  },
+  {
+    "slug": "meo-007",
+    "code": "Mẹo #007",
+    "title": "then và than",
+    "wrong": "She is taller then me.",
+    "right": "She is taller than me.",
+    "remember": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+    "why": "then và than nghe gần giống nhau nhưng nghĩa khác hẳn. than dùng khi so sánh, then dùng khi kể trình tự.",
+    "examples": [
+      "My house is bigger than yours. Nhà tôi to hơn nhà bạn.",
+      "First we study, then we play. Trước tiên chúng ta học, rồi chúng ta chơi."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn từ đúng: My brother is older ___ I am. than then",
+      "Chọn từ đúng: We finish work, ___ we go home. than then",
+      "Chọn câu đúng: She runs faster than her sister. She runs faster then her sister."
+    ],
+    "topic": "từ vựng",
+    "type": "Lỗi",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]

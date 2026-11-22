@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meo-007",
+    "code": "Mẹo #007",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "then và than",
+    "date": "2026-11-22",
+    "wrong": "She is taller then me.",
+    "wrong_note": "",
+    "right": "She is taller than me.",
+    "right_note": "",
+    "why": "then và than nghe gần giống nhau nhưng nghĩa khác hẳn. than dùng khi so sánh, then dùng khi kể trình tự.",
+    "problem": "Khoe bạn mình cao hơn mà viết then thay vì than, người đọc vẫn hiểu nhưng sai ngay chữ quan trọng nhất.",
+    "core": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+    "compare": [
+      {
+        "a": "This book is better than that one.",
+        "b": "We eat first, then we watch a film.",
+        "note": "than đi với so sánh, then đi với trình tự."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He is stronger than his brother.",
+        "wrong": "He is stronger then his brother."
+      }
+    ],
+    "remember": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+    "examples": [
+      {
+        "en": "My house is bigger than yours.",
+        "vi": "Nhà tôi to hơn nhà bạn."
+      },
+      {
+        "en": "First we study, then we play.",
+        "vi": "Trước tiên chúng ta học, rồi chúng ta chơi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "So sánh hơn thì dùng than.",
+        "options": [
+          "than",
+          "then"
+        ],
+        "prompt": "Chọn từ đúng: My brother is older ___ I am."
+      },
+      {
+        "answer": 1,
+        "explanation": "Kể trình tự thì dùng then.",
+        "options": [
+          "than",
+          "then"
+        ],
+        "prompt": "Chọn từ đúng: We finish work, ___ we go home."
+      },
+      {
+        "answer": 0,
+        "explanation": "So sánh hơn thì dùng than, không dùng then.",
+        "options": [
+          "She runs faster than her sister.",
+          "She runs faster then her sister."
+        ],
+        "prompt": "Chọn câu đúng:"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/Meo-007-then-than.png",
+    "fb": "https://www.facebook.com/saidausuado/posts/pfbid02DhBj3zHYBBgfV6tH2VpJok8ZxhDLX9cMCXgmZmRcvyvRhuvcjdzQj1opiHjVoNxDl",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meo-007/",
+    "show_in_ui": true
+  }
+}

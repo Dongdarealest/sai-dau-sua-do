@@ -6872,7 +6872,9 @@
           "meaning": "cao hơn"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meo-007"
+      ]
     },
     "tallest": {
       "senses": [
@@ -6994,7 +6996,8 @@
       ],
       "mistakes": [
         "meo-002",
-        "do-005"
+        "do-005",
+        "meo-007"
       ]
     },
     "thank": {
@@ -7074,7 +7077,9 @@
           "meaning": "sau đó"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meo-007"
+      ]
     },
     "there": {
       "senses": [

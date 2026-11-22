@@ -8644,6 +8644,82 @@
    "wrong": "She said me the news.",
    "wrong_note": "said không đi với người nghe.",
    "reel": null
+  },
+  {
+   "code": "Mẹo #007",
+   "compare": [
+    {
+     "a": "This book is better than that one.",
+     "b": "We eat first, then we watch a film.",
+     "note": "than đi với so sánh, then đi với trình tự."
+    }
+   ],
+   "core": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "date": "2026-11-22",
+   "examples": [
+    {
+     "en": "My house is bigger than yours.",
+     "vi": "Nhà tôi to hơn nhà bạn."
+    },
+    {
+     "en": "First we study, then we play.",
+     "vi": "Trước tiên chúng ta học, rồi chúng ta chơi."
+    }
+   ],
+   "fb": "https://www.facebook.com/saidausuado/posts/pfbid02DhBj3zHYBBgfV6tH2VpJok8ZxhDLX9cMCXgmZmRcvyvRhuvcjdzQj1opiHjVoNxDl",
+   "image_src": "ngay-11/Meo-007-then-than.png",
+   "mistakes": [
+    {
+     "right": "He is stronger than his brother.",
+     "wrong": "He is stronger then his brother."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "So sánh hơn thì dùng than.",
+     "options": [
+      "than",
+      "then"
+     ],
+     "prompt": "Chọn từ đúng: My brother is older ___ I am."
+    },
+    {
+     "answer": 1,
+     "explanation": "Kể trình tự thì dùng then.",
+     "options": [
+      "than",
+      "then"
+     ],
+     "prompt": "Chọn từ đúng: We finish work, ___ we go home."
+    },
+    {
+     "answer": 0,
+     "explanation": "So sánh hơn thì dùng than, không dùng then.",
+     "options": [
+      "She runs faster than her sister.",
+      "She runs faster then her sister."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Khoe bạn mình cao hơn mà viết then thay vì than, người đọc vẫn hiểu nhưng sai ngay chữ quan trọng nhất.",
+   "quiz": null,
+   "remember": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "right": "She is taller than me.",
+   "right_note": "",
+   "slug": "meo-007",
+   "tip": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "title": "then và than",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "then và than nghe gần giống nhau nhưng nghĩa khác hẳn. than dùng khi so sánh, then dùng khi kể trình tự.",
+   "wrong": "She is taller then me.",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
