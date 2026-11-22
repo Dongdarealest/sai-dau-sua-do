@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 87,
-    "visible_lessons": 79,
+    "total_lessons": 88,
+    "visible_lessons": 80,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1316,6 +1316,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-010/",
       "fb": "https://www.facebook.com/61596506009854/posts/122106178065550200",
       "image": "ngay-10/Quiz-010-tong-hop-tuan.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "cau-do-nguoc-002",
+      "code": "Câu đố ngược #002",
+      "type": "Quiz",
+      "topic": "ôn tập",
+      "title": "said me the news",
+      "date": "2026-11-22",
+      "wrong": "She said me the news.",
+      "right": "She told me the news.",
+      "remember": "tell người nghe, say nội dung.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/cau-do-nguoc-002/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122106670035550200/",
+      "image": "ngay-11/Cau-do-nguoc-002-said-me.png",
       "show_in_ui": true
     }
   ]

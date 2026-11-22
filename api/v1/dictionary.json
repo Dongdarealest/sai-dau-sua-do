@@ -4683,7 +4683,8 @@
         }
       ],
       "mistakes": [
-        "reel-005"
+        "reel-005",
+        "cau-do-nguoc-002"
       ]
     },
     "next": {
@@ -5754,7 +5755,8 @@
       ],
       "mistakes": [
         "loi-003",
-        "reel-005"
+        "reel-005",
+        "cau-do-nguoc-002"
       ]
     },
     "salary": {
@@ -7353,7 +7355,8 @@
       ],
       "mistakes": [
         "loi-003",
-        "reel-005"
+        "reel-005",
+        "cau-do-nguoc-002"
       ]
     },
     "tomorrow": {

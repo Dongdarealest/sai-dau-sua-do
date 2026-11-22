@@ -8563,6 +8563,87 @@
    "why": "3 câu này ôn lại 3 lỗi trong tuần: thừa am sau agree, dùng a trước hour, nhầm actually với currently.",
    "wrong": "I am agree with your idea.",
    "wrong_note": "Thừa am trước động từ agree."
+  },
+  {
+   "code": "Câu đố ngược #002",
+   "compare": [
+    {
+     "a": "He told us the news.",
+     "b": "He said the news to us.",
+     "note": "tell đi thẳng với người nghe, say cần to trước người nghe."
+    }
+   ],
+   "core": "Muốn nhắc người nghe thì dùng tell, muốn nhắc nội dung thì dùng say.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She told me the news.",
+     "vi": "Cô ấy kể cho tôi tin đó."
+    },
+    {
+     "en": "He said the news.",
+     "vi": "Anh ấy nói tin đó."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106670035550200/",
+   "image_src": "ngay-11/Cau-do-nguoc-002-said-me.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "She told him the story.",
+     "wrong": "She said him the story."
+    },
+    {
+     "right": "He said hello to me.",
+     "wrong": "He told hello to me."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "tell đi với người nghe.",
+     "options": [
+      "She said me the story.",
+      "She told me the story."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "muốn nhắc người nghe thì dùng told.",
+     "options": [
+      "said",
+      "told"
+     ],
+     "prompt": "Điền dạng đúng: He ___ me the news."
+    }
+   ],
+   "problem": "Kể tin cho bạn mà nói sai say và tell thì nghe lúng túng ngay.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "tell đi với người nghe, say đi với nội dung.",
+    "options": [
+     "'said me' thành 'told me'",
+     "'said' thành 'sayed'",
+     "'the news' thành 'a news'"
+    ],
+    "prompt": "Chọn chỗ sai:",
+    "question": "Câu 'She said me the news.' sai ở đâu?"
+   },
+   "remember": "tell người nghe, say nội dung.",
+   "right": "She told me the news.",
+   "right_note": "tell đi với người nghe.",
+   "show_in_ui": true,
+   "slug": "cau-do-nguoc-002",
+   "tip": "Nhớ nhanh: tell + người nghe, say + nội dung.",
+   "title": "said me the news",
+   "topic": "ôn tập",
+   "type": "Quiz",
+   "why": "tell đi với người nghe, say đi với nội dung.",
+   "wrong": "She said me the news.",
+   "wrong_note": "said không đi với người nghe.",
+   "reel": null
   }
  ],
  "site": {

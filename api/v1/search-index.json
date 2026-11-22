@@ -2271,5 +2271,33 @@
     "type": "Quiz",
     "date": "2026-11-21",
     "paths": []
+  },
+  {
+    "slug": "cau-do-nguoc-002",
+    "code": "Câu đố ngược #002",
+    "title": "said me the news",
+    "wrong": "She said me the news.",
+    "right": "She told me the news.",
+    "remember": "tell người nghe, say nội dung.",
+    "why": "tell đi với người nghe, say đi với nội dung.",
+    "examples": [
+      "She told me the news. Cô ấy kể cho tôi tin đó.",
+      "He said the news. Anh ấy nói tin đó."
+    ],
+    "quiz": [
+      "Câu 'She said me the news.' sai ở đâu?",
+      "Chọn chỗ sai:",
+      "'said me' thành 'told me'",
+      "'said' thành 'sayed'",
+      "'the news' thành 'a news'"
+    ],
+    "practice": [
+      "Chọn câu đúng: She said me the story. She told me the story.",
+      "Điền dạng đúng: He ___ me the news. said told"
+    ],
+    "topic": "ôn tập",
+    "type": "Quiz",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]
