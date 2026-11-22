@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 93,
-    "visible_lessons": 85,
+    "total_lessons": 94,
+    "visible_lessons": 86,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1406,6 +1406,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-008/",
       "fb": "https://www.facebook.com/61596506009854/posts/122107026423550200",
       "image": "ngay-11/Meme-008-people-are.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-008",
+      "code": "Đố nhanh #008",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "at school",
+      "date": "2026-11-22",
+      "wrong": "I am in the school now.",
+      "right": "I am at school now.",
+      "remember": "Đang ở trường thì nói at school, không thêm the.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-008/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122107163241550200",
+      "image": "ngay-11/Do-008-at-school.png",
       "show_in_ui": true
     }
   ]

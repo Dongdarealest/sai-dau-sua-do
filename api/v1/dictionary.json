@@ -404,7 +404,8 @@
       "mistakes": [
         "loi-nhanh-001",
         "tong-hop-001",
-        "hoi-thoai-005"
+        "hoi-thoai-005",
+        "do-008"
       ]
     },
     "august": {
@@ -4838,7 +4839,8 @@
         }
       ],
       "mistakes": [
-        "do-004"
+        "do-004",
+        "do-008"
       ]
     },
     "number": {
@@ -5877,7 +5879,8 @@
       "mistakes": [
         "hoi-thoai-003",
         "meme-005",
-        "quiz-nhanh-008"
+        "quiz-nhanh-008",
+        "do-008"
       ]
     },
     "sea": {

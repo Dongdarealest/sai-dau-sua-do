@@ -2434,5 +2434,34 @@
     "type": "Lỗi",
     "date": "2026-11-22",
     "paths": []
+  },
+  {
+    "slug": "do-008",
+    "code": "Đố nhanh #008",
+    "title": "at school",
+    "wrong": "I am in the school now.",
+    "right": "I am at school now.",
+    "remember": "Đang ở trường thì nói at school, không thêm the.",
+    "why": "at school là cụm cố định chỉ đang ở trường, không dùng in the school khi nói mình đang học ở trường.",
+    "examples": [
+      "She is at school today. Hôm nay cô ấy đang ở trường.",
+      "My brother is at school this morning. Sáng nay anh trai tôi đang ở trường."
+    ],
+    "quiz": [
+      "Câu đố này sai ở đâu?",
+      "Hãy nhìn cụm từ chỉ nơi chốn.",
+      "'in the school' thành 'at school'",
+      "'am' thành 'is'",
+      "'now' thành 'today'"
+    ],
+    "practice": [
+      "He is ___ school now. in the at",
+      "She is ___ work today. in at",
+      "They are ___ home now. in at"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]

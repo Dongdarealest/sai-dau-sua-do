@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "do-008",
+    "code": "Đố nhanh #008",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "at school",
+    "date": "2026-11-22",
+    "wrong": "I am in the school now.",
+    "wrong_note": "Tôi đang ở trong trường.",
+    "right": "I am at school now.",
+    "right_note": "Tôi đang ở trường.",
+    "why": "at school là cụm cố định chỉ đang ở trường, không dùng in the school khi nói mình đang học ở trường.",
+    "problem": "Bạn muốn nói mình đang ở trường, nhưng viết in the school thì nghe sai sai.",
+    "core": "at school là cụm cố định, nói đang ở trường thì không thêm the.",
+    "compare": [
+      {
+        "a": "My sister is at school now.",
+        "b": "My brother is at work now.",
+        "note": "Đang ở trường thì nói at school, đang ở chỗ làm thì nói at work."
+      },
+      {
+        "a": "The children are at school.",
+        "b": "The students are in the classroom.",
+        "note": "at school chỉ đang ở trường nói chung, in the classroom chỉ đang ở trong phòng học cụ thể."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "We are at school today.",
+        "wrong": "We are in the school today."
+      },
+      {
+        "right": "He is at home now.",
+        "wrong": "He is in the home now."
+      }
+    ],
+    "remember": "Đang ở trường thì nói at school, không thêm the.",
+    "examples": [
+      {
+        "en": "She is at school today.",
+        "vi": "Hôm nay cô ấy đang ở trường."
+      },
+      {
+        "en": "My brother is at school this morning.",
+        "vi": "Sáng nay anh trai tôi đang ở trường."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Cụm đúng là at school.",
+        "kind": "fill_blank",
+        "options": [
+          "in the",
+          "at"
+        ],
+        "prompt": "He is ___ school now."
+      },
+      {
+        "answer": 1,
+        "explanation": "Đang ở chỗ làm thì nói at work.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "at"
+        ],
+        "prompt": "She is ___ work today."
+      },
+      {
+        "answer": 1,
+        "explanation": "Đang ở nhà thì nói at home.",
+        "kind": "fill_blank",
+        "options": [
+          "in",
+          "at"
+        ],
+        "prompt": "They are ___ home now."
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "in the school sai, cụm đúng là at school.",
+      "options": [
+        "'in the school' thành 'at school'",
+        "'am' thành 'is'",
+        "'now' thành 'today'"
+      ],
+      "prompt": "Hãy nhìn cụm từ chỉ nơi chốn.",
+      "question": "Câu đố này sai ở đâu?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: ở trường, ở nhà, ở chỗ làm đều dùng at, không thêm the.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/Do-008-at-school.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122107163241550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-008/",
+    "show_in_ui": true
+  }
+}
