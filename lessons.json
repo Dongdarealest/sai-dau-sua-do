@@ -8978,6 +8978,59 @@
    "wrong_note": "with đi với người đi cùng hoặc công cụ, không đi với phương tiện.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Meme #008",
+   "core": "people luôn đi với are, không đi với is.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "People in Da Lat are very kind.",
+     "vi": "Người ở Đà Lạt rất tốt bụng."
+    },
+    {
+     "en": "The people here are friendly and helpful.",
+     "vi": "Người ở đây thân thiện và hay giúp đỡ."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122107026423550200",
+   "image_src": "ngay-11/Meme-008-people-are.png",
+   "ipa": [],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "people là số nhiều nên đi với are.",
+     "options": [
+      "People is very happy today.",
+      "People are very happy today."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "people là danh từ số nhiều, đi với are.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "prompt": "Điền từ còn thiếu: People ___ very friendly here."
+    }
+   ],
+   "problem": "Nhiều bạn khen người ở một nơi nào đó mà dùng is sau people.",
+   "quiz": null,
+   "remember": "people là số nhiều, đi với are.",
+   "right": "People are very friendly here.",
+   "right_note": "",
+   "slug": "meme-008",
+   "title": "People is",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "people là danh từ số nhiều, luôn đi với động từ số nhiều.",
+   "wrong": "People is very friendly here.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

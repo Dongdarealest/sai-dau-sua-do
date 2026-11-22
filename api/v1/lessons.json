@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 92,
-    "visible_lessons": 84,
+    "total_lessons": 93,
+    "visible_lessons": 85,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1391,6 +1391,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-008/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122106974415550200",
       "image": "ngay-11/Quiz-nhanh-008-by-bus.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "meme-008",
+      "code": "Meme #008",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "People is",
+      "date": "2026-11-22",
+      "wrong": "People is very friendly here.",
+      "right": "People are very friendly here.",
+      "remember": "people là số nhiều, đi với are.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-008/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122107026423550200",
+      "image": "ngay-11/Meme-008-people-are.png",
       "show_in_ui": true
     }
   ]

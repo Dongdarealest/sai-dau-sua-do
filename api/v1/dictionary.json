@@ -326,7 +326,8 @@
         "hoi-thoai-001",
         "so-do-001",
         "do-003",
-        "meo-003"
+        "meo-003",
+        "meme-008"
       ]
     },
     "arm": {
@@ -3124,7 +3125,8 @@
       "mistakes": [
         "mau-cau-004",
         "quiz-004",
-        "ngu-phap-b1-b2-001"
+        "ngu-phap-b1-b2-001",
+        "meme-008"
       ]
     },
     "herself": {
@@ -5173,7 +5175,8 @@
         }
       ],
       "mistakes": [
-        "meo-003"
+        "meo-003",
+        "meme-008"
       ]
     },
     "perfect": {
@@ -7712,7 +7715,8 @@
       "mistakes": [
         "meo-001",
         "quiz-008",
-        "loi-010"
+        "loi-010",
+        "meme-008"
       ]
     },
     "video": {

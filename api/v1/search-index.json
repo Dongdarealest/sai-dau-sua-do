@@ -2409,5 +2409,30 @@
     "type": "Quiz",
     "date": "2026-11-22",
     "paths": []
+  },
+  {
+    "slug": "meme-008",
+    "code": "Meme #008",
+    "title": "People is",
+    "wrong": "People is very friendly here.",
+    "right": "People are very friendly here.",
+    "remember": "people là số nhiều, đi với are.",
+    "why": "people là danh từ số nhiều, luôn đi với động từ số nhiều.",
+    "examples": [
+      "People in Da Lat are very kind. Người ở Đà Lạt rất tốt bụng.",
+      "The people here are friendly and helpful. Người ở đây thân thiện và hay giúp đỡ."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn câu đúng: People is very happy today. People are very happy today.",
+      "Điền từ còn thiếu: People ___ very friendly here. is are"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-22",
+    "paths": []
   }
 ]

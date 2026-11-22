@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-008",
+    "code": "Meme #008",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "People is",
+    "date": "2026-11-22",
+    "wrong": "People is very friendly here.",
+    "wrong_note": "",
+    "right": "People are very friendly here.",
+    "right_note": "",
+    "why": "people là danh từ số nhiều, luôn đi với động từ số nhiều.",
+    "problem": "Nhiều bạn khen người ở một nơi nào đó mà dùng is sau people.",
+    "core": "people luôn đi với are, không đi với is.",
+    "compare": [],
+    "mistakes": [],
+    "remember": "people là số nhiều, đi với are.",
+    "examples": [
+      {
+        "en": "People in Da Lat are very kind.",
+        "vi": "Người ở Đà Lạt rất tốt bụng."
+      },
+      {
+        "en": "The people here are friendly and helpful.",
+        "vi": "Người ở đây thân thiện và hay giúp đỡ."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "people là số nhiều nên đi với are.",
+        "options": [
+          "People is very happy today.",
+          "People are very happy today."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "people là danh từ số nhiều, đi với are.",
+        "options": [
+          "is",
+          "are"
+        ],
+        "prompt": "Điền từ còn thiếu: People ___ very friendly here."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/Meme-008-people-are.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122107026423550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-008/",
+    "show_in_ui": true
+  }
+}
