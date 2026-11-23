@@ -2367,7 +2367,10 @@
    ],
    "problem": "Nhiều bạn quen dịch actually thành hiện tại rồi dùng khi giới thiệu bản thân hoặc viết email. Trong tiếng Anh, actually dùng để đính chính một ý vừa nói.",
    "quiz": null,
-   "reel": null,
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1157116046852195"
+   },
    "remember": "actually là thật ra để đính chính, hiện tại thì dùng currently.",
    "right": "Currently, I am living in Da Lat.",
    "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
@@ -3970,11 +3973,11 @@
    "practice": [
     {
      "answer": 1,
-     "explanation": "Sau can dùng động từ nguyên mẫu sing.",
+     "explanation": "Sau can dùng động từ nguyên mẫu swim.",
      "options": [
-      "She can sings.",
-      "She can sing.",
-      "She can singing."
+      "He can swims.",
+      "He can swim.",
+      "He can swimming."
      ],
      "prompt": "Chọn câu đúng:"
     },
@@ -6657,6 +6660,3047 @@
    "why": "smart là tính từ ngắn, so sánh hơn thêm er, không dùng more.",
    "wrong": "He is more smart than me.",
    "wrong_note": "Anh ấy thông minh hơn tôi."
+  },
+  {
+   "code": "Quiz #008",
+   "compare": [
+    {
+     "a": "My teacher teaches English very well.",
+     "b": "My teacher teaches English very good.",
+     "note": "sau động từ cần trạng từ well, không dùng tính từ good."
+    }
+   ],
+   "core": "sau động từ cần trạng từ well, không dùng tính từ good.",
+   "date": "2026-11-19",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Our teacher explains the lesson very well.",
+     "vi": "Thầy cô của chúng em giảng bài rất hay."
+    },
+    {
+     "en": "She dances very well.",
+     "vi": "Cô ấy nhảy rất giỏi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104207095550200",
+   "image_src": "ngay-08/Quiz-008-teaches-well.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He speaks English very well.",
+     "wrong": "He speaks English very good."
+    },
+    {
+     "right": "She sings very well.",
+     "wrong": "She sings very good."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good.",
+     "options": [
+      "good",
+      "well"
+     ],
+     "prompt": "She teaches very ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ teach cũng cần trạng từ well.",
+     "options": [
+      "They teach very good.",
+      "They teach very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Khen thầy cô dạy giỏi mà nói teaches very good thì sai nhé, dù người nghe vẫn hiểu ý bạn.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "sau động từ teaches cần trạng từ well, không dùng tính từ good; chủ ngữ she đi với teaches, thêm s.",
+    "options": [
+     "She teaches very good.",
+     "She teaches very well.",
+     "She teach very well."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "Chọn câu đúng nào?"
+   },
+   "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+   "right": "She teaches very well.",
+   "right_note": "Sau động từ cần trạng từ well.",
+   "slug": "quiz-008",
+   "tip": "Nhớ nhanh: sau động từ dạy, nói, hát thì dùng well, không dùng good.",
+   "title": "teaches very well",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Sau động từ cần trạng từ well, không dùng tính từ good. Chủ ngữ she đi với teaches, thêm s.",
+   "wrong": "She teaches very good.",
+   "wrong_note": "Sau động từ teaches lại dùng tính từ good.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #010",
+   "compare": [
+    {
+     "a": "She speaks English very well.",
+     "b": "She speaks English very good.",
+     "note": "sau động từ speak cũng cần trạng từ well."
+    }
+   ],
+   "core": "well bổ nghĩa cho động từ, good bổ nghĩa cho danh từ.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "My friend plays the piano very well.",
+     "vi": "Bạn của tôi chơi đàn piano rất giỏi."
+    },
+    {
+     "en": "The children read English very well.",
+     "vi": "Các em nhỏ đọc tiếng Anh rất giỏi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104646019550200",
+   "image_src": "ngay-09/Loi-010-teaches-well.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He sings very well.",
+     "wrong": "He sings very good."
+    },
+    {
+     "right": "She explains the lesson very well.",
+     "wrong": "She explains the lesson very good."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "sau động từ teaches cần trạng từ well.",
+     "kind": "fill_blank",
+     "options": [
+      "good",
+      "well"
+     ],
+     "prompt": "She teaches very ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ speak cần trạng từ well, không dùng tính từ good.",
+     "options": [
+      "He speaks English very good.",
+      "He speaks English very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "sau động từ sing cần trạng từ well.",
+     "options": [
+      "They sing very good.",
+      "They sing very well."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Hôm nay 20/11, gặp thầy cô mà khen teaches very good thì sai rồi, dù người nghe vẫn hiểu ý bạn.",
+   "quiz": null,
+   "remember": "sau động từ dùng trạng từ well, không dùng tính từ good.",
+   "right": "My teacher teaches English very well.",
+   "right_note": "Thầy cô của em dạy tiếng Anh rất giỏi.",
+   "show_in_ui": true,
+   "slug": "loi-010",
+   "tip": "Khen thầy cô dạy giỏi thì nói teaches very well, viết thiệp 20/11 cũng dùng câu này.",
+   "title": "teaches very well",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "sau động từ cần trạng từ well, không dùng tính từ good.",
+   "wrong": "My teacher teaches English very good.",
+   "wrong_note": "Thầy cô của em dạy tiếng Anh rất giỏi, nhưng dùng sai tính từ good sau động từ.",
+   "reel": null
+  },
+  {
+   "code": "Mẹo #005",
+   "compare": [
+    {
+     "a": "Your teacher is kind.",
+     "b": "You're very kind.",
+     "note": "your đứng trước danh từ, you're là you are viết tắt nên đứng trước tính từ."
+    },
+    {
+     "a": "Is this your book?",
+     "b": "You're my best friend.",
+     "note": "your hỏi đồ của ai, you're nói bạn là ai."
+    }
+   ],
+   "core": "Muốn nói bạn là ai thì dùng you're, muốn nói cái gì của bạn thì dùng your.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "You're a wonderful teacher.",
+     "vi": "Thầy là một giáo viên tuyệt vời."
+    },
+    {
+     "en": "Your students love you very much.",
+     "vi": "Học trò của bạn rất yêu quý bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104699353550200",
+   "image_src": "ngay-09/Meo-005-your-youre.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "You're welcome to my class.",
+     "wrong": "Your welcome to my class."
+    },
+    {
+     "right": "Your gift is on the table.",
+     "wrong": "You're gift is on the table."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Câu này muốn nói bạn là một thầy giáo tuyệt vời, cần you're.",
+     "kind": "fill_blank",
+     "options": [
+      "Your",
+      "You're"
+     ],
+     "prompt": "Điền từ còn thiếu: ___ a great teacher!"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu chúc thầy cô cần you're, your chỉ sở hữu nên sai ở đây.",
+     "options": [
+      "Your the best teacher ever.",
+      "You're the best teacher ever."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Umbrella là đồ của ai đó, cần your chỉ sở hữu.",
+     "kind": "fill_blank",
+     "options": [
+      "your",
+      "you're"
+     ],
+     "prompt": "Điền từ còn thiếu: Is this ___ umbrella?"
+    }
+   ],
+   "problem": "Nhiều bạn viết your thay cho you're khi muốn nói bạn là ai đó.",
+   "quiz": null,
+   "remember": "Nhớ: your chỉ sở hữu, you're là you are viết tắt.",
+   "right": "You're a great teacher.",
+   "right_note": "Bạn là một thầy giáo tuyệt vời.",
+   "slug": "meo-005",
+   "tip": "Viết you're thành you are mà câu vẫn đúng thì dùng you're.",
+   "title": "your và you're",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "your là của bạn, you're là you are viết tắt.",
+   "wrong": "Your a great teacher.",
+   "wrong_note": "Your là của bạn, viết your ở đầu câu này là sai.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Câu nào đúng? #002",
+   "compare": [
+    {
+     "a": "I enjoy swimming.",
+     "b": "I want to swim.",
+     "note": "enjoy đi với động từ thêm ing, want đi với to."
+    },
+    {
+     "a": "She enjoys reading books.",
+     "b": "She wants to read books.",
+     "note": "Cả hai đều nói về sở thích, nhưng enjoy và want đi với dạng động từ khác nhau."
+    }
+   ],
+   "core": "enjoy cộng động từ thêm ing.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "They enjoy playing football on Sundays.",
+     "vi": "Họ thích chơi bóng đá vào chủ nhật."
+    },
+    {
+     "en": "He enjoys cooking dinner for his family.",
+     "vi": "Anh ấy thích nấu bữa tối cho gia đình."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104757805550200/",
+   "image_src": "ngay-09/Cau-nao-dung-002-enjoy-swimming.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We enjoy travelling together.",
+     "wrong": "We enjoy to travel together."
+    },
+    {
+     "right": "She enjoys listening to music.",
+     "wrong": "She enjoys to listen to music."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "enjoy đi với động từ thêm ing.",
+     "options": [
+      "I enjoy reading books.",
+      "I enjoy to read books."
+     ],
+     "prompt": "Bạn thích đọc sách, chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Sau enjoy dùng động từ thêm ing.",
+     "options": [
+      "playing",
+      "to play"
+     ],
+     "prompt": "Điền từ đúng: 'They enjoy ___ football on Sundays.'"
+    }
+   ],
+   "problem": "Nhiều bạn nói I enjoy to swim vì nghĩ enjoy giống want, nhưng enjoy luôn đi với động từ thêm ing.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "enjoy luôn đi với động từ thêm ing, không đi với to. Nguồn: Cambridge Grammar of English, enjoy + gerund.",
+    "options": [
+     "I enjoy to swim.",
+     "I enjoy swimming."
+    ],
+    "prompt": "Chọn câu đúng:",
+    "question": "Cuối tuần rảnh, bạn rủ bạn đi bơi, câu nào đúng?"
+   },
+   "remember": "enjoy cộng động từ thêm ing, không đi với to.",
+   "right": "I enjoy swimming.",
+   "right_note": "Động từ thêm ing sau enjoy.",
+   "slug": "cau-nao-dung-002",
+   "tip": "Nhớ nhanh: enjoy, like và love đều có thể đi với động từ thêm ing.",
+   "title": "enjoy và động từ thêm ing",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "enjoy luôn đi với động từ thêm ing, không đi với to.",
+   "wrong": "I enjoy to swim.",
+   "wrong_note": "Dùng to sau enjoy.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Meme #006",
+   "compare": [
+    {
+     "a": "my cousin",
+     "b": "my cousin brother",
+     "note": "cousin đã đủ nghĩa, thêm brother là thừa."
+    },
+    {
+     "a": "my older cousin",
+     "b": "my younger cousin",
+     "note": "Muốn nói anh họ hay em họ thì dùng older hoặc younger."
+    }
+   ],
+   "core": "Muốn nói rõ anh hay em thì thêm older hoặc younger trước cousin, ví dụ my older cousin.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "My cousin lives in Da Lat.",
+     "vi": "Anh họ của tôi sống ở Đà Lạt."
+    },
+    {
+     "en": "I will visit my cousin this weekend.",
+     "vi": "Cuối tuần này tôi sẽ thăm anh họ của tôi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104868607550200",
+   "image_src": "ngay-09/Meme-006-cousin-brother.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "This is my cousin Anna.",
+     "wrong": "This is my cousin sister Anna."
+    },
+    {
+     "right": "We have many cousins in Da Lat.",
+     "wrong": "We have many cousin brothers in Da Lat."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "cousin đã đủ nghĩa anh em họ, không thêm brother.",
+     "kind": "fill_blank",
+     "options": [
+      "cousin brother",
+      "cousin"
+     ],
+     "prompt": "He is my ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Chỉ cần cousin là đủ, thêm brother là thừa.",
+     "options": [
+      "She is my cousin brother.",
+      "She is my cousin.",
+      "She is my brother cousin."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      0,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: chủ ngữ, động từ be, sở hữu, rồi cousin.",
+     "kind": "word_order",
+     "options": [
+      "cousin",
+      "He",
+      "is",
+      ".",
+      "my"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'He / is / my / cousin / .'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Số nhiều của cousin là cousins, vẫn không thêm brother.",
+     "kind": "fill_blank",
+     "options": [
+      "cousin brothers",
+      "cousins"
+     ],
+     "prompt": "They are my ___."
+    }
+   ],
+   "problem": "Giới thiệu anh họ với bạn nước ngoài mà nói cousin brother thì người nghe tưởng nhà bạn có thêm một loại anh em mới.",
+   "quiz": null,
+   "remember": "cousin đã đủ nghĩa anh em họ, không thêm brother hay sister.",
+   "right": "He is my cousin.",
+   "right_note": "Anh ấy là anh họ của tôi.",
+   "slug": "meme-006",
+   "tip": "Dùng khi giới thiệu người thân, kể về gia đình.",
+   "title": "cousin brother",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "cousin đã có nghĩa là anh em họ, không cần thêm brother.",
+   "wrong": "He is my cousin brother.",
+   "wrong_note": "Anh ấy là anh họ của tôi.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "slug": "reel-007",
+   "code": "Reel #007",
+   "type": "Reels",
+   "topic": "từ vựng",
+   "date": "2026-11-20",
+   "title": "actually hay currently?",
+   "wrong": "Actually, I am living in Da Lat.",
+   "wrong_note": "Hiện tại tôi đang sống ở Đà Lạt (nhưng dùng actually là sai).",
+   "right": "Currently, I am living in Da Lat.",
+   "right_note": "Hiện tại tôi đang sống ở Đà Lạt.",
+   "why": "actually là thật ra, hiện tại là currently.",
+   "examples": [
+    {
+     "en": "Actually, I do not like coffee.",
+     "vi": "Thật ra tôi không thích cà phê."
+    }
+   ],
+   "ipa": [],
+   "dict_links": [],
+   "quiz": null,
+   "practice": [],
+   "remember": "",
+   "image_src": "reels/frames/reel-007-f1.png",
+   "fb": "https://www.facebook.com/reel/1157116046852195",
+   "reel": null,
+   "show_in_ui": false
+  },
+  {
+   "code": "Quiz nhanh #006",
+   "compare": [
+    {
+     "a": "receipt",
+     "b": "debt",
+     "note": "receipt và debt đều có chữ câm, receipt câm chữ p còn debt câm chữ b."
+    },
+    {
+     "a": "I need the receipt for my lunch.",
+     "b": "I need the bill for my lunch.",
+     "note": "Hai câu đều dùng khi xin hóa đơn, receipt trang trọng hơn bill."
+    }
+   ],
+   "core": "Đọc receipt theo âm thật, không đọc theo từng chữ cái.",
+   "date": "2026-11-20",
+   "dict_links": [
+    {
+     "label": "Cambridge, receipt",
+     "url": "https://dictionary.cambridge.org/dictionary/english/receipt"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I have the receipt, please?",
+     "vi": "Cho tôi xin hóa đơn được không?"
+    },
+    {
+     "en": "I lost the receipt for my shoes.",
+     "vi": "Tôi làm mất hóa đơn mua giày rồi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122104954353550200",
+   "image_src": "ngay-09/Quiz-nhanh-006-receipt.png",
+   "ipa": [
+    {
+     "note": "Anh và Mỹ đọc giống nhau",
+     "source": "Cambridge, Anh và Mỹ",
+     "text": "/rɪˈsiːt/"
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "Please keep the receipt.",
+     "wrong": "Please keep the re ceipt."
+    },
+    {
+     "right": "The receipt is in my bag.",
+     "wrong": "The re ceipt is in my bag."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "receipt là tờ hóa đơn nhận sau khi mua hàng.",
+     "options": [
+      "Hóa đơn",
+      "Thực đơn",
+      "Danh sách"
+     ],
+     "prompt": "receipt nghĩa là gì?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu đúng cần the trước receipt vì đã nhắc tới hóa đơn đó.",
+     "options": [
+      "I lost receipt yesterday.",
+      "I lost the receipt yesterday.",
+      "I lost a receipt yesterday."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Đọc đúng là ri SIIT, chữ p không phát âm.",
+     "options": [
+      "ri SIIT",
+      "ri xép",
+      "ri síp"
+     ],
+     "prompt": "Đọc receipt thế nào mới đúng?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc receipt thành ri xép vì nhìn mặt chữ có chữ p.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Đáp án đúng là chữ p, vì receipt đọc là ri SIIT, chữ c và chữ t đều đọc.",
+    "options": [
+     "Chữ p",
+     "Chữ c",
+     "Chữ t"
+    ],
+    "prompt": "Chọn chữ câm trong receipt, nghĩa là hóa đơn.",
+    "question": "Chữ nào câm trong receipt?"
+   },
+   "remember": "receipt đọc là ri SIIT, chữ p câm.",
+   "right": "ri SIIT.",
+   "right_note": "receipt nghĩa là hóa đơn.",
+   "slug": "quiz-nhanh-006",
+   "tip": "Nhớ receipt bằng cách nghĩ tới ri SIIT, đọc to 3 lần để quen miệng.",
+   "title": "Chữ nào câm trong receipt?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "receipt có chữ p câm ở giữa, nên chỉ đọc ri SIIT.",
+   "wrong": "ri xép.",
+   "wrong_note": "Cách đọc sai theo mặt chữ.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Lỗi nhanh #005",
+   "compare": [
+    {
+     "a": "Please open the TV.",
+     "b": "Please turn on the TV.",
+     "note": "Bật tivi dùng turn on, open là mở."
+    },
+    {
+     "a": "Please turn on the door.",
+     "b": "Please open the door.",
+     "note": "Mở cửa dùng open, turn on là bật."
+    }
+   ],
+   "core": "Bật đèn, bật tivi, bật quạt đều dùng turn on, open chỉ dùng để mở cửa, mở sách, mở hộp.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Please turn on the light, it is very dark in here.",
+     "vi": "Làm ơn bật đèn lên, trong này tối quá."
+    },
+    {
+     "en": "She turned on the fan because it was hot.",
+     "vi": "Cô ấy bật quạt vì trời nóng."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105007753550200",
+   "image_src": "ngay-09/Meme-005-open-the-light.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Please turn off the light before you leave.",
+     "wrong": "Please close the light before you leave."
+    },
+    {
+     "right": "Can you turn on the fan?",
+     "wrong": "Can you open the fan?"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Bật đèn dùng turn on, không dùng open.",
+     "kind": "fill_blank",
+     "options": [
+      "open",
+      "turn on"
+     ],
+     "prompt": "Please ___ the light, it is dark here."
+    },
+    {
+     "answer": 1,
+     "explanation": "Bật tivi dùng turn on, mở thì dùng open.",
+     "options": [
+      "Please open the TV.",
+      "Please turn on the TV."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Tắt đèn dùng turn off, không dùng close.",
+     "kind": "fill_blank",
+     "options": [
+      "turned off",
+      "closed"
+     ],
+     "prompt": "She ___ the light before going to bed."
+    }
+   ],
+   "problem": "Vào phòng tối, bạn nói Please open the light, đèn nghe xong không biết mở cửa nào.",
+   "quiz": null,
+   "remember": "Bật đèn, bật tivi, bật quạt dùng turn on, mở cửa, mở sách dùng open.",
+   "right": "Please turn on the light.",
+   "right_note": "Làm ơn bật đèn lên.",
+   "slug": "loi-nhanh-005",
+   "tip": "Dùng khi nhờ ai bật đèn, bật tivi, bật quạt.",
+   "title": "open the light",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "open là mở, bật đèn thì dùng turn on.",
+   "wrong": "Please open the light.",
+   "wrong_note": "Làm ơn bật đèn lên.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Hội thoại #006",
+   "compare": [
+    {
+     "a": "I am late 30 minutes.",
+     "b": "I am 30 minutes late.",
+     "note": "khoảng thời gian đứng trước late."
+    },
+    {
+     "a": "She is late 15 minutes.",
+     "b": "She is 15 minutes late.",
+     "note": "nói 15 minutes late khi đến muộn 15 phút."
+    }
+   ],
+   "core": "muốn nói đến muộn bao lâu thì đặt khoảng thời gian trước late.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "He is 20 minutes late for work.",
+     "vi": "Anh ấy đến muộn 20 phút trong buổi làm việc."
+    },
+    {
+     "en": "Sorry, we are 5 minutes late.",
+     "vi": "Xin lỗi, chúng tôi đến muộn 5 phút."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105070879550200",
+   "image_src": "ngay-09/Hoi-thoai-006-10-minutes-late.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are 10 minutes late.",
+     "wrong": "They are late 10 minutes."
+    },
+    {
+     "right": "He is 5 minutes late.",
+     "wrong": "He is late 5 minutes."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "khoảng thời gian đứng trước late.",
+     "kind": "fill_blank",
+     "options": [
+      "10 minutes",
+      "minutes 10"
+     ],
+     "prompt": "I am sorry, I am ___ late."
+    },
+    {
+     "answer": 0,
+     "explanation": "15 minutes đứng trước late.",
+     "kind": "fill_blank",
+     "options": [
+      "15 minutes",
+      "minutes 15"
+     ],
+     "prompt": "She is ___ late for class."
+    },
+    {
+     "answer": 1,
+     "explanation": "khoảng thời gian đứng trước late, nói 5 minutes late.",
+     "options": [
+      "I am late 5 minutes.",
+      "I am 5 minutes late."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      4,
+      5,
+      0,
+      2,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: I, am, 5, minutes, late, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "minutes",
+      "I",
+      "late",
+      ".",
+      "am",
+      "5"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'I / am / 5 / minutes / late / .'"
+    }
+   ],
+   "problem": "Bạn hẹn bạn đi cà phê và đến muộn 10 phút. Bạn nhắn tin xin lỗi mà đặt 10 minutes sau late, người nghe vẫn hiểu nhưng thấy câu sai ngay chỗ đó.",
+   "quiz": null,
+   "remember": "khoảng thời gian đứng trước late: 10 minutes late, không nói late 10 minutes.",
+   "right": "I am sorry, I am 10 minutes late.",
+   "right_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+   "slug": "hoi-thoai-006",
+   "tip": "Dùng khi nhắn tin xin lỗi vì đến muộn, báo giờ đến.",
+   "title": "Xin lỗi vì đến muộn",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "khoảng thời gian đứng trước late, nói 10 minutes late.",
+   "wrong": "I am sorry, I am late 10 minutes.",
+   "wrong_note": "Tôi xin lỗi, tôi đến muộn 10 phút.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #006",
+   "compare": [
+    {
+     "a": "I am in the car.",
+     "b": "I am on the bus.",
+     "note": "Xe ô tô con dùng in, xe buýt dùng on."
+    },
+    {
+     "a": "We are on the train.",
+     "b": "We are on the plane.",
+     "note": "Tàu và máy bay đều dùng on, giống xe buýt."
+    }
+   ],
+   "core": "Xe buýt, tàu và máy bay dùng on, xe ô tô con dùng in.",
+   "date": "2026-11-20",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I am on the bus to school.",
+     "vi": "Tôi đang ở trên xe buýt đi học."
+    },
+    {
+     "en": "She is waiting in the car.",
+     "vi": "Cô ấy đang chờ trong xe ô tô."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105148411550200",
+   "image_src": "ngay-09/Do-006-on-the-bus.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are on the bus.",
+     "wrong": "They are in the bus."
+    },
+    {
+     "right": "He is in the car now.",
+     "wrong": "He is on the car now."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Xe buýt thì dùng on, giống tàu và máy bay.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "on"
+     ],
+     "prompt": "I am ___ the bus."
+    },
+    {
+     "answer": 0,
+     "explanation": "Ngồi trong xe ô tô thì nói in the car.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "on"
+     ],
+     "prompt": "He is ___ the car now."
+    },
+    {
+     "answer": 1,
+     "explanation": "Tàu thì dùng on, giống xe buýt và máy bay.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "on"
+     ],
+     "prompt": "We are ___ the train to Ha Noi."
+    }
+   ],
+   "problem": "Bạn muốn nói mình đang ở trong xe buýt, nhưng viết in the bus thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Ngồi xe buýt thì nói on the bus, xe ô tô con mới dùng in.",
+    "options": [
+     "'in the bus' thành 'on the bus'",
+     "'am' thành 'is'",
+     "'bus' thành 'buses'"
+    ],
+    "prompt": "Hãy nhìn giới từ trước the bus.",
+    "question": "Câu 'I am in the bus.' sai ở đâu?"
+   },
+   "remember": "Ngồi xe buýt thì nói on the bus, xe ô tô thì nói in the car.",
+   "right": "I am on the bus.",
+   "right_note": "Tôi đang ở trong xe buýt.",
+   "slug": "do-006",
+   "tip": "Nhớ nhanh: xe nhỏ in, xe lớn on.",
+   "title": "on the bus",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Xe buýt, tàu và máy bay thì dùng on, xe ô tô con thì dùng in.",
+   "wrong": "I am in the bus.",
+   "wrong_note": "Tôi đang ở trong xe buýt.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Quiz #009",
+   "compare": [
+    {
+     "a": "Happy Teacher Day!",
+     "b": "Happy Teachers' Day!",
+     "note": "Teacher thiếu s, chưa phải ngày của các thầy cô."
+    }
+   ],
+   "core": "Tên ngày lễ: Teachers' Day.",
+   "date": "2026-11-20",
+   "examples": [
+    {
+     "en": "I wish my teacher a happy Teachers' Day.",
+     "vi": "Tôi chúc thầy cô một ngày Nhà giáo vui vẻ."
+    },
+    {
+     "en": "We made a card for Teachers' Day.",
+     "vi": "Chúng tôi làm một tấm thiệp cho ngày Nhà giáo."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105221155550200",
+   "image_src": "ngay-09/Quiz-009-teachers-day.png",
+   "mistakes": [
+    {
+     "right": "Happy Teachers' Day!",
+     "wrong": "Happy Teachers Day!"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Cần số nhiều có sở hữu cách: Teachers'.",
+     "options": [
+      "Teacher",
+      "Teachers'",
+      "Teachers"
+     ],
+     "prompt": "Điền từ đúng: Happy ___ Day!"
+    },
+    {
+     "answer": 1,
+     "explanation": "Thiếu s và dấu nháy nên tên ngày lễ viết sai.",
+     "options": [
+      "Happy Teachers' Day!",
+      "Happy Teacher Day!",
+      "Thank you, my teacher!"
+     ],
+     "prompt": "Câu nào viết sai?"
+    }
+   ],
+   "problem": "Viết thiệp chúc thầy cô ngày 20/11 mà viết sai tên ngày lễ thì ngại lắm.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "A thiếu s và dấu nháy. C thiếu dấu nháy. Chỉ B viết đúng tên ngày lễ.",
+    "options": [
+     "Happy Teacher Day!",
+     "Happy Teachers' Day!",
+     "Happy Teachers Day!"
+    ],
+    "prompt": "Chọn câu viết đúng tên ngày lễ 20/11.",
+    "question": "Câu nào viết đúng tên ngày 20/11?"
+   },
+   "remember": "Tên ngày 20/11 là Teachers' Day, số nhiều có sở hữu cách.",
+   "right": "Happy Teachers' Day!",
+   "right_note": "",
+   "slug": "quiz-009",
+   "tip": "Nhớ dấu nháy sau s: Teachers'.",
+   "title": "Happy Teachers' Day!",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Ngày lễ mang tên các thầy cô, nên dùng số nhiều có sở hữu cách.",
+   "wrong": "Happy Teacher Day!",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Câu đố ngược #001",
+   "compare": [
+    {
+     "a": "She will call me when she arrives.",
+     "b": "She will call me when she will arrive.",
+     "note": "sau when chỉ thời gian, động từ dùng hiện tại đơn."
+    }
+   ],
+   "core": "Mệnh đề thời gian sau when dùng hiện tại đơn.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Tell me when you get home.",
+     "vi": "Nói với tôi khi bạn về đến nhà."
+    },
+    {
+     "en": "I will text you when I get home.",
+     "vi": "Tôi sẽ nhắn cho bạn khi tôi về đến nhà."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105647401550200",
+   "image_src": "ngay-10/Cau-do-nguoc-001-when-i-will-arrive.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I will meet you when I come.",
+     "wrong": "I will meet you when I will come."
+    },
+    {
+     "right": "Call me when you arrive.",
+     "wrong": "Call me when you will arrive."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "mưa tạnh mới đi, mệnh đề when dùng hiện tại đơn.",
+     "options": [
+      "We will leave when the rain will stop.",
+      "We will leave when the rain stops."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "sau when chỉ thời gian, không dùng will.",
+     "options": [
+      "will get",
+      "get"
+     ],
+     "prompt": "Điền dạng đúng: Tell me when you ___ (get) home."
+    }
+   ],
+   "problem": "Hẹn gọi điện cho bạn mà nói sai mệnh đề when thì nghe lúng túng ngay.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "will chỉ đứng ở mệnh đề chính, mệnh đề when dùng hiện tại đơn.",
+    "options": [
+     "'will arrive' → 'arrive' (sau when dùng hiện tại đơn)",
+     "'will call' → 'call'",
+     "'you' → 'yourself'"
+    ],
+    "prompt": "Chọn chỗ sai:",
+    "question": "Câu 'I will call you when I will arrive.' sai ở đâu?"
+   },
+   "remember": "Sau when chỉ thời gian: dùng hiện tại đơn, không dùng will.",
+   "right": "I will call you when I arrive.",
+   "right_note": "Sau when dùng hiện tại đơn.",
+   "slug": "cau-do-nguoc-001",
+   "tip": "Nhớ nhanh: when + hiện tại đơn, will chỉ ở mệnh đề chính.",
+   "title": "when I will arrive",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+   "wrong": "I will call you when I will arrive.",
+   "wrong_note": "Sau when lại dùng will.",
+   "reel": {
+    "label": "Xem Reel bài này",
+    "url": "https://www.facebook.com/reel/1579442404211743"
+   },
+   "show_in_ui": true
+  },
+  {
+   "code": "Mẹo #006",
+   "compare": [
+    {
+     "a": "Put the bag over there.",
+     "b": "This is their bag.",
+     "note": "there chỉ chỗ, their chỉ đồ của họ."
+    },
+    {
+     "a": "They're my friends.",
+     "b": "Their friends are here.",
+     "note": "they're là they are viết tắt, their là của họ."
+    }
+   ],
+   "core": "there là ở đó, their là của họ, they're là they are viết tắt.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Their friends are waiting over there.",
+     "vi": "Bạn của họ đang đợi ở đằng kia."
+    },
+    {
+     "en": "They're coming to Da Lat tomorrow.",
+     "vi": "Họ sẽ đến Đà Lạt vào ngày mai."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105754231550200",
+   "image_src": "ngay-10/Meo-006-there-their-theyre.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They're very happy today.",
+     "wrong": "Their very happy today."
+    },
+    {
+     "right": "Their house is over there.",
+     "wrong": "There house is over there."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Chỗ để túi thì dùng there, their là của họ.",
+     "kind": "fill_blank",
+     "options": [
+      "there",
+      "their"
+     ],
+     "prompt": "Điền từ còn thiếu: Put your bag ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu này cần they're, they are viết tắt, their là của họ.",
+     "options": [
+      "Their going to school now.",
+      "They're going to school now."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Nhà của họ thì dùng their, there là ở đó.",
+     "kind": "fill_blank",
+     "options": [
+      "There",
+      "Their"
+     ],
+     "prompt": "Điền từ còn thiếu: ___ house is very big."
+    }
+   ],
+   "problem": "Nhiều bạn viết nhầm there, their và they're khi gõ nhanh email hoặc tin nhắn.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Viết they're thành they are mà câu vẫn đúng thì dùng they're.",
+   "right": "They're happy over there with their friends.",
+   "right_note": "Họ đang vui vẻ ở đằng kia với bạn của họ.",
+   "show_in_ui": true,
+   "slug": "meo-006",
+   "tip": "Muốn kiểm tra they're, thử viết đầy đủ thành they are rồi đọc lại câu.",
+   "title": "there, their và they're",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "Ba từ này phát âm giống nhau nhưng nghĩa khác hẳn, gõ nhanh rất dễ nhầm.",
+   "wrong": "Their happy over there.",
+   "wrong_note": "Their là của họ, viết their ở đầu câu này là sai."
+  },
+  {
+   "code": "Ngữ pháp B1/B2 #002",
+   "compare": [
+    {
+     "a": "If I had money, I would travel.",
+     "b": "If I have money, I will travel.",
+     "note": "Câu có had và would nói chuyện giả định. Câu có have và will nói chuyện có thật trong tương lai."
+    }
+   ],
+   "core": "Câu điều kiện loại 2: if cộng quá khứ đơn, would cộng nguyên mẫu.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "If I had more time, I would learn to cook.",
+     "vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn."
+    },
+    {
+     "en": "If I lived in Da Lat, I would wake up early every day.",
+     "vi": "Nếu tôi sống ở Đà Lạt, tôi sẽ dậy sớm mỗi ngày."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105795103550200",
+   "image_src": "ngay-10/B1B2-002-conditional-2.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "If I were rich, I would buy a big house.",
+     "wrong": "If I will be rich, I will buy a big house."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Chuyện giả định nên mệnh đề if dùng quá khứ đơn had.",
+     "options": [
+      "have",
+      "had",
+      "will have"
+     ],
+     "prompt": "Điền từ đúng vào chỗ trống: If I ___ money, I would travel."
+    },
+    {
+     "answer": 1,
+     "explanation": "Giả định dùng had ở mệnh đề if và would ở kết quả.",
+     "options": [
+      "If I will have time, I will call you.",
+      "If I had time, I would call you.",
+      "If I have time, I would call you."
+     ],
+     "prompt": "Chọn câu đúng."
+    },
+    {
+     "answer": 1,
+     "explanation": "Kết quả của câu điều kiện loại 2 dùng would cộng nguyên mẫu.",
+     "options": [
+      "will",
+      "would",
+      "am"
+     ],
+     "prompt": "Điền từ đúng vào chỗ trống: If I were you, I ___ study every day."
+    }
+   ],
+   "problem": "Mơ trúng số mà nói câu điều kiện loại 2 bằng will ở cả hai vế thì người nghe vẫn hiểu, nhưng nghe sai sai.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Giả định chưa có thật thì lùi thì ở mệnh đề if và dùng would ở kết quả.",
+   "right": "If I had money, I would travel.",
+   "right_note": "Nếu tôi có tiền, tôi sẽ đi du lịch.",
+   "show_in_ui": true,
+   "slug": "ngu-phap-b1-b2-002",
+   "tip": "Nói về ước mơ, giả định hay cho lời khuyên kiểu nếu là tôi thì dùng câu điều kiện loại 2.",
+   "title": "câu điều kiện loại 2",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "Chuyện giả định, chưa có thật thì mệnh đề if lùi về quá khứ đơn, kết quả dùng would.",
+   "wrong": "If I will have money, I will travel.",
+   "wrong_note": ""
+  },
+  {
+   "code": "Mẫu câu #006",
+   "compare": [
+    {
+     "a": "She lent me her bike.",
+     "b": "I borrowed her bike.",
+     "note": "lend là cho người khác mượn, borrow là mượn về mình."
+    },
+    {
+     "a": "I am bored at home.",
+     "b": "The film is boring.",
+     "note": "bored tả cảm giác của mình, boring tả thứ gây chán."
+    },
+    {
+     "a": "She has lived here since 2020.",
+     "b": "She has lived here for five years.",
+     "note": "since đi với mốc thời gian, for đi với khoảng thời gian."
+    }
+   ],
+   "core": "Ôn lại bằng cách viết 1 câu mới với mỗi mẫu, không chỉ đọc lại.",
+   "date": "2026-11-21",
+   "dict_links": [
+    {
+     "label": "Cambridge, lend",
+     "url": "https://dictionary.cambridge.org/dictionary/english/lend"
+    },
+    {
+     "label": "Cambridge, borrow",
+     "url": "https://dictionary.cambridge.org/dictionary/english/borrow"
+    },
+    {
+     "label": "Cambridge, bored",
+     "url": "https://dictionary.cambridge.org/dictionary/english/bored"
+    },
+    {
+     "label": "Cambridge, currently",
+     "url": "https://dictionary.cambridge.org/dictionary/english/currently"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can you lend me your pen?",
+     "vi": "Bạn cho tôi mượn cây bút được không?"
+    },
+    {
+     "en": "I am bored today.",
+     "vi": "Hôm nay tôi thấy chán."
+    },
+    {
+     "en": "I have worked here for 3 years.",
+     "vi": "Tôi làm ở đây được 3 năm."
+    },
+    {
+     "en": "Currently, I am living in Da Lat.",
+     "vi": "Hiện tại tôi đang sống ở Đà Lạt."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105838435550200",
+   "image_src": "ngay-06/Mau-cau-006-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Can you lend me your ruler?",
+     "wrong": "Can you borrow me your ruler?"
+    },
+    {
+     "right": "The lesson is boring.",
+     "wrong": "The lesson is bored."
+    },
+    {
+     "right": "I have studied English for two years.",
+     "wrong": "I have studied English since two years."
+    },
+    {
+     "right": "Currently, I am studying English.",
+     "wrong": "Actually, I am studying English."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "muốn nhờ người khác cho mượn thì dùng lend.",
+     "options": [
+      "lend",
+      "borrow"
+     ],
+     "prompt": "Can you ___ me your pen?"
+    },
+    {
+     "answer": 0,
+     "explanation": "đang thấy chán thì dùng bored, không dùng boring.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "prompt": "I am ___ today."
+    },
+    {
+     "answer": 0,
+     "explanation": "khoảng 3 năm thì dùng for, mốc 2020 thì dùng since.",
+     "options": [
+      "for",
+      "since"
+     ],
+     "prompt": "I have worked here ___ 3 years."
+    },
+    {
+     "answer": 0,
+     "explanation": "currently mới mang nghĩa hiện tại, actually mang nghĩa thật ra.",
+     "options": [
+      "Currently",
+      "Actually"
+     ],
+     "prompt": "___ , I am living in Da Lat."
+    }
+   ],
+   "problem": "Một tuần học 4 câu mà không ôn lại thì dễ quên, nhất là các cặp hay nhầm trong tuần này.",
+   "quiz": null,
+   "reel": null,
+   "remember": "lend là cho mượn, bored là thấy chán, for đi với khoảng thời gian, currently là hiện tại.",
+   "right": "She is bored today.",
+   "right_note": "Hôm nay cô ấy thấy chán.",
+   "show_in_ui": true,
+   "slug": "mau-cau-006",
+   "tip": "Mẹo: mỗi tối ôn 1 câu trong 4 câu này, cuối tuần viết lại cả 4 câu không cần nhìn.",
+   "title": "Ôn lại 4 câu trong tuần",
+   "topic": "nhắc lại",
+   "type": "Mẫu câu",
+   "why": "Bốn câu này gom bốn lỗi hay gặp trong tuần: lend và borrow, bored và boring, for và since, actually và currently.",
+   "wrong": "She is boring today.",
+   "wrong_note": "Hôm nay cô ấy thật chán."
+  },
+  {
+   "code": "Meme #007",
+   "core": "Động từ phủ định bằng do hoặc don't, không dùng am.",
+   "date": "2026-11-21",
+   "examples": [
+    {
+     "en": "I don't understand this lesson.",
+     "vi": "Tôi không hiểu bài học này."
+    },
+    {
+     "en": "Sorry, I don't understand what you mean.",
+     "vi": "Xin lỗi, tôi không hiểu ý bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105875101550200",
+   "image_src": "ngay-10/Meme-007-dont-understand.png",
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Phủ định của động từ dùng don't, không dùng am.",
+     "options": [
+      "I am not understand the question.",
+      "I don't understand the question."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Sau chủ ngữ I, phủ định của understand dùng don't.",
+     "options": [
+      "am not",
+      "don't"
+     ],
+     "prompt": "Điền từ còn thiếu: I ___ understand."
+    }
+   ],
+   "problem": "Nhiều bạn thêm am trước động từ khi nói mình chưa hiểu.",
+   "quiz": null,
+   "remember": "Chưa hiểu thì nói I don't understand.",
+   "right": "I don't understand.",
+   "right_note": "",
+   "slug": "meme-007",
+   "title": "I am not understand",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "understand là động từ, phủ định dùng don't, không dùng am.",
+   "wrong": "I am not understand.",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Reel #008",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Call me when you arrive.",
+     "vi": "Gọi cho tôi khi bạn đến."
+    }
+   ],
+   "fb": "https://www.facebook.com/reel/1579442404211743",
+   "image_src": "reels/frames/reel-008-f1.png",
+   "ipa": [],
+   "practice": [],
+   "quiz": null,
+   "remember": "",
+   "right": "I will call you when I arrive.",
+   "right_note": "Sau when dùng hiện tại đơn.",
+   "slug": "reel-008",
+   "title": "when I will arrive",
+   "topic": "ngữ pháp",
+   "type": "Reels",
+   "why": "Sau when chỉ thời gian, động từ dùng hiện tại đơn dù ý nói tương lai.",
+   "wrong": "I will call you when I will arrive.",
+   "wrong_note": "Sau when lại dùng will.",
+   "reel": null,
+   "show_in_ui": false
+  },
+  {
+   "code": "Quiz nhanh #007",
+   "compare": [
+    {
+     "a": "island",
+     "b": "Iceland",
+     "note": "island là hòn đảo, Iceland là tên một đất nước, hai từ đọc khác nhau."
+    },
+    {
+     "a": "I live on a small island.",
+     "b": "I live in Iceland.",
+     "note": "Ở trên đảo thì dùng on, ở trong một nước thì dùng in."
+    }
+   ],
+   "core": "Đọc island theo âm thật, không đọc theo từng chữ cái.",
+   "date": "2026-11-21",
+   "dict_links": [
+    {
+     "label": "Cambridge, island",
+     "url": "https://dictionary.cambridge.org/dictionary/english/island"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We spent a week on a small island.",
+     "vi": "Chúng tôi đã ở một tuần trên một hòn đảo nhỏ."
+    },
+    {
+     "en": "The island has clean beaches and blue sea.",
+     "vi": "Hòn đảo có bãi biển sạch và biển xanh."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122105968155550200",
+   "image_src": "ngay-10/Quiz-nhanh-007-island.png",
+   "ipa": [
+    {
+     "note": "Anh và Mỹ đọc giống nhau",
+     "source": "Cambridge, Anh và Mỹ",
+     "text": "/ˈaɪ.lənd/"
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "The island is very beautiful.",
+     "wrong": "The is land is very beautiful."
+    },
+    {
+     "right": "She lives on a big island.",
+     "wrong": "She lives on a big is land."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Đảo nhỏ giữa biển thì gọi là island.",
+     "options": [
+      "Hòn đảo",
+      "Đất liền",
+      "Bán đảo"
+     ],
+     "prompt": "island nghĩa là gì?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Sống trên đảo thì dùng on, nói on an island.",
+     "options": [
+      "I live in a small island.",
+      "I live on a small island.",
+      "I live at a small island."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Đọc đúng là AI lənd, chữ s không phát âm.",
+     "options": [
+      "AI lənd",
+      "ÍT lân",
+      "AI sờ lân"
+     ],
+     "prompt": "island đọc như thế nào?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc island thành ít lân vì nhìn mặt chữ có chữ s ở giữa.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Chữ s không phát âm, chỉ đọc AI lənd.",
+    "options": [
+     "Chữ s",
+     "Chữ d",
+     "Chữ n"
+    ],
+    "prompt": "Chọn chữ câm trong island, nghĩa là hòn đảo.",
+    "question": "Trong island, chữ nào không phát âm?"
+   },
+   "reel": null,
+   "remember": "island đọc là AI lənd, chữ s câm.",
+   "right": "Chữ s là chữ câm trong island.",
+   "right_note": "island nghĩa là hòn đảo.",
+   "show_in_ui": true,
+   "slug": "quiz-nhanh-007",
+   "tip": "Nhớ island bằng cách nghĩ tới AI lənd, đọc to 3 lần để quen miệng.",
+   "title": "Chữ nào câm trong island?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "island đọc là AI lənd, chữ s câm, chữ d và chữ n đều đọc.",
+   "wrong": "Chữ d là chữ câm trong island.",
+   "wrong_note": ""
+  },
+  {
+   "code": "Dịch #002",
+   "compare": [
+    {
+     "a": "I have eaten already, thanks.",
+     "b": "I eat already, thanks.",
+     "note": "already đứng sau have eaten, không dùng hiện tại đơn cho việc đã xong."
+    },
+    {
+     "a": "We have already had dinner.",
+     "b": "We already eat dinner.",
+     "note": "had dinner là dạng quá khứ phân từ của have, ăn tối rồi thì dùng have had."
+    }
+   ],
+   "core": "Đã xong trước lúc nói thì dùng have + quá khứ phân từ, ví dụ have eaten.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Thanks, I have eaten already.",
+     "vi": "Cảm ơn bạn, tôi đã ăn rồi."
+    },
+    {
+     "en": "She has already eaten, thank you.",
+     "vi": "Cô ấy đã ăn rồi, cảm ơn bạn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106004905550200",
+   "image_src": "ngay-10/Dich-002-da-an-roi.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I have already finished lunch.",
+     "wrong": "I already finish lunch."
+    },
+    {
+     "right": "She has already eaten.",
+     "wrong": "She is eat already."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "đã ăn trưa rồi dùng hiện tại hoàn thành have had.",
+     "kind": "translate",
+     "options": [
+      "I have already had lunch.",
+      "I am eat lunch already."
+     ],
+     "prompt": "Dịch câu này: 'Tôi đã ăn trưa rồi.'"
+    },
+    {
+     "answer": 0,
+     "explanation": "đã ăn rồi dùng have eaten, không dùng hiện tại đơn.",
+     "options": [
+      "Thanks, I have already eaten.",
+      "Thanks, I already eat."
+     ],
+     "prompt": "Chọn câu đúng để từ chối lời mời ăn trưa:"
+    }
+   ],
+   "problem": "Nhiều bạn dịch đã ăn rồi thành I am eat already vì nghĩ already đi với hiện tại đơn. Thật ra việc đã xong trước lúc nói thì dùng hiện tại hoàn thành.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "đã ăn rồi dùng hiện tại hoàn thành have eaten, không dùng hiện tại đơn hay I am eat.",
+    "options": [
+     "I have already eaten, thank you.",
+     "I am eat already, thank you.",
+     "I already eat, thank you."
+    ],
+    "prompt": "Chọn câu dịch đúng nhất.",
+    "question": "How do you say 'Tôi đã ăn rồi, cảm ơn bạn nhé.' in English?"
+   },
+   "remember": "Đã ăn rồi = I have already eaten.",
+   "right": "I have already eaten.",
+   "right_note": "cách nói tự nhiên nhất khi đã ăn xong.",
+   "show_in_ui": true,
+   "slug": "dich-002",
+   "tip": "Nhớ nhanh: đã xong thì have + quá khứ phân từ, ví dụ have eaten.",
+   "title": "Đã ăn rồi",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "đã ăn rồi dùng hiện tại hoàn thành have eaten.",
+   "wrong": "'Tôi đã ăn rồi, cảm ơn bạn nhé.' tiếng Anh là gì?",
+   "wrong_note": "",
+   "reel": null
+  },
+  {
+   "code": "Hội thoại #007",
+   "compare": [
+    {
+     "a": "I am a teacher in Math.",
+     "b": "I am a Math teacher.",
+     "note": "Giáo viên dạy Toán thì nói a Math teacher, không nói in Math."
+    },
+    {
+     "a": "She is a teacher in music.",
+     "b": "She is a music teacher.",
+     "note": "Giáo viên dạy nhạc thì nói a music teacher, không nói in music."
+    }
+   ],
+   "core": "Nói giáo viên dạy môn nào thì đặt tên môn trước teacher: an English teacher, a Math teacher.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is an English teacher at my school.",
+     "vi": "Cô ấy là giáo viên tiếng Anh ở trường tôi."
+    },
+    {
+     "en": "My brother wants to be a Math teacher.",
+     "vi": "Anh trai tôi muốn làm giáo viên dạy Toán."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106064245550200/",
+   "image_src": "ngay-10/Hoi-thoai-007-english-teacher.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He is a history teacher.",
+     "wrong": "He is a teacher in history."
+    },
+    {
+     "right": "My sister is a science teacher.",
+     "wrong": "My sister is a teacher in science."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Trước English teacher dùng an vì English bắt đầu bằng nguyên âm.",
+     "kind": "fill_blank",
+     "options": [
+      "an",
+      "a"
+     ],
+     "prompt": "I am ___ English teacher."
+    },
+    {
+     "answer": 0,
+     "explanation": "Giáo viên dạy nhạc thì nói a music teacher.",
+     "kind": "fill_blank",
+     "options": [
+      "music",
+      "in music"
+     ],
+     "prompt": "She is a ___ teacher."
+    },
+    {
+     "answer": 1,
+     "explanation": "Giáo viên dạy môn nào thì đặt tên môn trước teacher.",
+     "options": [
+      "My friend is a teacher in history.",
+      "My friend is a history teacher."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      5,
+      0,
+      3
+     ],
+     "explanation": "Xếp đúng thứ tự: She, is, an, English, teacher, dấu chấm.",
+     "kind": "word_order",
+     "options": [
+      "teacher",
+      "She",
+      "is",
+      ".",
+      "an",
+      "English"
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'She / is / an / English / teacher / .'"
+    }
+   ],
+   "problem": "Bạn gặp người mới và muốn giới thiệu mình là giáo viên tiếng Anh. Bạn thêm in English sau teacher, người nghe tưởng bạn dạy trong một cuốn sách tiếng Anh.",
+   "quiz": null,
+   "remember": "Giáo viên dạy môn nào thì đặt tên môn trước teacher, không nói in English.",
+   "right": "I am an English teacher.",
+   "right_note": "Tôi là giáo viên tiếng Anh.",
+   "slug": "hoi-thoai-007",
+   "tip": "Dùng khi giới thiệu nghề nghiệp, kể về công việc.",
+   "title": "Tôi dạy tiếng Anh",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "giáo viên dạy môn nào thì nói an English teacher, không nói in English.",
+   "wrong": "I am a teacher in English.",
+   "wrong_note": "Tôi là giáo viên tiếng Anh.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #007",
+   "compare": [
+    {
+     "a": "She is afraid of dogs.",
+     "b": "She is afraid of a dog.",
+     "note": "Sợ chó nói chung thì dùng số nhiều, sợ một con chó cụ thể thì dùng a dog."
+    },
+    {
+     "a": "He is afraid of spiders.",
+     "b": "He is afraid of a spider.",
+     "note": "Số nhiều nói chung, a cộng danh từ số ít nói một con cụ thể."
+    }
+   ],
+   "core": "Nói về loài vật nói chung thì dùng danh từ số nhiều.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is afraid of cats.",
+     "vi": "Cô ấy sợ mèo."
+    },
+    {
+     "en": "My brother is afraid of snakes.",
+     "vi": "Anh trai tôi sợ rắn."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106116565550200",
+   "image_src": "ngay-10/Do-007-afraid-of-dogs.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We are afraid of dogs.",
+     "wrong": "We are afraid of dog."
+    },
+    {
+     "right": "They are afraid of snakes.",
+     "wrong": "They are afraid of snake."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Sợ chó nói chung thì dùng danh từ số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "dog",
+      "dogs"
+     ],
+     "prompt": "I am afraid of ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Sợ mèo nói chung thì dùng số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "cat",
+      "cats"
+     ],
+     "prompt": "She is afraid of ___."
+    },
+    {
+     "answer": 1,
+     "explanation": "Sợ rắn nói chung thì dùng số nhiều.",
+     "kind": "fill_blank",
+     "options": [
+      "snake",
+      "snakes"
+     ],
+     "prompt": "They are afraid of ___."
+    }
+   ],
+   "problem": "Bạn muốn nói mình sợ chó, nhưng viết I am afraid of dog thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Sợ chó nói chung thì dùng số nhiều, dog thành dogs.",
+    "options": [
+     "'dog' thành 'dogs'",
+     "'am' thành 'is'",
+     "'afraid' thành 'afraids'"
+    ],
+    "prompt": "Hãy nhìn danh từ sau afraid of.",
+    "question": "Câu 'I am afraid of dog.' sai ở đâu?"
+   },
+   "remember": "Sợ một loài nói chung thì dùng danh từ số nhiều: afraid of dogs.",
+   "right": "I am afraid of dogs.",
+   "right_note": "Tôi sợ chó.",
+   "slug": "do-007",
+   "tip": "Nhớ nhanh: sợ chung thì thêm s.",
+   "title": "afraid of dog",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "Nói về loài vật nói chung thì dùng danh từ số nhiều.",
+   "wrong": "I am afraid of dog.",
+   "wrong_note": "Tôi sợ chó.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Quiz #010",
+   "compare": [
+    {
+     "a": "We agree with the plan.",
+     "b": "We are agree with the plan.",
+     "note": "agree là động từ, không cần am."
+    },
+    {
+     "a": "an hour",
+     "b": "a hour",
+     "note": "hour bắt đầu bằng âm o, chữ h câm nên dùng an."
+    }
+   ],
+   "core": "agree là động từ nên không cần am, hour bắt đầu bằng âm o nên dùng an, actually dùng để đính chính.",
+   "date": "2026-11-21",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "We agree with the plan.",
+     "vi": "Chúng tôi đồng ý với kế hoạch."
+    },
+    {
+     "en": "She has lived here since 2020.",
+     "vi": "Cô ấy sống ở đây từ năm 2020."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106178065550200",
+   "image_src": "ngay-10/Quiz-010-tong-hop-tuan.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They agree with us.",
+     "wrong": "They are agree with us."
+    },
+    {
+     "right": "an hour ago",
+     "wrong": "a hour ago"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "hour bắt đầu bằng âm o, chữ h câm nên dùng an.",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "prompt": "___ hour"
+    },
+    {
+     "answer": 1,
+     "explanation": "actually nghĩa là thật ra, dùng để đính chính.",
+     "options": [
+      "Currently",
+      "Actually",
+      "Finally"
+     ],
+     "prompt": "___ , I do not like coffee."
+    }
+   ],
+   "problem": "Một tuần 3 lỗi, ôn lại xem bạn nhớ được mấy câu.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "agree là động từ, không cần am.",
+    "options": [
+     "am agree",
+     "agree",
+     "agrees"
+    ],
+    "prompt": "I ___ with your idea.",
+    "question": "Ôn lại 3 lỗi trong tuần, câu 1 nhé."
+   },
+   "reel": null,
+   "remember": "agree đi một mình, hour dùng an, actually nghĩa là thật ra.",
+   "right": "I agree with your idea.",
+   "right_note": "Câu này đúng, không thừa am.",
+   "show_in_ui": true,
+   "slug": "quiz-010",
+   "tip": "Nhớ nhanh: thấy am trước agree thì bỏ am, thấy hour thì dùng an.",
+   "title": "3 câu ôn lại tuần này",
+   "topic": "quiz tổng hợp",
+   "type": "Quiz",
+   "why": "3 câu này ôn lại 3 lỗi trong tuần: thừa am sau agree, dùng a trước hour, nhầm actually với currently.",
+   "wrong": "I am agree with your idea.",
+   "wrong_note": "Thừa am trước động từ agree."
+  },
+  {
+   "code": "Câu đố ngược #002",
+   "compare": [
+    {
+     "a": "He told us the news.",
+     "b": "He said the news to us.",
+     "note": "tell đi thẳng với người nghe, say cần to trước người nghe."
+    }
+   ],
+   "core": "Muốn nhắc người nghe thì dùng tell, muốn nhắc nội dung thì dùng say.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She told me the news.",
+     "vi": "Cô ấy kể cho tôi tin đó."
+    },
+    {
+     "en": "He said the news.",
+     "vi": "Anh ấy nói tin đó."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106670035550200/",
+   "image_src": "ngay-11/Cau-do-nguoc-002-said-me.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "She told him the story.",
+     "wrong": "She said him the story."
+    },
+    {
+     "right": "He said hello to me.",
+     "wrong": "He told hello to me."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "tell đi với người nghe.",
+     "options": [
+      "She said me the story.",
+      "She told me the story."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "muốn nhắc người nghe thì dùng told.",
+     "options": [
+      "said",
+      "told"
+     ],
+     "prompt": "Điền dạng đúng: He ___ me the news."
+    }
+   ],
+   "problem": "Kể tin cho bạn mà nói sai say và tell thì nghe lúng túng ngay.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "tell đi với người nghe, say đi với nội dung.",
+    "options": [
+     "'said me' thành 'told me'",
+     "'said' thành 'sayed'",
+     "'the news' thành 'a news'"
+    ],
+    "prompt": "Chọn chỗ sai:",
+    "question": "Câu 'She said me the news.' sai ở đâu?"
+   },
+   "remember": "tell người nghe, say nội dung.",
+   "right": "She told me the news.",
+   "right_note": "tell đi với người nghe.",
+   "show_in_ui": true,
+   "slug": "cau-do-nguoc-002",
+   "tip": "Nhớ nhanh: tell + người nghe, say + nội dung.",
+   "title": "said me the news",
+   "topic": "ôn tập",
+   "type": "Quiz",
+   "why": "tell đi với người nghe, say đi với nội dung.",
+   "wrong": "She said me the news.",
+   "wrong_note": "said không đi với người nghe.",
+   "reel": null
+  },
+  {
+   "code": "Mẹo #007",
+   "compare": [
+    {
+     "a": "This book is better than that one.",
+     "b": "We eat first, then we watch a film.",
+     "note": "than đi với so sánh, then đi với trình tự."
+    }
+   ],
+   "core": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "date": "2026-11-22",
+   "examples": [
+    {
+     "en": "My house is bigger than yours.",
+     "vi": "Nhà tôi to hơn nhà bạn."
+    },
+    {
+     "en": "First we study, then we play.",
+     "vi": "Trước tiên chúng ta học, rồi chúng ta chơi."
+    }
+   ],
+   "fb": "https://www.facebook.com/saidausuado/posts/pfbid02DhBj3zHYBBgfV6tH2VpJok8ZxhDLX9cMCXgmZmRcvyvRhuvcjdzQj1opiHjVoNxDl",
+   "image_src": "ngay-11/Meo-007-then-than.png",
+   "mistakes": [
+    {
+     "right": "He is stronger than his brother.",
+     "wrong": "He is stronger then his brother."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "So sánh hơn thì dùng than.",
+     "options": [
+      "than",
+      "then"
+     ],
+     "prompt": "Chọn từ đúng: My brother is older ___ I am."
+    },
+    {
+     "answer": 1,
+     "explanation": "Kể trình tự thì dùng then.",
+     "options": [
+      "than",
+      "then"
+     ],
+     "prompt": "Chọn từ đúng: We finish work, ___ we go home."
+    },
+    {
+     "answer": 0,
+     "explanation": "So sánh hơn thì dùng than, không dùng then.",
+     "options": [
+      "She runs faster than her sister.",
+      "She runs faster then her sister."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Khoe bạn mình cao hơn mà viết then thay vì than, người đọc vẫn hiểu nhưng sai ngay chữ quan trọng nhất.",
+   "quiz": null,
+   "remember": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "right": "She is taller than me.",
+   "right_note": "",
+   "slug": "meo-007",
+   "tip": "So sánh hơn thì dùng than, kể trình tự thì dùng then.",
+   "title": "then và than",
+   "topic": "từ vựng",
+   "type": "Lỗi",
+   "why": "then và than nghe gần giống nhau nhưng nghĩa khác hẳn. than dùng khi so sánh, then dùng khi kể trình tự.",
+   "wrong": "She is taller then me.",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Câu nào đúng? #003",
+   "compare": [
+    {
+     "a": "The man who helped me is my teacher.",
+     "b": "The car which I bought is new.",
+     "note": "Người thì dùng who, vật thì dùng which."
+    },
+    {
+     "a": "She is the teacher who taught me.",
+     "b": "This is the book which I like.",
+     "note": "who đứng sau người, which đứng sau vật."
+    }
+   ],
+   "core": "who cho người, which cho vật.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "The woman who teaches me English is very kind.",
+     "vi": "Cô giáo dạy tôi tiếng Anh rất tốt bụng."
+    },
+    {
+     "en": "The book which I bought yesterday is very interesting.",
+     "vi": "Cuốn sách tôi mua hôm qua rất hay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106776535550200",
+   "image_src": "ngay-11/Cau-nao-dung-003-who-which.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "The girl who sits next to me is my friend.",
+     "wrong": "The girl which sits next to me is my friend."
+    },
+    {
+     "right": "The house which we visited is very old.",
+     "wrong": "The house who we visited is very old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "who dùng cho người.",
+     "options": [
+      "The teacher which helped me is kind.",
+      "The teacher who helped me is kind."
+     ],
+     "prompt": "Bạn giới thiệu cô giáo đã giúp mình, chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "which dùng cho vật, sách là vật.",
+     "options": [
+      "who",
+      "which"
+     ],
+     "prompt": "Điền từ đúng: 'This is the book ___ I like most.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "which dùng cho vật.",
+     "options": [
+      "The car who I bought is red.",
+      "The car which I bought is red."
+     ],
+     "prompt": "Chọn câu đúng khi nói về chiếc xe bạn mới mua:"
+    }
+   ],
+   "problem": "Nhiều bạn dùng which cho người vì nghĩ which và who giống nhau. Thật ra who dùng cho người, which dùng cho vật.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "who dùng cho người, which dùng cho vật. Nguồn: Cambridge Grammar, relative clauses.",
+    "options": [
+     "The man which helped me is my teacher.",
+     "The man who helped me is my teacher."
+    ],
+    "prompt": "Chọn câu đúng:",
+    "question": "Giới thiệu thầy giáo đã giúp mình, câu nào đúng?"
+   },
+   "remember": "who cho người, which cho vật.",
+   "right": "The man who helped me is my teacher.",
+   "right_note": "who dùng cho người.",
+   "slug": "cau-nao-dung-003",
+   "tip": "Nhớ nhanh: who hỏi người, which hỏi vật.",
+   "title": "who và which",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "who dùng cho người, which dùng cho vật.",
+   "wrong": "The man which helped me is my teacher.",
+   "wrong_note": "which dùng cho vật, không dùng cho người.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #011",
+   "compare": [
+    {
+     "a": "He has 30 years old.",
+     "b": "He is 30 years old.",
+     "note": "have chỉ dùng cho sở hữu, be dùng cho tuổi."
+    }
+   ],
+   "core": "Hỏi và nói tuổi thì dùng be.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is 30 years old.",
+     "vi": "Cô ấy 30 tuổi."
+    },
+    {
+     "en": "My brother is 18 years old.",
+     "vi": "Em trai tôi 18 tuổi."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122106828729550200/",
+   "image_src": "ngay-11/format-c-ai-cung-tung-noi-sai.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are 40 years old.",
+     "wrong": "They have 40 years old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Tuổi dùng be, không dùng have.",
+     "options": [
+      "She has 22 years old.",
+      "She is 22 years old."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Điền be, không điền have.",
+     "kind": "fill_blank",
+     "options": [
+      "have",
+      "am"
+     ],
+     "prompt": "I ___ 25 years old."
+    },
+    {
+     "answer": 1,
+     "explanation": "We đi với are khi nói tuổi.",
+     "options": [
+      "We have 18 years old.",
+      "We are 18 years old."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Đi làm, gặp người nước ngoài hỏi tuổi, nhiều bạn trả lời bằng have rồi thêm số tuổi.",
+   "quiz": null,
+   "reel": null,
+   "remember": "Nói tuổi thì dùng be, không dùng have.",
+   "right": "I am 25 years old.",
+   "right_note": "Tôi 25 tuổi.",
+   "show_in_ui": true,
+   "slug": "cau-nay-ai-cung-tung-noi-sai",
+   "tip": "Hỏi tuổi người khác thì hỏi How old are you?",
+   "title": "25 years old",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+   "wrong": "I have 25 years old.",
+   "wrong_note": "Tôi có 25 tuổi."
+  },
+  {
+   "code": "Quiz nhanh #008",
+   "compare": [
+    {
+     "a": "She goes to work by train.",
+     "b": "She goes to work with her sister.",
+     "note": "by đi với phương tiện, with đi với người đi cùng."
+    },
+    {
+     "a": "He travels by plane.",
+     "b": "He writes with a pen.",
+     "note": "by đi với phương tiện, with đi với công cụ."
+    }
+   ],
+   "core": "Đi bằng phương tiện thì dùng by.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She goes to work by bus.",
+     "vi": "Cô ấy đi làm bằng xe buýt."
+    },
+    {
+     "en": "I go to Da Lat by bus.",
+     "vi": "Tôi đi Đà Lạt bằng xe buýt."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122106974415550200",
+   "image_src": "ngay-11/Quiz-nhanh-008-by-bus.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They go to school by bike.",
+     "wrong": "They go to school with bike."
+    },
+    {
+     "right": "We travel by car.",
+     "wrong": "We travel with car."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Đi bằng máy bay thì dùng by.",
+     "options": [
+      "by",
+      "with",
+      "on"
+     ],
+     "prompt": "Điền giới từ đúng: 'They travel ___ plane.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "Đi bằng ô tô thì dùng by.",
+     "options": [
+      "I go to work with car.",
+      "I go to work by car."
+     ],
+     "prompt": "Chọn câu đúng khi kể cách đi làm:"
+    }
+   ],
+   "problem": "Nhiều bạn nói with bus khi kể cách đi học, người nghe tưởng bạn đi cùng một chiếc xe buýt. Thật ra giới từ đúng cho phương tiện là by.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "Phương tiện đi lại dùng by, không dùng with hay on.",
+    "options": [
+     "by",
+     "with",
+     "on"
+    ],
+    "prompt": "Chọn giới từ đúng cho câu 'I go to school ___ bus.':",
+    "question": "Đi xe buýt thì dùng giới từ nào?"
+   },
+   "remember": "Đi bằng phương tiện thì dùng by, đi cùng ai thì dùng with.",
+   "right": "I go to school by bus.",
+   "right_note": "by đi với phương tiện.",
+   "slug": "quiz-nhanh-008",
+   "tip": "Nhớ nhanh: by bus, by train, by plane.",
+   "title": "đi xe buýt, dùng giới từ nào",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "by đi với phương tiện, with đi với công cụ hoặc người đi cùng.",
+   "wrong": "I go to school with bus.",
+   "wrong_note": "with đi với người đi cùng hoặc công cụ, không đi với phương tiện.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Meme #008",
+   "core": "people luôn đi với are, không đi với is.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "People in Da Lat are very kind.",
+     "vi": "Người ở Đà Lạt rất tốt bụng."
+    },
+    {
+     "en": "The people here are friendly and helpful.",
+     "vi": "Người ở đây thân thiện và hay giúp đỡ."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122107026423550200",
+   "image_src": "ngay-11/Meme-008-people-are.png",
+   "ipa": [],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "people là số nhiều nên đi với are.",
+     "options": [
+      "People is very happy today.",
+      "People are very happy today."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "people là danh từ số nhiều, đi với are.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "prompt": "Điền từ còn thiếu: People ___ very friendly here."
+    }
+   ],
+   "problem": "Nhiều bạn khen người ở một nơi nào đó mà dùng is sau people.",
+   "quiz": null,
+   "remember": "people là số nhiều, đi với are.",
+   "right": "People are very friendly here.",
+   "right_note": "",
+   "slug": "meme-008",
+   "title": "People is",
+   "topic": "giao tiếp",
+   "type": "Lỗi",
+   "why": "people là danh từ số nhiều, luôn đi với động từ số nhiều.",
+   "wrong": "People is very friendly here.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #008",
+   "compare": [
+    {
+     "a": "My sister is at school now.",
+     "b": "My brother is at work now.",
+     "note": "Đang ở trường thì nói at school, đang ở chỗ làm thì nói at work."
+    },
+    {
+     "a": "The children are at school.",
+     "b": "The students are in the classroom.",
+     "note": "at school chỉ đang ở trường nói chung, in the classroom chỉ đang ở trong phòng học cụ thể."
+    }
+   ],
+   "core": "at school là cụm cố định, nói đang ở trường thì không thêm the.",
+   "date": "2026-11-22",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is at school today.",
+     "vi": "Hôm nay cô ấy đang ở trường."
+    },
+    {
+     "en": "My brother is at school this morning.",
+     "vi": "Sáng nay anh trai tôi đang ở trường."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122107163241550200",
+   "image_src": "ngay-11/Do-008-at-school.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We are at school today.",
+     "wrong": "We are in the school today."
+    },
+    {
+     "right": "He is at home now.",
+     "wrong": "He is in the home now."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Cụm đúng là at school.",
+     "kind": "fill_blank",
+     "options": [
+      "in the",
+      "at"
+     ],
+     "prompt": "He is ___ school now."
+    },
+    {
+     "answer": 1,
+     "explanation": "Đang ở chỗ làm thì nói at work.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "at"
+     ],
+     "prompt": "She is ___ work today."
+    },
+    {
+     "answer": 1,
+     "explanation": "Đang ở nhà thì nói at home.",
+     "kind": "fill_blank",
+     "options": [
+      "in",
+      "at"
+     ],
+     "prompt": "They are ___ home now."
+    }
+   ],
+   "problem": "Bạn muốn nói mình đang ở trường, nhưng viết in the school thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "in the school sai, cụm đúng là at school.",
+    "options": [
+     "'in the school' thành 'at school'",
+     "'am' thành 'is'",
+     "'now' thành 'today'"
+    ],
+    "prompt": "Hãy nhìn cụm từ chỉ nơi chốn.",
+    "question": "Câu đố này sai ở đâu?"
+   },
+   "remember": "Đang ở trường thì nói at school, không thêm the.",
+   "right": "I am at school now.",
+   "right_note": "Tôi đang ở trường.",
+   "slug": "do-008",
+   "tip": "Nhớ nhanh: ở trường, ở nhà, ở chỗ làm đều dùng at, không thêm the.",
+   "title": "at school",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "at school là cụm cố định chỉ đang ở trường, không dùng in the school khi nói mình đang học ở trường.",
+   "wrong": "I am in the school now.",
+   "wrong_note": "Tôi đang ở trong trường.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Thử thách Ngày 1",
+   "compare": [
+    {
+     "a": "My brother is 18 years old.",
+     "b": "My brother has a new bike.",
+     "note": "Tuổi dùng be, sở hữu đồ vật mới dùng have."
+    },
+    {
+     "a": "I am 25.",
+     "b": "I have 25 books.",
+     "note": "Nói tuổi chỉ cần be và số, have dùng khi sở hữu đồ vật."
+    }
+   ],
+   "core": "Tuổi dùng be, không dùng have.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is 30 years old.",
+     "vi": "Cô ấy 30 tuổi."
+    },
+    {
+     "en": "My son is five years old.",
+     "vi": "Con trai tôi năm tuổi."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107649175550200",
+   "image_src": "thu-thach-7-ngay/mo-man.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are ten years old.",
+     "wrong": "They have ten years old."
+    },
+    {
+     "right": "She is 40 years old.",
+     "wrong": "She has 40 years old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Tuổi dùng be, không dùng have.",
+     "options": [
+      "I have 30 years old.",
+      "I am 30 years old."
+     ],
+     "prompt": "Chọn câu đúng khi giới thiệu tuổi:"
+    },
+    {
+     "answer": 0,
+     "explanation": "She đi với is khi nói tuổi.",
+     "kind": "fill_blank",
+     "options": [
+      "is",
+      "has",
+      "have"
+     ],
+     "prompt": "She ___ 12 years old."
+    }
+   ],
+   "problem": "Nhiều bạn Việt khi được hỏi tuổi thường trả lời bằng have, nghe quen tai nhưng người bản xứ thấy sai ngay.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+    "options": [
+     "have",
+     "am",
+     "is"
+    ],
+    "prompt": "Điền từ đúng: 'I ___ 25 years old.'",
+    "question": "Câu nào đúng khi nói tuổi?"
+   },
+   "reel": null,
+   "remember": "Nói tuổi thì dùng be, không dùng have.",
+   "right": "I am 25 years old.",
+   "right_note": "Tôi 25 tuổi.",
+   "show_in_ui": true,
+   "slug": "thu-thach-ngay-1",
+   "tip": "Nhớ nhanh: hỏi tuổi thì hỏi How old are you?",
+   "title": "nói tuổi",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+   "wrong": "I have 25 years old.",
+   "wrong_note": "Tuổi không dùng have."
+  },
+  {
+   "code": "Mẫu câu #010",
+   "compare": [
+    {
+     "a": "We need to make a decision soon.",
+     "b": "We need to do a decision soon.",
+     "note": "decision đi với make, không đi với do."
+    },
+    {
+     "a": "She does her homework every evening.",
+     "b": "She makes her homework every evening.",
+     "note": "homework và task đi với do, không đi với make."
+    }
+   ],
+   "core": "decision, mistake đi với make; task, homework, work đi với do.",
+   "date": "2026-11-23",
+   "dict_links": [
+    {
+     "label": "Cambridge, make",
+     "url": "https://dictionary.cambridge.org/dictionary/english/make"
+    },
+    {
+     "label": "Cambridge, do",
+     "url": "https://dictionary.cambridge.org/dictionary/english/do"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I will make a decision today.",
+     "vi": "Tôi sẽ quyết định hôm nay."
+    },
+    {
+     "en": "I have to do this task today.",
+     "vi": "Tôi phải làm nhiệm vụ này hôm nay."
+    },
+    {
+     "en": "She made a mistake in the report.",
+     "vi": "Cô ấy mắc lỗi trong báo cáo."
+    },
+    {
+     "en": "He does his work very carefully.",
+     "vi": "Anh ấy làm việc rất cẩn thận."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107801173550200",
+   "image_src": "ngay-12/Mau-cau-010-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They made a decision yesterday.",
+     "wrong": "They did a decision yesterday."
+    },
+    {
+     "right": "I do my homework every day.",
+     "wrong": "I make my homework every day."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "decision đi với make, không đi với do.",
+     "kind": "fill_blank",
+     "options": [
+      "did",
+      "made"
+     ],
+     "prompt": "They ___ a decision yesterday."
+    },
+    {
+     "answer": 1,
+     "explanation": "decision đi với make, không đi với do.",
+     "kind": "distinguish",
+     "options": [
+      "We will do a decision tomorrow.",
+      "We will make a decision tomorrow."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": [
+      1,
+      3,
+      4,
+      5,
+      0,
+      2,
+      6
+     ],
+     "explanation": "mistake đi với make, không đi với do.",
+     "kind": "word_order",
+     "options": [
+      "mistake",
+      "He",
+      "yesterday",
+      "made",
+      "a",
+      "big",
+      "."
+     ],
+     "prompt": "Sắp xếp thành câu đúng: 'mistake / He / yesterday / made / a / big / .'"
+    }
+   ],
+   "problem": "Cuối ngày sếp hỏi đã quyết chưa mà nói do a decision thì người nghe thấy sai ngay.",
+   "quiz": null,
+   "remember": "Muốn nói quyết định thì dùng make a decision, muốn nói làm nhiệm vụ thì dùng do a task.",
+   "right": "I will make a decision.",
+   "right_note": "Tôi sẽ đưa ra quyết định.",
+   "slug": "mau-cau-010",
+   "tip": "Họp thì nói make a decision khi quyết định, do this task khi nhận nhiệm vụ.",
+   "title": "make và do",
+   "topic": "công sở",
+   "type": "Mẫu câu",
+   "why": "make đi với decision, do đi với task.",
+   "wrong": "I will do a decision.",
+   "wrong_note": "Tôi sẽ đưa ra quyết định.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Quiz nhanh #009",
+   "compare": [
+    {
+     "a": "wrong",
+     "b": "write",
+     "note": "wrong và write đều có chữ w câm ở đầu."
+    },
+    {
+     "a": "I was wrong.",
+     "b": "I wrote a letter.",
+     "note": "Cả hai câu đều có từ bắt đầu bằng wr, chữ w đều câm."
+    }
+   ],
+   "core": "wrong đọc là rong, chữ w câm.",
+   "date": "2026-11-23",
+   "dict_links": [
+    {
+     "label": "Cambridge, wrong",
+     "url": "https://dictionary.cambridge.org/dictionary/english/wrong"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was wrong about the time.",
+     "vi": "Tôi đã nhầm về giờ giấc."
+    },
+    {
+     "en": "Please write your name here.",
+     "vi": "Làm ơn viết tên của bạn vào đây."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107927803550200",
+   "image_src": "ngay-12/Quiz-nhanh-009-wrong.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "You are wrong.",
+     "wrong": "You are w rong."
+    },
+    {
+     "right": "Please write your name.",
+     "wrong": "Please w write your name."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "write nghĩa là viết, chữ w cũng câm.",
+     "options": [
+      "Viết",
+      "Đọc",
+      "Nghe"
+     ],
+     "prompt": "write nghĩa là gì?"
+    },
+    {
+     "answer": 0,
+     "explanation": "write cũng bắt đầu bằng wr, chữ w câm. water và window đọc chữ w.",
+     "options": [
+      "write",
+      "water",
+      "window"
+     ],
+     "prompt": "Từ nào sau đây cũng có chữ w câm?"
+    }
+   ],
+   "problem": "Nhiều bạn đọc wrong có âm w ở đầu vì nhìn mặt chữ, nhưng thật ra chữ w không phát âm.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "wrong đọc là rong, chữ w câm, chữ r và chữ g đều đọc.",
+    "options": [
+     "Chữ w",
+     "Chữ r",
+     "Chữ g"
+    ],
+    "prompt": "Chọn chữ câm trong wrong, nghĩa là sai.",
+    "question": "Trong wrong, chữ nào không phát âm?"
+   },
+   "remember": "wrong đọc là rong, chữ w câm.",
+   "right": "Chữ w là chữ câm trong wrong.",
+   "right_note": "wrong nghĩa là sai.",
+   "slug": "quiz-nhanh-009",
+   "tip": "Nhớ nhanh: wrong, write, wrist đều có chữ w câm ở đầu.",
+   "title": "Chữ nào câm trong wrong?",
+   "topic": "phát âm",
+   "type": "Quiz",
+   "why": "wrong đọc là rong, chữ w câm, chữ r và chữ g đều đọc.",
+   "wrong": "Chữ r là chữ câm trong wrong.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Lỗi nhanh #008",
+   "compare": [
+    {
+     "a": "Please reply the message.",
+     "b": "Please reply to the message.",
+     "note": "Trả lời tin nhắn cũng dùng reply to, giống như trả lời email."
+    },
+    {
+     "a": "Please reply me soon.",
+     "b": "Please reply to me soon.",
+     "note": "Trả lời một người cũng dùng reply to, không nói reply me."
+    }
+   ],
+   "core": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Please reply to my email when you have time.",
+     "vi": "Làm ơn trả lời email của tôi khi bạn rảnh."
+    },
+    {
+     "en": "He did not reply to the letter yesterday.",
+     "vi": "Hôm qua anh ấy không trả lời thư."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107974921550200",
+   "image_src": "ngay-12/Chat-008-reply-to-email.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Please reply to this email today.",
+     "wrong": "Please reply this email today."
+    },
+    {
+     "right": "He replied to my message this morning.",
+     "wrong": "He replied my message this morning."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "reply đi với to khi có tân ngữ là thư.",
+     "kind": "fill_blank",
+     "options": [
+      "reply",
+      "reply to"
+     ],
+     "prompt": "Please ___ the email before lunch."
+    },
+    {
+     "answer": 1,
+     "explanation": "reply cần to khi có tân ngữ là thư.",
+     "options": [
+      "Please reply the email now.",
+      "Please reply to the email now."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Trả lời thư thì dùng reply to.",
+     "kind": "fill_blank",
+     "options": [
+      "reply",
+      "reply to"
+     ],
+     "prompt": "She did not ___ his letter yesterday."
+    }
+   ],
+   "problem": "Sếp nhắn trả lời email gấp, bạn viết Please reply the email, email nghe xong không biết trả lời ai.",
+   "quiz": null,
+   "remember": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "right": "Please reply to the email.",
+   "right_note": "Làm ơn trả lời email này.",
+   "slug": "loi-nhanh-008",
+   "tip": "Dùng khi viết email công sở, nhờ ai trả lời thư.",
+   "title": "reply và reply to",
+   "topic": "công sở",
+   "type": "Lỗi",
+   "why": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "wrong": "Please reply the email.",
+   "wrong_note": "Làm ơn trả lời email này.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #009",
+   "compare": [
+    {
+     "a": "She goes shopping on Sunday.",
+     "b": "She goes to the market on Sunday.",
+     "note": "Đi mua sắm nói chung thì dùng go shopping, đi tới chợ cụ thể thì dùng go to the market."
+    },
+    {
+     "a": "They go shopping together.",
+     "b": "They go to school together.",
+     "note": "go shopping không có to, go to school có to vì school là nơi chốn cụ thể."
+    }
+   ],
+   "core": "Đi mua sắm thì nói go shopping, không thêm to.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She goes shopping every Saturday.",
+     "vi": "Cô ấy đi mua sắm mỗi thứ Bảy."
+    },
+    {
+     "en": "We will go shopping after lunch.",
+     "vi": "Chúng tôi sẽ đi mua sắm sau bữa trưa."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122108109843550200",
+   "image_src": "ngay-12/Do-009-go-shopping.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We go shopping every weekend.",
+     "wrong": "We go to shopping every weekend."
+    },
+    {
+     "right": "He goes shopping with his mother.",
+     "wrong": "He goes to shopping with his mother."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Đi mua sắm thì nói go shopping, không thêm to.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "I will go ___ tomorrow."
+    },
+    {
+     "answer": 1,
+     "explanation": "go shopping là cụm cố định.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "They go ___ on Sunday."
+    },
+    {
+     "answer": 1,
+     "explanation": "go shopping không có to ở giữa.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "He goes ___ with his mother."
+    }
+   ],
+   "problem": "Bạn hẹn bạn đi mua sắm ngày mai, nhưng thêm to vào giữa go và shopping thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "go shopping là cụm cố định, không có to ở giữa.",
+    "options": [
+     "'go to shopping' thành 'go shopping'",
+     "'will' thành 'would'",
+     "'tomorrow' thành 'yesterday'"
+    ],
+    "prompt": "Hãy nhìn cụm từ go shopping.",
+    "question": "Câu đố này sai ở đâu?"
+   },
+   "remember": "Đi mua sắm thì nói go shopping, không thêm to.",
+   "right": "I will go shopping tomorrow.",
+   "right_note": "Tôi sẽ đi mua sắm vào ngày mai.",
+   "slug": "do-009",
+   "tip": "Nhớ nhanh: go shopping, go swimming, go fishing đều không có to.",
+   "title": "go to shopping",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "go shopping là cụm cố định, không có to ở giữa.",
+   "wrong": "I will go to shopping tomorrow.",
+   "wrong_note": "Ngày mai tôi sẽ đi mua sắm.",
+   "reel": null,
+   "show_in_ui": true
+  },
+  {
+   "code": "Quiz #011",
+   "compare": [
+    {
+     "a": "She made a decision quickly.",
+     "b": "She did a decision quickly.",
+     "note": "make đi với decision, không dùng do."
+    },
+    {
+     "a": "He does his homework every day.",
+     "b": "He makes his homework every day.",
+     "note": "do đi với homework và công việc chung."
+    }
+   ],
+   "core": "make đi với decision, do đi với task.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I will make a decision today.",
+     "vi": "Tôi sẽ quyết định hôm nay."
+    },
+    {
+     "en": "I have to do this task today.",
+     "vi": "Tôi phải làm nhiệm vụ này hôm nay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122108183553550200",
+   "image_src": "ngay-12/Quiz-011-make-do.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They made a mistake in the report.",
+     "wrong": "They did a mistake in the report."
+    },
+    {
+     "right": "I do my homework.",
+     "wrong": "I make my homework."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "mistake đi với make.",
+     "options": [
+      "made",
+      "did",
+      "took"
+     ],
+     "prompt": "She ___ a mistake in the report."
+    },
+    {
+     "answer": 1,
+     "explanation": "homework đi với do.",
+     "options": [
+      "makes",
+      "does",
+      "takes"
+     ],
+     "prompt": "He ___ his homework every day."
+    }
+   ],
+   "problem": "Sếp cần quyết định trước 5 giờ chiều, bạn điền từ nào vào chỗ trống?",
+   "quiz": {
+    "answer": 1,
+    "explanation": "Cụm đúng là make a decision, do không đi với decision.",
+    "options": [
+     "do",
+     "make",
+     "take"
+    ],
+    "prompt": "I need to ___ a decision before 5pm.",
+    "question": "Điền từ đúng vào chỗ trống nhé."
+   },
+   "reel": null,
+   "remember": "make a decision, do a task.",
+   "right": "I need to make a decision.",
+   "right_note": "make đi với decision.",
+   "show_in_ui": true,
+   "slug": "quiz-011",
+   "tip": "Nhớ nhanh: quyết định thì make, nhiệm vụ thì do.",
+   "title": "make và do",
+   "topic": "công sở",
+   "type": "Quiz",
+   "why": "decision đi với make, do đi với task và công việc chung.",
+   "wrong": "I need to do a decision.",
+   "wrong_note": "do không đi với decision."
   }
  ],
  "site": {
@@ -6677,7 +9721,8 @@
      "quiz-002",
      "loi-003",
      "mau-cau-001",
-     "mau-cau-002"
+     "mau-cau-002",
+     "ngu-phap-b1-b2-002"
     ],
     "icon": "🌱"
    },
@@ -6690,7 +9735,12 @@
      "loi-003",
      "mau-cau-001",
      "mau-cau-002",
-     "quiz-001"
+     "quiz-001",
+     "ngu-phap-b1-b2-002",
+     "cau-nay-ai-cung-tung-noi-sai",
+     "mau-cau-010",
+     "loi-nhanh-008",
+     "quiz-011"
     ],
     "icon": "💼"
    },
@@ -6704,7 +9754,8 @@
      "loi-002",
      "quiz-002",
      "quiz-nhanh-001",
-     "quiz-nhanh-005"
+     "quiz-nhanh-005",
+     "quiz-nhanh-006"
     ],
     "icon": "🗣️"
    }
