@@ -9428,6 +9428,93 @@
    "wrong_note": "",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi nhanh #008",
+   "compare": [
+    {
+     "a": "Please reply the message.",
+     "b": "Please reply to the message.",
+     "note": "Trả lời tin nhắn cũng dùng reply to, giống như trả lời email."
+    },
+    {
+     "a": "Please reply me soon.",
+     "b": "Please reply to me soon.",
+     "note": "Trả lời một người cũng dùng reply to, không nói reply me."
+    }
+   ],
+   "core": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Please reply to my email when you have time.",
+     "vi": "Làm ơn trả lời email của tôi khi bạn rảnh."
+    },
+    {
+     "en": "He did not reply to the letter yesterday.",
+     "vi": "Hôm qua anh ấy không trả lời thư."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107974921550200",
+   "image_src": "ngay-12/Chat-008-reply-to-email.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Please reply to this email today.",
+     "wrong": "Please reply this email today."
+    },
+    {
+     "right": "He replied to my message this morning.",
+     "wrong": "He replied my message this morning."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "reply đi với to khi có tân ngữ là thư.",
+     "kind": "fill_blank",
+     "options": [
+      "reply",
+      "reply to"
+     ],
+     "prompt": "Please ___ the email before lunch."
+    },
+    {
+     "answer": 1,
+     "explanation": "reply cần to khi có tân ngữ là thư.",
+     "options": [
+      "Please reply the email now.",
+      "Please reply to the email now."
+     ],
+     "prompt": "Chọn câu đúng:"
+    },
+    {
+     "answer": 1,
+     "explanation": "Trả lời thư thì dùng reply to.",
+     "kind": "fill_blank",
+     "options": [
+      "reply",
+      "reply to"
+     ],
+     "prompt": "She did not ___ his letter yesterday."
+    }
+   ],
+   "problem": "Sếp nhắn trả lời email gấp, bạn viết Please reply the email, email nghe xong không biết trả lời ai.",
+   "quiz": null,
+   "remember": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "right": "Please reply to the email.",
+   "right_note": "Làm ơn trả lời email này.",
+   "slug": "loi-nhanh-008",
+   "tip": "Dùng khi viết email công sở, nhờ ai trả lời thư.",
+   "title": "reply và reply to",
+   "topic": "công sở",
+   "type": "Lỗi",
+   "why": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+   "wrong": "Please reply the email.",
+   "wrong_note": "Làm ơn trả lời email này.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
@@ -9465,7 +9552,8 @@
      "quiz-001",
      "ngu-phap-b1-b2-002",
      "cau-nay-ai-cung-tung-noi-sai",
-     "mau-cau-010"
+     "mau-cau-010",
+     "loi-nhanh-008"
     ],
     "icon": "💼"
    },

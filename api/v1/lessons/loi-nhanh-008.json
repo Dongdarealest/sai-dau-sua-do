@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "loi-nhanh-008",
+    "code": "Lỗi nhanh #008",
+    "type": "Lỗi",
+    "topic": "công sở",
+    "title": "reply và reply to",
+    "date": "2026-11-23",
+    "wrong": "Please reply the email.",
+    "wrong_note": "Làm ơn trả lời email này.",
+    "right": "Please reply to the email.",
+    "right_note": "Làm ơn trả lời email này.",
+    "why": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+    "problem": "Sếp nhắn trả lời email gấp, bạn viết Please reply the email, email nghe xong không biết trả lời ai.",
+    "core": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+    "compare": [
+      {
+        "a": "Please reply the message.",
+        "b": "Please reply to the message.",
+        "note": "Trả lời tin nhắn cũng dùng reply to, giống như trả lời email."
+      },
+      {
+        "a": "Please reply me soon.",
+        "b": "Please reply to me soon.",
+        "note": "Trả lời một người cũng dùng reply to, không nói reply me."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Please reply to this email today.",
+        "wrong": "Please reply this email today."
+      },
+      {
+        "right": "He replied to my message this morning.",
+        "wrong": "He replied my message this morning."
+      }
+    ],
+    "remember": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+    "examples": [
+      {
+        "en": "Please reply to my email when you have time.",
+        "vi": "Làm ơn trả lời email của tôi khi bạn rảnh."
+      },
+      {
+        "en": "He did not reply to the letter yesterday.",
+        "vi": "Hôm qua anh ấy không trả lời thư."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "reply đi với to khi có tân ngữ là thư.",
+        "kind": "fill_blank",
+        "options": [
+          "reply",
+          "reply to"
+        ],
+        "prompt": "Please ___ the email before lunch."
+      },
+      {
+        "answer": 1,
+        "explanation": "reply cần to khi có tân ngữ là thư.",
+        "options": [
+          "Please reply the email now.",
+          "Please reply to the email now."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Trả lời thư thì dùng reply to.",
+        "kind": "fill_blank",
+        "options": [
+          "reply",
+          "reply to"
+        ],
+        "prompt": "She did not ___ his letter yesterday."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi viết email công sở, nhờ ai trả lời thư.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-12/Chat-008-reply-to-email.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122107974921550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-008/",
+    "show_in_ui": true
+  }
+}

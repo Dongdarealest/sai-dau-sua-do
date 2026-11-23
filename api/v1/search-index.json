@@ -2549,5 +2549,33 @@
     "type": "Quiz",
     "date": "2026-11-23",
     "paths": []
+  },
+  {
+    "slug": "loi-nhanh-008",
+    "code": "Lỗi nhanh #008",
+    "title": "reply và reply to",
+    "wrong": "Please reply the email.",
+    "right": "Please reply to the email.",
+    "remember": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+    "why": "reply đi với to khi có tân ngữ là thư, reply riêng thì không cần to.",
+    "examples": [
+      "Please reply to my email when you have time. Làm ơn trả lời email của tôi khi bạn rảnh.",
+      "He did not reply to the letter yesterday. Hôm qua anh ấy không trả lời thư."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Please ___ the email before lunch. reply reply to",
+      "Chọn câu đúng: Please reply the email now. Please reply to the email now.",
+      "She did not ___ his letter yesterday. reply reply to"
+    ],
+    "topic": "công sở",
+    "type": "Lỗi",
+    "date": "2026-11-23",
+    "paths": [
+      "tieng-anh-di-lam"
+    ]
   }
 ]

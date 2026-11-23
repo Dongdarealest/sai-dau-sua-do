@@ -2,7 +2,7 @@
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
-- **89 bài học** hiển thị trên web • **97 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **8 Reel** đính kèm trong bài
+- **90 bài học** hiển thị trên web • **98 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **8 Reel** đính kèm trong bài
 - Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/), **Luyện nghe** (/luyen-nghe/), **Luyện viết** (/luyen-viet/), **Luyện đọc** (/luyen-doc/), **Cộng đồng** (/cong-dong/). Mỗi bài học có thêm chế độ Học từng cụm.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983
@@ -54,7 +54,7 @@ Báo lỗi dữ liệu bằng issue, đề xuất bài mới bằng pull request
 - [Mẫu câu #002: giới thiệu bản thân](mau-cau-002/)
 - [Ngữ pháp B1/B2 #002: câu điều kiện loại 2](ngu-phap-b1-b2-002/)
 
-### Tiếng Anh đi làm (8 bài)
+### Tiếng Anh đi làm (9 bài)
 
 - [Lỗi #001: borrow và lend](loi-001/)
 - [Lỗi #003: say và tell](loi-003/)
@@ -64,6 +64,7 @@ Báo lỗi dữ liệu bằng issue, đề xuất bài mới bằng pull request
 - [Ngữ pháp B1/B2 #002: câu điều kiện loại 2](ngu-phap-b1-b2-002/)
 - [Lỗi #011: 25 years old](cau-nay-ai-cung-tung-noi-sai/)
 - [Mẫu câu #010: make và do](mau-cau-010/)
+- [Lỗi nhanh #008: reply và reply to](loi-nhanh-008/)
 
 ### Sửa phát âm (7 bài)
 
