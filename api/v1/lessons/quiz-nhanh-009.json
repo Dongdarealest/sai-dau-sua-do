@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-009",
+    "code": "Quiz nhanh #009",
+    "type": "Quiz",
+    "topic": "phát âm",
+    "title": "Chữ nào câm trong wrong?",
+    "date": "2026-11-23",
+    "wrong": "Chữ r là chữ câm trong wrong.",
+    "wrong_note": "",
+    "right": "Chữ w là chữ câm trong wrong.",
+    "right_note": "wrong nghĩa là sai.",
+    "why": "wrong đọc là rong, chữ w câm, chữ r và chữ g đều đọc.",
+    "problem": "Nhiều bạn đọc wrong có âm w ở đầu vì nhìn mặt chữ, nhưng thật ra chữ w không phát âm.",
+    "core": "wrong đọc là rong, chữ w câm.",
+    "compare": [
+      {
+        "a": "wrong",
+        "b": "write",
+        "note": "wrong và write đều có chữ w câm ở đầu."
+      },
+      {
+        "a": "I was wrong.",
+        "b": "I wrote a letter.",
+        "note": "Cả hai câu đều có từ bắt đầu bằng wr, chữ w đều câm."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "You are wrong.",
+        "wrong": "You are w rong."
+      },
+      {
+        "right": "Please write your name.",
+        "wrong": "Please w write your name."
+      }
+    ],
+    "remember": "wrong đọc là rong, chữ w câm.",
+    "examples": [
+      {
+        "en": "I was wrong about the time.",
+        "vi": "Tôi đã nhầm về giờ giấc."
+      },
+      {
+        "en": "Please write your name here.",
+        "vi": "Làm ơn viết tên của bạn vào đây."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "write nghĩa là viết, chữ w cũng câm.",
+        "options": [
+          "Viết",
+          "Đọc",
+          "Nghe"
+        ],
+        "prompt": "write nghĩa là gì?"
+      },
+      {
+        "answer": 0,
+        "explanation": "write cũng bắt đầu bằng wr, chữ w câm. water và window đọc chữ w.",
+        "options": [
+          "write",
+          "water",
+          "window"
+        ],
+        "prompt": "Từ nào sau đây cũng có chữ w câm?"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "wrong đọc là rong, chữ w câm, chữ r và chữ g đều đọc.",
+      "options": [
+        "Chữ w",
+        "Chữ r",
+        "Chữ g"
+      ],
+      "prompt": "Chọn chữ câm trong wrong, nghĩa là sai.",
+      "question": "Trong wrong, chữ nào không phát âm?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: wrong, write, wrist đều có chữ w câm ở đầu.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, wrong",
+        "url": "https://dictionary.cambridge.org/dictionary/english/wrong"
+      }
+    ],
+    "image": "ngay-12/Quiz-nhanh-009-wrong.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122107927803550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-009/",
+    "show_in_ui": true
+  }
+}

@@ -2521,5 +2521,33 @@
     "paths": [
       "tieng-anh-di-lam"
     ]
+  },
+  {
+    "slug": "quiz-nhanh-009",
+    "code": "Quiz nhanh #009",
+    "title": "Chữ nào câm trong wrong?",
+    "wrong": "Chữ r là chữ câm trong wrong.",
+    "right": "Chữ w là chữ câm trong wrong.",
+    "remember": "wrong đọc là rong, chữ w câm.",
+    "why": "wrong đọc là rong, chữ w câm, chữ r và chữ g đều đọc.",
+    "examples": [
+      "I was wrong about the time. Tôi đã nhầm về giờ giấc.",
+      "Please write your name here. Làm ơn viết tên của bạn vào đây."
+    ],
+    "quiz": [
+      "Trong wrong, chữ nào không phát âm?",
+      "Chọn chữ câm trong wrong, nghĩa là sai.",
+      "Chữ w",
+      "Chữ r",
+      "Chữ g"
+    ],
+    "practice": [
+      "write nghĩa là gì? Viết Đọc Nghe",
+      "Từ nào sau đây cũng có chữ w câm? write water window"
+    ],
+    "topic": "phát âm",
+    "type": "Quiz",
+    "date": "2026-11-23",
+    "paths": []
   }
 ]

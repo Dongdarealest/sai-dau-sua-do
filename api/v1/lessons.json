@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 96,
-    "visible_lessons": 88,
+    "total_lessons": 97,
+    "visible_lessons": 89,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1451,6 +1451,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-010/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122107801173550200",
       "image": "ngay-12/Mau-cau-010-slide-1.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-nhanh-009",
+      "code": "Quiz nhanh #009",
+      "type": "Quiz",
+      "topic": "phát âm",
+      "title": "Chữ nào câm trong wrong?",
+      "date": "2026-11-23",
+      "wrong": "Chữ r là chữ câm trong wrong.",
+      "right": "Chữ w là chữ câm trong wrong.",
+      "remember": "wrong đọc là rong, chữ w câm.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-009/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122107927803550200",
+      "image": "ngay-12/Quiz-nhanh-009-wrong.png",
       "show_in_ui": true
     }
   ]
