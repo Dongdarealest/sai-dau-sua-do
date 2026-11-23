@@ -9129,6 +9129,94 @@
    "wrong_note": "Tôi đang ở trong trường.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Thử thách Ngày 1",
+   "compare": [
+    {
+     "a": "My brother is 18 years old.",
+     "b": "My brother has a new bike.",
+     "note": "Tuổi dùng be, sở hữu đồ vật mới dùng have."
+    },
+    {
+     "a": "I am 25.",
+     "b": "I have 25 books.",
+     "note": "Nói tuổi chỉ cần be và số, have dùng khi sở hữu đồ vật."
+    }
+   ],
+   "core": "Tuổi dùng be, không dùng have.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She is 30 years old.",
+     "vi": "Cô ấy 30 tuổi."
+    },
+    {
+     "en": "My son is five years old.",
+     "vi": "Con trai tôi năm tuổi."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122107649175550200",
+   "image_src": "thu-thach-7-ngay/mo-man.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They are ten years old.",
+     "wrong": "They have ten years old."
+    },
+    {
+     "right": "She is 40 years old.",
+     "wrong": "She has 40 years old."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Tuổi dùng be, không dùng have.",
+     "options": [
+      "I have 30 years old.",
+      "I am 30 years old."
+     ],
+     "prompt": "Chọn câu đúng khi giới thiệu tuổi:"
+    },
+    {
+     "answer": 0,
+     "explanation": "She đi với is khi nói tuổi.",
+     "kind": "fill_blank",
+     "options": [
+      "is",
+      "has",
+      "have"
+     ],
+     "prompt": "She ___ 12 years old."
+    }
+   ],
+   "problem": "Nhiều bạn Việt khi được hỏi tuổi thường trả lời bằng have, nghe quen tai nhưng người bản xứ thấy sai ngay.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+    "options": [
+     "have",
+     "am",
+     "is"
+    ],
+    "prompt": "Điền từ đúng: 'I ___ 25 years old.'",
+    "question": "Câu nào đúng khi nói tuổi?"
+   },
+   "reel": null,
+   "remember": "Nói tuổi thì dùng be, không dùng have.",
+   "right": "I am 25 years old.",
+   "right_note": "Tôi 25 tuổi.",
+   "show_in_ui": true,
+   "slug": "thu-thach-ngay-1",
+   "tip": "Nhớ nhanh: hỏi tuổi thì hỏi How old are you?",
+   "title": "nói tuổi",
+   "topic": "ngữ pháp",
+   "type": "Quiz",
+   "why": "Tuổi trong tiếng Anh dùng be, không dùng have.",
+   "wrong": "I have 25 years old.",
+   "wrong_note": "Tuổi không dùng have."
   }
  ],
  "site": {
