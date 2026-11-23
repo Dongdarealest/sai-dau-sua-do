@@ -2577,5 +2577,34 @@
     "paths": [
       "tieng-anh-di-lam"
     ]
+  },
+  {
+    "slug": "do-009",
+    "code": "Đố nhanh #009",
+    "title": "go to shopping",
+    "wrong": "I will go to shopping tomorrow.",
+    "right": "I will go shopping tomorrow.",
+    "remember": "Đi mua sắm thì nói go shopping, không thêm to.",
+    "why": "go shopping là cụm cố định, không có to ở giữa.",
+    "examples": [
+      "She goes shopping every Saturday. Cô ấy đi mua sắm mỗi thứ Bảy.",
+      "We will go shopping after lunch. Chúng tôi sẽ đi mua sắm sau bữa trưa."
+    ],
+    "quiz": [
+      "Câu đố này sai ở đâu?",
+      "Hãy nhìn cụm từ go shopping.",
+      "'go to shopping' thành 'go shopping'",
+      "'will' thành 'would'",
+      "'tomorrow' thành 'yesterday'"
+    ],
+    "practice": [
+      "I will go ___ tomorrow. to shopping shopping",
+      "They go ___ on Sunday. to shopping shopping",
+      "He goes ___ with his mother. to shopping shopping"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-23",
+    "paths": []
   }
 ]

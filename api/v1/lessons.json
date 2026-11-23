@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 98,
-    "visible_lessons": 90,
+    "total_lessons": 99,
+    "visible_lessons": 91,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1481,6 +1481,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-nhanh-008/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122107974921550200",
       "image": "ngay-12/Chat-008-reply-to-email.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-009",
+      "code": "Đố nhanh #009",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "go to shopping",
+      "date": "2026-11-23",
+      "wrong": "I will go to shopping tomorrow.",
+      "right": "I will go shopping tomorrow.",
+      "remember": "Đi mua sắm thì nói go shopping, không thêm to.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-009/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122108109843550200",
+      "image": "ngay-12/Do-009-go-shopping.png",
       "show_in_ui": true
     }
   ]

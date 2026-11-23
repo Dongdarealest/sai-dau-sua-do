@@ -9515,6 +9515,104 @@
    "wrong_note": "Làm ơn trả lời email này.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Đố nhanh #009",
+   "compare": [
+    {
+     "a": "She goes shopping on Sunday.",
+     "b": "She goes to the market on Sunday.",
+     "note": "Đi mua sắm nói chung thì dùng go shopping, đi tới chợ cụ thể thì dùng go to the market."
+    },
+    {
+     "a": "They go shopping together.",
+     "b": "They go to school together.",
+     "note": "go shopping không có to, go to school có to vì school là nơi chốn cụ thể."
+    }
+   ],
+   "core": "Đi mua sắm thì nói go shopping, không thêm to.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She goes shopping every Saturday.",
+     "vi": "Cô ấy đi mua sắm mỗi thứ Bảy."
+    },
+    {
+     "en": "We will go shopping after lunch.",
+     "vi": "Chúng tôi sẽ đi mua sắm sau bữa trưa."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122108109843550200",
+   "image_src": "ngay-12/Do-009-go-shopping.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "We go shopping every weekend.",
+     "wrong": "We go to shopping every weekend."
+    },
+    {
+     "right": "He goes shopping with his mother.",
+     "wrong": "He goes to shopping with his mother."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Đi mua sắm thì nói go shopping, không thêm to.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "I will go ___ tomorrow."
+    },
+    {
+     "answer": 1,
+     "explanation": "go shopping là cụm cố định.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "They go ___ on Sunday."
+    },
+    {
+     "answer": 1,
+     "explanation": "go shopping không có to ở giữa.",
+     "kind": "fill_blank",
+     "options": [
+      "to shopping",
+      "shopping"
+     ],
+     "prompt": "He goes ___ with his mother."
+    }
+   ],
+   "problem": "Bạn hẹn bạn đi mua sắm ngày mai, nhưng thêm to vào giữa go và shopping thì nghe sai sai.",
+   "quiz": {
+    "answer": 0,
+    "explanation": "go shopping là cụm cố định, không có to ở giữa.",
+    "options": [
+     "'go to shopping' thành 'go shopping'",
+     "'will' thành 'would'",
+     "'tomorrow' thành 'yesterday'"
+    ],
+    "prompt": "Hãy nhìn cụm từ go shopping.",
+    "question": "Câu đố này sai ở đâu?"
+   },
+   "remember": "Đi mua sắm thì nói go shopping, không thêm to.",
+   "right": "I will go shopping tomorrow.",
+   "right_note": "Tôi sẽ đi mua sắm vào ngày mai.",
+   "slug": "do-009",
+   "tip": "Nhớ nhanh: go shopping, go swimming, go fishing đều không có to.",
+   "title": "go to shopping",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "why": "go shopping là cụm cố định, không có to ở giữa.",
+   "wrong": "I will go to shopping tomorrow.",
+   "wrong_note": "Ngày mai tôi sẽ đi mua sắm.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {
