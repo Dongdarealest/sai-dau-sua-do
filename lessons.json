@@ -3973,11 +3973,11 @@
    "practice": [
     {
      "answer": 1,
-     "explanation": "Sau can dùng động từ nguyên mẫu sing.",
+     "explanation": "Sau can dùng động từ nguyên mẫu swim.",
      "options": [
-      "She can sings.",
-      "She can sing.",
-      "She can singing."
+      "He can swims.",
+      "He can swim.",
+      "He can swimming."
      ],
      "prompt": "Chọn câu đúng:"
     },
@@ -9324,7 +9324,7 @@
    "quiz": null,
    "remember": "Muốn nói quyết định thì dùng make a decision, muốn nói làm nhiệm vụ thì dùng do a task.",
    "right": "I will make a decision.",
-   "right_note": "Tôi sẽ quyết định hôm nay.",
+   "right_note": "Tôi sẽ đưa ra quyết định.",
    "slug": "mau-cau-010",
    "tip": "Họp thì nói make a decision khi quyết định, do this task khi nhận nhiệm vụ.",
    "title": "make và do",
@@ -9332,7 +9332,7 @@
    "type": "Mẫu câu",
    "why": "make đi với decision, do đi với task.",
    "wrong": "I will do a decision.",
-   "wrong_note": "Tôi sẽ quyết định hôm nay.",
+   "wrong_note": "Tôi sẽ đưa ra quyết định.",
    "reel": null,
    "show_in_ui": true
   },

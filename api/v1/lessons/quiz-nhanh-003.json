@@ -60,11 +60,11 @@
     "practice": [
       {
         "answer": 1,
-        "explanation": "Sau can dùng động từ nguyên mẫu sing.",
+        "explanation": "Sau can dùng động từ nguyên mẫu swim.",
         "options": [
-          "She can sings.",
-          "She can sing.",
-          "She can singing."
+          "He can swims.",
+          "He can swim.",
+          "He can swimming."
         ],
         "prompt": "Chọn câu đúng:"
       },
