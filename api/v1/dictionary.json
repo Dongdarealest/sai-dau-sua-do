@@ -1672,7 +1672,8 @@
       ],
       "mistakes": [
         "hoi-thoai-004",
-        "mau-cau-010"
+        "mau-cau-010",
+        "quiz-011"
       ]
     },
     "doctor": {
@@ -4184,7 +4185,8 @@
         }
       ],
       "mistakes": [
-        "mau-cau-010"
+        "mau-cau-010",
+        "quiz-011"
       ]
     },
     "man": {
@@ -4650,7 +4652,9 @@
           "example_vi": "Tôi cần bạn giúp."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "quiz-011"
+      ]
     },
     "needed": {
       "senses": [

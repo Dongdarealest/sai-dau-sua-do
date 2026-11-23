@@ -2606,5 +2606,35 @@
     "type": "Quiz",
     "date": "2026-11-23",
     "paths": []
+  },
+  {
+    "slug": "quiz-011",
+    "code": "Quiz #011",
+    "title": "make và do",
+    "wrong": "I need to do a decision.",
+    "right": "I need to make a decision.",
+    "remember": "make a decision, do a task.",
+    "why": "decision đi với make, do đi với task và công việc chung.",
+    "examples": [
+      "I will make a decision today. Tôi sẽ quyết định hôm nay.",
+      "I have to do this task today. Tôi phải làm nhiệm vụ này hôm nay."
+    ],
+    "quiz": [
+      "Điền từ đúng vào chỗ trống nhé.",
+      "I need to ___ a decision before 5pm.",
+      "do",
+      "make",
+      "take"
+    ],
+    "practice": [
+      "She ___ a mistake in the report. made did took",
+      "He ___ his homework every day. makes does takes"
+    ],
+    "topic": "công sở",
+    "type": "Quiz",
+    "date": "2026-11-23",
+    "paths": [
+      "tieng-anh-di-lam"
+    ]
   }
 ]

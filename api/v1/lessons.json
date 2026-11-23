@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 99,
-    "visible_lessons": 91,
+    "total_lessons": 100,
+    "visible_lessons": 92,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1496,6 +1496,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-009/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122108109843550200",
       "image": "ngay-12/Do-009-go-shopping.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-011",
+      "code": "Quiz #011",
+      "type": "Quiz",
+      "topic": "công sở",
+      "title": "make và do",
+      "date": "2026-11-23",
+      "wrong": "I need to do a decision.",
+      "right": "I need to make a decision.",
+      "remember": "make a decision, do a task.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-011/",
+      "fb": "https://www.facebook.com/61596506009854/posts/122108183553550200",
+      "image": "ngay-12/Quiz-011-make-do.png",
       "show_in_ui": true
     }
   ]

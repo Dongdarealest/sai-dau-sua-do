@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-011",
+    "code": "Quiz #011",
+    "type": "Quiz",
+    "topic": "công sở",
+    "title": "make và do",
+    "date": "2026-11-23",
+    "wrong": "I need to do a decision.",
+    "wrong_note": "do không đi với decision.",
+    "right": "I need to make a decision.",
+    "right_note": "make đi với decision.",
+    "why": "decision đi với make, do đi với task và công việc chung.",
+    "problem": "Sếp cần quyết định trước 5 giờ chiều, bạn điền từ nào vào chỗ trống?",
+    "core": "make đi với decision, do đi với task.",
+    "compare": [
+      {
+        "a": "She made a decision quickly.",
+        "b": "She did a decision quickly.",
+        "note": "make đi với decision, không dùng do."
+      },
+      {
+        "a": "He does his homework every day.",
+        "b": "He makes his homework every day.",
+        "note": "do đi với homework và công việc chung."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They made a mistake in the report.",
+        "wrong": "They did a mistake in the report."
+      },
+      {
+        "right": "I do my homework.",
+        "wrong": "I make my homework."
+      }
+    ],
+    "remember": "make a decision, do a task.",
+    "examples": [
+      {
+        "en": "I will make a decision today.",
+        "vi": "Tôi sẽ quyết định hôm nay."
+      },
+      {
+        "en": "I have to do this task today.",
+        "vi": "Tôi phải làm nhiệm vụ này hôm nay."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "mistake đi với make.",
+        "options": [
+          "made",
+          "did",
+          "took"
+        ],
+        "prompt": "She ___ a mistake in the report."
+      },
+      {
+        "answer": 1,
+        "explanation": "homework đi với do.",
+        "options": [
+          "makes",
+          "does",
+          "takes"
+        ],
+        "prompt": "He ___ his homework every day."
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "Cụm đúng là make a decision, do không đi với decision.",
+      "options": [
+        "do",
+        "make",
+        "take"
+      ],
+      "prompt": "I need to ___ a decision before 5pm.",
+      "question": "Điền từ đúng vào chỗ trống nhé."
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: quyết định thì make, nhiệm vụ thì do.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-12/Quiz-011-make-do.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122108183553550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-011/",
+    "show_in_ui": true
+  }
+}

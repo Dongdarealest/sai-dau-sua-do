@@ -9613,6 +9613,94 @@
    "wrong_note": "Ngày mai tôi sẽ đi mua sắm.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Quiz #011",
+   "compare": [
+    {
+     "a": "She made a decision quickly.",
+     "b": "She did a decision quickly.",
+     "note": "make đi với decision, không dùng do."
+    },
+    {
+     "a": "He does his homework every day.",
+     "b": "He makes his homework every day.",
+     "note": "do đi với homework và công việc chung."
+    }
+   ],
+   "core": "make đi với decision, do đi với task.",
+   "date": "2026-11-23",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I will make a decision today.",
+     "vi": "Tôi sẽ quyết định hôm nay."
+    },
+    {
+     "en": "I have to do this task today.",
+     "vi": "Tôi phải làm nhiệm vụ này hôm nay."
+    }
+   ],
+   "fb": "https://www.facebook.com/61596506009854/posts/122108183553550200",
+   "image_src": "ngay-12/Quiz-011-make-do.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "They made a mistake in the report.",
+     "wrong": "They did a mistake in the report."
+    },
+    {
+     "right": "I do my homework.",
+     "wrong": "I make my homework."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "mistake đi với make.",
+     "options": [
+      "made",
+      "did",
+      "took"
+     ],
+     "prompt": "She ___ a mistake in the report."
+    },
+    {
+     "answer": 1,
+     "explanation": "homework đi với do.",
+     "options": [
+      "makes",
+      "does",
+      "takes"
+     ],
+     "prompt": "He ___ his homework every day."
+    }
+   ],
+   "problem": "Sếp cần quyết định trước 5 giờ chiều, bạn điền từ nào vào chỗ trống?",
+   "quiz": {
+    "answer": 1,
+    "explanation": "Cụm đúng là make a decision, do không đi với decision.",
+    "options": [
+     "do",
+     "make",
+     "take"
+    ],
+    "prompt": "I need to ___ a decision before 5pm.",
+    "question": "Điền từ đúng vào chỗ trống nhé."
+   },
+   "reel": null,
+   "remember": "make a decision, do a task.",
+   "right": "I need to make a decision.",
+   "right_note": "make đi với decision.",
+   "show_in_ui": true,
+   "slug": "quiz-011",
+   "tip": "Nhớ nhanh: quyết định thì make, nhiệm vụ thì do.",
+   "title": "make và do",
+   "topic": "công sở",
+   "type": "Quiz",
+   "why": "decision đi với make, do đi với task và công việc chung.",
+   "wrong": "I need to do a decision.",
+   "wrong_note": "do không đi với decision."
   }
  ],
  "site": {
@@ -9651,7 +9739,8 @@
      "ngu-phap-b1-b2-002",
      "cau-nay-ai-cung-tung-noi-sai",
      "mau-cau-010",
-     "loi-nhanh-008"
+     "loi-nhanh-008",
+     "quiz-011"
     ],
     "icon": "💼"
    },
