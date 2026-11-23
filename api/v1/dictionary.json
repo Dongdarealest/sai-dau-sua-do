@@ -1671,7 +1671,8 @@
         }
       ],
       "mistakes": [
-        "hoi-thoai-004"
+        "hoi-thoai-004",
+        "mau-cau-010"
       ]
     },
     "doctor": {
@@ -4181,7 +4182,9 @@
           "example_vi": "Sáng nào tôi cũng pha cà phê."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "mau-cau-010"
+      ]
     },
     "man": {
       "senses": [
@@ -8224,7 +8227,8 @@
       "mistakes": [
         "cau-do-nguoc-001",
         "ngu-phap-b1-b2-002",
-        "reel-008"
+        "reel-008",
+        "mau-cau-010"
       ]
     },
     "win": {

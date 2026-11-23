@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "mau-cau-010",
+    "code": "Mẫu câu #010",
+    "type": "Mẫu câu",
+    "topic": "công sở",
+    "title": "make và do",
+    "date": "2026-11-23",
+    "wrong": "I will do a decision.",
+    "wrong_note": "Tôi sẽ quyết định hôm nay.",
+    "right": "I will make a decision.",
+    "right_note": "Tôi sẽ quyết định hôm nay.",
+    "why": "make đi với decision, do đi với task.",
+    "problem": "Cuối ngày sếp hỏi đã quyết chưa mà nói do a decision thì người nghe thấy sai ngay.",
+    "core": "decision, mistake đi với make; task, homework, work đi với do.",
+    "compare": [
+      {
+        "a": "We need to make a decision soon.",
+        "b": "We need to do a decision soon.",
+        "note": "decision đi với make, không đi với do."
+      },
+      {
+        "a": "She does her homework every evening.",
+        "b": "She makes her homework every evening.",
+        "note": "homework và task đi với do, không đi với make."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "They made a decision yesterday.",
+        "wrong": "They did a decision yesterday."
+      },
+      {
+        "right": "I do my homework every day.",
+        "wrong": "I make my homework every day."
+      }
+    ],
+    "remember": "Muốn nói quyết định thì dùng make a decision, muốn nói làm nhiệm vụ thì dùng do a task.",
+    "examples": [
+      {
+        "en": "I will make a decision today.",
+        "vi": "Tôi sẽ quyết định hôm nay."
+      },
+      {
+        "en": "I have to do this task today.",
+        "vi": "Tôi phải làm nhiệm vụ này hôm nay."
+      },
+      {
+        "en": "She made a mistake in the report.",
+        "vi": "Cô ấy mắc lỗi trong báo cáo."
+      },
+      {
+        "en": "He does his work very carefully.",
+        "vi": "Anh ấy làm việc rất cẩn thận."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "decision đi với make, không đi với do.",
+        "kind": "fill_blank",
+        "options": [
+          "did",
+          "made"
+        ],
+        "prompt": "They ___ a decision yesterday."
+      },
+      {
+        "answer": 1,
+        "explanation": "decision đi với make, không đi với do.",
+        "kind": "distinguish",
+        "options": [
+          "We will do a decision tomorrow.",
+          "We will make a decision tomorrow."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": [
+          1,
+          3,
+          4,
+          5,
+          0,
+          2,
+          6
+        ],
+        "explanation": "mistake đi với make, không đi với do.",
+        "kind": "word_order",
+        "options": [
+          "mistake",
+          "He",
+          "yesterday",
+          "made",
+          "a",
+          "big",
+          "."
+        ],
+        "prompt": "Sắp xếp thành câu đúng: 'mistake / He / yesterday / made / a / big / .'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Họp thì nói make a decision khi quyết định, do this task khi nhận nhiệm vụ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, make",
+        "url": "https://dictionary.cambridge.org/dictionary/english/make"
+      },
+      {
+        "label": "Cambridge, do",
+        "url": "https://dictionary.cambridge.org/dictionary/english/do"
+      }
+    ],
+    "image": "ngay-12/Mau-cau-010-slide-1.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122107801173550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-010/",
+    "show_in_ui": true
+  }
+}

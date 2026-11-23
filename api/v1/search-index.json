@@ -2491,5 +2491,35 @@
     "type": "Quiz",
     "date": "2026-11-23",
     "paths": []
+  },
+  {
+    "slug": "mau-cau-010",
+    "code": "Mẫu câu #010",
+    "title": "make và do",
+    "wrong": "I will do a decision.",
+    "right": "I will make a decision.",
+    "remember": "Muốn nói quyết định thì dùng make a decision, muốn nói làm nhiệm vụ thì dùng do a task.",
+    "why": "make đi với decision, do đi với task.",
+    "examples": [
+      "I will make a decision today. Tôi sẽ quyết định hôm nay.",
+      "I have to do this task today. Tôi phải làm nhiệm vụ này hôm nay.",
+      "She made a mistake in the report. Cô ấy mắc lỗi trong báo cáo.",
+      "He does his work very carefully. Anh ấy làm việc rất cẩn thận."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "They ___ a decision yesterday. did made",
+      "Chọn câu đúng: We will do a decision tomorrow. We will make a decision tomorrow.",
+      "Sắp xếp thành câu đúng: 'mistake / He / yesterday / made / a / big / .' mistake He yesterday made a big ."
+    ],
+    "topic": "công sở",
+    "type": "Mẫu câu",
+    "date": "2026-11-23",
+    "paths": [
+      "tieng-anh-di-lam"
+    ]
   }
 ]

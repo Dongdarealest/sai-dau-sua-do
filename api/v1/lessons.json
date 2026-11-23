@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 95,
-    "visible_lessons": 87,
+    "total_lessons": 96,
+    "visible_lessons": 88,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1436,6 +1436,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-1/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122107649175550200",
       "image": "thu-thach-7-ngay/mo-man.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "mau-cau-010",
+      "code": "Mẫu câu #010",
+      "type": "Mẫu câu",
+      "topic": "công sở",
+      "title": "make và do",
+      "date": "2026-11-23",
+      "wrong": "I will do a decision.",
+      "right": "I will make a decision.",
+      "remember": "Muốn nói quyết định thì dùng make a decision, muốn nói làm nhiệm vụ thì dùng do a task.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/mau-cau-010/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122107801173550200",
+      "image": "ngay-12/Mau-cau-010-slide-1.png",
       "show_in_ui": true
     }
   ]
