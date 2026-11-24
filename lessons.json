@@ -9789,6 +9789,59 @@
    "why": "like là động từ, không cần am; nói mức độ thì dùng very much đặt sau động từ.",
    "wrong": "I am very like it.",
    "wrong_note": "like không cần am."
+  },
+  {
+   "slug": "meme-revert-back",
+   "code": "Meme #009",
+   "type": "Lỗi",
+   "topic": "công sở",
+   "date": "2026-11-24",
+   "title": "revert back",
+   "wrong": "I will revert back to you.",
+   "wrong_note": "",
+   "right": "I will get back to you.",
+   "right_note": "",
+   "why": "revert back thừa chữ back, revert không đi với người.",
+   "problem": "Nhiều bạn viết email công sở muốn nói sẽ trả lời lại mà dùng revert back.",
+   "core": "Muốn nói trả lời ai thì dùng get back to someone.",
+   "examples": [
+    {
+     "en": "Please get back to me by Friday.",
+     "vi": "Vui lòng trả lời tôi trước thứ Sáu."
+    },
+    {
+     "en": "I will get back to him after lunch.",
+     "vi": "Tôi sẽ trả lời anh ấy sau bữa trưa."
+    }
+   ],
+   "ipa": [],
+   "dict_links": [],
+   "quiz": null,
+   "practice": [
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "I will revert back to him soon.",
+      "I will get back to him soon."
+     ],
+     "answer": 1,
+     "explanation": "revert back thừa chữ, revert không đi với người."
+    },
+    {
+     "prompt": "Điền từ còn thiếu: I will get ___ to you soon.",
+     "options": [
+      "back",
+      "revert"
+     ],
+     "answer": 0,
+     "explanation": "get back to someone mới là trả lời ai đó."
+    }
+   ],
+   "remember": "revert không đi với người, muốn nói trả lời ai thì dùng get back to someone.",
+   "fb": "https://www.facebook.com/1374376739101577/posts/122108810619550200",
+   "image_src": "ngay-11/meme-revert-back.png",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

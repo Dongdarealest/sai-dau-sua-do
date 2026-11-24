@@ -2664,5 +2664,30 @@
     "type": "Quiz",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "meme-revert-back",
+    "code": "Meme #009",
+    "title": "revert back",
+    "wrong": "I will revert back to you.",
+    "right": "I will get back to you.",
+    "remember": "revert không đi với người, muốn nói trả lời ai thì dùng get back to someone.",
+    "why": "revert back thừa chữ back, revert không đi với người.",
+    "examples": [
+      "Please get back to me by Friday. Vui lòng trả lời tôi trước thứ Sáu.",
+      "I will get back to him after lunch. Tôi sẽ trả lời anh ấy sau bữa trưa."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn câu đúng: I will revert back to him soon. I will get back to him soon.",
+      "Điền từ còn thiếu: I will get ___ to you soon. back revert"
+    ],
+    "topic": "công sở",
+    "type": "Lỗi",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]

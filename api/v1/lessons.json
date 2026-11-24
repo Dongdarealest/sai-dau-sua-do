@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 101,
-    "visible_lessons": 93,
+    "total_lessons": 102,
+    "visible_lessons": 94,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1526,6 +1526,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-2/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122108633895550200",
       "image": "thu-thach-7-ngay/ngay-2-thich.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "meme-revert-back",
+      "code": "Meme #009",
+      "type": "Lỗi",
+      "topic": "công sở",
+      "title": "revert back",
+      "date": "2026-11-24",
+      "wrong": "I will revert back to you.",
+      "right": "I will get back to you.",
+      "remember": "revert không đi với người, muốn nói trả lời ai thì dùng get back to someone.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-revert-back/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122108810619550200",
+      "image": "ngay-11/meme-revert-back.png",
       "show_in_ui": true
     }
   ]

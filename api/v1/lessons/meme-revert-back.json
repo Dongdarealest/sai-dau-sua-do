@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "meme-revert-back",
+    "code": "Meme #009",
+    "type": "Lỗi",
+    "topic": "công sở",
+    "title": "revert back",
+    "date": "2026-11-24",
+    "wrong": "I will revert back to you.",
+    "wrong_note": "",
+    "right": "I will get back to you.",
+    "right_note": "",
+    "why": "revert back thừa chữ back, revert không đi với người.",
+    "problem": "Nhiều bạn viết email công sở muốn nói sẽ trả lời lại mà dùng revert back.",
+    "core": "Muốn nói trả lời ai thì dùng get back to someone.",
+    "compare": [],
+    "mistakes": [],
+    "remember": "revert không đi với người, muốn nói trả lời ai thì dùng get back to someone.",
+    "examples": [
+      {
+        "en": "Please get back to me by Friday.",
+        "vi": "Vui lòng trả lời tôi trước thứ Sáu."
+      },
+      {
+        "en": "I will get back to him after lunch.",
+        "vi": "Tôi sẽ trả lời anh ấy sau bữa trưa."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "I will revert back to him soon.",
+          "I will get back to him soon."
+        ],
+        "answer": 1,
+        "explanation": "revert back thừa chữ, revert không đi với người."
+      },
+      {
+        "prompt": "Điền từ còn thiếu: I will get ___ to you soon.",
+        "options": [
+          "back",
+          "revert"
+        ],
+        "answer": 0,
+        "explanation": "get back to someone mới là trả lời ai đó."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-11/meme-revert-back.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122108810619550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-revert-back/",
+    "show_in_ui": true
+  }
+}

@@ -455,7 +455,9 @@
           "meaning": "trở lại"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meme-revert-back"
+      ]
     },
     "bad": {
       "senses": [
@@ -2623,7 +2625,9 @@
           "example_vi": "Tôi nhận được một cuốn sách mới."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "meme-revert-back"
+      ]
     },
     "gift": {
       "senses": [
