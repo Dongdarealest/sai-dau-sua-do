@@ -2689,5 +2689,33 @@
     "type": "Lỗi",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "quiz-nhanh-010",
+    "code": "Quiz nhanh #010",
+    "title": "Câu nào đúng khi nói không đồng ý",
+    "wrong": "I am not agree with you.",
+    "right": "I don't agree with you.",
+    "remember": "agree là động từ, phủ định bằng don't.",
+    "why": "agree là động từ, phủ định thì dùng don't, không dùng am not.",
+    "examples": [
+      "I don't agree with her idea. Tôi không đồng ý với ý của cô ấy.",
+      "They don't agree on the price. Họ không thống nhất về giá."
+    ],
+    "quiz": [
+      "Câu nào đúng?",
+      "Chọn câu đúng khi nói mình không đồng ý:",
+      "I am not agree.",
+      "I don't agree.",
+      "I am not agreeing."
+    ],
+    "practice": [
+      "Điền từ đúng: 'I ___ agree with you.' don't am not not",
+      "Chọn câu đúng trong 2 câu sau: I not agree. I don't agree."
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]

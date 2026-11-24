@@ -133,7 +133,8 @@
         "loi-007",
         "reel-004",
         "quiz-006",
-        "quiz-010"
+        "quiz-010",
+        "quiz-nhanh-010"
       ]
     },
     "all": {
@@ -1728,7 +1729,8 @@
       "mistakes": [
         "meme-003",
         "cau-nao-dung-001",
-        "meme-007"
+        "meme-007",
+        "quiz-nhanh-010"
       ]
     },
     "done": {
@@ -4806,7 +4808,8 @@
       ],
       "mistakes": [
         "hoi-thoai-005",
-        "meme-007"
+        "meme-007",
+        "quiz-nhanh-010"
       ]
     },
     "note": {

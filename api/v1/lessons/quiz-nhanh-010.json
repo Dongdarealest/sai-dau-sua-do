@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-010",
+    "code": "Quiz nhanh #010",
+    "type": "Quiz",
+    "topic": "ngữ pháp",
+    "title": "Câu nào đúng khi nói không đồng ý",
+    "date": "2026-11-24",
+    "wrong": "I am not agree with you.",
+    "wrong_note": "am not không đi với động từ.",
+    "right": "I don't agree with you.",
+    "right_note": "don't đi với động từ agree.",
+    "why": "agree là động từ, phủ định thì dùng don't, không dùng am not.",
+    "problem": "Nhiều bạn nói I am not agree khi muốn nói không đồng ý, nghe vẫn hiểu nhưng sai ngữ pháp.",
+    "core": "Động từ thì phủ định bằng don't, không dùng am not.",
+    "compare": [
+      {
+        "a": "I don't like coffee.",
+        "b": "I am not happy today.",
+        "note": "don't đi với động từ, am not đi với tính từ."
+      },
+      {
+        "a": "She doesn't agree with me.",
+        "b": "She is not ready yet.",
+        "note": "doesn't đi với động từ, is not đi với tính từ."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "We don't agree on this.",
+        "wrong": "We are not agree on this."
+      },
+      {
+        "right": "He doesn't agree with us.",
+        "wrong": "He is not agree with us."
+      }
+    ],
+    "remember": "agree là động từ, phủ định bằng don't.",
+    "examples": [
+      {
+        "en": "I don't agree with her idea.",
+        "vi": "Tôi không đồng ý với ý của cô ấy."
+      },
+      {
+        "en": "They don't agree on the price.",
+        "vi": "Họ không thống nhất về giá."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "agree là động từ, phủ định dùng don't.",
+        "options": [
+          "don't",
+          "am not",
+          "not"
+        ],
+        "prompt": "Điền từ đúng: 'I ___ agree with you.'"
+      },
+      {
+        "answer": 1,
+        "explanation": "don't đi với động từ agree, am not đi với tính từ.",
+        "options": [
+          "I not agree.",
+          "I don't agree."
+        ],
+        "prompt": "Chọn câu đúng trong 2 câu sau:"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "agree là động từ nên phủ định bằng don't.",
+      "options": [
+        "I am not agree.",
+        "I don't agree.",
+        "I am not agreeing."
+      ],
+      "prompt": "Chọn câu đúng khi nói mình không đồng ý:",
+      "question": "Câu nào đúng?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: am not đi với tính từ, don't đi với động từ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-13/Quiz-nhanh-010-dont-agree.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122108948457550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-010/",
+    "show_in_ui": true
+  }
+}

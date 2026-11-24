@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 102,
-    "visible_lessons": 94,
+    "total_lessons": 103,
+    "visible_lessons": 95,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1541,6 +1541,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/meme-revert-back/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122108810619550200",
       "image": "ngay-11/meme-revert-back.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-nhanh-010",
+      "code": "Quiz nhanh #010",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "Câu nào đúng khi nói không đồng ý",
+      "date": "2026-11-24",
+      "wrong": "I am not agree with you.",
+      "right": "I don't agree with you.",
+      "remember": "agree là động từ, phủ định bằng don't.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-010/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122108948457550200",
+      "image": "ngay-13/Quiz-nhanh-010-dont-agree.png",
       "show_in_ui": true
     }
   ]
