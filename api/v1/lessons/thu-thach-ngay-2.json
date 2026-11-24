@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "thu-thach-ngay-2",
+    "code": "Thử thách Ngày 2",
+    "type": "Quiz",
+    "topic": "giao tiếp",
+    "title": "thích cái gì",
+    "date": "2026-11-24",
+    "wrong": "I am very like it.",
+    "wrong_note": "like không cần am.",
+    "right": "I like it very much.",
+    "right_note": "Tôi rất thích nó.",
+    "why": "like là động từ, không cần am; nói mức độ thì dùng very much đặt sau động từ.",
+    "problem": "Nhiều bạn Việt khi nói mình thích một thứ thường thêm am trước like, nghe quen tai nhưng người bản xứ thấy sai ngay.",
+    "core": "like là động từ, không cần am; nói mức độ thì dùng very much sau động từ.",
+    "compare": [
+      {
+        "a": "I like tea very much.",
+        "b": "I am very happy.",
+        "note": "like là động từ nên không cần am, happy là tính từ nên cần am."
+      },
+      {
+        "a": "She likes cats.",
+        "b": "She is very kind.",
+        "note": "likes là động từ, kind là tính từ đi với be."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I like coffee very much.",
+        "wrong": "I am very like coffee."
+      },
+      {
+        "right": "She likes him very much.",
+        "wrong": "She is very like him."
+      }
+    ],
+    "remember": "Thích cái gì thì nói I like it very much, không thêm am.",
+    "examples": [
+      {
+        "en": "I like this song very much.",
+        "vi": "Tôi rất thích bài hát này."
+      },
+      {
+        "en": "We like Da Lat very much.",
+        "vi": "Chúng tôi rất thích Đà Lạt."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "like là động từ, không cần am; nói mức độ thì dùng very much sau động từ.",
+        "options": [
+          "I am very like this song.",
+          "I like this song very much."
+        ],
+        "prompt": "Chọn câu đúng khi nói mình rất thích một bài hát:"
+      },
+      {
+        "answer": 1,
+        "explanation": "I đi với like, không cần am.",
+        "kind": "fill_blank",
+        "options": [
+          "am like",
+          "like",
+          "likes"
+        ],
+        "prompt": "I ___ this book very much."
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "like là động từ, không cần am; very much đặt sau động từ.",
+      "options": [
+        "am like",
+        "like",
+        "liking"
+      ],
+      "prompt": "Điền từ đúng: 'I ___ it very much.'",
+      "question": "Câu nào đúng khi nói mình rất thích một thứ?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: very much đứng sau động từ, không đứng trước.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "thu-thach-7-ngay/ngay-2-thich.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122108633895550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-2/",
+    "show_in_ui": true
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 100,
-    "visible_lessons": 92,
+    "total_lessons": 101,
+    "visible_lessons": 93,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1511,6 +1511,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-011/",
       "fb": "https://www.facebook.com/61596506009854/posts/122108183553550200",
       "image": "ngay-12/Quiz-011-make-do.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "thu-thach-ngay-2",
+      "code": "Thử thách Ngày 2",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "thích cái gì",
+      "date": "2026-11-24",
+      "wrong": "I am very like it.",
+      "right": "I like it very much.",
+      "remember": "Thích cái gì thì nói I like it very much, không thêm am.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-2/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122108633895550200",
+      "image": "thu-thach-7-ngay/ngay-2-thich.png",
       "show_in_ui": true
     }
   ]

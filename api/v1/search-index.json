@@ -2636,5 +2636,33 @@
     "paths": [
       "tieng-anh-di-lam"
     ]
+  },
+  {
+    "slug": "thu-thach-ngay-2",
+    "code": "Thử thách Ngày 2",
+    "title": "thích cái gì",
+    "wrong": "I am very like it.",
+    "right": "I like it very much.",
+    "remember": "Thích cái gì thì nói I like it very much, không thêm am.",
+    "why": "like là động từ, không cần am; nói mức độ thì dùng very much đặt sau động từ.",
+    "examples": [
+      "I like this song very much. Tôi rất thích bài hát này.",
+      "We like Da Lat very much. Chúng tôi rất thích Đà Lạt."
+    ],
+    "quiz": [
+      "Câu nào đúng khi nói mình rất thích một thứ?",
+      "Điền từ đúng: 'I ___ it very much.'",
+      "am like",
+      "like",
+      "liking"
+    ],
+    "practice": [
+      "Chọn câu đúng khi nói mình rất thích một bài hát: I am very like this song. I like this song very much.",
+      "I ___ this book very much. am like like likes"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]
