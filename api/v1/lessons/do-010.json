@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "do-010",
+    "code": "Đố nhanh #010",
+    "type": "Quiz",
+    "topic": "ngữ pháp",
+    "title": "where is the station",
+    "date": "2026-11-24",
+    "wrong": "I don't know where is the station.",
+    "wrong_note": "Tôi không biết nhà ga ở đâu.",
+    "right": "I don't know where the station is.",
+    "right_note": "Tôi không biết nhà ga ở đâu.",
+    "why": "Sau where trong câu hỏi gián tiếp thì chủ ngữ đứng trước động từ, không đảo trợ động từ lên trước như câu hỏi trực tiếp.",
+    "problem": "Bạn hỏi đường ra nhà ga và muốn nói mình không biết nhà ga ở đâu, nhưng viết where is the station sau I don't know thì nghe sai sai.",
+    "core": "Câu hỏi gián tiếp không đảo trợ động từ, chủ ngữ đứng trước động từ.",
+    "compare": [
+      {
+        "a": "Where is the station?",
+        "b": "Do you know where the bank is?",
+        "note": "Câu hỏi trực tiếp đảo is lên trước chủ ngữ, câu hỏi gián tiếp giữ nguyên thứ tự."
+      },
+      {
+        "a": "Where is the bus stop?",
+        "b": "Can you tell me where the bus stop is?",
+        "note": "Hỏi trực tiếp thì đảo, hỏi gián tiếp sau can you tell me thì không đảo."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I don't know where the bank is.",
+        "wrong": "I don't know where is the bank."
+      },
+      {
+        "right": "She asked me where the library was.",
+        "wrong": "She asked me where was the library."
+      }
+    ],
+    "remember": "Hỏi gián tiếp thì không đảo: where cộng chủ ngữ rồi mới tới động từ.",
+    "examples": [
+      {
+        "en": "I don't know where the market is.",
+        "vi": "Tôi không biết chợ ở đâu."
+      },
+      {
+        "en": "Can you tell me where the post office is?",
+        "vi": "Bạn có thể cho tôi biết bưu điện ở đâu không?"
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Câu hỏi gián tiếp không đảo trợ động từ, the school đứng trước is.",
+        "options": [
+          "I don't know where is the school.",
+          "I don't know where the school is.",
+          "I don't know where does the school is."
+        ],
+        "prompt": "Câu nào viết đúng?"
+      },
+      {
+        "answer": 1,
+        "explanation": "Sau can you tell me, mệnh đề where giữ nguyên thứ tự, the library đứng trước is.",
+        "options": [
+          "Can you tell me where is the library?",
+          "Can you tell me where the library is?",
+          "Can you tell me where the library does?"
+        ],
+        "prompt": "Chọn câu đúng về thư viện:"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "Sau where trong câu hỏi gián tiếp, chủ ngữ đứng trước động từ, the station đứng trước is.",
+      "options": [
+        "'where is the station' thành 'where the station is'",
+        "'don't' thành 'doesn't'",
+        "'station' thành 'stations'"
+      ],
+      "prompt": "Hãy nhìn trật tự từ sau where.",
+      "question": "Câu đố này sai ở đâu?"
+    },
+    "reel": null,
+    "tip": "Nhớ nhanh: hỏi gián tiếp giữ nguyên thứ tự, chủ ngữ đứng trước động từ.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-13/Do-010-where-the-station-is.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122109176247550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-010/",
+    "show_in_ui": true
+  }
+}

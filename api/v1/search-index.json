@@ -2743,5 +2743,33 @@
     "type": "Lỗi",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "do-010",
+    "code": "Đố nhanh #010",
+    "title": "where is the station",
+    "wrong": "I don't know where is the station.",
+    "right": "I don't know where the station is.",
+    "remember": "Hỏi gián tiếp thì không đảo: where cộng chủ ngữ rồi mới tới động từ.",
+    "why": "Sau where trong câu hỏi gián tiếp thì chủ ngữ đứng trước động từ, không đảo trợ động từ lên trước như câu hỏi trực tiếp.",
+    "examples": [
+      "I don't know where the market is. Tôi không biết chợ ở đâu.",
+      "Can you tell me where the post office is? Bạn có thể cho tôi biết bưu điện ở đâu không?"
+    ],
+    "quiz": [
+      "Câu đố này sai ở đâu?",
+      "Hãy nhìn trật tự từ sau where.",
+      "'where is the station' thành 'where the station is'",
+      "'don't' thành 'doesn't'",
+      "'station' thành 'stations'"
+    ],
+    "practice": [
+      "Câu nào viết đúng? I don't know where is the school. I don't know where the school is. I don't know where does the school is.",
+      "Chọn câu đúng về thư viện: Can you tell me where is the library? Can you tell me where the library is? Can you tell me where the library does?"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]

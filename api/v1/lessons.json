@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 104,
-    "visible_lessons": 96,
+    "total_lessons": 105,
+    "visible_lessons": 97,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1571,6 +1571,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/trend-van-hoa-viet-nam/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122109017667550200",
       "image": "ngay-13/Trend-van-hoa-viet-nam.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "do-010",
+      "code": "Đố nhanh #010",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "where is the station",
+      "date": "2026-11-24",
+      "wrong": "I don't know where is the station.",
+      "right": "I don't know where the station is.",
+      "remember": "Hỏi gián tiếp thì không đảo: where cộng chủ ngữ rồi mới tới động từ.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-010/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122109176247550200",
+      "image": "ngay-13/Do-010-where-the-station-is.png",
       "show_in_ui": true
     }
   ]

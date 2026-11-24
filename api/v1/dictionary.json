@@ -1730,7 +1730,8 @@
         "meme-003",
         "cau-nao-dung-001",
         "meme-007",
-        "quiz-nhanh-010"
+        "quiz-nhanh-010",
+        "do-010"
       ]
     },
     "done": {
@@ -3706,7 +3707,9 @@
           "example_vi": "Tôi biết cô ấy."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-010"
+      ]
     },
     "known": {
       "senses": [
@@ -6600,7 +6603,9 @@
           "meaning": "nhà ga, bến xe"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-010"
+      ]
     },
     "stay": {
       "senses": [
@@ -8128,7 +8133,9 @@
           "meaning": "ở đâu"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "do-010"
+      ]
     },
     "which": {
       "senses": [
