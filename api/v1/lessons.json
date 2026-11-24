@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 105,
-    "visible_lessons": 97,
+    "total_lessons": 106,
+    "visible_lessons": 98,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1586,6 +1586,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/do-010/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122109176247550200",
       "image": "ngay-13/Do-010-where-the-station-is.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-012",
+      "code": "Quiz #012",
+      "type": "Quiz",
+      "topic": "công sở",
+      "title": "revert back",
+      "date": "2026-11-24",
+      "wrong": "I will revert back to you.",
+      "right": "I will get back to you.",
+      "remember": "Trả lời ai thì nói get back to you.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-012/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122109268005550200",
+      "image": "ngay-13/Quiz-012-revert-back.png",
       "show_in_ui": true
     }
   ]

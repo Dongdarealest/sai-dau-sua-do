@@ -10104,6 +10104,93 @@
    "wrong_note": "Tôi không biết nhà ga ở đâu.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Quiz #012",
+   "compare": [
+    {
+     "a": "I will get back to you tomorrow.",
+     "b": "I will revert back to you tomorrow.",
+     "note": "revert back thừa chữ, get back to you mới đúng."
+    },
+    {
+     "a": "Please get back to me soon.",
+     "b": "Please revert me soon.",
+     "note": "revert không đi với người."
+    }
+   ],
+   "core": "revert không đi với người, muốn trả lời ai thì dùng get back to you.",
+   "date": "2026-11-24",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I will get back to you after the meeting.",
+     "vi": "Tôi sẽ trả lời bạn sau cuộc họp."
+    },
+    {
+     "en": "She will get back to you tomorrow morning.",
+     "vi": "Cô ấy sẽ trả lời bạn vào sáng mai."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122109268005550200",
+   "image_src": "ngay-13/Quiz-012-revert-back.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I will get back to you soon.",
+     "wrong": "I will revert you soon."
+    },
+    {
+     "right": "Please get back to me soon.",
+     "wrong": "Please revert me soon."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "get back to you là cụm đúng khi trả lời lại ai đó.",
+     "options": [
+      "get back",
+      "revert back",
+      "revert"
+     ],
+     "prompt": "Điền cụm đúng: 'I will ___ to you soon.'"
+    },
+    {
+     "answer": 1,
+     "explanation": "revert không đi với người, dùng get back to me.",
+     "options": [
+      "Please revert me when you finish.",
+      "Please get back to me when you finish."
+     ],
+     "prompt": "Chọn câu đúng:"
+    }
+   ],
+   "problem": "Sếp nhắn 'Please revert back', bạn sẽ trả lời lại bằng câu nào?",
+   "quiz": {
+    "answer": 1,
+    "explanation": "B đúng vì get back to you nghĩa là trả lời lại ai đó. A thừa chữ back, C dùng revert với người là sai.",
+    "options": [
+     "I will revert back to you.",
+     "I will get back to you.",
+     "I will revert you."
+    ],
+    "prompt": "Chọn câu đúng trong 3 câu sau:",
+    "question": "Muốn nói 'Tôi sẽ trả lời bạn sau', câu nào đúng?"
+   },
+   "remember": "Trả lời ai thì nói get back to you.",
+   "right": "I will get back to you.",
+   "right_note": "get back to you là cụm đúng.",
+   "slug": "quiz-012",
+   "tip": "Nhớ nhanh: thấy revert back trong email thì bỏ back, và đừng dùng revert với người.",
+   "title": "revert back",
+   "topic": "công sở",
+   "type": "Quiz",
+   "why": "revert back thừa chữ back, revert không đi với người.",
+   "wrong": "I will revert back to you.",
+   "wrong_note": "revert back thừa chữ back.",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

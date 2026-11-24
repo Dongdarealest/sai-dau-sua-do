@@ -2771,5 +2771,33 @@
     "type": "Quiz",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "quiz-012",
+    "code": "Quiz #012",
+    "title": "revert back",
+    "wrong": "I will revert back to you.",
+    "right": "I will get back to you.",
+    "remember": "Trả lời ai thì nói get back to you.",
+    "why": "revert back thừa chữ back, revert không đi với người.",
+    "examples": [
+      "I will get back to you after the meeting. Tôi sẽ trả lời bạn sau cuộc họp.",
+      "She will get back to you tomorrow morning. Cô ấy sẽ trả lời bạn vào sáng mai."
+    ],
+    "quiz": [
+      "Muốn nói 'Tôi sẽ trả lời bạn sau', câu nào đúng?",
+      "Chọn câu đúng trong 3 câu sau:",
+      "I will revert back to you.",
+      "I will get back to you.",
+      "I will revert you."
+    ],
+    "practice": [
+      "Điền cụm đúng: 'I will ___ to you soon.' get back revert back revert",
+      "Chọn câu đúng: Please revert me when you finish. Please get back to me when you finish."
+    ],
+    "topic": "công sở",
+    "type": "Quiz",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]
