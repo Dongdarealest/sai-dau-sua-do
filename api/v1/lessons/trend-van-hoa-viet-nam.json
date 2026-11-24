@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "trend-van-hoa-viet-nam",
+    "code": "Bài trend",
+    "type": "Lỗi",
+    "topic": "từ vựng",
+    "title": "Vietnamese culture",
+    "date": "2026-11-24",
+    "wrong": "I love Vietnam culture.",
+    "wrong_note": "Tôi yêu văn hóa Việt Nam.",
+    "right": "I love Vietnamese culture.",
+    "right_note": "Tôi yêu văn hóa Việt Nam.",
+    "why": "Vietnam là tên nước, Vietnamese mới là tính từ.",
+    "problem": "Hôm nay 24/11 là Ngày Văn hóa Việt Nam, cả nước mặc Việt phục xuống phố. Nhiều bạn khoe văn hóa Việt mà viết nhầm tên nước thay cho tính từ.",
+    "core": "Muốn bổ nghĩa cho danh từ thì dùng tính từ chỉ quốc tịch, không dùng tên nước.",
+    "compare": [
+      {
+        "a": "I love Vietnam food.",
+        "b": "I love Vietnamese food.",
+        "note": "Nói về ẩm thực cũng dùng Vietnamese, không dùng Vietnam."
+      },
+      {
+        "a": "Vietnam people are friendly.",
+        "b": "Vietnamese people are friendly.",
+        "note": "Nói về con người cũng dùng Vietnamese, không dùng Vietnam."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Vietnamese culture is very rich.",
+        "wrong": "Vietnam culture is very rich."
+      },
+      {
+        "right": "I want to learn Vietnamese history.",
+        "wrong": "I want to learn Vietnam history."
+      }
+    ],
+    "remember": "Muốn khen cái gì của Việt Nam thì dùng Vietnamese đứng trước danh từ.",
+    "examples": [
+      {
+        "en": "Vietnamese food is delicious.",
+        "vi": "Ẩm thực Việt Nam rất ngon."
+      },
+      {
+        "en": "I love Vietnamese music.",
+        "vi": "Tôi yêu âm nhạc Việt Nam."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "Vietnamese là tính từ, bổ nghĩa cho culture.",
+        "options": [
+          "Vietnam",
+          "Vietnamese",
+          "Vietnames"
+        ],
+        "prompt": "I love ___ culture."
+      },
+      {
+        "answer": 1,
+        "explanation": "Nói về ẩm thực thì dùng Vietnamese, không dùng Vietnam.",
+        "options": [
+          "Vietnam food is amazing.",
+          "Vietnamese food is amazing."
+        ],
+        "prompt": "Chọn câu đúng:"
+      },
+      {
+        "answer": 1,
+        "explanation": "Tự hào về văn hóa Việt thì dùng Vietnamese culture.",
+        "kind": "translate",
+        "options": [
+          "I am proud of Vietnam culture.",
+          "I am proud of Vietnamese culture."
+        ],
+        "prompt": "Dịch câu: 'Tôi tự hào về văn hóa Việt Nam.'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Dùng khi giới thiệu văn hóa, ẩm thực, con người Việt Nam.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-13/Trend-van-hoa-viet-nam.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122109017667550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/trend-van-hoa-viet-nam/",
+    "show_in_ui": true
+  }
+}

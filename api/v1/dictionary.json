@@ -4136,7 +4136,9 @@
           "meaning": "tình yêu"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "trend-van-hoa-viet-nam"
+      ]
     },
     "loved": {
       "senses": [
@@ -7762,7 +7764,8 @@
         }
       ],
       "mistakes": [
-        "mau-cau-002"
+        "mau-cau-002",
+        "trend-van-hoa-viet-nam"
       ]
     },
     "vietnamese": {
@@ -7777,7 +7780,8 @@
         }
       ],
       "mistakes": [
-        "loi-008"
+        "loi-008",
+        "trend-van-hoa-viet-nam"
       ]
     },
     "view": {

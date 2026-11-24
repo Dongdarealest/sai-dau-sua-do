@@ -2717,5 +2717,31 @@
     "type": "Quiz",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "trend-van-hoa-viet-nam",
+    "code": "Bài trend",
+    "title": "Vietnamese culture",
+    "wrong": "I love Vietnam culture.",
+    "right": "I love Vietnamese culture.",
+    "remember": "Muốn khen cái gì của Việt Nam thì dùng Vietnamese đứng trước danh từ.",
+    "why": "Vietnam là tên nước, Vietnamese mới là tính từ.",
+    "examples": [
+      "Vietnamese food is delicious. Ẩm thực Việt Nam rất ngon.",
+      "I love Vietnamese music. Tôi yêu âm nhạc Việt Nam."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "I love ___ culture. Vietnam Vietnamese Vietnames",
+      "Chọn câu đúng: Vietnam food is amazing. Vietnamese food is amazing.",
+      "Dịch câu: 'Tôi tự hào về văn hóa Việt Nam.' I am proud of Vietnam culture. I am proud of Vietnamese culture."
+    ],
+    "topic": "từ vựng",
+    "type": "Lỗi",
+    "date": "2026-11-24",
+    "paths": []
   }
 ]

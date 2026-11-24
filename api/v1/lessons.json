@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 103,
-    "visible_lessons": 95,
+    "total_lessons": 104,
+    "visible_lessons": 96,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1556,6 +1556,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-010/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122108948457550200",
       "image": "ngay-13/Quiz-nhanh-010-dont-agree.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "trend-van-hoa-viet-nam",
+      "code": "Bài trend",
+      "type": "Lỗi",
+      "topic": "từ vựng",
+      "title": "Vietnamese culture",
+      "date": "2026-11-24",
+      "wrong": "I love Vietnam culture.",
+      "right": "I love Vietnamese culture.",
+      "remember": "Muốn khen cái gì của Việt Nam thì dùng Vietnamese đứng trước danh từ.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/trend-van-hoa-viet-nam/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122109017667550200",
+      "image": "ngay-13/Trend-van-hoa-viet-nam.png",
       "show_in_ui": true
     }
   ]
