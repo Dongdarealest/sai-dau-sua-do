@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-013",
+    "code": "Quiz #013",
+    "type": "Quiz",
+    "topic": "phát âm",
+    "title": "schedule đọc kiểu Anh Mỹ như thế nào",
+    "date": "2026-11-25",
+    "wrong": "schedule đọc /ˈʃedʒ.uːl/ kiểu Anh Mỹ.",
+    "wrong_note": "",
+    "right": "schedule đọc /ˈskedʒ.uːl/ kiểu Anh Mỹ.",
+    "right_note": "schedule nghĩa là lịch trình.",
+    "why": "Người Mỹ đọc schedule với âm sk ở đầu, người Anh đọc với âm sh.",
+    "problem": "Cùng một từ schedule, người Anh đọc một kiểu, người Mỹ đọc một kiểu khác.",
+    "core": "Kiểu Anh Mỹ của schedule bắt đầu bằng âm sk, kiểu Anh Anh bắt đầu bằng âm sh.",
+    "compare": [
+      {
+        "a": "/ˈskedʒ.uːl/",
+        "b": "/ˈʃedʒ.uːl/",
+        "note": "Âm sk là kiểu Anh Mỹ, âm sh là kiểu Anh Anh."
+      },
+      {
+        "a": "schedule",
+        "b": "school",
+        "note": "schedule kiểu Mỹ đọc sk như school, schedule kiểu Anh đọc sh."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Anh Mỹ đọc schedule là /ˈskedʒ.uːl/.",
+        "wrong": "Anh Mỹ đọc schedule là /ˈʃedʒ.uːl/."
+      },
+      {
+        "right": "Anh Anh đọc schedule là /ˈʃedʒ.uːl/.",
+        "wrong": "Anh Anh đọc schedule là /ˈskedʒ.uːl/."
+      }
+    ],
+    "remember": "Kiểu Anh Mỹ đọc schedule với âm sk, kiểu Anh Anh đọc với âm sh.",
+    "examples": [
+      {
+        "en": "My schedule is full this week.",
+        "vi": "Lịch của tôi kín cả tuần này."
+      },
+      {
+        "en": "What is your schedule tomorrow?",
+        "vi": "Ngày mai lịch của bạn thế nào?"
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "Người Anh đọc schedule với âm sh.",
+        "options": [
+          "/ˈʃedʒ.uːl/",
+          "/ˈskedʒ.uːl/"
+        ],
+        "prompt": "Kiểu Anh Anh của schedule đọc như thế nào?"
+      },
+      {
+        "answer": 1,
+        "explanation": "Có hẹn trong lịch thì dùng on my schedule.",
+        "options": [
+          "I have a meeting in my schedule.",
+          "I have a meeting on my schedule."
+        ],
+        "prompt": "Câu nào dùng schedule đúng?"
+      },
+      {
+        "answer": 0,
+        "explanation": "schedule là lịch trình, thời gian biểu.",
+        "options": [
+          "Lịch trình",
+          "Lịch sử"
+        ],
+        "prompt": "schedule có nghĩa là gì?"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "Anh Mỹ đọc schedule với âm sk, Anh Anh đọc với âm sh /ˈʃedʒ.uːl/.",
+      "options": [
+        "/ˈʃedʒ.uːl/",
+        "/ˈskedʒ.uːl/",
+        "/ˈʃed.juːl/"
+      ],
+      "prompt": "Chọn cách đọc đúng của người Mỹ.",
+      "question": "schedule đọc kiểu Anh Mỹ là:"
+    },
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [
+      {
+        "note": "",
+        "source": "Cambridge, Anh Anh",
+        "text": "/ˈʃedʒ.uːl/"
+      },
+      {
+        "note": "",
+        "source": "Cambridge, Anh Mỹ",
+        "text": "/ˈskedʒ.uːl/"
+      }
+    ],
+    "dict_links": [
+      {
+        "label": "Cambridge, schedule",
+        "url": "https://dictionary.cambridge.org/dictionary/english/schedule"
+      }
+    ],
+    "image": "ngay-14/Quiz-013-schedule.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122110092885550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-013/",
+    "show_in_ui": true
+  }
+}

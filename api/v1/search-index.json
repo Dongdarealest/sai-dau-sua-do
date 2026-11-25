@@ -2884,5 +2884,34 @@
     "type": "Quiz",
     "date": "2026-11-25",
     "paths": []
+  },
+  {
+    "slug": "quiz-013",
+    "code": "Quiz #013",
+    "title": "schedule đọc kiểu Anh Mỹ như thế nào",
+    "wrong": "schedule đọc /ˈʃedʒ.uːl/ kiểu Anh Mỹ.",
+    "right": "schedule đọc /ˈskedʒ.uːl/ kiểu Anh Mỹ.",
+    "remember": "Kiểu Anh Mỹ đọc schedule với âm sk, kiểu Anh Anh đọc với âm sh.",
+    "why": "Người Mỹ đọc schedule với âm sk ở đầu, người Anh đọc với âm sh.",
+    "examples": [
+      "My schedule is full this week. Lịch của tôi kín cả tuần này.",
+      "What is your schedule tomorrow? Ngày mai lịch của bạn thế nào?"
+    ],
+    "quiz": [
+      "schedule đọc kiểu Anh Mỹ là:",
+      "Chọn cách đọc đúng của người Mỹ.",
+      "/ˈʃedʒ.uːl/",
+      "/ˈskedʒ.uːl/",
+      "/ˈʃed.juːl/"
+    ],
+    "practice": [
+      "Kiểu Anh Anh của schedule đọc như thế nào? /ˈʃedʒ.uːl/ /ˈskedʒ.uːl/",
+      "Câu nào dùng schedule đúng? I have a meeting in my schedule. I have a meeting on my schedule.",
+      "schedule có nghĩa là gì? Lịch trình Lịch sử"
+    ],
+    "topic": "phát âm",
+    "type": "Quiz",
+    "date": "2026-11-25",
+    "paths": []
   }
 ]

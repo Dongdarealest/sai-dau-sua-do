@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 109,
-    "visible_lessons": 101,
+    "total_lessons": 110,
+    "visible_lessons": 102,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1646,6 +1646,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-011/",
       "fb": "https://www.facebook.com/61596506009854/posts/122109882507550200",
       "image": "ngay-14/Quiz-nhanh-011-honest.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-013",
+      "code": "Quiz #013",
+      "type": "Quiz",
+      "topic": "phát âm",
+      "title": "schedule đọc kiểu Anh Mỹ như thế nào",
+      "date": "2026-11-25",
+      "wrong": "schedule đọc /ˈʃedʒ.uːl/ kiểu Anh Mỹ.",
+      "right": "schedule đọc /ˈskedʒ.uːl/ kiểu Anh Mỹ.",
+      "remember": "Kiểu Anh Mỹ đọc schedule với âm sk, kiểu Anh Anh đọc với âm sh.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-013/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122110092885550200",
+      "image": "ngay-14/Quiz-013-schedule.png",
       "show_in_ui": true
     }
   ]
