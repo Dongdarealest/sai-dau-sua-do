@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-nhanh-011",
+    "code": "Quiz nhanh #011",
+    "type": "Quiz",
+    "topic": "phát âm",
+    "title": "Chữ nào trong honest là chữ câm?",
+    "date": "2026-11-25",
+    "wrong": "Chữ o là chữ câm trong honest.",
+    "wrong_note": "",
+    "right": "Chữ h là chữ câm trong honest.",
+    "right_note": "honest nghĩa là trung thực.",
+    "why": "honest đọc là ON ist, chữ h câm nên không phát âm.",
+    "problem": "Nhiều bạn đọc honest có âm h đầu từ vì thấy chữ h trong từ. Thật ra chữ h này câm, không phát âm.",
+    "core": "Khi gặp từ có chữ câm, hãy học thuộc cách đọc của riêng từ đó, đừng đoán theo mặt chữ.",
+    "compare": [
+      {
+        "a": "honest",
+        "b": "host",
+        "note": "honest đọc ON ist vì chữ h câm, còn host đọc đủ cả chữ h."
+      },
+      {
+        "a": "an honest man",
+        "b": "a host",
+        "note": "Trước honest dùng an vì âm đầu là nguyên âm, trước host dùng a vì âm đầu là phụ âm h."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "He gave an honest answer.",
+        "wrong": "He gave a honest answer."
+      },
+      {
+        "right": "She told an honest story.",
+        "wrong": "She told a honest story."
+      }
+    ],
+    "remember": "Trong honest, chữ h câm, đọc thành ON ist.",
+    "examples": [
+      {
+        "en": "She is an honest person.",
+        "vi": "Cô ấy là người trung thực."
+      },
+      {
+        "en": "Please give me an honest opinion.",
+        "vi": "Xin hãy cho tôi một ý kiến trung thực."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "honest bắt đầu bằng nguyên âm nên dùng an.",
+        "options": [
+          "A",
+          "An"
+        ],
+        "prompt": "___ honest person always tells the truth."
+      },
+      {
+        "answer": 0,
+        "explanation": "honest có chữ h câm, house đọc đủ cả chữ h.",
+        "options": [
+          "honest",
+          "house"
+        ],
+        "prompt": "Chọn từ có chữ câm:"
+      },
+      {
+        "answer": 0,
+        "explanation": "Chữ h câm nên honest chỉ đọc là ON ist.",
+        "options": [
+          "ON ist",
+          "HON ist"
+        ],
+        "prompt": "honest đọc như thế nào?"
+      }
+    ],
+    "quiz": {
+      "answer": 0,
+      "explanation": "Chỉ chữ h câm, chữ o và chữ t đều đọc.",
+      "options": [
+        "Chữ h",
+        "Chữ o",
+        "Chữ t"
+      ],
+      "prompt": "Hãy nhìn 5 chữ cái của honest.",
+      "question": "Trong từ honest, chữ nào là chữ câm?"
+    },
+    "reel": null,
+    "tip": "Gặp từ bắt đầu bằng h, hãy tra từ điển xem chữ h có câm không, vì an hay a dựa vào âm đầu.",
+    "articulation": null,
+    "ipa": [
+      {
+        "note": "",
+        "source": "Cambridge, Anh Anh",
+        "text": "/ˈɒn.ɪst/"
+      },
+      {
+        "note": "",
+        "source": "Cambridge, Anh Mỹ",
+        "text": "/ˈɑː.nɪst/"
+      }
+    ],
+    "dict_links": [
+      {
+        "label": "Cambridge, honest",
+        "url": "https://dictionary.cambridge.org/dictionary/english/honest"
+      }
+    ],
+    "image": "ngay-14/Quiz-nhanh-011-honest.png",
+    "fb": "https://www.facebook.com/61596506009854/posts/122109882507550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-nhanh-011/",
+    "show_in_ui": true
+  }
+}
