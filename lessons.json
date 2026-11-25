@@ -10281,6 +10281,95 @@
    "why": "home ở đây đóng vai trò trạng từ chỉ nơi chốn, nên go home không cần giới từ to.",
    "wrong": "I will go to home.",
    "wrong_note": "thừa to trước home."
+  },
+  {
+   "slug": "luu-lai-hoc-dan-001",
+   "code": "Lưu lại học dần #001",
+   "type": "Lỗi",
+   "topic": "ngữ pháp",
+   "date": "2026-11-25",
+   "title": "Đoán chuyện đã xảy ra",
+   "wrong": "He must went home early.",
+   "wrong_note": "Quên have và quá khứ phân từ sau modal.",
+   "right": "He must have gone home early.",
+   "right_note": "Anh ấy chắc hẳn đã về nhà sớm.",
+   "why": "Đoán chuyện đã xảy ra thì dùng modal cộng have cộng quá khứ phân từ.",
+   "problem": "Bạn kể lại chuyện hôm qua và muốn đoán xem ai đó đã làm gì, nhưng viết must went thì nghe sai ngay.",
+   "core": "Modal cộng have cộng quá khứ phân từ để đoán chuyện đã xảy ra, mức chắc chắn theo modal.",
+   "compare": [
+    {
+     "a": "She can't have taken my keys.",
+     "b": "She might have taken my keys.",
+     "note": "can't have là gần như chắc chắn không, might have chỉ là có thể."
+    },
+    {
+     "a": "He must have finished the report.",
+     "b": "He might have finished the report.",
+     "note": "must have là gần như chắc chắn, might have chỉ là có thể."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "She must have left early.",
+     "wrong": "She must left early."
+    },
+    {
+     "right": "They can't have gone out last night.",
+     "wrong": "They can't went out last night."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She must have left already.",
+     "vi": "Cô ấy chắc hẳn đã đi rồi."
+    },
+    {
+     "en": "He might have left his keys.",
+     "vi": "Anh ấy có thể đã để quên chìa khóa."
+    }
+   ],
+   "quiz": {
+    "question": "Lan isn't here. She ___ forgotten about the meeting.",
+    "prompt": "Chọn modal đúng:",
+    "options": [
+     "must have",
+     "might have",
+     "can't have"
+    ],
+    "answer": 1,
+    "explanation": "Lan không có ở đây, có thể cô ấy đã quên mất cuộc họp, nhưng không có bằng chứng chắc chắn nên dùng might have."
+   },
+   "practice": [
+    {
+     "prompt": "Điền từ còn thiếu: 'He must ___ gone home early.'",
+     "options": [
+      "have",
+      "has",
+      "had"
+     ],
+     "answer": 0,
+     "explanation": "have là từ bắt buộc sau modal khi đoán chuyện đã xảy ra.",
+     "kind": "fill_blank"
+    },
+    {
+     "prompt": "Chọn câu đúng:",
+     "options": [
+      "He might went home.",
+      "He might have gone home.",
+      "He might has gone home."
+     ],
+     "answer": 1,
+     "explanation": "might have cộng quá khứ phân từ mới đúng."
+    }
+   ],
+   "remember": "Đoán quá khứ: modal cộng have cộng quá khứ phân từ, mức chắc chắn theo modal.",
+   "tip": "Nhớ nhanh: must have gần như chắc chắn, might have có thể, can't have chắc chắn không.",
+   "ipa": [],
+   "dict_links": [],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122109800169550200",
+   "image_src": "ngay-14/Luu-lai-hoc-dan-001-slide-1.png",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

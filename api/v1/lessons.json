@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 107,
-    "visible_lessons": 99,
+    "total_lessons": 108,
+    "visible_lessons": 100,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1616,6 +1616,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-3/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122109705975550200",
       "image": "thu-thach-7-ngay/ngay-3-ve-nha.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "luu-lai-hoc-dan-001",
+      "code": "Lưu lại học dần #001",
+      "type": "Lỗi",
+      "topic": "ngữ pháp",
+      "title": "Đoán chuyện đã xảy ra",
+      "date": "2026-11-25",
+      "wrong": "He must went home early.",
+      "right": "He must have gone home early.",
+      "remember": "Đoán quá khứ: modal cộng have cộng quá khứ phân từ, mức chắc chắn theo modal.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/luu-lai-hoc-dan-001/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122109800169550200",
+      "image": "ngay-14/Luu-lai-hoc-dan-001-slide-1.png",
       "show_in_ui": true
     }
   ]

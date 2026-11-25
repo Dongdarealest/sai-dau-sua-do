@@ -1898,7 +1898,9 @@
           "meaning": "sớm"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "luu-lai-hoc-dan-001"
+      ]
     },
     "earth": {
       "senses": [
@@ -2725,7 +2727,8 @@
       ],
       "mistakes": [
         "do-002",
-        "tong-hop-cac-thi"
+        "tong-hop-cac-thi",
+        "luu-lai-hoc-dan-001"
       ]
     },
     "good": {
@@ -2996,7 +2999,8 @@
         "meme-003",
         "reel-005",
         "do-005",
-        "meme-006"
+        "meme-006",
+        "luu-lai-hoc-dan-001"
       ]
     },
     "head": {
@@ -3227,7 +3231,8 @@
         }
       ],
       "mistakes": [
-        "thu-thach-ngay-3"
+        "thu-thach-ngay-3",
+        "luu-lai-hoc-dan-001"
       ]
     },
     "hometown": {
@@ -4610,7 +4615,9 @@
           "meaning": "phải"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "luu-lai-hoc-dan-001"
+      ]
     },
     "my": {
       "senses": [
@@ -8087,7 +8094,8 @@
       "mistakes": [
         "do-002",
         "tong-hop-cac-thi",
-        "meme-005"
+        "meme-005",
+        "luu-lai-hoc-dan-001"
       ]
     },
     "were": {

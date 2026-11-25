@@ -2827,5 +2827,33 @@
     "type": "Quiz",
     "date": "2026-11-25",
     "paths": []
+  },
+  {
+    "slug": "luu-lai-hoc-dan-001",
+    "code": "Lưu lại học dần #001",
+    "title": "Đoán chuyện đã xảy ra",
+    "wrong": "He must went home early.",
+    "right": "He must have gone home early.",
+    "remember": "Đoán quá khứ: modal cộng have cộng quá khứ phân từ, mức chắc chắn theo modal.",
+    "why": "Đoán chuyện đã xảy ra thì dùng modal cộng have cộng quá khứ phân từ.",
+    "examples": [
+      "She must have left already. Cô ấy chắc hẳn đã đi rồi.",
+      "He might have left his keys. Anh ấy có thể đã để quên chìa khóa."
+    ],
+    "quiz": [
+      "Lan isn't here. She ___ forgotten about the meeting.",
+      "Chọn modal đúng:",
+      "must have",
+      "might have",
+      "can't have"
+    ],
+    "practice": [
+      "Điền từ còn thiếu: 'He must ___ gone home early.' have has had",
+      "Chọn câu đúng: He might went home. He might have gone home. He might has gone home."
+    ],
+    "topic": "ngữ pháp",
+    "type": "Lỗi",
+    "date": "2026-11-25",
+    "paths": []
   }
 ]
