@@ -2799,5 +2799,33 @@
     "type": "Quiz",
     "date": "2026-11-24",
     "paths": []
+  },
+  {
+    "slug": "thu-thach-ngay-3",
+    "code": "Thử thách Ngày 3",
+    "title": "về nhà",
+    "wrong": "I will go to home.",
+    "right": "I will go home.",
+    "remember": "Muốn về nhà thì nói go home, không thêm to.",
+    "why": "home ở đây đóng vai trò trạng từ chỉ nơi chốn, nên go home không cần giới từ to.",
+    "examples": [
+      "I will go home at six. Tôi sẽ về nhà lúc sáu giờ.",
+      "We go home after class. Chúng tôi về nhà sau giờ học."
+    ],
+    "quiz": [
+      "Câu nào đúng khi nói mình sẽ về nhà?",
+      "Điền từ đúng: 'I will go ___ now.'",
+      "to home",
+      "home",
+      "at home"
+    ],
+    "practice": [
+      "Chọn câu đúng khi nói mình sẽ về nhà sau giờ học: I will go to home after school. I will go home after school.",
+      "I will go ___ after dinner. to home home at home"
+    ],
+    "topic": "giao tiếp",
+    "type": "Quiz",
+    "date": "2026-11-25",
+    "paths": []
   }
 ]

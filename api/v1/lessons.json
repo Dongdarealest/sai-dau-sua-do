@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 106,
-    "visible_lessons": 98,
+    "total_lessons": 107,
+    "visible_lessons": 99,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1601,6 +1601,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-012/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122109268005550200",
       "image": "ngay-13/Quiz-012-revert-back.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "thu-thach-ngay-3",
+      "code": "Thử thách Ngày 3",
+      "type": "Quiz",
+      "topic": "giao tiếp",
+      "title": "về nhà",
+      "date": "2026-11-25",
+      "wrong": "I will go to home.",
+      "right": "I will go home.",
+      "remember": "Muốn về nhà thì nói go home, không thêm to.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-3/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122109705975550200",
+      "image": "thu-thach-7-ngay/ngay-3-ve-nha.png",
       "show_in_ui": true
     }
   ]

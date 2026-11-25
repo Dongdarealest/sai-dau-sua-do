@@ -10191,6 +10191,96 @@
    "wrong_note": "revert back thừa chữ back.",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "articulation": null,
+   "code": "Thử thách Ngày 3",
+   "compare": [
+    {
+     "a": "I will go home now.",
+     "b": "I will go to school now.",
+     "note": "home là trạng từ nên không cần to, school là danh từ nên cần to."
+    },
+    {
+     "a": "She goes home early.",
+     "b": "She goes to work early.",
+     "note": "go home không có to, go to work có to."
+    }
+   ],
+   "core": "go home không có to.",
+   "date": "2026-11-25",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "I will go home at six.",
+     "vi": "Tôi sẽ về nhà lúc sáu giờ."
+    },
+    {
+     "en": "We go home after class.",
+     "vi": "Chúng tôi về nhà sau giờ học."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122109705975550200",
+   "image_src": "thu-thach-7-ngay/ngay-3-ve-nha.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "I will go home after work.",
+     "wrong": "I will go to home after work."
+    },
+    {
+     "right": "They went home late.",
+     "wrong": "They went to home late."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "go home là cụm cố định, không thêm to.",
+     "options": [
+      "I will go to home after school.",
+      "I will go home after school."
+     ],
+     "prompt": "Chọn câu đúng khi nói mình sẽ về nhà sau giờ học:"
+    },
+    {
+     "answer": 1,
+     "explanation": "home là trạng từ nên không cần to.",
+     "kind": "fill_blank",
+     "options": [
+      "to home",
+      "home",
+      "at home"
+     ],
+     "prompt": "I will go ___ after dinner."
+    }
+   ],
+   "problem": "Nhiều bạn Việt khi nói mình sắp về nhà thường thêm to trước home, nghe quen tai nhưng người bản xứ thấy sai ngay.",
+   "quiz": {
+    "answer": 1,
+    "explanation": "go home không có to.",
+    "options": [
+     "to home",
+     "home",
+     "at home"
+    ],
+    "prompt": "Điền từ đúng: 'I will go ___ now.'",
+    "question": "Câu nào đúng khi nói mình sẽ về nhà?"
+   },
+   "reel": null,
+   "remember": "Muốn về nhà thì nói go home, không thêm to.",
+   "right": "I will go home.",
+   "right_note": "Tôi sẽ về nhà.",
+   "show_in_ui": true,
+   "slug": "thu-thach-ngay-3",
+   "tip": "Nhớ nhanh: go home, come home, get home đều không có to.",
+   "title": "về nhà",
+   "topic": "giao tiếp",
+   "type": "Quiz",
+   "url": "https://dongdarealest.github.io/sai-dau-sua-do/thu-thach-ngay-3/",
+   "why": "home ở đây đóng vai trò trạng từ chỉ nơi chốn, nên go home không cần giới từ to.",
+   "wrong": "I will go to home.",
+   "wrong_note": "thừa to trước home."
   }
  ],
  "site": {

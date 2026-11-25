@@ -2685,7 +2685,8 @@
         "hoi-thoai-003",
         "meme-005",
         "quiz-nhanh-008",
-        "do-009"
+        "do-009",
+        "thu-thach-ngay-3"
       ]
     },
     "goal": {
@@ -3225,7 +3226,9 @@
           "example_vi": "Tôi đang về nhà."
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "thu-thach-ngay-3"
+      ]
     },
     "hometown": {
       "senses": [
