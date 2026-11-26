@@ -2939,5 +2939,31 @@
     "type": "Lỗi",
     "date": "2026-11-26",
     "paths": []
+  },
+  {
+    "slug": "sua-cau-cua-ban-01",
+    "code": "Sửa câu của bạn #001",
+    "title": "many a đi với số ít",
+    "wrong": "Many a students made the same mistake.",
+    "right": "Many a student made the same mistake.",
+    "remember": "many a cộng danh từ số ít và động từ số ít, dù nghĩa là rất nhiều.",
+    "why": "many a đi với danh từ số ít, dù nghĩa là rất nhiều.",
+    "examples": [
+      "Many a student dreams of studying abroad. Rất nhiều học sinh mơ được du học.",
+      "Many a morning starts with a cup of coffee. Rất nhiều buổi sáng bắt đầu bằng một tách cà phê."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Điền từ đúng: Many a ___ made the same mistake. student students student's",
+      "Chọn câu đúng. Many a students were late. Many a student was late. Many a student were late.",
+      "Chọn câu đúng. Many a people came. Many a person came. Many a persons came."
+    ],
+    "topic": "ngữ pháp",
+    "type": "Lỗi",
+    "date": "2026-11-26",
+    "paths": []
   }
 ]

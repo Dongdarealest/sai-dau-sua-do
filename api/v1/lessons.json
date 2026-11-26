@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 111,
-    "visible_lessons": 103,
+    "total_lessons": 112,
+    "visible_lessons": 104,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1676,6 +1676,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-011/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122110344549550200",
       "image": "ngay-15/Loi-011-some-any.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "sua-cau-cua-ban-01",
+      "code": "Sửa câu của bạn #001",
+      "type": "Lỗi",
+      "topic": "ngữ pháp",
+      "title": "many a đi với số ít",
+      "date": "2026-11-26",
+      "wrong": "Many a students made the same mistake.",
+      "right": "Many a student made the same mistake.",
+      "remember": "many a cộng danh từ số ít và động từ số ít, dù nghĩa là rất nhiều.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/sua-cau-cua-ban-01/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122110474401550200",
+      "image": "ngay-15/Sua-cau-cua-ban-001-many-a.png",
       "show_in_ui": true
     }
   ]

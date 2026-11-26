@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "sua-cau-cua-ban-01",
+    "code": "Sửa câu của bạn #001",
+    "type": "Lỗi",
+    "topic": "ngữ pháp",
+    "title": "many a đi với số ít",
+    "date": "2026-11-26",
+    "wrong": "Many a students made the same mistake.",
+    "wrong_note": "",
+    "right": "Many a student made the same mistake.",
+    "right_note": "Rất nhiều học sinh mắc cùng một lỗi.",
+    "why": "many a đi với danh từ số ít, dù nghĩa là rất nhiều.",
+    "problem": "Thấy many thì nghĩ danh từ phải số nhiều, nhưng many a lại đi với danh từ số ít.",
+    "core": "many a cộng danh từ số ít và động từ số ít, nghĩa là rất nhiều.",
+    "compare": [
+      {
+        "a": "Many a visitor asked the same question.",
+        "b": "Many visitors asked the same question.",
+        "note": "many a cộng danh từ số ít, many cộng danh từ số nhiều, nghĩa gần giống nhau."
+      },
+      {
+        "a": "Many a time I have heard that story.",
+        "b": "Many times I have heard that story.",
+        "note": "many a time là cụm cố định, nghĩa là rất nhiều lần."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "Many a child loves this game.",
+        "wrong": "Many a children love this game."
+      },
+      {
+        "right": "Many a book was sold that day.",
+        "wrong": "Many a books were sold that day."
+      }
+    ],
+    "remember": "many a cộng danh từ số ít và động từ số ít, dù nghĩa là rất nhiều.",
+    "examples": [
+      {
+        "en": "Many a student dreams of studying abroad.",
+        "vi": "Rất nhiều học sinh mơ được du học."
+      },
+      {
+        "en": "Many a morning starts with a cup of coffee.",
+        "vi": "Rất nhiều buổi sáng bắt đầu bằng một tách cà phê."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "many a đi với danh từ số ít.",
+        "kind": "fill_blank",
+        "options": [
+          "student",
+          "students",
+          "student's"
+        ],
+        "prompt": "Điền từ đúng: Many a ___ made the same mistake."
+      },
+      {
+        "answer": 1,
+        "explanation": "many a đi với danh từ số ít và động từ số ít.",
+        "options": [
+          "Many a students were late.",
+          "Many a student was late.",
+          "Many a student were late."
+        ],
+        "prompt": "Chọn câu đúng."
+      },
+      {
+        "answer": 1,
+        "explanation": "many a đi với danh từ số ít, person là dạng số ít của people.",
+        "options": [
+          "Many a people came.",
+          "Many a person came.",
+          "Many a persons came."
+        ],
+        "prompt": "Chọn câu đúng."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Nhớ nhanh: thấy many a thì danh từ sau nó luôn ở dạng số ít.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-15/Sua-cau-cua-ban-001-many-a.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122110474401550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/sua-cau-cua-ban-01/",
+    "show_in_ui": true
+  }
+}

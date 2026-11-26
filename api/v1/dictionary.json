@@ -4199,7 +4199,9 @@
           "meaning": "đã làm"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "sua-cau-cua-ban-01"
+      ]
     },
     "make": {
       "senses": [
@@ -4235,7 +4237,8 @@
         }
       ],
       "mistakes": [
-        "meme-001"
+        "meme-001",
+        "sua-cau-cua-ban-01"
       ]
     },
     "march": {
@@ -5840,7 +5843,9 @@
           "meaning": "giống nhau"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "sua-cau-cua-ban-01"
+      ]
     },
     "sang": {
       "senses": [
@@ -6744,7 +6749,8 @@
         }
       ],
       "mistakes": [
-        "loi-nhanh-002"
+        "loi-nhanh-002",
+        "sua-cau-cua-ban-01"
       ]
     },
     "studied": {
