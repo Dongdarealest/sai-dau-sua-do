@@ -1,12 +1,12 @@
 {
   "api_version": "1.0.0",
   "api_base": "https://dongdarealest.github.io/sai-dau-sua-do/api/v1/",
-  "total_lessons": 110,
-  "visible_lessons": 102,
+  "total_lessons": 111,
+  "visible_lessons": 103,
   "total_words": 852,
   "words_with_example": 112,
   "learning_paths": 3,
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "source": {
     "name": "Sai Đâu Sửa Đó",
     "site": "https://dongdarealest.github.io/sai-dau-sua-do",

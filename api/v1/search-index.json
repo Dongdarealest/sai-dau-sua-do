@@ -2913,5 +2913,31 @@
     "type": "Quiz",
     "date": "2026-11-25",
     "paths": []
+  },
+  {
+    "slug": "loi-011",
+    "code": "Lỗi #011",
+    "title": "some và any trong câu hỏi",
+    "wrong": "Do you have some questions?",
+    "right": "Do you have any questions?",
+    "remember": "Câu hỏi bình thường dùng any, some chỉ dùng khi mời hoặc đề nghị.",
+    "why": "Câu hỏi bình thường dùng any. some chỉ dùng khi mời hoặc đề nghị và chờ câu trả lời có.",
+    "examples": [
+      "Do you have any questions about the lesson? Bạn có câu hỏi nào về bài học không?",
+      "Do you have any free time tomorrow? Ngày mai bạn có thời gian rảnh không?"
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn câu đúng. Do you have some questions? Do you have any questions?",
+      "Điền từ đúng: Do you have ___ brothers? some any",
+      "Chọn câu đúng. Would you like any tea? Would you like some tea?"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Lỗi",
+    "date": "2026-11-26",
+    "paths": []
   }
 ]

@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 110,
-    "visible_lessons": 102,
+    "total_lessons": 111,
+    "visible_lessons": 103,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1661,6 +1661,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-013/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122110092885550200",
       "image": "ngay-14/Quiz-013-schedule.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "loi-011",
+      "code": "Lỗi #011",
+      "type": "Lỗi",
+      "topic": "ngữ pháp",
+      "title": "some và any trong câu hỏi",
+      "date": "2026-11-26",
+      "wrong": "Do you have some questions?",
+      "right": "Do you have any questions?",
+      "remember": "Câu hỏi bình thường dùng any, some chỉ dùng khi mời hoặc đề nghị.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-011/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122110344549550200",
+      "image": "ngay-15/Loi-011-some-any.png",
       "show_in_ui": true
     }
   ]

@@ -10591,6 +10591,82 @@
    "wrong_note": "",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Lỗi #011",
+   "compare": [
+    {
+     "a": "Do you have any questions?",
+     "b": "Would you like some coffee?",
+     "note": "Câu hỏi bình thường dùng any, câu mời dùng some."
+    }
+   ],
+   "core": "Câu hỏi bình thường dùng any, some chỉ dùng khi mời hoặc đề nghị và chờ câu trả lời có.",
+   "date": "2026-11-26",
+   "examples": [
+    {
+     "en": "Do you have any questions about the lesson?",
+     "vi": "Bạn có câu hỏi nào về bài học không?"
+    },
+    {
+     "en": "Do you have any free time tomorrow?",
+     "vi": "Ngày mai bạn có thời gian rảnh không?"
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122110344549550200",
+   "image_src": "ngay-15/Loi-011-some-any.png",
+   "mistakes": [
+    {
+     "right": "Do you have any questions?",
+     "wrong": "Do you have some questions?"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "Câu hỏi bình thường dùng any.",
+     "options": [
+      "Do you have some questions?",
+      "Do you have any questions?"
+     ],
+     "prompt": "Chọn câu đúng."
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu hỏi bình thường dùng any.",
+     "options": [
+      "some",
+      "any"
+     ],
+     "prompt": "Điền từ đúng: Do you have ___ brothers?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu mời dùng some.",
+     "options": [
+      "Would you like any tea?",
+      "Would you like some tea?"
+     ],
+     "prompt": "Chọn câu đúng."
+    }
+   ],
+   "problem": "Hỏi cả lớp có thắc mắc không mà nói Do you have some questions, người nghe vẫn hiểu nhưng câu chưa đúng.",
+   "quiz": null,
+   "remember": "Câu hỏi bình thường dùng any, some chỉ dùng khi mời hoặc đề nghị.",
+   "right": "Do you have any questions?",
+   "right_note": "",
+   "slug": "loi-011",
+   "tip": "some trong câu hỏi thường đi với lời mời, như Would you like some tea?",
+   "title": "some và any trong câu hỏi",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "Câu hỏi bình thường dùng any. some chỉ dùng khi mời hoặc đề nghị và chờ câu trả lời có.",
+   "wrong": "Do you have some questions?",
+   "wrong_note": "",
+   "ipa": [],
+   "dict_links": [],
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

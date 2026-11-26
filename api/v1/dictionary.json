@@ -287,7 +287,9 @@
           "meaning": "bất cứ"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-011"
+      ]
     },
     "anything": {
       "senses": [
@@ -1677,7 +1679,8 @@
       "mistakes": [
         "hoi-thoai-004",
         "mau-cau-010",
-        "quiz-011"
+        "quiz-011",
+        "loi-011"
       ]
     },
     "doctor": {
@@ -6427,7 +6430,9 @@
           "meaning": "một vài"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-011"
+      ]
     },
     "somebody": {
       "senses": [
