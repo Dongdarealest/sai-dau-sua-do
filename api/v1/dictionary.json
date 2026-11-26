@@ -4238,7 +4238,8 @@
       ],
       "mistakes": [
         "meme-001",
-        "sua-cau-cua-ban-01"
+        "sua-cau-cua-ban-01",
+        "quiz-014"
       ]
     },
     "march": {
@@ -4426,7 +4427,9 @@
           "meaning": "sữa"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "quiz-014"
+      ]
     },
     "mind": {
       "senses": [
@@ -4602,7 +4605,8 @@
         }
       ],
       "mistakes": [
-        "thu-thach-ngay-2"
+        "thu-thach-ngay-2",
+        "quiz-014"
       ]
     },
     "music": {
@@ -7158,7 +7162,8 @@
         "do-002",
         "do-003",
         "meo-003",
-        "meo-006"
+        "meo-006",
+        "quiz-014"
       ]
     },
     "these": {

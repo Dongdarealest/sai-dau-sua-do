@@ -2,7 +2,7 @@
 
 Học tiếng Anh từ lỗi người Việt hay mắc. Mỗi ngày sửa một lỗi nhỏ.
 
-- **104 bài học** hiển thị trên web • **112 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **8 Reel** đính kèm trong bài
+- **105 bài học** hiển thị trên web • **113 bài** trong API • **852 từ** trong từ điển • **3 lộ trình** • **8 Reel** đính kèm trong bài
 - Trang mới: **Từ điển** (/tu-dien/), **Bảng lộ trình** (/bang-lo-trinh/), **Thư viện chủ đề** (/thu-vien-chu-de/), **Luyện nói** (/luyen-noi/), **Luyện nghe** (/luyen-nghe/), **Luyện viết** (/luyen-viet/), **Luyện đọc** (/luyen-doc/), **Cộng đồng** (/cong-dong/). Mỗi bài học có thêm chế độ Học từng cụm.
 - Trang Facebook: https://www.facebook.com/profile.php?id=61596506009854
 - Group: https://www.facebook.com/groups/4387154551501983

@@ -10756,6 +10756,95 @@
    "why": "many a đi với danh từ số ít, dù nghĩa là rất nhiều.",
    "wrong": "Many a students made the same mistake.",
    "wrong_note": ""
+  },
+  {
+   "slug": "quiz-014",
+   "code": "Quiz #014",
+   "type": "Quiz",
+   "topic": "ngữ pháp",
+   "date": "2026-11-26",
+   "title": "much và many",
+   "wrong": "There isn't many milk in the fridge.",
+   "wrong_note": "",
+   "right": "There isn't much milk in the fridge.",
+   "right_note": "",
+   "why": "milk không đếm được nên dùng much, many đi với danh từ đếm được số nhiều.",
+   "problem": "Mở tủ lạnh thấy hết sữa, nói There isn't many milk thì sai ở đâu?",
+   "core": "much đi với danh từ không đếm được, many đi với danh từ đếm được số nhiều.",
+   "compare": [
+    {
+     "a": "much",
+     "b": "many",
+     "note": "much đi với danh từ không đếm được, many đi với danh từ đếm được số nhiều."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "I don't have much time today.",
+     "wrong": "I don't have many time today."
+    },
+    {
+     "right": "How many apples do you want?",
+     "wrong": "How much apples do you want?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There isn't much water in the bottle.",
+     "vi": "Trong chai không còn nhiều nước."
+    },
+    {
+     "en": "There are many chairs in the room.",
+     "vi": "Trong phòng có nhiều ghế."
+    }
+   ],
+   "quiz": {
+    "question": "There isn't ___ milk in the fridge.",
+    "prompt": "Chọn từ đúng để điền vào chỗ trống.",
+    "options": [
+     "many",
+     "much",
+     "few"
+    ],
+    "answer": 1,
+    "explanation": "milk không đếm được nên dùng much, many đi với danh từ đếm được số nhiều."
+   },
+   "practice": [
+    {
+     "prompt": "Điền từ đúng: There isn't ___ sugar in the jar.",
+     "options": [
+      "many",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "sugar không đếm được nên dùng much."
+    },
+    {
+     "prompt": "Câu nào dùng many đúng?",
+     "options": [
+      "How much friends do you have?",
+      "How many friends do you have?"
+     ],
+     "answer": 1,
+     "explanation": "friends đếm được số nhiều nên dùng many."
+    },
+    {
+     "prompt": "few dùng với danh từ nào?",
+     "options": [
+      "danh từ không đếm được",
+      "danh từ đếm được số nhiều"
+     ],
+     "answer": 1,
+     "explanation": "few đi với danh từ đếm được số nhiều, nghĩa là rất ít."
+    }
+   ],
+   "remember": "much đi với danh từ không đếm được, many đi với danh từ đếm được số nhiều.",
+   "fb": "https://www.facebook.com/1374376739101577/posts/122110765947550200",
+   "image_src": "ngay-15/Quiz-014-much-many.png",
+   "reel": null,
+   "show_in_ui": true,
+   "ipa": [],
+   "dict_links": []
   }
  ],
  "site": {

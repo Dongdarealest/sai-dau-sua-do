@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 112,
-    "visible_lessons": 104,
+    "total_lessons": 113,
+    "visible_lessons": 105,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1691,6 +1691,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/sua-cau-cua-ban-01/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122110474401550200",
       "image": "ngay-15/Sua-cau-cua-ban-001-many-a.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "quiz-014",
+      "code": "Quiz #014",
+      "type": "Quiz",
+      "topic": "ngữ pháp",
+      "title": "much và many",
+      "date": "2026-11-26",
+      "wrong": "There isn't many milk in the fridge.",
+      "right": "There isn't much milk in the fridge.",
+      "remember": "much đi với danh từ không đếm được, many đi với danh từ đếm được số nhiều.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-014/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122110765947550200",
+      "image": "ngay-15/Quiz-014-much-many.png",
       "show_in_ui": true
     }
   ]

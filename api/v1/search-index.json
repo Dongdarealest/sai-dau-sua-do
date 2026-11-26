@@ -2965,5 +2965,34 @@
     "type": "Lỗi",
     "date": "2026-11-26",
     "paths": []
+  },
+  {
+    "slug": "quiz-014",
+    "code": "Quiz #014",
+    "title": "much và many",
+    "wrong": "There isn't many milk in the fridge.",
+    "right": "There isn't much milk in the fridge.",
+    "remember": "much đi với danh từ không đếm được, many đi với danh từ đếm được số nhiều.",
+    "why": "milk không đếm được nên dùng much, many đi với danh từ đếm được số nhiều.",
+    "examples": [
+      "There isn't much water in the bottle. Trong chai không còn nhiều nước.",
+      "There are many chairs in the room. Trong phòng có nhiều ghế."
+    ],
+    "quiz": [
+      "There isn't ___ milk in the fridge.",
+      "Chọn từ đúng để điền vào chỗ trống.",
+      "many",
+      "much",
+      "few"
+    ],
+    "practice": [
+      "Điền từ đúng: There isn't ___ sugar in the jar. many much",
+      "Câu nào dùng many đúng? How much friends do you have? How many friends do you have?",
+      "few dùng với danh từ nào? danh từ không đếm được danh từ đếm được số nhiều"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Quiz",
+    "date": "2026-11-26",
+    "paths": []
   }
 ]
