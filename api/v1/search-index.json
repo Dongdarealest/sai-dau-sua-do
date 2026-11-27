@@ -3051,5 +3051,34 @@
     "type": "Mẫu câu",
     "date": "2026-11-27",
     "paths": []
+  },
+  {
+    "slug": "cham-diem-cau-001",
+    "code": "Chấm điểm câu của bạn #001",
+    "title": "go shopping và yesterday",
+    "wrong": "I go to shopping yesterday.",
+    "right": "I went shopping yesterday.",
+    "remember": "go shopping không có to, yesterday thì dùng went.",
+    "why": "Câu này sai 2 chỗ: go shopping là cụm cố định, không thêm to, và yesterday là dấu hiệu quá khứ đơn nên go phải thành went.",
+    "examples": [
+      "She went shopping last Saturday. Cô ấy đã đi mua sắm thứ Bảy tuần trước.",
+      "They went shopping in the morning yesterday. Họ đã đi mua sắm vào buổi sáng hôm qua."
+    ],
+    "quiz": [
+      "Câu này được mấy điểm?",
+      "I go to shopping yesterday.",
+      "10 điểm",
+      "5 điểm",
+      "0 điểm"
+    ],
+    "practice": [
+      "Điền từ đúng: She ___ shopping last Sunday. go went goes",
+      "Chọn câu đúng. They go to shopping yesterday. They went shopping yesterday. They go shopping tomorrow.",
+      "Điền từ đúng: I ___ shopping with my mother yesterday. go went will go"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Lỗi",
+    "date": "2026-11-27",
+    "paths": []
   }
 ]

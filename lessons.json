@@ -11038,6 +11038,104 @@
    "wrong_note": "",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Chấm điểm câu của bạn #001",
+   "compare": [
+    {
+     "a": "I go shopping every weekend.",
+     "b": "I went shopping last weekend.",
+     "note": "Thói quen hàng tuần dùng hiện tại đơn, chuyện đã xong hôm qua dùng quá khứ đơn."
+    },
+    {
+     "a": "We go shopping together on Saturday.",
+     "b": "We went shopping together yesterday.",
+     "note": "Cùng một hoạt động, nói chung dùng go, chuyện hôm qua đã xong dùng went."
+    }
+   ],
+   "core": "go shopping không có to, yesterday đi với quá khứ đơn.",
+   "date": "2026-11-27",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "She went shopping last Saturday.",
+     "vi": "Cô ấy đã đi mua sắm thứ Bảy tuần trước."
+    },
+    {
+     "en": "They went shopping in the morning yesterday.",
+     "vi": "Họ đã đi mua sắm vào buổi sáng hôm qua."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122111312181550200",
+   "image_src": "ngay-16/Cham-diem-cau-001-go-to-shopping.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "He goes shopping every morning.",
+     "wrong": "He goes to shopping every morning."
+    },
+    {
+     "right": "She went shopping yesterday.",
+     "wrong": "She go to shopping yesterday."
+    }
+   ],
+   "practice": [
+    {
+     "answer": 1,
+     "explanation": "last Sunday là dấu hiệu quá khứ đơn nên dùng went.",
+     "options": [
+      "go",
+      "went",
+      "goes"
+     ],
+     "prompt": "Điền từ đúng: She ___ shopping last Sunday."
+    },
+    {
+     "answer": 1,
+     "explanation": "go shopping không có to, yesterday đi với quá khứ đơn.",
+     "options": [
+      "They go to shopping yesterday.",
+      "They went shopping yesterday.",
+      "They go shopping tomorrow."
+     ],
+     "prompt": "Chọn câu đúng."
+    },
+    {
+     "answer": 1,
+     "explanation": "yesterday đi với quá khứ đơn nên dùng went.",
+     "options": [
+      "go",
+      "went",
+      "will go"
+     ],
+     "prompt": "Điền từ đúng: I ___ shopping with my mother yesterday."
+    }
+   ],
+   "problem": "Kể chuyện đi mua sắm hôm qua mà viết I go to shopping yesterday thì sai hai chỗ cùng lúc.",
+   "quiz": {
+    "answer": 2,
+    "explanation": "Câu này 0 điểm vì sai 2 chỗ: go shopping là cụm cố định, không có to, và yesterday đi với quá khứ đơn nên go thành went.",
+    "options": [
+     "10 điểm",
+     "5 điểm",
+     "0 điểm"
+    ],
+    "prompt": "I go to shopping yesterday.",
+    "question": "Câu này được mấy điểm?"
+   },
+   "reel": null,
+   "remember": "go shopping không có to, yesterday thì dùng went.",
+   "right": "I went shopping yesterday.",
+   "right_note": "Tôi đã đi mua sắm hôm qua.",
+   "show_in_ui": true,
+   "slug": "cham-diem-cau-001",
+   "tip": "Nhớ nhanh: thấy yesterday thì động từ phải ở quá khứ đơn.",
+   "title": "go shopping và yesterday",
+   "topic": "ngữ pháp",
+   "type": "Lỗi",
+   "why": "Câu này sai 2 chỗ: go shopping là cụm cố định, không thêm to, và yesterday là dấu hiệu quá khứ đơn nên go phải thành went.",
+   "wrong": "I go to shopping yesterday.",
+   "wrong_note": ""
   }
  ],
  "site": {

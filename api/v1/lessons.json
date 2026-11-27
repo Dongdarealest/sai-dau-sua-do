@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 115,
-    "visible_lessons": 107,
+    "total_lessons": 116,
+    "visible_lessons": 108,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1736,6 +1736,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/dang-c-001/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122111081511550200",
       "image": "ngay-16/Dang-C-001-nho-giup-slide-1.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "cham-diem-cau-001",
+      "code": "Chấm điểm câu của bạn #001",
+      "type": "Lỗi",
+      "topic": "ngữ pháp",
+      "title": "go shopping và yesterday",
+      "date": "2026-11-27",
+      "wrong": "I go to shopping yesterday.",
+      "right": "I went shopping yesterday.",
+      "remember": "go shopping không có to, yesterday thì dùng went.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/cham-diem-cau-001/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122111312181550200",
+      "image": "ngay-16/Cham-diem-cau-001-go-to-shopping.png",
       "show_in_ui": true
     }
   ]
