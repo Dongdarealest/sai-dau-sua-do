@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 114,
-    "visible_lessons": 106,
+    "total_lessons": 115,
+    "visible_lessons": 107,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1721,6 +1721,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-012/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122111007219550200",
       "image": "ngay-16/Loi-012-affect-effect.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "dang-c-001",
+      "code": "Dạng C #001",
+      "type": "Mẫu câu",
+      "topic": "công sở",
+      "title": "nhờ đồng nghiệp giúp",
+      "date": "2026-11-27",
+      "wrong": "Please help me this report.",
+      "right": "Could you help me with this report?",
+      "remember": "Nhờ đồng nghiệp giúp thì bắt đầu bằng Could you hoặc Can you, thêm please ở cuối câu.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/dang-c-001/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122111081511550200",
+      "image": "ngay-16/Dang-C-001-nho-giup-slide-1.png",
       "show_in_ui": true
     }
   ]

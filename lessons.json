@@ -10930,6 +10930,114 @@
    "image_src": "ngay-16/Loi-012-affect-effect.png",
    "reel": null,
    "show_in_ui": true
+  },
+  {
+   "code": "Dạng C #001",
+   "compare": [
+    {
+     "a": "Could you look at this report for me?",
+     "b": "Help me this report.",
+     "note": "Câu nhờ giúp cần động từ đầy đủ và giới từ, không nói tắt như câu b."
+    },
+    {
+     "a": "Would you mind helping me with the printer?",
+     "b": "Help me the printer.",
+     "note": "Would you mind đi với động từ thêm ing, và sau help luôn có tân ngữ."
+    }
+   ],
+   "core": "Could you + động từ là mẫu nhờ giúp lịch sự nhất trong công sở. Thêm please ở cuối câu, không đặt ở đầu câu rồi ra lệnh.",
+   "date": "2026-11-27",
+   "dict_links": [],
+   "examples": [
+    {
+     "en": "Can you show me how to do this?",
+     "vi": "Bạn chỉ mình cách làm việc này được không?"
+    },
+    {
+     "en": "Would you mind checking my email?",
+     "vi": "Bạn xem giúp mình email này được không?"
+    },
+    {
+     "en": "Could you send me the file, please?",
+     "vi": "Bạn gửi giúp mình file này nhé?"
+    },
+    {
+     "en": "Can you cover for me this afternoon?",
+     "vi": "Chiều nay bạn làm thay mình được không?"
+    },
+    {
+     "en": "Do you have a minute?",
+     "vi": "Bạn có rảnh một chút không?"
+    },
+    {
+     "en": "Could you explain this to me?",
+     "vi": "Bạn giải thích giúp mình việc này được không?"
+    },
+    {
+     "en": "Thanks for your help.",
+     "vi": "Cảm ơn bạn đã giúp mình."
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122111081511550200",
+   "image_src": "ngay-16/Dang-C-001-nho-giup-slide-1.png",
+   "ipa": [],
+   "mistakes": [
+    {
+     "right": "Can you help me with the printer, please?",
+     "wrong": "Please help me printer."
+    },
+    {
+     "right": "Do you have a minute to help me?",
+     "wrong": "Do you have minute?"
+    }
+   ],
+   "practice": [
+    {
+     "answer": 0,
+     "explanation": "Could you đi với động từ nguyên mẫu.",
+     "options": [
+      "help",
+      "helping",
+      "to help"
+     ],
+     "prompt": "Could you ___ me with this report?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Câu đúng dùng Could you và please ở cuối, nghe lịch sự.",
+     "options": [
+      "Send me the file.",
+      "Could you send the file to me, please?",
+      "You send me the file."
+     ],
+     "prompt": "Chọn câu lịch sự nhất khi nhờ đồng nghiệp gửi file:"
+    },
+    {
+     "answer": 0,
+     "explanation": "Could you explain it to me là mẫu nhờ giải thích lịch sự.",
+     "options": [
+      "Could you explain it to me, please?",
+      "Explain this to me.",
+      "You explain this to me."
+     ],
+     "prompt": "Dịch câu: Bạn giải thích giúp mình việc này được không?"
+    }
+   ],
+   "problem": "Nhờ đồng nghiệp giúp mà nói thẳng quá thì nghe hơi gắt, nhất là khi nhờ việc gấp trong giờ làm.",
+   "quiz": null,
+   "remember": "Nhờ đồng nghiệp giúp thì bắt đầu bằng Could you hoặc Can you, thêm please ở cuối câu.",
+   "right": "Could you help me with this report?",
+   "right_note": "Bạn giúp mình xem báo cáo này được không?",
+   "slug": "dang-c-001",
+   "tip": "Muốn lịch sự hơn nữa, thêm please ở cuối câu thay vì đặt ở đầu câu rồi ra lệnh.",
+   "title": "nhờ đồng nghiệp giúp",
+   "topic": "công sở",
+   "type": "Mẫu câu",
+   "why": "Nhờ giúp lịch sự thì dùng Could you hoặc Can you rồi mới nêu việc, không nói thẳng Please help me rồi đưa việc ngay.",
+   "wrong": "Please help me this report.",
+   "wrong_note": "",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

@@ -3020,5 +3020,36 @@
     "type": "Lỗi",
     "date": "2026-11-27",
     "paths": []
+  },
+  {
+    "slug": "dang-c-001",
+    "code": "Dạng C #001",
+    "title": "nhờ đồng nghiệp giúp",
+    "wrong": "Please help me this report.",
+    "right": "Could you help me with this report?",
+    "remember": "Nhờ đồng nghiệp giúp thì bắt đầu bằng Could you hoặc Can you, thêm please ở cuối câu.",
+    "why": "Nhờ giúp lịch sự thì dùng Could you hoặc Can you rồi mới nêu việc, không nói thẳng Please help me rồi đưa việc ngay.",
+    "examples": [
+      "Can you show me how to do this? Bạn chỉ mình cách làm việc này được không?",
+      "Would you mind checking my email? Bạn xem giúp mình email này được không?",
+      "Could you send me the file, please? Bạn gửi giúp mình file này nhé?",
+      "Can you cover for me this afternoon? Chiều nay bạn làm thay mình được không?",
+      "Do you have a minute? Bạn có rảnh một chút không?",
+      "Could you explain this to me? Bạn giải thích giúp mình việc này được không?",
+      "Thanks for your help. Cảm ơn bạn đã giúp mình."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Could you ___ me with this report? help helping to help",
+      "Chọn câu lịch sự nhất khi nhờ đồng nghiệp gửi file: Send me the file. Could you send the file to me, please? You send me the file.",
+      "Dịch câu: Bạn giải thích giúp mình việc này được không? Could you explain it to me, please? Explain this to me. You explain this to me."
+    ],
+    "topic": "công sở",
+    "type": "Mẫu câu",
+    "date": "2026-11-27",
+    "paths": []
   }
 ]

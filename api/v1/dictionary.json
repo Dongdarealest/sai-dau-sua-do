@@ -1421,7 +1421,9 @@
           "meaning": "có thể"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "dang-c-001"
+      ]
     },
     "country": {
       "senses": [
@@ -3110,7 +3112,9 @@
           "example_vi": "Bạn giúp tôi được không?"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "dang-c-001"
+      ]
     },
     "helped": {
       "senses": [
@@ -5356,7 +5360,8 @@
       "mistakes": [
         "loi-nhanh-004",
         "loi-nhanh-005",
-        "loi-nhanh-008"
+        "loi-nhanh-008",
+        "dang-c-001"
       ]
     },
     "point": {
@@ -7252,7 +7257,9 @@
           "meaning": "này"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "dang-c-001"
+      ]
     },
     "those": {
       "senses": [
