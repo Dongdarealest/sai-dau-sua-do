@@ -2994,5 +2994,31 @@
     "type": "Quiz",
     "date": "2026-11-26",
     "paths": []
+  },
+  {
+    "slug": "loi-012",
+    "code": "Lỗi #012",
+    "title": "affect và effect",
+    "wrong": "The rain effected my trip.",
+    "right": "The rain affected my trip.",
+    "remember": "Muốn nói cái gì tác động tới cái gì thì dùng affect, muốn gọi tên sự tác động thì dùng effect.",
+    "why": "effect là danh từ nên không đứng sau chủ ngữ làm động từ được. affect mới là động từ mang nghĩa tác động.",
+    "examples": [
+      "The noise affected my sleep. Tiếng ồn ảnh hưởng đến giấc ngủ của tôi.",
+      "The new rule had a good effect. Quy định mới mang lại tác động tốt."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Chọn câu đúng. The rain effected my trip. The rain affected my trip.",
+      "Điền từ đúng: The new law will ___ many people. affect effect",
+      "Chọn câu đúng. The medicine had a strong affect. The medicine had a strong effect."
+    ],
+    "topic": "từ vựng",
+    "type": "Lỗi",
+    "date": "2026-11-27",
+    "paths": []
   }
 ]

@@ -10845,6 +10845,91 @@
    "show_in_ui": true,
    "ipa": [],
    "dict_links": []
+  },
+  {
+   "slug": "loi-012",
+   "code": "Lỗi #012",
+   "type": "Lỗi",
+   "topic": "từ vựng",
+   "date": "2026-11-27",
+   "title": "affect và effect",
+   "wrong": "The rain effected my trip.",
+   "wrong_note": "",
+   "right": "The rain affected my trip.",
+   "right_note": "",
+   "why": "effect là danh từ nên không đứng sau chủ ngữ làm động từ được. affect mới là động từ mang nghĩa tác động.",
+   "problem": "Kể mưa làm hỏng chuyến đi mà viết The rain effected my trip thì sai từ loại rồi, vì effect là danh từ.",
+   "core": "affect là động từ, effect là danh từ.",
+   "compare": [
+    {
+     "a": "The weather affected our plans.",
+     "b": "The weather had a big effect on our plans.",
+     "note": "affected là động từ, effect là danh từ đi sau a."
+    }
+   ],
+   "mistakes": [
+    {
+     "right": "The storm affected the flight.",
+     "wrong": "The storm effected the flight."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The noise affected my sleep.",
+     "vi": "Tiếng ồn ảnh hưởng đến giấc ngủ của tôi."
+    },
+    {
+     "en": "The new rule had a good effect.",
+     "vi": "Quy định mới mang lại tác động tốt."
+    }
+   ],
+   "tip": "Nhớ nhanh: affect là hành động nên bắt đầu bằng a như action, effect là kết quả nên bắt đầu bằng e như end.",
+   "practice": [
+    {
+     "prompt": "Chọn câu đúng.",
+     "options": [
+      "The rain effected my trip.",
+      "The rain affected my trip."
+     ],
+     "answer": 1,
+     "explanation": "affect là động từ nên dùng affected."
+    },
+    {
+     "prompt": "Điền từ đúng: The new law will ___ many people.",
+     "options": [
+      "affect",
+      "effect"
+     ],
+     "answer": 0,
+     "explanation": "Chỗ trống cần một động từ nên dùng affect."
+    },
+    {
+     "prompt": "Chọn câu đúng.",
+     "options": [
+      "The medicine had a strong affect.",
+      "The medicine had a strong effect."
+     ],
+     "answer": 1,
+     "explanation": "Sau tính từ strong cần một danh từ nên dùng effect."
+    }
+   ],
+   "remember": "Muốn nói cái gì tác động tới cái gì thì dùng affect, muốn gọi tên sự tác động thì dùng effect.",
+   "quiz": null,
+   "ipa": [],
+   "dict_links": [
+    {
+     "label": "Cambridge, affect",
+     "url": "https://dictionary.cambridge.org/dictionary/english/affect"
+    },
+    {
+     "label": "Cambridge, effect",
+     "url": "https://dictionary.cambridge.org/dictionary/english/effect"
+    }
+   ],
+   "fb": "https://www.facebook.com/1374376739101577/posts/122111007219550200",
+   "image_src": "ngay-16/Loi-012-affect-effect.png",
+   "reel": null,
+   "show_in_ui": true
   }
  ],
  "site": {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 113,
-    "visible_lessons": 105,
+    "total_lessons": 114,
+    "visible_lessons": 106,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1706,6 +1706,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-014/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122110765947550200",
       "image": "ngay-15/Quiz-014-much-many.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "loi-012",
+      "code": "Lỗi #012",
+      "type": "Lỗi",
+      "topic": "từ vựng",
+      "title": "affect và effect",
+      "date": "2026-11-27",
+      "wrong": "The rain effected my trip.",
+      "right": "The rain affected my trip.",
+      "remember": "Muốn nói cái gì tác động tới cái gì thì dùng affect, muốn gọi tên sự tác động thì dùng effect.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/loi-012/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122111007219550200",
+      "image": "ngay-16/Loi-012-affect-effect.png",
       "show_in_ui": true
     }
   ]

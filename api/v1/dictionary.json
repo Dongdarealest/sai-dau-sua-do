@@ -5528,7 +5528,9 @@
           "meaning": "mưa"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-012"
+      ]
     },
     "rainy": {
       "senses": [
@@ -7574,7 +7576,9 @@
           "meaning": "chuyến đi"
         }
       ],
-      "mistakes": []
+      "mistakes": [
+        "loi-012"
+      ]
     },
     "true": {
       "senses": [
