@@ -3109,5 +3109,36 @@
     "type": "Quiz",
     "date": "2026-11-28",
     "paths": []
+  },
+  {
+    "slug": "so-tay-lat-nhanh-001-gioi-tu",
+    "code": "Sổ tay lật nhanh #001",
+    "title": "7 lỗi giới từ trong email",
+    "wrong": "I will discuss about the project.",
+    "right": "I will discuss the project.",
+    "remember": "Nhớ cụm giới từ đi với động từ: discuss, apply for, responsible for, attend, in charge of, finish by, pay for.",
+    "why": "discuss không đi với about. Mỗi động từ có giới từ đi kèm riêng, nhớ theo cụm, không dịch từng chữ.",
+    "examples": [
+      "I want to apply for a job. Tôi muốn ứng tuyển công việc này.",
+      "I am responsible for this project. Tôi chịu trách nhiệm về dự án này.",
+      "I will attend the meeting. Tôi sẽ tham dự cuộc họp.",
+      "She is in charge of the team. Cô ấy phụ trách nhóm này.",
+      "Please finish this by Friday. Làm ơn xong việc này trước thứ Sáu.",
+      "I will pay for the dinner. Tôi sẽ trả tiền bữa tối này."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "Điền giới từ đúng: 'I want to apply ___ a job.' for to at",
+      "Điền giới từ đúng: 'I am responsible ___ this project.' for of at",
+      "Câu nào đúng? She will attend to the meeting tomorrow. She will attend the meeting tomorrow.",
+      "Điền giới từ đúng: 'She is in charge ___ the team.' of for at"
+    ],
+    "topic": "ngữ pháp",
+    "type": "Mẫu câu",
+    "date": "2026-11-28",
+    "paths": []
   }
 ]

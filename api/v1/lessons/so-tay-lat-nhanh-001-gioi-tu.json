@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "so-tay-lat-nhanh-001-gioi-tu",
+    "code": "Sổ tay lật nhanh #001",
+    "type": "Mẫu câu",
+    "topic": "ngữ pháp",
+    "title": "7 lỗi giới từ trong email",
+    "date": "2026-11-28",
+    "wrong": "I will discuss about the project.",
+    "wrong_note": "",
+    "right": "I will discuss the project.",
+    "right_note": "Tôi sẽ thảo luận về dự án này.",
+    "why": "discuss không đi với about. Mỗi động từ có giới từ đi kèm riêng, nhớ theo cụm, không dịch từng chữ.",
+    "problem": "Gửi mail cho sếp mà sai giới từ, câu hay mấy cũng mất điểm.",
+    "core": "Nhớ động từ đi với giới từ nào, theo cụm, đừng dịch từng chữ tiếng Việt sang.",
+    "compare": [
+      {
+        "a": "discuss about",
+        "b": "discuss",
+        "note": "discuss đứng một mình, không cần about."
+      },
+      {
+        "a": "apply a job",
+        "b": "apply for a job",
+        "note": "Xin việc thì apply đi với for."
+      },
+      {
+        "a": "responsible of",
+        "b": "responsible for",
+        "note": "Chịu trách nhiệm thì responsible đi với for."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "attend the meeting",
+        "wrong": "attend to the meeting"
+      },
+      {
+        "right": "in charge of the team",
+        "wrong": "in charge for the team"
+      },
+      {
+        "right": "finish by Friday",
+        "wrong": "finish until Friday"
+      },
+      {
+        "right": "pay for the dinner",
+        "wrong": "pay the dinner"
+      }
+    ],
+    "remember": "Nhớ cụm giới từ đi với động từ: discuss, apply for, responsible for, attend, in charge of, finish by, pay for.",
+    "examples": [
+      {
+        "en": "I want to apply for a job.",
+        "vi": "Tôi muốn ứng tuyển công việc này."
+      },
+      {
+        "en": "I am responsible for this project.",
+        "vi": "Tôi chịu trách nhiệm về dự án này."
+      },
+      {
+        "en": "I will attend the meeting.",
+        "vi": "Tôi sẽ tham dự cuộc họp."
+      },
+      {
+        "en": "She is in charge of the team.",
+        "vi": "Cô ấy phụ trách nhóm này."
+      },
+      {
+        "en": "Please finish this by Friday.",
+        "vi": "Làm ơn xong việc này trước thứ Sáu."
+      },
+      {
+        "en": "I will pay for the dinner.",
+        "vi": "Tôi sẽ trả tiền bữa tối này."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 0,
+        "explanation": "apply đi với for khi xin việc.",
+        "options": [
+          "for",
+          "to",
+          "at"
+        ],
+        "prompt": "Điền giới từ đúng: 'I want to apply ___ a job.'"
+      },
+      {
+        "answer": 0,
+        "explanation": "responsible đi với for, không đi với of.",
+        "options": [
+          "for",
+          "of",
+          "at"
+        ],
+        "prompt": "Điền giới từ đúng: 'I am responsible ___ this project.'"
+      },
+      {
+        "answer": 1,
+        "explanation": "attend không đi với to.",
+        "options": [
+          "She will attend to the meeting tomorrow.",
+          "She will attend the meeting tomorrow."
+        ],
+        "prompt": "Câu nào đúng?"
+      },
+      {
+        "answer": 0,
+        "explanation": "in charge đi với of, không đi với for.",
+        "options": [
+          "of",
+          "for",
+          "at"
+        ],
+        "prompt": "Điền giới từ đúng: 'She is in charge ___ the team.'"
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": "Trước khi bấm gửi mail, đọc lại các động từ và kiểm tra giới từ đi kèm.",
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, discuss",
+        "url": "https://dictionary.cambridge.org/dictionary/english/discuss"
+      }
+    ],
+    "image": "ngay-17/So-tay-lat-nhanh-001-gioi-tu-slide-1.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122111611677550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/so-tay-lat-nhanh-001-gioi-tu/",
+    "show_in_ui": true
+  }
+}

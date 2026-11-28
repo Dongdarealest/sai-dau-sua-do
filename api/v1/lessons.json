@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 117,
-    "visible_lessons": 109,
+    "total_lessons": 118,
+    "visible_lessons": 110,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1766,6 +1766,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-016/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122111536491550200",
       "image": "ngay-17/Quiz-016-tong-hop-tuan.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "so-tay-lat-nhanh-001-gioi-tu",
+      "code": "Sổ tay lật nhanh #001",
+      "type": "Mẫu câu",
+      "topic": "ngữ pháp",
+      "title": "7 lỗi giới từ trong email",
+      "date": "2026-11-28",
+      "wrong": "I will discuss about the project.",
+      "right": "I will discuss the project.",
+      "remember": "Nhớ cụm giới từ đi với động từ: discuss, apply for, responsible for, attend, in charge of, finish by, pay for.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/so-tay-lat-nhanh-001-gioi-tu/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122111611677550200",
+      "image": "ngay-17/So-tay-lat-nhanh-001-gioi-tu-slide-1.png",
       "show_in_ui": true
     }
   ]
