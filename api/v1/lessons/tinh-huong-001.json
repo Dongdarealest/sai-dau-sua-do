@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "tinh-huong-001",
+    "code": "Tình huống #001",
+    "type": "Lỗi",
+    "topic": "giao tiếp",
+    "title": "Gửi nhầm cho sếp",
+    "date": "2026-11-28",
+    "wrong": "I will explain you tomorrow.",
+    "wrong_note": "",
+    "right": "I will explain it to you tomorrow.",
+    "right_note": "",
+    "why": "explain cần tân ngữ chỉ việc rồi mới tới người nghe. Thiếu it, câu thành giải thích về sếp.",
+    "problem": "Nhiều bạn viết I will explain you tomorrow khi muốn nói sẽ giải thích cho sếp.",
+    "core": "explain luôn có tân ngữ chỉ việc, rồi mới to người nghe.",
+    "compare": [
+      {
+        "a": "I will explain you tomorrow.",
+        "b": "I will explain it to you tomorrow.",
+        "note": "Thiếu it, sếp hiểu thành bạn giải thích về sếp."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I will explain it to you tomorrow.",
+        "wrong": "I will explain you tomorrow."
+      },
+      {
+        "right": "Let me explain the plan to you.",
+        "wrong": "Let me explain you the plan."
+      }
+    ],
+    "remember": "explain cái gì cho ai: explain it to you.",
+    "examples": [
+      {
+        "en": "I will explain the rule to you tomorrow.",
+        "vi": "Ngày mai tôi sẽ giải thích quy tắc này cho bạn."
+      },
+      {
+        "en": "She explained the task to me yesterday.",
+        "vi": "Hôm qua cô ấy đã giải thích nhiệm vụ cho tôi."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "I will explain ___ tomorrow.",
+        "options": [
+          "you",
+          "it to you",
+          "to you it"
+        ],
+        "answer": 1,
+        "explanation": "explain cần it rồi mới to you."
+      },
+      {
+        "prompt": "Let me explain ___ the plan.",
+        "options": [
+          "you",
+          "to you",
+          "for you"
+        ],
+        "answer": 1,
+        "explanation": "explain the plan to you, không nói explain you the plan."
+      },
+      {
+        "prompt": "She explained the task ___ me.",
+        "options": [
+          "to",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "explain something to someone."
+      }
+    ],
+    "quiz": null,
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [
+      {
+        "label": "Cambridge, explain",
+        "url": "https://dictionary.cambridge.org/dictionary/english/explain"
+      }
+    ],
+    "image": "ngay-17/Tinh-huong-001-explain-you.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122111692713550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/tinh-huong-001/",
+    "show_in_ui": true
+  }
+}

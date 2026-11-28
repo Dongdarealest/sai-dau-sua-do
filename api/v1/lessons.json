@@ -1,8 +1,8 @@
 {
   "meta": {
     "api_version": "1.0.0",
-    "total_lessons": 118,
-    "visible_lessons": 110,
+    "total_lessons": 119,
+    "visible_lessons": 111,
     "source": {
       "name": "Sai Đâu Sửa Đó",
       "site": "https://dongdarealest.github.io/sai-dau-sua-do",
@@ -1781,6 +1781,21 @@
       "url": "https://dongdarealest.github.io/sai-dau-sua-do/so-tay-lat-nhanh-001-gioi-tu/",
       "fb": "https://www.facebook.com/1374376739101577/posts/122111611677550200",
       "image": "ngay-17/So-tay-lat-nhanh-001-gioi-tu-slide-1.png",
+      "show_in_ui": true
+    },
+    {
+      "slug": "tinh-huong-001",
+      "code": "Tình huống #001",
+      "type": "Lỗi",
+      "topic": "giao tiếp",
+      "title": "Gửi nhầm cho sếp",
+      "date": "2026-11-28",
+      "wrong": "I will explain you tomorrow.",
+      "right": "I will explain it to you tomorrow.",
+      "remember": "explain cái gì cho ai: explain it to you.",
+      "url": "https://dongdarealest.github.io/sai-dau-sua-do/tinh-huong-001/",
+      "fb": "https://www.facebook.com/1374376739101577/posts/122111692713550200",
+      "image": "ngay-17/Tinh-huong-001-explain-you.png",
       "show_in_ui": true
     }
   ]

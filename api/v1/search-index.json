@@ -3140,5 +3140,31 @@
     "type": "Mẫu câu",
     "date": "2026-11-28",
     "paths": []
+  },
+  {
+    "slug": "tinh-huong-001",
+    "code": "Tình huống #001",
+    "title": "Gửi nhầm cho sếp",
+    "wrong": "I will explain you tomorrow.",
+    "right": "I will explain it to you tomorrow.",
+    "remember": "explain cái gì cho ai: explain it to you.",
+    "why": "explain cần tân ngữ chỉ việc rồi mới tới người nghe. Thiếu it, câu thành giải thích về sếp.",
+    "examples": [
+      "I will explain the rule to you tomorrow. Ngày mai tôi sẽ giải thích quy tắc này cho bạn.",
+      "She explained the task to me yesterday. Hôm qua cô ấy đã giải thích nhiệm vụ cho tôi."
+    ],
+    "quiz": [
+      "",
+      ""
+    ],
+    "practice": [
+      "I will explain ___ tomorrow. you it to you to you it",
+      "Let me explain ___ the plan. you to you for you",
+      "She explained the task ___ me. to for with"
+    ],
+    "topic": "giao tiếp",
+    "type": "Lỗi",
+    "date": "2026-11-28",
+    "paths": []
   }
 ]
