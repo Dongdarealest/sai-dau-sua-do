@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "api_version": "1.0.0",
+    "source": {
+      "name": "Sai Đâu Sửa Đó",
+      "site": "https://dongdarealest.github.io/sai-dau-sua-do",
+      "facebook_page": "https://www.facebook.com/profile.php?id=61596506009854",
+      "facebook_group": "https://www.facebook.com/groups/4387154551501983",
+      "license": "CC BY 4.0",
+      "attribution": "Nguồn: Sai Đâu Sửa Đó. Dùng lại nội dung xin ghi công và giữ link về Trang."
+    }
+  },
+  "lesson": {
+    "slug": "quiz-016",
+    "code": "Quiz #016",
+    "type": "Quiz",
+    "topic": "quiz tổng hợp",
+    "title": "3 câu ôn lại tuần này",
+    "date": "2026-11-28",
+    "wrong": "I have 25 years old.",
+    "wrong_note": "",
+    "right": "I am 25 years old.",
+    "right_note": "",
+    "why": "Tuổi dùng be, không dùng have.",
+    "problem": "Nhiều bạn viết I have 25 years old vì dịch từng chữ từ tiếng Việt.",
+    "core": "Tuổi dùng động từ be, sau be là số tuổi.",
+    "compare": [
+      {
+        "a": "I have 25 years old.",
+        "b": "I am 25 years old.",
+        "note": "have chỉ sở hữu, tuổi dùng be."
+      }
+    ],
+    "mistakes": [
+      {
+        "right": "I am 25 years old.",
+        "wrong": "I have 25 years old."
+      },
+      {
+        "right": "I will go home.",
+        "wrong": "I will go to home."
+      },
+      {
+        "right": "Do you have any questions?",
+        "wrong": "Do you have some questions?"
+      }
+    ],
+    "remember": "Nói tuổi: be rồi tới số tuổi.",
+    "examples": [
+      {
+        "en": "She is 30 years old.",
+        "vi": "Cô ấy 30 tuổi."
+      },
+      {
+        "en": "My brother is 18 years old.",
+        "vi": "Em trai tôi 18 tuổi."
+      }
+    ],
+    "practice": [
+      {
+        "answer": 1,
+        "explanation": "be đi với tuổi, have chỉ sở hữu.",
+        "options": [
+          "have",
+          "am",
+          "is"
+        ],
+        "prompt": "I ___ 25 years old."
+      },
+      {
+        "answer": 1,
+        "explanation": "go home không có to.",
+        "options": [
+          "to",
+          "không điền gì",
+          "at"
+        ],
+        "prompt": "I will go ___ home."
+      },
+      {
+        "answer": 1,
+        "explanation": "Câu hỏi bình thường dùng any, some chỉ dùng khi mời hoặc đề nghị.",
+        "options": [
+          "some",
+          "any",
+          "many"
+        ],
+        "prompt": "Do you have ___ questions?"
+      }
+    ],
+    "quiz": {
+      "answer": 1,
+      "explanation": "Nói tuổi dùng động từ be.",
+      "options": [
+        "have",
+        "am",
+        "is"
+      ],
+      "prompt": "Chọn từ đúng để điền vào chỗ trống.",
+      "question": "I ___ 25 years old."
+    },
+    "reel": null,
+    "tip": null,
+    "articulation": null,
+    "ipa": [],
+    "dict_links": [],
+    "image": "ngay-17/Quiz-016-tong-hop-tuan.png",
+    "fb": "https://www.facebook.com/1374376739101577/posts/122111536491550200",
+    "url": "https://dongdarealest.github.io/sai-dau-sua-do/quiz-016/",
+    "show_in_ui": true
+  }
+}
